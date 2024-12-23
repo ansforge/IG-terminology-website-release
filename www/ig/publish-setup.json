@@ -1,7 +1,7 @@
 {
     "website": {
         "style": "fhir.layout",
-        "url": "https://interop.esante.gouv.fr/ig",
+        "url": "https://interop.esante.gouv.fr",
         "server": "apache",
         "org": "ANS"
     },
@@ -11,7 +11,7 @@
     },
     "layout-rules" : [{
       "npm" : "ans.fr.*",
-      "canonical" : "https://interop.esante.gouv.fr/ig/{3}",
+      "canonical" : "https://interop.esante.gouv.fr/{3}",
       "destination" : "/{3}"
     }]
 }
