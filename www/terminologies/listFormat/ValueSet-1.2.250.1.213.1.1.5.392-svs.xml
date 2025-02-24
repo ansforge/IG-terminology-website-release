@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_Poumon_Procedure_prelevement_CISIS"
+             displayName="JDV_Poumon_Procedure_prelevement_CISIS"
+             id="1.2.250.1.213.1.1.5.392"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="957"
+                  codeSystem=""
+                  displayName="Poumon  (qualificateur: droit, gauche, bilatéral)"/>
+         <concept code="958"
+                  codeSystem=""
+                  displayName="Poumon élargi   (qualificateur: droit, gauche, bilatéral)"/>
+         <concept code="959"
+                  codeSystem=""
+                  displayName="Lobe  (qualificateur: droit, gauche, bilatéral)"/>
+         <concept code="960"
+                  codeSystem=""
+                  displayName="Bilobectomie  (qualificateur: droit, gauche, bilatéral)"/>
+         <concept code="961"
+                  codeSystem=""
+                  displayName="Segment  (qualificateur: droit, gauche, bilatéral)"/>
+         <concept code="962"
+                  codeSystem=""
+                  displayName="Résection atypique  (qualificateur: droit, gauche, bilatéral)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

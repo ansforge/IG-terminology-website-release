@@ -1,0 +1,104 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "1.2.250.1.213.1.1.4.2.289.45",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2024-12-19T05:03:57.737+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet 1.2.250.1.213.1.1.4.2.289.45</b></p><a name=\"1.2.250.1.213.1.1.4.2.289.45\"> </a><a name=\"hc1.2.250.1.213.1.1.4.2.289.45\"> </a><a name=\"1.2.250.1.213.1.1.4.2.289.45-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-19 05:03:57+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>1.2.250.1.213.1.1.4.2.289</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>OBS_261</td><td>O Positif</td></tr><tr><td>OBS_262</td><td>O Négatif</td></tr><tr><td>OBS_263</td><td>A Positif</td></tr><tr><td>OBS_264</td><td>A Négatif</td></tr><tr><td>OBS_265</td><td>B Positif</td></tr><tr><td>OBS_266</td><td>B Négatif</td></tr><tr><td>OBS_267</td><td>AB Positif</td></tr><tr><td>OBS_268</td><td>AB Négatif</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/278147001\">278147001</a></td><td>groupe sanguin O positif</td></tr><tr><td><a href=\"http://snomed.info/id/278148006\">278148006</a></td><td>groupe sanguin O négatif</td></tr><tr><td><a href=\"http://snomed.info/id/278149003\">278149003</a></td><td>groupe sanguin A positif</td></tr><tr><td><a href=\"http://snomed.info/id/278150003\">278150003</a></td><td>groupe sanguin B positif</td></tr><tr><td><a href=\"http://snomed.info/id/278151004\">278151004</a></td><td>groupe sanguin AB positif</td></tr><tr><td><a href=\"http://snomed.info/id/278152006\">278152006</a></td><td>groupe sanguin A négatif</td></tr><tr><td><a href=\"http://snomed.info/id/278153001\">278153001</a></td><td>groupe sanguin B négatif</td></tr><tr><td><a href=\"http://snomed.info/id/278154007\">278154007</a></td><td>groupe sanguin AB négatif</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2021-03-15T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.2.289.45",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.4.2.289.45"
+  }],
+  "version" : "20231205000000",
+  "name" : "JDV_GroupeRhesus_CISIS",
+  "title" : "JDV_GroupeRhesus_CISIS",
+  "status" : "retired",
+  "experimental" : false,
+  "date" : "2023-12-05T00:00:00+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV_GroupeRhesus_CISIS",
+  "compose" : {
+    "include" : [{
+      "system" : "1.2.250.1.213.1.1.4.2.289",
+      "concept" : [{
+        "code" : "OBS_261",
+        "display" : "O Positif"
+      },
+      {
+        "code" : "OBS_262",
+        "display" : "O Négatif"
+      },
+      {
+        "code" : "OBS_263",
+        "display" : "A Positif"
+      },
+      {
+        "code" : "OBS_264",
+        "display" : "A Négatif"
+      },
+      {
+        "code" : "OBS_265",
+        "display" : "B Positif"
+      },
+      {
+        "code" : "OBS_266",
+        "display" : "B Négatif"
+      },
+      {
+        "code" : "OBS_267",
+        "display" : "AB Positif"
+      },
+      {
+        "code" : "OBS_268",
+        "display" : "AB Négatif"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "278147001",
+        "display" : "groupe sanguin O positif"
+      },
+      {
+        "code" : "278148006",
+        "display" : "groupe sanguin O négatif"
+      },
+      {
+        "code" : "278149003",
+        "display" : "groupe sanguin A positif"
+      },
+      {
+        "code" : "278150003",
+        "display" : "groupe sanguin B positif"
+      },
+      {
+        "code" : "278151004",
+        "display" : "groupe sanguin AB positif"
+      },
+      {
+        "code" : "278152006",
+        "display" : "groupe sanguin A négatif"
+      },
+      {
+        "code" : "278153001",
+        "display" : "groupe sanguin B négatif"
+      },
+      {
+        "code" : "278154007",
+        "display" : "groupe sanguin AB négatif"
+      }]
+    }]
+  }
+}

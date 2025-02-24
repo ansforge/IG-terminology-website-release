@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_Prostate_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"
+             displayName="JDV_Prostate_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"
+             id="1.2.250.1.213.1.1.5.406"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="1006" codeSystem="" displayName="Adénocarcinome prostatique"/>
+         <concept code="1007" codeSystem="" displayName="Adénocarcinome ductal"/>
+         <concept code="1008" codeSystem="" displayName="Carcinome mucineux"/>
+         <concept code="1009" codeSystem="" displayName="Carcinome basaloïde"/>
+         <concept code="1010"
+                  codeSystem=""
+                  displayName="Carcinome à cellules spumeuses"/>
+         <concept code="1011" codeSystem="" displayName="Carcinome neuro-endocrine"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

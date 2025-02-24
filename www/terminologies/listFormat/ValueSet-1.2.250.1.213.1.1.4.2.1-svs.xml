@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230427000000"
+             dateValid="20210315000000"
+             description="JDV_UFCV_MatImpl_CISIS"
+             displayName="JDV_UFCV_MatImpl_CISIS"
+             id="1.2.250.1.213.1.1.4.2.1"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="J0105"
+                  codeSystem=""
+                  displayName="DÉFIBRILLATEURS IMPLANTABLES"/>
+         <concept code="P0703" codeSystem="" displayName="VALVES CARDIAQUES"/>
+         <concept code="P0704"
+                  codeSystem=""
+                  displayName="ENDOPROTHÈSES VASCULAIRES ET CARDIAQUES"/>
+         <concept code="J0101"
+                  codeSystem=""
+                  displayName="STIMULATEURS CARDIAQUES IMPLANTABLES"/>
+         <concept code="J019001010101"
+                  codeSystem=""
+                  displayName="SONDES DE STIMULATION CARDIAQUE AURICULAIRE À FIXATION PASSIVE"/>
+         <concept code="J01030101"
+                  codeSystem=""
+                  displayName="DISPOSITIFS IMPLANTABLES D'ASSISTANCE VENTRICULAIRE DROITE (RVAD)"/>
+         <concept code="J01030102"
+                  codeSystem=""
+                  displayName="DISPOSITIFS IMPLANTABLES D'ASSISTANCE VENTRICULAIRE GAUCHE (LVAD)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,90 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/1.2.250.1.213.1.1.4.2.289.4> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "1.2.250.1.213.1.1.4.2.289.4"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2024-12-19T05:03:14.664+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet 1.2.250.1.213.1.1.4.2.289.4</b></p><a name=\"1.2.250.1.213.1.1.4.2.289.4\"> </a><a name=\"hc1.2.250.1.213.1.1.4.2.289.4\"> </a><a name=\"1.2.250.1.213.1.1.4.2.289.4-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 1; Last updated: 2024-12-19 05:03:14+0000</p><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://terminology.hl7.org/CodeSystem/icd10</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>O70.0</td><td>Déchirure obstétricale du périnée, du premier degré</td></tr><tr><td>O70.1</td><td>Déchirure obstétricale du périnée, du deuxième degré</td></tr><tr><td>O70.2</td><td>Déchirure obstétricale du périnée, du troisième degré</td></tr><tr><td>O70.3</td><td>Déchirure obstétricale du périnée, du quatrième degré</td></tr></table></li><li>Include these codes as defined in <code>1.2.250.1.213.1.1.4.2.289</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>OBS_106</td><td>Périnée intact</td></tr><tr><td>OBS_107</td><td>Déchirure périnéale simple (1er et 2ème degré)</td></tr><tr><td>OBS_108</td><td>Déchirure sphinctérienne (périnée complet et compliqué = 3ème et 4ème degré)</td></tr></table></li><li>Include these codes as defined in <code>1.2.250.1.213.2.12</code><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>P1-86130</td><td>Episiotomie</td></tr></table></li><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/289854007\">289854007</a></td><td>périnée intact</td></tr><tr><td><a href=\"http://snomed.info/id/860603002\">860603002</a></td><td>plaie d'épisiotomie</td></tr></table></li></ul></div>"
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2021-03-15T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.2.289.4"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.4.2.289.4" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20231205000000"] ; # 
+  fhir:name [ fhir:v "JDV_EtatPerinee_CISIS"] ; # 
+  fhir:title [ fhir:v "JDV_EtatPerinee_CISIS"] ; # 
+  fhir:status [ fhir:v "retired"] ; # 
+  fhir:experimental [ fhir:v "false"^^xsd:boolean] ; # 
+  fhir:date [ fhir:v "2023-12-05T00:00:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "JDV_EtatPerinee_CISIS"] ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://terminology.hl7.org/CodeSystem/icd10"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "O70.0" ] ;
+         fhir:display [ fhir:v "Déchirure obstétricale du périnée, du premier degré" ]
+       ] [
+         fhir:code [ fhir:v "O70.1" ] ;
+         fhir:display [ fhir:v "Déchirure obstétricale du périnée, du deuxième degré" ]
+       ] [
+         fhir:code [ fhir:v "O70.2" ] ;
+         fhir:display [ fhir:v "Déchirure obstétricale du périnée, du troisième degré" ]
+       ] [
+         fhir:code [ fhir:v "O70.3" ] ;
+         fhir:display [ fhir:v "Déchirure obstétricale du périnée, du quatrième degré" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "1.2.250.1.213.1.1.4.2.289"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "OBS_106" ] ;
+         fhir:display [ fhir:v "Périnée intact" ]
+       ] [
+         fhir:code [ fhir:v "OBS_107" ] ;
+         fhir:display [ fhir:v "Déchirure périnéale simple (1er et 2ème degré)" ]
+       ] [
+         fhir:code [ fhir:v "OBS_108" ] ;
+         fhir:display [ fhir:v "Déchirure sphinctérienne (périnée complet et compliqué = 3ème et 4ème degré)" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "1.2.250.1.213.2.12"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "P1-86130" ] ;
+         fhir:display [ fhir:v "Episiotomie" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "http://snomed.info/sct"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "289854007" ] ;
+         fhir:display [ fhir:v "périnée intact" ]
+       ] [
+         fhir:code [ fhir:v "860603002" ] ;
+         fhir:display [ fhir:v "plaie d'épisiotomie" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

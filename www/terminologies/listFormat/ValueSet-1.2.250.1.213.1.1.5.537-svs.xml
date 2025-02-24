@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_ExamenMacroscopieTumeurPerforation_CISIS"
+             displayName="JDV_ExamenMacroscopieTumeurPerforation_CISIS"
+             id="1.2.250.1.213.1.1.5.537"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="C49487" codeSystem="" displayName="Non"/>
+         <concept code="MED-699"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Oui en zone tumorale"/>
+         <concept code="MED-700"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Oui en zone non tumorale"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

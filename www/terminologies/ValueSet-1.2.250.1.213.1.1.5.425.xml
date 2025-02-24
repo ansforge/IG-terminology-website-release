@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="1.2.250.1.213.1.1.5.425"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2024-12-19T05:06:26.241+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ValueSet 1.2.250.1.213.1.1.5.425</b></p><a name="1.2.250.1.213.1.1.5.425"> </a><a name="hc1.2.250.1.213.1.1.5.425"> </a><a name="1.2.250.1.213.1.1.5.425-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2024-12-19 05:06:26+0000</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <code>1.3.6.1.4.1.19376.1.8.2.1</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>17</td><td>Sein-Composante intracanalaire extensive</td></tr><tr><td>40</td><td>Sein-Nombre de ganglions avec cellules tumorales isolées (&lt; = 0.2 mm and &lt; = 200 cellules)</td></tr><tr><td>41</td><td>Sein-Nombre de ganglions avec macrometastases (&gt;0.2 cm)</td></tr><tr><td>42</td><td>Sein-Nombre de ganglions avec micrometastases (&gt;0.2 mm to 0.2 cm and/or &gt;200 cells):</td></tr><tr><td>49</td><td>Sein-Atteinte des limites de résection par la tumeur in situ (CCIS)</td></tr><tr><td>70</td><td>Sein-Distance tumeur in situ (CCIS)/plus proche limite de résection</td></tr><tr><td>95</td><td>Sein-Taille tumeur in situ (CCIS)(plus grande dimension)</td></tr><tr><td>98</td><td>Sein-Si CCIS, microinvasion</td></tr><tr><td>413</td><td>sein-Atteinte des limites de résection par la tumeur maligne invasive</td></tr><tr><td>414</td><td>Sein-Distance tumeur maligne invasive/plus proche limite de résection</td></tr><tr><td>415</td><td>Sein-Emboles vasculaires</td></tr><tr><td>416</td><td>Sein-Exerèse ganglionnaire</td></tr><tr><td>417</td><td>Sein-Grade histologique (CCIS)</td></tr><tr><td>418</td><td>Sein-Grade histologique (Nottingham/SBR - Differenciation glandulaire)</td></tr><tr><td>419</td><td>Sein-Grade histologique (Nottingham/SBR - Mitoses)</td></tr><tr><td>420</td><td>Sein-Grade histologique (Nottingham/SBR - Pléomorphisme nucléaire)</td></tr><tr><td>421</td><td>Sein-Grade histologique (Nottingham/SBR Score total)</td></tr><tr><td>422</td><td>Sein-Localisation de la tumeur dans l'organe</td></tr><tr><td>423</td><td>Sein-Localisation de(s) ganglion(s)</td></tr><tr><td>424</td><td>Sein-Localisation de(s) limite(s) de résection</td></tr><tr><td>425</td><td>sein-Nombre de ganglion(s) envahi(s)</td></tr><tr><td>426</td><td>sein-Nombre de ganglion(s) examiné(s)</td></tr><tr><td>427</td><td>Sein-Organe-region-prelevement-CISIS</td></tr><tr><td>428</td><td>Sein-pN</td></tr><tr><td>429</td><td>Sein-Procédure de prélèvement</td></tr><tr><td>430</td><td>Sein-pT</td></tr><tr><td>431</td><td>Sein-Statut des recepteurs à la progesterone</td></tr><tr><td>432</td><td>Sein-Statut des recepteurs à l'œstrogène</td></tr><tr><td>433</td><td>Sein-Statut HER 2 (FISH)</td></tr><tr><td>434</td><td>Sein-Statut HER 2 (immonuperoxidase)</td></tr><tr><td>435</td><td>sein-Taille de tumeur maligne invasive (plus grande dimension)</td></tr><tr><td>436</td><td>Sein-Type histologique de lésion néoplasique in situ</td></tr><tr><td>437</td><td>Sein-Type-histologique-lesion-neoplasique-maligne-invasive-CISIS</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-03-15T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.425"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.425"/>
+  </identifier>
+  <version value="20230404000000"/>
+  <name value="JDV_Sein_Observation_anatomie_pathologique_CISIS"/>
+  <title value="JDV_Sein_Observation_anatomie_pathologique_CISIS"/>
+  <status value="retired"/>
+  <experimental value="false"/>
+  <date value="2023-04-04T00:00:00+01:00"/>
+  <publisher value="Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <description value="JDV_Sein_Observation_anatomie_pathologique_CISIS"/>
+  <compose>
+    <include>
+      <system value="1.3.6.1.4.1.19376.1.8.2.1"/>
+      <concept>
+        <code value="17"/>
+        <display value="Sein-Composante intracanalaire extensive"/>
+      </concept>
+      <concept>
+        <code value="40"/>
+        <display value="Sein-Nombre de ganglions avec cellules tumorales isolées (&lt; = 0.2 mm and &lt; = 200 cellules)"/>
+      </concept>
+      <concept>
+        <code value="41"/>
+        <display value="Sein-Nombre de ganglions avec macrometastases (&gt;0.2 cm)"/>
+      </concept>
+      <concept>
+        <code value="42"/>
+        <display value="Sein-Nombre de ganglions avec micrometastases (&gt;0.2 mm to 0.2 cm and/or &gt;200 cells):"/>
+      </concept>
+      <concept>
+        <code value="49"/>
+        <display value="Sein-Atteinte des limites de résection par la tumeur in situ (CCIS)"/>
+      </concept>
+      <concept>
+        <code value="70"/>
+        <display value="Sein-Distance tumeur in situ (CCIS)/plus proche limite de résection"/>
+      </concept>
+      <concept>
+        <code value="95"/>
+        <display value="Sein-Taille tumeur in situ (CCIS)(plus grande dimension)"/>
+      </concept>
+      <concept>
+        <code value="98"/>
+        <display value="Sein-Si CCIS, microinvasion"/>
+      </concept>
+      <concept>
+        <code value="413"/>
+        <display value="sein-Atteinte des limites de résection par la tumeur maligne invasive"/>
+      </concept>
+      <concept>
+        <code value="414"/>
+        <display value="Sein-Distance tumeur maligne invasive/plus proche limite de résection"/>
+      </concept>
+      <concept>
+        <code value="415"/>
+        <display value="Sein-Emboles vasculaires"/>
+      </concept>
+      <concept>
+        <code value="416"/>
+        <display value="Sein-Exerèse ganglionnaire"/>
+      </concept>
+      <concept>
+        <code value="417"/>
+        <display value="Sein-Grade histologique (CCIS)"/>
+      </concept>
+      <concept>
+        <code value="418"/>
+        <display value="Sein-Grade histologique (Nottingham/SBR - Differenciation glandulaire)"/>
+      </concept>
+      <concept>
+        <code value="419"/>
+        <display value="Sein-Grade histologique (Nottingham/SBR - Mitoses)"/>
+      </concept>
+      <concept>
+        <code value="420"/>
+        <display value="Sein-Grade histologique (Nottingham/SBR - Pléomorphisme nucléaire)"/>
+      </concept>
+      <concept>
+        <code value="421"/>
+        <display value="Sein-Grade histologique (Nottingham/SBR Score total)"/>
+      </concept>
+      <concept>
+        <code value="422"/>
+        <display value="Sein-Localisation de la tumeur dans l'organe"/>
+      </concept>
+      <concept>
+        <code value="423"/>
+        <display value="Sein-Localisation de(s) ganglion(s)"/>
+      </concept>
+      <concept>
+        <code value="424"/>
+        <display value="Sein-Localisation de(s) limite(s) de résection"/>
+      </concept>
+      <concept>
+        <code value="425"/>
+        <display value="sein-Nombre de ganglion(s) envahi(s)"/>
+      </concept>
+      <concept>
+        <code value="426"/>
+        <display value="sein-Nombre de ganglion(s) examiné(s)"/>
+      </concept>
+      <concept>
+        <code value="427"/>
+        <display value="Sein-Organe-region-prelevement-CISIS"/>
+      </concept>
+      <concept>
+        <code value="428"/>
+        <display value="Sein-pN"/>
+      </concept>
+      <concept>
+        <code value="429"/>
+        <display value="Sein-Procédure de prélèvement"/>
+      </concept>
+      <concept>
+        <code value="430"/>
+        <display value="Sein-pT"/>
+      </concept>
+      <concept>
+        <code value="431"/>
+        <display value="Sein-Statut des recepteurs à la progesterone"/>
+      </concept>
+      <concept>
+        <code value="432"/>
+        <display value="Sein-Statut des recepteurs à l'œstrogène"/>
+      </concept>
+      <concept>
+        <code value="433"/>
+        <display value="Sein-Statut HER 2 (FISH)"/>
+      </concept>
+      <concept>
+        <code value="434"/>
+        <display value="Sein-Statut HER 2 (immonuperoxidase)"/>
+      </concept>
+      <concept>
+        <code value="435"/>
+        <display value="sein-Taille de tumeur maligne invasive (plus grande dimension)"/>
+      </concept>
+      <concept>
+        <code value="436"/>
+        <display value="Sein-Type histologique de lésion néoplasique in situ"/>
+      </concept>
+      <concept>
+        <code value="437"/>
+        <display value="Sein-Type-histologique-lesion-neoplasique-maligne-invasive-CISIS"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

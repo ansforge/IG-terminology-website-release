@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_Glande_salivaire_pN_CISIS"
+             displayName="JDV_Glande_salivaire_pN_CISIS"
+             id="1.2.250.1.213.1.1.5.310"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="1347"
+                  codeSystem=""
+                  displayName="pN0: No regional lymph node metastasis"/>
+         <concept code="1348"
+                  codeSystem=""
+                  displayName="pN1: Metastasis in a single ipsilateral lymph node, 3 cm or less in greatest dimension"/>
+         <concept code="1349"
+                  codeSystem=""
+                  displayName="pN2a: Metastasis in a single ipsilateral lymph node, more than 3 cm but not more than 6 cm in greatest dimension"/>
+         <concept code="1350"
+                  codeSystem=""
+                  displayName="pN2b: Metastasis in multiple ipsilateral lymph nodes, none more than 6 cm in greatest dimension"/>
+         <concept code="1351"
+                  codeSystem=""
+                  displayName="pN2c: Metastasis in bilateral or contralateral lymph nodes, none more than 6 cm in greatest dimension"/>
+         <concept code="1352"
+                  codeSystem=""
+                  displayName="pN3: Metastasis in a lymph node, more than 6 cm in greatest dimension"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

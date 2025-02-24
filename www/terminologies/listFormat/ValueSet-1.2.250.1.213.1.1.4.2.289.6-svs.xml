@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20231205000000"
+             dateValid="20210315000000"
+             description="JDV_EtatNaissance_CISIS"
+             displayName="JDV_EtatNaissance_CISIS"
+             id="1.2.250.1.213.1.1.4.2.289.6"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="P95" codeSystem="" displayName="Mort fœtale"/>
+         <concept code="OBS_111" codeSystem="" displayName="Vivant"/>
+         <concept code="OBS_112"
+                  codeSystem=""
+                  displayName="Né vivant décédé &lt; 28 jours"/>
+         <concept code="OBS_113"
+                  codeSystem=""
+                  displayName="Né vivant décédé &gt;= 28 jours"/>
+         <concept code="F-88450" codeSystem="" displayName="Mort-né"/>
+         <concept code="240297000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mort infantile"/>
+         <concept code="281050002"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="naissance vivante"/>
+         <concept code="391181005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mort néonatale précoce"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
