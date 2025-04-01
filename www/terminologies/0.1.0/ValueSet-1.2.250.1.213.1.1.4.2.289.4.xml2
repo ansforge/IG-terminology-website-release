@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="1.2.250.1.213.1.1.4.2.289.4"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2024-12-19T05:03:14.664+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <language value="fr-FR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR"><p class="res-header-id"><b>Generated Narrative: ValueSet 1.2.250.1.213.1.1.4.2.289.4</b></p><a name="1.2.250.1.213.1.1.4.2.289.4"> </a><a name="hc1.2.250.1.213.1.1.4.2.289.4"> </a><a name="1.2.250.1.213.1.1.4.2.289.4-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2024-12-19 05:03:14+0000; Language: fr-FR</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><p>This value set includes codes based on the following rules:</p><ul><li>Include these codes as defined in <code>http://terminology.hl7.org/CodeSystem/icd10</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>O70.0</td><td>Déchirure obstétricale du périnée, du premier degré</td></tr><tr><td>O70.1</td><td>Déchirure obstétricale du périnée, du deuxième degré</td></tr><tr><td>O70.2</td><td>Déchirure obstétricale du périnée, du troisième degré</td></tr><tr><td>O70.3</td><td>Déchirure obstétricale du périnée, du quatrième degré</td></tr></table></li><li>Include these codes as defined in <code>1.2.250.1.213.1.1.4.2.289</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>OBS_106</td><td>Périnée intact</td></tr><tr><td>OBS_107</td><td>Déchirure périnéale simple (1er et 2ème degré)</td></tr><tr><td>OBS_108</td><td>Déchirure sphinctérienne (périnée complet et compliqué = 3ème et 4ème degré)</td></tr></table></li><li>Include these codes as defined in <code>1.2.250.1.213.2.12</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>P1-86130</td><td>Episiotomie</td></tr></table></li><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/289854007">289854007</a></td><td>périnée intact</td></tr><tr><td><a href="http://snomed.info/id/860603002">860603002</a></td><td>plaie d'épisiotomie</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-03-15T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.4.2.289.4"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.250.1.213.1.1.4.2.289.4"/>
+  </identifier>
+  <version value="20231205000000"/>
+  <name value="JDV_EtatPerinee_CISIS"/>
+  <title value="JDV_EtatPerinee_CISIS"/>
+  <status value="retired"/>
+  <experimental value="false"/>
+  <date value="2023-12-05T00:00:00+01:00"/>
+  <publisher value="Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <description value="JDV_EtatPerinee_CISIS"/>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/icd10"/>
+      <concept>
+        <code value="O70.0"/>
+        <display value="Déchirure obstétricale du périnée, du premier degré"/>
+      </concept>
+      <concept>
+        <code value="O70.1"/>
+        <display value="Déchirure obstétricale du périnée, du deuxième degré"/>
+      </concept>
+      <concept>
+        <code value="O70.2"/>
+        <display value="Déchirure obstétricale du périnée, du troisième degré"/>
+      </concept>
+      <concept>
+        <code value="O70.3"/>
+        <display value="Déchirure obstétricale du périnée, du quatrième degré"/>
+      </concept>
+    </include>
+    <include>
+      <system value="1.2.250.1.213.1.1.4.2.289"/>
+      <concept>
+        <code value="OBS_106"/>
+        <display value="Périnée intact"/>
+      </concept>
+      <concept>
+        <code value="OBS_107"/>
+        <display value="Déchirure périnéale simple (1er et 2ème degré)"/>
+      </concept>
+      <concept>
+        <code value="OBS_108"/>
+        <display value="Déchirure sphinctérienne (périnée complet et compliqué = 3ème et 4ème degré)"/>
+      </concept>
+    </include>
+    <include>
+      <system value="1.2.250.1.213.2.12"/>
+      <concept>
+        <code value="P1-86130"/>
+        <display value="Episiotomie"/>
+      </concept>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="289854007"/>
+        <display value="périnée intact"/>
+      </concept>
+      <concept>
+        <code value="860603002"/>
+        <display value="plaie d'épisiotomie"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_Prostate_Grade_histologique_Gleason_Score_total_CISIS"
+             displayName="JDV_Prostate_Grade_histologique_Gleason_Score_total_CISIS"
+             id="1.2.250.1.213.1.1.5.399"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="1025" codeSystem="" displayName="2"/>
+         <concept code="1026" codeSystem="" displayName="3"/>
+         <concept code="1027" codeSystem="" displayName="4"/>
+         <concept code="1028" codeSystem="" displayName="5"/>
+         <concept code="1029" codeSystem="" displayName="6"/>
+         <concept code="1030" codeSystem="" displayName="7"/>
+         <concept code="1031" codeSystem="" displayName="8"/>
+         <concept code="1032" codeSystem="" displayName="9"/>
+         <concept code="1033" codeSystem="" displayName="10"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_Testicule_Observation_anatomie_pathologique_CISIS"
+             displayName="JDV_Testicule_Observation_anatomie_pathologique_CISIS"
+             id="1.2.250.1.213.1.1.5.438"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="438"
+                  codeSystem=""
+                  displayName="Testicule-Atteinte des limites de résection par la tumeur maligne invasive"/>
+         <concept code="439"
+                  codeSystem=""
+                  displayName="Testicule-Distance tumeur maligne invasive/plus proche limite de résection"/>
+         <concept code="440"
+                  codeSystem=""
+                  displayName="Testicule-Emboles vasculaires"/>
+         <concept code="441"
+                  codeSystem=""
+                  displayName="Testicule-Extension microscopique et macroscopique de la tumeur"/>
+         <concept code="442"
+                  codeSystem=""
+                  displayName="Testicule-Localisation de(s) limite(s) de résection"/>
+         <concept code="443"
+                  codeSystem=""
+                  displayName="Testicule-Nombre de ganglion(s) envahi(s)"/>
+         <concept code="444"
+                  codeSystem=""
+                  displayName="Testicule-Nombre de ganglion(s) examiné(s)"/>
+         <concept code="445"
+                  codeSystem=""
+                  displayName="Testicule-Organe-region-prelevement-CISIS"/>
+         <concept code="446" codeSystem="" displayName="Testicule-pN"/>
+         <concept code="447"
+                  codeSystem=""
+                  displayName="Testicule-Procédure de prélèvement"/>
+         <concept code="448" codeSystem="" displayName="Testicule-pT"/>
+         <concept code="449"
+                  codeSystem=""
+                  displayName="Testicule-Taille de tumeur maligne invasive (plus grande dimension)"/>
+         <concept code="450"
+                  codeSystem=""
+                  displayName="Testicule-Type-histologique-lesion-neoplasique-maligne-invasive-CISIS"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

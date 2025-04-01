@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230720000000"
+             dateValid="20210315000000"
+             description="JDV_ModaliteImagerie_CISIS"
+             displayName="JDV_ModaliteImagerie_CISIS"
+             id="1.2.250.1.213.1.1.5.619"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="AR" codeSystem="" displayName="Autoréfraction"/>
+         <concept code="ASMT"
+                  codeSystem=""
+                  displayName="Résultats de l’évaluation du contenu"/>
+         <concept code="AU" codeSystem="" displayName="Audio"/>
+         <concept code="BDUS" codeSystem="" displayName="Échodensitométrie osseuse"/>
+         <concept code="BI" codeSystem="" displayName="Imagerie biomagnétique"/>
+         <concept code="BMD" codeSystem="" displayName="ostéodensitométrie"/>
+         <concept code="CR"
+                  codeSystem=""
+                  displayName="radiographie assistée par ordinateur"/>
+         <concept code="CT" codeSystem="" displayName="tomodensitométrie"/>
+         <concept code="CTPROTOCOL"
+                  codeSystem=""
+                  displayName="Protocole CT (réalisé)"/>
+         <concept code="DG" codeSystem="" displayName="Diaphanographie"/>
+         <concept code="DMS" codeSystem="" displayName="dermoscopie"/>
+         <concept code="DOC" codeSystem="" displayName="Document"/>
+         <concept code="DX" codeSystem="" displayName="radiographie numérique"/>
+         <concept code="ECG" codeSystem="" displayName="électrocardiographie"/>
+         <concept code="EEG" codeSystem="" displayName="électroencéphalographie"/>
+         <concept code="EMG" codeSystem="" displayName="électromyographie"/>
+         <concept code="EOG" codeSystem="" displayName="électrooculographie"/>
+         <concept code="EPS" codeSystem="" displayName="électrophysiologie cardiaque"/>
+         <concept code="ES" codeSystem="" displayName="Endoscopie"/>
+         <concept code="FID" codeSystem="" displayName="repères"/>
+         <concept code="GM" codeSystem="" displayName="Microscopie générale"/>
+         <concept code="HC" codeSystem="" displayName="support papier"/>
+         <concept code="HD" codeSystem="" displayName="onde hémodynamique"/>
+         <concept code="IO" codeSystem="" displayName="Radiographie intrabuccale"/>
+         <concept code="IOL"
+                  codeSystem=""
+                  displayName="Données sur les lentilles intraoculaires"/>
+         <concept code="IVOCT"
+                  codeSystem=""
+                  displayName="Tomographie par cohérence optique intravasculaire"/>
+         <concept code="IVUS" codeSystem="" displayName="ultrasonore intravasculaire"/>
+         <concept code="KER" codeSystem="" displayName="kératométrie"/>
+         <concept code="KO" codeSystem="" displayName="Sélection d’un objet clé"/>
+         <concept code="LEN" codeSystem="" displayName="lensométrie"/>
+         <concept code="LS" codeSystem="" displayName="scan laser"/>
+         <concept code="M3D"
+                  codeSystem=""
+                  displayName="Modèle pour la fabrication 3D"/>
+         <concept code="MG" codeSystem="" displayName="Mammographie"/>
+         <concept code="MR" codeSystem="" displayName="résonance magnétique"/>
+         <concept code="NM" codeSystem="" displayName="médecine nucléaire"/>
+         <concept code="OAM" codeSystem="" displayName="Mesures axiales ophtalmiques"/>
+         <concept code="OCT"
+                  codeSystem=""
+                  displayName="tomographie à cohérence optique"/>
+         <concept code="OP" codeSystem="" displayName="photographique ophtalmique"/>
+         <concept code="OPM" codeSystem="" displayName="Cartographie ophtalmique"/>
+         <concept code="OPT" codeSystem="" displayName="Tomographie ophtalmique"/>
+         <concept code="OPTBSV"
+                  codeSystem=""
+                  displayName="Tomographie ophtalmique B-scan analyse de volume"/>
+         <concept code="OPTENF"
+                  codeSystem=""
+                  displayName="Tomographie ophtalmique en face"/>
+         <concept code="OPV" codeSystem="" displayName="Champ visuel ophtalmique"/>
+         <concept code="OSS" codeSystem="" displayName="Scanner optique de surface"/>
+         <concept code="OT" codeSystem="" displayName="Autre technique d'imagerie"/>
+         <concept code="PLAN" codeSystem="" displayName="Plan"/>
+         <concept code="POS" codeSystem="" displayName="détecteur de position"/>
+         <concept code="PR" codeSystem="" displayName="état de présentation"/>
+         <concept code="PT"
+                  codeSystem=""
+                  displayName="tomographie par émission de positons"/>
+         <concept code="PX" codeSystem="" displayName="Panaromique  X-Ray"/>
+         <concept code="REG" codeSystem="" displayName="Enregistrement"/>
+         <concept code="RESP" codeSystem="" displayName="Onde respiratoire"/>
+         <concept code="RF" codeSystem="" displayName="Radio-fluoroscopie"/>
+         <concept code="RG" codeSystem="" displayName="Imagerie radiographique"/>
+         <concept code="RTDOSE" codeSystem="" displayName="Dose de radiothérapie"/>
+         <concept code="RTIMAGE" codeSystem="" displayName="Image RT"/>
+         <concept code="RTPLAN"
+                  codeSystem=""
+                  displayName="programme de radiothérapie"/>
+         <concept code="RTRECORD" codeSystem="" displayName="RT Fiche de traitement"/>
+         <concept code="RTSTRUCT"
+                  codeSystem=""
+                  displayName="Ensemble de structures de radiothérapie"/>
+         <concept code="RWV" codeSystem="" displayName="la valeur réelle de la carte"/>
+         <concept code="SEG" codeSystem="" displayName="segmentation"/>
+         <concept code="SM" codeSystem="" displayName="Microscopie à lames"/>
+         <concept code="SMR" codeSystem="" displayName="Microscopie à lames"/>
+         <concept code="SR" codeSystem="" displayName="SR Document"/>
+         <concept code="SRF" codeSystem="" displayName="réfraction subjective"/>
+         <concept code="STAIN"
+                  codeSystem=""
+                  displayName="Supravital de diapositives automatisé"/>
+         <concept code="TEXTUREMAP" codeSystem="" displayName="texture de la mappe"/>
+         <concept code="TG" codeSystem="" displayName="thermographie"/>
+         <concept code="US" codeSystem="" displayName="échographie"/>
+         <concept code="VA" codeSystem="" displayName="acuité visuelle"/>
+         <concept code="XA" codeSystem="" displayName="Angiographie X-Ray"/>
+         <concept code="XC"
+                  codeSystem=""
+                  displayName="Caméra de photographie externe"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

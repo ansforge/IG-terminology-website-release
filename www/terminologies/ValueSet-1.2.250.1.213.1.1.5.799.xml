@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="1.2.250.1.213.1.1.5.799"/>
+  <meta>
+    <versionId value="2"/>
+    <lastUpdated value="2024-12-19T05:06:01.645+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <language value="fr-FR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR"><p class="res-header-id"><b>Generated Narrative: ValueSet 1.2.250.1.213.1.1.5.799</b></p><a name="1.2.250.1.213.1.1.5.799"> </a><a name="hc1.2.250.1.213.1.1.5.799"> </a><a name="1.2.250.1.213.1.1.5.799-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 2; Last updated: 2024-12-19 05:06:01+0000; Language: fr-FR</p><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <a href="CodeSystem-1.2.250.1.213.1.1.4.322.html"><code>https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-320">GEN-320</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN EuRREB</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-321">GEN-321</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN CRANIO</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-322">GEN-322</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN EpiCARE</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-323">GEN-323</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN ERKReg</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-324">GEN-324</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN RND</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-325">GEN-325</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN EPSA</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-326">GEN-326</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN LUNG</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-327">GEN-327</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN ERRAS</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-328">GEN-328</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN EURACAN</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-329">GEN-329</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN ENROL</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-330">GEN-330</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN eUROGEN</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-331">GEN-331</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN Euro-NMD</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-332">GEN-332</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN RED</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-333">GEN-333</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN GENTURIS</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-334">GEN-334</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN cond-GUARD-HEART</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-335">GEN-335</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-336">GEN-336</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN ILIAD</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-337">GEN-337</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN UIMD</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-338">GEN-338</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN PaedCan</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-339">GEN-339</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN R-Liver</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-340">GEN-340</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN TogethERN</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-341">GEN-341</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN RITA</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-342">GEN-342</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN PETER</td></tr><tr><td><a href="CodeSystem-1.2.250.1.213.1.1.4.322.html#1.2.250.1.213.1.1.4.322-GEN-343">GEN-343</a></td><td>Le patient a signé son consentement à la transmission des données au registre ERN VASCERN</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-03-15T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.799"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.799"/>
+  </identifier>
+  <version value="20240805000000"/>
+  <name value="JDV_RegistresERN_CISIS"/>
+  <title value="JDV_RegistresERN_CISIS"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-08-05T00:00:00+01:00"/>
+  <publisher value="Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <description value="JDV_RegistresERN_CISIS"/>
+  <compose>
+    <include>
+      <system value="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"/>
+      <concept>
+        <code value="GEN-320"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN EuRREB"/>
+      </concept>
+      <concept>
+        <code value="GEN-321"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN CRANIO"/>
+      </concept>
+      <concept>
+        <code value="GEN-322"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN EpiCARE"/>
+      </concept>
+      <concept>
+        <code value="GEN-323"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN ERKReg"/>
+      </concept>
+      <concept>
+        <code value="GEN-324"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN RND"/>
+      </concept>
+      <concept>
+        <code value="GEN-325"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN EPSA"/>
+      </concept>
+      <concept>
+        <code value="GEN-326"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN LUNG"/>
+      </concept>
+      <concept>
+        <code value="GEN-327"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN ERRAS"/>
+      </concept>
+      <concept>
+        <code value="GEN-328"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN EURACAN"/>
+      </concept>
+      <concept>
+        <code value="GEN-329"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN ENROL"/>
+      </concept>
+      <concept>
+        <code value="GEN-330"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN eUROGEN"/>
+      </concept>
+      <concept>
+        <code value="GEN-331"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN Euro-NMD"/>
+      </concept>
+      <concept>
+        <code value="GEN-332"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN RED"/>
+      </concept>
+      <concept>
+        <code value="GEN-333"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN GENTURIS"/>
+      </concept>
+      <concept>
+        <code value="GEN-334"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN cond-GUARD-HEART"/>
+      </concept>
+      <concept>
+        <code value="GEN-335"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core"/>
+      </concept>
+      <concept>
+        <code value="GEN-336"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN ILIAD"/>
+      </concept>
+      <concept>
+        <code value="GEN-337"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN UIMD"/>
+      </concept>
+      <concept>
+        <code value="GEN-338"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN PaedCan"/>
+      </concept>
+      <concept>
+        <code value="GEN-339"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN R-Liver"/>
+      </concept>
+      <concept>
+        <code value="GEN-340"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN TogethERN"/>
+      </concept>
+      <concept>
+        <code value="GEN-341"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN RITA"/>
+      </concept>
+      <concept>
+        <code value="GEN-342"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN PETER"/>
+      </concept>
+      <concept>
+        <code value="GEN-343"/>
+        <display value="Le patient a signé son consentement à la transmission des données au registre ERN VASCERN"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

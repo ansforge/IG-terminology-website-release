@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_Oesophage_Observation_anatomie_pathologique_CISIS"
+             displayName="JDV_Oesophage_Observation_anatomie_pathologique_CISIS"
+             id="1.2.250.1.213.1.1.5.338"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="50"
+                  codeSystem=""
+                  displayName="Œsophage - Atteinte des limites de résection par la lésion (dysplasie)"/>
+         <concept code="51"
+                  codeSystem=""
+                  displayName="Œsophage - Atteinte des limites de résection par la lésion (métaplasie (Barrett) avec dysplasie)"/>
+         <concept code="52"
+                  codeSystem=""
+                  displayName="Œsophage - Atteinte des limites de résection par la lésion (métaplasie (Barrett) sans dysplasie)"/>
+         <concept code="270"
+                  codeSystem=""
+                  displayName="Œsophage - Atteinte des limites de résection par la tumeur maligne invasive"/>
+         <concept code="271"
+                  codeSystem=""
+                  displayName="Œsophage - Distance tumeur maligne invasive/plus proche limite de résection"/>
+         <concept code="272"
+                  codeSystem=""
+                  displayName="Œsophage - Emboles vasculaires"/>
+         <concept code="273"
+                  codeSystem=""
+                  displayName="Œsophage - Extension microscopique et macroscopique de la tumeur"/>
+         <concept code="274"
+                  codeSystem=""
+                  displayName="Œsophage - Infiltration péri-nerveuse"/>
+         <concept code="275"
+                  codeSystem=""
+                  displayName="Œsophage - Localisation de la tumeur dans l'organe"/>
+         <concept code="276"
+                  codeSystem=""
+                  displayName="Œsophage - Localisation de(s) limite(s) de résection"/>
+         <concept code="277"
+                  codeSystem=""
+                  displayName="Œsophage - Nombre de ganglion(s) envahi(s)"/>
+         <concept code="278"
+                  codeSystem=""
+                  displayName="Œsophage - Nombre de ganglion(s) examiné(s)"/>
+         <concept code="279"
+                  codeSystem=""
+                  displayName="Œsophage - Organe-region-prelevement-CISIS"/>
+         <concept code="280" codeSystem="" displayName="Œsophage - pN"/>
+         <concept code="281"
+                  codeSystem=""
+                  displayName="Œsophage - Procédure de prélèvement"/>
+         <concept code="282" codeSystem="" displayName="Œsophage - pT"/>
+         <concept code="283"
+                  codeSystem=""
+                  displayName="Œsophage - Taille de tumeur maligne invasive (plus grande dimension)"/>
+         <concept code="284"
+                  codeSystem=""
+                  displayName="Œsophage - Type-histologique-lesion-neoplasique-maligne-invasive-CISIS"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

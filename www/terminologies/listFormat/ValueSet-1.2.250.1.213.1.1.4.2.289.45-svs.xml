@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20231205000000"
+             dateValid="20210315000000"
+             description="JDV_GroupeRhesus_CISIS"
+             displayName="JDV_GroupeRhesus_CISIS"
+             id="1.2.250.1.213.1.1.4.2.289.45"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="OBS_261" codeSystem="" displayName="O Positif"/>
+         <concept code="OBS_262" codeSystem="" displayName="O Négatif"/>
+         <concept code="OBS_263" codeSystem="" displayName="A Positif"/>
+         <concept code="OBS_264" codeSystem="" displayName="A Négatif"/>
+         <concept code="OBS_265" codeSystem="" displayName="B Positif"/>
+         <concept code="OBS_266" codeSystem="" displayName="B Négatif"/>
+         <concept code="OBS_267" codeSystem="" displayName="AB Positif"/>
+         <concept code="OBS_268" codeSystem="" displayName="AB Négatif"/>
+         <concept code="278147001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="groupe sanguin O positif"/>
+         <concept code="278148006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="groupe sanguin O négatif"/>
+         <concept code="278149003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="groupe sanguin A positif"/>
+         <concept code="278150003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="groupe sanguin B positif"/>
+         <concept code="278151004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="groupe sanguin AB positif"/>
+         <concept code="278152006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="groupe sanguin A négatif"/>
+         <concept code="278153001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="groupe sanguin B négatif"/>
+         <concept code="278154007"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="groupe sanguin AB négatif"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

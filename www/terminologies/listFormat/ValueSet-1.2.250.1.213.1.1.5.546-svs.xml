@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_ExamenMicroscopiqueTumeurInvasionVasculaire_CISIS"
+             displayName="JDV_ExamenMicroscopiqueTumeurInvasionVasculaire_CISIS"
+             id="1.2.250.1.213.1.1.5.546"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="C48190" codeSystem="" displayName="Absente"/>
+         <concept code="MED-732"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Présente dans les petits vaisseaux (lymphatiques ou veineux)"/>
+         <concept code="MED-733"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Présente dans les veines intra-murales"/>
+         <concept code="MED-734"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Présente dans les veines extra-murales"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

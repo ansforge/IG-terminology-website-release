@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230911000000"
+             dateValid="20210315000000"
+             description="JDV_J164_GlucoseNumberOfDays_ENS"
+             displayName="JDV_J164_GlucoseNumberOfDays_ENS"
+             id="1.2.250.1.213.1.1.5.640"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="GEN-092.08.05"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Autre(s) nombre de jours"/>
+         <concept code="GEN-275"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="7j"/>
+         <concept code="GEN-276"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="14j"/>
+         <concept code="GEN-277"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="30j"/>
+         <concept code="GEN-278"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="90j"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
