@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20240718000000"
+             dateValid="20210315000000"
+             description="JDV_DefaillanceMaterielle_CISIS"
+             displayName="JDV_DefaillanceMaterielle_CISIS"
+             id="1.2.250.1.213.1.1.5.526"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="A090000"
+                  codeSystem=""
+                  displayName="Problème lié à la liaison des dispositifs ou de leurs composants mis en place pour le transfert de liquide, de gaz, d’électricité ou de données."/>
+         <concept code="A180500"
+                  codeSystem=""
+                  displayName="Manque de documentation ou directives pour l’entretien."/>
+         <concept code="A060000"
+                  codeSystem=""
+                  displayName="Problème lié au dispositif qui envoi ou réceptionne des signaux ou des données (y compris les composants internes du dispositif et les périphériques externes)."/>
+         <concept code="A150000"
+                  codeSystem=""
+                  displayName="Problème lié au dispositif de transfert des liquides ou des gaz (p. ex., problème de dosage, d’alimentation, etc…)"/>
+         <concept code="A110000"
+                  codeSystem=""
+                  displayName="Problème lié à une défaillance des circuits électriques ou des composants du dispositif."/>
+         <concept code="A020602" codeSystem="" displayName="Matériel manquant"/>
+         <concept code="Z1203010101"
+                  codeSystem=""
+                  displayName="APPAREILS D’ANESTHÉSIE"/>
+         <concept code="Z120303" codeSystem="" displayName="ÉQUIPEMENTS DE PERFUSION"/>
+         <concept code="Z1203"
+                  codeSystem=""
+                  displayName="ÉQUIPEMENTS DE SURVEILLANCE DES SIGNAUX VITAUX ET DE MAINTIEN DES FONCTIONS VITALES"/>
+         <concept code="Z1203019001"
+                  codeSystem=""
+                  displayName="ÉQUIPEMENTS DE SURVEILLANCE DE LA RELAXATION NEUROMUSCULAIRE"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

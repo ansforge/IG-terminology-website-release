@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="1.2.250.1.213.1.1.5.526"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2024-12-19T05:03:02.251+00:00"/>
+    <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+  </meta>
+  <language value="fr-FR"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR"><p class="res-header-id"><b>Generated Narrative: ValueSet 1.2.250.1.213.1.1.5.526</b></p><a name="1.2.250.1.213.1.1.5.526"> </a><a name="hc1.2.250.1.213.1.1.5.526"> </a><a name="1.2.250.1.213.1.1.5.526-fr-FR"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 1; Last updated: 2024-12-19 05:03:02+0000; Language: fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablevalueset.html">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Include ces codes sont définis dans <code>https://www.imdrf.org</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>A090000</td><td>Problème lié à la liaison des dispositifs ou de leurs composants mis en place pour le transfert de liquide, de gaz, d’électricité ou de données.</td></tr><tr><td>A180500</td><td>Manque de documentation ou directives pour l’entretien.</td></tr><tr><td>A060000</td><td>Problème lié au dispositif qui envoi ou réceptionne des signaux ou des données (y compris les composants internes du dispositif et les périphériques externes).</td></tr><tr><td>A150000</td><td>Problème lié au dispositif de transfert des liquides ou des gaz (p. ex., problème de dosage, d’alimentation, etc…)</td></tr><tr><td>A110000</td><td>Problème lié à une défaillance des circuits électriques ou des composants du dispositif.</td></tr><tr><td>A020602</td><td>Matériel manquant</td></tr></table></li><li>Include ces codes sont définis dans <code>https://smt-pprod.esante.gouv.fr/terminologie-emdn</code><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>Z1203010101</td><td>APPAREILS D’ANESTHÉSIE</td></tr><tr><td>Z120303</td><td>ÉQUIPEMENTS DE PERFUSION</td></tr><tr><td>Z1203</td><td>ÉQUIPEMENTS DE SURVEILLANCE DES SIGNAUX VITAUX ET DE MAINTIEN DES FONCTIONS VITALES</td></tr><tr><td>Z1203019001</td><td>ÉQUIPEMENTS DE SURVEILLANCE DE LA RELAXATION NEUROMUSCULAIRE</td></tr></table></li></ul></div>
+  </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod">
+    <valuePeriod>
+      <start value="2021-03-15T00:00:00+01:00"/>
+    </valuePeriod>
+  </extension>
+  <url value="https://smt.esante.gouv.fr/fhir/ValueSet/1.2.250.1.213.1.1.5.526"/>
+  <identifier>
+    <system value="urn:ietf:rfc:3986"/>
+    <value value="urn:oid:1.2.250.1.213.1.1.5.526"/>
+  </identifier>
+  <version value="20240718000000"/>
+  <name value="JDV_DefaillanceMaterielle_CISIS"/>
+  <title value="JDV_DefaillanceMaterielle_CISIS"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2024-07-18T00:00:00+01:00"/>
+  <publisher value="Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
+  <description value="JDV_DefaillanceMaterielle_CISIS"/>
+  <compose>
+    <include>
+      <system value="https://www.imdrf.org"/>
+      <concept>
+        <code value="A090000"/>
+        <display value="Problème lié à la liaison des dispositifs ou de leurs composants mis en place pour le transfert de liquide, de gaz, d’électricité ou de données."/>
+      </concept>
+      <concept>
+        <code value="A180500"/>
+        <display value="Manque de documentation ou directives pour l’entretien."/>
+      </concept>
+      <concept>
+        <code value="A060000"/>
+        <display value="Problème lié au dispositif qui envoi ou réceptionne des signaux ou des données (y compris les composants internes du dispositif et les périphériques externes)."/>
+      </concept>
+      <concept>
+        <code value="A150000"/>
+        <display value="Problème lié au dispositif de transfert des liquides ou des gaz (p. ex., problème de dosage, d’alimentation, etc…)"/>
+      </concept>
+      <concept>
+        <code value="A110000"/>
+        <display value="Problème lié à une défaillance des circuits électriques ou des composants du dispositif."/>
+      </concept>
+      <concept>
+        <code value="A020602"/>
+        <display value="Matériel manquant"/>
+      </concept>
+    </include>
+    <include>
+      <system value="https://smt-pprod.esante.gouv.fr/terminologie-emdn"/>
+      <concept>
+        <code value="Z1203010101"/>
+        <display value="APPAREILS D’ANESTHÉSIE"/>
+      </concept>
+      <concept>
+        <code value="Z120303"/>
+        <display value="ÉQUIPEMENTS DE PERFUSION"/>
+      </concept>
+      <concept>
+        <code value="Z1203"/>
+        <display value="ÉQUIPEMENTS DE SURVEILLANCE DES SIGNAUX VITAUX ET DE MAINTIEN DES FONCTIONS VITALES"/>
+      </concept>
+      <concept>
+        <code value="Z1203019001"/>
+        <display value="ÉQUIPEMENTS DE SURVEILLANCE DE LA RELAXATION NEUROMUSCULAIRE"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

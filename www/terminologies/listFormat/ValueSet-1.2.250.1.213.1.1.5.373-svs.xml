@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_Pharynx_Extension_microscopique_macroscopique_tumeur_CISIS"
+             displayName="JDV_Pharynx_Extension_microscopique_macroscopique_tumeur_CISIS"
+             id="1.2.250.1.213.1.1.5.373"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="1296" codeSystem="" displayName="Cartilage thyroide"/>
+         <concept code="1297" codeSystem="" displayName="Cartilage cricoide"/>
+         <concept code="1298" codeSystem="" displayName="Os hyoïde"/>
+         <concept code="1299" codeSystem="" displayName="Glande thyroide"/>
+         <concept code="1300" codeSystem="" displayName="Oesophage"/>
+         <concept code="1301"
+                  codeSystem=""
+                  displayName="Tissu mou du compartiment central"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

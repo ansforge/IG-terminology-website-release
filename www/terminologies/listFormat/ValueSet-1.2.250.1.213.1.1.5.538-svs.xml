@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_ExamenMacroscopiePeritoine_CISIS"
+             displayName="JDV_ExamenMacroscopiePeritoine_CISIS"
+             id="1.2.250.1.213.1.1.5.538"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="MED-701"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Pas d’aspect macroscopique d’invasion"/>
+         <concept code="MED-702"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Invasion de la surface péritonéale en &#xD;&#xA;regard de la tumeur"/>
+         <concept code="MED-703"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Présence de nodules péritonéaux &#xD;&#xA;à distance de la tumeur"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

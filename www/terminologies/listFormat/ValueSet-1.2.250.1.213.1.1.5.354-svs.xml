@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20230404000000"
+             dateValid="20210315000000"
+             description="JDV_Ovaire_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"
+             displayName="JDV_Ovaire_Type_histologique_lesion_neoplasique_maligne_invasive_CISIS"
+             id="1.2.250.1.213.1.1.5.354"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <concept code="602"
+                  codeSystem=""
+                  displayName="Tumeur épithéliale séreuse borderline"/>
+         <concept code="603" codeSystem="" displayName="Adenocarcinome séreux"/>
+         <concept code="604" codeSystem="" displayName="Tumeur épithéliale mucineuse"/>
+         <concept code="605" codeSystem="" displayName="Adénocarcinome mucineux"/>
+         <concept code="606"
+                  codeSystem=""
+                  displayName="Tumeur épithéliale endométrioïde borderline"/>
+         <concept code="607" codeSystem="" displayName="Adénocarcinome endometrioide"/>
+         <concept code="608"
+                  codeSystem=""
+                  displayName="Tumeur épithéliale à cellules claires borderline"/>
+         <concept code="609" codeSystem="" displayName="Carcinome à cellules claires"/>
+         <concept code="610"
+                  codeSystem=""
+                  displayName="Tumeur épithéliale à cellules transitionnelles borderline (tumeur de Brenner)"/>
+         <concept code="611"
+                  codeSystem=""
+                  displayName="Carcinome à cellules transitionnelles"/>
+         <concept code="612"
+                  codeSystem=""
+                  displayName="Tumeur épithéliale carcinome indifférencié"/>
+         <concept code="613" codeSystem="" displayName="Tumeur épithéliale autre"/>
+         <concept code="614" codeSystem="" displayName="Tumeur de Sertoli Leydig"/>
+         <concept code="615"
+                  codeSystem=""
+                  displayName="Tumeur de la granulosa adulte"/>
+         <concept code="616"
+                  codeSystem=""
+                  displayName="Tumeur de la granulosa juvénile"/>
+         <concept code="617"
+                  codeSystem=""
+                  displayName="Tumeur du stroma et des cordons sexuels autre"/>
+         <concept code="618" codeSystem="" displayName="Tumeur germinale : préciser"/>
+         <concept code="619" codeSystem="" displayName="Fibrosarcome"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
