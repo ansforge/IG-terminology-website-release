@@ -1,0 +1,132 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-512",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2320dc64-d0af-44a0-9972-759c7e9535c3-512",
+  "name" : "UnionTRE_R328_TypeScolarisationAndTRE_R328_TypeScolarisation",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "Etudiant/Apprenti",
+    "definition" : "La personne est étudiant(e) ou apprenti(e)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "Enfant scolarisé",
+    "definition" : "La personne est un enfant scolarisé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "Enfant non scolarisé",
+    "definition" : "La personne est un enfant non scolarisé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  }]
+}

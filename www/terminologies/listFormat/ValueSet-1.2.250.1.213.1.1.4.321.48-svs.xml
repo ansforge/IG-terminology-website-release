@@ -10,12 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-103"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Normal"/>
-         <concept code="AVC-178" codeSystem="" displayName="Somnolence ou coma léger"/>
-         <concept code="AVC-179" codeSystem="" displayName="Coma lourd"/>
-         <concept code="AVC-180" codeSystem="" displayName="Coma profond ou mort"/>
+         <Concept code="GEN-103" codeSystem="" displayName="Normal"/>
+         <Concept code="AVC-178" codeSystem="" displayName="Somnolence ou coma léger"/>
+         <Concept code="AVC-179" codeSystem="" displayName="Coma lourd"/>
+         <Concept code="AVC-180" codeSystem="" displayName="Coma profond ou mort"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

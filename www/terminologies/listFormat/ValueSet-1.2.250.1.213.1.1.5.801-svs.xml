@@ -10,15 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-354"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Véhicule thermique"/>
-         <concept code="GEN-355"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Véhicule électrique"/>
-         <concept code="GEN-356"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Véhicule hybride"/>
+         <Concept code="GEN-354" codeSystem="" displayName="Véhicule thermique"/>
+         <Concept code="GEN-355" codeSystem="" displayName="Véhicule électrique"/>
+         <Concept code="GEN-356" codeSystem="" displayName="Véhicule hybride"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

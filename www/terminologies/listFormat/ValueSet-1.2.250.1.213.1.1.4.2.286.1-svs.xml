@@ -10,23 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ORG-096"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Médecin traitant"/>
-         <concept code="ORG-097"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Correspondant"/>
-         <concept code="ORG-113"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="RCP"/>
-         <concept code="ORG-135"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-096" codeSystem="" displayName="Médecin traitant"/>
+         <Concept code="ORG-097" codeSystem="" displayName="Correspondant"/>
+         <Concept code="ORG-113" codeSystem="" displayName="RCP"/>
+         <Concept code="ORG-135"
+                  codeSystem=""
                   displayName="Session RCP et inscription"/>
-         <concept code="ORG-136"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-136"
+                  codeSystem=""
                   displayName="Médecin coordonateur de session"/>
-         <concept code="ORG-137"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-137"
+                  codeSystem=""
                   displayName="PS participant à la session de RCP"/>
       </ConceptList>
    </ValueSet>

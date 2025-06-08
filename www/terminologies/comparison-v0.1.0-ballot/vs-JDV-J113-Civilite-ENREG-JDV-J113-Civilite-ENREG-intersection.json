@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-864",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-864",
+  "name" : "IntersectionJDV_J113_Civilite_ENREGAndJDV_J113_Civilite_ENREG",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "M",
+        "display" : "Monsieur"
+      },
+      {
+        "code" : "MME",
+        "display" : "Madame"
+      }]
+    }]
+  }
+}

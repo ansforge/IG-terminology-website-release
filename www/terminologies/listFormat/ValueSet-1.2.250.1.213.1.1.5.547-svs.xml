@@ -10,13 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C48190" codeSystem="" displayName="Absente"/>
-         <concept code="MED-735"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Intramurale"/>
-         <concept code="MED-736"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Extramurale"/>
+         <Concept code="C48190" codeSystem="" displayName="Absente"/>
+         <Concept code="MED-735" codeSystem="" displayName="Intramurale"/>
+         <Concept code="MED-736" codeSystem="" displayName="Extramurale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

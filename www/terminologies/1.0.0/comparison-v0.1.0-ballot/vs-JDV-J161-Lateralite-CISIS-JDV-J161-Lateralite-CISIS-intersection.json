@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-1020",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-1020",
+  "name" : "IntersectionJDV_J161_Lateralite_CISISAndJDV_J161_Lateralite_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "24028007",
+        "display" : "droit"
+      },
+      {
+        "code" : "7771000",
+        "display" : "gauche"
+      },
+      {
+        "code" : "51440002",
+        "display" : "bilatéral"
+      },
+      {
+        "code" : "385432009",
+        "display" : "non applicable"
+      }]
+    }]
+  }
+}

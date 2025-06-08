@@ -10,22 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-168"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-168"
+                  codeSystem=""
                   displayName="Analgésie au cours du travail"/>
-         <concept code="MED-222"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Pas d'anesthésie"/>
-         <concept code="GEN-092.03.04"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre anesthésie"/>
-         <concept code="50697003"
+         <Concept code="MED-222" codeSystem="" displayName="Pas d'anesthésie"/>
+         <Concept code="GEN-092.03.04" codeSystem="" displayName="Autre anesthésie"/>
+         <Concept code="50697003"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="anesthésie générale"/>
-         <concept code="231249005"
+         <Concept code="231249005"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="anesthésie rachidienne"/>
-         <concept code="18946005"
+         <Concept code="18946005"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="anesthésie épidurale"/>
       </ConceptList>

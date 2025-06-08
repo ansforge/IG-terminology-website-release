@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20100101000000"
+             description="ObservationInterpretation"
+             displayName="ObservationInterpretation"
+             id="2.16.840.1.113883.1.11.78"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="&lt;"
+                  codeSystem=""
+                  displayName="Inférieur à la limite de détection"/>
+         <Concept code="&gt;"
+                  codeSystem=""
+                  displayName="Supérieur à la limite maximale de mesure"/>
+         <Concept code="A" codeSystem="" displayName="Anormal"/>
+         <Concept code="AA" codeSystem="" displayName="Très anormal, alerte"/>
+         <Concept code="B" codeSystem="" displayName="Amélioration"/>
+         <Concept code="CAR"
+                  codeSystem=""
+                  displayName="Porteur d'une forme altérée d'un gène"/>
+         <Concept code="D"
+                  codeSystem=""
+                  displayName="Diminution significative par rapport au résultat antérieur"/>
+         <Concept code="DET" codeSystem="" displayName="Détecté"/>
+         <Concept code="E" codeSystem="" displayName="Équivoque"/>
+         <Concept code="EX" codeSystem="" displayName="Hors seuils"/>
+         <Concept code="EXP" codeSystem="" displayName="Attendu"/>
+         <Concept code="H" codeSystem="" displayName="Anormalement haut"/>
+         <Concept code="HH"
+                  codeSystem=""
+                  displayName="Très anormalement haut, alerte"/>
+         <Concept code="HU" codeSystem="" displayName="Significativement haut"/>
+         <Concept code="HX" codeSystem="" displayName="Hors seuil supérieur"/>
+         <Concept code="I" codeSystem="" displayName="Intermédiaire"/>
+         <Concept code="IE" codeSystem="" displayName="Preuves insuffisantes"/>
+         <Concept code="IND" codeSystem="" displayName="Indéterminé"/>
+         <Concept code="L" codeSystem="" displayName="Anormalement bas"/>
+         <Concept code="LL" codeSystem="" displayName="Très anormalement bas, alerte"/>
+         <Concept code="LU" codeSystem="" displayName="Significativement bas"/>
+         <Concept code="LX" codeSystem="" displayName="Hors seuil inférieur"/>
+         <Concept code="N" codeSystem="" displayName="Normal"/>
+         <Concept code="NCL" codeSystem="" displayName="Pas de standard défini"/>
+         <Concept code="ND" codeSystem="" displayName="Non détecté"/>
+         <Concept code="NEG" codeSystem="" displayName="Négatif"/>
+         <Concept code="NR" codeSystem="" displayName="Non réactif"/>
+         <Concept code="NS" codeSystem="" displayName="Non sensible"/>
+         <Concept code="POS" codeSystem="" displayName="Positif"/>
+         <Concept code="R" codeSystem="" displayName="Résistant"/>
+         <Concept code="RR" codeSystem="" displayName="Réactif"/>
+         <Concept code="S" codeSystem="" displayName="Sensible"/>
+         <Concept code="SDD" codeSystem="" displayName="Sensible à forte dose"/>
+         <Concept code="SYN-R" codeSystem="" displayName="Synergie - résistant"/>
+         <Concept code="SYN-S" codeSystem="" displayName="Synergie - sensible"/>
+         <Concept code="U"
+                  codeSystem=""
+                  displayName="Augmentation significative par rapport au résultat antérieur"/>
+         <Concept code="UNE" codeSystem="" displayName="Inattendu"/>
+         <Concept code="W" codeSystem="" displayName="Dégradation"/>
+         <Concept code="WR" codeSystem="" displayName="Faiblement réactif"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

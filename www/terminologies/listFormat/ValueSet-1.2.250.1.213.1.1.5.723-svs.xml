@@ -10,24 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-303"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="GEN-303"
+                  codeSystem=""
                   displayName="Hologic ThinPrep PreservCyt"/>
-         <concept code="GEN-304"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="BD Surepath"/>
-         <concept code="GEN-305"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Easyfix VWR"/>
-         <concept code="GEN-306"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Cyt-ALL Alphapath"/>
-         <concept code="GEN-307"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="GEN-304" codeSystem="" displayName="BD Surepath"/>
+         <Concept code="GEN-305" codeSystem="" displayName="Easyfix VWR"/>
+         <Concept code="GEN-306" codeSystem="" displayName="Cyt-ALL Alphapath"/>
+         <Concept code="GEN-307"
+                  codeSystem=""
                   displayName="Pretect Transportation Medium"/>
-         <concept code="GEN-092.08.07"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre milieu"/>
+         <Concept code="GEN-092.08.07" codeSystem="" displayName="Autre milieu"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

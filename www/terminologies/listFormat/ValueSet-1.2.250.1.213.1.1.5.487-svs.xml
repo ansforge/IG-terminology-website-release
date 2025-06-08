@@ -10,15 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-575"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Alimentation mixée"/>
-         <concept code="MED-576"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-575" codeSystem="" displayName="Alimentation mixée"/>
+         <Concept code="MED-576"
+                  codeSystem=""
                   displayName="Alimentation entérale par sonde"/>
-         <concept code="MED-577"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Alimentation parentérale"/>
+         <Concept code="MED-577" codeSystem="" displayName="Alimentation parentérale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

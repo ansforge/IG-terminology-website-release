@@ -10,14 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-659"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Non évaluable"/>
-         <concept code="MED-770"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-659" codeSystem="" displayName="Non évaluable"/>
+         <Concept code="MED-770"
+                  codeSystem=""
                   displayName="Bas grade (bien ou moyennement différencié)"/>
-         <concept code="MED-771"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-771"
+                  codeSystem=""
                   displayName="Haut grade (peu différencié ou indifférencié)"/>
       </ConceptList>
    </ValueSet>

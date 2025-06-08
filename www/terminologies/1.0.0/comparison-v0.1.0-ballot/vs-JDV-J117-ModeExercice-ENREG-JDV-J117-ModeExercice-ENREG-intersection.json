@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-876",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-876",
+  "name" : "IntersectionJDV_J117_ModeExercice_ENREGAndJDV_J117_ModeExercice_ENREG",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "S",
+        "display" : "Salarié"
+      },
+      {
+        "code" : "L",
+        "display" : "Libéral, indépendant, artisan, commerçant"
+      },
+      {
+        "code" : "B",
+        "display" : "Bénévole"
+      }]
+    }]
+  }
+}

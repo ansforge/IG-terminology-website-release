@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-885",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-885",
+  "name" : "IntersectionJDV_J12_CiviliteTitre_CISISAndJDV_J12_CiviliteTitre_CISIS",
+  "title" : "Intersection of JDV J12 CiviliteTitre CISIS And JDV J12 CiviliteTitre CISIS",
+  "status" : "retired",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "M",
+        "display" : "Monsieur"
+      },
+      {
+        "code" : "MME",
+        "display" : "Madame"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "DR",
+        "display" : "Docteur"
+      },
+      {
+        "code" : "PR",
+        "display" : "Professeur"
+      }]
+    }]
+  }
+}

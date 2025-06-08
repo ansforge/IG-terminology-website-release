@@ -10,14 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-1256"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1256"
+                  codeSystem=""
                   displayName="Alimentation lait maternel exclusif"/>
-         <concept code="MED-1257"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Alimentation mixte"/>
-         <concept code="MED-1258"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1257" codeSystem="" displayName="Alimentation mixte"/>
+         <Concept code="MED-1258"
+                  codeSystem=""
                   displayName="Alimentation lait artificiel exclusif"/>
       </ConceptList>
    </ValueSet>

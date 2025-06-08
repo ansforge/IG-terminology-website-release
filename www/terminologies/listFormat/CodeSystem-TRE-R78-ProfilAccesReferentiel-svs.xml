@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20250523120000"
              dateValid="20160901000000"
              description="Profil d'accès aux référentiels"
              displayName="TRE_R78_ProfilAccesReferentiel"
@@ -10,7 +10,7 @@
              typeFichier="TRE"
              urlFichier="https://mos.esante.gouv.fr/NOS/TRE_R78-ProfilAccesReferentiel">
       <ConceptList>
-         <concept code="CU01"
+         <Concept code="CU01"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -19,7 +19,7 @@
                   longDesignation="Services du ministère chargé de la santé"
                   shortDesignation="Services du ministère chargé de la santé"
                   descriptionMetier=""/>
-         <concept code="CU02"
+         <Concept code="CU02"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -28,7 +28,7 @@
                   longDesignation="Agences régionales de santé"
                   shortDesignation="Agences régionales de santé"
                   descriptionMetier=""/>
-         <concept code="CU03"
+         <Concept code="CU03"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -37,7 +37,7 @@
                   longDesignation="SSA et autres autorités employeurs"
                   shortDesignation="SSA et autres autorités employeurs"
                   descriptionMetier=""/>
-         <concept code="CU04"
+         <Concept code="CU04"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -46,7 +46,7 @@
                   longDesignation="Conseils des Ordres"
                   shortDesignation="Conseils des Ordres"
                   descriptionMetier=""/>
-         <concept code="CU05"
+         <Concept code="CU05"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -55,7 +55,7 @@
                   longDesignation="Autorités et représentants Etat dans COM"
                   shortDesignation="Autorités et représentants Etat dans COM"
                   descriptionMetier=""/>
-         <concept code="CU06"
+         <Concept code="CU06"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -64,7 +64,7 @@
                   longDesignation="CNAMTS"
                   shortDesignation="CNAMTS"
                   descriptionMetier=""/>
-         <concept code="CU07"
+         <Concept code="CU07"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -73,7 +73,7 @@
                   longDesignation="Régimes d'AMO dans les COM"
                   shortDesignation="Régimes d'AMO dans les COM"
                   descriptionMetier=""/>
-         <concept code="CU08"
+         <Concept code="CU08"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -82,7 +82,7 @@
                   longDesignation="ASIP Santé"
                   shortDesignation="ASIP Santé"
                   descriptionMetier=""/>
-         <concept code="CU09"
+         <Concept code="CU09"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -91,7 +91,7 @@
                   longDesignation="CPAM et CGSS"
                   shortDesignation="CPAM et CGSS"
                   descriptionMetier=""/>
-         <concept code="CU10"
+         <Concept code="CU10"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -100,7 +100,7 @@
                   longDesignation="Autres services de l'Etat"
                   shortDesignation="Autres services de l'Etat"
                   descriptionMetier=""/>
-         <concept code="CU11"
+         <Concept code="CU11"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -109,7 +109,7 @@
                   longDesignation="Etablissements et services de santé 6ème partie CSP, Collectivités territoriales et Associations gestionnaires d'un service sanitaire ou social"
                   shortDesignation="Etabs, servs santé 6è partie CSP, Collecs territ, Assos gest service san ou soc"
                   descriptionMetier=""/>
-         <concept code="CU12"
+         <Concept code="CU12"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -118,7 +118,7 @@
                   longDesignation="Etablissements médico-sociaux ou sociaux"
                   shortDesignation="Etablissements médico-sociaux ou sociaux"
                   descriptionMetier=""/>
-         <concept code="CU13"
+         <Concept code="CU13"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -127,7 +127,7 @@
                   longDesignation="Autres établissements publics, groupements, organismes créés par la loi ou le règlement dans le domaine sanitaire et social"
                   shortDesignation="Autres étab pub, groupmts, orgs créés par loi ou règlement ds dom san et soc"
                   descriptionMetier=""/>
-         <concept code="CU14"
+         <Concept code="CU14"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -136,7 +136,7 @@
                   longDesignation="Hébergeurs, éditeurs, imprimeurs d'ordonnances"
                   shortDesignation="Hébergeurs, éditeurs, imprimeurs d'ordonnances"
                   descriptionMetier=""/>
-         <concept code="CU15"
+         <Concept code="CU15"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -145,7 +145,7 @@
                   longDesignation="Organismes et établissements scientifiques avec mission d'agir pour développement et diffusion des connaissances dans le domaine sanitaire et social"
                   shortDesignation="Orgs, étabs scient mission agir dévt, diffusion connaissances domaine san et soc"
                   descriptionMetier=""/>
-         <concept code="CU16"
+         <Concept code="CU16"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -154,7 +154,7 @@
                   longDesignation="Autres régimes d'AMO et organismes d'AMC"
                   shortDesignation="Autres régimes d'AMO et organismes d'AMC"
                   descriptionMetier=""/>
-         <concept code="CU17"
+         <Concept code="CU17"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -163,7 +163,7 @@
                   longDesignation="Professionnel de santé"
                   shortDesignation="Professionnel de santé"
                   descriptionMetier=""/>
-         <concept code="CU18"
+         <Concept code="CU18"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20190329120000"
@@ -172,7 +172,7 @@
                   longDesignation="Orientation sanitaire et médico-sociale"
                   shortDesignation="Orientation sanitaire et médico-sociale"
                   descriptionMetier=""/>
-         <concept code="CU19"
+         <Concept code="CU19"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20190329120000"
@@ -181,7 +181,7 @@
                   longDesignation="Orientation médico-sociale"
                   shortDesignation="Orientation médico-sociale"
                   descriptionMetier=""/>
-         <concept code="CU20"
+         <Concept code="CU20"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20190329120000"
@@ -190,7 +190,7 @@
                   longDesignation="Coordination sanitaire et médico-sociale"
                   shortDesignation="Coordination sanitaire et médico-sociale"
                   descriptionMetier=""/>
-         <concept code="CU21"
+         <Concept code="CU21"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20190329120000"
@@ -199,7 +199,7 @@
                   longDesignation="Coordination médico-sociale"
                   shortDesignation="Coordination médico-sociale"
                   descriptionMetier=""/>
-         <concept code="CU22"
+         <Concept code="CU22"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20190329120000"
@@ -208,7 +208,7 @@
                   longDesignation="Régulation de soins non programmés"
                   shortDesignation="Régulation de soins non programmés"
                   descriptionMetier=""/>
-         <concept code="CU23"
+         <Concept code="CU23"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20190329120000"
@@ -217,7 +217,7 @@
                   longDesignation="Accès public"
                   shortDesignation="Accès public"
                   descriptionMetier=""/>
-         <concept code="CU24"
+         <Concept code="CU24"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20230127120000"
@@ -226,7 +226,7 @@
                   longDesignation="Gestionnaire de DAC (MAIA, …)"
                   shortDesignation="Gestionnaire de DAC (MAIA, …)"
                   descriptionMetier=""/>
-         <concept code="CU25"
+         <Concept code="CU25"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20230127120000"
@@ -235,7 +235,7 @@
                   longDesignation="Gestion de crise"
                   shortDesignation="Gestion de crise"
                   descriptionMetier=""/>
-         <concept code="CU26"
+         <Concept code="CU26"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20230127120000"
@@ -244,7 +244,7 @@
                   longDesignation="Gestion de l'offre sanitaire et médico-sociale"
                   shortDesignation="Gestion de l'offre sanitaire et médico-sociale"
                   descriptionMetier=""/>
-         <concept code="CU27"
+         <Concept code="CU27"
                   codeSystem="1.2.250.1.213.1.6.1.66"
                   dateFin=""
                   dateMaj="20230127120000"
@@ -252,6 +252,33 @@
                   displayName="Gestion de l'offre médico-sociale"
                   longDesignation="Gestion de l'offre médico-sociale"
                   shortDesignation="Gestion de l'offre médico-sociale"
+                  descriptionMetier=""/>
+         <Concept code="CU28"
+                  codeSystem="1.2.250.1.213.1.6.1.66"
+                  dateFin=""
+                  dateMaj="20250523120000"
+                  dateValid="20250523120000"
+                  displayName="Pilotage de l'offre sanitaire"
+                  longDesignation="Pilotage de l'offre sanitaire"
+                  shortDesignation="Pilotage de l'offre sanitaire"
+                  descriptionMetier=""/>
+         <Concept code="CU29"
+                  codeSystem="1.2.250.1.213.1.6.1.66"
+                  dateFin=""
+                  dateMaj="20250523120000"
+                  dateValid="20250523120000"
+                  displayName="Pilotage de l'offre médico-sociale"
+                  longDesignation="Pilotage de l'offre médico-sociale"
+                  shortDesignation="Pilotage de l'offre médico-sociale"
+                  descriptionMetier=""/>
+         <Concept code="CU30"
+                  codeSystem="1.2.250.1.213.1.6.1.66"
+                  dateFin=""
+                  dateMaj="20250523120000"
+                  dateValid="20250523120000"
+                  displayName="Orientation sanitaire et médico-sociale sans disponibilité en lit"
+                  longDesignation="Orientation sanitaire et médico-sociale sans disponibilité en lit"
+                  shortDesignation="Orientation sanitaire et médico-sociale sans disponibilité en lit"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

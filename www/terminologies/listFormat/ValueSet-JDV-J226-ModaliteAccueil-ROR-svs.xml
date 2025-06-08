@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250131120000"
+             dateMaj="20250425120000"
              dateValid="20220826120000"
              description="Modalité d'accueil"
              displayName="JDV_J226_ModaliteAccueil_ROR"
@@ -10,55 +10,61 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR">
       <ConceptList>
-         <concept code="01"
+         <Concept code="01"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Accueil séquentiel accepté"/>
-         <concept code="02"
+         <Concept code="02"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Prise en charge directe SMUR"/>
-         <concept code="03"
+         <Concept code="03"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Consultation en présentiel"/>
-         <concept code="04"
+         <Concept code="04"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Téléconsultation"/>
-         <concept code="05"
+         <Concept code="05"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Visite à domicile"/>
-         <concept code="06"
+         <Concept code="06"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Prise en charge sans rendez-vous"/>
-         <concept code="07"
+         <Concept code="07"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Accueil anonyme"/>
-         <concept code="08"
+         <Concept code="08"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Accueil réservé aux femmes"/>
-         <concept code="09"
+         <Concept code="09"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Participation aux gardes/astreintes"/>
-         <concept code="10"
+         <Concept code="10"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Téléexpertise en moins de 24h"/>
-         <concept code="11"
+         <Concept code="11"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Téléexpertise en moins de 7 jours"/>
-         <concept code="12"
+         <Concept code="12"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Téléexpertise en plus de 7 jours"/>
-         <concept code="13"
+         <Concept code="13"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Admission directe non programmée - personne âgée (PA)"/>
-         <concept code="14" codeSystem="1.2.250.1.213.3.3.221" displayName="Télésoin"/>
-         <concept code="15"
+         <Concept code="14" codeSystem="1.2.250.1.213.3.3.221" displayName="Télésoin"/>
+         <Concept code="15"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Consultation dans des locaux dédiés - personnes en situation de handicap (PH)"/>
-         <concept code="16"
+         <Concept code="16"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Consultation sans locaux dédiés - personnes en situation de handicap (PH)"/>
-         <concept code="17"
+         <Concept code="17"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="HandiBloc"/>
+         <Concept code="18"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  displayName="Intra-hospitalier"/>
+         <Concept code="19"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  displayName="Extra-hospitalier"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

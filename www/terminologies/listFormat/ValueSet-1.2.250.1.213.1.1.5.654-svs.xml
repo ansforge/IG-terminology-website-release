@@ -10,28 +10,22 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C80261" codeSystem="" displayName="Monture"/>
-         <concept code="C101668" codeSystem="" displayName="Marque"/>
-         <concept code="C43383" codeSystem="" displayName="modèle"/>
-         <concept code="MED-1181"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Date de délivrance"/>
-         <concept code="GEN-292"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Commentaire"/>
-         <concept code="MED-890"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="C80261" codeSystem="" displayName="Monture"/>
+         <Concept code="C101668" codeSystem="" displayName="Marque"/>
+         <Concept code="C43383" codeSystem="" displayName="modèle"/>
+         <Concept code="MED-1181" codeSystem="" displayName="Date de délivrance"/>
+         <Concept code="GEN-292" codeSystem="" displayName="Commentaire"/>
+         <Concept code="MED-890"
+                  codeSystem=""
                   displayName="Demi-écart interpupillaire VL"/>
-         <concept code="MED-891"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-891"
+                  codeSystem=""
                   displayName="Demi-écart interpupillaire VI"/>
-         <concept code="MED-892"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-892"
+                  codeSystem=""
                   displayName="Demi-écart interpupillaire VP"/>
-         <concept code="MED-893"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Hauteur de montage"/>
-         <concept code="64885-7" codeSystem="" displayName="Types de verres"/>
+         <Concept code="MED-893" codeSystem="" displayName="Hauteur de montage"/>
+         <Concept code="64885-7" codeSystem="" displayName="Types de verres"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,16 +10,16 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J181-BesoinMobilite-MDPH">
       <ConceptList>
-         <concept code="01"
+         <Concept code="01"
                   codeSystem="1.2.250.1.213.3.3.77"
                   displayName="Pour se déplacer à l'extérieur des locaux"/>
-         <concept code="02"
+         <Concept code="02"
                   codeSystem="1.2.250.1.213.3.3.77"
                   displayName="Pour se déplacer à l'intérieur des locaux"/>
-         <concept code="03"
+         <Concept code="03"
                   codeSystem="1.2.250.1.213.3.3.77"
                   displayName="Pour utiliser les transports en commun"/>
-         <concept code="02" codeSystem="1.2.250.1.213.3.3.70" displayName="Autre"/>
+         <Concept code="02" codeSystem="1.2.250.1.213.3.3.70" displayName="Autre"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

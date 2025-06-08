@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-948",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-948",
+  "name" : "IntersectionJDV_J139_TypeBAL_RASSAndJDV_J139_TypeBAL_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "PER",
+        "display" : "Boîte aux lettres personnelle"
+      },
+      {
+        "code" : "ORG",
+        "display" : "Boîte aux lettres organisationnelle"
+      },
+      {
+        "code" : "APP",
+        "display" : "Boîte aux lettres applicative"
+      },
+      {
+        "code" : "CAB",
+        "display" : "Boîte aux lettres cabinet"
+      }]
+    }]
+  }
+}

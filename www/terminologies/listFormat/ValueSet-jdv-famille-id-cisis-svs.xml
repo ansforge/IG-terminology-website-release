@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103858"
+             dateValid="20100101000000"
+             description="JDV Famille Id CISIS"
+             displayName="JdvFamilleIdCisis"
+             id="1.2.250.1.213.1.1.5.89"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="DAU" codeSystem="" displayName="Fille"/>
+         <Concept code="PGRMTH" codeSystem="" displayName="Grand-mère paternelle"/>
+         <Concept code="MGRMTH" codeSystem="" displayName="Grand-mère maternelle"/>
+         <Concept code="MTH" codeSystem="" displayName="Mère"/>
+         <Concept code="SIS" codeSystem="" displayName="Sœur"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

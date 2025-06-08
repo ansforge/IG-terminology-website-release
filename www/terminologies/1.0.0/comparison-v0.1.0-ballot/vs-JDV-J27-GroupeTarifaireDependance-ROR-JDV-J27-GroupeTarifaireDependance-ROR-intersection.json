@@ -1,0 +1,25 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-1341",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-1341",
+  "name" : "IntersectionJDV_J27_GroupeTarifaireDependance_RORAndJDV_J27_GroupeTarifaireDependance_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "GIR 1-2"
+      },
+      {
+        "code" : "02",
+        "display" : "GIR 3-4"
+      },
+      {
+        "code" : "03",
+        "display" : "GIR 5-6"
+      }]
+    }]
+  }
+}

@@ -10,13 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C29744" codeSystem="" displayName="Formol (FFPE)"/>
-         <concept code="GEN-092"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre"/>
-         <concept code="GEN-092.03.05"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre"/>
+         <Concept code="C29744" codeSystem="" displayName="Formol (FFPE)"/>
+         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
+         <Concept code="GEN-092.03.05" codeSystem="" displayName="Autre"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,15 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C80261" codeSystem="" displayName="Monture"/>
-         <concept code="GEN-292"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Commentaire"/>
-         <concept code="MED-888"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="C80261" codeSystem="" displayName="Monture"/>
+         <Concept code="GEN-292" codeSystem="" displayName="Commentaire"/>
+         <Concept code="MED-888"
+                  codeSystem=""
                   displayName="Intolérance aux verres progressifs"/>
-         <concept code="28792-0" codeSystem="" displayName="Ecart interpupillaire"/>
-         <concept code="64885-7" codeSystem="" displayName="Types de verres"/>
+         <Concept code="28792-0" codeSystem="" displayName="Ecart interpupillaire"/>
+         <Concept code="64885-7" codeSystem="" displayName="Types de verres"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

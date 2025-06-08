@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1010",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1010",
+  "name" : "UnionJDV_J158_MethodStepsByDay_ENSAndJDV_J158_MethodStepsByDay_ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Y210905",
+        "display" : "INTERFACES DE CAPTEURS EXTERNES"
+      },
+      {
+        "code" : "Z120626",
+        "display" : "SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT"
+      },
+      {
+        "code" : "Z12062692",
+        "display" : "SYSTÈMES D'ANALYSE DE LA DYNAMIQUE DU MOUVEMENT - LOGICIELS QUALIFIÉS DM"
+      }]
+    }]
+  }
+}

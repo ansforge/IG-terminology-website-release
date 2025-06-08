@@ -10,21 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-081"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-081"
+                  codeSystem=""
                   displayName="Chromosomique (caryotype, FISH)"/>
-         <concept code="MED-082"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="ACPA"/>
-         <concept code="MED-083"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-082" codeSystem="" displayName="ACPA"/>
+         <Concept code="MED-083"
+                  codeSystem=""
                   displayName="Analyse moléculaire ciblée (1 ou plusieurs gènes)"/>
-         <concept code="MED-084"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Analyse pangénomique"/>
-         <concept code="GEN-092.04.17"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre technique"/>
+         <Concept code="MED-084" codeSystem="" displayName="Analyse pangénomique"/>
+         <Concept code="GEN-092.04.17" codeSystem="" displayName="Autre technique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

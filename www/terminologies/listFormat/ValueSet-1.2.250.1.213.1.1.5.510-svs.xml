@@ -10,15 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-229"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Problème présent"/>
-         <concept code="GEN-230"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Problème potentiel"/>
-         <concept code="MED-275"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Aucun problème"/>
+         <Concept code="GEN-229" codeSystem="" displayName="Problème présent"/>
+         <Concept code="GEN-230" codeSystem="" displayName="Problème potentiel"/>
+         <Concept code="MED-275" codeSystem="" displayName="Aucun problème"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

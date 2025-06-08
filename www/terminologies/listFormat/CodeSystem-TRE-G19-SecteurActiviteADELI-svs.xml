@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240726120000"
+             dateMaj="20250523120000"
              dateValid="20070725150444"
              description="Secteur d'activité ADELI"
              displayName="TRE_G19_SecteurActiviteADELI"
@@ -10,7 +10,7 @@
              typeFichier="TRE"
              urlFichier="https://mos.esante.gouv.fr/NOS/TRE_G19-SecteurActiviteADELI">
       <ConceptList>
-         <concept code="10"
+         <Concept code="10"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -19,7 +19,7 @@
                   longDesignation="Etablissement public de santé"
                   shortDesignation="Etablissement public de santé"
                   descriptionMetier=""/>
-         <concept code="11"
+         <Concept code="11"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -28,7 +28,7 @@
                   longDesignation="Hôpital militaire du Service de santé des armées"
                   shortDesignation="Hôpital militaire SSA"
                   descriptionMetier=""/>
-         <concept code="16"
+         <Concept code="16"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -37,7 +37,7 @@
                   longDesignation="Etablissement privé PSPH"
                   shortDesignation="Etab privé PSPH"
                   descriptionMetier=""/>
-         <concept code="17"
+         <Concept code="17"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -46,7 +46,7 @@
                   longDesignation="Etablissement privé non PSPH"
                   shortDesignation="Etab privé non PSPH"
                   descriptionMetier=""/>
-         <concept code="25"
+         <Concept code="25"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20080228000000"
@@ -55,7 +55,7 @@
                   longDesignation="Centre de santé"
                   shortDesignation="Centre de santé"
                   descriptionMetier=""/>
-         <concept code="26"
+         <Concept code="26"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -64,7 +64,7 @@
                   longDesignation="Autre structure du Service de santé des armées"
                   shortDesignation="Autre structure SSA"
                   descriptionMetier=""/>
-         <concept code="31"
+         <Concept code="31"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20080228000000"
@@ -73,7 +73,7 @@
                   longDesignation="Cabinet individuel"
                   shortDesignation="Cabinet individuel"
                   descriptionMetier=""/>
-         <concept code="32"
+         <Concept code="32"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20080228000000"
@@ -82,7 +82,7 @@
                   longDesignation="Cabinet de groupe"
                   shortDesignation="Cabinet de groupe"
                   descriptionMetier=""/>
-         <concept code="33"
+         <Concept code="33"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -91,7 +91,7 @@
                   longDesignation="Exercice en société"
                   shortDesignation="Exercice en société"
                   descriptionMetier=""/>
-         <concept code="34"
+         <Concept code="34"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -100,7 +100,7 @@
                   longDesignation="Secteur privé, praticien hospitalier temps plein"
                   shortDesignation="Secteur privé, PH TP"
                   descriptionMetier=""/>
-         <concept code="35"
+         <Concept code="35"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -109,7 +109,7 @@
                   longDesignation="Transporteur sanitaire"
                   shortDesignation="Transport sanitaire"
                   descriptionMetier=""/>
-         <concept code="37"
+         <Concept code="37"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin="20200626120000"
                   dateMaj="20200626120000"
@@ -118,7 +118,7 @@
                   longDesignation="Entreprise d'intérim"
                   shortDesignation="Entreprise d'intérim"
                   descriptionMetier=""/>
-         <concept code="41"
+         <Concept code="41"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -127,7 +127,7 @@
                   longDesignation="Etablissement de soins et prévention"
                   shortDesignation="Etab de soins et prévention"
                   descriptionMetier=""/>
-         <concept code="42"
+         <Concept code="42"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -136,7 +136,7 @@
                   longDesignation="Prévention et soins en entreprise"
                   shortDesignation="Prévent, soins en entreprise"
                   descriptionMetier=""/>
-         <concept code="43"
+         <Concept code="43"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -145,7 +145,7 @@
                   longDesignation="Etablissement scolaire ou universitaire"
                   shortDesignation="Etab scolaire ou universitaire"
                   descriptionMetier=""/>
-         <concept code="44"
+         <Concept code="44"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -154,7 +154,7 @@
                   longDesignation="Recrutement ou Gestion RH"
                   shortDesignation="Recrutement, Gestion RH"
                   descriptionMetier=""/>
-         <concept code="45"
+         <Concept code="45"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -163,7 +163,7 @@
                   longDesignation="PMI et Planification familiale"
                   shortDesignation="PMI, Planification familiale"
                   descriptionMetier=""/>
-         <concept code="51"
+         <Concept code="51"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -172,7 +172,7 @@
                   longDesignation="Etablissement pour personnes handicapées"
                   shortDesignation="Etab pour handicapés"
                   descriptionMetier=""/>
-         <concept code="52"
+         <Concept code="52"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -181,7 +181,7 @@
                   longDesignation="Communication, Marketing, Consulting, Média"
                   shortDesignation="Commun, Mark, Consult, Média"
                   descriptionMetier=""/>
-         <concept code="53"
+         <Concept code="53"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -190,7 +190,7 @@
                   longDesignation="Etablissement pour personnes âgées"
                   shortDesignation="Etab pour personnes âgées"
                   descriptionMetier=""/>
-         <concept code="54"
+         <Concept code="54"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -199,7 +199,7 @@
                   longDesignation="Etablissement aide à la famille"
                   shortDesignation="Etab aide à la famille"
                   descriptionMetier=""/>
-         <concept code="55"
+         <Concept code="55"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -208,7 +208,7 @@
                   longDesignation="Etablissement d'enseignement"
                   shortDesignation="Etab d'enseignement"
                   descriptionMetier=""/>
-         <concept code="56"
+         <Concept code="56"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -217,7 +217,7 @@
                   longDesignation="Etablissement pour la protection de l'enfance"
                   shortDesignation="Etab pour protection enfance"
                   descriptionMetier=""/>
-         <concept code="57"
+         <Concept code="57"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -226,7 +226,7 @@
                   longDesignation="Etablissement d'hébergement et de réadaptation"
                   shortDesignation="Etab hébergement, réadaptation"
                   descriptionMetier=""/>
-         <concept code="58"
+         <Concept code="58"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20101118000000"
@@ -235,7 +235,7 @@
                   longDesignation="Recherche"
                   shortDesignation="Recherche"
                   descriptionMetier=""/>
-         <concept code="61"
+         <Concept code="61"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -244,7 +244,7 @@
                   longDesignation="Assurance privée"
                   shortDesignation="Assurance privée"
                   descriptionMetier=""/>
-         <concept code="62"
+         <Concept code="62"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -253,7 +253,7 @@
                   longDesignation="Organisme de sécurité sociale"
                   shortDesignation="Organisme de sécurité sociale"
                   descriptionMetier=""/>
-         <concept code="65"
+         <Concept code="65"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -262,7 +262,7 @@
                   longDesignation="Ministère ou Service déconcentré"
                   shortDesignation="Ministère, Service déconcentré"
                   descriptionMetier=""/>
-         <concept code="66"
+         <Concept code="66"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -271,7 +271,7 @@
                   longDesignation="Collectivité territoriale"
                   shortDesignation="Collectivité territoriale"
                   descriptionMetier=""/>
-         <concept code="68"
+         <Concept code="68"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -280,7 +280,7 @@
                   longDesignation="Association ou organisme humanitaire"
                   shortDesignation="Asso ou organisme humanitaire"
                   descriptionMetier=""/>
-         <concept code="71"
+         <Concept code="71"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -289,7 +289,7 @@
                   longDesignation="Laboratoire (d'analyse et) de biologie médicale (LBM ou LABM)"
                   shortDesignation="LBM ou LABM"
                   descriptionMetier=""/>
-         <concept code="75"
+         <Concept code="75"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -298,7 +298,7 @@
                   longDesignation="Autre établissement sanitaire"
                   shortDesignation="Autre établissement sanitaire"
                   descriptionMetier=""/>
-         <concept code="81"
+         <Concept code="81"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -307,7 +307,7 @@
                   longDesignation="Répartition et Distribution de médicaments et dispositifs médicaux"
                   shortDesignation="Répart, Distrib médic et DM"
                   descriptionMetier=""/>
-         <concept code="85"
+         <Concept code="85"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20080228000000"
@@ -316,7 +316,7 @@
                   longDesignation="Appareillage médical"
                   shortDesignation="Appareillage médical"
                   descriptionMetier=""/>
-         <concept code="86"
+         <Concept code="86"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -325,7 +325,7 @@
                   longDesignation="Pharmacie d'officine"
                   shortDesignation="Pharmacie d'officine"
                   descriptionMetier=""/>
-         <concept code="87"
+         <Concept code="87"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20080228000000"
@@ -334,7 +334,7 @@
                   longDesignation="Centre de dialyse"
                   shortDesignation="Centre de dialyse"
                   descriptionMetier=""/>
-         <concept code="88"
+         <Concept code="88"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20080228000000"
@@ -343,7 +343,7 @@
                   longDesignation="Para-pharmacie"
                   shortDesignation="Para-pharmacie"
                   descriptionMetier=""/>
-         <concept code="91"
+         <Concept code="91"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20161222120000"
@@ -352,7 +352,7 @@
                   longDesignation="Autre établissement du domaine social ou médico-social"
                   shortDesignation="Autre étab dom (médico-)social"
                   descriptionMetier=""/>
-         <concept code="92"
+         <Concept code="92"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20080228000000"
@@ -361,7 +361,7 @@
                   longDesignation="Secteur non défini"
                   shortDesignation="Secteur non défini"
                   descriptionMetier=""/>
-         <concept code="93"
+         <Concept code="93"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20090824000000"
@@ -370,7 +370,7 @@
                   longDesignation="Centre anti-cancer"
                   shortDesignation="Centre anti-cancer"
                   descriptionMetier=""/>
-         <concept code="94"
+         <Concept code="94"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20080228000000"
@@ -379,7 +379,7 @@
                   longDesignation="Centre de transfusion sanguine"
                   shortDesignation="Centre transfusion sanguine"
                   descriptionMetier=""/>
-         <concept code="95"
+         <Concept code="95"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -388,7 +388,7 @@
                   longDesignation="Fabrication, Exploitation, Importation, Répartition, Distribution médicaments et dispositifs médicaux"
                   shortDesignation="Fab,Expl,Imp,Rép,Dis méd et DM"
                   descriptionMetier=""/>
-         <concept code="96"
+         <Concept code="96"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -397,7 +397,7 @@
                   longDesignation="Incendie et secours"
                   shortDesignation="Incendie et secours"
                   descriptionMetier=""/>
-         <concept code="97"
+         <Concept code="97"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -406,7 +406,7 @@
                   longDesignation="Entreprise industrielle et tertiaire hors industrie pharmaceutique"
                   shortDesignation="Ent industrielle et tertiaire"
                   descriptionMetier=""/>
-         <concept code="98"
+         <Concept code="98"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -415,7 +415,7 @@
                   longDesignation="Entité Outre-Mer"
                   shortDesignation="Entité Outre-Mer"
                   descriptionMetier=""/>
-         <concept code="99"
+         <Concept code="99"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -424,7 +424,7 @@
                   longDesignation="Fabrication, Exploitation et Importation de médicaments et dispositifs médicaux"
                   shortDesignation="Fab, Expl, Import médic et DM"
                   descriptionMetier=""/>
-         <concept code="100"
+         <Concept code="100"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -433,7 +433,7 @@
                   longDesignation="Structure d'urgence hors établissement hospitalier"
                   shortDesignation="Structure d'urgence hors hôp"
                   descriptionMetier=""/>
-         <concept code="101"
+         <Concept code="101"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -442,7 +442,7 @@
                   longDesignation="Structure de coopération avec autorisation de soins"
                   shortDesignation="Struct coop avec auto soins"
                   descriptionMetier=""/>
-         <concept code="102"
+         <Concept code="102"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -451,7 +451,7 @@
                   longDesignation="Maison de santé ou Pôle de santé"
                   shortDesignation="Maison de santé, Pôle de santé"
                   descriptionMetier=""/>
-         <concept code="103"
+         <Concept code="103"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -460,7 +460,7 @@
                   longDesignation="Siège administratif d'un établissement de santé"
                   shortDesignation="Siège administratif étab santé"
                   descriptionMetier=""/>
-         <concept code="104"
+         <Concept code="104"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -469,7 +469,7 @@
                   longDesignation="Centre de dépistage et de prévention"
                   shortDesignation="Centre dépistage et prévention"
                   descriptionMetier=""/>
-         <concept code="105"
+         <Concept code="105"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20161222120000"
@@ -478,7 +478,7 @@
                   longDesignation="Laboratoire pharmaceutique préparant et délivrant des allergènes"
                   shortDesignation="Labo pharmaceutique allergènes"
                   descriptionMetier=""/>
-         <concept code="106"
+         <Concept code="106"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20130123000000"
@@ -487,7 +487,7 @@
                   longDesignation="Propharmacie"
                   shortDesignation="Propharmacie"
                   descriptionMetier=""/>
-         <concept code="107"
+         <Concept code="107"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -496,7 +496,7 @@
                   longDesignation="Structure de coopération avec mission de coordination de soins"
                   shortDesignation="Struct coop mission coor soins"
                   descriptionMetier=""/>
-         <concept code="108"
+         <Concept code="108"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20140528000000"
@@ -505,7 +505,7 @@
                   longDesignation="Entreprise de taxis"
                   shortDesignation="Entreprise de taxis"
                   descriptionMetier=""/>
-         <concept code="109"
+         <Concept code="109"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20160901000000"
@@ -514,7 +514,7 @@
                   longDesignation="Laboratoire de biologie médicale hors catégorie standard"
                   shortDesignation="LBM hors catégorie stand"
                   descriptionMetier=""/>
-         <concept code="110"
+         <Concept code="110"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20161222120000"
@@ -523,7 +523,7 @@
                   longDesignation="Centres médicaux SNCF"
                   shortDesignation="Centres médicaux SNCF"
                   descriptionMetier=""/>
-         <concept code="111"
+         <Concept code="111"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20171013120000"
@@ -532,7 +532,7 @@
                   longDesignation="Structure Dispensatrice à domicile d'Oxygène à usage médical"
                   shortDesignation="Struct dispen oxygène domicile"
                   descriptionMetier=""/>
-         <concept code="112"
+         <Concept code="112"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20191213120000"
@@ -541,16 +541,16 @@
                   longDesignation="Ordre professionnel de santé"
                   shortDesignation="Ordre professionnel de santé"
                   descriptionMetier=""/>
-         <concept code="113"
+         <Concept code="113"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
-                  dateMaj="20200228120000"
+                  dateMaj="20250523120000"
                   dateValid="20200228120000"
-                  displayName="Communauté Professionnelle Territoriale de Santé"
-                  longDesignation="Communauté Professionnelle Territoriale de Santé"
-                  shortDesignation="CPTS"
-                  descriptionMetier="Les Communautés Professionnelles Territoriales de Santé (CPTS) ont été créées par la loi de modernisation de notre système de santé du 26 janvier 2016 (cf. articles Article L1434-12 et Article L1434-13 du code de la Santé Publique). Leur enregistrement est régi par l'instruction DGOS/DIR/DREES/DMSI/2020/12. Les CPTS sont un espace d'organisation et de coordination entre professionnels de santé et non pas des structures de soins : elles regroupent les professionnels de santé d'un même territoire qui souhaitent s'organiser - à leur initiative - autour d'un projet de santé pour répondre aux besoins de santé de la population. Les CPTS sont constituées entre des professionnels de santé, le cas échéant de maisons de santé, de centres de santé, de réseaux de santé, d'établissements de santé, d'établissements et de services médico-sociaux, des groupements de coopération sanitaire, et des groupements de coopération sociale et médicosociale. Grâce à l'accord conventionnel interprofessionnel (ACI) intervenu en 2019, les CPTS dont le projet de santé est validé par l'ARS sont enregistrés dans FINESS et peuvent bénéficier de financement de l'assurance maladie  Ne sont enregistrés dans FINESS que l'Entité Juridique et le siège social. Les établissements et professionnels constitutif d'une CPTS ne sont pas enregistrés dans FINESS."/>
-         <concept code="114"
+                  displayName="Structures de coordination et d'orientation"
+                  longDesignation="Structures de coordination et d'orientation"
+                  shortDesignation="Coordination et orientation"
+                  descriptionMetier="Structures non effectrices de soins permettant la coordination entre professionnels de santé et/ou l'orientation des personnes dans leur parcours de soins"/>
+         <Concept code="114"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20240628120000"
@@ -559,7 +559,7 @@
                   longDesignation="Société de téléconsultation"
                   shortDesignation="Société de téléconsultation"
                   descriptionMetier=""/>
-         <concept code="115"
+         <Concept code="115"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20240628120000"
@@ -568,7 +568,7 @@
                   longDesignation="Antenne de pharmacie"
                   shortDesignation="Antenne de pharmacie"
                   descriptionMetier=""/>
-         <concept code="116"
+         <Concept code="116"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20240531120000"
@@ -577,7 +577,7 @@
                   longDesignation="Services de Prévention et de Santé au Travail (SPST)"
                   shortDesignation="SPST"
                   descriptionMetier=""/>
-         <concept code="117"
+         <Concept code="117"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20240531120000"
@@ -586,7 +586,7 @@
                   longDesignation="Maisons médicales de garde (MMG)"
                   shortDesignation="MMG"
                   descriptionMetier=""/>
-         <concept code="118"
+         <Concept code="118"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20240726120000"
@@ -595,7 +595,7 @@
                   longDesignation="Services départementaux d'incendie et de secours"
                   shortDesignation="SDIS"
                   descriptionMetier=""/>
-         <concept code="119"
+         <Concept code="119"
                   codeSystem="1.2.250.1.71.1.2.23"
                   dateFin=""
                   dateMaj="20240726120000"

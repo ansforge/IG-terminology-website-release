@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-1532",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-1532",
+  "name" : "UnionJDV_J85_StatutInscription_RASSAndJDV_J85_StatutInscription_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "D",
+        "display" : "Définitif"
+      },
+      {
+        "code" : "N",
+        "display" : "Non inscrit"
+      },
+      {
+        "code" : "P",
+        "display" : "Provisoire"
+      },
+      {
+        "code" : "T",
+        "display" : "Transfert dossier"
+      }]
+    }]
+  }
+}

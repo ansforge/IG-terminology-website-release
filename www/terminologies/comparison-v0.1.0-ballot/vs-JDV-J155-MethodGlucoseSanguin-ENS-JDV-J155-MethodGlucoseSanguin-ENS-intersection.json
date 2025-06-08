@@ -1,0 +1,23 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1002",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1002",
+  "name" : "IntersectionJDV_J155_MethodGlucoseSanguin_ENSAndJDV_J155_MethodGlucoseSanguin_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Z1204011501",
+        "display" : "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "82078001",
+        "display" : "prélèvement d'un échantillon sanguin pour le laboratoire"
+      }]
+    }]
+  }
+}

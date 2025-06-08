@@ -10,7 +10,7 @@
              typeFichier="TRE"
              urlFichier="https://mos.esante.gouv.fr/NOS/TRE_A13-HL7ParticipationType">
       <ConceptList>
-         <concept code="ADM"
+         <Concept code="ADM"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -19,7 +19,7 @@
                   longDesignation="Responsable de l'admission"
                   shortDesignation="Responsable de l'admission"
                   descriptionMetier=""/>
-         <concept code="ALY"
+         <Concept code="ALY"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -28,7 +28,7 @@
                   longDesignation="Cible d'une observation (substance ou composant le plus spécifique)"
                   shortDesignation="Cible d'une observation"
                   descriptionMetier=""/>
-         <concept code="ATND"
+         <Concept code="ATND"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -37,7 +37,7 @@
                   longDesignation="Superviseur / Responsable des soins"
                   shortDesignation="Superviseur"
                   descriptionMetier=""/>
-         <concept code="AUT"
+         <Concept code="AUT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -46,7 +46,7 @@
                   longDesignation="Auteur"
                   shortDesignation="Auteur"
                   descriptionMetier=""/>
-         <concept code="AUTHEN"
+         <Concept code="AUTHEN"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -55,7 +55,7 @@
                   longDesignation="Valideur des résultats (ex : un biologiste ou un système expert)"
                   shortDesignation="Valideur des résultats"
                   descriptionMetier=""/>
-         <concept code="BBY"
+         <Concept code="BBY"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -64,7 +64,7 @@
                   longDesignation="Nouveau né"
                   shortDesignation="Nouveau né"
                   descriptionMetier=""/>
-         <concept code="BEN"
+         <Concept code="BEN"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -73,7 +73,7 @@
                   longDesignation="Bénéficiaire"
                   shortDesignation="Bénéficiaire"
                   descriptionMetier=""/>
-         <concept code="CAGNT"
+         <Concept code="CAGNT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -82,7 +82,7 @@
                   longDesignation="Agent causal"
                   shortDesignation="Agent causal"
                   descriptionMetier=""/>
-         <concept code="CALLBCK"
+         <Concept code="CALLBCK"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -91,7 +91,7 @@
                   longDesignation="Contact à rappeler"
                   shortDesignation="Contact à rappeler"
                   descriptionMetier=""/>
-         <concept code="CAT"
+         <Concept code="CAT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -100,7 +100,7 @@
                   longDesignation="Catalyseur"
                   shortDesignation="Catalyseur"
                   descriptionMetier=""/>
-         <concept code="CON"
+         <Concept code="CON"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -109,7 +109,7 @@
                   longDesignation="Consultant"
                   shortDesignation="Consultant"
                   descriptionMetier=""/>
-         <concept code="COV"
+         <Concept code="COV"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -118,7 +118,7 @@
                   longDesignation="Partie couverte (titulaire ou bénéficiaire)"
                   shortDesignation="Partie couverte"
                   descriptionMetier=""/>
-         <concept code="CSM"
+         <Concept code="CSM"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -127,7 +127,7 @@
                   longDesignation="Consommable"
                   shortDesignation="Consommable"
                   descriptionMetier=""/>
-         <concept code="CST"
+         <Concept code="CST"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -136,7 +136,7 @@
                   longDesignation="Responsable de l'information"
                   shortDesignation="Responsable de l'information"
                   descriptionMetier=""/>
-         <concept code="DEV"
+         <Concept code="DEV"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -145,7 +145,7 @@
                   longDesignation="Dispositif automatique impliqué dans la production des résultats (ex : un analyseur)"
                   shortDesignation="Dispositif automatique"
                   descriptionMetier=""/>
-         <concept code="DIR"
+         <Concept code="DIR"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -154,7 +154,7 @@
                   longDesignation="Participant direct"
                   shortDesignation="Participant direct"
                   descriptionMetier=""/>
-         <concept code="DIS"
+         <Concept code="DIS"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -163,7 +163,7 @@
                   longDesignation="Responsable de la sortie"
                   shortDesignation="Responsable de la sortie"
                   descriptionMetier=""/>
-         <concept code="DIST"
+         <Concept code="DIST"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -172,7 +172,7 @@
                   longDesignation="Distributeur"
                   shortDesignation="Distributeur"
                   descriptionMetier=""/>
-         <concept code="DON"
+         <Concept code="DON"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -181,7 +181,7 @@
                   longDesignation="Donneur"
                   shortDesignation="Donneur"
                   descriptionMetier=""/>
-         <concept code="DST"
+         <Concept code="DST"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -190,7 +190,7 @@
                   longDesignation="Destination"
                   shortDesignation="Destination"
                   descriptionMetier=""/>
-         <concept code="ELOC"
+         <Concept code="ELOC"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -199,7 +199,7 @@
                   longDesignation="Emplacement où les données sont saisies"
                   shortDesignation="Emplacement données saisies"
                   descriptionMetier=""/>
-         <concept code="ENT"
+         <Concept code="ENT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -208,7 +208,7 @@
                   longDesignation="Transcripteur du contenu à partir d'une autre forme (par exemple dictée vocale ou numérique)"
                   shortDesignation="Transcripteur du contenu"
                   descriptionMetier=""/>
-         <concept code="ESC"
+         <Concept code="ESC"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -217,7 +217,7 @@
                   longDesignation="Accompagnateur"
                   shortDesignation="Accompagnateur"
                   descriptionMetier=""/>
-         <concept code="EXPAGNT"
+         <Concept code="EXPAGNT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -226,7 +226,7 @@
                   longDesignation="Agent de l'exposition"
                   shortDesignation="Agent de l'exposition"
                   descriptionMetier=""/>
-         <concept code="EXPART"
+         <Concept code="EXPART"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -235,7 +235,7 @@
                   longDesignation="Partie de l'exposition"
                   shortDesignation="Partie de l'exposition"
                   descriptionMetier=""/>
-         <concept code="EXSRC"
+         <Concept code="EXSRC"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -244,7 +244,7 @@
                   longDesignation="Source de l'exposition"
                   shortDesignation="Source de l'exposition"
                   descriptionMetier=""/>
-         <concept code="EXPTRGT"
+         <Concept code="EXPTRGT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -253,7 +253,7 @@
                   longDesignation="Cible de l'exposition"
                   shortDesignation="Cible de l'exposition"
                   descriptionMetier=""/>
-         <concept code="GUAR"
+         <Concept code="GUAR"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -262,7 +262,7 @@
                   longDesignation="Garant"
                   shortDesignation="Garant"
                   descriptionMetier=""/>
-         <concept code="HLD"
+         <Concept code="HLD"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -271,7 +271,7 @@
                   longDesignation="Souscripteur"
                   shortDesignation="Souscripteur"
                   descriptionMetier=""/>
-         <concept code="IND"
+         <Concept code="IND"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -280,7 +280,7 @@
                   longDesignation="Cible indirecte"
                   shortDesignation="Cible indirecte"
                   descriptionMetier=""/>
-         <concept code="INF"
+         <Concept code="INF"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -289,7 +289,7 @@
                   longDesignation="Informateur"
                   shortDesignation="Informateur"
                   descriptionMetier=""/>
-         <concept code="IRCP"
+         <Concept code="IRCP"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -298,7 +298,7 @@
                   longDesignation="Destinataire de l'information"
                   shortDesignation="Destinataire de l'information"
                   descriptionMetier=""/>
-         <concept code="LA"
+         <Concept code="LA"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -307,7 +307,7 @@
                   longDesignation="Responsable légal de l'acte"
                   shortDesignation="Responsable légal de l'acte"
                   descriptionMetier=""/>
-         <concept code="LOC"
+         <Concept code="LOC"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -316,7 +316,7 @@
                   longDesignation="Emplacement principal"
                   shortDesignation="Emplacement principal"
                   descriptionMetier=""/>
-         <concept code="NRD"
+         <Concept code="NRD"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -325,7 +325,7 @@
                   longDesignation="Dispositif non réutilisable"
                   shortDesignation="Dispositif non réutilisable"
                   descriptionMetier=""/>
-         <concept code="NOT"
+         <Concept code="NOT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -334,7 +334,7 @@
                   longDesignation="Personne à prévenir en cas d'urgence"
                   shortDesignation="Personne à prévenir si urgence"
                   descriptionMetier=""/>
-         <concept code="ORG"
+         <Concept code="ORG"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -343,7 +343,7 @@
                   longDesignation="Lieu d'origine"
                   shortDesignation="Lieu d'origine"
                   descriptionMetier=""/>
-         <concept code="PART"
+         <Concept code="PART"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -352,7 +352,7 @@
                   longDesignation="Participant"
                   shortDesignation="Participant"
                   descriptionMetier=""/>
-         <concept code="PPRF"
+         <Concept code="PPRF"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -361,7 +361,7 @@
                   longDesignation="Exécutant principal"
                   shortDesignation="Exécutant principal"
                   descriptionMetier=""/>
-         <concept code="PRCP"
+         <Concept code="PRCP"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -370,7 +370,7 @@
                   longDesignation="Destinataire principal de l'information"
                   shortDesignation="Destinataire principal"
                   descriptionMetier=""/>
-         <concept code="PRD"
+         <Concept code="PRD"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -379,7 +379,7 @@
                   longDesignation="Produit"
                   shortDesignation="Produit"
                   descriptionMetier=""/>
-         <concept code="PRF"
+         <Concept code="PRF"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -388,7 +388,7 @@
                   longDesignation="Exécutant"
                   shortDesignation="Exécutant"
                   descriptionMetier=""/>
-         <concept code="RCT"
+         <Concept code="RCT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -397,7 +397,7 @@
                   longDesignation="Dossier médical"
                   shortDesignation="Dossier médical"
                   descriptionMetier=""/>
-         <concept code="RDV"
+         <Concept code="RDV"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -406,7 +406,7 @@
                   longDesignation="Dispositif réutilisable"
                   shortDesignation="Dispositif réutilisable"
                   descriptionMetier=""/>
-         <concept code="REF"
+         <Concept code="REF"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -415,7 +415,7 @@
                   longDesignation="Référent / Prescripteur"
                   shortDesignation="Référent / Prescripteur"
                   descriptionMetier=""/>
-         <concept code="REFB"
+         <Concept code="REFB"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -424,7 +424,7 @@
                   longDesignation="Personne ayant adressé le patient"
                   shortDesignation="Personne ayant adressé patient"
                   descriptionMetier=""/>
-         <concept code="REFT"
+         <Concept code="REFT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -433,7 +433,7 @@
                   longDesignation="Personne recevant le patient"
                   shortDesignation="Personne recevant le patient"
                   descriptionMetier=""/>
-         <concept code="RESP"
+         <Concept code="RESP"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -442,7 +442,7 @@
                   longDesignation="Responsable de l'acte"
                   shortDesignation="Responsable de l'acte"
                   descriptionMetier=""/>
-         <concept code="RML"
+         <Concept code="RML"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -451,7 +451,7 @@
                   longDesignation="Emplacement distant"
                   shortDesignation="Emplacement distant"
                   descriptionMetier=""/>
-         <concept code="SBJ"
+         <Concept code="SBJ"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -460,7 +460,7 @@
                   longDesignation="Sujet"
                   shortDesignation="Sujet"
                   descriptionMetier=""/>
-         <concept code="SPC"
+         <Concept code="SPC"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -469,7 +469,7 @@
                   longDesignation="Echantillon"
                   shortDesignation="Echantillon"
                   descriptionMetier=""/>
-         <concept code="SPRF"
+         <Concept code="SPRF"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -478,7 +478,7 @@
                   longDesignation="Exécutant secondaire"
                   shortDesignation="Exécutant secondaire"
                   descriptionMetier=""/>
-         <concept code="TRANS"
+         <Concept code="TRANS"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -487,7 +487,7 @@
                   longDesignation="Transcripteur"
                   shortDesignation="Transcripteur"
                   descriptionMetier=""/>
-         <concept code="TRC"
+         <Concept code="TRC"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -496,7 +496,7 @@
                   longDesignation="Personne recevant une copie de l'information"
                   shortDesignation="Personne recevant une copie"
                   descriptionMetier=""/>
-         <concept code="VIA"
+         <Concept code="VIA"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -505,7 +505,7 @@
                   longDesignation="Emplacement intermédiaire"
                   shortDesignation="Emplacement intermédiaire"
                   descriptionMetier=""/>
-         <concept code="VRF"
+         <Concept code="VRF"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"
@@ -514,7 +514,7 @@
                   longDesignation="Vérificateur"
                   shortDesignation="Vérificateur"
                   descriptionMetier=""/>
-         <concept code="WIT"
+         <Concept code="WIT"
                   codeSystem="2.16.840.1.113883.5.90"
                   dateFin=""
                   dateMaj="20210129120000"

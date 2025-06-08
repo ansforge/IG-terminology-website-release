@@ -1,0 +1,99 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-738",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2320dc64-d0af-44a0-9972-759c7e9535c3-738",
+  "name" : "IntersectionTRE_R89_RegroupementPaysAndTRE_R89_RegroupementPays",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "FR",
+    "display" : "France",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    }]
+  },
+  {
+    "code" : "EEE",
+    "display" : "Espace Economique Européen et la Suisse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    }]
+  },
+  {
+    "code" : "AU",
+    "display" : "Hors union européenne",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:00+01:00"
+    }]
+  }]
+}

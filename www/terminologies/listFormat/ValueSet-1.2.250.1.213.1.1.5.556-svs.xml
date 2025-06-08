@@ -10,14 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-009"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Non"/>
-         <concept code="MED-763"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Oui en zone d'intérêt"/>
-         <concept code="MED-764"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="GEN-009" codeSystem="" displayName="Non"/>
+         <Concept code="MED-763" codeSystem="" displayName="Oui en zone d'intérêt"/>
+         <Concept code="MED-764"
+                  codeSystem=""
                   displayName="Oui en dehors de la zone d'intérêt"/>
       </ConceptList>
    </ValueSet>

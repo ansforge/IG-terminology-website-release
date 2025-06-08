@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-993",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-993",
+  "name" : "IntersectionJDV_J152_MethodBodyTemperature_ENSAndJDV_J152_MethodBodyTemperature_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "V03010102",
+        "display" : "THERMOMÈTRES NUMÉRIQUES"
+      },
+      {
+        "code" : "V0301010202",
+        "display" : "THERMOMÈTRES NUMÉRIQUES - MESURE SANS CONTACT"
+      }]
+    }]
+  }
+}

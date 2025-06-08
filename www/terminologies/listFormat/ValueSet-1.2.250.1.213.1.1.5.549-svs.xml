@@ -10,12 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-737"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-737"
+                  codeSystem=""
                   displayName="Non atteinte par la tumeur"/>
-         <concept code="MED-738"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Infiltrée"/>
+         <Concept code="MED-738" codeSystem="" displayName="Infiltrée"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

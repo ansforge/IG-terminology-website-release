@@ -10,17 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-609"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Risque faible (18 à 23)"/>
-         <concept code="MED-610"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Risque modéré (14 à 17)"/>
-         <concept code="MED-611"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Risque élevé (9 à 13)"/>
-         <concept code="MED-612"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-609" codeSystem="" displayName="Risque faible (18 à 23)"/>
+         <Concept code="MED-610" codeSystem="" displayName="Risque modéré (14 à 17)"/>
+         <Concept code="MED-611" codeSystem="" displayName="Risque élevé (9 à 13)"/>
+         <Concept code="MED-612"
+                  codeSystem=""
                   displayName="Risque très élevé (6 à 8)"/>
       </ConceptList>
    </ValueSet>

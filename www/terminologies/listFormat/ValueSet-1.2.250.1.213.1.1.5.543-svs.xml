@@ -10,20 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C13056" codeSystem="" displayName="Musculeuse"/>
-         <concept code="C13166" codeSystem="" displayName="Muqueuse"/>
-         <concept code="C13167" codeSystem="" displayName="Sous-muqueuse"/>
-         <concept code="C13807" codeSystem="" displayName="Intra-épithéliale"/>
-         <concept code="C33880"
+         <Concept code="C13056" codeSystem="" displayName="Musculeuse"/>
+         <Concept code="C13166" codeSystem="" displayName="Muqueuse"/>
+         <Concept code="C13167" codeSystem="" displayName="Sous-muqueuse"/>
+         <Concept code="C13807" codeSystem="" displayName="Intra-épithéliale"/>
+         <Concept code="C33880"
                   codeSystem=""
                   displayName="Surface du péritoine viscéral"/>
-         <concept code="C94494" codeSystem="" displayName="Sous-séreuse"/>
-         <concept code="MED-725"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Graisse péri-rectale"/>
-         <concept code="MED-727"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Organe(s) adjacent(s)"/>
+         <Concept code="C94494" codeSystem="" displayName="Sous-séreuse"/>
+         <Concept code="MED-725" codeSystem="" displayName="Graisse péri-rectale"/>
+         <Concept code="MED-727" codeSystem="" displayName="Organe(s) adjacent(s)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

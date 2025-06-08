@@ -10,13 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-310"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Maternité"/>
-         <concept code="GEN-092.06.04"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="GEN-310" codeSystem="" displayName="Maternité"/>
+         <Concept code="GEN-092.06.04"
+                  codeSystem=""
                   displayName="Autre lieu d'accouchement"/>
-         <concept code="169813005"
+         <Concept code="169813005"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="naissance à domicile"/>
       </ConceptList>

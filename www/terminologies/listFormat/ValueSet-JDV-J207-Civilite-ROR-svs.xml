@@ -10,11 +10,11 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J207-Civilite-ROR">
       <ConceptList>
-         <concept code="M" codeSystem="1.2.250.1.213.1.6.1.69" displayName="Monsieur"/>
-         <concept code="MLLE"
+         <Concept code="M" codeSystem="1.2.250.1.213.1.6.1.69" displayName="Monsieur"/>
+         <Concept code="MLLE"
                   codeSystem="1.2.250.1.213.1.6.1.69"
                   displayName="Mademoiselle"/>
-         <concept code="MME" codeSystem="1.2.250.1.213.1.6.1.69" displayName="Madame"/>
+         <Concept code="MME" codeSystem="1.2.250.1.213.1.6.1.69" displayName="Madame"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

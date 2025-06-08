@@ -10,18 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="I22"
+         <Concept code="I22"
                   codeSystem=""
                   displayName="infarctus du myocarde récidivant"/>
-         <concept code="R60.9" codeSystem="" displayName="Œdème, sans précision"/>
-         <concept code="MED-469"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Récidive d'hémorragie"/>
-         <concept code="MED-470"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="R60.9" codeSystem="" displayName="Œdème, sans précision"/>
+         <Concept code="MED-469" codeSystem="" displayName="Récidive d'hémorragie"/>
+         <Concept code="MED-470"
+                  codeSystem=""
                   displayName="Transformation hémorragique"/>
-         <concept code="GEN-092.01.03"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="GEN-092.01.03"
+                  codeSystem=""
                   displayName="Autre complication neurologique"/>
       </ConceptList>
    </ValueSet>

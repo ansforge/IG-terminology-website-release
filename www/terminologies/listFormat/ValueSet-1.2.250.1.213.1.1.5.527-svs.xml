@@ -10,27 +10,23 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-1248"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Présentation fœtale"/>
-         <concept code="MED-166"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1248" codeSystem="" displayName="Présentation fœtale"/>
+         <Concept code="MED-166"
+                  codeSystem=""
                   displayName="Rupture membranaire plus de 12 h avant l'accouchement"/>
-         <concept code="MED-168"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-168"
+                  codeSystem=""
                   displayName="Analgésie au cours du travail"/>
-         <concept code="MED-600"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Cause de la césarienne"/>
-         <concept code="55281-0" codeSystem="" displayName="Nombre de fœtus"/>
-         <concept code="11885-1"
+         <Concept code="MED-600" codeSystem="" displayName="Cause de la césarienne"/>
+         <Concept code="55281-0" codeSystem="" displayName="Nombre de fœtus"/>
+         <Concept code="11885-1"
                   codeSystem=""
                   displayName="Age gestationnel (semaines d'amenorrhées révolues)"/>
-         <concept code="73771-8" codeSystem="" displayName="Rang de naissance"/>
-         <concept code="73813-8"
+         <Concept code="73771-8" codeSystem="" displayName="Rang de naissance"/>
+         <Concept code="73813-8"
                   codeSystem=""
                   displayName="Caractéristiques du travail"/>
-         <concept code="57071-3" codeSystem="" displayName="Méthode d'accouchement"/>
+         <Concept code="57071-3" codeSystem="" displayName="Méthode d'accouchement"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

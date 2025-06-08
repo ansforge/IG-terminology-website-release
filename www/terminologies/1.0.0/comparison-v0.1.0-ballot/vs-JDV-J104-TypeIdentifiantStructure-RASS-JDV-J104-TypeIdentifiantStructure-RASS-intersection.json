@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-837",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-837",
+  "name" : "IntersectionJDV_J104_TypeIdentifiantStructure_RASSAndJDV_J104_TypeIdentifiantStructure_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "0",
+        "display" : "Id Cabinet ADELI"
+      },
+      {
+        "code" : "1",
+        "display" : "FINESS"
+      },
+      {
+        "code" : "2",
+        "display" : "SIREN"
+      },
+      {
+        "code" : "3",
+        "display" : "SIRET"
+      },
+      {
+        "code" : "4",
+        "display" : "Id Cabinet RPPS"
+      }]
+    }]
+  }
+}

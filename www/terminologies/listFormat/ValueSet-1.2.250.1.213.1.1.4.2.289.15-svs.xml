@@ -10,17 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="P05.9"
+         <Concept code="P05.9"
                   codeSystem=""
                   displayName="Croissance lente du fœtus, sans précision"/>
-         <concept code="MED-1261"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Pas d'anomalie de croissance intra-utérine"/>
-         <concept code="OBS_123"
+         <Concept code="MED-1261"
                   codeSystem=""
                   displayName="Pas d'anomalie de croissance intra-utérine"/>
-         <concept code="D8-70110" codeSystem="" displayName="Retard de croissance"/>
-         <concept code="D8-70310" codeSystem="" displayName="Macrosomie"/>
+         <Concept code="OBS_123"
+                  codeSystem=""
+                  displayName="Pas d'anomalie de croissance intra-utérine"/>
+         <Concept code="D8-70110" codeSystem="" displayName="Retard de croissance"/>
+         <Concept code="D8-70310" codeSystem="" displayName="Macrosomie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

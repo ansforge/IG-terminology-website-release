@@ -10,30 +10,20 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-053"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Soins de support"/>
-         <concept code="MED-229"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-053" codeSystem="" displayName="Soins de support"/>
+         <Concept code="MED-229"
+                  codeSystem=""
                   displayName="Radiologie interventionnelle"/>
-         <concept code="MED-256"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-256"
+                  codeSystem=""
                   displayName="Préservation de la fertilité"/>
-         <concept code="MED-257"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Cancers rares"/>
-         <concept code="ORG-129"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Oncogénétique"/>
-         <concept code="ORG-130"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Oncogériatrie"/>
-         <concept code="ORG-131"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Oncologie médicale"/>
-         <concept code="D1-F0106" codeSystem="" displayName="Métastase osseuse"/>
-         <concept code="F-A2600" codeSystem="" displayName="Douleur"/>
-         <concept code="P2-00200" codeSystem="" displayName="Soins palliatifs"/>
+         <Concept code="MED-257" codeSystem="" displayName="Cancers rares"/>
+         <Concept code="ORG-129" codeSystem="" displayName="Oncogénétique"/>
+         <Concept code="ORG-130" codeSystem="" displayName="Oncogériatrie"/>
+         <Concept code="ORG-131" codeSystem="" displayName="Oncologie médicale"/>
+         <Concept code="D1-F0106" codeSystem="" displayName="Métastase osseuse"/>
+         <Concept code="F-A2600" codeSystem="" displayName="Douleur"/>
+         <Concept code="P2-00200" codeSystem="" displayName="Soins palliatifs"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

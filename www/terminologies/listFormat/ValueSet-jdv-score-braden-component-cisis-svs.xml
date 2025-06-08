@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20200706000000"
+             description="JDV Score Braden Component CISIS"
+             displayName="JdvScoreBradenComponentCisis"
+             id="1.2.250.1.213.1.1.5.504"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="38222-6" codeSystem="" displayName="Perception sensorielle"/>
+         <Concept code="38229-1" codeSystem="" displayName="Exposition à l'humidité"/>
+         <Concept code="38224-2" codeSystem="" displayName="Mobilité"/>
+         <Concept code="38223-4" codeSystem="" displayName="Activité"/>
+         <Concept code="38225-9" codeSystem="" displayName="Nutrition"/>
+         <Concept code="38226-7" codeSystem="" displayName="Friction et cisaillement"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

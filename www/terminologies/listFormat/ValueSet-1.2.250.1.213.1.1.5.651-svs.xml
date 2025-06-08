@@ -10,35 +10,33 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-1070"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1070"
+                  codeSystem=""
                   displayName="Pathologie listée dans arrété du 3 décembre 2018 publié le 13 décembre 2018"/>
-         <concept code="MED-1182"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1182"
+                  codeSystem=""
                   displayName="Date de fin d'adapation de la prescription"/>
-         <concept code="MED-1071"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1071"
+                  codeSystem=""
                   displayName="Puissance de la sphère - verre prescrit"/>
-         <concept code="MED-1072"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1072"
+                  codeSystem=""
                   displayName="Puissance du cylindre - verre prescrit"/>
-         <concept code="MED-1076"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1076"
+                  codeSystem=""
                   displayName="Axe en degrés - verre prescrit"/>
-         <concept code="MED-886"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Addition"/>
-         <concept code="MED-1073"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-886" codeSystem="" displayName="Addition"/>
+         <Concept code="MED-1073"
+                  codeSystem=""
                   displayName="Prisme - puissance - verre prescrit"/>
-         <concept code="MED-1074"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1074"
+                  codeSystem=""
                   displayName="Prisme - orientation base - verre prescrit"/>
-         <concept code="MED-1075"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1075"
+                  codeSystem=""
                   displayName="Prisme - axe en degrés - verre prescrit"/>
-         <concept code="74712-1" codeSystem="" displayName="Date de fin de validité"/>
-         <concept code="95324-0" codeSystem="" displayName="Type de prisme"/>
+         <Concept code="74712-1" codeSystem="" displayName="Date de fin de validité"/>
+         <Concept code="95324-0" codeSystem="" displayName="Type de prisme"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

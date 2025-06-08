@@ -10,19 +10,19 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J180-BesoinEntretienPersonnel-MDPH">
       <ConceptList>
-         <concept code="01"
+         <Concept code="01"
                   codeSystem="1.2.250.1.213.3.3.76"
                   displayName="Pour l'hygiène corporelle"/>
-         <concept code="02"
+         <Concept code="02"
                   codeSystem="1.2.250.1.213.3.3.76"
                   displayName="Pour s'habiller"/>
-         <concept code="03"
+         <Concept code="03"
                   codeSystem="1.2.250.1.213.3.3.76"
                   displayName="Pour les repas"/>
-         <concept code="04"
+         <Concept code="04"
                   codeSystem="1.2.250.1.213.3.3.76"
                   displayName="Pour prendre soin de sa santé"/>
-         <concept code="02" codeSystem="1.2.250.1.213.3.3.70" displayName="Autre"/>
+         <Concept code="02" codeSystem="1.2.250.1.213.3.3.70" displayName="Autre"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

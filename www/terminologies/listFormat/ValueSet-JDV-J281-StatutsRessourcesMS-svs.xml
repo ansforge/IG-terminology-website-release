@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240927120000"
+             dateMaj="20250425120000"
              dateValid="20240927120000"
              description="Statut de l'évaluation et des événements"
              displayName="JDV_J281_StatutsRessourcesMS"
@@ -10,24 +10,37 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J281-StatutsRessourcesMS">
       <ConceptList>
-         <concept code="TERMINE"
+         <Concept code="TERMINE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="Terminé"/>
-         <concept code="VALIDE"
+         <Concept code="VALIDE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="Validé"/>
-         <concept code="APPROUVE"
+         <Concept code="APPROUVE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="Approuvé"/>
-         <concept code="PLANIFIE"
+         <Concept code="PLANIFIE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="Planifié"/>
-         <concept code="REALISE"
+         <Concept code="REALISE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="Réalisé"/>
-         <concept code="ANNULE"
+         <Concept code="ANNULE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   displayName="Annulé"/>
+         <Concept code="ACTIF" codeSystem="1.2.250.1.213.3.3.250" displayName="Actif"/>
+         <Concept code="NONDEBUTE"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  displayName="Non débuté"/>
+         <Concept code="ENPREPARATION"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  displayName="En préparation"/>
+         <Concept code="ENREALISATION"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  displayName="En réalisation"/>
+         <Concept code="CREATION"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  displayName="Création"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

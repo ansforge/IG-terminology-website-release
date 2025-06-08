@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-882",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-882",
+  "name" : "IntersectionJDV_J119_TypeActiviteLiberale_ENREGAndJDV_J119_TypeActiviteLiberale_ENREG",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ACT-LIB-01",
+        "display" : "Cabinet primaire"
+      },
+      {
+        "code" : "ACT-LIB-02",
+        "display" : "Cabinet secondaire"
+      },
+      {
+        "code" : "ACT-LIB-03",
+        "display" : "Plateau technique"
+      },
+      {
+        "code" : "ACT-LIB-04",
+        "display" : "Secteur privé à l'hôpital"
+      },
+      {
+        "code" : "ACT-LIB-05",
+        "display" : "Autre lieu d'exercice ou autre site"
+      },
+      {
+        "code" : "ACT-LIB-06",
+        "display" : "Cabinet"
+      }]
+    }]
+  }
+}

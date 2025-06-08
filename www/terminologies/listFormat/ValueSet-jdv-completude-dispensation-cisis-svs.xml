@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20231221000000"
+             description="JDV Completude Dispensation CISIS"
+             displayName="JdvCompletudeDispensationCisis"
+             id="1.2.250.1.213.1.1.5.765"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="FFC"
+                  codeSystem=""
+                  displayName="Première dispensation - complète"/>
+         <Concept code="FFP"
+                  codeSystem=""
+                  displayName="Première dispensation - partielle"/>
+         <Concept code="RFP"
+                  codeSystem=""
+                  displayName="Dispensation suivante - partielle"/>
+         <Concept code="RFC"
+                  codeSystem=""
+                  displayName="Dispensation suivante - complète"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

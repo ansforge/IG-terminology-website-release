@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Association - Terminologies  de Santé v0.1.0-ballot</title>
+    <title>Association - Terminologies  de Santé v1.0.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">0.1.0-ballot - for-comment
+            <span style="display:inline-block;">1.0.0 - final-text
 
 
 
@@ -128,7 +128,7 @@
     </ul>
   </li>
   <li>
-    <a href="about.html">A propos de ce guide</a>
+    <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation</a>
   </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
@@ -171,7 +171,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v0.1.0-ballot: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.0.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Association</h2>
   
   
@@ -199,14 +199,14 @@ Par exemple, la codification des secteurs d'activité dans le répertoire ADELI 
  <li><a href="ConceptMap-ASS-A15-SexeProvenanceISO-Sexe.html">ASS_A15_SexeProvenanceISO_Sexe</a></li>
  <li><a href="ConceptMap-ASS-A20-RolePriseCharge-GenreActivite.html">ASS_A20_RolePriseCharge_GenreActivite</a></li>
  <li><a href="ConceptMap-ASS-A21-AS-ActiviteModaliteForme.html">ASS_A21_AS_ActiviteModaliteForme</a></li>
- <li><a href="ConceptMap-ASS-A22-AASA-ActiviteModaliteForme.html">ASS_A22_ASA_ActiviteModaliteForme</a></li>
+ <li><a href="ConceptMap-ASS-A22-AASA-ActiviteModaliteForme.html">ASS_A22_AASA_ActiviteModaliteForme</a></li>
  <li><a href="ConceptMap-ASS-A23-ASR-ActiviteModaliteForme.html">ASS_A23_ASR_ActiviteModaliteForme</a></li>
  <li><a href="ConceptMap-ASS-A24-ModeExercice-TypeActivite-ENREG.html">ASS_A24_ModeExercice_TypeActivite_ENREG</a></li>
  <li><a href="ConceptMap-ASS-A25-PaysProvenanceISO-PaysProvenanceCOG.html">ASS_A25_PaysProvenanceISO_PaysProvenanceCOG</a></li>
  <li><a href="ConceptMap-ASS-A28-TypeDiplome-Diplome-Profession-EPARS.html">ASS_A28_TypeDiplome_Diplome_Profession_EPARS</a></li>
  <li><a href="ConceptMap-ASS-A29-Departement-AE.html">ASS_A29_Departement_AE</a></li>
  <li><a href="ConceptMap-ASS-A30-TypeAutorisation-Profession-EPARS.html">ASS_A30_TypeAutorisation_Profession_EPARS</a></li>
- <li><a href="ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.html">Ass A32 Statut Motif Personne Prise Charge</a></li>
+ <li><a href="ConceptMap-ASS-A32-StatutMotifPersonnePriseCharge.html">ASS_A32_StatutMotifPersonnePriseCharge</a></li>
  <li><a href="ConceptMap-ASS-A33-AdministrativeGender-Sexe.html">ASS_A33_AdministrativeGender_Sexe</a></li>
  <li><a href="ConceptMap-ASS-X01-TranscoSavFaireADELI-SavFaireR01.html">ASS_X01_TranscoSavFaireADELI_SavFaireR01</a></li>
  <li><a href="ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.html">ASS_X02_TranscoSectActADELI_SectAct</a></li>
@@ -222,8 +222,6 @@ Par exemple, la codification des secteurs d'activité dans le répertoire ADELI 
  <li><a href="ConceptMap-ASS-X16-CorrespondanceType-Classe-DMP.html">ASS_X16_CorrespondanceType_Classe_DMP</a></li>
  <li><a href="ConceptMap-alignement-nuva-atc.html">Aligner les codes ATC de NUVA avec les codes ATC</a></li>
  <li><a href="ConceptMap-alignement-nuva-bdpm.html">Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM</a></li>
- <li><a href="ConceptMap-alignement-nuva-cipucd.html">Aligner les codes CIP de NUVA avec les codes CIP du CIP_UCD</a></li>
- <li><a href="ConceptMap-alignement-bdpm-cipucd.html">Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD</a></li>
 
   </ul>    
 </div>
@@ -265,7 +263,7 @@ Par exemple, la codification des secteurs d'activité dans le répertoire ADELI 
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#0.1.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Apr 2, 2025 10:50+0000">2025-04-02</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Sun, Jun 8, 2025 18:17+0000">2025-06-08</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -10,19 +10,19 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J110-StatutVisibiliteDocument-CISIS">
       <ConceptList>
-         <concept code="INVISIBLE_PATIENT"
+         <Concept code="INVISIBLE_PATIENT"
                   codeSystem="1.2.250.1.213.1.1.4.13"
                   displayName="Non visible par le patient"/>
-         <concept code="INVISIBLE_REPRESENTANTS_LEGAUX"
+         <Concept code="INVISIBLE_REPRESENTANTS_LEGAUX"
                   codeSystem="1.2.250.1.213.1.1.4.13"
                   displayName="Non visible par les représentants légaux du patient"/>
-         <concept code="MASQUE_PS"
+         <Concept code="MASQUE_PS"
                   codeSystem="1.2.250.1.213.1.1.4.13"
                   displayName="Masqué aux professionnels de santé"/>
-         <concept code="MASQUE_PSOCIAL"
+         <Concept code="MASQUE_PSOCIAL"
                   codeSystem="1.2.250.1.213.1.1.4.13"
                   displayName="Masqué aux professionnels du domaine social"/>
-         <concept code="MASQUE_PT"
+         <Concept code="MASQUE_PT"
                   codeSystem="1.2.250.1.213.1.1.4.13"
                   displayName="Masqué aux personnes tierces"/>
       </ConceptList>

@@ -1,0 +1,21 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-1494",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-1494",
+  "name" : "IntersectionJDV_J72_TypeProfessionFonction_MSSanteAndJDV_J72_TypeProfessionFonction_MSSante",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Professionnel de santé (PS)"
+      },
+      {
+        "code" : "06",
+        "display" : "Rôle dans la prise en charge"
+      }]
+    }]
+  }
+}

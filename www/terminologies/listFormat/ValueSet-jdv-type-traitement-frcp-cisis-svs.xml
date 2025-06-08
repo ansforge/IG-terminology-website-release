@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103858"
+             dateValid="20210414000000"
+             description="JDV Type Traitement Frcp CISIS"
+             displayName="JdvTypeTraitementFrcpCisis"
+             id="1.2.250.1.213.1.1.5.595"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="C15313" codeSystem="" displayName="radiothérapie"/>
+         <Concept code="C15195" codeSystem="" displayName="curiethérapie"/>
+         <Concept code="C15632" codeSystem="" displayName="chimiothérapie"/>
+         <Concept code="C93352" codeSystem="" displayName="thérapie ciblée"/>
+         <Concept code="C547" codeSystem="" displayName="Hormonothérapie"/>
+         <Concept code="C15262" codeSystem="" displayName="immunothérapie"/>
+         <Concept code="C63334"
+                  codeSystem=""
+                  displayName="Radiologie interventionnelle"/>
+         <Concept code="C157891"
+                  codeSystem=""
+                  displayName="endoscopie interventionnelle"/>
+         <Concept code="C15747" codeSystem="" displayName="soins de support"/>
+         <Concept code="C15252" codeSystem="" displayName="soins palliatifs"/>
+         <Concept code="MED-556"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Fenêtre thérapeutique"/>
+         <Concept code="MED-226"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Surveillance seule"/>
+         <Concept code="MED-232"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Irathérapie"/>
+         <Concept code="MED-126"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Allogreffe / Autogreffe"/>
+         <Concept code="GEN-092.03.01"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Autre(s) traitement(s)"/>
+         <Concept code="GEN-092.03.02"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Autre(s) traitement(s) médicamenteux spécifique(s)"/>
+         <Concept code="387713003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="intervention chirurgicale"/>
+         <Concept code="424313000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="surveillance active"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

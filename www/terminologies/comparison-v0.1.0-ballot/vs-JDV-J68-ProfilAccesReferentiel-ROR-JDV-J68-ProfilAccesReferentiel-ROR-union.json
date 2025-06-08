@@ -1,0 +1,75 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1481",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1481",
+  "name" : "UnionJDV_J68_ProfilAccesReferentiel_RORAndJDV_J68_ProfilAccesReferentiel_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "CU17",
+        "display" : "Professionnel de santé"
+      },
+      {
+        "code" : "CU18",
+        "display" : "Orientation sanitaire et médico-sociale"
+      },
+      {
+        "code" : "CU19",
+        "display" : "Orientation médico-sociale"
+      },
+      {
+        "code" : "CU20",
+        "display" : "Coordination sanitaire et médico-sociale"
+      },
+      {
+        "code" : "CU21",
+        "display" : "Coordination médico-sociale"
+      },
+      {
+        "code" : "CU22",
+        "display" : "Régulation de soins non programmés"
+      },
+      {
+        "code" : "CU23",
+        "display" : "Accès public"
+      },
+      {
+        "code" : "CU24",
+        "display" : "Gestionnaire de DAC (MAIA, …)"
+      },
+      {
+        "code" : "CU25",
+        "display" : "Gestion de crise"
+      },
+      {
+        "code" : "CU26",
+        "display" : "Gestion de l'offre sanitaire et médico-sociale"
+      },
+      {
+        "code" : "CU27",
+        "display" : "Gestion de l'offre médico-sociale"
+      },
+      {
+        "code" : "CU28",
+        "display" : "Pilotage de l'offre sanitaire"
+      },
+      {
+        "code" : "CU29",
+        "display" : "Pilotage de l'offre médico-sociale"
+      },
+      {
+        "code" : "CU30",
+        "display" : "Orientation sanitaire et médico-sociale sans disponibilité en lit"
+      }]
+    }]
+  }
+}

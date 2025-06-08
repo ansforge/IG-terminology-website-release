@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20220112000000"
+             description="JDV Technique Biologie CISIS"
+             displayName="JdvTechniqueBiologieCisis"
+             id="1.2.250.1.213.1.1.5.789"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="9AX" codeSystem="" displayName="Electrochimie-ampérométrie"/>
+         <Concept code="9BX" codeSystem="" displayName="Electrochimie-conductimétrie"/>
+         <Concept code="9CX" codeSystem="" displayName="Electrochimie-coulométrie"/>
+         <Concept code="9EC"
+                  codeSystem=""
+                  displayName="Electrochimie-cinétique de pH"/>
+         <Concept code="9ED"
+                  codeSystem=""
+                  displayName="Electrochimie-potentiométrie directe"/>
+         <Concept code="9EI"
+                  codeSystem=""
+                  displayName="Electrochimie-potentiométrie indirecte"/>
+         <Concept code="9FX"
+                  codeSystem=""
+                  displayName="Electrochimie-électrodes + enzymes"/>
+         <Concept code="9GX" codeSystem="" displayName="Electrochimie-polarographie"/>
+         <Concept code="9JX" codeSystem="" displayName="Electrochimie-impédance"/>
+         <Concept code="9KX" codeSystem="" displayName="Electrochimie-résistivité"/>
+         <Concept code="BAX"
+                  codeSystem=""
+                  displayName="Etude phénotypique-tests biochimiques en milieu liquide"/>
+         <Concept code="BCX"
+                  codeSystem=""
+                  displayName="Culture sur milieu chromogène"/>
+         <Concept code="BDB"
+                  codeSystem=""
+                  displayName="sensibilité à une molécule-bandelettes gradient sur gélose (CMI)"/>
+         <Concept code="BDD"
+                  codeSystem=""
+                  displayName="sensibilité à une molécule-disque sur gélose (diamètre d'inihibition)"/>
+         <Concept code="BLX"
+                  codeSystem=""
+                  displayName="sensibilité à une molécule-méthodes en milieu liquide"/>
+         <Concept code="CAX" codeSystem="" displayName="Chromatographie d'affinité"/>
+         <Concept code="CBX" codeSystem="" displayName="Chromatographie-CLBP"/>
+         <Concept code="CLA"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection UV/visible"/>
+         <Concept code="CLC"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection par conductimétrie"/>
+         <Concept code="CLD"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection infra-rouge"/>
+         <Concept code="CLE"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection par fluorescence"/>
+         <Concept code="CLF"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection par ampérométrie"/>
+         <Concept code="CLG"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection par coulométrie"/>
+         <Concept code="CLH"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection par polarographie"/>
+         <Concept code="CLI"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection par potentiometrie"/>
+         <Concept code="CLJ"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection par réfractometrie"/>
+         <Concept code="CLK"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection SM"/>
+         <Concept code="CLL"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection SM/SM"/>
+         <Concept code="CLM"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection masse exacte (HRSM)"/>
+         <Concept code="CLX"
+                  codeSystem=""
+                  displayName="Chromatographie-CLHP-détection non précisée ou autre"/>
+         <Concept code="CPX"
+                  codeSystem=""
+                  displayName="Chromatographie d'échange d'ions"/>
+         <Concept code="CQX"
+                  codeSystem=""
+                  displayName="Chromatographie-gel filtration (hors agglutination)"/>
+         <Concept code="CSC" codeSystem="" displayName="Chromatographie-couche mince"/>
+         <Concept code="CSP" codeSystem="" displayName="Chromatographie-papier"/>
+         <Concept code="CZA"
+                  codeSystem=""
+                  displayName="Chromatographie-CPG-détection FID"/>
+         <Concept code="CZB"
+                  codeSystem=""
+                  displayName="Chromatographie-CPG-détection NPD"/>
+         <Concept code="CZC"
+                  codeSystem=""
+                  displayName="Chromatographie-CPG-détection TCD"/>
+         <Concept code="CZD"
+                  codeSystem=""
+                  displayName="Chromatographie-CPG-détection ECD"/>
+         <Concept code="CZE"
+                  codeSystem=""
+                  displayName="Chromatographie-CPG-détection FPD"/>
+         <Concept code="CZF"
+                  codeSystem=""
+                  displayName="Chromatographie-CPG-détection SM"/>
+         <Concept code="CZG"
+                  codeSystem=""
+                  displayName="Chromatographie-CPG-détection SM/SM"/>
+         <Concept code="CZX"
+                  codeSystem=""
+                  displayName="Chromatographie-CPG-détection non précisée ou autre"/>
+         <Concept code="DA1"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-sans PLP"/>
+         <Concept code="DA2"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-avec PLP"/>
+         <Concept code="DA3"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-substrat CNPG3"/>
+         <Concept code="DA7"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-substrat CNPG7"/>
+         <Concept code="DA8"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-immuno-inhibition"/>
+         <Concept code="DA9"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-substrat 1-2 diglycérides"/>
+         <Concept code="DAA"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-tampon AMP"/>
+         <Concept code="DAB"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-tampon DEA"/>
+         <Concept code="DAC"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-subtrat non carboxylé"/>
+         <Concept code="DAD"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-substrat  carboxylé"/>
+         <Concept code="DAL"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-substrat lactate"/>
+         <Concept code="DAM"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-6'méthylrésorufine"/>
+         <Concept code="DAP"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-substrat pyruvate"/>
+         <Concept code="DAX"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-activité enzymatique-autre"/>
+         <Concept code="DCF"
+                  codeSystem=""
+                  displayName="Cytométrie en flux-fluorescence"/>
+         <Concept code="DCO" codeSystem="" displayName="Cytométrie en flux-optique"/>
+         <Concept code="DCP"
+                  codeSystem=""
+                  displayName="Cytométrie en flux-activité peroxydasique"/>
+         <Concept code="DCI" codeSystem="" displayName="Cytométrie en flux-impédance"/>
+         <Concept code="DCX" codeSystem="" displayName="Cytométrie en flux-autre"/>
+         <Concept code="DE3"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-élimination/catalase"/>
+         <Concept code="DE4"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-immuno-inhibition"/>
+         <Concept code="DE5"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-PEG/dextran"/>
+         <Concept code="DEG"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-glucose oxydase"/>
+         <Concept code="DEH"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-hexokinase"/>
+         <Concept code="DEL"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-LDH"/>
+         <Concept code="DEI"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-GDH"/>
+         <Concept code="DEX"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-autre"/>
+         <Concept code="DEO"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-enzymatique-lactate oxydase"/>
+         <Concept code="DGX"
+                  codeSystem=""
+                  displayName="Spectrométrie d'absorption atomique (SAA)"/>
+         <Concept code="DHX"
+                  codeSystem=""
+                  displayName="Spectrométrie d'émission atomique (SEA)"/>
+         <Concept code="DIA" codeSystem="" displayName="Spectrométrie-ICP-MS"/>
+         <Concept code="DIB" codeSystem="" displayName="Spectrométrie-ICP-OES"/>
+         <Concept code="DJA"
+                  codeSystem=""
+                  displayName="Spectrométrie de masse-MALDI/TOF"/>
+         <Concept code="DJB" codeSystem="" displayName="Spectrométrie de masse-SM"/>
+         <Concept code="DJC" codeSystem="" displayName="Spectrométrie de masse-SM/SM"/>
+         <Concept code="DK1"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-VBC"/>
+         <Concept code="DK2"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-Jaffé"/>
+         <Concept code="DK6"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-CPZ III"/>
+         <Concept code="DKA"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-arsenazo"/>
+         <Concept code="DKB"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-autres diazoiques"/>
+         <Concept code="DKD"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-bleu de méthyl thymol"/>
+         <Concept code="DKE"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-bleu magon/bleu de xylidyle"/>
+         <Concept code="DKF"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-caféine benzoate &amp;quot;rose&amp;quot;"/>
+         <Concept code="DKG"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-calmagite"/>
+         <Concept code="DKH"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-diazoréaction"/>
+         <Concept code="DKI"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-dichloraniline"/>
+         <Concept code="DKJ"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-diphényldiazonium"/>
+         <Concept code="DKK"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-DMSO"/>
+         <Concept code="DKL"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-férène direct"/>
+         <Concept code="DKM"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-ferrozine"/>
+         <Concept code="DKO"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-OCP"/>
+         <Concept code="DKQ"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-NM-BAPTA"/>
+         <Concept code="DKS"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-BCP"/>
+         <Concept code="DKT"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-rouge de pyrogallol"/>
+         <Concept code="DKX"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-autres colorants"/>
+         <Concept code="DKY"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-TPTZ"/>
+         <Concept code="DKZ"
+                  codeSystem=""
+                  displayName="Spectrophotométrie-dosage de substrat-vanadate oxydation"/>
+         <Concept code="DMX" codeSystem="" displayName="Spectrométrie infra rouge"/>
+         <Concept code="DNB"
+                  codeSystem=""
+                  displayName="Indicateur colorimétrique-bandelettes"/>
+         <Concept code="DNP"
+                  codeSystem=""
+                  displayName="Indicateur colorimétrique-papier pH"/>
+         <Concept code="DOA"
+                  codeSystem=""
+                  displayName="Spectrophotométrie en milieu trouble-chlorure de benzéthonium"/>
+         <Concept code="DOX"
+                  codeSystem=""
+                  displayName="Spectrophotométrie en milieu trouble-autre"/>
+         <Concept code="GAX"
+                  codeSystem=""
+                  displayName="Amplification génomique isotherme"/>
+         <Concept code="GCX" codeSystem="" displayName="Caryotype"/>
+         <Concept code="GMX" codeSystem="" displayName="MLPA/RT MLPA"/>
+         <Concept code="GNX" codeSystem="" displayName="Séquençage NGS-autre"/>
+         <Concept code="GNA"
+                  codeSystem=""
+                  displayName="Séquençage NGS-ciblé par amplicon"/>
+         <Concept code="GNC"
+                  codeSystem=""
+                  displayName="Séquençage NGS-ciblé par capture"/>
+         <Concept code="GNE" codeSystem="" displayName="Séquençage NGS-exome"/>
+         <Concept code="GNG"
+                  codeSystem=""
+                  displayName="Séquençage NGS-génome complet"/>
+         <Concept code="GNR"
+                  codeSystem=""
+                  displayName="Séquençage NGS-RNAseq-transcriptome ciblé"/>
+         <Concept code="GNT"
+                  codeSystem=""
+                  displayName="Séquençage NGS-RNAseq-transcriptome complet"/>
+         <Concept code="GOX"
+                  codeSystem=""
+                  displayName="Cartographie optique du génome-OGM"/>
+         <Concept code="GPX" codeSystem="" displayName="puces à ADN, CGH array"/>
+         <Concept code="GRX" codeSystem="" displayName="RFLP"/>
+         <Concept code="GSX" codeSystem="" displayName="séquençage Sanger"/>
+         <Concept code="GTX" codeSystem="" displayName="Short Tandem Repeat"/>
+         <Concept code="GWX" codeSystem="" displayName="pyroséquençage"/>
+         <Concept code="GUF" codeSystem="" displayName="PCR/RT PCR-point final"/>
+         <Concept code="GUR" codeSystem="" displayName="PCR/RT PCR-temps réel"/>
+         <Concept code="GUA"
+                  codeSystem=""
+                  displayName="PCR/RT PCR-analyse de fragment"/>
+         <Concept code="GUD" codeSystem="" displayName="PCR/RT PCR-digitale"/>
+         <Concept code="GUB"
+                  codeSystem=""
+                  displayName="PCR/RT PCR et génotypage sur bandelette"/>
+         <Concept code="GUP"
+                  codeSystem=""
+                  displayName="PCR/RT PCR et génotypage sur puce"/>
+         <Concept code="GYF" codeSystem="" displayName="hybridation-FISH"/>
+         <Concept code="GYA"
+                  codeSystem=""
+                  displayName="hybridation avec amplification du signal"/>
+         <Concept code="HPC"
+                  codeSystem=""
+                  displayName="Chronométrie-agrégométrie des plaquettes"/>
+         <Concept code="HPD" codeSystem="" displayName="Chronométrie-Von Clauss"/>
+         <Concept code="HPX" codeSystem="" displayName="Chronométrie-autre"/>
+         <Concept code="JAP"
+                  codeSystem=""
+                  displayName="Vitesse d'agrégation-photométrie capillaire"/>
+         <Concept code="JAR"
+                  codeSystem=""
+                  displayName="Vitesse d'agrégation-rhéoscopie photométrique"/>
+         <Concept code="JW1"
+                  codeSystem=""
+                  displayName="Vitesse de sédimentation-Westergren sans dilution"/>
+         <Concept code="JW2"
+                  codeSystem=""
+                  displayName="Vitesse de sédimentation-Westergren avec dilution"/>
+         <Concept code="JW3"
+                  codeSystem=""
+                  displayName="Vitesse de sédimentation-Westergren modifiée sans dilution"/>
+         <Concept code="JW4"
+                  codeSystem=""
+                  displayName="Vitesse de sédimentation-Westergren modifiée avec dilution"/>
+         <Concept code="MAX" codeSystem="" displayName="Observation macroscopique"/>
+         <Concept code="MFD"
+                  codeSystem=""
+                  displayName="Microscopie-immunofluorescence directe (IF)"/>
+         <Concept code="MFI"
+                  codeSystem=""
+                  displayName="Microscopie-immunofluorescence indirecte (IFI)"/>
+         <Concept code="MIB" codeSystem="" displayName="Microscopie-avec coloration"/>
+         <Concept code="MIH" codeSystem="" displayName="Microscopie-sans coloration"/>
+         <Concept code="MIA"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Malassez"/>
+         <Concept code="MIF"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Fuch Rosenthal"/>
+         <Concept code="MIG"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Bruker-Turc"/>
+         <Concept code="MIK"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Kova"/>
+         <Concept code="MIL"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Lemaur"/>
+         <Concept code="MIC"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Neubauer classique"/>
+         <Concept code="MIN"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Neubauer améliorée"/>
+         <Concept code="MIS"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Makler"/>
+         <Concept code="MIR"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Bruker"/>
+         <Concept code="MIT"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule Thoma"/>
+         <Concept code="MIX"
+                  codeSystem=""
+                  displayName="Comptage microscopique-cellule autre"/>
+         <Concept code="UAA"
+                  codeSystem=""
+                  displayName="immuno-analyse-agglutination/hémagglutination"/>
+         <Concept code="UAI"
+                  codeSystem=""
+                  displayName="immuno-analyse-inhibition de l'agglutination"/>
+         <Concept code="UCX"
+                  codeSystem=""
+                  displayName="immuno-analyse-chimiluminescence"/>
+         <Concept code="UEA" codeSystem="" displayName="immuno-analyse-UV/visible"/>
+         <Concept code="UEC"
+                  codeSystem=""
+                  displayName="immuno-chromatographie-détection visible"/>
+         <Concept code="UFA"
+                  codeSystem=""
+                  displayName="immuno-analyse-détection en fluorescence"/>
+         <Concept code="UFC"
+                  codeSystem=""
+                  displayName="immuno-chromatographie-détection en fluorescence"/>
+         <Concept code="UGA"
+                  codeSystem=""
+                  displayName="immunoprécipitation-immunodiffusion radiale (IDR)"/>
+         <Concept code="UIX"
+                  codeSystem=""
+                  displayName="immuno-analyse-détection isotopique-code générique"/>
+         <Concept code="UNX" codeSystem="" displayName="immuno-analyse-néphélémétrie"/>
+         <Concept code="USX" codeSystem="" displayName="immuno-analyse-blot/dots"/>
+         <Concept code="UPX"
+                  codeSystem=""
+                  displayName="immuno-analyse-neutralisation Ag/Ac"/>
+         <Concept code="UTX" codeSystem="" displayName="immuno-analyse-turbidimétrie"/>
+         <Concept code="VAX" codeSystem="" displayName="Electrophorèse avec colorant"/>
+         <Concept code="VBI"
+                  codeSystem=""
+                  displayName="Electrophorèse capillaire-immunosoustraction"/>
+         <Concept code="VBX" codeSystem="" displayName="Electrophorèse capillaire"/>
+         <Concept code="VCX" codeSystem="" displayName="Isofocalisation"/>
+         <Concept code="UVA" codeSystem="" displayName="Immuno-electrophorèse"/>
+         <Concept code="UVB" codeSystem="" displayName="immunofixation"/>
+         <Concept code="VEB"
+                  codeSystem=""
+                  displayName="Co-électrosynérèse, électro-immunodiffusion bidimensionnelle"/>
+         <Concept code="ZCX" codeSystem="" displayName="Calcul mathématique"/>
+         <Concept code="ZAX"
+                  codeSystem=""
+                  displayName="Centrifugation-mesure d'un rapport de hauteurs"/>
+         <Concept code="ZQX"
+                  codeSystem=""
+                  displayName="Thermochimie-bombe calorimétrique"/>
+         <Concept code="ZTX" codeSystem="" displayName="Titrimétrie"/>
+         <Concept code="ZRX" codeSystem="" displayName="Réfractométrie"/>
+         <Concept code="ZVX" codeSystem="" displayName="Tension de vapeur"/>
+         <Concept code="ZDX" codeSystem="" displayName="Abaissement cryoscopique"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

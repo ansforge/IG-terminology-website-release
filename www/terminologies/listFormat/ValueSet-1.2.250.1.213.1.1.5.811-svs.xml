@@ -10,18 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-1296"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1296"
+                  codeSystem=""
                   displayName="Intervention d'un aide soignant"/>
-         <concept code="MED-1297"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1297"
+                  codeSystem=""
                   displayName="Intervention d'un infirmier libéral"/>
-         <concept code="MED-1298"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1298"
+                  codeSystem=""
                   displayName="Intervention d'un infirmer salarié"/>
-         <concept code="MED-1299"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Intervention conjointe"/>
+         <Concept code="MED-1299" codeSystem="" displayName="Intervention conjointe"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

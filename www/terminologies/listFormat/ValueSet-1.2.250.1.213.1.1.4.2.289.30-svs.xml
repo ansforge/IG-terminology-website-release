@@ -10,19 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ORG-143"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-143"
+                  codeSystem=""
                   displayName="Réanimation/soins intentifs"/>
-         <concept code="ORG-144"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre court-séjour"/>
-         <concept code="ORG-145"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Service réadaptation"/>
-         <concept code="ORG-146"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Psychiatrie"/>
-         <concept code="OBS_203" codeSystem="" displayName="Autre maternité"/>
+         <Concept code="ORG-144" codeSystem="" displayName="Autre court-séjour"/>
+         <Concept code="ORG-145" codeSystem="" displayName="Service réadaptation"/>
+         <Concept code="ORG-146" codeSystem="" displayName="Psychiatrie"/>
+         <Concept code="OBS_203" codeSystem="" displayName="Autre maternité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

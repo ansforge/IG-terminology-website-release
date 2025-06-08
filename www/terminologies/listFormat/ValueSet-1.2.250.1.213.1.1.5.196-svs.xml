@@ -10,18 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-442"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Carotidien territorial"/>
-         <concept code="MED-443"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Carotidien lacunaire"/>
-         <concept code="MED-444"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="VB territorial"/>
-         <concept code="MED-445"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="VB lacunaire"/>
+         <Concept code="MED-442" codeSystem="" displayName="Carotidien territorial"/>
+         <Concept code="MED-443" codeSystem="" displayName="Carotidien lacunaire"/>
+         <Concept code="MED-444" codeSystem="" displayName="VB territorial"/>
+         <Concept code="MED-445" codeSystem="" displayName="VB lacunaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

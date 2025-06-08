@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-1553",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-1553",
+  "name" : "UnionJDV_J92_MotifFinActivite_RASSAndJDV_J92_MotifFinActivite_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "AUT",
+        "display" : "Autre motif"
+      },
+      {
+        "code" : "CHA",
+        "display" : "Changement d'activité"
+      },
+      {
+        "code" : "CHL",
+        "display" : "Changement de lieu d'exercice"
+      },
+      {
+        "code" : "CHP",
+        "display" : "Changement de profession"
+      },
+      {
+        "code" : "DCD",
+        "display" : "Décès"
+      },
+      {
+        "code" : "ETR",
+        "display" : "Départ à l'étranger"
+      },
+      {
+        "code" : "RH",
+        "display" : "Retraite hospitalière"
+      },
+      {
+        "code" : "RL",
+        "display" : "Retraite libérale"
+      },
+      {
+        "code" : "RS",
+        "display" : "Retraite salariée"
+      }]
+    }]
+  }
+}

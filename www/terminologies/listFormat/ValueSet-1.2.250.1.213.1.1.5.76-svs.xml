@@ -10,16 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-091"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Examen de biologie"/>
-         <concept code="MED-092"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-091" codeSystem="" displayName="Examen de biologie"/>
+         <Concept code="MED-092"
+                  codeSystem=""
                   displayName="Examen d’imagerie médicale"/>
-         <concept code="GEN-092.04.06"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="GEN-092.04.06"
+                  codeSystem=""
                   displayName="Autre type de suivi"/>
-         <concept code="11429006"
+         <Concept code="11429006"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="Consultation"/>
       </ConceptList>

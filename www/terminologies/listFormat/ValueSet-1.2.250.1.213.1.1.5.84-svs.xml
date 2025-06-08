@@ -10,17 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-034"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Agrandissement"/>
-         <concept code="GEN-092.04.16"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autres clichés"/>
-         <concept code="MED-113"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Tomosynthèse"/>
-         <concept code="OT" codeSystem="" displayName="Autre technique d'imagerie"/>
-         <concept code="US" codeSystem="" displayName="Echographie"/>
+         <Concept code="MED-034" codeSystem="" displayName="Agrandissement"/>
+         <Concept code="GEN-092.04.16" codeSystem="" displayName="Autres clichés"/>
+         <Concept code="MED-113" codeSystem="" displayName="Tomosynthèse"/>
+         <Concept code="OT" codeSystem="" displayName="Autre technique d'imagerie"/>
+         <Concept code="US" codeSystem="" displayName="Echographie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

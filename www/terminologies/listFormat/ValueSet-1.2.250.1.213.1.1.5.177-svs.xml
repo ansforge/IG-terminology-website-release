@@ -10,18 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-103"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Normal"/>
-         <concept code="MED-392"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Somnolence ou coma léger"/>
-         <concept code="MED-393"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Coma lourd"/>
-         <concept code="MED-394"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Coma profond ou mort"/>
+         <Concept code="GEN-103" codeSystem="" displayName="Normal"/>
+         <Concept code="MED-392" codeSystem="" displayName="Somnolence ou coma léger"/>
+         <Concept code="MED-393" codeSystem="" displayName="Coma lourd"/>
+         <Concept code="MED-394" codeSystem="" displayName="Coma profond ou mort"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

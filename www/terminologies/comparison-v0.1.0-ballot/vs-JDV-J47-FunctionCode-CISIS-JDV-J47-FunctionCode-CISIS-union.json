@@ -1,0 +1,83 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1421",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1421",
+  "name" : "UnionJDV_J47_FunctionCode_CISISAndJDV_J47_FunctionCode_CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "CORRE",
+        "display" : "Correspondant"
+      },
+      {
+        "code" : "PRELV",
+        "display" : "Préleveur"
+      },
+      {
+        "code" : "ES-REF",
+        "display" : "Etablissement de santé de référence"
+      },
+      {
+        "code" : "ES-PREF",
+        "display" : "Etablissement de santé de préférence"
+      },
+      {
+        "code" : "HEBERG",
+        "display" : "Centre d'hébergement"
+      },
+      {
+        "code" : "ST-PS-PEC",
+        "display" : "Structures et professionnels de proximité impliqués dans les soins"
+      },
+      {
+        "code" : "ST-COORD",
+        "display" : "Structure de coordination ou d'interface ville-hôpital"
+      },
+      {
+        "code" : "ORG-SOC",
+        "display" : "Organismes sociaux et de maintien dans l'emploi"
+      },
+      {
+        "code" : "ST-INF",
+        "display" : "Structure de soutien et d'information"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "ADMPHYS",
+        "display" : "Responsable de l'admission"
+      },
+      {
+        "code" : "ATTPHYS",
+        "display" : "Référent - Responsable du patient dans la structure de soins"
+      },
+      {
+        "code" : "DISPHYS",
+        "display" : "Responsable de la sortie"
+      },
+      {
+        "code" : "PCP",
+        "display" : "Médecin traitant"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "330",
+        "display" : "Coordonnateur de parcours"
+      },
+      {
+        "code" : "353",
+        "display" : "Membre de l'équipe de soins"
+      }]
+    }]
+  }
+}

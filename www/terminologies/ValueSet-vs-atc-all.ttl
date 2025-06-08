@@ -27,9 +27,15 @@
   fhir:name [ fhir:v "ValueSet_ATC_All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-04-02T10:50:09+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-06-08T18:16:56+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
   fhir:compose [
      fhir:include ( [
        fhir:system [ fhir:v "https://smt.esante.gouv.fr/terminologie-atc"^^xsd:anyURI ]

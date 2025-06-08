@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1028",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1028",
+  "name" : "UnionJDV_J164_GlucoseNumberOfDays_ENSAndJDV_J164_GlucoseNumberOfDays_ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-275",
+        "display" : "7j"
+      },
+      {
+        "code" : "GEN-276",
+        "display" : "14j"
+      },
+      {
+        "code" : "GEN-277",
+        "display" : "30j"
+      },
+      {
+        "code" : "GEN-278",
+        "display" : "90j"
+      },
+      {
+        "code" : "GEN-092.08.05",
+        "display" : "Autre(s) nombre de jours"
+      }]
+    }]
+  }
+}

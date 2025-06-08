@@ -10,13 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="DEV"
+         <Concept code="DEV"
                   codeSystem=""
                   displayName="Dispositif automatique impliqué dans la production des résultats"/>
-         <concept code="AUTHEN"
+         <Concept code="AUTHEN"
                   codeSystem=""
                   displayName="Valideur des résultats (ex : un biologiste ou un système expert)"/>
-         <concept code="RESP" codeSystem="" displayName="Responsable de l'acte"/>
+         <Concept code="RESP" codeSystem="" displayName="Responsable de l'acte"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

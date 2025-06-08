@@ -10,15 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-311"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Jamais"/>
-         <concept code="GEN-312"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="&lt; 1 fois/semaine"/>
-         <concept code="GEN-313"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="&gt;= 1 fois/semaine"/>
+         <Concept code="GEN-311" codeSystem="" displayName="Jamais"/>
+         <Concept code="GEN-312" codeSystem="" displayName="&lt; 1 fois/semaine"/>
+         <Concept code="GEN-313" codeSystem="" displayName="&gt;= 1 fois/semaine"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

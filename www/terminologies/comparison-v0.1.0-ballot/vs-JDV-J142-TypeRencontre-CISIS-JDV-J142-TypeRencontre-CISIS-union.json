@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-959",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-959",
+  "name" : "UnionJDV_J142_TypeRencontre_CISISAndJDV_J142_TypeRencontre_CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "IMP",
+        "display" : "Hospitalisation (établissement, y compris HAD)"
+      },
+      {
+        "code" : "EMER",
+        "display" : "Passage aux urgences (établissement)"
+      },
+      {
+        "code" : "AMB",
+        "display" : "Ambulatoire (hors établissement)"
+      },
+      {
+        "code" : "FLD",
+        "display" : "Terrain (voie publique, hélicoptère, ambulance, etc.)"
+      },
+      {
+        "code" : "HH",
+        "display" : "Soins à domicile (hors établissement)"
+      },
+      {
+        "code" : "VR",
+        "display" : "Virtuelle (exemple : RCP en l'absence du patient)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "EXTERNE",
+        "display" : "Acte et consultation externe (établissement)"
+      },
+      {
+        "code" : "SEANCE",
+        "display" : "Séance (établissement ou libéral)"
+      }]
+    }]
+  }
+}

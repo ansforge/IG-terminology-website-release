@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1220",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1220",
+  "name" : "UnionJDV_J225_CanalCommunication_RORAndJDV_J225_CanalCommunication_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Téléphone mobile"
+      },
+      {
+        "code" : "2",
+        "display" : "Téléphone fixe"
+      },
+      {
+        "code" : "3",
+        "display" : "Courrier électronique"
+      },
+      {
+        "code" : "4",
+        "display" : "Adresse web"
+      },
+      {
+        "code" : "5",
+        "display" : "Transfert de fichiers"
+      },
+      {
+        "code" : "6",
+        "display" : "Télécopie"
+      },
+      {
+        "code" : "7",
+        "display" : "Réseau radio numérique ANTARES"
+      },
+      {
+        "code" : "8",
+        "display" : "Téléphone d'alerte"
+      },
+      {
+        "code" : "9",
+        "display" : "Mail d'alerte"
+      }]
+    }]
+  }
+}

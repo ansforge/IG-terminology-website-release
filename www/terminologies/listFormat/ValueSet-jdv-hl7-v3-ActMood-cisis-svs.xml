@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20240905000000"
+             description="ActMood"
+             displayName="ActMood"
+             id="2.16.840.1.113883.1.11.10196"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="DEF" codeSystem="" displayName="Définition"/>
+         <Concept code="PERM" codeSystem="" displayName="Permission"/>
+         <Concept code="SLOT"
+                  codeSystem=""
+                  displayName="Possible sur la période spécifiée"/>
+         <Concept code="EVN" codeSystem="" displayName="Réalisé"/>
+         <Concept code="INT" codeSystem="" displayName="Prévu"/>
+         <Concept code="ARQ" codeSystem="" displayName="Prévu mais non confirmé"/>
+         <Concept code="PERMRQ" codeSystem="" displayName="Demande d'autorisation"/>
+         <Concept code="RQO" codeSystem="" displayName="Demande"/>
+         <Concept code="PRP" codeSystem="" displayName="Proposition"/>
+         <Concept code="RMD" codeSystem="" displayName="Recommandation"/>
+         <Concept code="PRMS" codeSystem="" displayName="Planifié et confirmé"/>
+         <Concept code="APT" codeSystem="" displayName="Date et lieu confirmé"/>
+         <Concept code="EXPEC" codeSystem="" displayName="Attendu"/>
+         <Concept code="GOL" codeSystem="" displayName="But"/>
+         <Concept code="RSK" codeSystem="" displayName="Risque"/>
+         <Concept code="OPT" codeSystem="" displayName="Option"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

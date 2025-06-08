@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-857",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-857",
+  "name" : "UnionJDV_J111_StatutEtatCivil_ENREGAndJDV_J111_StatutEtatCivil_ENREG",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "AC",
+        "display" : "Demande de certification forcée par le guichet"
+      },
+      {
+        "code" : "AN",
+        "display" : "Demande annulée"
+      },
+      {
+        "code" : "C",
+        "display" : "Certifié INSEE"
+      },
+      {
+        "code" : "DI",
+        "display" : "Demande de certification normale"
+      },
+      {
+        "code" : "FC",
+        "display" : "Certifié par FranceConnect"
+      },
+      {
+        "code" : "FCP",
+        "display" : "Certifié par FranceConnect+"
+      },
+      {
+        "code" : "NC",
+        "display" : "Non certifiable"
+      },
+      {
+        "code" : "NCI",
+        "display" : "Non certifié INSEE, Immatriculation en cours"
+      }]
+    }]
+  }
+}

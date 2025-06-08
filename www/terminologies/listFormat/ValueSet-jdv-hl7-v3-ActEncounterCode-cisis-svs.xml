@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20100101000000"
+             description="ActEncounterCode"
+             displayName="ActEncounterCode"
+             id="2.16.840.1.113883.1.11.13955"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="AMB"
+                  codeSystem=""
+                  displayName="Ambulatoire (hors établissement)"/>
+         <Concept code="EMER"
+                  codeSystem=""
+                  displayName="Passage aux urgences (établissement)"/>
+         <Concept code="FLD"
+                  codeSystem=""
+                  displayName="Terrain (voie publique, hélicoptère, ambulance, etc.)"/>
+         <Concept code="HH"
+                  codeSystem=""
+                  displayName="Soins à domicile (hors établissement)"/>
+         <Concept code="IMP"
+                  codeSystem=""
+                  displayName="Hospitalisation (établissement, y compris HAD)"/>
+         <Concept code="OBSENC" codeSystem="" displayName="Observation"/>
+         <Concept code="PRENC" codeSystem="" displayName="Pré-admission"/>
+         <Concept code="SS" codeSystem="" displayName="Hospitalisation de jour"/>
+         <Concept code="VR"
+                  codeSystem=""
+                  displayName="Virtuelle (exemple : RCP en l'absence du patient)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -16,9 +16,15 @@
   <name value="ValueSet_NUVA_All"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-04-02T10:50:09+00:00"/>
+  <date value="2025-06-08T18:16:56+00:00"/>
   <publisher value="Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"/>
   <description value="Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="FR"/>
+    </coding>
+  </jurisdiction>
   <compose>
     <include>
       <system value="https://smt.esante.gouv.fr/terminologie-nuva"/>

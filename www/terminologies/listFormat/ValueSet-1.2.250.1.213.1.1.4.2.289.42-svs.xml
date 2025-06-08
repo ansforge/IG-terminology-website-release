@@ -10,22 +10,20 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-1256"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Allaitement maternel exclusif"/>
-         <concept code="MED-1257"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Allaitement maternel mixte"/>
-         <concept code="MED-1258"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Allaitement artificiel"/>
-         <concept code="OBS_229"
+         <Concept code="MED-1256"
                   codeSystem=""
                   displayName="Allaitement maternel exclusif"/>
-         <concept code="OBS_230"
+         <Concept code="MED-1257"
                   codeSystem=""
                   displayName="Allaitement maternel mixte"/>
-         <concept code="OBS_231" codeSystem="" displayName="Allaitement artificiel"/>
+         <Concept code="MED-1258" codeSystem="" displayName="Allaitement artificiel"/>
+         <Concept code="OBS_229"
+                  codeSystem=""
+                  displayName="Allaitement maternel exclusif"/>
+         <Concept code="OBS_230"
+                  codeSystem=""
+                  displayName="Allaitement maternel mixte"/>
+         <Concept code="OBS_231" codeSystem="" displayName="Allaitement artificiel"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

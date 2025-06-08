@@ -10,29 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="GEN-092"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre"/>
-         <concept code="GEN-092.01.05"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre aspect du liquide amniotique"/>
-         <concept code="OBS_216" codeSystem="" displayName="Teinté (méconial fluide)"/>
-         <concept code="OBS_217" codeSystem="" displayName="Méconial épais"/>
-         <concept code="OBS_218" codeSystem="" displayName="Sanglant"/>
-         <concept code="OBS_219"
+         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
+         <Concept code="GEN-092.01.05"
                   codeSystem=""
                   displayName="Autre aspect du liquide amniotique"/>
-         <concept code="G-A456" codeSystem="" displayName="Clair"/>
-         <concept code="168092006"
+         <Concept code="OBS_216" codeSystem="" displayName="Teinté (méconial fluide)"/>
+         <Concept code="OBS_217" codeSystem="" displayName="Méconial épais"/>
+         <Concept code="OBS_218" codeSystem="" displayName="Sanglant"/>
+         <Concept code="OBS_219"
+                  codeSystem=""
+                  displayName="Autre aspect du liquide amniotique"/>
+         <Concept code="G-A456" codeSystem="" displayName="Clair"/>
+         <Concept code="168092006"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="coloration méconiale du liquide amniotique"/>
-         <concept code="249134008"
+         <Concept code="249134008"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="liquide amniotique sanglant"/>
-         <concept code="289294000"
+         <Concept code="289294000"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="liquide amniotique avec méconium épais"/>
-         <concept code="408781009"
+         <Concept code="408781009"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="liquide amniotique de couleur jaune paille"/>
       </ConceptList>

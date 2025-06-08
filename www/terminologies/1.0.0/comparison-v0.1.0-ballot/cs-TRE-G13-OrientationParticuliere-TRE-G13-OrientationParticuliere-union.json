@@ -1,0 +1,101 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-83",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2320dc64-d0af-44a0-9972-759c7e9535c3-83",
+  "name" : "UnionTRE_G13_OrientationParticuliereAndTRE_G13_OrientationParticuliere",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "80",
+    "display" : "Homéopathie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-27T17:03:14+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-27T17:03:14+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-27T17:03:14+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "81",
+    "display" : "Acupuncture",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-27T17:03:14+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-27T17:03:14+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-27T17:03:14+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    }]
+  }]
+}

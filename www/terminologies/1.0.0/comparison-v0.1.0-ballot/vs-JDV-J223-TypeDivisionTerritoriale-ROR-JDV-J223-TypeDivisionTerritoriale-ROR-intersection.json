@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-1215",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-1215",
+  "name" : "IntersectionJDV_J223_TypeDivisionTerritoriale_RORAndJDV_J223_TypeDivisionTerritoriale_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Région"
+      },
+      {
+        "code" : "2",
+        "display" : "Département"
+      },
+      {
+        "code" : "3",
+        "display" : "Commune"
+      },
+      {
+        "code" : "4",
+        "display" : "Territoire de Santé"
+      },
+      {
+        "code" : "5",
+        "display" : "Pays"
+      },
+      {
+        "code" : "6",
+        "display" : "Zone de Défense"
+      }]
+    }]
+  }
+}

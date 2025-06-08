@@ -1,0 +1,158 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-792",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/11ef1f82-7104-4d22-a114-4816a2cca1e3-792",
+  "name" : "IntersectionNUVAAndNUVA",
+  "title" : "Intersection of Nomenclature Unifiée des Vaccins And Nomenclature Unifiée des Vaccins",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "filter" : [{
+    "code" : "root",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "deprecated",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "imported",
+    "operator" : ["="],
+    "value" : "True or false"
+  }],
+  "property" : [{
+    "code" : "type",
+    "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "type" : "code"
+  },
+  {
+    "code" : "created",
+    "uri" : "http://purl.org/dc/terms/created",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "modified",
+    "uri" : "http://purl.org/dc/terms/modified",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "containedInVaccine",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine",
+    "type" : "code"
+  },
+  {
+    "code" : "prevents",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#prevents",
+    "type" : "code"
+  },
+  {
+    "code" : "comment",
+    "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "type" : "string"
+  },
+  {
+    "code" : "containsValence",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#containsValence",
+    "type" : "code"
+  },
+  {
+    "code" : "isAbstract",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#isAbstract",
+    "type" : "boolean"
+  },
+  {
+    "code" : "hiddenLabel",
+    "uri" : "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+    "type" : "string"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  },
+  {
+    "code" : "type",
+    "uri" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#type",
+    "type" : "code"
+  },
+  {
+    "code" : "created",
+    "uri" : "http://purl.org/dc/terms/created",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "modified",
+    "uri" : "http://purl.org/dc/terms/modified",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "containedInVaccine",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#containedInVaccine",
+    "type" : "code"
+  },
+  {
+    "code" : "prevents",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#prevents",
+    "type" : "code"
+  },
+  {
+    "code" : "comment",
+    "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "type" : "string"
+  },
+  {
+    "code" : "containsValence",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#containsValence",
+    "type" : "code"
+  },
+  {
+    "code" : "isAbstract",
+    "uri" : "http://data.esante.gouv.fr/NUVA/nuvs#isAbstract",
+    "type" : "boolean"
+  },
+  {
+    "code" : "hiddenLabel",
+    "uri" : "http://www.w3.org/2004/02/skos/core#hiddenLabel",
+    "type" : "string"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  }]
+}

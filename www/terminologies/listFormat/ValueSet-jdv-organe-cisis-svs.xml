@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103858"
+             dateValid="20100101000000"
+             description="JDV Organe CISIS"
+             displayName="JdvOrganeCisis"
+             id="1.2.250.1.213.1.1.5.479"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="AZ"
+                  codeSystem=""
+                  displayName="APPAREIL AERO-DIGESTIF SUPERIEUR"/>
+         <Concept code="AA" codeSystem="" displayName="AMYGDALE PALATINE"/>
+         <Concept code="AC" codeSystem="" displayName="CAVUM - RHINOPHARYNX"/>
+         <Concept code="AF" codeSystem="" displayName="FOSSES NASALES"/>
+         <Concept code="AH" codeSystem="" displayName="HYPOPHARYNX"/>
+         <Concept code="AL" codeSystem="" displayName="LARYNX"/>
+         <Concept code="AO" codeSystem="" displayName="OROPHARYNX"/>
+         <Concept code="AP" codeSystem="" displayName="PHARYNX"/>
+         <Concept code="AS" codeSystem="" displayName="SINUS DE LA FACE"/>
+         <Concept code="BZ"
+                  codeSystem=""
+                  displayName="APPAREIL BUCCO-DENTO SALIVAIRE"/>
+         <Concept code="BA"
+                  codeSystem=""
+                  displayName="AUTRE GLANDE SALIVAIRE ACCESSOIRE- GLANDE SALIVAIRE"/>
+         <Concept code="BD" codeSystem="" displayName="DENT - ARCADE DENTAIRE"/>
+         <Concept code="BG" codeSystem="" displayName="GENCIVE"/>
+         <Concept code="BL" codeSystem="" displayName="LANGUE"/>
+         <Concept code="BM" codeSystem="" displayName="GLANDE SOUS-MAXILLAIRE"/>
+         <Concept code="BP" codeSystem="" displayName="PAROTIDE"/>
+         <Concept code="BS" codeSystem="" displayName="GLANDE SUB-LINGUALE"/>
+         <Concept code="BV" codeSystem="" displayName="VERMILLON - LEVRE"/>
+         <Concept code="BX" codeSystem="" displayName="CAVITE BUCCALE"/>
+         <Concept code="CZ"
+                  codeSystem=""
+                  displayName="APPAREIL CARDIAQUE ET SES VAISSEAUX"/>
+         <Concept code="CC"
+                  codeSystem=""
+                  displayName="CORONAIRES - VAISSEAUX DU COEUR"/>
+         <Concept code="CE" codeSystem="" displayName="ENDOCARDE - VALVULE - PILIER"/>
+         <Concept code="CM" codeSystem="" displayName="MYOCARDE"/>
+         <Concept code="CN"
+                  codeSystem=""
+                  displayName="TISSU NODAL - TISSU DE CONDUCTION"/>
+         <Concept code="CP" codeSystem="" displayName="PERICARDE"/>
+         <Concept code="CX" codeSystem="" displayName="COEUR ET GROS VAISSEAUX"/>
+         <Concept code="DZ" codeSystem="" displayName="APPAREIL DIGESTIF"/>
+         <Concept code="DA" codeSystem="" displayName="APPENDICE"/>
+         <Concept code="DC" codeSystem="" displayName="COLON"/>
+         <Concept code="DD" codeSystem="" displayName="DUODENUM"/>
+         <Concept code="DE" codeSystem="" displayName="ESTOMAC"/>
+         <Concept code="DG" codeSystem="" displayName="INTESTIN GRELE"/>
+         <Concept code="DM" codeSystem="" displayName="DIVERTICULE DE MECKEL"/>
+         <Concept code="DO" codeSystem="" displayName="OESOPHAGE"/>
+         <Concept code="DP" codeSystem="" displayName="PERITOINE - CANAL DE NUCK"/>
+         <Concept code="DQ" codeSystem="" displayName="ANUS"/>
+         <Concept code="DR" codeSystem="" displayName="RECTUM"/>
+         <Concept code="DV"
+                  codeSystem=""
+                  displayName="VALVULE DE BAUHIN ET REGION ILEO-COECALE"/>
+         <Concept code="EZ" codeSystem="" displayName="SYSTEME ENDOCRINE"/>
+         <Concept code="EG" codeSystem="" displayName="PARAGANGLION"/>
+         <Concept code="EH" codeSystem="" displayName="HYPOPHYSE"/>
+         <Concept code="EI"
+                  codeSystem=""
+                  displayName="ILOTS DE LANGHERANS - PANCREAS ENDOCRINE"/>
+         <Concept code="EP" codeSystem="" displayName="PARATHYROIDE"/>
+         <Concept code="ES" codeSystem="" displayName="SURRENALE"/>
+         <Concept code="ET" codeSystem="" displayName="THYROIDE"/>
+         <Concept code="FZ"
+                  codeSystem=""
+                  displayName="FOIE- VOIES BILIAIRES- PANCREAS"/>
+         <Concept code="FE"
+                  codeSystem=""
+                  displayName="VOIES BILIAIRES EXTRA-HEPATIQUES"/>
+         <Concept code="FF" codeSystem="" displayName="FOIE"/>
+         <Concept code="FI"
+                  codeSystem=""
+                  displayName="VOIES BILIAIRES INTRA-HEPATIQUES"/>
+         <Concept code="FO" codeSystem="" displayName="ODDI - AMPOULE DE VATER"/>
+         <Concept code="FP" codeSystem="" displayName="PANCREAS EXOCRINE"/>
+         <Concept code="FV"
+                  codeSystem=""
+                  displayName="VESICULE BILIAIRE ET CANAL CYSTIQUE"/>
+         <Concept code="GZ" codeSystem="" displayName="APPAREIL GENITAL FEMININ"/>
+         <Concept code="GB" codeSystem="" displayName="GLANDES DE BARTHOLIN"/>
+         <Concept code="GC" codeSystem="" displayName="COL UTERIN - EXOCOL"/>
+         <Concept code="GE" codeSystem="" displayName="ENDOCOL"/>
+         <Concept code="GG" codeSystem="" displayName="VAGIN"/>
+         <Concept code="GL" codeSystem="" displayName="LIGAMENTS LARGES ET UTERINS"/>
+         <Concept code="GM" codeSystem="" displayName="MYOMETRE - UTERUS"/>
+         <Concept code="GO" codeSystem="" displayName="OVAIRE"/>
+         <Concept code="GS" codeSystem="" displayName="SEIN"/>
+         <Concept code="GT" codeSystem="" displayName="TROMPE"/>
+         <Concept code="GU" codeSystem="" displayName="MUQUEUSE UTERINE - ENDOMETRE"/>
+         <Concept code="GV" codeSystem="" displayName="VULVE"/>
+         <Concept code="GX" codeSystem="" displayName="REGION CERVICO-VAGINALE"/>
+         <Concept code="HZ" codeSystem="" displayName="APPAREIL GENITAL MASCULIN"/>
+         <Concept code="HB" codeSystem="" displayName="BOURSES - SCROTUM"/>
+         <Concept code="HD" codeSystem="" displayName="DEFERENT - CORDON SPERMATIQUE"/>
+         <Concept code="HE" codeSystem="" displayName="EPIDIDYME"/>
+         <Concept code="HG" codeSystem="" displayName="VAGINALE DU TESTICULE"/>
+         <Concept code="HL" codeSystem="" displayName="LIQUIDE SEMINAL"/>
+         <Concept code="HP" codeSystem="" displayName="PROSTATE"/>
+         <Concept code="HS" codeSystem="" displayName="VESICULE SEMINALE"/>
+         <Concept code="HT" codeSystem="" displayName="TESTICULE"/>
+         <Concept code="HV" codeSystem="" displayName="VERGE"/>
+         <Concept code="LZ" codeSystem="" displayName="SYSTEME LOCO-MOTEUR"/>
+         <Concept code="LA" codeSystem="" displayName="ARTICULATION"/>
+         <Concept code="LB" codeSystem="" displayName="BOURSE SEREUSE"/>
+         <Concept code="LC" codeSystem="" displayName="CARTILAGE ARTICULAIRE"/>
+         <Concept code="LG" codeSystem="" displayName="GAINE TENDINEUSE"/>
+         <Concept code="LM" codeSystem="" displayName="MUSCLE STRIE"/>
+         <Concept code="LO" codeSystem="" displayName="OS"/>
+         <Concept code="LS" codeSystem="" displayName="SYNOVIALE - CAPSULE"/>
+         <Concept code="LT" codeSystem="" displayName="TENDON"/>
+         <Concept code="NZ" codeSystem="" displayName="SYSTEME NERVEUX"/>
+         <Concept code="NA" codeSystem="" displayName="ARTERES DU SYSTEME NERVEUX"/>
+         <Concept code="NC" codeSystem="" displayName="CERVELET"/>
+         <Concept code="NE" codeSystem="" displayName="MOELLE EPINIERE"/>
+         <Concept code="NH" codeSystem="" displayName="HEMISPHERE CEREBRAL"/>
+         <Concept code="NM" codeSystem="" displayName="MENINGE"/>
+         <Concept code="NN"
+                  codeSystem=""
+                  displayName="SYSTEME NERVEUX NEUROVEGETATIF"/>
+         <Concept code="NP" codeSystem="" displayName="SYSTEME NERVEUX PERIPHERIQUE"/>
+         <Concept code="NS"
+                  codeSystem=""
+                  displayName="SINUS VEINEUX DU SYSTEME NERVEUX"/>
+         <Concept code="NT" codeSystem="" displayName="TRONC CEREBRAL - NERF CRANIEN"/>
+         <Concept code="NV" codeSystem="" displayName="VEINE DU SYSTEME NERVEUX"/>
+         <Concept code="OZ" codeSystem="" displayName="ORGANES DES SENS ET TEGUMENTS"/>
+         <Concept code="OA"
+                  codeSystem=""
+                  displayName="ANNEXES SUDORIPARE, SEBACEE ET PILAIRE"/>
+         <Concept code="OC" codeSystem="" displayName="CORNEE"/>
+         <Concept code="OE" codeSystem="" displayName="OEIL ET ORBITE"/>
+         <Concept code="OG" codeSystem="" displayName="ONGLE"/>
+         <Concept code="OL" codeSystem="" displayName="SYSTEME LACRYMAL"/>
+         <Concept code="ON" codeSystem="" displayName="NEZ"/>
+         <Concept code="OP" codeSystem="" displayName="PAUPIERE"/>
+         <Concept code="OR"
+                  codeSystem=""
+                  displayName="OREILLE (EXTERNE, MOYENNE, INTERNE, MASTOIDE)"/>
+         <Concept code="OT" codeSystem="" displayName="TEGUMENTS"/>
+         <Concept code="OU" codeSystem="" displayName="UVEE"/>
+         <Concept code="PZ" codeSystem="" displayName="PRODUITS DE CONCEPTION"/>
+         <Concept code="PC" codeSystem="" displayName="CORDON OMBILICAL"/>
+         <Concept code="PF" codeSystem="" displayName="FOETUS - EMBRYON"/>
+         <Concept code="PM" codeSystem="" displayName="MEMBRANES"/>
+         <Concept code="PO" codeSystem="" displayName="OEUF - PRODUITS OVULAIRES"/>
+         <Concept code="PP" codeSystem="" displayName="PLACENTA"/>
+         <Concept code="RZ" codeSystem="" displayName="APPAREIL RESPIRATOIRE"/>
+         <Concept code="RB" codeSystem="" displayName="BRONCHE"/>
+         <Concept code="RP" codeSystem="" displayName="POUMON"/>
+         <Concept code="RS" codeSystem="" displayName="SEREUSE PLEURALE"/>
+         <Concept code="RT" codeSystem="" displayName="TRACHEE"/>
+         <Concept code="SZ" codeSystem="" displayName="SANG ET TISSU HEMATOPOIETIQUE"/>
+         <Concept code="SA" codeSystem="" displayName="SANG"/>
+         <Concept code="SG" codeSystem="" displayName="GANGLION LYMPHATIQUE"/>
+         <Concept code="SM" codeSystem="" displayName="MOELLE OSSEUSE"/>
+         <Concept code="SR" codeSystem="" displayName="RATE"/>
+         <Concept code="ST" codeSystem="" displayName="THYMUS"/>
+         <Concept code="TZ" codeSystem="" displayName="TISSUS MESENCHYMATEUX"/>
+         <Concept code="TA" codeSystem="" displayName="TISSU ADIPEUX"/>
+         <Concept code="TC" codeSystem="" displayName="TISSU CONJONCTIF"/>
+         <Concept code="UZ" codeSystem="" displayName="APPAREIL URINAIRE"/>
+         <Concept code="UC" codeSystem="" displayName="CANAL URETRAL"/>
+         <Concept code="UP"
+                  codeSystem=""
+                  displayName="PYELOCALICE – BASSINET - CALICE"/>
+         <Concept code="UR" codeSystem="" displayName="REIN"/>
+         <Concept code="UT" codeSystem="" displayName="URETERE"/>
+         <Concept code="UV" codeSystem="" displayName="VESSIE - OURAQUE"/>
+         <Concept code="VZ" codeSystem="" displayName="SYSTEME VASCULAIRE"/>
+         <Concept code="VA" codeSystem="" displayName="ARTERE"/>
+         <Concept code="VC" codeSystem="" displayName="VEINE CAVE"/>
+         <Concept code="VL" codeSystem="" displayName="LYMPHATIQUE"/>
+         <Concept code="VM" codeSystem="" displayName="MICRO - CIRCULATION"/>
+         <Concept code="VO" codeSystem="" displayName="AORTE"/>
+         <Concept code="VP" codeSystem="" displayName="SYSTEME PORTE"/>
+         <Concept code="VV" codeSystem="" displayName="VEINE"/>
+         <Concept code="XZ" codeSystem="" displayName="REGION DE L'ORGANISME"/>
+         <Concept code="XA" codeSystem="" displayName="ABDOMEN - REGION ABDOMINALE"/>
+         <Concept code="XB" codeSystem="" displayName="BASSIN - REGION PELVIENNE"/>
+         <Concept code="XC" codeSystem="" displayName="COU - REGION CERVICALE"/>
+         <Concept code="XD"
+                  codeSystem=""
+                  displayName="DIAPHRAGME - REGION DIAPHRAGMATIQUE"/>
+         <Concept code="XE" codeSystem="" displayName="REGION ENCEPHALIQUE"/>
+         <Concept code="XF" codeSystem="" displayName="FACE - REGION FACIALE"/>
+         <Concept code="XI" codeSystem="" displayName="MEMBRE INFERIEUR"/>
+         <Concept code="XL" codeSystem="" displayName="LOMBES - REGION LOMBO-SACREE"/>
+         <Concept code="XM"
+                  codeSystem=""
+                  displayName="MEDIASTIN - REGION MEDIASTINALE"/>
+         <Concept code="XO" codeSystem="" displayName="REGION OMBILICALE - OMBILIC"/>
+         <Concept code="XP" codeSystem="" displayName="PERINEE - REGION PERINEALE"/>
+         <Concept code="XR" codeSystem="" displayName="REGION RETRO-PERITONEALE"/>
+         <Concept code="XS" codeSystem="" displayName="MEMBRE SUPERIEUR"/>
+         <Concept code="XT" codeSystem="" displayName="THORAX - REGION THORACIQUE"/>
+         <Concept code="XX" codeSystem="" displayName="ORGANISME ENTIER"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1430",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1430",
+  "name" : "UnionJDV_J50_AccessibiliteLieu_RORAndJDV_J50_AccessibiliteLieu_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Accessible"
+      },
+      {
+        "code" : "2",
+        "display" : "Non accessible"
+      },
+      {
+        "code" : "3",
+        "display" : "Sur demande"
+      },
+      {
+        "code" : "4",
+        "display" : "Non communiqué"
+      },
+      {
+        "code" : "5",
+        "display" : "Conforme"
+      },
+      {
+        "code" : "6",
+        "display" : "Ad'AP"
+      }]
+    }]
+  }
+}

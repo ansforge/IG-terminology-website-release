@@ -1,0 +1,69 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1350",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1350",
+  "name" : "IntersectionJDV_J278_UcumUniteMesure_UPNOSAndJDV_J278_UcumUniteMesure_UPNOS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "a",
+        "display" : "année"
+      },
+      {
+        "code" : "mo",
+        "display" : "mois"
+      },
+      {
+        "code" : "wk",
+        "display" : "semaine"
+      },
+      {
+        "code" : "d",
+        "display" : "jour"
+      },
+      {
+        "code" : "h",
+        "display" : "heure"
+      },
+      {
+        "code" : "min",
+        "display" : "minute"
+      },
+      {
+        "code" : "s",
+        "display" : "seconde"
+      },
+      {
+        "code" : "ms",
+        "display" : "milliseconde"
+      },
+      {
+        "code" : "m",
+        "display" : "mètre"
+      },
+      {
+        "code" : "mg/dL",
+        "display" : "milligramme par décilitre"
+      },
+      {
+        "code" : "%",
+        "display" : "pourcentage"
+      },
+      {
+        "code" : "g/L",
+        "display" : "gramme par litre"
+      },
+      {
+        "code" : "cm",
+        "display" : "centimètre"
+      },
+      {
+        "code" : "kg",
+        "display" : "kilogramme"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20100101000000"
+             description="MediaType"
+             displayName="MediaType"
+             id="2.16.840.1.113883.1.11.14824"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="application/dicom" codeSystem="" displayName="DICOM"/>
+         <Concept code="application/msword" codeSystem="" displayName="MSWORD"/>
+         <Concept code="application/pdf" codeSystem="" displayName="PDF"/>
+         <Concept code="audio/basic" codeSystem="" displayName="Basic Audio"/>
+         <Concept code="audio/k32adpcm" codeSystem="" displayName="K32ADPCM Audio"/>
+         <Concept code="audio/mpeg"
+                  codeSystem=""
+                  displayName="MPEG audio layer 3 MP3 Audio"/>
+         <Concept code="image/gif" codeSystem="" displayName="GIF Image"/>
+         <Concept code="image/jpeg" codeSystem="" displayName="JPEG Image"/>
+         <Concept code="image/png" codeSystem="" displayName="PNG Image"/>
+         <Concept code="image/tiff" codeSystem="" displayName="TIFF Image"/>
+         <Concept code="text/html" codeSystem="" displayName="HTML Text"/>
+         <Concept code="text/plain" codeSystem="" displayName="Plain Text"/>
+         <Concept code="text/rtf" codeSystem="" displayName="RTF Text"/>
+         <Concept code="text/xml" codeSystem="" displayName="XML Text"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

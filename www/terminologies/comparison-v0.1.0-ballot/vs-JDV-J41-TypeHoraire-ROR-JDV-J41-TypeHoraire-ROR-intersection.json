@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1413",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1413",
+  "name" : "IntersectionJDV_J41_TypeHoraire_RORAndJDV_J41_TypeHoraire_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Horaire d'ouverture"
+      },
+      {
+        "code" : "02",
+        "display" : "Horaire de fonctionnement"
+      },
+      {
+        "code" : "03",
+        "display" : "Horaire de garde"
+      },
+      {
+        "code" : "04",
+        "display" : "Horaire d'ouverture du secrétariat"
+      },
+      {
+        "code" : "05",
+        "display" : "Horaire de visite à domicile"
+      },
+      {
+        "code" : "06",
+        "display" : "Horaire de consultation sans RDV"
+      },
+      {
+        "code" : "07",
+        "display" : "Horaire de consultation sur RDV"
+      },
+      {
+        "code" : "08",
+        "display" : "Horaire de fermeture"
+      },
+      {
+        "code" : "09",
+        "display" : "Horaire à préciser"
+      },
+      {
+        "code" : "10",
+        "display" : "Horaire de téléconsultation"
+      },
+      {
+        "code" : "11",
+        "display" : "Horaire mixte : consultation ou téléconsultation"
+      }]
+    }]
+  }
+}

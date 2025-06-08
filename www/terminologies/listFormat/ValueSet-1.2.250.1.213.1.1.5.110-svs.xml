@@ -10,30 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="PAT-040"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Activité salariée"/>
-         <concept code="PAT-042"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Retraité"/>
-         <concept code="PAT-043"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Au foyer"/>
-         <concept code="PAT-044"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Congé parental"/>
-         <concept code="PAT-045"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Chômeur"/>
-         <concept code="PAT-046"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="PAT-040" codeSystem="" displayName="Activité salariée"/>
+         <Concept code="PAT-042" codeSystem="" displayName="Retraité"/>
+         <Concept code="PAT-043" codeSystem="" displayName="Au foyer"/>
+         <Concept code="PAT-044" codeSystem="" displayName="Congé parental"/>
+         <Concept code="PAT-045" codeSystem="" displayName="Chômeur"/>
+         <Concept code="PAT-046"
+                  codeSystem=""
                   displayName="Elève, étudiant ou en formation"/>
-         <concept code="GEN-092.05.06"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre inactif"/>
-         <concept code="GEN-092.05.05"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre activité"/>
+         <Concept code="GEN-092.05.06" codeSystem="" displayName="Autre inactif"/>
+         <Concept code="GEN-092.05.05" codeSystem="" displayName="Autre activité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

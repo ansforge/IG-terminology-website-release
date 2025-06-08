@@ -10,20 +10,20 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J08-XdsConfidentialityCode-CISIS">
       <ConceptList>
-         <concept code="N" codeSystem="2.16.840.1.113883.5.25" displayName="Normal"/>
-         <concept code="R"
+         <Concept code="N" codeSystem="2.16.840.1.113883.5.25" displayName="Normal"/>
+         <Concept code="R"
                   codeSystem="2.16.840.1.113883.5.25"
                   displayName="Restreint"/>
-         <concept code="V"
+         <Concept code="V"
                   codeSystem="2.16.840.1.113883.5.25"
                   displayName="Très restreint"/>
-         <concept code="INVISIBLE_PATIENT"
+         <Concept code="INVISIBLE_PATIENT"
                   codeSystem="1.2.250.1.213.1.1.4.13"
                   displayName="Non visible par le patient"/>
-         <concept code="INVISIBLE_REPRESENTANTS_LEGAUX"
+         <Concept code="INVISIBLE_REPRESENTANTS_LEGAUX"
                   codeSystem="1.2.250.1.213.1.1.4.13"
                   displayName="Non visible par les représentants légaux du patient"/>
-         <concept code="MASQUE_PS"
+         <Concept code="MASQUE_PS"
                   codeSystem="1.2.250.1.213.1.1.4.13"
                   displayName="Masqué aux professionnels de santé"/>
       </ConceptList>

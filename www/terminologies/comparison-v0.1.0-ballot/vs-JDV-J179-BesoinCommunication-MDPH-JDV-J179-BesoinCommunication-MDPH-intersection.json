@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1071",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1071",
+  "name" : "IntersectionJDV_J179_BesoinCommunication_MDPHAndJDV_J179_BesoinCommunication_MDPH",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Pour communiquer"
+      },
+      {
+        "code" : "02",
+        "display" : "Pour les relations avec les autres"
+      },
+      {
+        "code" : "03",
+        "display" : "Pour assurer sa sécurité"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "02",
+        "display" : "Autre"
+      }]
+    }]
+  }
+}

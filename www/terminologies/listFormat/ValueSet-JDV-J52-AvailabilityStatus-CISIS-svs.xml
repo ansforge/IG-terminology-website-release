@@ -10,16 +10,16 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J52-AvailabilityStatus-CISIS">
       <ConceptList>
-         <concept code="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved"
+         <Concept code="urn:oasis:names:tc:ebxml-regrep:StatusType:Approved"
                   codeSystem="1.2.250.1.213.1.1.4.341"
                   displayName="Version à jour"/>
-         <concept code="urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated"
+         <Concept code="urn:oasis:names:tc:ebxml-regrep:StatusType:Deprecated"
                   codeSystem="1.2.250.1.213.1.1.4.341"
                   displayName="Version obsolète"/>
-         <concept code="urn:asip:ci-sis:2010:StatusType:Archived"
+         <Concept code="urn:asip:ci-sis:2010:StatusType:Archived"
                   codeSystem="1.2.250.1.213.1.1.4.342"
                   displayName="Version archivée et à jour"/>
-         <concept code="urn:asip:ci-sis:2010:StatusType:Deleted"
+         <Concept code="urn:asip:ci-sis:2010:StatusType:Deleted"
                   codeSystem="1.2.250.1.213.1.1.4.342"
                   displayName="Version dépubliée"/>
       </ConceptList>

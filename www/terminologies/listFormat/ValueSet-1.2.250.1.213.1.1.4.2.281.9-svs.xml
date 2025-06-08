@@ -10,50 +10,32 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-053"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Soins de support"/>
-         <concept code="MED-124"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre(s) traitement(s)"/>
-         <concept code="MED-125"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-053" codeSystem="" displayName="Soins de support"/>
+         <Concept code="MED-124" codeSystem="" displayName="Autre(s) traitement(s)"/>
+         <Concept code="MED-125"
+                  codeSystem=""
                   displayName="Autres traitements médicamenteux spécifiques"/>
-         <concept code="MED-126"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Allogreffe / Autogreffe"/>
-         <concept code="MED-127"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Hormonothérapie"/>
-         <concept code="MED-226"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Surveillance seule"/>
-         <concept code="MED-227"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Surveillance active"/>
-         <concept code="MED-228"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Thérapies ciblées"/>
-         <concept code="MED-229"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-126" codeSystem="" displayName="Allogreffe / Autogreffe"/>
+         <Concept code="MED-127" codeSystem="" displayName="Hormonothérapie"/>
+         <Concept code="MED-226" codeSystem="" displayName="Surveillance seule"/>
+         <Concept code="MED-227" codeSystem="" displayName="Surveillance active"/>
+         <Concept code="MED-228" codeSystem="" displayName="Thérapies ciblées"/>
+         <Concept code="MED-229"
+                  codeSystem=""
                   displayName="Radiologie interventionnelle"/>
-         <concept code="MED-231"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-231"
+                  codeSystem=""
                   displayName="Endoscopie interventionnelle"/>
-         <concept code="MED-232"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Irathérapie"/>
-         <concept code="MED-556"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Fenêtre thérapeutique"/>
-         <concept code="P1-00000" codeSystem="" displayName="Chirurgie"/>
-         <concept code="P2-00200" codeSystem="" displayName="Soins palliatifs"/>
-         <concept code="P2-67010"
+         <Concept code="MED-232" codeSystem="" displayName="Irathérapie"/>
+         <Concept code="MED-556" codeSystem="" displayName="Fenêtre thérapeutique"/>
+         <Concept code="P1-00000" codeSystem="" displayName="Chirurgie"/>
+         <Concept code="P2-00200" codeSystem="" displayName="Soins palliatifs"/>
+         <Concept code="P2-67010"
                   codeSystem=""
                   displayName="Chimiothérapie conventionnelle"/>
-         <concept code="P2-69200" codeSystem="" displayName="Immunothérapie"/>
-         <concept code="P5-C0300" codeSystem="" displayName="Radiothérapie"/>
-         <concept code="P5-C0600" codeSystem="" displayName="Curiethérapie"/>
+         <Concept code="P2-69200" codeSystem="" displayName="Immunothérapie"/>
+         <Concept code="P5-C0300" codeSystem="" displayName="Radiothérapie"/>
+         <Concept code="P5-C0600" codeSystem="" displayName="Curiethérapie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

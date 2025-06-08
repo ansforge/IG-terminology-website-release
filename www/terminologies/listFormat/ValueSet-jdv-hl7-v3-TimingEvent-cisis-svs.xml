@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103858"
+             dateValid="20100101000000"
+             description="TimingEvent"
+             displayName="TimingEvent"
+             id="2.16.840.1.113883.1.11.10706"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="AC" codeSystem="" displayName="Avant le repas"/>
+         <Concept code="ACD" codeSystem="" displayName="Avant le déjeuner"/>
+         <Concept code="ACM" codeSystem="" displayName="Avant le petit-déjeuner"/>
+         <Concept code="ACV" codeSystem="" displayName="Avant le dîner"/>
+         <Concept code="C" codeSystem="" displayName="Pendant les repas"/>
+         <Concept code="CD" codeSystem="" displayName="Pendant le déjeuner"/>
+         <Concept code="CM" codeSystem="" displayName="Pendant le petit-déjeuner"/>
+         <Concept code="CV" codeSystem="" displayName="Pendant le dîner"/>
+         <Concept code="HS" codeSystem="" displayName="Au coucher"/>
+         <Concept code="IC" codeSystem="" displayName="Entre les repas"/>
+         <Concept code="ICD"
+                  codeSystem=""
+                  displayName="Entre le déjeuner et le dîner"/>
+         <Concept code="ICM"
+                  codeSystem=""
+                  displayName="Entre le petit-déjeûner et le déjeûner"/>
+         <Concept code="ICV" codeSystem="" displayName="Entre le diner et le coucher"/>
+         <Concept code="PC" codeSystem="" displayName="Après le repas"/>
+         <Concept code="PCD" codeSystem="" displayName="Après le déjeuner"/>
+         <Concept code="PCM" codeSystem="" displayName="Après le petit-déjeuner"/>
+         <Concept code="PCV" codeSystem="" displayName="Après le dîner"/>
+         <Concept code="WAKE" codeSystem="" displayName="Au réveil"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

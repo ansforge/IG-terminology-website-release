@@ -10,21 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ORG-007"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-007"
+                  codeSystem=""
                   displayName="Prise en charge des conséquences neurocognitives et endocriniennes"/>
-         <concept code="ORG-171"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-171"
+                  codeSystem=""
                   displayName="Prise en charge des conséquences des tumeurs cérébrales et de leurs traitements"/>
-         <concept code="MED-555"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Contraception"/>
-         <concept code="ORG-001"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-555" codeSystem="" displayName="Contraception"/>
+         <Concept code="ORG-001"
+                  codeSystem=""
                   displayName="Prise en charge spécifique en oncogériatrie"/>
-         <concept code="GEN-092.04.11"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre mesure"/>
+         <Concept code="GEN-092.04.11" codeSystem="" displayName="Autre mesure"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,0 +1,180 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-795",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/2320dc64-d0af-44a0-9972-759c7e9535c3-795",
+  "name" : "IntersectionDictionnaire_SMS_Substance_Management_Services_AndDictionnaire_SMS_Substance_Management_Services_",
+  "title" : "Intersection of Dictionnaire européen multilingue des substances entrant dans la composition de médicaments And Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "filter" : [{
+    "code" : "root",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "deprecated",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "imported",
+    "operator" : ["="],
+    "value" : "True or false"
+  }],
+  "property" : [{
+    "code" : "created",
+    "uri" : "http://purl.org/dc/terms/created",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://www.w3.org/ns/adms#status",
+    "type" : "string"
+  },
+  {
+    "code" : "modified",
+    "uri" : "http://purl.org/dc/terms/modified",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "type",
+    "uri" : "http://purl.org/dc/elements/1.1/type",
+    "description" : "Type fonctionnel d'un concept",
+    "type" : "string"
+  },
+  {
+    "code" : "domain",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/domain",
+    "type" : "string"
+  },
+  {
+    "code" : "nameSource",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/nameSource",
+    "type" : "string"
+  },
+  {
+    "code" : "extarnalCodeXEVMPD",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/extarnalCodeXEVMPD",
+    "type" : "string"
+  },
+  {
+    "code" : "inchikey",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/inchikey",
+    "type" : "string"
+  },
+  {
+    "code" : "molecularFormula",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/molecularFormula",
+    "type" : "string"
+  },
+  {
+    "code" : "molecularWeight",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/molecularWeight",
+    "type" : "decimal"
+  },
+  {
+    "code" : "comment",
+    "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "type" : "string"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  },
+  {
+    "code" : "created",
+    "uri" : "http://purl.org/dc/terms/created",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://www.w3.org/ns/adms#status",
+    "type" : "string"
+  },
+  {
+    "code" : "modified",
+    "uri" : "http://purl.org/dc/terms/modified",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "type",
+    "uri" : "http://purl.org/dc/elements/1.1/type",
+    "description" : "Type fonctionnel d'un concept",
+    "type" : "string"
+  },
+  {
+    "code" : "domain",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/domain",
+    "type" : "string"
+  },
+  {
+    "code" : "nameSource",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/nameSource",
+    "type" : "string"
+  },
+  {
+    "code" : "extarnalCodeXEVMPD",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/extarnalCodeXEVMPD",
+    "type" : "string"
+  },
+  {
+    "code" : "inchikey",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/inchikey",
+    "type" : "string"
+  },
+  {
+    "code" : "molecularFormula",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/molecularFormula",
+    "type" : "string"
+  },
+  {
+    "code" : "molecularWeight",
+    "uri" : "http://data.esante.gouv.fr/ema/sms/molecularWeight",
+    "type" : "decimal"
+  },
+  {
+    "code" : "comment",
+    "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "type" : "string"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  }]
+}

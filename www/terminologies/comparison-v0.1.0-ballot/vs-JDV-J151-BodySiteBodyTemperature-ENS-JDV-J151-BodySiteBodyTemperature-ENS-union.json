@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-989",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-989",
+  "name" : "UnionJDV_J151_BodySiteBodyTemperature_ENSAndJDV_J151_BodySiteBodyTemperature_ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "34402009",
+        "display" : "rectum"
+      },
+      {
+        "code" : "52795006",
+        "display" : "front"
+      },
+      {
+        "code" : "91470000",
+        "display" : "région axillaire"
+      },
+      {
+        "code" : "117590005",
+        "display" : "oreille"
+      },
+      {
+        "code" : "123851003",
+        "display" : "bouche"
+      },
+      {
+        "code" : "450721000",
+        "display" : "région temporale"
+      }]
+    }]
+  }
+}

@@ -10,24 +10,20 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C3580" codeSystem="" displayName="métastases osseuses"/>
-         <concept code="C3303" codeSystem="" displayName="douleur"/>
-         <concept code="C15252" codeSystem="" displayName="soins palliatifs"/>
-         <concept code="C63334"
+         <Concept code="C3580" codeSystem="" displayName="métastases osseuses"/>
+         <Concept code="C3303" codeSystem="" displayName="douleur"/>
+         <Concept code="C15252" codeSystem="" displayName="soins palliatifs"/>
+         <Concept code="C63334"
                   codeSystem=""
                   displayName="Radiologie interventionnelle"/>
-         <concept code="C15747" codeSystem="" displayName="soins de support"/>
-         <concept code="C16832" codeSystem="" displayName="oncologie médicale"/>
-         <concept code="C71326"
+         <Concept code="C15747" codeSystem="" displayName="soins de support"/>
+         <Concept code="C16832" codeSystem="" displayName="oncologie médicale"/>
+         <Concept code="C71326"
                   codeSystem=""
                   displayName="préservation de la fertilité"/>
-         <concept code="C7201" codeSystem="" displayName="tumeur rare"/>
-         <concept code="ORG-129"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Oncogénétique"/>
-         <concept code="ORG-130"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Oncogériatrie"/>
+         <Concept code="C7201" codeSystem="" displayName="tumeur rare"/>
+         <Concept code="ORG-129" codeSystem="" displayName="Oncogénétique"/>
+         <Concept code="ORG-130" codeSystem="" displayName="Oncogériatrie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

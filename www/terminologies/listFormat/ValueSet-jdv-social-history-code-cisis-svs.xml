@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20100101000000"
+             description="JDV Social History Code CISIS"
+             displayName="JdvSocialHistoryCodeCisis"
+             id="1.2.250.1.213.1.1.4.2.283.4"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="72166-2" codeSystem="" displayName="Statut tabagique"/>
+         <Concept code="74011-8" codeSystem="" displayName="Consommation tabagique"/>
+         <Concept code="74013-4" codeSystem="" displayName="Consommation d'alcool"/>
+         <Concept code="11343-1"
+                  codeSystem=""
+                  displayName="Consommation de drogue non médicales"/>
+         <Concept code="73985-4" codeSystem="" displayName="Exercice physique"/>
+         <Concept code="81663-7" codeSystem="" displayName="Régime"/>
+         <Concept code="92944-8" codeSystem="" displayName="Exposition à risque"/>
+         <Concept code="8683-5"
+                  codeSystem=""
+                  displayName="Exposition professionnelle"/>
+         <Concept code="67875-5" codeSystem="" displayName="Statut d'emploi"/>
+         <Concept code="29556-8" codeSystem="" displayName="Trouble du comportement"/>
+         <Concept code="11345-6" codeSystem="" displayName="Autre élément social"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

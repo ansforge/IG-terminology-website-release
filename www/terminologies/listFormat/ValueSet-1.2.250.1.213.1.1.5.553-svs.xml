@@ -10,22 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C25757" codeSystem="" displayName="Ulcération"/>
-         <concept code="GEN-092"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre"/>
-         <concept code="MED-758"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Aspect normal/subnormal"/>
-         <concept code="MED-759"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="C25757" codeSystem="" displayName="Ulcération"/>
+         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
+         <Concept code="MED-758" codeSystem="" displayName="Aspect normal/subnormal"/>
+         <Concept code="MED-759"
+                  codeSystem=""
                   displayName="Petite perte de substance superficielle"/>
-         <concept code="MED-760"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Suffusions hémorragiques"/>
-         <concept code="MED-761"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Aspect cicatriciel"/>
+         <Concept code="MED-760" codeSystem="" displayName="Suffusions hémorragiques"/>
+         <Concept code="MED-761" codeSystem="" displayName="Aspect cicatriciel"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

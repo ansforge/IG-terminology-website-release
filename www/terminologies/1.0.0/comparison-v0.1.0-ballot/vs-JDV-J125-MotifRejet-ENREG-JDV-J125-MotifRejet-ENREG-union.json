@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-902",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-902",
+  "name" : "UnionJDV_J125_MotifRejet_ENREGAndJDV_J125_MotifRejet_ENREG",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "AUT",
+        "display" : "Autre motif"
+      },
+      {
+        "code" : "CHA",
+        "display" : "Changement d'activité"
+      },
+      {
+        "code" : "def",
+        "display" : "Rejet par votre gestionnaire d'autorité d'enregistrement"
+      }]
+    }]
+  }
+}

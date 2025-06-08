@@ -1,0 +1,17 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-969",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-969",
+  "name" : "IntersectionJDV_J145_MethodBodyWeight_ENSAndJDV_J145_MethodBodyWeight_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "V030210",
+        "display" : "PÈSE-PERSONNES (SAUF CEUX DE NÉONATALOGIE)"
+      }]
+    }]
+  }
+}

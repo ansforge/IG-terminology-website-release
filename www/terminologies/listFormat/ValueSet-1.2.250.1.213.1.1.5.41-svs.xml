@@ -10,41 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ORG-164"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Education thérapeutique"/>
-         <concept code="MED-097"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Diagnostic"/>
-         <concept code="MED-098"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Conseil génétique"/>
-         <concept code="MED-099"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Diagnostic prénatal"/>
-         <concept code="MED-100"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-164" codeSystem="" displayName="Education thérapeutique"/>
+         <Concept code="MED-097" codeSystem="" displayName="Diagnostic"/>
+         <Concept code="MED-098" codeSystem="" displayName="Conseil génétique"/>
+         <Concept code="MED-099" codeSystem="" displayName="Diagnostic prénatal"/>
+         <Concept code="MED-100"
+                  codeSystem=""
                   displayName="Diagnostic préimplantatoire"/>
-         <concept code="ORG-046"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-046"
+                  codeSystem=""
                   displayName="Mise en place de la prise en charge"/>
-         <concept code="ORG-047"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Suivi"/>
-         <concept code="ORG-048"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-047" codeSystem="" displayName="Suivi"/>
+         <Concept code="ORG-048"
+                  codeSystem=""
                   displayName="Prise en charge en urgence"/>
-         <concept code="ORG-049"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Protocole de recherche"/>
-         <concept code="ORG-031"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Acte médical"/>
-         <concept code="ORG-123"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="ORG-049" codeSystem="" displayName="Protocole de recherche"/>
+         <Concept code="ORG-031" codeSystem="" displayName="Acte médical"/>
+         <Concept code="ORG-123"
+                  codeSystem=""
                   displayName="Consultation de transition enfant/adulte"/>
-         <concept code="MED-1289"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1289"
+                  codeSystem=""
                   displayName="Rendu de résultat diagnostic génétique"/>
       </ConceptList>
    </ValueSet>

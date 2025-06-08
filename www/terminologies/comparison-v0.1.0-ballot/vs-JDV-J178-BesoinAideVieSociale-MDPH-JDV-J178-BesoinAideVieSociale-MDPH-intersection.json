@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1068",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1068",
+  "name" : "IntersectionJDV_J178_BesoinAideVieSociale_MDPHAndJDV_J178_BesoinAideVieSociale_MDPH",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Communiquer"
+      },
+      {
+        "code" : "02",
+        "display" : "Avoir des activités sportives et des loisirs"
+      },
+      {
+        "code" : "03",
+        "display" : "Relations avec les autres"
+      },
+      {
+        "code" : "04",
+        "display" : "S'occuper de sa famille"
+      },
+      {
+        "code" : "05",
+        "display" : "Etre accompagné dans la vie citoyenne"
+      },
+      {
+        "code" : "06",
+        "display" : "Assurer sa sécurité"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "02",
+        "display" : "Autre"
+      }]
+    }]
+  }
+}

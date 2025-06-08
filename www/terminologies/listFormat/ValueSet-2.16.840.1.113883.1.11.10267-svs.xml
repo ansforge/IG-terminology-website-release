@@ -10,14 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="ADMPHYS"
+         <Concept code="ADMPHYS"
                   codeSystem=""
                   displayName="Responsable de l'admission"/>
-         <concept code="ATTPHYS"
+         <Concept code="ATTPHYS"
                   codeSystem=""
                   displayName="Référent - Responsable du patient dans la structure de soins"/>
-         <concept code="DISPHYS" codeSystem="" displayName="Responsable de la sortie"/>
-         <concept code="PCP" codeSystem="" displayName="Médecin traitant"/>
+         <Concept code="DISPHYS" codeSystem="" displayName="Responsable de la sortie"/>
+         <Concept code="PCP" codeSystem="" displayName="Médecin traitant"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

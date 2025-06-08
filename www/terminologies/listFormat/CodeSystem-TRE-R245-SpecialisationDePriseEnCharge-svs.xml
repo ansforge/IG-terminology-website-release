@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20250425120000"
              dateValid="20171013120000"
              description="Spécialisation de prise en charge"
              displayName="TRE_R245_SpecialisationDePriseEnCharge"
@@ -10,7 +10,7 @@
              typeFichier="TRE"
              urlFichier="https://mos.esante.gouv.fr/NOS/TRE_R245-SpecialisationDePriseEnCharge">
       <ConceptList>
-         <concept code="01"
+         <Concept code="01"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20240126120000"
@@ -19,7 +19,7 @@
                   longDesignation="Troubles des conduites alimentaires (TCA)"
                   shortDesignation="Troubles des conduites alimentaires (TCA)"
                   descriptionMetier=""/>
-         <concept code="02"
+         <Concept code="02"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20181026120000"
@@ -28,7 +28,7 @@
                   longDesignation="Troubles du spectre de l'autisme"
                   shortDesignation="Troubles du spectre de l'autisme"
                   descriptionMetier=""/>
-         <concept code="03"
+         <Concept code="03"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20240628120000"
@@ -37,7 +37,7 @@
                   longDesignation="Troubles du déficit de l'attention avec ou sans hyperactivité (TDAH)"
                   shortDesignation="Troubles du déficit de l'attention avec ou sans hyperactivité (TDAH)"
                   descriptionMetier=""/>
-         <concept code="04"
+         <Concept code="04"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20171013120000"
@@ -46,7 +46,7 @@
                   longDesignation="Troubles psychiques des victimes de violences sexuelles"
                   shortDesignation="Troubles psychiques des victimes de violences sexuelles"
                   descriptionMetier=""/>
-         <concept code="05"
+         <Concept code="05"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20171013120000"
@@ -55,7 +55,7 @@
                   longDesignation="Troubles psychiques des auteurs de violences sexuelles"
                   shortDesignation="Troubles psychiques des auteurs de violences sexuelles"
                   descriptionMetier=""/>
-         <concept code="06"
+         <Concept code="06"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20171013120000"
@@ -64,7 +64,7 @@
                   longDesignation="Schizophrénie émergente"
                   shortDesignation="Schizophrénie émergente"
                   descriptionMetier=""/>
-         <concept code="07"
+         <Concept code="07"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20171013120000"
@@ -73,7 +73,7 @@
                   longDesignation="Troubles psychotiques (schizophrénie, délires)"
                   shortDesignation="Troubles psychotiques (schizophrénie, délires)"
                   descriptionMetier=""/>
-         <concept code="08"
+         <Concept code="08"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20230526120000"
@@ -82,7 +82,7 @@
                   longDesignation="Troubles de l'humeur (bipolaire, dépression...)"
                   shortDesignation="Troubles de l'humeur (bipolaire, dépression...)"
                   descriptionMetier=""/>
-         <concept code="09"
+         <Concept code="09"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20171013120000"
@@ -91,7 +91,7 @@
                   longDesignation="Troubles Obsessionnels Compulsifs (TOC)"
                   shortDesignation="Troubles Obsessionnels Compulsifs (TOC)"
                   descriptionMetier=""/>
-         <concept code="10"
+         <Concept code="10"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20190705120000"
@@ -100,7 +100,7 @@
                   longDesignation="Conduites addictives"
                   shortDesignation="Conduites addictives"
                   descriptionMetier=""/>
-         <concept code="11"
+         <Concept code="11"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20240628120000"
@@ -109,7 +109,7 @@
                   longDesignation="Troubles spécifiques de la communication (dysphasie, bégaiement, etc.) et / ou des apprentissages (dyslexie, dysorthographie, dyscalculie) hors TSA"
                   shortDesignation="Troubles spécifiques de la communication et / ou des apprentissages hors TSA"
                   descriptionMetier=""/>
-         <concept code="12"
+         <Concept code="12"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20171013120000"
@@ -118,7 +118,7 @@
                   longDesignation="Troubles psychiques dûs à une affection organique ou à une lésion cérébrale (épilepsie...)"
                   shortDesignation="Troubles psy. dûs à affection organique ou à lésion cérébrale (épilepsie...)"
                   descriptionMetier=""/>
-         <concept code="13"
+         <Concept code="13"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20171013120000"
@@ -127,7 +127,7 @@
                   longDesignation="Démence dégénérative"
                   shortDesignation="Démence dégénérative"
                   descriptionMetier=""/>
-         <concept code="14"
+         <Concept code="14"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20240628120000"
@@ -136,7 +136,7 @@
                   longDesignation="Troubles du développement intellectuel (TDI)"
                   shortDesignation="Troubles du développement intellectuel (TDI)"
                   descriptionMetier=""/>
-         <concept code="15"
+         <Concept code="15"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin="20180531120000"
                   dateMaj="20180531120000"
@@ -145,7 +145,7 @@
                   longDesignation="Personnes présentant des troubles du spectre de l'autisme"
                   shortDesignation="Personnes présentant des troubles du spectre de l'autisme"
                   descriptionMetier=""/>
-         <concept code="16"
+         <Concept code="16"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20180531120000"
@@ -154,7 +154,7 @@
                   longDesignation="Handicap psychique"
                   shortDesignation="Handicap psychique"
                   descriptionMetier=""/>
-         <concept code="17"
+         <Concept code="17"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20180531120000"
@@ -163,7 +163,7 @@
                   longDesignation="Polyhandicap"
                   shortDesignation="Polyhandicap"
                   descriptionMetier=""/>
-         <concept code="18"
+         <Concept code="18"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20180531120000"
@@ -172,7 +172,7 @@
                   longDesignation="Déficience auditive grave"
                   shortDesignation="Déficience auditive grave"
                   descriptionMetier=""/>
-         <concept code="19"
+         <Concept code="19"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20180531120000"
@@ -181,7 +181,7 @@
                   longDesignation="Déficience visuelle grave"
                   shortDesignation="Déficience visuelle grave"
                   descriptionMetier=""/>
-         <concept code="20"
+         <Concept code="20"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin="20180531120000"
                   dateMaj="20180531120000"
@@ -190,7 +190,7 @@
                   longDesignation="Personnes présentant un trouble spécifique du langage et des apprentissages (TSLA) (trouble dys)"
                   shortDesignation="Personnes présentant trouble spécif langage, apprentissages et moteurs"
                   descriptionMetier=""/>
-         <concept code="21"
+         <Concept code="21"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20180531120000"
@@ -199,7 +199,7 @@
                   longDesignation="Handicap rare"
                   shortDesignation="Handicap rare"
                   descriptionMetier=""/>
-         <concept code="22"
+         <Concept code="22"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20190329120000"
@@ -208,16 +208,16 @@
                   longDesignation="Déficience à prédominance motrice"
                   shortDesignation="Déficience à prédominance motrice"
                   descriptionMetier=""/>
-         <concept code="23"
+         <Concept code="23"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
-                  dateMaj="20180531120000"
+                  dateMaj="20250425120000"
                   dateValid="20180126120000"
-                  displayName="Handicap à prédominance cognitive"
-                  longDesignation="Handicap à prédominance cognitive"
-                  shortDesignation="Handicap à prédominance cognitive"
+                  displayName="Handicap cognitif spécifique"
+                  longDesignation="Handicap cognitif spécifique"
+                  shortDesignation="Handicap cognitif spécifique"
                   descriptionMetier=""/>
-         <concept code="24"
+         <Concept code="24"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20200626120000"
@@ -226,7 +226,7 @@
                   longDesignation="Handicap à prédominance cognitive avec trouble du comportement (dont traumatisé crânien, syndrome de Korsakoff,...)"
                   shortDesignation="Handicap à prédominance cognitive avec trouble du comportement"
                   descriptionMetier=""/>
-         <concept code="25"
+         <Concept code="25"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20180531120000"
@@ -235,7 +235,7 @@
                   longDesignation="Surdi-cécité avec ou sans troubles associés"
                   shortDesignation="Surdi-cécité avec ou sans troubles associés"
                   descriptionMetier=""/>
-         <concept code="26"
+         <Concept code="26"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20180531120000"
@@ -244,7 +244,7 @@
                   longDesignation="Difficulté psychologique avec troubles du comportement"
                   shortDesignation="Difficulté psychologique avec troubles du comportement"
                   descriptionMetier=""/>
-         <concept code="27"
+         <Concept code="27"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20190329120000"
@@ -253,7 +253,7 @@
                   longDesignation="Troubles neuro-cognitifs chroniques (Alzheimer et apparentées) avec troubles du comportement perturbateurs"
                   shortDesignation="Troubles neuro-cognitifs chroniques (Alzheimer) avec troubles du comportement"
                   descriptionMetier=""/>
-         <concept code="28"
+         <Concept code="28"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20181026120000"
@@ -262,7 +262,7 @@
                   longDesignation="Maladies d'Alzheimer et apparentées"
                   shortDesignation="Maladies d'Alzheimer et apparentée"
                   descriptionMetier=""/>
-         <concept code="29"
+         <Concept code="29"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -271,7 +271,7 @@
                   longDesignation="Maladies rares liées à une anomalie du développement embryonnaire"
                   shortDesignation="Maladies rares liées à une anomalie du développement embryonnaire"
                   descriptionMetier=""/>
-         <concept code="30"
+         <Concept code="30"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -280,7 +280,7 @@
                   longDesignation="Maladies rares de l'infertilité"
                   shortDesignation="Maladies rares de l'infertilité"
                   descriptionMetier=""/>
-         <concept code="31"
+         <Concept code="31"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -289,7 +289,7 @@
                   longDesignation="Maladies rares allergiques"
                   shortDesignation="Maladies rares allergiques"
                   descriptionMetier=""/>
-         <concept code="32"
+         <Concept code="32"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -298,7 +298,7 @@
                   longDesignation="Maladies rares cardiaques"
                   shortDesignation="Maladies rares cardiaques"
                   descriptionMetier=""/>
-         <concept code="33"
+         <Concept code="33"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -307,7 +307,7 @@
                   longDesignation="Maladies rares chirurgicales abdominales"
                   shortDesignation="Maladies rares chirurgicales abdominales"
                   descriptionMetier=""/>
-         <concept code="34"
+         <Concept code="34"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -316,7 +316,7 @@
                   longDesignation="Maladies rares endocriniennes"
                   shortDesignation="Maladies rares endocriniennes"
                   descriptionMetier=""/>
-         <concept code="35"
+         <Concept code="35"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -325,7 +325,7 @@
                   longDesignation="Maladies rares gastro-entérologiques"
                   shortDesignation="Maladies rares gastro-entérologiques"
                   descriptionMetier=""/>
-         <concept code="36"
+         <Concept code="36"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -334,7 +334,7 @@
                   longDesignation="Maladies rares génétiques"
                   shortDesignation="Maladies rares génétiques"
                   descriptionMetier=""/>
-         <concept code="37"
+         <Concept code="37"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -343,7 +343,7 @@
                   longDesignation="Maladies rares gynécologiques et obstétriques"
                   shortDesignation="Maladies rares gynécologiques et obstétriques"
                   descriptionMetier=""/>
-         <concept code="38"
+         <Concept code="38"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -352,7 +352,7 @@
                   longDesignation="Maladies rares hématologiques"
                   shortDesignation="Maladies rares hématologiques"
                   descriptionMetier=""/>
-         <concept code="39"
+         <Concept code="39"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -361,7 +361,7 @@
                   longDesignation="Maladies rares hépatiques"
                   shortDesignation="Maladies rares hépatiques"
                   descriptionMetier=""/>
-         <concept code="40"
+         <Concept code="40"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -370,7 +370,7 @@
                   longDesignation="Maladies rares immunologiques"
                   shortDesignation="Maladies rares immunologiques"
                   descriptionMetier=""/>
-         <concept code="41"
+         <Concept code="41"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -379,7 +379,7 @@
                   longDesignation="Maladies rares infectieuses"
                   shortDesignation="Maladies rares infectieuses"
                   descriptionMetier=""/>
-         <concept code="42"
+         <Concept code="42"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -388,7 +388,7 @@
                   longDesignation="Maladies rares métaboliques"
                   shortDesignation="Maladies rares métaboliques"
                   descriptionMetier=""/>
-         <concept code="43"
+         <Concept code="43"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -397,7 +397,7 @@
                   longDesignation="Maladies rares néoplasiques"
                   shortDesignation="Maladies rares néoplasiques"
                   descriptionMetier=""/>
-         <concept code="44"
+         <Concept code="44"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -406,7 +406,7 @@
                   longDesignation="Maladies rares neurologiques"
                   shortDesignation="Maladies rares neurologiques"
                   descriptionMetier=""/>
-         <concept code="45"
+         <Concept code="45"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -415,7 +415,7 @@
                   longDesignation="Maladies rares odontologiques"
                   shortDesignation="Maladies rares odontologiques"
                   descriptionMetier=""/>
-         <concept code="46"
+         <Concept code="46"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -424,7 +424,7 @@
                   longDesignation="Maladies rares ophtalmiques"
                   shortDesignation="Maladies rares ophtalmiques"
                   descriptionMetier=""/>
-         <concept code="47"
+         <Concept code="47"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -433,7 +433,7 @@
                   longDesignation="Maladies rares osseuses"
                   shortDesignation="Maladies rares osseuses"
                   descriptionMetier=""/>
-         <concept code="48"
+         <Concept code="48"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -442,7 +442,7 @@
                   longDesignation="Maladies rares oto-rhino-laryngologiques"
                   shortDesignation="Maladies rares oto-rhino-laryngologiques"
                   descriptionMetier=""/>
-         <concept code="49"
+         <Concept code="49"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -451,7 +451,7 @@
                   longDesignation="Maladies rares de la peau"
                   shortDesignation="Maladies rares de la peau"
                   descriptionMetier=""/>
-         <concept code="50"
+         <Concept code="50"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -460,7 +460,7 @@
                   longDesignation="Maladies rares du système circulatoire"
                   shortDesignation="Maladies rares du système circulatoire"
                   descriptionMetier=""/>
-         <concept code="51"
+         <Concept code="51"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -469,7 +469,7 @@
                   longDesignation="Maladies rares dues à des effets toxiques"
                   shortDesignation="Maladies rares dues à des effets toxiques"
                   descriptionMetier=""/>
-         <concept code="52"
+         <Concept code="52"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -478,7 +478,7 @@
                   longDesignation="Maladies rares liées à la transplantation"
                   shortDesignation="Maladies rares liées à la transplantation"
                   descriptionMetier=""/>
-         <concept code="53"
+         <Concept code="53"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -487,7 +487,7 @@
                   longDesignation="Maladies rares rénales"
                   shortDesignation="Maladies rares rénales"
                   descriptionMetier=""/>
-         <concept code="54"
+         <Concept code="54"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -496,7 +496,7 @@
                   longDesignation="Maladies rares respiratoires"
                   shortDesignation="Maladies rares respiratoires"
                   descriptionMetier=""/>
-         <concept code="55"
+         <Concept code="55"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -505,7 +505,7 @@
                   longDesignation="Maladies rares systémiques et rhumatologiques"
                   shortDesignation="Maladies rares systémiques et rhumatologiques"
                   descriptionMetier=""/>
-         <concept code="56"
+         <Concept code="56"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -514,7 +514,7 @@
                   longDesignation="Maladies rares systémiques ou rhumatologiques de l'enfant"
                   shortDesignation="Maladies rares systémiques ou rhumatologiques de l'enfant"
                   descriptionMetier=""/>
-         <concept code="57"
+         <Concept code="57"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -523,7 +523,7 @@
                   longDesignation="Maladies rares thoraciques chirurgicales"
                   shortDesignation="Maladies rares thoraciques chirurgicales"
                   descriptionMetier=""/>
-         <concept code="58"
+         <Concept code="58"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -532,7 +532,7 @@
                   longDesignation="Maladies rares urogénitales"
                   shortDesignation="Maladies rares urogénitales"
                   descriptionMetier=""/>
-         <concept code="59"
+         <Concept code="59"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -541,7 +541,7 @@
                   longDesignation="Maladies rares liées à une malformation cardiaque"
                   shortDesignation="Maladies rares liées à une malformation cardiaque"
                   descriptionMetier=""/>
-         <concept code="60"
+         <Concept code="60"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -550,7 +550,7 @@
                   longDesignation="Maladies rares chirurgicales maxillo-faciales"
                   shortDesignation="Maladies rares chirurgicales maxillo-faciales"
                   descriptionMetier=""/>
-         <concept code="61"
+         <Concept code="61"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -559,7 +559,7 @@
                   longDesignation="Maladies rares liées à un trouble tératologique rare"
                   shortDesignation="Maladies rares liées à un trouble tératologique rare"
                   descriptionMetier=""/>
-         <concept code="62"
+         <Concept code="62"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -568,7 +568,7 @@
                   longDesignation="Suicidant"
                   shortDesignation="Suicidant"
                   descriptionMetier=""/>
-         <concept code="63"
+         <Concept code="63"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20230526120000"
@@ -577,7 +577,7 @@
                   longDesignation="Troubles de la personnalité sévères"
                   shortDesignation="Troubles de la personnalité sévères"
                   descriptionMetier=""/>
-         <concept code="64"
+         <Concept code="64"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20231030120000"
@@ -586,7 +586,7 @@
                   longDesignation="Endométriose"
                   shortDesignation="Endométriose"
                   descriptionMetier=""/>
-         <concept code="65"
+         <Concept code="65"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20240126120000"
@@ -595,7 +595,7 @@
                   longDesignation="Troubles anxieux"
                   shortDesignation="Troubles anxieux"
                   descriptionMetier=""/>
-         <concept code="66"
+         <Concept code="66"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20240628120000"
@@ -604,7 +604,7 @@
                   longDesignation="Troubles du neurodéveloppement à prédominance motrice (dont Trouble Développemental de la Coordination TDC, dyspraxie, mouvements stéréotypés, tics)"
                   shortDesignation="Troubles du neurodéveloppement à prédominance motrice"
                   descriptionMetier=""/>
-         <concept code="67"
+         <Concept code="67"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20240426120000"
@@ -613,7 +613,7 @@
                   longDesignation="Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"
                   shortDesignation="Trouble psychotraumatique (dont Troubles Stress Post-Traumatique)"
                   descriptionMetier=""/>
-         <concept code="68"
+         <Concept code="68"
                   codeSystem="1.2.250.1.213.3.3.41"
                   dateFin=""
                   dateMaj="20241025120000"

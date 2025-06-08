@@ -10,7 +10,7 @@
              typeFichier="TRE"
              urlFichier="https://mos.esante.gouv.fr/NOS/TRE_R254-TypeEvenement">
       <ConceptList>
-         <concept code="ADM"
+         <Concept code="ADM"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20180330120000"
@@ -19,7 +19,7 @@
                   longDesignation="Admission d'un patient dans un établissement de santé"
                   shortDesignation="Admission d'un patient dans un établissement de santé"
                   descriptionMetier=""/>
-         <concept code="AUT"
+         <Concept code="AUT"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -28,7 +28,7 @@
                   longDesignation="Autorisation de paiement de la facture des dispositifs médicaux"
                   shortDesignation="Autorisation de paiement de la facture des dispositifs médicaux"
                   descriptionMetier=""/>
-         <concept code="CDM"
+         <Concept code="CDM"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20220624120000"
@@ -37,7 +37,7 @@
                   longDesignation="Commande de dispositifs médicaux"
                   shortDesignation="Commande de dispositifs médicaux"
                   descriptionMetier="Commande de dispositifs médicaux de l'établissement de santé auprès d'un fabricant"/>
-         <concept code="DEL"
+         <Concept code="DEL"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -46,7 +46,7 @@
                   longDesignation="Délivrance des dispositifs médicaux au service en charge de la pose chez le patient"
                   shortDesignation="Délivrance des dispositifs médicaux"
                   descriptionMetier=""/>
-         <concept code="DEM"
+         <Concept code="DEM"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -55,7 +55,7 @@
                   longDesignation="Demande de dispositifs médicaux à la pharmacie de l'établissement de santé"
                   shortDesignation="Demande de dispositifs médicaux à la pharmacie de l'établissement de santé"
                   descriptionMetier=""/>
-         <concept code="DOC"
+         <Concept code="DOC"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20180330120000"
@@ -64,7 +64,7 @@
                   longDesignation="Dépôt de document pour un patient"
                   shortDesignation="Dépôt de document pour un patient"
                   descriptionMetier=""/>
-         <concept code="ECH"
+         <Concept code="ECH"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20191213120000"
@@ -73,7 +73,7 @@
                   longDesignation="Echec de pose du dispositif médical"
                   shortDesignation="Echec de pose du dispositif médical"
                   descriptionMetier=""/>
-         <concept code="ESD"
+         <Concept code="ESD"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -82,7 +82,7 @@
                   longDesignation="Entrée de stock des dispositifs médicaux au sein de l'établissement de santé"
                   shortDesignation="Entrée de stock des dispositifs médicaux au sein de l'établissement de santé"
                   descriptionMetier=""/>
-         <concept code="NCO"
+         <Concept code="NCO"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20191213120000"
@@ -91,7 +91,7 @@
                   longDesignation="Dispositif médical non-conforme, présentant un risque inacceptable pour la santé et la sécurité"
                   shortDesignation="DM non-conforme, avec un risque inacceptable pour la santé et la sécurité"
                   descriptionMetier=""/>
-         <concept code="NOT"
+         <Concept code="NOT"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20180330120000"
@@ -100,7 +100,7 @@
                   longDesignation="Création d'une note pour un patient dans le cahier de liaison"
                   shortDesignation="Création d'une note pour un patient dans le cahier de liaison"
                   descriptionMetier=""/>
-         <concept code="NRE"
+         <Concept code="NRE"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -109,7 +109,7 @@
                   longDesignation="Réception non valide du dispositif médical par l'établissement de santé"
                   shortDesignation="Réception non valide du dispositif médical par l'établissement de santé"
                   descriptionMetier=""/>
-         <concept code="NREC"
+         <Concept code="NREC"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin="20200828120000"
                   dateMaj="20200828120000"
@@ -118,7 +118,7 @@
                   longDesignation="Réception non valide d'un dispositif médical par l'établissement de santé ou le service utilisateur"
                   shortDesignation="Réception NOK du DM par l'établissement de santé ou le service utilisateur"
                   descriptionMetier=""/>
-         <concept code="PER"
+         <Concept code="PER"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20191213120000"
@@ -127,7 +127,7 @@
                   longDesignation="Dispositif médical périmé"
                   shortDesignation="Dispositif médical périmé"
                   descriptionMetier=""/>
-         <concept code="POS"
+         <Concept code="POS"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20191213120000"
@@ -136,7 +136,7 @@
                   longDesignation="Pose du dispositif médical"
                   shortDesignation="Pose du dispositif médical"
                   descriptionMetier=""/>
-         <concept code="REA"
+         <Concept code="REA"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -145,7 +145,7 @@
                   longDesignation="Demande de réassort en dispositifs médicaux"
                   shortDesignation="Demande de réassort en DM"
                   descriptionMetier=""/>
-         <concept code="REC"
+         <Concept code="REC"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -154,7 +154,7 @@
                   longDesignation="Réception valide du dispositif médical par l'établissement de santé"
                   shortDesignation="Réception valide du dispositif médical par l'établissement de santé"
                   descriptionMetier=""/>
-         <concept code="REP"
+         <Concept code="REP"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -163,7 +163,7 @@
                   longDesignation="Réponse de la pharmacie de l'établissement de santé au service responsable de la demande"
                   shortDesignation="Réponse de la pharmacie au service responsable de la demande"
                   descriptionMetier=""/>
-         <concept code="SDM"
+         <Concept code="SDM"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -172,7 +172,7 @@
                   longDesignation="Suppression de la demande de dispositif médicaux"
                   shortDesignation="Suppression de la demande de dispositif médicaux"
                   descriptionMetier=""/>
-         <concept code="SOR"
+         <Concept code="SOR"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20180330120000"
@@ -181,7 +181,7 @@
                   longDesignation="Sortie d'un patient de l'établissement de santé"
                   shortDesignation="Sortie d'un patient de l'établissement de santé"
                   descriptionMetier=""/>
-         <concept code="SSD"
+         <Concept code="SSD"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"
@@ -190,7 +190,7 @@
                   longDesignation="Sortie de stock des dispositifs médicaux"
                   shortDesignation="Sortie de stock des dispositifs médicaux"
                   descriptionMetier=""/>
-         <concept code="TRA"
+         <Concept code="TRA"
                   codeSystem="1.2.250.1.213.1.1.4.337"
                   dateFin=""
                   dateMaj="20200828120000"

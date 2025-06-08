@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "2320dc64-d0af-44a0-9972-759c7e9535c3-999",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/2320dc64-d0af-44a0-9972-759c7e9535c3-999",
+  "name" : "IntersectionJDV_J154_TypeGlucose_ENSAndJDV_J154_TypeGlucose_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:01:09+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "2345-7",
+        "display" : "Glucose [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "4548-4",
+        "display" : "Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-972",
+        "display" : "Index de gestion de glycémie (IGG)"
+      }]
+    }]
+  }
+}

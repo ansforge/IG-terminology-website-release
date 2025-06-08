@@ -10,17 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-388"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Absence de sang"/>
-         <concept code="MED-389"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-388" codeSystem="" displayName="Absence de sang"/>
+         <Concept code="MED-389"
+                  codeSystem=""
                   displayName="Dépôts de moins de 1 mm d'épaisseur"/>
-         <concept code="MED-390"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-390"
+                  codeSystem=""
                   displayName="Dépôts de plus de 1 mm d'épaisseur"/>
-         <concept code="MED-391"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-391"
+                  codeSystem=""
                   displayName="Hématome parenchymateux ou hémorragie ventriculaire"/>
       </ConceptList>
    </ValueSet>

@@ -10,12 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="C25250" codeSystem="" displayName="Complet"/>
-         <concept code="C49160" codeSystem="" displayName="Incomplet"/>
-         <concept code="C62222" codeSystem="" displayName="Non évaluable"/>
-         <concept code="GEN-254"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Presque complet"/>
+         <Concept code="C25250" codeSystem="" displayName="Complet"/>
+         <Concept code="C49160" codeSystem="" displayName="Incomplet"/>
+         <Concept code="C62222" codeSystem="" displayName="Non évaluable"/>
+         <Concept code="GEN-254" codeSystem="" displayName="Presque complet"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

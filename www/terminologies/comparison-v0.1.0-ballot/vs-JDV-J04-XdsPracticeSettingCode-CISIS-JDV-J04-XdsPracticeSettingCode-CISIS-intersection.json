@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-810",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-810",
+  "name" : "IntersectionJDV_J04_XdsPracticeSettingCode_CISISAndJDV_J04_XdsPracticeSettingCode_CISIS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "EXP_PATIENT",
+        "display" : "Expression personnelle du patient"
+      },
+      {
+        "code" : "SNR",
+        "display" : "Service numérique référencé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "AMBULATOIRE",
+        "display" : "Ambulatoire"
+      },
+      {
+        "code" : "AMO",
+        "display" : "Organisme d'assurance maladie obligatoire"
+      },
+      {
+        "code" : "DEPISTAGE",
+        "display" : "Dépistage"
+      },
+      {
+        "code" : "ESSMS",
+        "display" : "Etablissement ou Service Social ou Médico-Social"
+      },
+      {
+        "code" : "ETABLISSEMENT",
+        "display" : "Etablissement de santé"
+      },
+      {
+        "code" : "HAD",
+        "display" : "Hospitalisation à domicile"
+      },
+      {
+        "code" : "MAD",
+        "display" : "Maintien à domicile"
+      },
+      {
+        "code" : "PALLIATIF",
+        "display" : "Soins palliatifs"
+      },
+      {
+        "code" : "SAD",
+        "display" : "Soins à domicile"
+      },
+      {
+        "code" : "SAMU_SMUR",
+        "display" : "SAMU/SMUR"
+      }]
+    }]
+  }
+}

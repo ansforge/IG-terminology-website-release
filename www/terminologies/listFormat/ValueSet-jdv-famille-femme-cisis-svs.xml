@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103858"
+             dateValid="20100101000000"
+             description="JDV Famille Femme CISIS"
+             displayName="JdvFamilleFemmeCisis"
+             id="1.2.250.1.213.1.1.5.26"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="DAU" codeSystem="" displayName="Fille biologique"/>
+         <Concept code="MTH" codeSystem="" displayName="Mère"/>
+         <Concept code="SIS" codeSystem="" displayName="Sœur"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

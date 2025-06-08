@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103858"
+             dateValid="20100101000000"
+             description="ParticipationType"
+             displayName="ParticipationType"
+             id="2.16.840.1.113883.1.11.10901"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="ADM" codeSystem="" displayName="Responsable de l'admission"/>
+         <Concept code="ALY"
+                  codeSystem=""
+                  displayName="Cible d'une observation (substance ou composant le plus spécifique)"/>
+         <Concept code="ATND"
+                  codeSystem=""
+                  displayName="Superviseur / Responsable des soins"/>
+         <Concept code="AUT" codeSystem="" displayName="Auteur"/>
+         <Concept code="AUTHEN" codeSystem="" displayName="Validateur"/>
+         <Concept code="BBY" codeSystem="" displayName="Nouveau né"/>
+         <Concept code="BEN" codeSystem="" displayName="Bénéficiaire"/>
+         <Concept code="CAGNT" codeSystem="" displayName="Agent causal"/>
+         <Concept code="CALLBCK" codeSystem="" displayName="Contact à rappeler"/>
+         <Concept code="CAT" codeSystem="" displayName="Catalyseur"/>
+         <Concept code="CON" codeSystem="" displayName="Consultant"/>
+         <Concept code="COV"
+                  codeSystem=""
+                  displayName="Partie couverte (titulaire ou bénéficiaire)"/>
+         <Concept code="CSM" codeSystem="" displayName="Consommable"/>
+         <Concept code="CST" codeSystem="" displayName="Responsable de l'information"/>
+         <Concept code="DEV"
+                  codeSystem=""
+                  displayName="Dispositif automatique impliqué dans la production des résultats"/>
+         <Concept code="DIR" codeSystem="" displayName="Participant direct"/>
+         <Concept code="DIS" codeSystem="" displayName="Responsable de la sortie"/>
+         <Concept code="DIST" codeSystem="" displayName="Distributeur"/>
+         <Concept code="DON" codeSystem="" displayName="Donneur"/>
+         <Concept code="DST" codeSystem="" displayName="Destination"/>
+         <Concept code="ELOC"
+                  codeSystem=""
+                  displayName="Emplacement où les données sont saisies"/>
+         <Concept code="ENT"
+                  codeSystem=""
+                  displayName="Transcripteur du contenu à partir d'une autre forme"/>
+         <Concept code="ESC" codeSystem="" displayName="Accompagnateur"/>
+         <Concept code="EXPAGNT" codeSystem="" displayName="Agent de l'exposition"/>
+         <Concept code="EXPART" codeSystem="" displayName="Partie de l'exposition"/>
+         <Concept code="EXSRC" codeSystem="" displayName="Source de l'exposition"/>
+         <Concept code="EXPTRGT" codeSystem="" displayName="Cible de l'exposition"/>
+         <Concept code="GUAR" codeSystem="" displayName="Garant"/>
+         <Concept code="HLD" codeSystem="" displayName="Souscripteur"/>
+         <Concept code="IND" codeSystem="" displayName="Cible indirecte"/>
+         <Concept code="INF" codeSystem="" displayName="Informateur"/>
+         <Concept code="IRCP"
+                  codeSystem=""
+                  displayName="Destinataire de l'information"/>
+         <Concept code="LA" codeSystem="" displayName="Responsable légal de l'acte"/>
+         <Concept code="LOC" codeSystem="" displayName="Emplacement principal"/>
+         <Concept code="NRD" codeSystem="" displayName="Dispositif non réutilisable"/>
+         <Concept code="NOT"
+                  codeSystem=""
+                  displayName="Personne à prévenir en cas d'urgence"/>
+         <Concept code="NOTARY" codeSystem="" displayName="Certificateur"/>
+         <Concept code="ORG" codeSystem="" displayName="Lieu d'origine"/>
+         <Concept code="PART" codeSystem="" displayName="Participant"/>
+         <Concept code="PPRF" codeSystem="" displayName="Exécutant principal"/>
+         <Concept code="PRCP"
+                  codeSystem=""
+                  displayName="Destinataire principal de l'information"/>
+         <Concept code="PRD" codeSystem="" displayName="Produit"/>
+         <Concept code="PRF" codeSystem="" displayName="Exécutant"/>
+         <Concept code="RCT" codeSystem="" displayName="Dossier médical"/>
+         <Concept code="RCV" codeSystem="" displayName="Récepteur"/>
+         <Concept code="RDV" codeSystem="" displayName="Dispositif réutilisable"/>
+         <Concept code="REF" codeSystem="" displayName="Référent / Prescripteur"/>
+         <Concept code="REFB"
+                  codeSystem=""
+                  displayName="Personne ayant adressé le patient"/>
+         <Concept code="REFT"
+                  codeSystem=""
+                  displayName="Personne recevant le patient"/>
+         <Concept code="RESP" codeSystem="" displayName="Responsable de l'acte"/>
+         <Concept code="RML" codeSystem="" displayName="Emplacement distant"/>
+         <Concept code="SBJ" codeSystem="" displayName="Sujet"/>
+         <Concept code="SPC" codeSystem="" displayName="Echantillon"/>
+         <Concept code="SPRF" codeSystem="" displayName="Exécutant secondaire"/>
+         <Concept code="TRANS" codeSystem="" displayName="Transcripteur"/>
+         <Concept code="TRC"
+                  codeSystem=""
+                  displayName="Personne recevant une copie de l'information"/>
+         <Concept code="VIA" codeSystem="" displayName="Emplacement intermédiaire"/>
+         <Concept code="VRF" codeSystem="" displayName="Vérificateur"/>
+         <Concept code="WIT" codeSystem="" displayName="Témoin"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

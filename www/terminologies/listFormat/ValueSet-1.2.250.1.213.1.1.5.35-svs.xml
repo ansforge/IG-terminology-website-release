@@ -10,14 +10,10 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="MED-1056"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Clinique"/>
-         <concept code="MED-110"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Mammographique"/>
-         <concept code="MED-111"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
+         <Concept code="MED-1056" codeSystem="" displayName="Clinique"/>
+         <Concept code="MED-110" codeSystem="" displayName="Mammographique"/>
+         <Concept code="MED-111"
+                  codeSystem=""
                   displayName="Clinique et mammographique"/>
       </ConceptList>
    </ValueSet>

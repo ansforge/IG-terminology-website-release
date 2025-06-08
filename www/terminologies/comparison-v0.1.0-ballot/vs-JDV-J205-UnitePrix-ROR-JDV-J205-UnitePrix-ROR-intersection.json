@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1155",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1155",
+  "name" : "IntersectionJDV_J205_UnitePrix_RORAndJDV_J205_UnitePrix_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Tarif horaire"
+      },
+      {
+        "code" : "2",
+        "display" : "Tarif journalier"
+      },
+      {
+        "code" : "3",
+        "display" : "Tarif mensuel"
+      },
+      {
+        "code" : "4",
+        "display" : "Tarif unitaire"
+      }]
+    }]
+  }
+}

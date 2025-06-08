@@ -1,0 +1,87 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1208",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1208",
+  "name" : "UnionJDV_J221_NatureContact_RORAndJDV_J221_NatureContact_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Accueil"
+      },
+      {
+        "code" : "02",
+        "display" : "Prise de rendez-vous"
+      },
+      {
+        "code" : "03",
+        "display" : "Admission"
+      },
+      {
+        "code" : "04",
+        "display" : "Médical"
+      },
+      {
+        "code" : "05",
+        "display" : "Soignant"
+      },
+      {
+        "code" : "06",
+        "display" : "Standard"
+      },
+      {
+        "code" : "07",
+        "display" : "Secrétariat"
+      },
+      {
+        "code" : "08",
+        "display" : "Alerte-Tension-SSE"
+      },
+      {
+        "code" : "09",
+        "display" : "Téléconsultation"
+      },
+      {
+        "code" : "10",
+        "display" : "Direction"
+      },
+      {
+        "code" : "11",
+        "display" : "Alerte heures ouvrées"
+      },
+      {
+        "code" : "12",
+        "display" : "Alerte heures non ouvrées"
+      },
+      {
+        "code" : "13",
+        "display" : "Alerte H24"
+      },
+      {
+        "code" : "14",
+        "display" : "Garde ou astreinte"
+      },
+      {
+        "code" : "15",
+        "display" : "Téléexpertise"
+      },
+      {
+        "code" : "16",
+        "display" : "Cellule opérationnelle de Bed Management"
+      },
+      {
+        "code" : "17",
+        "display" : "Télésoin"
+      }]
+    }]
+  }
+}

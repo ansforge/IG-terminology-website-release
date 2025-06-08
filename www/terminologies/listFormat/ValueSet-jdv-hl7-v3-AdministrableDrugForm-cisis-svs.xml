@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103858"
+             dateValid="20211029000000"
+             description="AdministrableDrugForm"
+             displayName="AdministrableDrugForm"
+             id="2.16.840.1.113883.1.11.14570"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="APPFUL" codeSystem="" displayName="Applicatorful"/>
+         <Concept code="PUFF" codeSystem="" displayName="Puff"/>
+         <Concept code="SCOOP" codeSystem="" displayName="Scoops"/>
+         <Concept code="SPRY" codeSystem="" displayName="Sprays"/>
+         <Concept code="DROP" codeSystem="" displayName="Drops"/>
+         <Concept code="NDROP" codeSystem="" displayName="Nasal Drops"/>
+         <Concept code="OPDROP" codeSystem="" displayName="Ophthalmic Drops"/>
+         <Concept code="ORDROP" codeSystem="" displayName="Oral Drops"/>
+         <Concept code="OTDROP" codeSystem="" displayName="Otic Drops"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

@@ -1,0 +1,49 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1329",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1329",
+  "name" : "IntersectionJDV_J261_SourceInformationInstallation_RASSAndJDV_J261_SourceInformationInstallation_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "V",
+        "display" : "Visite de conformité"
+      },
+      {
+        "code" : "E",
+        "display" : "Enquête statistique"
+      },
+      {
+        "code" : "I",
+        "display" : "Interrogation de l'ET"
+      },
+      {
+        "code" : "D",
+        "display" : "Document de tarification"
+      },
+      {
+        "code" : "S",
+        "display" : "Inspection"
+      },
+      {
+        "code" : "C",
+        "display" : "Convention"
+      },
+      {
+        "code" : "L",
+        "display" : "Labellisation"
+      },
+      {
+        "code" : "A",
+        "display" : "Autre"
+      },
+      {
+        "code" : "R",
+        "display" : "Arrêté"
+      }]
+    }]
+  }
+}

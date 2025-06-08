@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-836",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-836",
+  "name" : "UnionJDV_J104_TypeIdentifiantStructure_RASSAndJDV_J104_TypeIdentifiantStructure_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "0",
+        "display" : "Id Cabinet ADELI"
+      },
+      {
+        "code" : "1",
+        "display" : "FINESS"
+      },
+      {
+        "code" : "2",
+        "display" : "SIREN"
+      },
+      {
+        "code" : "3",
+        "display" : "SIRET"
+      },
+      {
+        "code" : "4",
+        "display" : "Id Cabinet RPPS"
+      }]
+    }]
+  }
+}

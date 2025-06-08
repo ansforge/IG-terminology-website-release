@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "11ef1f82-7104-4d22-a114-4816a2cca1e3-1268",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/11ef1f82-7104-4d22-a114-4816a2cca1e3-1268",
+  "name" : "UnionJDV_J241_ThematiqueAnomalie_RORAndJDV_J241_ThematiqueAnomalie_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-06-08T18:21:30+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Complétude"
+      },
+      {
+        "code" : "02",
+        "display" : "Exhaustivité"
+      },
+      {
+        "code" : "03",
+        "display" : "Cohérence"
+      },
+      {
+        "code" : "04",
+        "display" : "Récence"
+      },
+      {
+        "code" : "05",
+        "display" : "Structuration"
+      },
+      {
+        "code" : "06",
+        "display" : "Exactitude"
+      }]
+    }]
+  }
+}

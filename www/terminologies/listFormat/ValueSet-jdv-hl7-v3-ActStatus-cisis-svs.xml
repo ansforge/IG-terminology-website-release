@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20100101000000"
+             description="ActStatus"
+             displayName="ActStatus"
+             id="2.16.840.1.113883.1.11.15933"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="aborted"
+                  codeSystem=""
+                  displayName="Arrêté (après son lancement)"/>
+         <Concept code="active"
+                  codeSystem=""
+                  displayName="Actif (en cours ou à venir)"/>
+         <Concept code="cancelled"
+                  codeSystem=""
+                  displayName="Annulé (avant son lancement)"/>
+         <Concept code="completed" codeSystem="" displayName="Terminé"/>
+         <Concept code="held"
+                  codeSystem=""
+                  displayName="En attente (avant son lancement)"/>
+         <Concept code="new" codeSystem="" displayName="En préparation"/>
+         <Concept code="suspended"
+                  codeSystem=""
+                  displayName="Suspendu (au cours de sa réalisation)"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

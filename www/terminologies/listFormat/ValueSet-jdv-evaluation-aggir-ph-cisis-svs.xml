@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20240918000000"
+             description="JDV Evaluation Aggir Ph CISIS"
+             displayName="JdvEvaluationAggirPhCisis"
+             id="1.2.250.1.213.1.1.5.805"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="b160" codeSystem="" displayName="Fonctions de la pensée"/>
+         <Concept code="b114" codeSystem="" displayName="Fonctions d'orientation"/>
+         <Concept code="d510" codeSystem="" displayName="Se laver"/>
+         <Concept code="d540" codeSystem="" displayName="S'habiller"/>
+         <Concept code="d550" codeSystem="" displayName="Manger"/>
+         <Concept code="d530" codeSystem="" displayName="Aller aux toilettes"/>
+         <Concept code="d410"
+                  codeSystem=""
+                  displayName="Changer la position corporelle de base"/>
+         <Concept code="d4600" codeSystem="" displayName="Se déplacer dans la maison"/>
+         <Concept code="d4602"
+                  codeSystem=""
+                  displayName="Se déplacer en dehors de la maison et d'autres bâtiments"/>
+         <Concept code="d3608"
+                  codeSystem=""
+                  displayName="Utiliser d'autres appareils et techniques de communication précisés"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

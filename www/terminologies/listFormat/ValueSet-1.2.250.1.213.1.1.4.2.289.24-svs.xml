@@ -10,37 +10,31 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <concept code="O04" codeSystem="" displayName="Avortement médical"/>
-         <concept code="O42.9"
+         <Concept code="O04" codeSystem="" displayName="Avortement médical"/>
+         <Concept code="O42.9"
                   codeSystem=""
                   displayName="Rupture prématurée des membranes, sans précision"/>
-         <concept code="O48" codeSystem="" displayName="Grossesse prolongée"/>
-         <concept code="P95" codeSystem="" displayName="Mort fœtale"/>
-         <concept code="GEN-092"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre"/>
-         <concept code="GEN-092.01.06"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Autre motif de déclenchement"/>
-         <concept code="MED-1242"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Sans indication médicale"/>
-         <concept code="MED-210"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Cause Fœtale"/>
-         <concept code="MED-219"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Cause Maternelle"/>
-         <concept code="OBS_002" codeSystem="" displayName="IMG"/>
-         <concept code="OBS_205" codeSystem="" displayName="Sans indication médicale"/>
-         <concept code="OBS_206"
+         <Concept code="O48" codeSystem="" displayName="Grossesse prolongée"/>
+         <Concept code="P95" codeSystem="" displayName="Mort fœtale"/>
+         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
+         <Concept code="GEN-092.01.06"
                   codeSystem=""
                   displayName="Autre motif de déclenchement"/>
-         <concept code="D8-12200" codeSystem="" displayName="Grossesse prolongée"/>
-         <concept code="D8-22120"
+         <Concept code="MED-1242"
+                  codeSystem=""
+                  displayName="Sans indication médicale"/>
+         <Concept code="MED-210" codeSystem="" displayName="Cause Fœtale"/>
+         <Concept code="MED-219" codeSystem="" displayName="Cause Maternelle"/>
+         <Concept code="OBS_002" codeSystem="" displayName="IMG"/>
+         <Concept code="OBS_205" codeSystem="" displayName="Sans indication médicale"/>
+         <Concept code="OBS_206"
+                  codeSystem=""
+                  displayName="Autre motif de déclenchement"/>
+         <Concept code="D8-12200" codeSystem="" displayName="Grossesse prolongée"/>
+         <Concept code="D8-22120"
                   codeSystem=""
                   displayName="Rupture prématurée des membranes"/>
-         <concept code="F-88450" codeSystem="" displayName="Mort in utero"/>
+         <Concept code="F-88450" codeSystem="" displayName="Mort in utero"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103857"
+             dateValid="20220101000000"
+             description="Condition Clinical Status Codes"
+             displayName="ConditionClinicalStatusCodes"
+             id="2.16.840.1.113883.4.642.3.164"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="active" codeSystem="" displayName="Actif"/>
+         <Concept code="recurrence" codeSystem="" displayName="Récurrent"/>
+         <Concept code="relapse" codeSystem="" displayName="Rechute"/>
+         <Concept code="inactive" codeSystem="" displayName="Inactif"/>
+         <Concept code="remission" codeSystem="" displayName="En rémission"/>
+         <Concept code="resolved" codeSystem="" displayName="Résolu"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>

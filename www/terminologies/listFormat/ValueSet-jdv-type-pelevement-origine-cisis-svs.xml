@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
+                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+   <ValueSet dateFin=""
+             dateMaj="20250606103858"
+             dateValid="20100101000000"
+             description="JDV Type Pelevement Origine CISIS"
+             displayName="JdvTypePelevementOrigineCisis"
+             id="1.2.250.1.213.1.1.5.148"
+             typeFichier="JDV"
+             urlFichier="">
+      <ConceptList>
+         <Concept code="A" codeSystem="" displayName="Aspiration"/>
+         <Concept code="B" codeSystem="" displayName="Biopsie chirurgicale"/>
+         <Concept code="C"
+                  codeSystem=""
+                  displayName="Cytoponction non guidée par imagerie"/>
+         <Concept code="F"
+                  codeSystem=""
+                  displayName="Frottis par raclage, brossage ou écouvillonnage"/>
+         <Concept code="L"
+                  codeSystem=""
+                  displayName="Liquide spontanément émis ou de ponction (épanchement, urine, LCR,  kyste, bulle)"/>
+         <Concept code="O"
+                  codeSystem=""
+                  displayName="Pièce opératoire avec exérèse complète de l’organe"/>
+         <Concept code="P"
+                  codeSystem=""
+                  displayName="Ponction, biopsie et biopsie instrumentale non guidée par imagerie"/>
+      </ConceptList>
+   </ValueSet>
+</RetrieveValueSetResponse>
