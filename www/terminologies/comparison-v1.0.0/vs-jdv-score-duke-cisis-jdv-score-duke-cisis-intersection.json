@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2595",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2595",
+  "name" : "IntersectionJdvScoreDukeCisisAndJdvScoreDukeCisis",
+  "title" : "Intersection of JDV Score Duke CISIS And JDV Score Duke CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-589",
+        "display" : "Aptitude physique excellente (Score de Duke > 10 MET)"
+      },
+      {
+        "code" : "MED-590",
+        "display" : "Aptitude physique bonne (Score de Duke 7-10 MET)"
+      },
+      {
+        "code" : "MED-591",
+        "display" : "Aptitude physique modérée (Score de Duke 4-7 MET)"
+      },
+      {
+        "code" : "MED-592",
+        "display" : "Aptitude physique faible (Score de Duke < 4 MET)"
+      }]
+    }]
+  }
+}

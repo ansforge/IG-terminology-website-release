@@ -1,0 +1,91 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2078",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2078",
+  "name" : "UnionTimingEventAndTimingEvent",
+  "title" : "Union of TimingEvent And TimingEvent",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "AC",
+        "display" : "Avant le repas"
+      },
+      {
+        "code" : "ACD",
+        "display" : "Avant le déjeuner"
+      },
+      {
+        "code" : "ACM",
+        "display" : "Avant le petit-déjeuner"
+      },
+      {
+        "code" : "ACV",
+        "display" : "Avant le dîner"
+      },
+      {
+        "code" : "C",
+        "display" : "Pendant les repas"
+      },
+      {
+        "code" : "CD",
+        "display" : "Pendant le déjeuner"
+      },
+      {
+        "code" : "CM",
+        "display" : "Pendant le petit-déjeuner"
+      },
+      {
+        "code" : "CV",
+        "display" : "Pendant le dîner"
+      },
+      {
+        "code" : "HS",
+        "display" : "Au coucher"
+      },
+      {
+        "code" : "IC",
+        "display" : "Entre les repas"
+      },
+      {
+        "code" : "ICD",
+        "display" : "Entre le déjeuner et le dîner"
+      },
+      {
+        "code" : "ICM",
+        "display" : "Entre le petit-déjeûner et le déjeûner"
+      },
+      {
+        "code" : "ICV",
+        "display" : "Entre le diner et le coucher"
+      },
+      {
+        "code" : "PC",
+        "display" : "Après le repas"
+      },
+      {
+        "code" : "PCD",
+        "display" : "Après le déjeuner"
+      },
+      {
+        "code" : "PCM",
+        "display" : "Après le petit-déjeuner"
+      },
+      {
+        "code" : "PCV",
+        "display" : "Après le dîner"
+      },
+      {
+        "code" : "WAKE",
+        "display" : "Au réveil"
+      }]
+    }]
+  }
+}

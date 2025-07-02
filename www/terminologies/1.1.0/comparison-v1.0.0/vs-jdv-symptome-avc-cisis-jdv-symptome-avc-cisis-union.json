@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2678",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2678",
+  "name" : "UnionJdvSymptomeAvcCisisAndJdvSymptomeAvcCisis",
+  "title" : "Union of JDV Symptome Avc CISIS And JDV Symptome Avc CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G25.9",
+        "display" : "Syndrome extrapyramidal et trouble de la motricité, sans précision"
+      },
+      {
+        "code" : "R27.0",
+        "display" : "Ataxie, sans précision"
+      },
+      {
+        "code" : "H53.9",
+        "display" : "Trouble de la vision, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "85972008",
+        "display" : "trouble sensoriel"
+      }]
+    }]
+  }
+}

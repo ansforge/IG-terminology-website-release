@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2715",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2715",
+  "name" : "IntersectionJdvTnmPtnmPt3CisisAndJdvTnmPtnmPt3Cisis",
+  "title" : "Intersection of JDV Tnm Ptnm Pt 3 CISIS And JDV Tnm Ptnm Pt 3 CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-787",
+        "display" : "Évaluation impossible"
+      },
+      {
+        "code" : "MED-788",
+        "display" : "Pas de tumeur retrouvée"
+      },
+      {
+        "code" : "MED-820",
+        "display" : "Tumeur confinée à l'organe"
+      },
+      {
+        "code" : "MED-793",
+        "display" : "Envahissement de la séreuse (revêtement mésothélial)"
+      },
+      {
+        "code" : "MED-821",
+        "display" : "Envahissement microscopique au-delà de la séreuse"
+      },
+      {
+        "code" : "MED-822",
+        "display" : "Envahissement macroscopique au-delà de la séreuse ou envahissement d'un autre organe"
+      },
+      {
+        "code" : "MED-823",
+        "display" : "Tumeur multifocale n'occupant pas plus de 2 sites dans un organe"
+      },
+      {
+        "code" : "MED-824",
+        "display" : "Tumeur multifocale occupant plus de 2 sites et pas plus de 5 sites"
+      },
+      {
+        "code" : "MED-825",
+        "display" : "Tumeur multifocale occupant  plus de 5 sites"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2574",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2574",
+  "name" : "IntersectionJdvScoreBradenFrictionCisaillementCisisAndJdvScoreBradenFrictionCisaillementCisis",
+  "title" : "Intersection of JDV Score Braden Friction Cisaillement CISIS And JDV Score Braden Friction Cisaillement CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA9617-7",
+        "display" : "Problème présent"
+      },
+      {
+        "code" : "LA9618-5",
+        "display" : "Problème potentiel"
+      },
+      {
+        "code" : "LA9619-3",
+        "display" : "Pas de problème apparent"
+      }]
+    }]
+  }
+}

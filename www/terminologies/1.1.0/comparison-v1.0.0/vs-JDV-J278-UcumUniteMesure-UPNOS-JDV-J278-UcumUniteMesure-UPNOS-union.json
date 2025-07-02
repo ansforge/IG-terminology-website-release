@@ -1,0 +1,75 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1364",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1364",
+  "name" : "UnionJDV_J278_UcumUniteMesure_UPNOSAndJDV_J278_UcumUniteMesure_UPNOS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "a",
+        "display" : "année"
+      },
+      {
+        "code" : "mo",
+        "display" : "mois"
+      },
+      {
+        "code" : "wk",
+        "display" : "semaine"
+      },
+      {
+        "code" : "d",
+        "display" : "jour"
+      },
+      {
+        "code" : "h",
+        "display" : "heure"
+      },
+      {
+        "code" : "min",
+        "display" : "minute"
+      },
+      {
+        "code" : "s",
+        "display" : "seconde"
+      },
+      {
+        "code" : "ms",
+        "display" : "milliseconde"
+      },
+      {
+        "code" : "m",
+        "display" : "mètre"
+      },
+      {
+        "code" : "mg/dL",
+        "display" : "milligramme par décilitre"
+      },
+      {
+        "code" : "%",
+        "display" : "pourcentage"
+      },
+      {
+        "code" : "g/L",
+        "display" : "gramme par litre"
+      },
+      {
+        "code" : "cm",
+        "display" : "centimètre"
+      },
+      {
+        "code" : "kg",
+        "display" : "kilogramme"
+      }]
+    }]
+  }
+}

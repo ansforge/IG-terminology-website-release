@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1994",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1994",
+  "name" : "UnionAllergyIntoleranceClinicalStatusCodesAndAllergyIntoleranceClinicalStatusCodes",
+  "title" : "Union of AllergyIntolerance Clinical Status Codes And AllergyIntolerance Clinical Status Codes",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "active",
+        "display" : "Actif"
+      },
+      {
+        "code" : "inactive",
+        "display" : "Inactif"
+      },
+      {
+        "code" : "resolved",
+        "display" : "Résolu"
+      }]
+    }]
+  }
+}

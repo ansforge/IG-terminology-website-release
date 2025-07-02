@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2807",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2807",
+  "name" : "UnionJdvTypeDispositifOculaireCisisAndJdvTypeDispositifOculaireCisis",
+  "title" : "Union of JDV Type Dispositif Oculaire CISIS And JDV Type Dispositif Oculaire CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "421591000",
+        "display" : "verre de lunettes"
+      },
+      {
+        "code" : "57368009",
+        "display" : "lentille de contact"
+      }]
+    }]
+  }
+}

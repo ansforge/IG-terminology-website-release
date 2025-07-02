@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1725",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1725",
+  "name" : "IntersectionJdvCddFaCisisAndJdvCddFaCisis",
+  "title" : "Intersection of JDV Cdd Fa CISIS And JDV Cdd Fa CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-351",
+        "display" : "Découverte à l’admission"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "36692007",
+        "display" : "connu"
+      },
+      {
+        "code" : "26593000",
+        "display" : "paroxystique"
+      },
+      {
+        "code" : "6934004",
+        "display" : "permanent"
+      }]
+    }]
+  }
+}

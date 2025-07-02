@@ -1,0 +1,67 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2376",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2376",
+  "name" : "IntersectionJdvObjectifActiviteCisisAndJdvObjectifActiviteCisis",
+  "title" : "Intersection of JDV Objectif Activite CISIS And JDV Objectif Activite CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "409073007",
+        "display" : "éducation"
+      },
+      {
+        "code" : "165197003",
+        "display" : "évaluation diagnostique"
+      },
+      {
+        "code" : "79841006",
+        "display" : "conseil en génétique"
+      },
+      {
+        "code" : "243787009",
+        "display" : "diagnostic prénatal"
+      },
+      {
+        "code" : "426417003",
+        "display" : "FIV avec diagnostic génétique préimplantatoire"
+      },
+      {
+        "code" : "225297008",
+        "display" : "actions de planification des soins et de résolution de problème"
+      },
+      {
+        "code" : "390906007",
+        "display" : "rendez-vous de suivi"
+      },
+      {
+        "code" : "373110003",
+        "display" : "procédure d'urgence"
+      },
+      {
+        "code" : "308364004",
+        "display" : "procédure en lien avec la recherche"
+      },
+      {
+        "code" : "71388002",
+        "display" : "procédure"
+      },
+      {
+        "code" : "1365979000",
+        "display" : "consultation pour préparer la transition enfant/adulte"
+      },
+      {
+        "code" : "310867007",
+        "display" : "informer un(e) patient(e) du diagnostic"
+      }]
+    }]
+  }
+}

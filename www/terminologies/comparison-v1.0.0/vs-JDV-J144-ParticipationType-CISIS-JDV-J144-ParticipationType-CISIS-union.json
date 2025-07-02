@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-980",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-980",
+  "name" : "UnionJDV_J144_ParticipationType_CISISAndJDV_J144_ParticipationType_CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "REF",
+        "display" : "Référent / Prescripteur"
+      },
+      {
+        "code" : "REFB",
+        "display" : "Personne ayant adressé le patient"
+      },
+      {
+        "code" : "INF",
+        "display" : "Informateur"
+      },
+      {
+        "code" : "RESP",
+        "display" : "Responsable de l'acte"
+      },
+      {
+        "code" : "PRF",
+        "display" : "Exécutant"
+      },
+      {
+        "code" : "CON",
+        "display" : "Consultant"
+      },
+      {
+        "code" : "VRF",
+        "display" : "Vérificateur"
+      }]
+    }]
+  }
+}

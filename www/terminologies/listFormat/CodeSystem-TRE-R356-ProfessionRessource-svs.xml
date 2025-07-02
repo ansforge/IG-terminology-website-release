@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250425120000"
+             dateMaj="20250623120000"
              dateValid="20230331120000"
              description="Profession Ressource"
              displayName="TRE_R356_ProfessionRessource"
@@ -873,6 +873,24 @@
                   displayName="Conseiller conjugal et familial"
                   longDesignation="Conseiller conjugal et familial"
                   shortDesignation="Conseiller familial"
+                  descriptionMetier=""/>
+         <Concept code="129"
+                  codeSystem="1.2.250.1.213.3.3.246"
+                  dateFin=""
+                  dateMaj="20250623120000"
+                  dateValid="20250623120000"
+                  displayName="Ergonome"
+                  longDesignation="Ergonome"
+                  shortDesignation="Ergonome"
+                  descriptionMetier=""/>
+         <Concept code="130"
+                  codeSystem="1.2.250.1.213.3.3.246"
+                  dateFin=""
+                  dateMaj="20250623120000"
+                  dateValid="20250623120000"
+                  displayName="Psychologue du travail"
+                  longDesignation="Psychologue du travail"
+                  shortDesignation="Psychologue du travail"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

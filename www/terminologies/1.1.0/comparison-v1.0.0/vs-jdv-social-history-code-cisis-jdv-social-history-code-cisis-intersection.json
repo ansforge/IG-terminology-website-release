@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2637",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2637",
+  "name" : "IntersectionJdvSocialHistoryCodeCisisAndJdvSocialHistoryCodeCisis",
+  "title" : "Intersection of JDV Social History Code CISIS And JDV Social History Code CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "72166-2",
+        "display" : "Statut tabagique"
+      },
+      {
+        "code" : "74011-8",
+        "display" : "Consommation tabagique"
+      },
+      {
+        "code" : "74013-4",
+        "display" : "Consommation d'alcool"
+      },
+      {
+        "code" : "11343-1",
+        "display" : "Consommation de drogue non médicales"
+      },
+      {
+        "code" : "73985-4",
+        "display" : "Exercice physique"
+      },
+      {
+        "code" : "81663-7",
+        "display" : "Régime"
+      },
+      {
+        "code" : "92944-8",
+        "display" : "Exposition à risque"
+      },
+      {
+        "code" : "8683-5",
+        "display" : "Exposition professionnelle"
+      },
+      {
+        "code" : "67875-5",
+        "display" : "Statut d'emploi"
+      },
+      {
+        "code" : "29556-8",
+        "display" : "Trouble du comportement"
+      },
+      {
+        "code" : "11345-6",
+        "display" : "Autre élément social"
+      }]
+    }]
+  }
+}

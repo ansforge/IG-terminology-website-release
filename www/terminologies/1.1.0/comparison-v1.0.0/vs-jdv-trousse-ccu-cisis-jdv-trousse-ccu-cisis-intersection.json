@@ -1,0 +1,93 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2742",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2742",
+  "name" : "IntersectionJdvTrousseCcuCisisAndJdvTrousseCcuCisis",
+  "title" : "Intersection of JDV Trousse Ccu CISIS And JDV Trousse Ccu CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.08.06",
+        "display" : "Autre trousse"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "VHEDA1GUR01LX",
+        "display" : "ABBOTT - Alinity m HR HPV AMP Kit (09N15-090)"
+      },
+      {
+        "code" : "VHEDA1GUR02LX",
+        "display" : "ABBOTT - RealTime High Risk HPV (02N09-092)"
+      },
+      {
+        "code" : "VHEDC7GUR01LX",
+        "display" : "BD - Onclarity HPV Assay (442946)"
+      },
+      {
+        "code" : "VHEDC7GUR02LX",
+        "display" : "BD - Onclarity HPV Assay pour le système BD COR (443982)"
+      },
+      {
+        "code" : "VHEDCDGUR01LX",
+        "display" : "CEPHEID - Xpert HPV (GXHPV-CE-10)"
+      },
+      {
+        "code" : "VHEDNGGUP01LX",
+        "display" : "GENOMICA -CLART HPV4S (?)"
+      },
+      {
+        "code" : "VHEDB2GUP01LX",
+        "display" : "GREINER BIO-ONE - PapilloCheck  (465060)"
+      },
+      {
+        "code" : "VHERCQGAX01LX",
+        "display" : "HOLOGIC - APTIMA HPV Assay (Panther System) (302929/303093)"
+      },
+      {
+        "code" : "VHEDNHGUR01LX",
+        "display" : "HYBRIBIO - 14 High-risk HPV with 16/18 Genotyping Real-time PCR kit (HBRT-H14)"
+      },
+      {
+        "code" : "VHEDHUGYA01LX",
+        "display" : "QIAGEN -Digene HC2 High - Risk HPV DNA (5197-1330; 618111)"
+      },
+      {
+        "code" : "VHEDARGUR01LX",
+        "display" : "ROCHE DIAGNOSTICS -Cobas 4800 HPV Test (05235910190; 05235901190)"
+      },
+      {
+        "code" : "VHEDARGUR02LX",
+        "display" : "ROCHE DIAGNOSTICS - Cobas HPV 6800/8800 Systems (07460155190)"
+      },
+      {
+        "code" : "VHEDHVGUR01LX",
+        "display" : "SEEGENE - Anyplex II HPV HR Detection (HP7E00X/HP10380Z)"
+      },
+      {
+        "code" : "VHEDD4GUR01LX",
+        "display" : "NEUMODX MOLECULAR - NeuMoDx HPV Test Strip (617007)"
+      },
+      {
+        "code" : "VHEDMNGUR01LX",
+        "display" : "SELF SCREEN - QIAscreen HPV PCR Test (617005)"
+      },
+      {
+        "code" : "VHEDACGUP01LX",
+        "display" : "EUROIMMUN -EUROArray HPV (MN 2540-0505; MN 2540-0803; MN 2540-1005; MN 2540-2005)"
+      },
+      {
+        "code" : "VHEDEBGUR01LX",
+        "display" : "AB ANALITICA -REALQUALITY RQ-HPV Screen (RQ-123-4M; RQ-123-6M)"
+      }]
+    }]
+  }
+}

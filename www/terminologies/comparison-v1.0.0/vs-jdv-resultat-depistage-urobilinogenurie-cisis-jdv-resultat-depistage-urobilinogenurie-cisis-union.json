@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2537",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2537",
+  "name" : "UnionJdvResultatDepistageUrobilinogenurieCisisAndJdvResultatDepistageUrobilinogenurieCisis",
+  "title" : "Union of JDV Resultat Depistage Urobilinogenurie CISIS And JDV Resultat Depistage Urobilinogenurie CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "17621005",
+        "display" : "normal"
+      },
+      {
+        "code" : "10828004",
+        "display" : "positif(-ive)"
+      }]
+    }]
+  }
+}

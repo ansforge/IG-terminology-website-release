@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1878",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1878",
+  "name" : "IntersectionJdvEtiologieHemorragieCisisAndJdvEtiologieHemorragieCisis",
+  "title" : "Intersection of JDV Etiologie Hemorragie CISIS And JDV Etiologie Hemorragie CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Q27.9",
+        "display" : "Malformation congénitale de l'appareil circulatoire périphérique, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-473",
+        "display" : "Maladie petites artères"
+      },
+      {
+        "code" : "MED-474",
+        "display" : "Anticoagulant au long cours"
+      },
+      {
+        "code" : "MED-475",
+        "display" : "Angiopathie amyloïde"
+      },
+      {
+        "code" : "GEN-092.01.10",
+        "display" : "Autre étiologie de l'hémorragie"
+      }]
+    }]
+  }
+}

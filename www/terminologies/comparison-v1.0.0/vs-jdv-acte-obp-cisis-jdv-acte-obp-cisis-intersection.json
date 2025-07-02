@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1635",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1635",
+  "name" : "IntersectionJdvActeObpCisisAndJdvActeObpCisis",
+  "title" : "Intersection of JDV Acte Obp CISIS And JDV Acte Obp CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1249",
+        "display" : "Anesthésie avant la naissance"
+      },
+      {
+        "code" : "MED-1250",
+        "display" : "Anesthésie après la naissance"
+      },
+      {
+        "code" : "MED-1251",
+        "display" : "Acte pratiqué en post-partum"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "73813-8",
+        "display" : "Caractéristiques du travail"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "236958009",
+        "display" : "induction du travail"
+      },
+      {
+        "code" : "116859006",
+        "display" : "transfusion de produits sanguins"
+      },
+      {
+        "code" : "236945008",
+        "display" : "intervention obstétricale ante partum"
+      }]
+    }]
+  }
+}

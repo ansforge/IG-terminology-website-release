@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2580",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2580",
+  "name" : "IntersectionJdvScoreBradenMobiliteCisisAndJdvScoreBradenMobiliteCisis",
+  "title" : "Intersection of JDV Score Braden Mobilite CISIS And JDV Score Braden Mobilite CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA9614-4",
+        "display" : "Complètement immobile"
+      },
+      {
+        "code" : "LA9604-5",
+        "display" : "Très limitée"
+      },
+      {
+        "code" : "LA9605-2",
+        "display" : "Légèrement limitée"
+      },
+      {
+        "code" : "LA120-8",
+        "display" : "Aucune limitation"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,317 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-96",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-96",
+  "name" : "IntersectionTRE_G18_AttributionParticuliereADELIAndTRE_G18_AttributionParticuliereADELI",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:49+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "20",
+    "display" : "Expert auprès des tribunaux (expertise judiciaire)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Expertise judiciaire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "30",
+    "display" : "Médecin agréé spécialiste",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "40",
+    "display" : "Médecin agréé généraliste",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "50",
+    "display" : "Expert auprès des assurances",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "60",
+    "display" : "Médecin de recours",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-23T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-23T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-23T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-23T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "91",
+    "display" : "Médecine légale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "92",
+    "display" : "Médecin agréé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "93",
+    "display" : "Expertises de Sécurité Sociale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "94",
+    "display" : "Expertise pour le Ministère des anciens combattants",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Expert Ministère anc combat"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "95",
+    "display" : "Expert auprès des Comités médicaux et commissions de réforme (CMCR)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Expert CMCR"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "97",
+    "display" : "Collège des 3G",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "96",
+    "display" : "Activité libérale de contrôle d'absentéisme",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Contrôle absentéisme"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2008-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  }]
+}

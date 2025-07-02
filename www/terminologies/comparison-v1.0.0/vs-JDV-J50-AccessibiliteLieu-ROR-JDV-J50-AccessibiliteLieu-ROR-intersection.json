@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1449",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1449",
+  "name" : "IntersectionJDV_J50_AccessibiliteLieu_RORAndJDV_J50_AccessibiliteLieu_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Accessible"
+      },
+      {
+        "code" : "2",
+        "display" : "Non accessible"
+      },
+      {
+        "code" : "3",
+        "display" : "Sur demande"
+      },
+      {
+        "code" : "4",
+        "display" : "Non communiqué"
+      },
+      {
+        "code" : "5",
+        "display" : "Conforme"
+      },
+      {
+        "code" : "6",
+        "display" : "Ad'AP"
+      }]
+    }]
+  }
+}

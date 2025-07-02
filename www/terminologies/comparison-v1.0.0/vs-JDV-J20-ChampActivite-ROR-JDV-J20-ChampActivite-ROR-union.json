@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1151",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1151",
+  "name" : "UnionJDV_J20_ChampActivite_RORAndJDV_J20_ChampActivite_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Médecine, Chirurgie, Obstétrique (MCO)"
+      },
+      {
+        "code" : "02",
+        "display" : "Soins Médicaux et de réadaptation (SMR)"
+      },
+      {
+        "code" : "03",
+        "display" : "Psychiatrie (PSY)"
+      },
+      {
+        "code" : "04",
+        "display" : "Médico-social (MS)"
+      },
+      {
+        "code" : "05",
+        "display" : "Ville"
+      }]
+    }]
+  }
+}

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20250626120000"
              dateValid="20121006000000"
              description="subjectRole CI-SIS"
              displayName="JDV_J05_SubjectRole_CISIS"
@@ -1104,6 +1104,9 @@
          <Concept code="FON-59"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Gérant d'antenne"/>
+         <Concept code="FON-60"
+                  codeSystem="1.2.250.1.213.1.6.1.17"
+                  displayName="Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"/>
          <Concept code="FON-AU"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Fonction non définie"/>

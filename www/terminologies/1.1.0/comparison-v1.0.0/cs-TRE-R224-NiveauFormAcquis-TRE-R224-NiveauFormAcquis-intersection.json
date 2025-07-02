@@ -1,0 +1,465 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-225",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-225",
+  "name" : "IntersectionTRE_R224_NiveauFormAcquisAndTRE_R224_NiveauFormAcquis",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:49+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "A06",
+    "display" : "6ième année validée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "A06 validée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "A07",
+    "display" : "7ième année validée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "A07 validée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "A08",
+    "display" : "8ième année validée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "A08 validée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "A09",
+    "display" : "9ième année validée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "A09 validée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "C02",
+    "display" : "2ième cycle validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Cycle 2 validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S01",
+    "display" : "1er semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S01 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S02",
+    "display" : "2ième semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S02 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S03",
+    "display" : "3ième semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S03 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S04",
+    "display" : "4ième semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S04 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S05",
+    "display" : "5ième semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S05 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S06",
+    "display" : "6ième semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S06 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S07",
+    "display" : "7ième semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S07 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S08",
+    "display" : "8ième semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S08 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S09",
+    "display" : "9ième semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S09 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S10",
+    "display" : "10ième semestre internat validé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "S10 internat validé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-03-22T12:00:00+01:00"
+    }]
+  }]
+}

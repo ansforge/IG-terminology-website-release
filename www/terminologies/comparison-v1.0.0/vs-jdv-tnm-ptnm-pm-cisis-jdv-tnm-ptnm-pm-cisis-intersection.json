@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2700",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2700",
+  "name" : "IntersectionJdvTnmPtnmPmCisisAndJdvTnmPtnmPmCisis",
+  "title" : "Intersection of JDV Tnm Ptnm Pm CISIS And JDV Tnm Ptnm Pm CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-802",
+        "display" : "Métastase dans un site ou organe, sans métastase péritonéale"
+      },
+      {
+        "code" : "MED-803",
+        "display" : "Métastase dans deux ou plus sites ou organes, sans métastase péritonéale"
+      },
+      {
+        "code" : "MED-804",
+        "display" : "Métastase à la surface péritonéale (isolée, ou avec d’autres sites ou organes métastatiques)"
+      }]
+    }]
+  }
+}

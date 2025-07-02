@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2739",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2739",
+  "name" : "IntersectionJdvTroubleVisuelCisisAndJdvTroubleVisuelCisis",
+  "title" : "Intersection of JDV Trouble Visuel CISIS And JDV Trouble Visuel CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "H53.2",
+        "display" : "Diplopie"
+      },
+      {
+        "code" : "H53.4",
+        "display" : "Anomalies du champ visuel"
+      },
+      {
+        "code" : "H54.5",
+        "display" : "Déficience visuelle sévère, monoculaire"
+      },
+      {
+        "code" : "H53.8",
+        "display" : "Autres troubles de la vision"
+      },
+      {
+        "code" : "H53.9",
+        "display" : "Trouble de la vision, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-348",
+        "display" : "Troubles visuels bilatéraux"
+      }]
+    }]
+  }
+}

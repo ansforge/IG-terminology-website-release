@@ -1,0 +1,95 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2883",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2883",
+  "name" : "IntersectionJdvTypeTraitementFrcpCisisAndJdvTypeTraitementFrcpCisis",
+  "title" : "Intersection of JDV Type Traitement Frcp CISIS And JDV Type Traitement Frcp CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C15313",
+        "display" : "radiothérapie"
+      },
+      {
+        "code" : "C15195",
+        "display" : "curiethérapie"
+      },
+      {
+        "code" : "C15632",
+        "display" : "chimiothérapie"
+      },
+      {
+        "code" : "C93352",
+        "display" : "thérapie ciblée"
+      },
+      {
+        "code" : "C547",
+        "display" : "Hormonothérapie"
+      },
+      {
+        "code" : "C15262",
+        "display" : "immunothérapie"
+      },
+      {
+        "code" : "C63334",
+        "display" : "Radiologie interventionnelle"
+      },
+      {
+        "code" : "C157891",
+        "display" : "endoscopie interventionnelle"
+      },
+      {
+        "code" : "C15747",
+        "display" : "soins de support"
+      },
+      {
+        "code" : "C15252",
+        "display" : "soins palliatifs"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-556",
+        "display" : "Fenêtre thérapeutique"
+      },
+      {
+        "code" : "MED-226",
+        "display" : "Surveillance seule"
+      },
+      {
+        "code" : "MED-232",
+        "display" : "Irathérapie"
+      },
+      {
+        "code" : "MED-126",
+        "display" : "Allogreffe / Autogreffe"
+      },
+      {
+        "code" : "GEN-092.03.01",
+        "display" : "Autre(s) traitement(s)"
+      },
+      {
+        "code" : "GEN-092.03.02",
+        "display" : "Autre(s) traitement(s) médicamenteux spécifique(s)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "387713003",
+        "display" : "intervention chirurgicale"
+      },
+      {
+        "code" : "424313000",
+        "display" : "surveillance active"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2459",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2459",
+  "name" : "UnionJdvRcpAppareilCisisAndJdvRcpAppareilCisis",
+  "title" : "Union of JDV RCP Appareil CISIS And JDV RCP Appareil CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "387910009",
+        "display" : "glande endocrine"
+      },
+      {
+        "code" : "57171008",
+        "display" : "structure du système hématopoïétique"
+      },
+      {
+        "code" : "1290040004",
+        "display" : "œil entier"
+      },
+      {
+        "code" : "272673000",
+        "display" : "os"
+      },
+      {
+        "code" : "39937001",
+        "display" : "peau"
+      },
+      {
+        "code" : "76752008",
+        "display" : "sein"
+      },
+      {
+        "code" : "86762007",
+        "display" : "système digestif"
+      },
+      {
+        "code" : "53065001",
+        "display" : "appareil génital féminin"
+      },
+      {
+        "code" : "90264002",
+        "display" : "appareil génital masculin"
+      },
+      {
+        "code" : "25087005",
+        "display" : "système nerveux"
+      },
+      {
+        "code" : "122489005",
+        "display" : "système urinaire"
+      },
+      {
+        "code" : "312419003",
+        "display" : "appareil respiratoire et/ou cavité thoracique"
+      },
+      {
+        "code" : "87784001",
+        "display" : "tissus mous"
+      },
+      {
+        "code" : "119253004",
+        "display" : "voie aérodigestive supérieure"
+      }]
+    }]
+  }
+}

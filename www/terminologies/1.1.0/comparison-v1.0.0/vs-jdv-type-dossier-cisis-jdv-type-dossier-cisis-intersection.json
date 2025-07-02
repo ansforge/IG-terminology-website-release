@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2811",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2811",
+  "name" : "IntersectionJdvTypeDossierCisisAndJdvTypeDossierCisis",
+  "title" : "Intersection of JDV Type Dossier CISIS And JDV Type Dossier CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-138",
+        "display" : "Allocation personnalisée d’autonomie (APA)"
+      },
+      {
+        "code" : "GEN-139",
+        "display" : "Prestation de compensation du handicap (PCH)"
+      },
+      {
+        "code" : "GEN-140",
+        "display" : "Allocation aux adultes handicapés (AAH)"
+      },
+      {
+        "code" : "GEN-141",
+        "display" : "Allocation de solidarité aux personnes âgées (ASPA) /Allocation supplémentaire d'invalidité (ASI)"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1925",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1925",
+  "name" : "UnionJdvExamenHematologieEunvCisisAndJdvExamenHematologieEunvCisis",
+  "title" : "Union of JDV Examen Hematologie Eunv CISIS And JDV Examen Hematologie Eunv CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "789-8",
+        "display" : "Érythrocytes [Nombre/Volume] Sang ; Numérique ; Comptage automate"
+      },
+      {
+        "code" : "718-7",
+        "display" : "Hémoglobine [Masse/Volume] Sang ; Numérique"
+      },
+      {
+        "code" : "4544-3",
+        "display" : "Hématocrite [Fraction volumique] Sang ; Numérique ; Comptage automate"
+      },
+      {
+        "code" : "30428-7",
+        "display" : "Volume globulaire moyen [Volume d'entité] Érythrocytes ; Numérique"
+      },
+      {
+        "code" : "28540-3",
+        "display" : "Concentration corpusculaire moyenne en hémoglobine [Masse/Volume] Érythrocytes ; Numérique"
+      },
+      {
+        "code" : "28539-5",
+        "display" : "Teneur corpusculaire moyenne en hémoglobine [Masse d'entité] Érythrocytes ; Numérique"
+      },
+      {
+        "code" : "777-3",
+        "display" : "Plaquettes [Nombre/Volume] Sang ; Numérique ; Comptage automate"
+      },
+      {
+        "code" : "6690-2",
+        "display" : "Leucocytes [Nombre/Volume] Sang ; Numérique ; Comptage automate"
+      },
+      {
+        "code" : "26511-6",
+        "display" : "Polynucléaires neutrophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      },
+      {
+        "code" : "26450-7",
+        "display" : "Polynucléaires éosinophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      },
+      {
+        "code" : "30180-4",
+        "display" : "Polynucléaires basophiles/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      },
+      {
+        "code" : "26478-8",
+        "display" : "Lymphocytes totaux/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      },
+      {
+        "code" : "26485-3",
+        "display" : "Monocytes/100 leucocytes [Fraction de nombres] Sang ; Numérique"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2907",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2907",
+  "name" : "IntersectionJdvUfcvLocalisationDefibrillateurCisisAndJdvUfcvLocalisationDefibrillateurCisis",
+  "title" : "Intersection of JDV UFCV Localisation Defibrillateur CISIS And JDV UFCV Localisation Defibrillateur CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "71966008",
+        "display" : "tissu sous-cutané"
+      },
+      {
+        "code" : "60005003",
+        "display" : "muscle grand pectoral"
+      },
+      {
+        "code" : "6871001",
+        "display" : "péricarde viscéral"
+      }]
+    }]
+  }
+}

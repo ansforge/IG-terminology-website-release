@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1691",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1691",
+  "name" : "UnionJdvAspectLiquideAmniotiqueCisisAndJdvAspectLiquideAmniotiqueCisis",
+  "title" : "Union of JDV Aspect Liquide Amniotique CISIS And JDV Aspect Liquide Amniotique CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.01.05",
+        "display" : "Autre aspect du liquide amniotique"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "408781009",
+        "display" : "liquide amniotique de couleur jaune paille"
+      },
+      {
+        "code" : "168092006",
+        "display" : "coloration méconiale du liquide amniotique"
+      },
+      {
+        "code" : "289294000",
+        "display" : "liquide amniotique avec méconium épais"
+      },
+      {
+        "code" : "249134008",
+        "display" : "liquide amniotique sanglant"
+      }]
+    }]
+  }
+}

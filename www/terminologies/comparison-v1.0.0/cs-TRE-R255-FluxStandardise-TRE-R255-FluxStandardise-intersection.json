@@ -1,0 +1,125 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-318",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-318",
+  "name" : "IntersectionTRE_R255_FluxStandardiseAndTRE_R255_FluxStandardise",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "ITI42-RQ",
+    "display" : "Flux du dépôt de document (ITI42-Request)",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "ITI31-A01",
+    "display" : "Flux d'admission dans un établissement de santé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "ITI31-A03",
+    "display" : "Flux de sortie d'un établissement de santé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "CREATION-NOTE",
+    "display" : "Flux de création d'une note pour un patient dans le cahier de liaison",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-03-30T12:00:00+01:00"
+    }]
+  }]
+}

@@ -1,0 +1,87 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1515",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1515",
+  "name" : "IntersectionJDV_J73_MetierPharmacien_RASSAndJDV_J73_MetierPharmacien_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "A",
+        "display" : "Pharmacien titulaire d'officine"
+      },
+      {
+        "code" : "B",
+        "display" : "Pharmacien d'entreprise - industrie"
+      },
+      {
+        "code" : "C",
+        "display" : "Pharmacien d'entreprise - distribution"
+      },
+      {
+        "code" : "D",
+        "display" : "Pharmacien adjoint, remplaçant ou gérant"
+      },
+      {
+        "code" : "E",
+        "display" : "Pharmacien d'Outre-Mer"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "DA",
+        "display" : "Pharmacien adjoint"
+      },
+      {
+        "code" : "DM",
+        "display" : "Pharmacien mutualiste ou minier"
+      },
+      {
+        "code" : "EA",
+        "display" : "Pharmacien titulaire d'officine - OM"
+      },
+      {
+        "code" : "EB",
+        "display" : "Pharmacien d'entreprise - industrie - OM"
+      },
+      {
+        "code" : "EC",
+        "display" : "Pharmacien d'entreprise - distribution - OM"
+      },
+      {
+        "code" : "ED",
+        "display" : "Pharmacien adjoint - OM"
+      },
+      {
+        "code" : "EG",
+        "display" : "Pharmacien biologiste - OM"
+      },
+      {
+        "code" : "EH",
+        "display" : "Pharmacien d'établissement de santé - OM"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "G",
+        "display" : "Pharmacien biologiste"
+      },
+      {
+        "code" : "H",
+        "display" : "Pharmacien d'établissement de santé"
+      },
+      {
+        "code" : "M",
+        "display" : "Pharmacien militaire"
+      }]
+    }]
+  }
+}

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240329120000"
+             dateMaj="20250625120000"
              dateValid="20190830120000"
              description="Types de savoir-faire des professionnels du RASS"
              displayName="JDV_J91_TypeSavoirFaire_RASS"
@@ -19,6 +19,9 @@
          <Concept code="CEX"
                   codeSystem="1.2.250.1.213.1.6.1.16"
                   displayName="Compétence exclusive"/>
+         <Concept code="CM"
+                  codeSystem="1.2.250.1.213.1.6.1.16"
+                  displayName="Compétence métier"/>
          <Concept code="DEC"
                   codeSystem="1.2.250.1.213.1.6.1.16"
                   displayName="Droit d'exercice complémentaire"/>

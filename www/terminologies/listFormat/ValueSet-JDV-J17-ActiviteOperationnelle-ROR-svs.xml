@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250425120000"
+             dateMaj="20250620120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -520,10 +520,10 @@
                   displayName="Expertise des infections osteo-articulaires complexes (CRIOA, CRIOAC)"/>
          <Concept code="227"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Psychiatrie de l'enfant"/>
+                  displayName="Psychiatrie de l’enfant (pédopsychiatrie)"/>
          <Concept code="228"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Psychiatrie de l'adolescent"/>
+                  displayName="Psychiatrie de l’adolescent (pédopsychiatrie)"/>
          <Concept code="229"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Psychiatrie adulte"/>
@@ -1300,7 +1300,7 @@
                   displayName="Traumatologie de l'activité physique et du sport"/>
          <Concept code="510"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Échographie gynécologique et obstétricale (dont échographie de grossesse)"/>
+                  displayName="Échographie obstétricale"/>
          <Concept code="511"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Accueil et hébergement spécialisé"/>
@@ -1351,13 +1351,13 @@
                   displayName="Informer, évaluer, accompagner et orienter dans le cadre d'une orientation professionnelle"/>
          <Concept code="527"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Suivi gynécologique de prévention"/>
+                  displayName="Suivi gynécologique de prévention et contraception"/>
          <Concept code="528"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Suivi neuropsychologique"/>
          <Concept code="529"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Suivi post-natal"/>
+                  displayName="Suivi post-natal (dont séances post-natales)"/>
          <Concept code="530"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Suivi prénatal (suivi de grossesse)"/>
@@ -1414,7 +1414,7 @@
                   displayName="Coordination de parcours (Care management)"/>
          <Concept code="549"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Diététique"/>
+                  displayName="Diététique et nutrition"/>
          <Concept code="550"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Accompagnement puériculteur à la périnatalité"/>
@@ -1514,6 +1514,36 @@
          <Concept code="582"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Orientation vers professionnel pour diagnostic"/>
+         <Concept code="583"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Dialyse péritonéale"/>
+         <Concept code="584"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Diététique des Troubles des Conduites Alimentaires (TCA)"/>
+         <Concept code="585"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Diététique orientation Dénutrition"/>
+         <Concept code="586"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Diététique orientation Gynécologie / Obstétrique"/>
+         <Concept code="587"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Diététique orientation maladies inflammatoires et malabsorptives (MICI, SII, NASH)"/>
+         <Concept code="588"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Diététique orientation Nutrition du sportif"/>
+         <Concept code="589"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Diététique orientation Périnatalité"/>
+         <Concept code="590"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Échographie gynécologique"/>
+         <Concept code="591"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Ostéopathie médicale"/>
+         <Concept code="592"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Prévention et lutte contre la tuberculose"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

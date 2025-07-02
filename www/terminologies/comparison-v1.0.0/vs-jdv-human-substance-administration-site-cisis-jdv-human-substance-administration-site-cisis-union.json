@@ -1,0 +1,199 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2090",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2090",
+  "name" : "UnionJdvHumanSubstanceAdministrationSiteCisisAndJdvHumanSubstanceAdministrationSiteCisis",
+  "title" : "Union of JDV Human Substance Administration Site CISIS And JDV Human Substance Administration Site CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "34338003",
+        "display" : "dans les deux oreilles"
+      },
+      {
+        "code" : "244506005",
+        "display" : "les deux narines antérieures"
+      },
+      {
+        "code" : "46862004",
+        "display" : "fesse"
+      },
+      {
+        "code" : "80768000",
+        "display" : "membre supérieur gauche"
+      },
+      {
+        "code" : "40768004",
+        "display" : "moitié gauche du thorax"
+      },
+      {
+        "code" : "1236868005",
+        "display" : "fosse cubitale gauche"
+      },
+      {
+        "code" : "16217701000119102",
+        "display" : "deltoïde gauche"
+      },
+      {
+        "code" : "89644007",
+        "display" : "oreille gauche"
+      },
+      {
+        "code" : "1236870001",
+        "display" : "veine jugulaire externe gauche"
+      },
+      {
+        "code" : "22335008",
+        "display" : "pied gauche"
+      },
+      {
+        "code" : "1236872009",
+        "display" : "muscle moyen glutéal gauche"
+      },
+      {
+        "code" : "85151006",
+        "display" : "main gauche"
+      },
+      {
+        "code" : "771194006",
+        "display" : "veine jugulaire interne gauche"
+      },
+      {
+        "code" : "68505006",
+        "display" : "quadrant abdominal inférieur gauche"
+      },
+      {
+        "code" : "66480008",
+        "display" : "avant-bras gauche"
+      },
+      {
+        "code" : "723608007",
+        "display" : "narine antérieure gauche"
+      },
+      {
+        "code" : "77568009",
+        "display" : "dos"
+      },
+      {
+        "code" : "734747003",
+        "display" : "veine subclavière gauche"
+      },
+      {
+        "code" : "61396006",
+        "display" : "cuisse gauche"
+      },
+      {
+        "code" : "368208006",
+        "display" : "partie supérieure du bras gauche"
+      },
+      {
+        "code" : "86367003",
+        "display" : "quadrant abdominal supérieur gauche"
+      },
+      {
+        "code" : "1217007000",
+        "display" : "muscle vaste latéral gauche"
+      },
+      {
+        "code" : "1290032005",
+        "display" : "œil droit"
+      },
+      {
+        "code" : "1290031003",
+        "display" : "œil gauche"
+      },
+      {
+        "code" : "40638003",
+        "display" : "les deux yeux"
+      },
+      {
+        "code" : "397158004",
+        "display" : "région périanale"
+      },
+      {
+        "code" : "182347008",
+        "display" : "région superficielle du pelvis"
+      },
+      {
+        "code" : "6921000",
+        "display" : "membre supérieur droit"
+      },
+      {
+        "code" : "51872008",
+        "display" : "moitié droite du thorax"
+      },
+      {
+        "code" : "1236869002",
+        "display" : "fosse cubitale droite"
+      },
+      {
+        "code" : "16217661000119109",
+        "display" : "deltoïde\u00a0droit"
+      },
+      {
+        "code" : "25577004",
+        "display" : "oreille droite"
+      },
+      {
+        "code" : "1236871002",
+        "display" : "veine jugulaire externe droite"
+      },
+      {
+        "code" : "7769000",
+        "display" : "pied droit"
+      },
+      {
+        "code" : "1236873004",
+        "display" : "muscle moyen glutéal droit"
+      },
+      {
+        "code" : "78791008",
+        "display" : "main droite"
+      },
+      {
+        "code" : "771195007",
+        "display" : "veine jugulaire interne droite"
+      },
+      {
+        "code" : "48544008",
+        "display" : "quadrant abdominal inférieur droit"
+      },
+      {
+        "code" : "64262003",
+        "display" : "avant-bras droit"
+      },
+      {
+        "code" : "723609004",
+        "display" : "narine antérieure droite"
+      },
+      {
+        "code" : "734748008",
+        "display" : "veine subclavière droite"
+      },
+      {
+        "code" : "11207009",
+        "display" : "cuisse droite"
+      },
+      {
+        "code" : "368209003",
+        "display" : "partie supérieure du bras droit"
+      },
+      {
+        "code" : "50519007",
+        "display" : "quadrant abdominal supérieur droit"
+      },
+      {
+        "code" : "1217006009",
+        "display" : "muscle vaste latéral droit"
+      }]
+    }]
+  }
+}

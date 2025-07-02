@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2130",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2130",
+  "name" : "IntersectionJdvInvestigationRealiseeEunvCisisAndJdvInvestigationRealiseeEunvCisis",
+  "title" : "Intersection of JDV Investigation Realisee Eunv CISIS And JDV Investigation Realisee Eunv CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEQP003",
+        "display" : "Électrocardiographie sur au moins 12 dérivations"
+      },
+      {
+        "code" : "DEQP004",
+        "display" : "Surveillance continue de l'électrocardiogramme par oscilloscopie et/ou télésurveillance, par 24 heures"
+      },
+      {
+        "code" : "DEQP005",
+        "display" : "Électrocardiographie sur au moins 2 dérivations, avec enregistrement continu pendant au moins 24 heures"
+      },
+      {
+        "code" : "DZQM006",
+        "display" : "Échographie-doppler transthoracique du coeur et des vaisseaux intrathoraciques"
+      },
+      {
+        "code" : "DZQJ001",
+        "display" : "Échographie-doppler du coeur et des vaisseaux intrathoraciques, par voie oesophagienne [Échocardiographie-doppler transoesophagienne]"
+      },
+      {
+        "code" : "ACQN001",
+        "display" : "Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"
+      },
+      {
+        "code" : "EBQH006",
+        "display" : "Scanographie des vaisseaux cervicaux [Angioscanner cervical]"
+      },
+      {
+        "code" : "EAQM004",
+        "display" : "Échographie-doppler transcrânienne des vaisseaux intracrâniens, sans épreuve pharmacodynamique"
+      },
+      {
+        "code" : "EAQM002",
+        "display" : "Monitorage de la circulation artérielle intracrânienne par doppler pulsé transcrânien"
+      }]
+    }]
+  }
+}

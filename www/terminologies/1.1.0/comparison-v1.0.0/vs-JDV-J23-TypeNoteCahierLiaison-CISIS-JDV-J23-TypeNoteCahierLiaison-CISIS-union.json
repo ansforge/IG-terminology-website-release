@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1250",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1250",
+  "name" : "UnionJDV_J23_TypeNoteCahierLiaison_CISISAndJDV_J23_TypeNoteCahierLiaison_CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEM-AVIS",
+        "display" : "Demande d'avis"
+      },
+      {
+        "code" : "GEN",
+        "display" : "Note générale"
+      },
+      {
+        "code" : "INST",
+        "display" : "Instruction"
+      },
+      {
+        "code" : "INTERV",
+        "display" : "Note d'intervention"
+      },
+      {
+        "code" : "OBS",
+        "display" : "Note d'observation"
+      }]
+    }]
+  }
+}

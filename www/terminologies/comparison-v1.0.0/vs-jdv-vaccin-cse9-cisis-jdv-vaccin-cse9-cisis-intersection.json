@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2952",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2952",
+  "name" : "IntersectionJdvVaccinCse9CisisAndJdvVaccinCse9Cisis",
+  "title" : "Intersection of JDV Vaccin Cse9 CISIS And JDV Vaccin Cse9 CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "J07CA06",
+        "display" : "diphtérie-Haemophilus influenzae B-coqueluche-poliomyélite-tétanos"
+      },
+      {
+        "code" : "J07CA01",
+        "display" : "diphtérie-poliomyélite-tétanos"
+      },
+      {
+        "code" : "J07AJ",
+        "display" : "vaccins coquelucheux"
+      },
+      {
+        "code" : "J07AG",
+        "display" : "vaccins de l'Haemophilus influenzae B"
+      },
+      {
+        "code" : "J07BC01",
+        "display" : "hépatite B, antigène purifié"
+      },
+      {
+        "code" : "J07AL",
+        "display" : "vaccins pneumococciques"
+      },
+      {
+        "code" : "J07AH07",
+        "display" : "méningocoque C, antigène polysaccharidique purifié conjugué"
+      },
+      {
+        "code" : "J07AH08",
+        "display" : "méningocoques A,C,Y, W-135, antigènes polysaccharidiques tétravalents purifiés conjugués"
+      },
+      {
+        "code" : "J07AH09",
+        "display" : "méningocoque B, vaccin multicomposant"
+      },
+      {
+        "code" : "J07BH",
+        "display" : "vaccins des diarrhées à Rotavirus"
+      },
+      {
+        "code" : "J07AN",
+        "display" : "vaccins de la tuberculose"
+      }]
+    }]
+  }
+}

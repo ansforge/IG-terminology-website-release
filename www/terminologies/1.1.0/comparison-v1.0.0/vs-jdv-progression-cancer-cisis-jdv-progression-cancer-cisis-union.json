@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2438",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2438",
+  "name" : "UnionJdvProgressionCancerCisisAndJdvProgressionCancerCisis",
+  "title" : "Union of JDV Progression Cancer CISIS And JDV Progression Cancer CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-246",
+        "display" : "Progression locale du cancer"
+      },
+      {
+        "code" : "MED-247",
+        "display" : "Progression régionale du cancer"
+      },
+      {
+        "code" : "MED-248",
+        "display" : "Progression à distance du cancer"
+      }]
+    }]
+  }
+}

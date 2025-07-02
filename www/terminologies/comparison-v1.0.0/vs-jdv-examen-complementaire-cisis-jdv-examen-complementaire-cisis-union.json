@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1916",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1916",
+  "name" : "UnionJdvAxamenComplementaireCisisAndJdvAxamenComplementaireCisis",
+  "title" : "Union of JDV Examen Complementaire CISIS And JDV Examen Complementaire CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-034",
+        "display" : "Agrandissement"
+      },
+      {
+        "code" : "MED-035",
+        "display" : "Cliché(s) supplémentaire(s)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "US",
+        "display" : "Échographie"
+      }]
+    }]
+  }
+}

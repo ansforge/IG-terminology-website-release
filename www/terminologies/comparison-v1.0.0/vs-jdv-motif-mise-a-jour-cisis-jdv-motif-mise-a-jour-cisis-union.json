@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2312",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2312",
+  "name" : "UnionJdvMotifMiseAJourCisisAndJdvMotifMiseAJourCisis",
+  "title" : "Union of JDV Motif Mise A Jour CISIS And JDV Motif Mise A Jour CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-103",
+        "display" : "Non réponse ou évolution sous traitement"
+      },
+      {
+        "code" : "MED-104",
+        "display" : "Refus de traitement"
+      },
+      {
+        "code" : "MED-105",
+        "display" : "Décision de prise en soins palliatifs"
+      },
+      {
+        "code" : "MED-556",
+        "display" : "Fenêtre thérapeutique"
+      },
+      {
+        "code" : "MED-560",
+        "display" : "Réajustement du programme thérapeutique et de suivi"
+      },
+      {
+        "code" : "MED-561",
+        "display" : "Réajustement des soins de support et accompagnements"
+      },
+      {
+        "code" : "GEN-175",
+        "display" : "Modification d’informations administratives"
+      },
+      {
+        "code" : "GEN-176",
+        "display" : "Modification de calendrier"
+      },
+      {
+        "code" : "GEN-092.08.02",
+        "display" : "Autre motif de mise à jour"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "263855007",
+        "display" : "rechute"
+      }]
+    }]
+  }
+}

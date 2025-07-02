@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2693",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2693",
+  "name" : "UnionJdvTerritoireInfarctusCisisAndJdvTerritoireInfarctusCisis",
+  "title" : "Union of JDV Territoire Infarctus CISIS And JDV Territoire Infarctus CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-442",
+        "display" : "Carotidien territorial"
+      },
+      {
+        "code" : "MED-443",
+        "display" : "Carotidien lacunaire"
+      },
+      {
+        "code" : "MED-444",
+        "display" : "VB territorial"
+      },
+      {
+        "code" : "MED-445",
+        "display" : "VB lacunaire"
+      }]
+    }]
+  }
+}

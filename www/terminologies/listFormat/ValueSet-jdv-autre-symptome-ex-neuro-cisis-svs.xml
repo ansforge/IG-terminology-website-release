@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250606103858"
+             dateMaj="20250624152101"
              dateValid="20100101000000"
              description="JDV Autre Symptome Ex Neuro CISIS"
              displayName="JdvAutreSymptomeExNeuroCisis"
@@ -43,12 +43,6 @@
          <Concept code="R47.1"
                   codeSystem="2.16.840.1.113883.6.3"
                   displayName="Dysarthrie et anarthrie"/>
-         <Concept code="H57.04"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  displayName="Mydriase"/>
-         <Concept code="H57.03"
-                  codeSystem="2.16.840.1.113883.6.3"
-                  displayName="Myosis"/>
          <Concept code="G98"
                   codeSystem="2.16.840.1.113883.6.3"
                   displayName="Autres affections du système nerveux, non classées ailleurs"/>
@@ -64,6 +58,12 @@
          <Concept code="MED-484"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Latéropulsion"/>
+         <Concept code="37125009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="mydriase"/>
+         <Concept code="301939004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="myosis"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

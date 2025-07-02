@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2466",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2466",
+  "name" : "IntersectionJdvReadaptationCisisAndJdvReadaptationCisis",
+  "title" : "Intersection of JDV Readaptation CISIS And JDV Readaptation CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G15_60",
+        "display" : "Infirmier"
+      },
+      {
+        "code" : "G15_70",
+        "display" : "Masseur-Kinésithérapeute"
+      },
+      {
+        "code" : "G15_94",
+        "display" : "Ergothérapeute"
+      },
+      {
+        "code" : "G15_91",
+        "display" : "Orthophoniste"
+      }]
+    }]
+  }
+}

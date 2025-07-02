@@ -1,0 +1,641 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-684",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-684",
+  "name" : "IntersectionTRE_R64_AgregatCategorieEtablissementNiv2AndTRE_R64_AgregatCategorieEtablissementNiv2",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "110",
+    "display" : "Etablissements d'Administration",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Administration"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-10-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-10-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-10-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-10-01T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "1100",
+    "display" : "Etablissements Hospitaliers",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Hospitaliers"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "1200",
+    "display" : "Autres Etablissements Relevant de la Loi Hospitalière",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autres Etab.Loi Hosp"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "2100",
+    "display" : "Cabinets Libéraux",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "2200",
+    "display" : "Autres Etablissements de Soins et Prévention",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autres Etab.de Soins"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autres établissements de soins et prévention"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "3100",
+    "display" : "Laboratoires de Biologie Médicale",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Labo Biolog Médicale"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "3200",
+    "display" : "Commerce de Biens à Usage Médicaux",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Com.Biens Usage Méd."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "3400",
+    "display" : "Autres Etablissements à Caractère Sanitaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autres Etab.Sanit."
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autres établissements à caractère sanitaire"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "4100",
+    "display" : "Etab.et Serv.pour l'Enfance et la Jeunesse Handicapée",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Enfance & Jeun. Hand"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etablissements et Services pour l'enfance et la jeunesse handicapée"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "4200",
+    "display" : "Etablissements ou Classes d'Enseignement Spécial",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Classe Enseig.Spéc."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "4300",
+    "display" : "Etablissements et Services pour Adultes Handicapés",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Adultes Handi."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "4400",
+    "display" : "Etablissements et Services pour Personnes Agées",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Personnes Agées"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etablissements et Services pour personnes âgées"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "4500",
+    "display" : "Etab.et Serv.Sociaux Concourant à la Protection de l'Enfance",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Protection Enfance"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etablissements et Services sociaux concourant à la protection de l'enfance"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "4600",
+    "display" : "Autres Etab. Accueil, Hébergement, Réadaptation et Services",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autres Etab.Soc & MS"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autres établissements d'accueil, d'hébergement, de réadaptation et services"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "5100",
+    "display" : "Etablissements et Services Sociaux d'Aide à la Famille",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Aide à Famille"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-12-14T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "6100",
+    "display" : "Etablissements de Formation des Personnels Sanitaires",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Form.Pers.San."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "6200",
+    "display" : "Etablissements de Formation des Personnels Sociaux",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Form.Sociaux"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "6300",
+    "display" : "Etablissements de Formation Polyvalente",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Form.Polyval."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "0110",
+    "display" : "Etablissements d'Administration",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Administration"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    }]
+  }]
+}

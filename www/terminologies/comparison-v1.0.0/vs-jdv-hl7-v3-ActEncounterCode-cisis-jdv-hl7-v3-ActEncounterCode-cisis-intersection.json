@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2013",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2013",
+  "name" : "IntersectionActEncounterCodeAndActEncounterCode",
+  "title" : "Intersection of ActEncounterCode And ActEncounterCode",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "AMB",
+        "display" : "Ambulatoire (hors établissement)"
+      },
+      {
+        "code" : "EMER",
+        "display" : "Passage aux urgences (établissement)"
+      },
+      {
+        "code" : "FLD",
+        "display" : "Terrain (voie publique, hélicoptère, ambulance, etc.)"
+      },
+      {
+        "code" : "HH",
+        "display" : "Soins à domicile (hors établissement)"
+      },
+      {
+        "code" : "IMP",
+        "display" : "Hospitalisation (établissement, y compris HAD)"
+      },
+      {
+        "code" : "OBSENC",
+        "display" : "Observation"
+      },
+      {
+        "code" : "PRENC",
+        "display" : "Pré-admission"
+      },
+      {
+        "code" : "SS",
+        "display" : "Hospitalisation de jour"
+      },
+      {
+        "code" : "VR",
+        "display" : "Virtuelle (exemple : RCP en l'absence du patient)"
+      }]
+    }]
+  }
+}

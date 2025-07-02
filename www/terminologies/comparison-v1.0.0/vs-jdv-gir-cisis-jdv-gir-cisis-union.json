@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1970",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1970",
+  "name" : "UnionJdvGirCisisAndJdvGirCisis",
+  "title" : "Union of JDV Gir CISIS And JDV Gir CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-339",
+        "display" : "GIR-1"
+      },
+      {
+        "code" : "MED-340",
+        "display" : "GIR-2"
+      },
+      {
+        "code" : "MED-341",
+        "display" : "GIR-3"
+      },
+      {
+        "code" : "MED-342",
+        "display" : "GIR-4"
+      },
+      {
+        "code" : "MED-343",
+        "display" : "GIR-5"
+      },
+      {
+        "code" : "MED-344",
+        "display" : "GIR-6"
+      }]
+    }]
+  }
+}

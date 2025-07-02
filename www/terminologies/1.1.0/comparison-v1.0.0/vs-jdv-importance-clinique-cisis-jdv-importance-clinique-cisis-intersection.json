@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2106",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2106",
+  "name" : "IntersectionJdvImportancCliniqueCisisAndJdvImportancCliniqueCisis",
+  "title" : "Intersection of JDV Importance Clinique CISIS And JDV Importance Clinique CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "371926006",
+        "display" : "extrêmement important"
+      },
+      {
+        "code" : "386134007",
+        "display" : "important"
+      },
+      {
+        "code" : "371927002",
+        "display" : "modérément important"
+      },
+      {
+        "code" : "371928007",
+        "display" : "non important"
+      }]
+    }]
+  }
+}

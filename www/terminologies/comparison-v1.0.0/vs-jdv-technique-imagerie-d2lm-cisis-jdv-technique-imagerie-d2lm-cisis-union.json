@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2690",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2690",
+  "name" : "UnionJdvTechniqueImagerieD2lmCisisAndJdvTechniqueImagerieD2lmCisis",
+  "title" : "Union of JDV Technique Imagerie D2lm CISIS And JDV Technique Imagerie D2lm CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MG",
+        "display" : "Mammographie"
+      },
+      {
+        "code" : "US",
+        "display" : "Échographie"
+      },
+      {
+        "code" : "OT",
+        "display" : "Autre technique d'imagerie"
+      }]
+    }]
+  }
+}

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250425120000"
+             dateMaj="20250625120000"
              dateValid="20171013120000"
              description="Catégorie d'organisation - ROR"
              displayName="JDV_J34_CategorieOrganisation_ROR"
@@ -474,7 +474,7 @@
                   displayName="Unité hospitalière de gériatrie"/>
          <Concept code="157"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité hospitalière de gynécologie"/>
+                  displayName="Unité hospitalière de gynécologie et/ou obstétrique"/>
          <Concept code="158"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière de médecine vasculaire"/>
@@ -585,7 +585,7 @@
                   displayName="Cabinet de ville de gériatrie"/>
          <Concept code="194"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Cabinet de ville de gynécologie"/>
+                  displayName="Cabinet de ville de gynécologie et/ou obstétrique"/>
          <Concept code="195"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Cabinet de ville de kinésithérapie"/>
@@ -711,7 +711,7 @@
                   displayName="Unité hospitalière de médecine générale"/>
          <Concept code="236"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité hospitalière d'orthopédie dento-faciale (odontologie)"/>
+                  displayName="Unité hospitalière d'odontologie"/>
          <Concept code="237"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière d'anesthésie"/>
@@ -805,6 +805,30 @@
          <Concept code="267"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Equipe mobile d'endocrinologie, diabétologie, métabolisme et nutrition"/>
+         <Concept code="268"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centre de lutte antituberculeuse (CLAT)"/>
+         <Concept code="269"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centre de vaccination"/>
+         <Concept code="270"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centre de vaccination internationale"/>
+         <Concept code="271"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Dialyse à Domicile"/>
+         <Concept code="272"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe de Liaison et de Soins en Addictologie (ELSA)"/>
+         <Concept code="273"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité d’auto-dialyse assistée (UAD)"/>
+         <Concept code="274"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité de dialyse en centre lourd"/>
+         <Concept code="275"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité de dialyse Médicalisée (UDM)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

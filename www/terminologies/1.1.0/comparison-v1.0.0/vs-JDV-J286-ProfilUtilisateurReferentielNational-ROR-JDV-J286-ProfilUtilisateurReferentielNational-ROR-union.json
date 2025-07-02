@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1391",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1391",
+  "name" : "UnionJDV_J286_ProfilUtilisateurReferentielNational_RORAndJDV_J286_ProfilUtilisateurReferentielNational_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ADMIN_NAT",
+        "display" : "Administrateur National"
+      },
+      {
+        "code" : "ADMIN_REG",
+        "display" : "Administrateur Régional"
+      },
+      {
+        "code" : "RESP_QA",
+        "display" : "Responsable Qualité"
+      },
+      {
+        "code" : "RESP_OFFRE_STRUCT",
+        "display" : "Responsable Offre de structure"
+      },
+      {
+        "code" : "RESP_DISPO_PLACE",
+        "display" : "Responsable Disponibilité en lit / place"
+      },
+      {
+        "code" : "PORTEUR_OFFRE",
+        "display" : "Porteur d'offre"
+      },
+      {
+        "code" : "PSL",
+        "display" : "Professionnel de Santé Libéral (PSL)"
+      },
+      {
+        "code" : "ADMIN_METIER",
+        "display" : "Administrateur Métier"
+      },
+      {
+        "code" : "SUPPORT",
+        "display" : "Support"
+      },
+      {
+        "code" : "REF_MSP",
+        "display" : "Référent Maison de Santé Pluriprofessionnelle"
+      },
+      {
+        "code" : "REF_DISPO_PLACE",
+        "display" : "Référent saisie disponibilité en lit / place"
+      }]
+    }]
+  }
+}

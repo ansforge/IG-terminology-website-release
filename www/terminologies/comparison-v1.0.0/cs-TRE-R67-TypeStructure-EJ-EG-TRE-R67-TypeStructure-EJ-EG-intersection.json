@@ -1,0 +1,85 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-693",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-693",
+  "name" : "IntersectionTRE_R67_TypeStructure_EJ_EGAndTRE_R67_TypeStructure_EJ_EG",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "EJ",
+    "display" : "Entité juridique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "EG",
+    "display" : "Etablissement géographique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2013-04-30T00:00:00+01:00"
+    }]
+  }]
+}

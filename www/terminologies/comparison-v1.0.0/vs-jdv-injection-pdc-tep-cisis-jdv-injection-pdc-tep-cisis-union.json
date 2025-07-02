@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2117",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2117",
+  "name" : "UnionJdvInjectionPdcTepCisisAndJdvInjectionPdcTepCisis",
+  "title" : "Union of JDV Injection Pdc Tep CISIS And JDV Injection Pdc Tep CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1153",
+        "display" : "avec injection de produit de contraste"
+      },
+      {
+        "code" : "MED-1154",
+        "display" : "sans injection de produit de contraste"
+      }]
+    }]
+  }
+}

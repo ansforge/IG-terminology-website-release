@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2400",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2400",
+  "name" : "IntersectionJdvOrigineEffetIndesirableCisisAndJdvOrigineEffetIndesirableCisis",
+  "title" : "Intersection of JDV Origine Effet Indesirable CISIS And JDV Origine Effet Indesirable CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1279",
+        "display" : "défaut de qualité d’un médicament ou de médicaments falsifiés"
+      },
+      {
+        "code" : "MED-1280",
+        "display" : "exposition paternelle (altération potentielle des spermatozoïdes)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "1156699004",
+        "display" : "respecte le traitement médicamenteux"
+      },
+      {
+        "code" : "1149222004",
+        "display" : "surdosage"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.5.785.1",
+        "display" : "mésusage ou d’un usage détourné (Demande de création SNOMED CT en cours)"
+      },
+      {
+        "code" : "398240004",
+        "display" : "erreur médicamenteuse"
+      },
+      {
+        "code" : "16090731000119102",
+        "display" : "exposition professionnelle à un facteur de risque"
+      },
+      {
+        "code" : "79899007",
+        "display" : "interaction médicamenteuse"
+      },
+      {
+        "code" : "95606005",
+        "display" : "exposition maternelle à un médicament"
+      },
+      {
+        "code" : "1260078007",
+        "display" : "allaitement maternel"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1773",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1773",
+  "name" : "IntersectionJdvComplicationDigestiveCisisAndJdvComplicationDigestiveCisis",
+  "title" : "Intersection of JDV Complication Digestive CISIS And JDV Complication Digestive CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "K92.2",
+        "display" : "Hémorragie gastro-intestinale, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-508",
+        "display" : "Toubles digestifs justifiant une sonde gastrique"
+      }]
+    }]
+  }
+}

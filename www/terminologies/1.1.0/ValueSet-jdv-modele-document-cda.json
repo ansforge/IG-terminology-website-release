@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-modele-document-cda",
+  "meta" : {
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-modele-document-cda</b></p><a name=\"jdv-modele-document-cda\"> </a><a name=\"hcjdv-modele-document-cda\"> </a><a name=\"jdv-modele-document-cda-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-TRE-R220-ModeleDocumentCDAStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure</code></a></li><li>Include tous les codes définis dans <a href=\"CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure</code></a></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2024-04-17T09:25:08.004+00:00"
+    }
+  }],
+  "url" : "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA",
+  "version" : "1.1.0",
+  "name" : "JdvModeleDocumentCda",
+  "title" : "Jdv Modele Document Cda",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-07-02T12:12:13+00:00",
+  "publisher" : "ANS",
+  "contact" : [{
+    "name" : "ANS",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "https://esante.gouv.fr"
+    }]
+  }],
+  "description" : "JDV avec l'ensemble des codes  de la TRE_R220_ModeleDocumentCDAStructure et TRE_R221_ModeleDocumentCDANonStructure",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure"
+    },
+    {
+      "system" : "https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure"
+    }]
+  }
+}

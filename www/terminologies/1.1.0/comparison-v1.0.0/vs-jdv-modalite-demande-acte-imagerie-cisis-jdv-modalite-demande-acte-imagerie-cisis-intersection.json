@@ -1,0 +1,67 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2244",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2244",
+  "name" : "IntersectionJdvModaliteDemandeActeImagerieCisisAndJdvModaliteDemandeActeImagerieCisis",
+  "title" : "Intersection of JDV Modalite Demande Acte Iimagerie CISIS And JDV Modalite Demande Acte Iimagerie CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C63334",
+        "display" : "Radiologie interventionnelle"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1126",
+        "display" : "Radiographie sans contraste"
+      },
+      {
+        "code" : "MED-1127",
+        "display" : "Radiographie avec contraste"
+      },
+      {
+        "code" : "MED-1128",
+        "display" : "Échographie sans contraste"
+      },
+      {
+        "code" : "MED-1129",
+        "display" : "Échographie avec contraste"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MG",
+        "display" : "Mammographie"
+      },
+      {
+        "code" : "CT",
+        "display" : "Scanner/TDM"
+      },
+      {
+        "code" : "MR",
+        "display" : "IRM"
+      },
+      {
+        "code" : "OT",
+        "display" : "Autre technique d'imagerie"
+      },
+      {
+        "code" : "NM",
+        "display" : "Scintigraphie"
+      },
+      {
+        "code" : "PT",
+        "display" : "TEP : Tomographie par émission de positons"
+      }]
+    }]
+  }
+}

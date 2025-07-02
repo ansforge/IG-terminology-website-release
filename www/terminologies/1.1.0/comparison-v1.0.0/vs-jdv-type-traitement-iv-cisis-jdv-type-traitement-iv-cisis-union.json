@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2885",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2885",
+  "name" : "UnionJdvTypeTraitementIvCisisAndJdvTypeTraitementIvCisis",
+  "title" : "Union of JDV Type Traitement Iv CISIS And JDV Type Traitement Iv CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "233428003",
+        "display" : "thrombolyse d'une veine"
+      },
+      {
+        "code" : "397028007",
+        "display" : "thrombectomie d'une veine"
+      }]
+    }]
+  }
+}

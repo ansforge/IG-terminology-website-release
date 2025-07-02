@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2364",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2364",
+  "name" : "IntersectionJdvnihss_sensibiliteCisisAndJdvNihssSensibiliteCisis",
+  "title" : "Intersection of JDV nihss-sensibilite CISIS And JDV Nihss Sensibilite CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA18468-1",
+        "display" : "Normal"
+      },
+      {
+        "code" : "LA18469-9",
+        "display" : "Déficit sensitif discret à modéré ; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient d’être touché."
+      },
+      {
+        "code" : "LA18470-7",
+        "display" : "Déficit sévère à total; le patient n’a pas conscience d’être touché au niveau de la face, du bras et de la jambe."
+      }]
+    }]
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2258",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2258",
+  "name" : "UnionJdvModeDeTransportCisisAndJdvModeDeTransportCisis",
+  "title" : "Union of JDV Mode De Transport CISIS And JDV Mode De Transport CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-152",
+        "display" : "Police"
+      },
+      {
+        "code" : "ORG-153",
+        "display" : "SAMU, SMUR terrestre"
+      },
+      {
+        "code" : "ORG-154",
+        "display" : "Ambulance publique"
+      },
+      {
+        "code" : "ORG-155",
+        "display" : "Ambulance privée"
+      },
+      {
+        "code" : "ORG-156",
+        "display" : "Taxi"
+      },
+      {
+        "code" : "ORG-157",
+        "display" : "Moyens personnels"
+      },
+      {
+        "code" : "ORG-158",
+        "display" : "SAMU, SMUR Hélicoptère"
+      },
+      {
+        "code" : "ORG-159",
+        "display" : "Pompier"
+      },
+      {
+        "code" : "ORG-160",
+        "display" : "VSL"
+      },
+      {
+        "code" : "ORG-202",
+        "display" : "Véhicule individuel"
+      },
+      {
+        "code" : "ORG-203",
+        "display" : "Véhicule collectif"
+      },
+      {
+        "code" : "ORG-204",
+        "display" : "Transport en commun"
+      },
+      {
+        "code" : "ORG-205",
+        "display" : "Modes doux"
+      },
+      {
+        "code" : "GEN-092.06.08",
+        "display" : "Autre mode de transport"
+      }]
+    }]
+  }
+}

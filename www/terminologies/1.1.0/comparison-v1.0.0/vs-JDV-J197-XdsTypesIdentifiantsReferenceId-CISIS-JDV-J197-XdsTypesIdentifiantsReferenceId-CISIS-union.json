@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1142",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1142",
+  "name" : "UnionJDV_J197_XdsTypesIdentifiantsReferenceId_CISISAndJDV_J197_XdsTypesIdentifiantsReferenceId_CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "urn:ihe:iti:xds:2013:uniqueId",
+        "display" : "uniqueId"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:accession",
+        "display" : "accession"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:referral",
+        "display" : "referral"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2013:order",
+        "display" : "order"
+      },
+      {
+        "code" : "urn:ihe:iti:xdw:2013:workflowInstanceId",
+        "display" : "workflowInstanceId"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2016:studyInstanceUID",
+        "display" : "studyInstanceUID"
+      },
+      {
+        "code" : "urn:ihe:iti:xds:2015:encounterId",
+        "display" : "encounterId"
+      }]
+    }]
+  }
+}

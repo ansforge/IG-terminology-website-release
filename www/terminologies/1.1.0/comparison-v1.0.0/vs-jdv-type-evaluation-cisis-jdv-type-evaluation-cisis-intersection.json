@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2814",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2814",
+  "name" : "IntersectionJdvTypeEvaluationCisisAndJdvTypeEvaluationCisis",
+  "title" : "Intersection of JDV Type Evaluation CISIS And JDV Type Evaluation CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1292",
+        "display" : "Evaluation AGGIR PH SSIAD"
+      },
+      {
+        "code" : "MED-1293",
+        "display" : "Evaluation AGGIR PA SSIAD"
+      },
+      {
+        "code" : "MED-1290",
+        "display" : "Evaluation de la situation SSIAD"
+      },
+      {
+        "code" : "MED-1291",
+        "display" : "Evaluation SERAFIN"
+      },
+      {
+        "code" : "MED-1325",
+        "display" : "Evaluation de la déficience selon le tableau de la performance ANAP"
+      },
+      {
+        "code" : "MED-1326",
+        "display" : "Evaluation de la déficience selon FINESS"
+      },
+      {
+        "code" : "MED-1327",
+        "display" : "Evaluation PATHOS"
+      },
+      {
+        "code" : "MED-1328",
+        "display" : "Evaluation CIM10"
+      },
+      {
+        "code" : "MED-1329",
+        "display" : "Evaluation CIM11"
+      }]
+    }]
+  }
+}

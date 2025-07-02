@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1628",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1628",
+  "name" : "UnionJdvActeCs8CisisAndJdvActeCs8Cisis",
+  "title" : "Union of JDV ActeCs8 CISIS And JDV ActeCs8 CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-174",
+        "display" : "Geste technique spécialisé"
+      },
+      {
+        "code" : "MED-1304",
+        "display" : "Dépistage de la surdité"
+      }]
+    }]
+  }
+}

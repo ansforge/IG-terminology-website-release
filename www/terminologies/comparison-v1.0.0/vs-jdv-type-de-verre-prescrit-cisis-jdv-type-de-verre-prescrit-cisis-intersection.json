@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2799",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2799",
+  "name" : "IntersectionJdvTypeDeVerrePrescritCisisAndJdvTypeDeVerrePrescritCisis",
+  "title" : "Intersection of JDV Type De Verre Prescrit CISIS And JDV Type De Verre Prescrit CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-905",
+        "display" : "Verres de près (X)"
+      },
+      {
+        "code" : "MED-906",
+        "display" : "Verres de loin"
+      },
+      {
+        "code" : "MED-907",
+        "display" : "Verres progressifs"
+      },
+      {
+        "code" : "MED-908",
+        "display" : "Verres dégressifs"
+      },
+      {
+        "code" : "MED-909",
+        "display" : "Verres bi-focaux"
+      },
+      {
+        "code" : "MED-910",
+        "display" : "Verres tri-focaux"
+      },
+      {
+        "code" : "MED-911",
+        "display" : "2 paires (de près et de loin)"
+      }]
+    }]
+  }
+}

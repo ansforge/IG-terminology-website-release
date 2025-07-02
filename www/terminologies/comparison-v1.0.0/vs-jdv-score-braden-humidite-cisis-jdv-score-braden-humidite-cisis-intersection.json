@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2577",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2577",
+  "name" : "IntersectionJdvScoreBradenHumiditeCisisAndJdvScoreBradenHumiditeCisis",
+  "title" : "Intersection of JDV Score Braden Humidite CISIS And JDV Score Braden Humidite CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA9607-8",
+        "display" : "Constamment mouillé"
+      },
+      {
+        "code" : "LA9608-6",
+        "display" : "Humide"
+      },
+      {
+        "code" : "LA9609-4",
+        "display" : "Humidité occasionnelle"
+      },
+      {
+        "code" : "LA9610-2",
+        "display" : "Rarement humide"
+      }]
+    }]
+  }
+}

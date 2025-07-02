@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2330",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2330",
+  "name" : "UnionJdvNihssChampVisuelCisisAndJdvNihssChampVisuelCisis",
+  "title" : "Union of JDV Nihss Champ Visuel CISIS And JDV Nihss Champ Visuel CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA18448-3",
+        "display" : "Aucun trouble du champ visuel"
+      },
+      {
+        "code" : "LA18449-1",
+        "display" : "Hémianopsie partielle (ou extinction visuelle)."
+      },
+      {
+        "code" : "LA18450-9",
+        "display" : "Hémianopsie complète."
+      },
+      {
+        "code" : "LA18451-7",
+        "display" : "Hémianopsie bilatérale (incluant cécité corticale)."
+      }]
+    }]
+  }
+}

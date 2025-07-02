@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1679",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1679",
+  "name" : "UnionJdvArtereAnterieureCisisAndJdvArtereAnterieureCisis",
+  "title" : "Union of JDV Artere Anterieure CISIS And JDV Artere Anterieure CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-459",
+        "display" : "Artère cérébrale antérieure territoire superficiel"
+      },
+      {
+        "code" : "MED-460",
+        "display" : "Artère cérébrale antérieure territoire profond"
+      },
+      {
+        "code" : "MED-462",
+        "display" : "Artère cérébrale moyenne territoire superficiel"
+      },
+      {
+        "code" : "MED-463",
+        "display" : "Artère cérébrale moyenne territoire profond"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "8752000",
+        "display" : "portion caverneuse de l'artère carotide interne"
+      },
+      {
+        "code" : "60176003",
+        "display" : "artère cérébrale antérieure"
+      },
+      {
+        "code" : "17232002",
+        "display" : "artère cérébrale moyenne"
+      },
+      {
+        "code" : "59920002",
+        "display" : "artère choroïdienne antérieure"
+      }]
+    }]
+  }
+}

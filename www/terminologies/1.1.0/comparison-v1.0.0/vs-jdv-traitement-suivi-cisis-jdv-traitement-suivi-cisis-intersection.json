@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2730",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2730",
+  "name" : "IntersectionJdvTraitementSuiviCisisAndJdvTraitementSuiviCisis",
+  "title" : "Intersection of JDV Traitement Suivi CISIS And JDV Traitement Suivi CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-165",
+        "display" : "Séjour de répit"
+      },
+      {
+        "code" : "GEN-092.04.05",
+        "display" : "Autre traitement / suivi"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "28",
+        "display" : "Hospitalisation complète (HC)"
+      },
+      {
+        "code" : "29",
+        "display" : "Hospitalisation de jour (HJ)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "255",
+        "display" : "Maison d'Accueil Spécialisée (M.A.S.)"
+      },
+      {
+        "code" : "127",
+        "display" : "Hospitalisation à Domicile"
+      },
+      {
+        "code" : "354",
+        "display" : "Service de Soins Infirmiers A Domicile (S.S.I.A.D)"
+      }]
+    }]
+  }
+}

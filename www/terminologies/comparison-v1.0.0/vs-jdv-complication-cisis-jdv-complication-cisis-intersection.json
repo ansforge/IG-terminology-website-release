@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1770",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1770",
+  "name" : "IntersectionJdvComplicationCisisAndJdvComplicationCisis",
+  "title" : "Intersection of JDV Complication CISIS And JDV Complication CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "R56.8",
+        "display" : "Convulsions, autres et non précisées"
+      },
+      {
+        "code" : "I50.9",
+        "display" : "Insuffisance cardiaque, sans précision"
+      },
+      {
+        "code" : "B99",
+        "display" : "Maladies infectieuses, autres et non précisées"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-503",
+        "display" : "Aggravation neurologique"
+      },
+      {
+        "code" : "MED-504",
+        "display" : "Troubles de la déglution justifiant une gastrostomie"
+      },
+      {
+        "code" : "MED-518",
+        "display" : "Complication pulmonaire"
+      },
+      {
+        "code" : "MED-519",
+        "display" : "Complication thromboembolique"
+      },
+      {
+        "code" : "MED-520",
+        "display" : "Complication urinaire"
+      },
+      {
+        "code" : "MED-521",
+        "display" : "Complication digestive"
+      },
+      {
+        "code" : "MED-522",
+        "display" : "Complication neuropsychiatrique"
+      },
+      {
+        "code" : "GEN-092.01.01",
+        "display" : "Autre problème"
+      }]
+    }]
+  }
+}

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250606103857"
+             dateMaj="20250624152100"
              dateValid="20220331000000"
              description="JDV Route Of Administration CISIS"
              displayName="JdvRouteOfAdministrationCisis"
@@ -253,9 +253,12 @@
          <Concept code="20086000"
                   codeSystem="0.4.0.127.0.16.1.1.2.1"
                   displayName="Voie intraputaminale"/>
-         <Concept code="420287000"
+         <Concept code="20089000"
                   codeSystem="0.4.0.127.0.16.1.1.2.1"
-                  displayName="Voie intraventriculaire cardiaque"/>
+                  displayName="Administration cardioplégique"/>
+         <Concept code="20090000"
+                  codeSystem="0.4.0.127.0.16.1.1.2.1"
+                  displayName="voie intradétrusorienne"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

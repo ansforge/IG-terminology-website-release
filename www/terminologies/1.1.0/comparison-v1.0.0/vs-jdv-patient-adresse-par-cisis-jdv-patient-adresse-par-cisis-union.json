@@ -1,0 +1,79 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2411",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2411",
+  "name" : "UnionJdvPatientAdresseParCisisAndJdvPatientAdresseParCisis",
+  "title" : "Union of JDV Patient adresse par CISIS And JDV Patient adresse par CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G15_10/C23",
+        "display" : "Médecin - Gynécologie médicale et Obstétrique (C)"
+      },
+      {
+        "code" : "G15_10/C72",
+        "display" : "Médecin - Génétique médicale (C)"
+      },
+      {
+        "code" : "G15_10/SM54",
+        "display" : "Médecin - Médecine Générale (SM)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "ORG-019",
+        "display" : "Venu de lui-même"
+      },
+      {
+        "code" : "ORG-020",
+        "display" : "Association de patients"
+      },
+      {
+        "code" : "ORG-021",
+        "display" : "Pédiatre ville"
+      },
+      {
+        "code" : "ORG-022",
+        "display" : "Pédiatre hôpital"
+      },
+      {
+        "code" : "GEN-092.05.02",
+        "display" : "Autre spécialiste"
+      },
+      {
+        "code" : "ORG-025",
+        "display" : "Site de prise en charge"
+      },
+      {
+        "code" : "ORG-026",
+        "display" : "Centre pluridisciplinaire de diagnostic prénatal"
+      },
+      {
+        "code" : "ORG-182",
+        "display" : "Centre de référence maladies rares (CRM)"
+      },
+      {
+        "code" : "ORG-183",
+        "display" : "Centre de compétences maladies rares (CCM)"
+      },
+      {
+        "code" : "GEN-092.05.01",
+        "display" : "Autre personne"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "223",
+        "display" : "Protection Maternelle et Infantile (P.M.I.)"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1986",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1986",
+  "name" : "IntersectionJdvHemisphereLobaireCisisAndJdvHemisphereLobaireCisis",
+  "title" : "Intersection of JDV Hemisphere Lobaire CISIS And JDV Hemisphere Lobaire CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-492",
+        "display" : "Carrefour"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "83251001",
+        "display" : "lobe frontal"
+      },
+      {
+        "code" : "16630005",
+        "display" : "lobe pariétal"
+      },
+      {
+        "code" : "31065004",
+        "display" : "lobe occipital"
+      },
+      {
+        "code" : "78277001",
+        "display" : "lobe temporal"
+      }]
+    }]
+  }
+}

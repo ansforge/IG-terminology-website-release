@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1526",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1526",
+  "name" : "UnionJDV_J77_TypeIdentifiantPersonne_RASSAndJDV_J77_TypeIdentifiantPersonne_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "0",
+        "display" : "N° ADELI"
+      },
+      {
+        "code" : "1",
+        "display" : "Id Cabinet ADELI / N° de registre"
+      },
+      {
+        "code" : "3",
+        "display" : "FINESS / N° de registre"
+      },
+      {
+        "code" : "4",
+        "display" : "SIREN / N° de registre"
+      },
+      {
+        "code" : "5",
+        "display" : "SIRET / N° de registre"
+      },
+      {
+        "code" : "6",
+        "display" : "Id Cabinet RPPS / N° de registre"
+      },
+      {
+        "code" : "8",
+        "display" : "N° RPPS"
+      },
+      {
+        "code" : "10",
+        "display" : "Adresse MSSante"
+      }]
+    }]
+  }
+}

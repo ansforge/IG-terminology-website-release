@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2349",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2349",
+  "name" : "IntersectionJdvNihssMotriciteMembreSuperieurCisisAndJdvNihssMotriciteMembreSuperieurCisis",
+  "title" : "Intersection of JDV Nihss Motricite Membre Superieur CISIS And JDV Nihss Motricite Membre Superieur CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA18456-6",
+        "display" : "Absence de chute; maintien du membre supérieur à 90° (ou 45°) pendant 10 secondes."
+      },
+      {
+        "code" : "LA18457-4",
+        "display" : "Chute; le membre supérieur chute en moins de 10 secondes mais sans atteindre le plan du lit ou un autre support."
+      },
+      {
+        "code" : "LA18458-2",
+        "display" : "Le membre supérieur ne peut pas atteindre ou maintenir 90° (ou 45°), tombe sur le lit mais peut faire un certain mouvement contre la pesanteur."
+      },
+      {
+        "code" : "LA18459-0",
+        "display" : "Aucun mouvement contre la pesanteur; le membre supérieur tombe."
+      },
+      {
+        "code" : "LA18460-8",
+        "display" : "Absence de mouvement."
+      },
+      {
+        "code" : "LA18461-6",
+        "display" : "Amputation, blocage articulaire (expliquer)"
+      }]
+    }]
+  }
+}

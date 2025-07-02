@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240426120000"
+             dateMaj="20250623120000"
              dateValid="20070725000000"
              description="Fonction"
              displayName="TRE_R21_Fonction"
@@ -477,6 +477,15 @@
                   displayName="Gérant d'antenne"
                   longDesignation="Gérant d'antenne"
                   shortDesignation="Gérant d'antenne"
+                  descriptionMetier=""/>
+         <Concept code="FON-60"
+                  codeSystem="1.2.250.1.213.1.6.1.17"
+                  dateFin=""
+                  dateMaj="20250623120000"
+                  dateValid="20250623120000"
+                  displayName="Pharmacien remplaçant BPDO"
+                  longDesignation="Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
+                  shortDesignation="Pharmacien remplaçant BPDO"
                   descriptionMetier=""/>
          <Concept code="FON-AU"
                   codeSystem="1.2.250.1.213.1.6.1.17"

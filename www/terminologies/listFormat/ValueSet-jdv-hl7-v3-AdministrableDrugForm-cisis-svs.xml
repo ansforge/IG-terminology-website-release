@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250606103858"
+             dateMaj="20250624152100"
              dateValid="20211029000000"
              description="AdministrableDrugForm"
              displayName="AdministrableDrugForm"
@@ -10,15 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="APPFUL" codeSystem="" displayName="Applicatorful"/>
-         <Concept code="PUFF" codeSystem="" displayName="Puff"/>
-         <Concept code="SCOOP" codeSystem="" displayName="Scoops"/>
-         <Concept code="SPRY" codeSystem="" displayName="Sprays"/>
-         <Concept code="DROP" codeSystem="" displayName="Drops"/>
-         <Concept code="NDROP" codeSystem="" displayName="Nasal Drops"/>
-         <Concept code="OPDROP" codeSystem="" displayName="Ophthalmic Drops"/>
-         <Concept code="ORDROP" codeSystem="" displayName="Oral Drops"/>
-         <Concept code="OTDROP" codeSystem="" displayName="Otic Drops"/>
+         <Concept code="APPFUL" codeSystem="" displayName="Applicateur"/>
+         <Concept code="PUFF" codeSystem="" displayName="Bouffée"/>
+         <Concept code="SCOOP" codeSystem="" displayName="Cuillère-mesure"/>
+         <Concept code="SPRY" codeSystem="" displayName="Pulvérisation"/>
+         <Concept code="DROP" codeSystem="" displayName="Gouttes"/>
+         <Concept code="NDROP" codeSystem="" displayName="Gouttes nasales"/>
+         <Concept code="OPDROP" codeSystem="" displayName="Gouttes ophtalmiques"/>
+         <Concept code="ORDROP" codeSystem="" displayName="Gouttes orales"/>
+         <Concept code="OTDROP" codeSystem="" displayName="Gouttes auriculaires"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2132",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2132",
+  "name" : "UnionJdvInvestigationRealiseeSunvCisisAndJdvInvestigationRealiseeSunvCisis",
+  "title" : "Union of JDV Investigation Realisee Sunv CISIS And JDV Investigation Realisee Sunv CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-513",
+        "display" : "Evaluation en kinésithérapie"
+      },
+      {
+        "code" : "MED-514",
+        "display" : "Evaluation en orthophonie"
+      },
+      {
+        "code" : "MED-515",
+        "display" : "Evaluation en ergothérapie"
+      },
+      {
+        "code" : "MED-516",
+        "display" : "Evaluation de l'assistance sociale"
+      },
+      {
+        "code" : "MED-517",
+        "display" : "Evaluation en neuropsychologie"
+      },
+      {
+        "code" : "MED-218",
+        "display" : "Rééducation en cours d'hospitalisation"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "75859-9",
+        "display" : "Score de Rankin"
+      },
+      {
+        "code" : "72089-6",
+        "display" : "Score NIH Stroke Scale"
+      }]
+    }]
+  }
+}

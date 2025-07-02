@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2615",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2615",
+  "name" : "UnionJdvSeveriteObservationCisisAndJdvSeveriteObservationCisis",
+  "title" : "Union of JDV Severite Observation CISIS And JDV Severite Observation CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "442452003",
+        "display" : "gravité mortelle"
+      },
+      {
+        "code" : "24484000",
+        "display" : "grave"
+      },
+      {
+        "code" : "371924009",
+        "display" : "modéré à sévère"
+      },
+      {
+        "code" : "6736007",
+        "display" : "modéré"
+      },
+      {
+        "code" : "371923003",
+        "display" : "léger à modéré"
+      },
+      {
+        "code" : "255604002",
+        "display" : "léger"
+      }]
+    }]
+  }
+}

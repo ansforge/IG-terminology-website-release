@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2571",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2571",
+  "name" : "IntersectionJdvScoreBradenComponentCisisAndJdvScoreBradenComponentCisis",
+  "title" : "Intersection of JDV Score Braden Component CISIS And JDV Score Braden Component CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "38222-6",
+        "display" : "Perception sensorielle"
+      },
+      {
+        "code" : "38229-1",
+        "display" : "Exposition à l'humidité"
+      },
+      {
+        "code" : "38224-2",
+        "display" : "Mobilité"
+      },
+      {
+        "code" : "38223-4",
+        "display" : "Activité"
+      },
+      {
+        "code" : "38225-9",
+        "display" : "Nutrition"
+      },
+      {
+        "code" : "38226-7",
+        "display" : "Friction et cisaillement"
+      }]
+    }]
+  }
+}

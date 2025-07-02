@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2382",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2382",
+  "name" : "IntersectionJdvObpTestAuditionCisisAndJdvObpTestAuditionCisis",
+  "title" : "Intersection of JDV Obp Test Audition CISIS And JDV Obp Test Audition CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "275727004",
+        "display" : "examen auditif ou vestibulaire normal"
+      },
+      {
+        "code" : "134376008",
+        "display" : "examen auditif ou vestibulaire anormal à droite"
+      },
+      {
+        "code" : "134375007",
+        "display" : "examen auditif ou vestibulaire anormal à gauche"
+      },
+      {
+        "code" : "134374006",
+        "display" : "examen auditif ou vestibulaire anormal des deux côtés"
+      },
+      {
+        "code" : "164746007",
+        "display" : "examen auditif ou vestibulaire non effectué"
+      }]
+    }]
+  }
+}

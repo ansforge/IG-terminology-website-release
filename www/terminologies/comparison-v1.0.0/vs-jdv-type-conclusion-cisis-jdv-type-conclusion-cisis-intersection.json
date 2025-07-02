@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2772",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2772",
+  "name" : "IntersectionJdvTypeConclusionCisisAndJdvTypeConclusionCisis",
+  "title" : "Intersection of JDV Type Conclusion CISIS And JDV Type Conclusion CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-541",
+        "display" : "Analyse non réalisée"
+      },
+      {
+        "code" : "MED-542",
+        "display" : "Résultats avec une mutation observée"
+      },
+      {
+        "code" : "MED-543",
+        "display" : "Résultats sans mutation"
+      },
+      {
+        "code" : "MED-544",
+        "display" : "Résultats non interprétables"
+      },
+      {
+        "code" : "MED-545",
+        "display" : "Suspicion d'une amplification ou d'une délétion"
+      }]
+    }]
+  }
+}

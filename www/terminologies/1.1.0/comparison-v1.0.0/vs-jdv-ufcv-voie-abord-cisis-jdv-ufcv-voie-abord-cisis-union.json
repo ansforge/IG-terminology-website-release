@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2939",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2939",
+  "name" : "UnionJdvUfcvVoieAbordCisisAndJdvUfcvVoieAbordCisis",
+  "title" : "Union of JDV UFCV Voie Abord CISIS And JDV UFCV Voie Abord CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "260597006",
+        "display" : "par la veine céphalique"
+      },
+      {
+        "code" : "260598001",
+        "display" : "par la veine subclavière"
+      },
+      {
+        "code" : "1290464007",
+        "display" : "voie d'abord épicardique"
+      }]
+    }]
+  }
+}

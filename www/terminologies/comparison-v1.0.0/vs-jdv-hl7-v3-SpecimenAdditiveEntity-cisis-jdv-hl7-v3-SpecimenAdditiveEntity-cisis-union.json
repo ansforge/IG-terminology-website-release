@@ -1,0 +1,235 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2072",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2072",
+  "name" : "UnionSpecimenAdditiveEntityAndSpecimenAdditiveEntity",
+  "title" : "Union of SpecimenAdditiveEntity And SpecimenAdditiveEntity",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ACDA",
+        "display" : "ACD Solution A"
+      },
+      {
+        "code" : "ACDB",
+        "display" : "ACD Solution B"
+      },
+      {
+        "code" : "ACET",
+        "display" : "Acetic Acid"
+      },
+      {
+        "code" : "AMIES",
+        "display" : "Amies transport medium"
+      },
+      {
+        "code" : "BACTM",
+        "display" : "Bacterial Transport medium"
+      },
+      {
+        "code" : "BF10",
+        "display" : "Buffered 10% formalin"
+      },
+      {
+        "code" : "BOR",
+        "display" : "Boric Acid"
+      },
+      {
+        "code" : "BOUIN",
+        "display" : "Bouin's solution"
+      },
+      {
+        "code" : "BSKM",
+        "display" : "Buffered skim milk"
+      },
+      {
+        "code" : "C32",
+        "display" : "3.2% Citrate"
+      },
+      {
+        "code" : "C38",
+        "display" : "3.8% Citrate"
+      },
+      {
+        "code" : "CARS",
+        "display" : "Carson's Modified 10% formalin"
+      },
+      {
+        "code" : "CARY",
+        "display" : "Cary Blair Medium"
+      },
+      {
+        "code" : "CHLTM",
+        "display" : "Chlamydia transport medium"
+      },
+      {
+        "code" : "CTAD",
+        "display" : "CTAD"
+      },
+      {
+        "code" : "EDTK15",
+        "display" : "Potassium/K EDTA 15%"
+      },
+      {
+        "code" : "EDTK75",
+        "display" : "Potassium/K EDTA 7.5%"
+      },
+      {
+        "code" : "EDTN",
+        "display" : "Sodium/Na EDTA"
+      },
+      {
+        "code" : "ENT",
+        "display" : "Enteric bacteria transport medium"
+      },
+      {
+        "code" : "F10",
+        "display" : "10% Formalin"
+      },
+      {
+        "code" : "FDP",
+        "display" : "Thrombin NIH; soybean trypsin inhibitor"
+      },
+      {
+        "code" : "FL10",
+        "display" : "Sodium Fluoride, 10mg"
+      },
+      {
+        "code" : "FL100",
+        "display" : "Sodium Fluoride, 100mg"
+      },
+      {
+        "code" : "HCL6",
+        "display" : "6N HCL"
+      },
+      {
+        "code" : "HEPA",
+        "display" : "Ammonium heparin"
+      },
+      {
+        "code" : "HEPL",
+        "display" : "Lithium/Li Heparin"
+      },
+      {
+        "code" : "HEPN",
+        "display" : "Sodium/Na Heparin"
+      },
+      {
+        "code" : "HNO3",
+        "display" : "Nitric Acid"
+      },
+      {
+        "code" : "JKM",
+        "display" : "Jones Kendrick Medium"
+      },
+      {
+        "code" : "KARN",
+        "display" : "Karnovsky's fixative"
+      },
+      {
+        "code" : "KOX",
+        "display" : "Potassium Oxalate"
+      },
+      {
+        "code" : "LIA",
+        "display" : "Lithium iodoacetate"
+      },
+      {
+        "code" : "M4",
+        "display" : "M4"
+      },
+      {
+        "code" : "M4RT",
+        "display" : "M4-RT"
+      },
+      {
+        "code" : "M5",
+        "display" : "M5"
+      },
+      {
+        "code" : "MICHTM",
+        "display" : "Michel's transport medium"
+      },
+      {
+        "code" : "MMDTM",
+        "display" : "MMD transport medium"
+      },
+      {
+        "code" : "NAF",
+        "display" : "Sodium Fluoride"
+      },
+      {
+        "code" : "NONE",
+        "display" : "None"
+      },
+      {
+        "code" : "PAGE",
+        "display" : "Page's Saline"
+      },
+      {
+        "code" : "PHENOL",
+        "display" : "Phenol"
+      },
+      {
+        "code" : "PVA",
+        "display" : "Polyvinylalcohol"
+      },
+      {
+        "code" : "RLM",
+        "display" : "Reagan Lowe Medium"
+      },
+      {
+        "code" : "SILICA",
+        "display" : "Siliceous earth"
+      },
+      {
+        "code" : "SPS",
+        "display" : "Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride"
+      },
+      {
+        "code" : "SST",
+        "display" : "Serum Separator Tube"
+      },
+      {
+        "code" : "STUTM",
+        "display" : "Stuart transport medium"
+      },
+      {
+        "code" : "THROM",
+        "display" : "Thrombin"
+      },
+      {
+        "code" : "THYMOL",
+        "display" : "Thymol"
+      },
+      {
+        "code" : "THYO",
+        "display" : "Thyoglycolate broth"
+      },
+      {
+        "code" : "TOLU",
+        "display" : "Toluene"
+      },
+      {
+        "code" : "URETM",
+        "display" : "Ureaplasma transport medium"
+      },
+      {
+        "code" : "VIRTM",
+        "display" : "Viral Transport medium"
+      },
+      {
+        "code" : "WEST",
+        "display" : "Buffered Citrate"
+      }]
+    }]
+  }
+}

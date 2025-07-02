@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2409",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2409",
+  "name" : "IntersectionJdvPatho1ereSemaineCs8CisisAndJdvPatho1ereSemaineCs8Cisis",
+  "title" : "Intersection of JDV Patho 1ere Semaine Cs8 CISIS And JDV Patho 1ere Semaine Cs8 CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "P22.9",
+        "display" : "Détresse respiratoire du nouveau-né, sans précision"
+      },
+      {
+        "code" : "G96.9",
+        "display" : "Affection du système nerveux central, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-276",
+        "display" : "Antibiothérapie (de plus de 48 heures)"
+      },
+      {
+        "code" : "GEN-092.01.11",
+        "display" : "Autres pathologies de la 1ère semaine"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "73994005",
+        "display" : "intervention chirurgicale d'urgence"
+      }]
+    }]
+  }
+}

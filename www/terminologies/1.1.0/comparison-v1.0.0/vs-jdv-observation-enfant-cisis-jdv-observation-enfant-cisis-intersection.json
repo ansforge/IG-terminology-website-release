@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2385",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2385",
+  "name" : "IntersectionJdvObservationEnfantCisisAndJdvObservationEnfantCisis",
+  "title" : "Intersection of JDV Observation Enfant CISIS And JDV Observation Enfant CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "8339-4",
+        "display" : "Poids à la naissance"
+      },
+      {
+        "code" : "92276-5",
+        "display" : "Statut du nouveau né"
+      },
+      {
+        "code" : "57071-3",
+        "display" : "Méthode d'accouchement"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "107724000",
+        "display" : "transfert du patient"
+      }]
+    }]
+  }
+}

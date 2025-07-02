@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2469",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2469",
+  "name" : "IntersectionJdvRechercheAghbsCisisAndJdvRechercheAghbsCisis",
+  "title" : "Intersection of JDV Recherche Aghbs CISIS And JDV Recherche Aghbs CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "406117000",
+        "display" : "dosage immuno-enzymatique de l'antigène de surface de l'hépatite B positif"
+      },
+      {
+        "code" : "406118005",
+        "display" : "dosage immuno-enzymatique de l'antigène de surface de l'hépatite B négatif"
+      },
+      {
+        "code" : "261665006",
+        "display" : "inconnu(e)"
+      }]
+    }]
+  }
+}

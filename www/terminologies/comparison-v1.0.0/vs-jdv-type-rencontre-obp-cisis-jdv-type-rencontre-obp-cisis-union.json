@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2867",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2867",
+  "name" : "UnionJdvTypeRencontreObpCisisAndJdvTypeRencontreObpCisis",
+  "title" : "Union of JDV Type Rencontre Obp CISIS And JDV Type Rencontre Obp CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-079",
+        "display" : "Entretien prénatal précoce"
+      },
+      {
+        "code" : "MED-163",
+        "display" : "Préparation à la naissance"
+      },
+      {
+        "code" : "ORG-193",
+        "display" : "Consultation auprès d'un centre de diagnostic prénatal"
+      },
+      {
+        "code" : "ORG-077",
+        "display" : "Hospitalisation (y compris à domicile)"
+      }]
+    }]
+  }
+}

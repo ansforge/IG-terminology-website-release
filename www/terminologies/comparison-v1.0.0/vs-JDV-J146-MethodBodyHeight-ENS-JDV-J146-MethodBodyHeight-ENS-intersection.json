@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-987",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-987",
+  "name" : "IntersectionJDV_J146_MethodBodyHeight_ENSAndJDV_J146_MethodBodyHeight_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C81261",
+        "display" : "ruban à mesurer"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "V030201",
+        "display" : "TOISES"
+      },
+      {
+        "code" : "V030209",
+        "display" : "TOISES À USAGE CLINIQUE"
+      }]
+    }]
+  }
+}

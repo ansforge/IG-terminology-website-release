@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2234",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2234",
+  "name" : "UnionJdvMethodePreparationEchantillonCisisAndJdvMethodePreparationEchantillonCisis",
+  "title" : "Union of JDV Methode Preparation Echantillon CISIS And JDV Methode Preparation Echantillon CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-302",
+        "display" : "Macro dissection de la zone d’intérêt"
+      },
+      {
+        "code" : "MED-303",
+        "display" : "Punch du bloc tumoral"
+      },
+      {
+        "code" : "MED-304",
+        "display" : "Production de copeaux de paraffines à partir du bloc tumoral"
+      },
+      {
+        "code" : "MED-305",
+        "display" : "Traitement de lames de cytologie"
+      },
+      {
+        "code" : "GEN-092.04.09",
+        "display" : "Autre méthode de préparation"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2160",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2160",
+  "name" : "IntersectionJdvLateraliteManuelleCisisAndJdvLateraliteManuelleCisis",
+  "title" : "Intersection of JDV Lateralite Manuelle CISIS And JDV Lateralite Manuelle CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "46669005",
+        "display" : "droitier"
+      },
+      {
+        "code" : "87683000",
+        "display" : "gaucher"
+      },
+      {
+        "code" : "23088002",
+        "display" : "ambidextre"
+      },
+      {
+        "code" : "709880000",
+        "display" : "manualité inconnue"
+      }]
+    }]
+  }
+}

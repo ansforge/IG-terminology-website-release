@@ -1,0 +1,59 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2097",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2097",
+  "name" : "IntersectionJdvImmunizationApproachSiteCodeCisisAndJdvImmunizationApproachSiteCodeCisis",
+  "title" : "Intersection of JDV Immunization Approach Site Code CISIS And JDV Immunization Approach Site Code CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "64262003",
+        "display" : "avant-bras droit"
+      },
+      {
+        "code" : "66480008",
+        "display" : "avant-bras gauche"
+      },
+      {
+        "code" : "16217661000119109",
+        "display" : "deltoïde droit"
+      },
+      {
+        "code" : "16217701000119102",
+        "display" : "deltoïde gauche"
+      },
+      {
+        "code" : "91774008",
+        "display" : "épaule droite"
+      },
+      {
+        "code" : "91775009",
+        "display" : "épaule gauche"
+      },
+      {
+        "code" : "11207009",
+        "display" : "cuisse droite"
+      },
+      {
+        "code" : "61396006",
+        "display" : "cuisse gauche"
+      },
+      {
+        "code" : "723980000",
+        "display" : "fesse droite"
+      },
+      {
+        "code" : "723979003",
+        "display" : "fesse gauche"
+      }]
+    }]
+  }
+}

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20250626120000"
              dateValid="20190830120000"
              description="Ensemble des fonctions et rôles du RASS"
              displayName="JDV_J108_EnsembleFonction_RASS"
@@ -130,6 +130,9 @@
          <Concept code="FON-59"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Gérant d'antenne"/>
+         <Concept code="FON-60"
+                  codeSystem="1.2.250.1.213.1.6.1.17"
+                  displayName="Pharmacien remplaçant BPDO"/>
          <Concept code="FON-AU"
                   codeSystem="1.2.250.1.213.1.6.1.17"
                   displayName="Fonction non définie"/>

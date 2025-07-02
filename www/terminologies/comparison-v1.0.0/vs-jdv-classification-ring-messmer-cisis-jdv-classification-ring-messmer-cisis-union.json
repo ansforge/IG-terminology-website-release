@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1754",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1754",
+  "name" : "UnionJdvClassificationRingMessmerCisisAndJdvClassificationRingMessmerCisis",
+  "title" : "Union of JDV Classification Ring Messmer CISIS And JDV Classification Ring Messmer CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-623",
+        "display" : "Grade I : Signes cutanés, érythème généralisé, urticaire, angiœdème"
+      },
+      {
+        "code" : "MED-624",
+        "display" : "Grade II : Symptômes quantifiables mais ne menaçant pas la vie : signes cutanés, hypotension, tachycardie, difficultés ventilatoires, toux, difficultés à gonfler les poumons"
+      },
+      {
+        "code" : "MED-625",
+        "display" : "Grade III : Symptômes menaçant la vie : collapsus, tachycardie ou bradycardie, arythmies, bronchospasme"
+      },
+      {
+        "code" : "MED-626",
+        "display" : "Grade IV : Arrêt circulatoire et/ou respiratoire"
+      }]
+    }]
+  }
+}

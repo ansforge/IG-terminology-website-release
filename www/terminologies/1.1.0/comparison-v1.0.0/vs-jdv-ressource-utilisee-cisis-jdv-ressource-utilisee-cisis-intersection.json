@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2493",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2493",
+  "name" : "IntersectionJdvRessourceUtiliseeCisisAndJdvRessourceUtiliseeCisis",
+  "title" : "Intersection of JDV Ressource Utilisee CISIS And JDV Ressource Utilisee CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-206",
+        "display" : "Matériel spécialisé"
+      },
+      {
+        "code" : "ORG-207",
+        "display" : "Ressource immobilière"
+      },
+      {
+        "code" : "GEN-092.06.10",
+        "display" : "Autre ressource"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "261324000",
+        "display" : "véhicule"
+      }]
+    }]
+  }
+}

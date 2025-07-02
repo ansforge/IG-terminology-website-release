@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2367",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2367",
+  "name" : "IntersectionJdvNiveauDependanceCisisAndJdvNiveauDependanceCisis",
+  "title" : "Intersection of JDV Niveau Dependance CISIS And JDV Niveau Dependance CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-197",
+        "display" : "Pas de dépendance"
+      },
+      {
+        "code" : "GEN-198",
+        "display" : "Dépendance faible"
+      },
+      {
+        "code" : "GEN-199",
+        "display" : "Dépendance moyenne"
+      },
+      {
+        "code" : "GEN-200",
+        "display" : "Dépendance forte ou très forte"
+      }]
+    }]
+  }
+}

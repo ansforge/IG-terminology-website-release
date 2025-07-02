@@ -1,0 +1,165 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2892",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2892",
+  "name" : "IntersectionJdvUfcvCodeEntreeCisisAndJdvUfcvCodeEntreeCisis",
+  "title" : "Intersection of JDV UFCV Code Entree CISIS And JDV UFCV Code Entree CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-382",
+        "display" : "Tension de pile (IRE)"
+      },
+      {
+        "code" : "GEN-383",
+        "display" : "IRE"
+      },
+      {
+        "code" : "GEN-384",
+        "display" : "Asservissement"
+      },
+      {
+        "code" : "GEN-385",
+        "display" : "Télésuivi"
+      },
+      {
+        "code" : "GEN-386",
+        "display" : "Télé. activé"
+      },
+      {
+        "code" : "GEN-387",
+        "display" : "Mode programmé"
+      },
+      {
+        "code" : "GEN-388",
+        "display" : "Tension dernier contrôle"
+      },
+      {
+        "code" : "GEN-389",
+        "display" : "Impédance"
+      },
+      {
+        "code" : "GEN-390",
+        "display" : "Temps de charge"
+      },
+      {
+        "code" : "GEN-391",
+        "display" : "Connexions"
+      },
+      {
+        "code" : "GEN-392",
+        "display" : "Adaptateur"
+      },
+      {
+        "code" : "GEN-393",
+        "display" : "Courant"
+      },
+      {
+        "code" : "GEN-394",
+        "display" : "Détection"
+      },
+      {
+        "code" : "GEN-395",
+        "display" : "Seuil à ms"
+      },
+      {
+        "code" : "GEN-396",
+        "display" : "Défibrillation efficace à"
+      },
+      {
+        "code" : "GEN-397",
+        "display" : "Impédance de choc"
+      },
+      {
+        "code" : "GEN-398",
+        "display" : "Seuil de stimulation"
+      },
+      {
+        "code" : "GEN-399",
+        "display" : "Recueil"
+      },
+      {
+        "code" : "GEN-400",
+        "display" : "Valve"
+      },
+      {
+        "code" : "GEN-401",
+        "display" : "Composant"
+      },
+      {
+        "code" : "GEN-402",
+        "display" : "Diamètre"
+      },
+      {
+        "code" : "GEN-403",
+        "display" : "Gradient"
+      },
+      {
+        "code" : "GEN-404",
+        "display" : "Niveau anticoagulation souhaité"
+      },
+      {
+        "code" : "GEN-405",
+        "display" : "Type PM"
+      },
+      {
+        "code" : "GEN-406",
+        "display" : "Fréquence sans aimant"
+      },
+      {
+        "code" : "GEN-407",
+        "display" : "Polarité"
+      },
+      {
+        "code" : "GEN-408",
+        "display" : "Fréq. s/s aimant"
+      },
+      {
+        "code" : "GEN-409",
+        "display" : "Tension batterie"
+      },
+      {
+        "code" : "GEN-410",
+        "display" : "Fréq. s/s aimant dernier contrôle"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "99686-8",
+        "display" : "Type de stimulateur cardiaque"
+      },
+      {
+        "code" : "20228-3",
+        "display" : "Latéralité"
+      },
+      {
+        "code" : "88020-3",
+        "display" : "Capacité fonctionnelle NYHA"
+      },
+      {
+        "code" : "10230-1",
+        "display" : "Fraction d'éjection [Fraction volumique] Ventricule gauche ; Numérique"
+      },
+      {
+        "code" : "85734-2",
+        "display" : "Date de la dernière évaluation"
+      },
+      {
+        "code" : "21938-6",
+        "display" : "Voie d'abord"
+      },
+      {
+        "code" : "39111-0",
+        "display" : "Localisation anatomique"
+      }]
+    }]
+  }
+}

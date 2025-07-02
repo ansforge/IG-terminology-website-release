@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1472",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1472",
+  "name" : "UnionJDV_J58_ConfidentialityCode_DMPAndJDV_J58_ConfidentialityCode_DMP",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "N",
+        "display" : "Normal"
+      },
+      {
+        "code" : "R",
+        "display" : "Restreint"
+      },
+      {
+        "code" : "V",
+        "display" : "Très restreint"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "INVISIBLE_PATIENT",
+        "display" : "Non visible par le patient"
+      },
+      {
+        "code" : "INVISIBLE_REPRESENTANTS_LEGAUX",
+        "display" : "Non visible par les représentants légaux du patient"
+      },
+      {
+        "code" : "MASQUE_PS",
+        "display" : "Masqué aux professionnels de santé"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1160",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1160",
+  "name" : "UnionJDV_J202_ESPIC_RORAndJDV_J202_ESPIC_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "0",
+        "display" : "Non concerné"
+      },
+      {
+        "code" : "1",
+        "display" : "Etablissement public de santé"
+      },
+      {
+        "code" : "2",
+        "display" : "PSPH par intégration"
+      },
+      {
+        "code" : "3",
+        "display" : "PSPH par concession"
+      },
+      {
+        "code" : "4",
+        "display" : "PSPH par association"
+      },
+      {
+        "code" : "5",
+        "display" : "Assoc 1901 act. Psy"
+      },
+      {
+        "code" : "6",
+        "display" : "Etablissement de santé privé d'intérêt collectif"
+      },
+      {
+        "code" : "7",
+        "display" : "Etablissement de santé privé non lucratif, non déclaré d'intérêt collectif"
+      },
+      {
+        "code" : "9",
+        "display" : "Indéterminé"
+      }]
+    }]
+  }
+}

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250523120000"
+             dateMaj="20250623120000"
              dateValid="20230331120000"
              description="Profession Ressource des offres dans le ROR"
              displayName="JDV_J186_ProfessionRessource_ROR"
@@ -422,6 +422,12 @@
          <Concept code="128"
                   codeSystem="1.2.250.1.213.3.3.246"
                   displayName="Conseiller conjugal et familial"/>
+         <Concept code="129"
+                  codeSystem="1.2.250.1.213.3.3.246"
+                  displayName="Ergonome"/>
+         <Concept code="130"
+                  codeSystem="1.2.250.1.213.3.3.246"
+                  displayName="Psychologue du travail"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,0 +1,255 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2058",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2058",
+  "name" : "IntersectionParticipationTypeAndParticipationType",
+  "title" : "Intersection of ParticipationType And ParticipationType",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ADM",
+        "display" : "Responsable de l'admission"
+      },
+      {
+        "code" : "ALY",
+        "display" : "Cible d'une observation (substance ou composant le plus spécifique)"
+      },
+      {
+        "code" : "ATND",
+        "display" : "Superviseur / Responsable des soins"
+      },
+      {
+        "code" : "AUT",
+        "display" : "Auteur"
+      },
+      {
+        "code" : "AUTHEN",
+        "display" : "Validateur"
+      },
+      {
+        "code" : "BBY",
+        "display" : "Nouveau né"
+      },
+      {
+        "code" : "BEN",
+        "display" : "Bénéficiaire"
+      },
+      {
+        "code" : "CAGNT",
+        "display" : "Agent causal"
+      },
+      {
+        "code" : "CALLBCK",
+        "display" : "Contact à rappeler"
+      },
+      {
+        "code" : "CAT",
+        "display" : "Catalyseur"
+      },
+      {
+        "code" : "CON",
+        "display" : "Consultant"
+      },
+      {
+        "code" : "COV",
+        "display" : "Partie couverte (titulaire ou bénéficiaire)"
+      },
+      {
+        "code" : "CSM",
+        "display" : "Consommable"
+      },
+      {
+        "code" : "CST",
+        "display" : "Responsable de l'information"
+      },
+      {
+        "code" : "DEV",
+        "display" : "Dispositif automatique impliqué dans la production des résultats"
+      },
+      {
+        "code" : "DIR",
+        "display" : "Participant direct"
+      },
+      {
+        "code" : "DIS",
+        "display" : "Responsable de la sortie"
+      },
+      {
+        "code" : "DIST",
+        "display" : "Distributeur"
+      },
+      {
+        "code" : "DON",
+        "display" : "Donneur"
+      },
+      {
+        "code" : "DST",
+        "display" : "Destination"
+      },
+      {
+        "code" : "ELOC",
+        "display" : "Emplacement où les données sont saisies"
+      },
+      {
+        "code" : "ENT",
+        "display" : "Transcripteur du contenu à partir d'une autre forme"
+      },
+      {
+        "code" : "ESC",
+        "display" : "Accompagnateur"
+      },
+      {
+        "code" : "EXPAGNT",
+        "display" : "Agent de l'exposition"
+      },
+      {
+        "code" : "EXPART",
+        "display" : "Partie de l'exposition"
+      },
+      {
+        "code" : "EXSRC",
+        "display" : "Source de l'exposition"
+      },
+      {
+        "code" : "EXPTRGT",
+        "display" : "Cible de l'exposition"
+      },
+      {
+        "code" : "GUAR",
+        "display" : "Garant"
+      },
+      {
+        "code" : "HLD",
+        "display" : "Souscripteur"
+      },
+      {
+        "code" : "IND",
+        "display" : "Cible indirecte"
+      },
+      {
+        "code" : "INF",
+        "display" : "Informateur"
+      },
+      {
+        "code" : "IRCP",
+        "display" : "Destinataire de l'information"
+      },
+      {
+        "code" : "LA",
+        "display" : "Responsable légal de l'acte"
+      },
+      {
+        "code" : "LOC",
+        "display" : "Emplacement principal"
+      },
+      {
+        "code" : "NRD",
+        "display" : "Dispositif non réutilisable"
+      },
+      {
+        "code" : "NOT",
+        "display" : "Personne à prévenir en cas d'urgence"
+      },
+      {
+        "code" : "NOTARY",
+        "display" : "Certificateur"
+      },
+      {
+        "code" : "ORG",
+        "display" : "Lieu d'origine"
+      },
+      {
+        "code" : "PART",
+        "display" : "Participant"
+      },
+      {
+        "code" : "PPRF",
+        "display" : "Exécutant principal"
+      },
+      {
+        "code" : "PRCP",
+        "display" : "Destinataire principal de l'information"
+      },
+      {
+        "code" : "PRD",
+        "display" : "Produit"
+      },
+      {
+        "code" : "PRF",
+        "display" : "Exécutant"
+      },
+      {
+        "code" : "RCT",
+        "display" : "Dossier médical"
+      },
+      {
+        "code" : "RCV",
+        "display" : "Récepteur"
+      },
+      {
+        "code" : "RDV",
+        "display" : "Dispositif réutilisable"
+      },
+      {
+        "code" : "REF",
+        "display" : "Référent / Prescripteur"
+      },
+      {
+        "code" : "REFB",
+        "display" : "Personne ayant adressé le patient"
+      },
+      {
+        "code" : "REFT",
+        "display" : "Personne recevant le patient"
+      },
+      {
+        "code" : "RESP",
+        "display" : "Responsable de l'acte"
+      },
+      {
+        "code" : "RML",
+        "display" : "Emplacement distant"
+      },
+      {
+        "code" : "SBJ",
+        "display" : "Sujet"
+      },
+      {
+        "code" : "SPC",
+        "display" : "Echantillon"
+      },
+      {
+        "code" : "SPRF",
+        "display" : "Exécutant secondaire"
+      },
+      {
+        "code" : "TRANS",
+        "display" : "Transcripteur"
+      },
+      {
+        "code" : "TRC",
+        "display" : "Personne recevant une copie de l'information"
+      },
+      {
+        "code" : "VIA",
+        "display" : "Emplacement intermédiaire"
+      },
+      {
+        "code" : "VRF",
+        "display" : "Vérificateur"
+      },
+      {
+        "code" : "WIT",
+        "display" : "Témoin"
+      }]
+    }]
+  }
+}

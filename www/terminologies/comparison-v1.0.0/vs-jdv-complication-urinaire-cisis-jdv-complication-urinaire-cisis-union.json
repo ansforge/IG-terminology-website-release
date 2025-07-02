@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1787",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1787",
+  "name" : "UnionJdvComplicationUrinaireCisisAndJdvComplicationUrinaireCisis",
+  "title" : "Union of JDV Complication Urinaire CISIS And JDV Complication Urinaire CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "N39.0",
+        "display" : "Infection des voies urinaires, siège non précisé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-507",
+        "display" : "Troubles urinaires justifiant une sonde urinaire"
+      }]
+    }]
+  }
+}

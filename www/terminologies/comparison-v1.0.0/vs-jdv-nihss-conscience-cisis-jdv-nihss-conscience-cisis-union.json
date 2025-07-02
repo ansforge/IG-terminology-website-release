@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2333",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2333",
+  "name" : "UnionJdvNihssConscienceCisisAndJdvNihssConscienceCisis",
+  "title" : "Union of JDV Nihss Conscience CISIS And JDV Nihss Conscience CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA18436-8",
+        "display" : "Vigilant, réagit vivement."
+      },
+      {
+        "code" : "LA18437-6",
+        "display" : "Non vigilant (somnolent),  mais réagit ou répond s'il est éveillé par une stimulation mineure."
+      },
+      {
+        "code" : "LA18438-4",
+        "display" : "Non vigilant; ne réagit qu'à des stimulations répétées, ou est inconscient et une stimulation intense ou douloureuse est nécessaire pour obtenir des mouvements autres que stéréotypés."
+      },
+      {
+        "code" : "LA18439-2",
+        "display" : "On obtient uniquement des réponses réflexes motrices ou végétatives ou le patient est totalement aréactif et flasque."
+      }]
+    }]
+  }
+}

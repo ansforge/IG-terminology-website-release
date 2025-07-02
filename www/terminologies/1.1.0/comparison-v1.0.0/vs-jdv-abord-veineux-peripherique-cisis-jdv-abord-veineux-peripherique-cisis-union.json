@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1604",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1604",
+  "name" : "UnionJdvAbordVeineuxPeripheriqueCisisAndJdvAbordVeineuxPeripheriqueCisis",
+  "title" : "Union of JDV Abord Veineux Peripherique CISIS And JDV Abord Veineux Peripherique CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "181387000",
+        "display" : "veines du membre supérieur entier"
+      },
+      {
+        "code" : "244412003",
+        "display" : "veines du membre inférieur entier"
+      },
+      {
+        "code" : "82121006",
+        "display" : "veine cervicale"
+      }]
+    }]
+  }
+}

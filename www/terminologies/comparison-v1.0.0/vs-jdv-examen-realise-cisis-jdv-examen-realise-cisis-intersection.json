@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1935",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1935",
+  "name" : "IntersectionJdvExamenRealiseCisisAndJdvExamenRealiseCisis",
+  "title" : "Intersection of JDV Examen Realise CISIS And JDV Examen Realise CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-034",
+        "display" : "Agrandissement"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "387736007",
+        "display" : "ponction à l'aiguille fine du sein"
+      },
+      {
+        "code" : "16310003",
+        "display" : "échographie"
+      }]
+    }]
+  }
+}

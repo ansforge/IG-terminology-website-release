@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250606103857"
+             dateMaj="20250624152059"
              dateValid="20240307000000"
              description="JDV Resultat Depistage Proteinurie CISIS"
              displayName="JdvResultatDepistageProteinurieCisis"
@@ -12,10 +12,10 @@
       <ConceptList>
          <Concept code="260385009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="négatif"/>
+                  displayName="négatif(-ive)"/>
          <Concept code="10828004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="positif"/>
+                  displayName="positif(-ive)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

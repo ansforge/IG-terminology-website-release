@@ -1,0 +1,59 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2475",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2475",
+  "name" : "IntersectionJdvRegionAnatomiqueCisisAndJdvRegionAnatomiqueCisis",
+  "title" : "Intersection of JDV Region Anatomique CISIS And JDV Region Anatomique CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "63337009",
+        "display" : "segment abdominopelvien du tronc"
+      },
+      {
+        "code" : "38266002",
+        "display" : "corps entier"
+      },
+      {
+        "code" : "53120007",
+        "display" : "membre supérieur"
+      },
+      {
+        "code" : "61685007",
+        "display" : "membre inférieur"
+      },
+      {
+        "code" : "67734004",
+        "display" : "segment thoracique du tronc"
+      },
+      {
+        "code" : "774007",
+        "display" : "tête et cou"
+      },
+      {
+        "code" : "113257007",
+        "display" : "système cardiovasculaire"
+      },
+      {
+        "code" : "80891009",
+        "display" : "cœur"
+      },
+      {
+        "code" : "76752008",
+        "display" : "sein"
+      },
+      {
+        "code" : "737561001",
+        "display" : "colonne vertébrale et/ou moelle épinière"
+      }]
+    }]
+  }
+}

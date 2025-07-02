@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1005",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1005",
+  "name" : "IntersectionJDV_J151_BodySiteBodyTemperature_ENSAndJDV_J151_BodySiteBodyTemperature_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "34402009",
+        "display" : "rectum"
+      },
+      {
+        "code" : "52795006",
+        "display" : "front"
+      },
+      {
+        "code" : "91470000",
+        "display" : "région axillaire"
+      },
+      {
+        "code" : "117590005",
+        "display" : "oreille"
+      },
+      {
+        "code" : "123851003",
+        "display" : "bouche"
+      },
+      {
+        "code" : "450721000",
+        "display" : "région temporale"
+      }]
+    }]
+  }
+}

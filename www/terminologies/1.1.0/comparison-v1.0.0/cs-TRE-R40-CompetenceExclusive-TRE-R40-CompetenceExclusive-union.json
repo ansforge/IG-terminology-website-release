@@ -1,0 +1,189 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-623",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-623",
+  "name" : "UnionTRE_R40_CompetenceExclusiveAndTRE_R40_CompetenceExclusive",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:49+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "CEX22",
+    "display" : "Gynécologie médicale et Obstétrique (CEX)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Gynéco-médicale et Obstétrique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "CEX24",
+    "display" : "Gynécologie médicale (CEX)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Gynécologie médicale"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "CEX26",
+    "display" : "Obstétrique (CEX)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Obstétrique"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "CEX64",
+    "display" : "Urologie (CEX)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Urologie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T16:49:16+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    }]
+  }]
+}

@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2760",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2760",
+  "name" : "IntersectionJdvTypeAnalgesieCisisAndJdvTypeAnalgesieCisis",
+  "title" : "Intersection of JDV Type Analgesie CISIS And JDV Type Analgesie CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-168",
+        "display" : "Analgésie au cours du travail"
+      },
+      {
+        "code" : "MED-222",
+        "display" : "Pas d'anesthésie"
+      },
+      {
+        "code" : "GEN-092.03.04",
+        "display" : "Autre anesthésie"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "50697003",
+        "display" : "anesthésie générale"
+      },
+      {
+        "code" : "231249005",
+        "display" : "anesthésie rachidienne"
+      },
+      {
+        "code" : "18946005",
+        "display" : "anesthésie épidurale"
+      }]
+    }]
+  }
+}

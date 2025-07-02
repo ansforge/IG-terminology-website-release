@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250606103857"
+             dateMaj="20250624152100"
              dateValid="20100101000000"
              description="JDV Specimen Type CISIS"
              displayName="JdvSpecimenTypeCisis"
@@ -23,6 +23,7 @@
                   displayName="Sécrétions des organes génitaux"/>
          <Concept code="LAM" codeSystem="" displayName="Lame"/>
          <Concept code="NOS" codeSystem="" displayName="Prélèvement nasopharyngée"/>
+         <Concept code="PAT" codeSystem="" displayName="Patient"/>
          <Concept code="PRT" codeSystem="" displayName="Liquide péritonéal"/>
          <Concept code="SKM" codeSystem="" displayName="Muscle squelettique"/>
          <Concept code="SMPLS" codeSystem="" displayName="Plasma séminal"/>
@@ -242,7 +243,6 @@
          <Concept code="OTH" codeSystem="" displayName="Autre origine"/>
          <Concept code="PACEM" codeSystem="" displayName="Stimulateur cardiaque"/>
          <Concept code="PAFL" codeSystem="" displayName="Liquide pancréatique"/>
-         <Concept code="PAT" codeSystem="" displayName="Patient"/>
          <Concept code="PCFL" codeSystem="" displayName="Liquide péricardique"/>
          <Concept code="PDSIT" codeSystem="" displayName="Dialyse péritonéale (site)"/>
          <Concept code="PDTS"

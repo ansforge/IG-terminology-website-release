@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1998",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1998",
+  "name" : "IntersectionConditionClinicalStatusCodesAndConditionClinicalStatusCodes",
+  "title" : "Intersection of Condition Clinical Status Codes And Condition Clinical Status Codes",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "active",
+        "display" : "Actif"
+      },
+      {
+        "code" : "recurrence",
+        "display" : "Récurrent"
+      },
+      {
+        "code" : "relapse",
+        "display" : "Rechute"
+      },
+      {
+        "code" : "inactive",
+        "display" : "Inactif"
+      },
+      {
+        "code" : "remission",
+        "display" : "En rémission"
+      },
+      {
+        "code" : "resolved",
+        "display" : "Résolu"
+      }]
+    }]
+  }
+}

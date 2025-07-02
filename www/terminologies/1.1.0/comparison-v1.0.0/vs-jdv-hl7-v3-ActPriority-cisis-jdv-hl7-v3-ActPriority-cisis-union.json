@@ -1,0 +1,67 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2024",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2024",
+  "name" : "UnionActPriorityAndActPriority",
+  "title" : "Union of ActPriority And ActPriority",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "A",
+        "display" : "Aussi vite que possible"
+      },
+      {
+        "code" : "CR",
+        "display" : "A contacter dès que les résultats sont disponibles"
+      },
+      {
+        "code" : "EL",
+        "display" : "Bénéfique pour le patient mais pas essentiel pour sa survie"
+      },
+      {
+        "code" : "EM",
+        "display" : "Très urgent"
+      },
+      {
+        "code" : "P",
+        "display" : "A réaliser avant l'intervention"
+      },
+      {
+        "code" : "PRN",
+        "display" : "Si nécessaire"
+      },
+      {
+        "code" : "R",
+        "display" : "A réaliser aux heures ouvrées"
+      },
+      {
+        "code" : "RR",
+        "display" : "Compte-rendu urgent"
+      },
+      {
+        "code" : "S",
+        "display" : "Immédiatement"
+      },
+      {
+        "code" : "T",
+        "display" : "Plannification à respecter"
+      },
+      {
+        "code" : "UD",
+        "display" : "Médicament à utiliser selon les directives du prescripteur"
+      },
+      {
+        "code" : "UR",
+        "display" : "Urgent"
+      }]
+    }]
+  }
+}

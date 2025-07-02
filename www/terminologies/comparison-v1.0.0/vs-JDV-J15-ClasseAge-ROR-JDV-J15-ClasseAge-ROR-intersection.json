@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-999",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-999",
+  "name" : "IntersectionJDV_J15_ClasseAge_RORAndJDV_J15_ClasseAge_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Nouveau né, jusqu'à 28 jours"
+      },
+      {
+        "code" : "02",
+        "display" : "Nourrisson, avant 2 ans"
+      },
+      {
+        "code" : "03",
+        "display" : "Enfant, avant 12 ans"
+      },
+      {
+        "code" : "04",
+        "display" : "Adolescent, avant 16 ans"
+      },
+      {
+        "code" : "05",
+        "display" : "Jeune adulte, 16-21 ans"
+      },
+      {
+        "code" : "06",
+        "display" : "Adulte, avant 65 ans"
+      },
+      {
+        "code" : "10",
+        "display" : "Sénior, 65-75 ans"
+      },
+      {
+        "code" : "11",
+        "display" : "Sénior, 75 ans et plus"
+      }]
+    }]
+  }
+}

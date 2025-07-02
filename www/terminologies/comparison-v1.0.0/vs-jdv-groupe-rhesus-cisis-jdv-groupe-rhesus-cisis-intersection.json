@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1974",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1974",
+  "name" : "IntersectionJdvGroupeRhesusCisisAndJdvGroupeRhesusCisis",
+  "title" : "Intersection of JDV Groupe Rhesus CISIS And JDV Groupe Rhesus CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "278147001",
+        "display" : "groupe sanguin O positif"
+      },
+      {
+        "code" : "278148006",
+        "display" : "groupe sanguin O négatif"
+      },
+      {
+        "code" : "278149003",
+        "display" : "groupe sanguin A positif"
+      },
+      {
+        "code" : "278152006",
+        "display" : "groupe sanguin A négatif"
+      },
+      {
+        "code" : "278150003",
+        "display" : "groupe sanguin B positif"
+      },
+      {
+        "code" : "278153001",
+        "display" : "groupe sanguin B négatif"
+      },
+      {
+        "code" : "278151004",
+        "display" : "groupe sanguin AB positif"
+      },
+      {
+        "code" : "278154007",
+        "display" : "groupe sanguin AB négatif"
+      }]
+    }]
+  }
+}

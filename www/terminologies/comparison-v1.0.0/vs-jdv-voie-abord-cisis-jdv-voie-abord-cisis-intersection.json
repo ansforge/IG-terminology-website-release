@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2958",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2958",
+  "name" : "IntersectionJdvVoieAbordCisisAndJdvVoieAbordCisis",
+  "title" : "Intersection of JDV Voie Abord CISIS And JDV Voie Abord CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-578",
+        "display" : "Chirurgie ouverte"
+      },
+      {
+        "code" : "MED-579",
+        "display" : "Endoscopique"
+      },
+      {
+        "code" : "MED-580",
+        "display" : "Percutanée"
+      }]
+    }]
+  }
+}

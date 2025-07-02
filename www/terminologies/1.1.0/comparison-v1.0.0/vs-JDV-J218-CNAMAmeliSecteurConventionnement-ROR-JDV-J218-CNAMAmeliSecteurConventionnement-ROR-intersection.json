@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1212",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1212",
+  "name" : "IntersectionJDV_J218_CNAMAmeliSecteurConventionnement_RORAndJDV_J218_CNAMAmeliSecteurConventionnement_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "nc",
+        "display" : "Non conventionné"
+      },
+      {
+        "code" : "c1",
+        "display" : "Secteur 1 ou conventionné"
+      },
+      {
+        "code" : "c2",
+        "display" : "Secteur 1 ou conventionné avec droit au dépassement permanent"
+      },
+      {
+        "code" : "c3",
+        "display" : "Secteur 2"
+      }]
+    }]
+  }
+}

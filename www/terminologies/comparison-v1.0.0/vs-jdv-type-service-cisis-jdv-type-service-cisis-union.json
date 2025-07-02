@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2873",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2873",
+  "name" : "UnionJdvTypeServiceCisisAndJdvTypeServiceCisis",
+  "title" : "Union of JDV Type Service CISIS And JDV Type Service CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-141",
+        "display" : "Unité Kangourou"
+      },
+      {
+        "code" : "GEN-092.06.05",
+        "display" : "Autre type de service"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "309904001",
+        "display" : "unité de soins intensifs"
+      },
+      {
+        "code" : "1279968000",
+        "display" : "service de néonatalogie"
+      },
+      {
+        "code" : "405269005",
+        "display" : "unité de soins intensifs néonatals"
+      }]
+    }]
+  }
+}

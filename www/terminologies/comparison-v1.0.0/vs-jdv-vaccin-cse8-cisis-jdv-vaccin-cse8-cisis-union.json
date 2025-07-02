@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2948",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2948",
+  "name" : "UnionJdvVaccinCse8CisisAndJdvVaccinCse8Cisis",
+  "title" : "Union of JDV Vaccin Cse8 CISIS And JDV Vaccin Cse8 CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "J07BC01",
+        "display" : "hépatite B, antigène purifié"
+      },
+      {
+        "code" : "J07AN",
+        "display" : "vaccins de la tuberculose"
+      }]
+    }]
+  }
+}

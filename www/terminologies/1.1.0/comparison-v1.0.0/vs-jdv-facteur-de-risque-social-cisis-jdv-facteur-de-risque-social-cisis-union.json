@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1943",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1943",
+  "name" : "UnionJdvFacteurDeRisqueSocialCisisAndJdvFacteurDeRisqueSocialCisis",
+  "title" : "Union of JDV Facteur De Risque Social CISIS And JDV Facteur De Risque Social CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "422650009",
+        "display" : "isolement social"
+      },
+      {
+        "code" : "224226001",
+        "display" : "sans domicile fixe"
+      },
+      {
+        "code" : "424860001",
+        "display" : "faible revenu"
+      }]
+    }]
+  }
+}

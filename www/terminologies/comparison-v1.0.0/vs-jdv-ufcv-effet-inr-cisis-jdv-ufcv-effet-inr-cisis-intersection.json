@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2901",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2901",
+  "name" : "IntersectionJdvUfcvEffetInrCisisAndJdvUfcvEffetInrCisis",
+  "title" : "Intersection of JDV UFCV Effet INR CISIS And JDV UFCV Effet INR CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "10022401",
+        "display" : "Diminution de l'INR"
+      },
+      {
+        "code" : "10022402",
+        "display" : "Augmentation de l'INR"
+      }]
+    }]
+  }
+}

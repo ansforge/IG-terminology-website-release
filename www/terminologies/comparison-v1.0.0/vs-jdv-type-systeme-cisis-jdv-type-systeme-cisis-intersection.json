@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2880",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2880",
+  "name" : "IntersectionJdvTypeSystemeCisisAndJdvTypeSystemeCisis",
+  "title" : "Intersection of Jdv Type Systeme CISIS And Jdv Type Systeme CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ALIM_AM",
+        "display" : "Alimentation auto à partir du SI de l'Ass Maladie"
+      },
+      {
+        "code" : "DISPOSITIF",
+        "display" : "Dispositif médical"
+      },
+      {
+        "code" : "AUTOMATE",
+        "display" : "Automate"
+      },
+      {
+        "code" : "SNR",
+        "display" : "Service numérique référencé"
+      },
+      {
+        "code" : "LOGICIEL_DUI",
+        "display" : "Logiciel de Dossier Usager Informatisé"
+      }]
+    }]
+  }
+}

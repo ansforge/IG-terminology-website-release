@@ -1,0 +1,59 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2805",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-2805",
+  "name" : "IntersectionJdvTypeDirectiveAnticipeeCisisAndJdvTypeDirectiveAnticipeeCisis",
+  "title" : "Intersection of JDV Type Directive Anticipee CISIS And JDV Type Directive Anticipee CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:12+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-298",
+        "display" : "Sédation profonde et continue associée à un traitement de la douleur"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "42348-3",
+        "display" : "Directives anticipées"
+      },
+      {
+        "code" : "75789-8",
+        "display" : "Maintient artificiel en vie"
+      },
+      {
+        "code" : "75779-9",
+        "display" : "Réanimation cardiaque et respiratoire"
+      },
+      {
+        "code" : "75787-2",
+        "display" : "Assistance respiratoire"
+      },
+      {
+        "code" : "77352-3",
+        "display" : "Alimentation et hydratation artificielles"
+      },
+      {
+        "code" : "75793-0",
+        "display" : "Autre directive"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "387713003",
+        "display" : "intervention chirurgicale"
+      },
+      {
+        "code" : "265764009",
+        "display" : "dialyse rénale"
+      }]
+    }]
+  }
+}

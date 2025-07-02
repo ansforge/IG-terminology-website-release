@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2403",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2403",
+  "name" : "IntersectionJdvParticipantAdditionnelResultatCisisAndJdvParticipantAdditionnelResultatCisis",
+  "title" : "Intersection of JDV Participant Additionnel Resultat CISIS And JDV Participant Additionnel Resultat CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEV",
+        "display" : "Dispositif automatique impliqué dans la production des résultats"
+      },
+      {
+        "code" : "AUTHEN",
+        "display" : "Valideur des résultats (ex : un biologiste ou un système expert)"
+      },
+      {
+        "code" : "RESP",
+        "display" : "Responsable de l'acte"
+      },
+      {
+        "code" : "ENT",
+        "display" : "Transcripteur du contenu à partir d'une autre forme"
+      },
+      {
+        "code" : "PRF",
+        "display" : "Exécutant"
+      }]
+    }]
+  }
+}

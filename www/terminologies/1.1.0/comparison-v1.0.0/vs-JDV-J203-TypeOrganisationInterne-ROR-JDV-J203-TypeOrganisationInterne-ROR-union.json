@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1163",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1163",
+  "name" : "UnionJDV_J203_TypeOrganisationInterne_RORAndJDV_J203_TypeOrganisationInterne_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Pôle"
+      },
+      {
+        "code" : "2",
+        "display" : "Structure interne ou Service"
+      },
+      {
+        "code" : "3",
+        "display" : "Unité fonctionnelle"
+      },
+      {
+        "code" : "4",
+        "display" : "Unité élémentaire"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "EJ",
+        "display" : "Entité juridique"
+      },
+      {
+        "code" : "EG",
+        "display" : "Etablissement géographique"
+      }]
+    }]
+  }
+}

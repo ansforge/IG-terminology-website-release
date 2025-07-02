@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2871",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-2871",
+  "name" : "IntersectionJdvTypeResultatCisisAndJdvTypeResultatCisis",
+  "title" : "Intersection of JDV Type Resultat CISIS And JDV Type Resultat CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-536",
+        "display" : "Variants dont l’impact clinique est connu."
+      },
+      {
+        "code" : "MED-537",
+        "display" : "Variants à discuter en RCP moléculaire."
+      },
+      {
+        "code" : "MED-538",
+        "display" : "Variants dont la valeur prédictive est inconnue."
+      },
+      {
+        "code" : "MED-539",
+        "display" : "Gène(s) pour le(s)quel(s) aucune anomalie n’a été trouvée."
+      },
+      {
+        "code" : "MED-540",
+        "display" : "Résultat non interprétable."
+      }]
+    }]
+  }
+}

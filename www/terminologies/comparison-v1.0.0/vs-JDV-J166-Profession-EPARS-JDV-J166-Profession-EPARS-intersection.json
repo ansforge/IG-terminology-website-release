@@ -1,0 +1,113 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1050",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/12dacdfe-e1fc-4a9b-8c3a-9fbefe7e406e-1050",
+  "name" : "IntersectionJDV_J166_Profession_EPARSAndJDV_J166_Profession_EPARS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-02T12:54:11+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "26",
+        "display" : "Audioprothésiste"
+      },
+      {
+        "code" : "28",
+        "display" : "Opticien-Lunetier"
+      },
+      {
+        "code" : "31",
+        "display" : "Assistant dentaire"
+      },
+      {
+        "code" : "32",
+        "display" : "Physicien médical"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "41",
+        "display" : "Assistant de service social"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "71",
+        "display" : "Ostéopathe"
+      },
+      {
+        "code" : "72",
+        "display" : "Psychothérapeute"
+      },
+      {
+        "code" : "73",
+        "display" : "Chiropracteur"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "81",
+        "display" : "Orthoprothésiste"
+      },
+      {
+        "code" : "82",
+        "display" : "Podo-Orthésiste"
+      },
+      {
+        "code" : "83",
+        "display" : "Orthopédiste-Orthésiste"
+      },
+      {
+        "code" : "84",
+        "display" : "Oculariste"
+      },
+      {
+        "code" : "85",
+        "display" : "Epithésiste"
+      },
+      {
+        "code" : "86",
+        "display" : "Technicien de laboratoire médical"
+      },
+      {
+        "code" : "91",
+        "display" : "Orthophoniste"
+      },
+      {
+        "code" : "92",
+        "display" : "Orthoptiste"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "93",
+        "display" : "Psychologue"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "94",
+        "display" : "Ergothérapeute"
+      },
+      {
+        "code" : "95",
+        "display" : "Diététicien"
+      },
+      {
+        "code" : "96",
+        "display" : "Psychomotricien"
+      },
+      {
+        "code" : "98",
+        "display" : "Manipulateur ERM"
+      }]
+    }]
+  }
+}

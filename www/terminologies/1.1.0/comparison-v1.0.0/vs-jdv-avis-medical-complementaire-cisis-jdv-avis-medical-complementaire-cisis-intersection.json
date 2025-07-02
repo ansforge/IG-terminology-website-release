@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1704",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/e24c6b6a-3a41-4b51-abf2-28b38d5debbe-1704",
+  "name" : "IntersectionJdvAvisMedicalComplementaireCisisAndJdvAvisMedicalComplementaireCisis",
+  "title" : "Intersection of JDV Avis Medical Complementaire CISIS And JDV Avis Medical Complementaire CISIS",
+  "status" : "active",
+  "date" : "2025-07-02T12:23:50+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G15_10/SM29",
+        "display" : "Médecin - Médecine physique et réadaptation (SM)"
+      },
+      {
+        "code" : "G15_10/SM04",
+        "display" : "Médecin - Cardiologie et maladies vasculaires (SM)"
+      },
+      {
+        "code" : "G15_10/SM32",
+        "display" : "Médecin - Neurologie (SM)"
+      },
+      {
+        "code" : "G15_10/SM18",
+        "display" : "Médecin - Gériatrie (SM)&quot;"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "GEN-092.04.04",
+        "display" : "Autre avis médical"
+      }]
+    }]
+  }
+}
