@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2810",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2810",
+  "name" : "UnionJdvTypeActePostPartumCisisAndJdvTypeActePostPartumCisis",
+  "title" : "Union of JDV Type Acte Post Partum CISIS And JDV Type Acte Post Partum CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "JNFA001",
+        "display" : "Hystérectomie pour complications obstétricales, par laparotomie"
+      },
+      {
+        "code" : "JPGD001",
+        "display" : "Délivrance artificielle (+ révision utérine)"
+      },
+      {
+        "code" : "JNED001",
+        "display" : "Réduction manuelle d’inversion utérine"
+      },
+      {
+        "code" : "JNBD002",
+        "display" : "Ballonnets intra-utérin"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "GEN-092.04.02",
+        "display" : "Autre acte réalisé en postpartum immédiat"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "49149002",
+        "display" : "exploration manuelle post-partum de l'utérus"
+      },
+      {
+        "code" : "57238002",
+        "display" : "embolisation artérielle sélective"
+      }]
+    }]
+  }
+}

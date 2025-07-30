@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="743" codeSystem="" displayName="Bas grade"/>
-         <Concept code="744" codeSystem="" displayName="Grade intermédiaire"/>
-         <Concept code="745" codeSystem="" displayName="Haut grade"/>
+         <Concept code="743"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Bas grade"/>
+         <Concept code="744"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Grade intermédiaire"/>
+         <Concept code="745"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Haut grade"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

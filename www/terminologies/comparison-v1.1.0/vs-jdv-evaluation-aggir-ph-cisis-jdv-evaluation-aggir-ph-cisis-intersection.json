@@ -1,0 +1,59 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1902",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1902",
+  "name" : "IntersectionJdvEvaluationAggirPhCisisAndJdvEvaluationAggirPhCisis",
+  "title" : "Intersection of JDV Evaluation Aggir Ph CISIS And JDV Evaluation Aggir Ph CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "b160",
+        "display" : "Fonctions de la pensée"
+      },
+      {
+        "code" : "b114",
+        "display" : "Fonctions d'orientation"
+      },
+      {
+        "code" : "d510",
+        "display" : "Se laver"
+      },
+      {
+        "code" : "d540",
+        "display" : "S'habiller"
+      },
+      {
+        "code" : "d550",
+        "display" : "Manger"
+      },
+      {
+        "code" : "d530",
+        "display" : "Aller aux toilettes"
+      },
+      {
+        "code" : "d410",
+        "display" : "Changer la position corporelle de base"
+      },
+      {
+        "code" : "d4600",
+        "display" : "Se déplacer dans la maison"
+      },
+      {
+        "code" : "d4602",
+        "display" : "Se déplacer en dehors de la maison et d'autres bâtiments"
+      },
+      {
+        "code" : "d3608",
+        "display" : "Utiliser d'autres appareils et techniques de communication précisés"
+      }]
+    }]
+  }
+}

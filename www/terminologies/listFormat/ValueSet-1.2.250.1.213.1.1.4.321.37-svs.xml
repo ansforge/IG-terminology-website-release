@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-061" codeSystem="" displayName="Carotidien territorial"/>
-         <Concept code="AVC-062" codeSystem="" displayName="Carotidien lacunaire"/>
-         <Concept code="AVC-063" codeSystem="" displayName="VB territorial"/>
-         <Concept code="AVC-064" codeSystem="" displayName="VB lacunaire"/>
+         <Concept code="AVC-061"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Carotidien territorial"/>
+         <Concept code="AVC-062"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Carotidien lacunaire"/>
+         <Concept code="AVC-063"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="VB territorial"/>
+         <Concept code="AVC-064"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="VB lacunaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

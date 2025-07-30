@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2570",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2570",
+  "name" : "UnionJdvResultatDepistageHematurieCisisAndJdvResultatDepistageHematurieCisis",
+  "title" : "Union of JDV Resultat Depistage Hematurie CISIS And JDV Resultat Depistage Hematurie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "négatif(-ive)"
+      },
+      {
+        "code" : "167298001",
+        "display" : "trace de sang non-hémolysé détecté par bandelette urinaire"
+      },
+      {
+        "code" : "1348270000",
+        "display" : "quantité moyenne de sang non-hémolysé détectée par bandelette urinaire"
+      },
+      {
+        "code" : "167299009",
+        "display" : "trace de sang hémolysé détectée par bandelette urinaire"
+      },
+      {
+        "code" : "1348319007",
+        "display" : "faible quantité de sang hémolysé détectée par bandelette urinaire"
+      },
+      {
+        "code" : "1348318004",
+        "display" : "quantité moyenne de sang hémolysé détectée par bandelette urinaire"
+      },
+      {
+        "code" : "1348320001",
+        "display" : "forte quantité de sang hémolysé détectée par bandelette urinaire"
+      }]
+    }]
+  }
+}

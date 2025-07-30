@@ -11,12 +11,20 @@
              urlFichier="">
       <ConceptList>
          <Concept code="GEN-092.08.05"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre(s) nombre de jours"/>
-         <Concept code="GEN-275" codeSystem="" displayName="7j"/>
-         <Concept code="GEN-276" codeSystem="" displayName="14j"/>
-         <Concept code="GEN-277" codeSystem="" displayName="30j"/>
-         <Concept code="GEN-278" codeSystem="" displayName="90j"/>
+         <Concept code="GEN-275"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="7j"/>
+         <Concept code="GEN-276"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="14j"/>
+         <Concept code="GEN-277"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="30j"/>
+         <Concept code="GEN-278"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="90j"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

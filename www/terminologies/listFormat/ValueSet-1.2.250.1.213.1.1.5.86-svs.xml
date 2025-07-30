@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-012" codeSystem="" displayName="Avis spécialisé"/>
-         <Concept code="MED-044" codeSystem="" displayName="Prélèvement"/>
-         <Concept code="MED-115" codeSystem="" displayName="Dépistage"/>
-         <Concept code="MED-116" codeSystem="" displayName="Suivi rapproché &lt; 2 ans"/>
+         <Concept code="MED-012"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Avis spécialisé"/>
+         <Concept code="MED-044"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Prélèvement"/>
+         <Concept code="MED-115"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Dépistage"/>
+         <Concept code="MED-116"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Suivi rapproché &lt; 2 ans"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

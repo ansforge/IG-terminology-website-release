@@ -11,19 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="no-allergy-info"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d’information sur les allergies/hypersensibilités"/>
          <Concept code="no-known-allergies"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d'allergie/hypersensibilité connue"/>
          <Concept code="no-known-medication-allergies"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d'allergie médicamenteuse connue"/>
          <Concept code="no-known-environmental-allergies"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d'allergie environnementale connue"/>
          <Concept code="no-known-food-allergies"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d'allergie alimentaire connue"/>
       </ConceptList>
    </ValueSet>

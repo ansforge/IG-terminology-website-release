@@ -1,0 +1,83 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2237",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2237",
+  "name" : "UnionJdvMesureLentilleDelivreeCisisAndJdvMesureLentilleDelivreeCisis",
+  "title" : "Union of JDV Mesure Lentille Delivree CISIS And JDV Mesure Lentille Delivree CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C53610",
+        "display" : "Renouvellement"
+      },
+      {
+        "code" : "C43383",
+        "display" : "modèle"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1181",
+        "display" : "Date de délivrance"
+      },
+      {
+        "code" : "MED-1183",
+        "display" : "Produit d'entretien"
+      },
+      {
+        "code" : "MED-1180",
+        "display" : "Type de lentille"
+      },
+      {
+        "code" : "GEN-292",
+        "display" : "Commentaire"
+      },
+      {
+        "code" : "MED-1089",
+        "display" : "Diamètre lentille – lentille délivrée"
+      },
+      {
+        "code" : "MED-1090",
+        "display" : "Rayon 1 lentille – lentille délivrée"
+      },
+      {
+        "code" : "MED-1091",
+        "display" : "Rayon 2 lentille – lentille délivrée"
+      },
+      {
+        "code" : "GEN-092.08.04",
+        "display" : "Autre(s) paramètre(s)"
+      },
+      {
+        "code" : "MED-1092",
+        "display" : "Puissance de la sphère – lentille délivrée"
+      },
+      {
+        "code" : "MED-1093",
+        "display" : "Puissance du cylindre – lentille délivrée"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "95325-7",
+        "display" : "Axe en degrés des lentilles"
+      },
+      {
+        "code" : "28814-2",
+        "display" : "Addition – grandeur"
+      },
+      {
+        "code" : "28815-9",
+        "display" : "Addition – valeur"
+      }]
+    }]
+  }
+}

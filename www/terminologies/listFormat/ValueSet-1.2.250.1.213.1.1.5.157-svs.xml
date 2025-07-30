@@ -11,11 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="G25.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Syndrome extrapyramidal et trouble de la motricité, sans précision"/>
-         <Concept code="R27.0" codeSystem="" displayName="Ataxie, sans précision"/>
+         <Concept code="R27.0"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Ataxie, sans précision"/>
          <Concept code="H53.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Trouble de la vision, sans précision"/>
          <Concept code="85972008"
                   codeSystem="2.16.840.1.113883.6.96"

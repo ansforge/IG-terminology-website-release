@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="764" codeSystem="" displayName="Oesophage cervical"/>
-         <Concept code="765" codeSystem="" displayName="Oesophage intrathoracique"/>
-         <Concept code="769" codeSystem="" displayName="Cardio-Oesophage"/>
+         <Concept code="764"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Oesophage cervical"/>
+         <Concept code="765"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Oesophage intrathoracique"/>
+         <Concept code="769"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Cardio-Oesophage"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

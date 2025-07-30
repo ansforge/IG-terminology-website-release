@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2900",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2900",
+  "name" : "UnionJdvTypeMammographieCisisAndJdvTypeMammographieCisis",
+  "title" : "Union of JDV Type Mammographie CISIS And JDV Type Mammographie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-031",
+        "display" : "Analogique"
+      },
+      {
+        "code" : "MED-032",
+        "display" : "Numérique DR"
+      },
+      {
+        "code" : "MED-033",
+        "display" : "Numérique CR"
+      }]
+    }]
+  }
+}

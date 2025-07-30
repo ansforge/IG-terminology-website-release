@@ -10,11 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1452" codeSystem="" displayName="Polype endocervical"/>
+         <Concept code="1452"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Polype endocervical"/>
          <Concept code="1453"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Adénofibrome papillaire endocervical"/>
-         <Concept code="1454" codeSystem="" displayName="Adénome villeux cervical"/>
+         <Concept code="1454"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Adénome villeux cervical"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

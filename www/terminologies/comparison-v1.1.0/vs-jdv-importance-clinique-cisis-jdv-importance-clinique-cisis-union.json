@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2132",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2132",
+  "name" : "UnionJdvImportancCliniqueCisisAndJdvImportancCliniqueCisis",
+  "title" : "Union of JDV Importance Clinique CISIS And JDV Importance Clinique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "371926006",
+        "display" : "extrêmement important"
+      },
+      {
+        "code" : "386134007",
+        "display" : "important"
+      },
+      {
+        "code" : "371927002",
+        "display" : "modérément important"
+      },
+      {
+        "code" : "371928007",
+        "display" : "non important"
+      }]
+    }]
+  }
+}

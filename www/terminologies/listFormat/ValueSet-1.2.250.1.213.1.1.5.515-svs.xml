@@ -11,14 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="GEN-092.02.01"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre dispositif ou objet personnel"/>
          <Concept code="Q021003"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="LUNETTES PRÊTES À PORTER (OU LUNETTES MONTÉES)"/>
-         <Concept code="P0102" codeSystem="" displayName="PROTHÈSES DENTAIRES"/>
+         <Concept code="P0102"
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
+                  displayName="PROTHÈSES DENTAIRES"/>
          <Concept code="Y2145"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="DISPOSITIFS ACCOUSTIQUES D'AIDE À L'AUDITION"/>
       </ConceptList>
    </ValueSet>

@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2658",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2658",
+  "name" : "IntersectionJdvScorePerformanceEcogCisisAndJdvScorePerformanceEcogCisis",
+  "title" : "Intersection of JDV Score Performance Ecog CISIS And JDV Score Performance Ecog CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA9622-7",
+        "display" : "Capable d'une activité identique à celle précédant la maladie sans aucune restriction."
+      },
+      {
+        "code" : "LA9623-5",
+        "display" : "Activité physique diminuée mais ambulatoire et capable de mener un travail"
+      },
+      {
+        "code" : "LA9624-3",
+        "display" : "Ambulatoire et capable de prendre soin de soi-même, incapable de travailler. Alité moins de 50 % de son temps"
+      },
+      {
+        "code" : "LA9625-0",
+        "display" : "Capable seulement de quelques soins. Alité ou en chaise plus de 50 % du temps"
+      },
+      {
+        "code" : "LA9626-8",
+        "display" : "Incapable de prendre soins de soi-même. Alité ou en chaise en permanence"
+      },
+      {
+        "code" : "LA9627-6",
+        "display" : "Décédé"
+      }]
+    }]
+  }
+}

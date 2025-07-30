@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2822",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2822",
+  "name" : "UnionJdvTypeAnesthesieAvantNaissanceCisisAndJdvTypeAnesthesieAvantNaissanceCisis",
+  "title" : "Union of JDV Type Anesthesie Avant Naissance CISIS And JDV Type Anesthesie Avant Naissance CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-220",
+        "display" : "Analgésie morphinique"
+      },
+      {
+        "code" : "GEN-092.03.03",
+        "display" : "Autre analgésie"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "241717009",
+        "display" : "analgésie inhalatoire"
+      },
+      {
+        "code" : "50697003",
+        "display" : "anesthésie générale"
+      },
+      {
+        "code" : "27372005",
+        "display" : "anesthésie locorégionale"
+      },
+      {
+        "code" : "386761002",
+        "display" : "anesthésie locale"
+      }]
+    }]
+  }
+}

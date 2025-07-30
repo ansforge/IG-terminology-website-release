@@ -10,31 +10,81 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="HGNC:391" codeSystem="" displayName="AKT1"/>
-         <Concept code="HGNC:427" codeSystem="" displayName="ALK"/>
-         <Concept code="HGNC:1097" codeSystem="" displayName="BRAF"/>
-         <Concept code="HGNC:3236" codeSystem="" displayName="EGFR"/>
-         <Concept code="HGNC:3430" codeSystem="" displayName="ERBB2"/>
-         <Concept code="HGNC:3432" codeSystem="" displayName="ERBB4"/>
-         <Concept code="HGNC:3689" codeSystem="" displayName="FGFR2"/>
-         <Concept code="HGNC:3690" codeSystem="" displayName="FGFR3"/>
-         <Concept code="HGNC:5173" codeSystem="" displayName="HRAS"/>
-         <Concept code="HGNC:6342" codeSystem="" displayName="KIT"/>
-         <Concept code="HGNC:6407" codeSystem="" displayName="KRAS"/>
-         <Concept code="HGNC:6840" codeSystem="" displayName="MAP2K1"/>
-         <Concept code="HGNC:7029" codeSystem="" displayName="MET"/>
-         <Concept code="HGNC:7989" codeSystem="" displayName="NRAS"/>
-         <Concept code="HGNC:8803" codeSystem="" displayName="PDGFRA"/>
-         <Concept code="HGNC:8975" codeSystem="" displayName="PIK3CA"/>
-         <Concept code="HGNC:1787" codeSystem="" displayName="CDKN2A"/>
-         <Concept code="HGNC:2514" codeSystem="" displayName="CTNNB1"/>
-         <Concept code="HGNC:2731" codeSystem="" displayName="DDR2"/>
-         <Concept code="HGNC:4764" codeSystem="" displayName="H3-3A"/>
-         <Concept code="HGNC:4776" codeSystem="" displayName="H3C2"/>
-         <Concept code="HGNC:5382" codeSystem="" displayName="IDH1"/>
-         <Concept code="HGNC:5383" codeSystem="" displayName="IDH2"/>
-         <Concept code="HGNC:8979" codeSystem="" displayName="PIK3R1"/>
-         <Concept code="GEN-092.07.02" codeSystem="" displayName="Autre gène"/>
+         <Concept code="HGNC:391"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="AKT1"/>
+         <Concept code="HGNC:427"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="ALK"/>
+         <Concept code="HGNC:1097"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="BRAF"/>
+         <Concept code="HGNC:3236"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="EGFR"/>
+         <Concept code="HGNC:3430"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="ERBB2"/>
+         <Concept code="HGNC:3432"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="ERBB4"/>
+         <Concept code="HGNC:3689"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="FGFR2"/>
+         <Concept code="HGNC:3690"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="FGFR3"/>
+         <Concept code="HGNC:5173"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="HRAS"/>
+         <Concept code="HGNC:6342"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="KIT"/>
+         <Concept code="HGNC:6407"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="KRAS"/>
+         <Concept code="HGNC:6840"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="MAP2K1"/>
+         <Concept code="HGNC:7029"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="MET"/>
+         <Concept code="HGNC:7989"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="NRAS"/>
+         <Concept code="HGNC:8803"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="PDGFRA"/>
+         <Concept code="HGNC:8975"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="PIK3CA"/>
+         <Concept code="HGNC:1787"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="CDKN2A"/>
+         <Concept code="HGNC:2514"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="CTNNB1"/>
+         <Concept code="HGNC:2731"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="DDR2"/>
+         <Concept code="HGNC:4764"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="H3-3A"/>
+         <Concept code="HGNC:4776"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="H3C2"/>
+         <Concept code="HGNC:5382"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="IDH1"/>
+         <Concept code="HGNC:5383"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="IDH2"/>
+         <Concept code="HGNC:8979"
+                  codeSystem="2.16.840.1.113883.6.281"
+                  displayName="PIK3R1"/>
+         <Concept code="GEN-092.07.02"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre gène"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

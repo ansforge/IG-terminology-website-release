@@ -10,16 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="H53.8" codeSystem="" displayName="Autre trouble de la vision"/>
+         <Concept code="H53.8"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Autre trouble de la vision"/>
          <Concept code="H53.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Trouble de la vision, sans précision"/>
          <Concept code="AVC-125"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Troubles visuels bilatéraux"/>
-         <Concept code="DA-74510" codeSystem="" displayName="Diplopie"/>
-         <Concept code="DA-74640" codeSystem="" displayName="Hémianopsie"/>
-         <Concept code="F-F3450" codeSystem="" displayName="Vision monoculaire"/>
+         <Concept code="DA-74510"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Diplopie"/>
+         <Concept code="DA-74640"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Hémianopsie"/>
+         <Concept code="F-F3450"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Vision monoculaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

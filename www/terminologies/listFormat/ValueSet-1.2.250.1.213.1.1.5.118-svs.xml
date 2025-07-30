@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="G-A377" codeSystem="" displayName="Immédiat"/>
-         <Concept code="G-A570" codeSystem="" displayName="Secondaire"/>
+         <Concept code="G-A377"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Immédiat"/>
+         <Concept code="G-A570"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Secondaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

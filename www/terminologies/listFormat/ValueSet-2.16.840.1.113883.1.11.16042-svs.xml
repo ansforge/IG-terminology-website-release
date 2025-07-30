@@ -10,70 +10,168 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ACDA" codeSystem="" displayName="ACD Solution A"/>
-         <Concept code="ACDB" codeSystem="" displayName="ACD Solution B"/>
-         <Concept code="ACET" codeSystem="" displayName="Acetic Acid"/>
-         <Concept code="AMIES" codeSystem="" displayName="Amies transport medium"/>
-         <Concept code="BACTM" codeSystem="" displayName="Bacterial Transport medium"/>
-         <Concept code="BF10" codeSystem="" displayName="Buffered 10% formalin"/>
-         <Concept code="BOR" codeSystem="" displayName="Boric Acid"/>
-         <Concept code="BOUIN" codeSystem="" displayName="Bouin's solution"/>
-         <Concept code="BSKM" codeSystem="" displayName="Buffered skim milk"/>
-         <Concept code="C32" codeSystem="" displayName="3.2% Citrate"/>
-         <Concept code="C38" codeSystem="" displayName="3.8% Citrate"/>
+         <Concept code="ACDA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="ACD Solution A"/>
+         <Concept code="ACDB"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="ACD Solution B"/>
+         <Concept code="ACET"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Acetic Acid"/>
+         <Concept code="AMIES"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Amies transport medium"/>
+         <Concept code="BACTM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Bacterial Transport medium"/>
+         <Concept code="BF10"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Buffered 10% formalin"/>
+         <Concept code="BOR"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Boric Acid"/>
+         <Concept code="BOUIN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Bouin's solution"/>
+         <Concept code="BSKM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Buffered skim milk"/>
+         <Concept code="C32"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="3.2% Citrate"/>
+         <Concept code="C38"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="3.8% Citrate"/>
          <Concept code="CARS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
                   displayName="Carson's Modified 10% formalin"/>
-         <Concept code="CARY" codeSystem="" displayName="Cary Blair Medium"/>
-         <Concept code="CHLTM" codeSystem="" displayName="Chlamydia transport medium"/>
-         <Concept code="CTAD" codeSystem="" displayName="CTAD"/>
-         <Concept code="EDTK15" codeSystem="" displayName="Potassium/K EDTA 15%"/>
-         <Concept code="EDTK75" codeSystem="" displayName="Potassium/K EDTA 7.5%"/>
-         <Concept code="EDTN" codeSystem="" displayName="Sodium/Na EDTA"/>
+         <Concept code="CARY"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Cary Blair Medium"/>
+         <Concept code="CHLTM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Chlamydia transport medium"/>
+         <Concept code="CTAD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="CTAD"/>
+         <Concept code="EDTK15"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Potassium/K EDTA 15%"/>
+         <Concept code="EDTK75"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Potassium/K EDTA 7.5%"/>
+         <Concept code="EDTN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Sodium/Na EDTA"/>
          <Concept code="ENT"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
                   displayName="Enteric bacteria transport medium"/>
-         <Concept code="F10" codeSystem="" displayName="10% Formalin"/>
+         <Concept code="F10"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="10% Formalin"/>
          <Concept code="FDP"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
                   displayName="Thrombin NIH; soybean trypsin inhibitor"/>
-         <Concept code="FL10" codeSystem="" displayName="Sodium Fluoride, 10mg"/>
-         <Concept code="FL100" codeSystem="" displayName="Sodium Fluoride, 100mg"/>
-         <Concept code="HCL6" codeSystem="" displayName="6N HCL"/>
-         <Concept code="HEPA" codeSystem="" displayName="Ammonium heparin"/>
-         <Concept code="HEPL" codeSystem="" displayName="Lithium/Li Heparin"/>
-         <Concept code="HEPN" codeSystem="" displayName="Sodium/Na Heparin"/>
-         <Concept code="HNO3" codeSystem="" displayName="Nitric Acid"/>
-         <Concept code="JKM" codeSystem="" displayName="Jones Kendrick Medium"/>
-         <Concept code="KARN" codeSystem="" displayName="Karnovsky's fixative"/>
-         <Concept code="KOX" codeSystem="" displayName="Potassium Oxalate"/>
-         <Concept code="LIA" codeSystem="" displayName="Lithium iodoacetate"/>
-         <Concept code="M4" codeSystem="" displayName="M4"/>
-         <Concept code="M4RT" codeSystem="" displayName="M4-RT"/>
-         <Concept code="M5" codeSystem="" displayName="M5"/>
-         <Concept code="MICHTM" codeSystem="" displayName="Michel's transport medium"/>
-         <Concept code="MMDTM" codeSystem="" displayName="MMD transport medium"/>
-         <Concept code="NAF" codeSystem="" displayName="Sodium Fluoride"/>
-         <Concept code="NONE" codeSystem="" displayName="None"/>
-         <Concept code="PAGE" codeSystem="" displayName="Page's Saline"/>
-         <Concept code="PHENOL" codeSystem="" displayName="Phenol"/>
-         <Concept code="PVA" codeSystem="" displayName="Polyvinylalcohol"/>
-         <Concept code="RLM" codeSystem="" displayName="Reagan Lowe Medium"/>
-         <Concept code="SILICA" codeSystem="" displayName="Siliceous earth"/>
+         <Concept code="FL10"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Sodium Fluoride, 10mg"/>
+         <Concept code="FL100"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Sodium Fluoride, 100mg"/>
+         <Concept code="HCL6"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="6N HCL"/>
+         <Concept code="HEPA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Ammonium heparin"/>
+         <Concept code="HEPL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Lithium/Li Heparin"/>
+         <Concept code="HEPN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Sodium/Na Heparin"/>
+         <Concept code="HNO3"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Nitric Acid"/>
+         <Concept code="JKM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Jones Kendrick Medium"/>
+         <Concept code="KARN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Karnovsky's fixative"/>
+         <Concept code="KOX"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Potassium Oxalate"/>
+         <Concept code="LIA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Lithium iodoacetate"/>
+         <Concept code="M4"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="M4"/>
+         <Concept code="M4RT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="M4-RT"/>
+         <Concept code="M5"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="M5"/>
+         <Concept code="MICHTM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Michel's transport medium"/>
+         <Concept code="MMDTM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="MMD transport medium"/>
+         <Concept code="NAF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Sodium Fluoride"/>
+         <Concept code="NONE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="None"/>
+         <Concept code="PAGE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Page's Saline"/>
+         <Concept code="PHENOL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Phenol"/>
+         <Concept code="PVA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Polyvinylalcohol"/>
+         <Concept code="RLM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Reagan Lowe Medium"/>
+         <Concept code="SILICA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Siliceous earth"/>
          <Concept code="SPS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
                   displayName="Sodium polyanethol sulfonate 0.35% in 0.85% sodium chloride"/>
-         <Concept code="SST" codeSystem="" displayName="Serum Separator Tube"/>
-         <Concept code="STUTM" codeSystem="" displayName="Stuart transport medium"/>
-         <Concept code="THROM" codeSystem="" displayName="Thrombin"/>
-         <Concept code="THYMOL" codeSystem="" displayName="Thymol"/>
-         <Concept code="THYO" codeSystem="" displayName="Thyoglycolate broth"/>
-         <Concept code="TOLU" codeSystem="" displayName="Toluene"/>
+         <Concept code="SST"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Serum Separator Tube"/>
+         <Concept code="STUTM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Stuart transport medium"/>
+         <Concept code="THROM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Thrombin"/>
+         <Concept code="THYMOL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Thymol"/>
+         <Concept code="THYO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Thyoglycolate broth"/>
+         <Concept code="TOLU"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Toluene"/>
          <Concept code="URETM"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
                   displayName="Ureaplasma transport medium"/>
-         <Concept code="VIRTM" codeSystem="" displayName="Viral Transport medium"/>
-         <Concept code="WEST" codeSystem="" displayName="Buffered Citrate"/>
+         <Concept code="VIRTM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Viral Transport medium"/>
+         <Concept code="WEST"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-EntityCode"
+                  displayName="Buffered Citrate"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

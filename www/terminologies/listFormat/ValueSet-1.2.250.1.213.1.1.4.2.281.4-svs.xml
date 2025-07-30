@@ -10,12 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-238" codeSystem="" displayName="Tumeur primitive"/>
-         <Concept code="MED-258" codeSystem="" displayName="Nouvelle localisation"/>
+         <Concept code="MED-238"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Tumeur primitive"/>
+         <Concept code="MED-258"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Nouvelle localisation"/>
          <Concept code="MED-259"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Caractère primitif ou secondaire ne pouvant être établi"/>
-         <Concept code="M-80006" codeSystem="" displayName="Métastase"/>
+         <Concept code="M-80006"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Métastase"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

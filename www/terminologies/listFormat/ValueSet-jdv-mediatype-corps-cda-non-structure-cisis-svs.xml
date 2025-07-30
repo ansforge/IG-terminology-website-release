@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="application/pdf" codeSystem="" displayName="PDF"/>
-         <Concept code="text/plain" codeSystem="" displayName="Plain Text"/>
-         <Concept code="text/rtf" codeSystem="" displayName="RTF Text"/>
-         <Concept code="image/jpeg" codeSystem="" displayName="JPEG Image"/>
-         <Concept code="image/tiff" codeSystem="" displayName="TIFF Image"/>
+         <Concept code="application/pdf"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-mediaType"
+                  displayName="PDF"/>
+         <Concept code="text/plain"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-mediaType"
+                  displayName="Plain Text"/>
+         <Concept code="text/rtf"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-mediaType"
+                  displayName="RTF Text"/>
+         <Concept code="image/jpeg"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-mediaType"
+                  displayName="JPEG Image"/>
+         <Concept code="image/tiff"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-mediaType"
+                  displayName="TIFF Image"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

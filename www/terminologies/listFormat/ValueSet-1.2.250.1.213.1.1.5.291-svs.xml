@@ -10,14 +10,30 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C14162" codeSystem="" displayName="moyennement différencié"/>
-         <Concept code="C14167" codeSystem="" displayName="peu différencié"/>
-         <Concept code="C14171" codeSystem="" displayName="bien différencié"/>
-         <Concept code="C14176" codeSystem="" displayName="indifférencié"/>
-         <Concept code="569" codeSystem="" displayName="Bien differencié"/>
-         <Concept code="570" codeSystem="" displayName="Moderement difféencié"/>
-         <Concept code="571" codeSystem="" displayName="Peu différencié"/>
-         <Concept code="572" codeSystem="" displayName="Indifferencié"/>
+         <Concept code="C14162"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="moyennement différencié"/>
+         <Concept code="C14167"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="peu différencié"/>
+         <Concept code="C14171"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="bien différencié"/>
+         <Concept code="C14176"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="indifférencié"/>
+         <Concept code="569"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Bien differencié"/>
+         <Concept code="570"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Moderement difféencié"/>
+         <Concept code="571"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Peu différencié"/>
+         <Concept code="572"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Indifferencié"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

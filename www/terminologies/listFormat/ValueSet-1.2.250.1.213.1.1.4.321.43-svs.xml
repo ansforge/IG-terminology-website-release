@@ -10,13 +10,19 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-118" codeSystem="" displayName="Maladie petites artères"/>
-         <Concept code="AVC-120" codeSystem="" displayName="Angiopathie amyloïde"/>
+         <Concept code="AVC-118"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Maladie petites artères"/>
          <Concept code="AVC-120"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Angiopathie amyloïde"/>
+         <Concept code="AVC-120"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Anticoagulant au long cours"/>
-         <Concept code="G-A609" codeSystem="" displayName="autre"/>
-         <Concept code="M-24600" codeSystem="" displayName="Malformation vasculaire"/>
+         <Concept code="G-A609" codeSystem="1.2.250.1.213.2.12" displayName="autre"/>
+         <Concept code="M-24600"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Malformation vasculaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

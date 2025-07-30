@@ -1,0 +1,187 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-548",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/41d026bd-9ab2-44e3-bf59-97ef030ccee7-548",
+  "name" : "UnionTRE_R34_StatutProfessionnelSSAAndTRE_R34_StatutProfessionnelSSA",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:25+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "STA-SSA-01",
+    "display" : "Praticien",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "STA-SSA-02",
+    "display" : "Praticien confirmé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "STA-SSA-03",
+    "display" : "Praticien certifié",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "STA-SSA-04",
+    "display" : "Praticien agrégé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:44+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "valueCode" : "active"
+    }]
+  }]
+}

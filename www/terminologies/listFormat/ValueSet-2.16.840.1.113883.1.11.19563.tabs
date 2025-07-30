@@ -1,111 +1,111 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 2.16.840.1.113883.1.11.19563;JDV;JDV_HL7_PersonalRelationshipRoleType_CISIS.tabs;JDV_HL7_PersonalRelationshipRoleType_CISIS;;20210315000000;;20240718000000
-<OID>;<Code>;<Libellé> 
-;ADOPTF;Père adoptif
-;ADOPTM;Mère adoptive
-;ADOPTP;Parent adoptif, au sens père ou mère
-;AUNT;Tante
-;BRO;Frère
-;BROINLAW;Beau-frère
-;CHILD;Enfant
-;CHLDADOPT;Enfant adopté
-;CHLDFOST;Enfant placé en famille d'accueil
-;CHLDINLAW;Gendre ou belle-fille
-;COUSN;Cousin(e)
-;DAU;Fille biologique
-;DAUADOPT;Fille adoptive
-;DAUC;Fille
-;DAUFOST;Fille placée en famille d'accueil
-;DAUINLAW;Belle-fille
-;DOMPART;Concubin(e) ou partenaire PACS
-;EXT;Autre membre de la famille sans lien génétique direct
-;FAMMEMB;Autre membre de la famille
-;FMRSPS;Ancien époux ou ancienne épouse
-;FRND;Autre proche
-;FTH;Père
-;FTHFOST;Assistant familial - Famille d'accueil
-;FTHINLAW;Beau-père
-;FTWIN;Jumeau ou jumelle dizygote
-;FTWINBRO;Jumeau dizygote
-;FTWINSIS;Jumelle dizygote
-;GESTM;Mère porteuse
-;GGRFTH;Arrière-grand-père
-;GGRMTH;Arrière-grand-mère
-;GGRPRN;Arrière-grand-parent
-;GRFTH;Grand-père
-;GRMTH;Grand-mère
-;GRPRN;Grand-parent
-;GRNDCHILD;Petit-enfant
-;GRNDDAU;Petite-fille
-;GRNDSON;Petit-fils
-;HBRO;Demi-frère
-;HSIB;Demi-frère ou demi-sœur
-;HSIS;Demi-sœur
-;HUSB;Epoux
-;ITWIN;Jumeau ou jumelle monozygote
-;ITWINBRO;Jumeau monozygote
-;ITWINSIS;Jumelle monozygote
-;MAUNT;Tante maternelle
-;MCOUSN;Cousin (maternel)
-;MGGRFTH;Arrière-grand-père maternel
-;MGGRMTH;Arrière-grand-mère maternelle
-;MGGRPRN;Arrière grand parent maternel
-;MGRFTH;Grand-père maternel
-;MGRMTH;Grand-mère maternelle
-;MGRPRN;Grand parent maternel
-;MTH;Mère
-;MTHFOST;Assistante familiale - Famille d'accueil
-;MTHINLAW;Belle-mère
-;MUNCLE;Oncle maternel
-;NBOR;Voisin(e)
-;NBRO;Frère biologique
-;NCHILD;Enfant biologique
-;NEPHEW;Neveu
-;NFTH;Père biologique
-;NFTHF;Père biologique du fœtus
-;NIECE;Nièce
-;NIENEPH;Neveu ou nièce
-;NMTH;Mère biologique
-;NMTHF;Mère biologique du fœtus
-;NPRN;Parent biologique, au sens père ou mère
-;NSIB;Frère ou soeur biologique
-;NSIS;Soeur biologique
-;PAUNT;Tante paternelle
-;PCOUSN;Cousin (paternel)
-;PGGRFTH;Arrière-grand-père paternel
-;PGGRMTH;Arrière-grand-mère paternelle
-;PGGRPRN;Arrière grand parent paternel
-;PGRFTH;Grand-père paternel
-;PGRMTH;Grand-mère paternelle
-;PGRPRN;Grand parent paternel
-;PRN;Parent, au sens père ou mère
-;PRNINLAW;Beau-père ou belle-mère
-;PRNFOST;Parent, au sens famille d'accueil
-;PUNCLE;Oncle paternel
-;RESPRSN;Responsable légal non membre de la famille
-;ROOM;Personne vivant sous le même toit
-;SIB;Frère ou sœur
-;SIBINLAW;Beau-frère ou belle-sœur
-;SIGOTHR;Conjoint
-;SIS;Sœur
-;SISINLAW;Belle-sœur
-;SON;Fils biologique
-;SONADOPT;Fils adoptif
-;SONC;Fils
-;SONFOST;Garçon placé en famille d'accueil
-;SONINLAW;Gendre
-;SPS;Epoux ou épouse
-;STPBRO;Fils du beau-père ou de la belle-mère
-;STPFTH;Beau-père - époux du père ou de la mère
-;STPMTH;Belle-mère - épouse du père ou de la mère
-;STPCHLD;Enfant du conjoint, issu d'un mariage précédent
-;STPDAU;Fille du conjoint, issue d'un mariage précédent
-;STPPRN;Beau-père ou belle-mère - époux(se) du père ou de la mère
-;STPSIB;Enfant du beau-père ou de la belle-mère
-;STPSIS;Fille du beau-père ou de la belle-mère
-;STPSON;Fils du conjoint, issu d'un mariage précédent
-;TWIN;Frère jumeau ou soeur jumelle
-;TWINBRO;Frère jumeau
-;TWINSIS;Soeur jumelle
-;UNCLE;Oncle
-;WIFE;Epouse
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;ADOPTF;Père adoptif
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;ADOPTM;Mère adoptive
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;ADOPTP;Parent adoptif, au sens père ou mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;AUNT;Tante
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;BRO;Frère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;BROINLAW;Beau-frère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;CHILD;Enfant
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;CHLDADOPT;Enfant adopté
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;CHLDFOST;Enfant placé en famille d'accueil
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;CHLDINLAW;Gendre ou belle-fille
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;COUSN;Cousin(e)
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;DAU;Fille biologique
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;DAUADOPT;Fille adoptive
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;DAUC;Fille
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;DAUFOST;Fille placée en famille d'accueil
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;DAUINLAW;Belle-fille
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;DOMPART;Concubin(e) ou partenaire PACS
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;EXT;Autre membre de la famille sans lien génétique direct
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;FAMMEMB;Autre membre de la famille
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;FMRSPS;Ancien époux ou ancienne épouse
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;FRND;Autre proche
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;FTH;Père
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;FTHFOST;Assistant familial - Famille d'accueil
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;FTHINLAW;Beau-père
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;FTWIN;Jumeau ou jumelle dizygote
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;FTWINBRO;Jumeau dizygote
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;FTWINSIS;Jumelle dizygote
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GESTM;Mère porteuse
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GGRFTH;Arrière-grand-père
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GGRMTH;Arrière-grand-mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GGRPRN;Arrière-grand-parent
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GRFTH;Grand-père
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GRMTH;Grand-mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GRPRN;Grand-parent
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GRNDCHILD;Petit-enfant
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GRNDDAU;Petite-fille
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;GRNDSON;Petit-fils
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;HBRO;Demi-frère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;HSIB;Demi-frère ou demi-sœur
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;HSIS;Demi-sœur
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;HUSB;Epoux
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;ITWIN;Jumeau ou jumelle monozygote
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;ITWINBRO;Jumeau monozygote
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;ITWINSIS;Jumelle monozygote
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MAUNT;Tante maternelle
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MCOUSN;Cousin (maternel)
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MGGRFTH;Arrière-grand-père maternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MGGRMTH;Arrière-grand-mère maternelle
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MGGRPRN;Arrière grand parent maternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MGRFTH;Grand-père maternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MGRMTH;Grand-mère maternelle
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MGRPRN;Grand parent maternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MTH;Mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MTHFOST;Assistante familiale - Famille d'accueil
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MTHINLAW;Belle-mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;MUNCLE;Oncle maternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NBOR;Voisin(e)
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NBRO;Frère biologique
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NCHILD;Enfant biologique
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NEPHEW;Neveu
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NFTH;Père biologique
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NFTHF;Père biologique du fœtus
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NIECE;Nièce
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NIENEPH;Neveu ou nièce
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NMTH;Mère biologique
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NMTHF;Mère biologique du fœtus
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NPRN;Parent biologique, au sens père ou mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NSIB;Frère ou soeur biologique
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;NSIS;Soeur biologique
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PAUNT;Tante paternelle
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PCOUSN;Cousin (paternel)
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PGGRFTH;Arrière-grand-père paternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PGGRMTH;Arrière-grand-mère paternelle
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PGGRPRN;Arrière grand parent paternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PGRFTH;Grand-père paternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PGRMTH;Grand-mère paternelle
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PGRPRN;Grand parent paternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PRN;Parent, au sens père ou mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PRNINLAW;Beau-père ou belle-mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PRNFOST;Parent, au sens famille d'accueil
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;PUNCLE;Oncle paternel
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;RESPRSN;Responsable légal non membre de la famille
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;ROOM;Personne vivant sous le même toit
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SIB;Frère ou sœur
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SIBINLAW;Beau-frère ou belle-sœur
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SIGOTHR;Conjoint
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SIS;Sœur
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SISINLAW;Belle-sœur
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SON;Fils biologique
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SONADOPT;Fils adoptif
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SONC;Fils
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SONFOST;Garçon placé en famille d'accueil
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SONINLAW;Gendre
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;SPS;Epoux ou épouse
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;STPBRO;Fils du beau-père ou de la belle-mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;STPFTH;Beau-père - époux du père ou de la mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;STPMTH;Belle-mère - épouse du père ou de la mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;STPCHLD;Enfant du conjoint, issu d'un mariage précédent
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;STPDAU;Fille du conjoint, issue d'un mariage précédent
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;STPPRN;Beau-père ou belle-mère - époux(se) du père ou de la mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;STPSIB;Enfant du beau-père ou de la belle-mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;STPSIS;Fille du beau-père ou de la belle-mère
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;STPSON;Fils du conjoint, issu d'un mariage précédent
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;TWIN;Frère jumeau ou soeur jumelle
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;TWINBRO;Frère jumeau
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;TWINSIS;Soeur jumelle
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;UNCLE;Oncle
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;WIFE;Epouse

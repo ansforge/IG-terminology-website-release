@@ -37,8 +37,12 @@
          <Concept code="MED-1075"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Prisme - axe en degrés - verre prescrit"/>
-         <Concept code="74712-1" codeSystem="" displayName="Date de fin de validité"/>
-         <Concept code="95324-0" codeSystem="" displayName="Type de prisme"/>
+         <Concept code="74712-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Date de fin de validité"/>
+         <Concept code="95324-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Type de prisme"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-315" codeSystem="" displayName="ADN"/>
-         <Concept code="MED-316" codeSystem="" displayName="ARN"/>
+         <Concept code="MED-315"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ADN"/>
+         <Concept code="MED-316"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ARN"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

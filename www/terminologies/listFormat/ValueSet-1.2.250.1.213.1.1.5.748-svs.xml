@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-220" codeSystem="" displayName="Analgésie morphinique"/>
-         <Concept code="GEN-092.03.03" codeSystem="" displayName="Autre analgésie"/>
+         <Concept code="MED-220"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Analgésie morphinique"/>
+         <Concept code="GEN-092.03.03"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre analgésie"/>
          <Concept code="241717009"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="analgésie inhalatoire"/>

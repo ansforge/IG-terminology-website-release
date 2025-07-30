@@ -1,8 +1,8 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.656;JDV;JdvMesureLentilleDelivreeCisis.tabs;JDV Mesure Lentille Delivree CISIS;;20210924000000;;20250624152059
-<OID>;<Code>;<Libellé> 
-;C53610;Renouvellement
-;C43383;modèle
+<OID>;<Code>;<Libellé>
+2.16.840.1.113883.3.26.1.1;C53610;Renouvellement
+2.16.840.1.113883.3.26.1.1;C43383;modèle
 1.2.250.1.213.1.1.4.322;MED-1181;Date de délivrance
 1.2.250.1.213.1.1.4.322;MED-1183;Produit d'entretien
 1.2.250.1.213.1.1.4.322;MED-1180;Type de lentille
@@ -13,6 +13,6 @@
 1.2.250.1.213.1.1.4.322;GEN-092.08.04;Autre(s) paramètre(s)
 1.2.250.1.213.1.1.4.322;MED-1092;Puissance de la sphère – lentille délivrée
 1.2.250.1.213.1.1.4.322;MED-1093;Puissance du cylindre – lentille délivrée
-;95325-7;Axe en degrés des lentilles
-;28814-2;Addition – grandeur
-;28815-9;Addition – valeur
+2.16.840.1.113883.6.1;95325-7;Axe en degrés des lentilles
+2.16.840.1.113883.6.1;28814-2;Addition – grandeur
+2.16.840.1.113883.6.1;28815-9;Addition – valeur

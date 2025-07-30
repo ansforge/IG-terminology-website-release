@@ -11,24 +11,38 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-056"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Problèmes liés aux médicaments"/>
-         <Concept code="MED-057" codeSystem="" displayName="Problème de mobilité"/>
-         <Concept code="MED-058" codeSystem="" displayName="Isolement"/>
-         <Concept code="MED-059" codeSystem="" displayName="Précarité"/>
+         <Concept code="MED-057"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Problème de mobilité"/>
+         <Concept code="MED-058"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Isolement"/>
+         <Concept code="MED-059"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Précarité"/>
          <Concept code="MED-060"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Incapacité dans les activités de base de la vie quotidienne"/>
          <Concept code="MED-061"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Troubles nutritionnels / difficulté à avoir une alimentation adaptée"/>
          <Concept code="MED-062"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Difficulté à prendre soin de soi"/>
-         <Concept code="MED-063" codeSystem="" displayName="Troubles de l'humeur"/>
-         <Concept code="ORG-011" codeSystem="" displayName="Organisation du suivi"/>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
-         <Concept code="GEN-092.01.01" codeSystem="" displayName="Autre problème"/>
+         <Concept code="MED-063"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Troubles de l'humeur"/>
+         <Concept code="ORG-011"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Organisation du suivi"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
+         <Concept code="GEN-092.01.01"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre problème"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

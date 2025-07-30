@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="H" codeSystem="" displayName="Élevé"/>
-         <Concept code="L" codeSystem="" displayName="Bas"/>
-         <Concept code="M" codeSystem="" displayName="Modéré"/>
+         <Concept code="H"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+                  displayName="Élevé"/>
+         <Concept code="L"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+                  displayName="Bas"/>
+         <Concept code="M"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+                  displayName="Modéré"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

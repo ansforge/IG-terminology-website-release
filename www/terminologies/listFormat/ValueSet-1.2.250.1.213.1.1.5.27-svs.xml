@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-038" codeSystem="" displayName="Bénin"/>
-         <Concept code="GEN-103" codeSystem="" displayName="Normal"/>
-         <Concept code="GEN-011" codeSystem="" displayName="Refus"/>
-         <Concept code="GEN-039" codeSystem="" displayName="Suspect"/>
-         <Concept code="MED-117" codeSystem="" displayName="Asymétrie Mammaire"/>
+         <Concept code="GEN-038"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bénin"/>
+         <Concept code="GEN-103"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Normal"/>
+         <Concept code="GEN-011"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Refus"/>
+         <Concept code="GEN-039"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Suspect"/>
+         <Concept code="MED-117"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Asymétrie Mammaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

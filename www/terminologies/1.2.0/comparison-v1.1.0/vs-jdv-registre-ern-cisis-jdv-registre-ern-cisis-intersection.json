@@ -1,0 +1,119 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2520",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2520",
+  "name" : "IntersectionJdvRegistreErnCisisAndJdvRegistreErnCisis",
+  "title" : "Intersection of JDV Registre Ern CISIS And JDV Registre Ern CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-320",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN EuRREB"
+      },
+      {
+        "code" : "GEN-321",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN CRANIO"
+      },
+      {
+        "code" : "GEN-322",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN EpiCARE"
+      },
+      {
+        "code" : "GEN-323",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN ERKReg"
+      },
+      {
+        "code" : "GEN-324",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN RND"
+      },
+      {
+        "code" : "GEN-325",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN EPSA"
+      },
+      {
+        "code" : "GEN-326",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN LUNG"
+      },
+      {
+        "code" : "GEN-327",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN ERRAS"
+      },
+      {
+        "code" : "GEN-328",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN EURACAN"
+      },
+      {
+        "code" : "GEN-329",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN ENROL"
+      },
+      {
+        "code" : "GEN-330",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN eUROGEN"
+      },
+      {
+        "code" : "GEN-331",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN Euro-NMD"
+      },
+      {
+        "code" : "GEN-332",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN RED"
+      },
+      {
+        "code" : "GEN-333",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN GENTURIS"
+      },
+      {
+        "code" : "GEN-334",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN cond-GUARD-HEART"
+      },
+      {
+        "code" : "GEN-335",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core"
+      },
+      {
+        "code" : "GEN-336",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN ILIAD"
+      },
+      {
+        "code" : "GEN-337",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN UIMD"
+      },
+      {
+        "code" : "GEN-338",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN PaedCan"
+      },
+      {
+        "code" : "GEN-339",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN R-Liver"
+      },
+      {
+        "code" : "GEN-340",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN TogethERN"
+      },
+      {
+        "code" : "GEN-341",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN RITA"
+      },
+      {
+        "code" : "GEN-342",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN PETER"
+      },
+      {
+        "code" : "GEN-343",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre ERN VASCERN"
+      },
+      {
+        "code" : "GEN-373",
+        "display" : "Le patient a signé son consentement à la transmission des données au registre Endo-ERN EuRREB"
+      }]
+    }]
+  }
+}

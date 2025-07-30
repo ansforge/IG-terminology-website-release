@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2406",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2406",
+  "name" : "IntersectionJdvNiveauEtudeCisisAndJdvNiveauEtudeCisis",
+  "title" : "Intersection of JDV Niveau Etude CISIS And JDV Niveau Etude CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "PAT-035",
+        "display" : "Ecole primaire"
+      },
+      {
+        "code" : "PAT-036",
+        "display" : "Collège"
+      },
+      {
+        "code" : "PAT-037",
+        "display" : "Lycée"
+      },
+      {
+        "code" : "PAT-038",
+        "display" : "Bac +1 ou +2"
+      },
+      {
+        "code" : "PAT-039",
+        "display" : "Bac +3 et +"
+      }]
+    }]
+  }
+}

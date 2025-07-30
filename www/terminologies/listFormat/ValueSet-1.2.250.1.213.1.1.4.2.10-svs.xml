@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="D0012-1" codeSystem="" displayName="Homogreffe"/>
-         <Concept code="D0012-2" codeSystem="" displayName="Autogreffe"/>
+         <Concept code="D0012-1"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Homogreffe"/>
+         <Concept code="D0012-2"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autogreffe"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

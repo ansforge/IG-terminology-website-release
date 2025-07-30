@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2379",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2379",
+  "name" : "IntersectionJdvNihssLangageCisisAndJdvNihssLangageCisis",
+  "title" : "Intersection of JDV Nihss Langage CISIS And JDV Nihss Langage CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA18471-5",
+        "display" : "Normal, pas d’aphasie."
+      },
+      {
+        "code" : "LA18472-3",
+        "display" : "Aphasie discrète à modérée."
+      },
+      {
+        "code" : "LA18473-1",
+        "display" : "Aphasie sévère"
+      },
+      {
+        "code" : "LA18474-9",
+        "display" : "Mutisme; aphasie globale"
+      }]
+    }]
+  }
+}

@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="CIRCLE" codeSystem="" displayName="Cercle"/>
-         <Concept code="ELLIPSE" codeSystem="" displayName="Elipse"/>
-         <Concept code="POINT" codeSystem="" displayName="Point"/>
-         <Concept code="POLY" codeSystem="" displayName="Multi"/>
+         <Concept code="CIRCLE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Cercle"/>
+         <Concept code="ELLIPSE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Elipse"/>
+         <Concept code="POINT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Point"/>
+         <Concept code="POLY"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Multi"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

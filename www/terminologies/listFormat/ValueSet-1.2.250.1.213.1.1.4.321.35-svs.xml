@@ -10,15 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-103" codeSystem="" displayName="Normal"/>
+         <Concept code="GEN-103"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Normal"/>
          <Concept code="AVC-058"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="discrète à modérée; le patient n’articule pas bien au moins quelques mots et, au pire, peut être compris avec quelques difficultés."/>
          <Concept code="AVC-059"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="sévère: le discours du patient est tellement mal articulé qu'il devient inintelligible en l'absence ou hors de proportion avec toute éventuelle aphasie ou est mutique, anarthrique."/>
          <Concept code="AVC-060"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="intubation, autre obstacle mécanique (expliquer)"/>
       </ConceptList>
    </ValueSet>

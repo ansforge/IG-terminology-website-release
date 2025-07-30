@@ -11,12 +11,14 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C14158"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Haut grade (peu différencié ou indifférencié)"/>
          <Concept code="C14161"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Bas grade (bien ou moyennement différencié)"/>
-         <Concept code="C62222" codeSystem="" displayName="Non évaluable"/>
+         <Concept code="C62222"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Non évaluable"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

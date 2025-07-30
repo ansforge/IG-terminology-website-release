@@ -38,23 +38,25 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Motif d'hospitalisation"/>
          <Concept code="8348-5"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Poids corporel avant grossesse"/>
-         <Concept code="8302-2" codeSystem="" displayName="Taille"/>
+         <Concept code="8302-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Taille"/>
          <Concept code="11637-6"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Nombre d'enfants prématurés (nés avant 37 semaines)"/>
          <Concept code="11977-6"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Parité (nombre total d'accouchements y compris actuel)"/>
          <Concept code="11996-6"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Gestité (nombre total de grossesses y compris actuelle)"/>
          <Concept code="57062-2"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Nombre d'enfants mort-nés"/>
          <Concept code="75200-6"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Date de la première consultation (déclaration de grossesse)"/>
       </ConceptList>
    </ValueSet>

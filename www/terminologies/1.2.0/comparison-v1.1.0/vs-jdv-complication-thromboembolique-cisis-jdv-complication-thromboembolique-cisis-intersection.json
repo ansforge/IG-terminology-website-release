@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1791",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1791",
+  "name" : "IntersectionJdvComplicationThromboemboliqueCisisAndJdvComplicationThromboemboliqueCisis",
+  "title" : "Intersection of JDV Complication Thromboembolique CISIS And JDV Complication Thromboembolique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "I26",
+        "display" : "Embolie pulmonaire"
+      },
+      {
+        "code" : "I80.2",
+        "display" : "Phlébite et thrombophlébite d'autres vaisseaux profonds des membres inférieurs"
+      },
+      {
+        "code" : "I82.9",
+        "display" : "Embolie et thrombose d'une veine non précisée"
+      }]
+    }]
+  }
+}

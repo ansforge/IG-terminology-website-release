@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="unconfirmed" codeSystem="" displayName="Non confirmé"/>
-         <Concept code="confirmed" codeSystem="" displayName="Confirmé"/>
-         <Concept code="refuted" codeSystem="" displayName="Réfuté"/>
+         <Concept code="unconfirmed"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/condition-ver-status"
+                  displayName="Non confirmé"/>
+         <Concept code="confirmed"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/condition-ver-status"
+                  displayName="Confirmé"/>
+         <Concept code="refuted"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/condition-ver-status"
+                  displayName="Réfuté"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,9 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-141" codeSystem="" displayName="Unité Kangourou"/>
+         <Concept code="ORG-141"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Unité Kangourou"/>
          <Concept code="GEN-092.06.05"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre type de service"/>
          <Concept code="309904001"
                   codeSystem="2.16.840.1.113883.6.96"

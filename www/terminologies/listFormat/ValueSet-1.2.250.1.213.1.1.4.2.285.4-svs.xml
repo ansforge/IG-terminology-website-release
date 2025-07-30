@@ -11,9 +11,11 @@
              urlFichier="">
       <ConceptList>
          <Concept code="EDAP_011"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
                   displayName="Prise de connaissance de l'information"/>
-         <Concept code="EDAP_012" codeSystem="" displayName="Autres directives"/>
+         <Concept code="EDAP_012"
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
+                  displayName="Autres directives"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

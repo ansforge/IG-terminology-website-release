@@ -10,20 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="289854007" codeSystem="" displayName="périnée intact"/>
+         <Concept code="289854007"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="périnée intact"/>
          <Concept code="O70.0"
-                  codeSystem=""
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
                   displayName="Déchirure obstétricale du périnée, du premier degré"/>
          <Concept code="O70.1"
-                  codeSystem=""
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
                   displayName="Déchirure obstétricale du périnée, du deuxième degré"/>
          <Concept code="O70.2"
-                  codeSystem=""
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
                   displayName="Déchirure obstétricale du périnée, du troisième degré"/>
          <Concept code="O70.3"
-                  codeSystem=""
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
                   displayName="Déchirure obstétricale du périnée, du quatrième degré"/>
-         <Concept code="860603002" codeSystem="" displayName="plaie d'épisiotomie"/>
+         <Concept code="860603002"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="plaie d'épisiotomie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

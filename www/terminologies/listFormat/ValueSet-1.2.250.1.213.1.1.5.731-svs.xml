@@ -10,16 +10,26 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="236973005" codeSystem="" displayName="Accouchement"/>
-         <Concept code="O01" codeSystem="" displayName="Môle hydatiforme"/>
-         <Concept code="O00" codeSystem="" displayName="Grossesse extra-utérine"/>
-         <Concept code="O03" codeSystem="" displayName="Avortement spontané"/>
+         <Concept code="236973005"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="Accouchement"/>
+         <Concept code="O01"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
+                  displayName="Môle hydatiforme"/>
+         <Concept code="O00"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
+                  displayName="Grossesse extra-utérine"/>
+         <Concept code="O03"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
+                  displayName="Avortement spontané"/>
          <Concept code="O04.-0"
-                  codeSystem=""
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
                   displayName="Interruption médicale volontaire de grossesse [IVG dans le cadre légal]"/>
-         <Concept code="O04" codeSystem="" displayName="Avortement médical"/>
+         <Concept code="O04"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
+                  displayName="Avortement médical"/>
          <Concept code="P95"
-                  codeSystem=""
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
                   displayName="Mort fœtale (de cause non précisée)"/>
       </ConceptList>
    </ValueSet>

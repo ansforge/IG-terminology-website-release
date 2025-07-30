@@ -11,21 +11,23 @@
              urlFichier="">
       <ConceptList>
          <Concept code="1061"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT0: No evidence of primary tumor"/>
          <Concept code="1062"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pTis: Intratubular germ cell neoplasia (carcinoma in situ)"/>
          <Concept code="1063"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT1: Tumor limited to the testis and epididymis without vascular/lymphatic invasion; tumor may invade tunica albuginea but not tunica vaginalis"/>
          <Concept code="1064"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT2: Tumor limited to the testis and epididymis with vascular/lymphatic invasion, or tumor extending through the tunica albuginea with involvement of the tunica vaginalis"/>
          <Concept code="1065"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT3: Tumor invades the spermatic cord with or without vascular/lymphatic invasion"/>
-         <Concept code="1066" codeSystem="" displayName="pTX: Cannot be assessed"/>
+         <Concept code="1066"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="pTX: Cannot be assessed"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -11,19 +11,23 @@
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J153-TypeDiabete-ENS">
       <ConceptList>
          <Concept code="E11.x0"
-                  codeSystem=""
+                  codeSystem="https://mos.esante.gouv.fr/NOS/TRE_R311-RegroupementSurCIM10ATIH/FHIR/TRE-R311-RegroupementSurCIM10ATIH"
                   displayName="Diabète type 2 insulinotraité"/>
          <Concept code="E11.x8"
-                  codeSystem=""
+                  codeSystem="https://mos.esante.gouv.fr/NOS/TRE_R311-RegroupementSurCIM10ATIH/FHIR/TRE-R311-RegroupementSurCIM10ATIH"
                   displayName="Diabète type 2 non insulinotraité"/>
-         <Concept code="E10" codeSystem="" displayName="Diabète sucré de type 1"/>
+         <Concept code="E10"
+                  codeSystem="https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10ATIH/FHIR/TRE-R310-CIM10ATIH"
+                  displayName="Diabète sucré de type 1"/>
          <Concept code="O24.4"
-                  codeSystem=""
+                  codeSystem="https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10ATIH/FHIR/TRE-R310-CIM10ATIH"
                   displayName="Diabète sucré survenant au cours de la grossesse"/>
          <Concept code="E14"
-                  codeSystem=""
+                  codeSystem="https://mos.esante.gouv.fr/NOS/TRE_R310-CIM10ATIH/FHIR/TRE-R310-CIM10ATIH"
                   displayName="Diabète sucré, sans précision"/>
-         <Concept code="MED-874" codeSystem="" displayName="Non diabétique"/>
+         <Concept code="MED-874"
+                  codeSystem="https://mos.esante.gouv.fr/NOS/TRE_R308-TAASIP/FHIR/TRE-R308-TAASIP"
+                  displayName="Non diabétique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2648",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2648",
+  "name" : "UnionJdvScoreFisherCisisAndJdvScoreFisherCisis",
+  "title" : "Union of JDV Score Fisher CISIS And JDV Score Fisher CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-388",
+        "display" : "Absence de sang"
+      },
+      {
+        "code" : "MED-389",
+        "display" : "Dépôts de moins de 1 mm d'épaisseur"
+      },
+      {
+        "code" : "MED-390",
+        "display" : "Dépôts de plus de 1 mm d'épaisseur"
+      },
+      {
+        "code" : "MED-391",
+        "display" : "Hématome parenchymateux ou hémorragie ventriculaire"
+      }]
+    }]
+  }
+}

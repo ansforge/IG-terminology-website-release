@@ -1,0 +1,326 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-114",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/41d026bd-9ab2-44e3-bf59-97ef030ccee7-114",
+  "name" : "IntersectionTRE_R04_TypeSavoirFaireAndTRE_R04_TypeSavoirFaire",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:25+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "C",
+    "display" : "Compétence",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    }]
+  },
+  {
+    "code" : "CAPA",
+    "display" : "Capacité",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    }]
+  },
+  {
+    "code" : "CEX",
+    "display" : "Compétence exclusive",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    }]
+  },
+  {
+    "code" : "CM",
+    "display" : "Compétence métier",
+    "definition" : "La\u00a0compétence métier\u00a0désigne un type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. Elle reflète une expertise fonctionnelle ou technique mobilisée dans l’exercice quotidien du professionnel de santé. Contrairement aux\u00a0spécialités ordinales\u00a0ou\u00a0compétences de médecines, la compétence métier n’est pas nécessairement encadrée par un diplôme ou une qualification ordinale, mais elle peut être attestée par l’expérience, des formations spécifiques, ou une reconnaissance institutionnelle (ex. : missions ANS, ARS, établissements de santé, etc.). Dans le cadre du modèle, la\u00a0classe CompétenceMetier\u00a0est représentée comme une spécialisation de la classe\u00a0SavoirFaire, i-e un TypeDeSavoirFaire et à ce titre, elle hérite des attributs et des associations de cette classe. Elle se distingue des autres types de savoir-faire par son ancrage dans les pratiques professionnelles et organisationnelles, plutôt que dans une logique de qualification médicale ou réglementaire.",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-25T15:04:43+01:00"
+    }]
+  },
+  {
+    "code" : "DEC",
+    "display" : "Droit d'exercice complémentaire",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Droit d'exercice complément"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "DNQ",
+    "display" : "DESC non qualifiant",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    }]
+  },
+  {
+    "code" : "FQ",
+    "display" : "Fonction qualifiée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "OP",
+    "display" : "Orientation particulière",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "PAC",
+    "display" : "Qualification PAC",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Qualification Praticien adjoint contractuel (PAC)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "S",
+    "display" : "Spécialité ordinale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "SH",
+    "display" : "Spécialité de concours hospitalier",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Spéc de concours hospitalier"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:43+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "SST",
+    "display" : "Surspécialité de Formation Spécialisée Transversale (FST)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Surspécialité transversale"
+    },
+    {
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Surspécialité acquise à l'issue d'une Formation Spécialisée Transversale (FST)"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-10-30T12:00:00+01:00"
+    }]
+  }]
+}

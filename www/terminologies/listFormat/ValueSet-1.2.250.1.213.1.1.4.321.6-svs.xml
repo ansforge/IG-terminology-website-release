@@ -10,17 +10,35 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="F-F6006" codeSystem="" displayName="vertige rotatoire"/>
-         <Concept code="DF-D1670" codeSystem="" displayName="négligence"/>
-         <Concept code="F-11306" codeSystem="" displayName="drop attack"/>
-         <Concept code="F-A2700" codeSystem="" displayName="céphalée"/>
-         <Concept code="F-A5560" codeSystem="" displayName="trouble de la conscience"/>
-         <Concept code="F-A5562" codeSystem="" displayName="confusion"/>
-         <Concept code="F-A6000" codeSystem="" displayName="Aphasie"/>
-         <Concept code="F-A6660" codeSystem="" displayName="dysarthrie"/>
-         <Concept code="F-F7030" codeSystem="" displayName="mutisme"/>
+         <Concept code="F-F6006"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="vertige rotatoire"/>
+         <Concept code="DF-D1670"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="négligence"/>
+         <Concept code="F-11306"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="drop attack"/>
+         <Concept code="F-A2700"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="céphalée"/>
+         <Concept code="F-A5560"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="trouble de la conscience"/>
+         <Concept code="F-A5562"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="confusion"/>
+         <Concept code="F-A6000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Aphasie"/>
+         <Concept code="F-A6660"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="dysarthrie"/>
+         <Concept code="F-F7030"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="mutisme"/>
          <Concept code="G90.9"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Instabilité neuro-végétative"/>
       </ConceptList>
    </ValueSet>

@@ -10,24 +10,54 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="DEF" codeSystem="" displayName="Définition"/>
-         <Concept code="PERM" codeSystem="" displayName="Permission"/>
+         <Concept code="DEF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Définition"/>
+         <Concept code="PERM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Permission"/>
          <Concept code="SLOT"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
                   displayName="Possible sur la période spécifiée"/>
-         <Concept code="EVN" codeSystem="" displayName="Réalisé"/>
-         <Concept code="INT" codeSystem="" displayName="Prévu"/>
-         <Concept code="ARQ" codeSystem="" displayName="Prévu mais non confirmé"/>
-         <Concept code="PERMRQ" codeSystem="" displayName="Demande d'autorisation"/>
-         <Concept code="RQO" codeSystem="" displayName="Demande"/>
-         <Concept code="PRP" codeSystem="" displayName="Proposition"/>
-         <Concept code="RMD" codeSystem="" displayName="Recommandation"/>
-         <Concept code="PRMS" codeSystem="" displayName="Planifié et confirmé"/>
-         <Concept code="APT" codeSystem="" displayName="Date et lieu confirmé"/>
-         <Concept code="EXPEC" codeSystem="" displayName="Attendu"/>
-         <Concept code="GOL" codeSystem="" displayName="But"/>
-         <Concept code="RSK" codeSystem="" displayName="Risque"/>
-         <Concept code="OPT" codeSystem="" displayName="Option"/>
+         <Concept code="EVN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Réalisé"/>
+         <Concept code="INT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Prévu"/>
+         <Concept code="ARQ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Prévu mais non confirmé"/>
+         <Concept code="PERMRQ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Demande d'autorisation"/>
+         <Concept code="RQO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Demande"/>
+         <Concept code="PRP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Proposition"/>
+         <Concept code="RMD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Recommandation"/>
+         <Concept code="PRMS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Planifié et confirmé"/>
+         <Concept code="APT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Date et lieu confirmé"/>
+         <Concept code="EXPEC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Attendu"/>
+         <Concept code="GOL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="But"/>
+         <Concept code="RSK"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Risque"/>
+         <Concept code="OPT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Option"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,15 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="P95" codeSystem="" displayName="Mort fœtale"/>
-         <Concept code="OBS_111" codeSystem="" displayName="Vivant"/>
+         <Concept code="P95"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Mort fœtale"/>
+         <Concept code="OBS_111"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Vivant"/>
          <Concept code="OBS_112"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Né vivant décédé &lt; 28 jours"/>
          <Concept code="OBS_113"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Né vivant décédé &gt;= 28 jours"/>
-         <Concept code="F-88450" codeSystem="" displayName="Mort-né"/>
+         <Concept code="F-88450"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Mort-né"/>
          <Concept code="240297000"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="mort infantile"/>

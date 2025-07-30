@@ -11,14 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="LA18448-3"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Aucun trouble du champ visuel"/>
          <Concept code="LA18449-1"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Hémianopsie partielle (ou extinction visuelle)."/>
-         <Concept code="LA18450-9" codeSystem="" displayName="Hémianopsie complète."/>
+         <Concept code="LA18450-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Hémianopsie complète."/>
          <Concept code="LA18451-7"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Hémianopsie bilatérale (incluant cécité corticale)."/>
       </ConceptList>
    </ValueSet>

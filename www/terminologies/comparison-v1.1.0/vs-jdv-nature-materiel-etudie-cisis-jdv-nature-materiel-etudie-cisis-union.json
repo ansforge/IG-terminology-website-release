@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2357",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2357",
+  "name" : "UnionJdvNatureMaterielEtudieCisisAndJdvNatureMaterielEtudieCisis",
+  "title" : "Union of JDV Nature Materiel Etudie CISIS And JDV Nature Materiel Etudie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-310",
+        "display" : "Bloc tissulaire parafiné"
+      },
+      {
+        "code" : "MED-311",
+        "display" : "Lame"
+      },
+      {
+        "code" : "MED-312",
+        "display" : "Copeaux"
+      },
+      {
+        "code" : "MED-313",
+        "display" : "Punch"
+      },
+      {
+        "code" : "MED-314",
+        "display" : "Tissu congelé"
+      },
+      {
+        "code" : "MED-315",
+        "display" : "ADN"
+      },
+      {
+        "code" : "MED-316",
+        "display" : "ARN"
+      },
+      {
+        "code" : "GEN-092.07.01",
+        "display" : "Autre nature du matériel étudié"
+      }]
+    }]
+  }
+}

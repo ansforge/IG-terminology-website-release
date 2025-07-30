@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2763",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2763",
+  "name" : "IntersectionJdvTnmPtnmPnCisisAndJdvTnmPtnmPnCisis",
+  "title" : "Intersection of JDV Tnm Ptnm Pn CISIS And JDV Tnm Ptnm Pn CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-795",
+        "display" : "Ganglions  lymphatiques régionaux non évaluables"
+      },
+      {
+        "code" : "MED-796",
+        "display" : "Pas de métastase ganglionnaire lymphatique régionale"
+      },
+      {
+        "code" : "MED-797",
+        "display" : "Métastase dans 1 ganglion lymphatique régional"
+      },
+      {
+        "code" : "MED-798",
+        "display" : "Métastases dans 2 ou 3 ganglions lymphatiques régionaux"
+      },
+      {
+        "code" : "MED-799",
+        "display" : "Présence de dépôt(s) tumoral(aux) sans métastase ganglionnaire lymphatique régionale"
+      },
+      {
+        "code" : "MED-800",
+        "display" : "Métastases dans 4 à 6 ganglions lymphatiques régionaux"
+      },
+      {
+        "code" : "MED-801",
+        "display" : "Métastases dans plus de 6 ganglions lymphatiques régionaux"
+      }]
+    }]
+  }
+}

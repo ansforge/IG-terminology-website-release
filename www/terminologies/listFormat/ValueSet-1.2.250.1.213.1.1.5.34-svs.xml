@@ -10,9 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C81" codeSystem="" displayName="Lymphome de Hodgkin"/>
+         <Concept code="C81"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Lymphome de Hodgkin"/>
          <Concept code="D48.6"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Tumeur à évolution imprévisible et inconnue du sein"/>
          <Concept code="443508001"
                   codeSystem="2.16.840.1.113883.6.96"

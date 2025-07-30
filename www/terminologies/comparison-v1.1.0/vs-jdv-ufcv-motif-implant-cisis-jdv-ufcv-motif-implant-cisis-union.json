@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2975",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2975",
+  "name" : "UnionJdvUfcvMotifImplantCisisAndJdvUfcvMotifImplantCisis",
+  "title" : "Union of JDV UFCV Motif Implant CISIS And JDV UFCV Motif Implant CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G45.9",
+        "display" : "Accident ischémique cérébral transitoire, sans précision"
+      },
+      {
+        "code" : "I20.9",
+        "display" : "Angine de poitrine, sans précision"
+      },
+      {
+        "code" : "I64",
+        "display" : "Accident vasculaire cérébral, non précisé comme étant hémorragique ou par infarctus"
+      },
+      {
+        "code" : "I65.2",
+        "display" : "Occlusion et sténose de l'artère carotide"
+      },
+      {
+        "code" : "I74.3",
+        "display" : "Embolie et thrombose des artères des membres inférieurs"
+      },
+      {
+        "code" : "I74.4",
+        "display" : "Embolie et thrombose des artères distales, sans précision"
+      },
+      {
+        "code" : "K55",
+        "display" : "Troubles vasculaires de l'intestin"
+      },
+      {
+        "code" : "N28.0",
+        "display" : "Ischémie et infarctus du rein"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1317",
+        "display" : "Prévention primaire d'un sujet à haut risque"
+      }]
+    }]
+  }
+}

@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="625" codeSystem="" displayName="Expansif"/>
-         <Concept code="626" codeSystem="" displayName="Infiltrant"/>
+         <Concept code="625"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Expansif"/>
+         <Concept code="626"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Infiltrant"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

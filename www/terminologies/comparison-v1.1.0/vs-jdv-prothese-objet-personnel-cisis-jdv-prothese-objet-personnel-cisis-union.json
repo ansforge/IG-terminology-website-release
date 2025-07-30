@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2480",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2480",
+  "name" : "UnionJdvProtheseObjetPersonnelCisisAndJdvProtheseObjetPersonnelCisis",
+  "title" : "Union of JDV Prothese Objet Personnel CISIS And JDV Prothese Objet Personnel CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.02.01",
+        "display" : "Autre dispositif ou objet personnel"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "Q021003",
+        "display" : "LUNETTES PRÊTES À PORTER (OU LUNETTES MONTÉES)"
+      },
+      {
+        "code" : "P0102",
+        "display" : "PROTHÈSES DENTAIRES"
+      },
+      {
+        "code" : "Y2145",
+        "display" : "DISPOSITIFS ACCOUSTIQUES D'AIDE À L'AUDITION"
+      }]
+    }]
+  }
+}

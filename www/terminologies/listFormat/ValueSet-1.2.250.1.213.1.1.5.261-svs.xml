@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="554" codeSystem="" displayName="Corps utérin"/>
-         <Concept code="555" codeSystem="" displayName="Isthme"/>
+         <Concept code="554"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Corps utérin"/>
+         <Concept code="555"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Isthme"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

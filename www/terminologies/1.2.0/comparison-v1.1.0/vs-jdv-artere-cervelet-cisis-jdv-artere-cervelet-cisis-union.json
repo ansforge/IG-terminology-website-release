@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1688",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1688",
+  "name" : "UnionJdvArtereCerveletCisisAndJdvArtereCerveletCisis",
+  "title" : "Union of JDV Artere Cervelet CISIS And JDV Artere Cervelet CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-489",
+        "display" : "Artère cérébelleuse inférieure (ACI)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "17232002",
+        "display" : "artère cérébrale moyenne"
+      },
+      {
+        "code" : "51691006",
+        "display" : "artère cérébelleuse supérieure"
+      },
+      {
+        "code" : "38608005",
+        "display" : "artère cérébelleuse"
+      }]
+    }]
+  }
+}

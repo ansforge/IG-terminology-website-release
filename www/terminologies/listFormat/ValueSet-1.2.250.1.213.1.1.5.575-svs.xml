@@ -11,9 +11,11 @@
              urlFichier="">
       <ConceptList>
          <Concept code="GEN-261"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Information non disponible"/>
-         <Concept code="MED-783" codeSystem="" displayName="Métastase(s) présente(s)"/>
+         <Concept code="MED-783"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Métastase(s) présente(s)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

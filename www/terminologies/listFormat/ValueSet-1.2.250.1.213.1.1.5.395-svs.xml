@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1034" codeSystem="" displayName="Extension périprostatique"/>
-         <Concept code="1035" codeSystem="" displayName="Organes adjacents, préciser"/>
+         <Concept code="1034"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Extension périprostatique"/>
+         <Concept code="1035"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Organes adjacents, préciser"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

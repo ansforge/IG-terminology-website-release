@@ -10,52 +10,144 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="24028007" codeSystem="" displayName="droit"/>
-         <Concept code="7771000" codeSystem="" displayName="gauche"/>
-         <Concept code="51440002" codeSystem="" displayName="bilatéral"/>
-         <Concept code="66459002" codeSystem="" displayName="unilatéral(e)"/>
-         <Concept code="49370004" codeSystem="" displayName="latéral(e)"/>
-         <Concept code="260528009" codeSystem="" displayName="médian(e)"/>
-         <Concept code="255549009" codeSystem="" displayName="antérieur(e)"/>
-         <Concept code="255551008" codeSystem="" displayName="postérieur(e)"/>
-         <Concept code="66787007" codeSystem="" displayName="céphalique"/>
-         <Concept code="3583002" codeSystem="" displayName="caudal(e)"/>
-         <Concept code="255561001" codeSystem="" displayName="médial(e)"/>
-         <Concept code="26216008" codeSystem="" displayName="central(e)"/>
-         <Concept code="14414005" codeSystem="" displayName="périphérique"/>
-         <Concept code="261074009" codeSystem="" displayName="externe"/>
-         <Concept code="260521003" codeSystem="" displayName="interne"/>
-         <Concept code="11896004" codeSystem="" displayName="intermédiaire"/>
-         <Concept code="261089000" codeSystem="" displayName="inférieur(e)"/>
-         <Concept code="264217000" codeSystem="" displayName="supérieur(e)"/>
-         <Concept code="62824007" codeSystem="" displayName="transverse"/>
-         <Concept code="40415009" codeSystem="" displayName="proximal(e)"/>
-         <Concept code="46053002" codeSystem="" displayName="distal(e)"/>
-         <Concept code="60583000" codeSystem="" displayName="postaxial"/>
-         <Concept code="32400000" codeSystem="" displayName="préaxial"/>
-         <Concept code="43674008" codeSystem="" displayName="apical(e)"/>
-         <Concept code="57195005" codeSystem="" displayName="basal(e)"/>
-         <Concept code="49530007" codeSystem="" displayName="afférent(e)"/>
-         <Concept code="33843005" codeSystem="" displayName="efférent(e)"/>
-         <Concept code="81654009" codeSystem="" displayName="coronal(e)"/>
-         <Concept code="26283006" codeSystem="" displayName="superficiel(le)"/>
-         <Concept code="795002" codeSystem="" displayName="profond(e)"/>
-         <Concept code="24020000" codeSystem="" displayName="horizontal(e)"/>
-         <Concept code="38717003" codeSystem="" displayName="longitudinal(e)"/>
-         <Concept code="33096000" codeSystem="" displayName="vertical(e)"/>
-         <Concept code="30730003" codeSystem="" displayName="sagital(le)"/>
-         <Concept code="24422004" codeSystem="" displayName="axial(e)"/>
-         <Concept code="87687004" codeSystem="" displayName="extra-articulaire"/>
-         <Concept code="410679008" codeSystem="" displayName="surface"/>
-         <Concept code="68493006" codeSystem="" displayName="gouttière"/>
-         <Concept code="32381004" codeSystem="" displayName="hilaire"/>
-         <Concept code="11070000" codeSystem="" displayName="capsulaire"/>
-         <Concept code="61397002" codeSystem="" displayName="sous-capsulaire"/>
-         <Concept code="57183005" codeSystem="" displayName="le long d'un bord"/>
-         <Concept code="37197008" codeSystem="" displayName="antérolatéral(e)"/>
-         <Concept code="90069004" codeSystem="" displayName="postérolatéral(e)"/>
-         <Concept code="131183008" codeSystem="" displayName="intra-articulaire"/>
-         <Concept code="112233002" codeSystem="" displayName="marginal"/>
+         <Concept code="24028007"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="droit"/>
+         <Concept code="7771000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="gauche"/>
+         <Concept code="51440002"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="bilatéral"/>
+         <Concept code="66459002"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="unilatéral(e)"/>
+         <Concept code="49370004"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="latéral(e)"/>
+         <Concept code="260528009"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="médian(e)"/>
+         <Concept code="255549009"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="antérieur(e)"/>
+         <Concept code="255551008"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="postérieur(e)"/>
+         <Concept code="66787007"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="céphalique"/>
+         <Concept code="3583002"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="caudal(e)"/>
+         <Concept code="255561001"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="médial(e)"/>
+         <Concept code="26216008"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="central(e)"/>
+         <Concept code="14414005"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="périphérique"/>
+         <Concept code="261074009"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="externe"/>
+         <Concept code="260521003"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="interne"/>
+         <Concept code="11896004"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="intermédiaire"/>
+         <Concept code="261089000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="inférieur(e)"/>
+         <Concept code="264217000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="supérieur(e)"/>
+         <Concept code="62824007"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="transverse"/>
+         <Concept code="40415009"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="proximal(e)"/>
+         <Concept code="46053002"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="distal(e)"/>
+         <Concept code="60583000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="postaxial"/>
+         <Concept code="32400000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="préaxial"/>
+         <Concept code="43674008"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="apical(e)"/>
+         <Concept code="57195005"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="basal(e)"/>
+         <Concept code="49530007"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="afférent(e)"/>
+         <Concept code="33843005"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="efférent(e)"/>
+         <Concept code="81654009"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="coronal(e)"/>
+         <Concept code="26283006"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="superficiel(le)"/>
+         <Concept code="795002"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="profond(e)"/>
+         <Concept code="24020000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="horizontal(e)"/>
+         <Concept code="38717003"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="longitudinal(e)"/>
+         <Concept code="33096000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="vertical(e)"/>
+         <Concept code="30730003"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="sagital(le)"/>
+         <Concept code="24422004"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="axial(e)"/>
+         <Concept code="87687004"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="extra-articulaire"/>
+         <Concept code="410679008"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="surface"/>
+         <Concept code="68493006"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="gouttière"/>
+         <Concept code="32381004"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="hilaire"/>
+         <Concept code="11070000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="capsulaire"/>
+         <Concept code="61397002"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="sous-capsulaire"/>
+         <Concept code="57183005"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="le long d'un bord"/>
+         <Concept code="37197008"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="antérolatéral(e)"/>
+         <Concept code="90069004"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="postérolatéral(e)"/>
+         <Concept code="131183008"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="intra-articulaire"/>
+         <Concept code="112233002"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="marginal"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

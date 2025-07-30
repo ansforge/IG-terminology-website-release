@@ -1,0 +1,301 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-251",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/41d026bd-9ab2-44e3-bf59-97ef030ccee7-251",
+  "name" : "UnionTRE_R233_TypeFermetureEGAndTRE_R233_TypeFermetureEG",
+  "title" : "Union of null And null",
+  "status" : "retired",
+  "date" : "2025-07-30T08:02:25+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "CHP",
+    "display" : "Sortie du champ FINESS",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DEF",
+    "display" : "Définitive",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "EML",
+    "display" : "Ancienne autorisation fonctionnement EML",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Anc autor fonct EML"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ERR",
+    "display" : "Erreur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PRO",
+    "display" : "Provisoire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-07-07T10:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2019-01-25T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  }]
+}

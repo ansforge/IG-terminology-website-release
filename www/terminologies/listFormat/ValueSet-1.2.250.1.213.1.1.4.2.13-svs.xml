@@ -11,29 +11,31 @@
              urlFichier="">
       <ConceptList>
          <Concept code="G45.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Accident ischémique cérébral transitoire, sans précision"/>
-         <Concept code="I20.9" codeSystem="" displayName="Syndrôme angineux"/>
+         <Concept code="I20.9"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Syndrôme angineux"/>
          <Concept code="I64"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Accident vasculaire cérébral, non précisé comme étant hémorragique ou par infarctus"/>
          <Concept code="I65.2"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Occlusion et sténose de l'artère carotide"/>
          <Concept code="I74.3"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Embolie et thrombose des artères des membres inférieurs"/>
          <Concept code="I74.4"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Embolie et thrombose des artères distales, sans précision"/>
          <Concept code="K55"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Troubles vasculaires de l'intestin"/>
          <Concept code="N28.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Ischémie et infarctus du rein"/>
          <Concept code="D0016-6"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prévention primaire d'un sujet à haut risque"/>
       </ConceptList>
    </ValueSet>

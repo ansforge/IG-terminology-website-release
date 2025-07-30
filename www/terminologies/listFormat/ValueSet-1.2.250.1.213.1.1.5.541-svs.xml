@@ -11,33 +11,55 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C172699"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Adénocarcinome &amp;quot;adenoma-like&amp;quot;"/>
-         <Concept code="C19151" codeSystem="" displayName="Métastase"/>
-         <Concept code="C26712" codeSystem="" displayName="Adénocarcinome mucineux"/>
+         <Concept code="C19151"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Métastase"/>
+         <Concept code="C26712"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Adénocarcinome mucineux"/>
          <Concept code="C2852"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Adénocarcinome (sans aspect histologique particulier)"/>
-         <Concept code="C3692" codeSystem="" displayName="Carcinome indifférencié"/>
-         <Concept code="C3727" codeSystem="" displayName="Carcinome adénosquameux"/>
+         <Concept code="C3692"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Carcinome indifférencié"/>
+         <Concept code="C3727"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Carcinome adénosquameux"/>
          <Concept code="C3774"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Carcinome à cellules en bague à chaton"/>
-         <Concept code="C3868" codeSystem="" displayName="GIST"/>
-         <Concept code="C8998" codeSystem="" displayName="Carcinome médullaire"/>
+         <Concept code="C3868"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="GIST"/>
+         <Concept code="C8998"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Carcinome médullaire"/>
          <Concept code="C96491"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Adénocarcinome micropapillaire"/>
          <Concept code="C96494"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Carcinome avec composante sarcomatoïde"/>
-         <Concept code="GEN-092.01.16" codeSystem="" displayName="Autre carcinome"/>
-         <Concept code="MED-708" codeSystem="" displayName="Adénocarcinome festonné"/>
-         <Concept code="MED-714" codeSystem="" displayName="Autre carcinome"/>
-         <Concept code="MED-715" codeSystem="" displayName="TNE / TNE et non NE"/>
-         <Concept code="MED-716" codeSystem="" displayName="Tumeur lymphoïde"/>
+         <Concept code="GEN-092.01.16"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre carcinome"/>
+         <Concept code="MED-708"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Adénocarcinome festonné"/>
+         <Concept code="MED-714"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre carcinome"/>
+         <Concept code="MED-715"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="TNE / TNE et non NE"/>
+         <Concept code="MED-716"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Tumeur lymphoïde"/>
          <Concept code="MED-718"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Tumeur mésenchymateuse (hors GIST)"/>
       </ConceptList>
    </ValueSet>

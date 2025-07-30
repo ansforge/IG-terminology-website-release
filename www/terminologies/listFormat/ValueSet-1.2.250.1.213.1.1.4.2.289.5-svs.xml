@@ -11,20 +11,22 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-1253"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Césarienne pendant travail"/>
          <Concept code="MED-1254"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Césarienne avant travail"/>
          <Concept code="MED-217"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Accouchement par voie basse non instrumentale"/>
          <Concept code="OBS_109"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Césarienne pendant travail"/>
-         <Concept code="OBS_110" codeSystem="" displayName="Césarienne avant travail"/>
+         <Concept code="OBS_110"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Césarienne avant travail"/>
          <Concept code="P1-86E50"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Extraction voie basse instrumentale"/>
          <Concept code="302383004"
                   codeSystem="2.16.840.1.113883.6.96"

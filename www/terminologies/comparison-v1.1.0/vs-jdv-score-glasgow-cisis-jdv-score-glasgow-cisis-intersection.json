@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2652",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2652",
+  "name" : "IntersectionJdvScoreGlasgowCisisAndJdvScoreGlasgowCisis",
+  "title" : "Intersection of JDV Score Glasgow CISIS And JDV Score Glasgow CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-103",
+        "display" : "Normal"
+      },
+      {
+        "code" : "MED-392",
+        "display" : "Somnolence ou coma léger"
+      },
+      {
+        "code" : "MED-393",
+        "display" : "Coma lourd"
+      },
+      {
+        "code" : "MED-394",
+        "display" : "Coma profond ou mort"
+      }]
+    }]
+  }
+}

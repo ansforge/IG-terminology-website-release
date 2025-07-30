@@ -10,14 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-102" codeSystem="" displayName="SSR spécialisé neuro"/>
-         <Concept code="ORG-103" codeSystem="" displayName="SSR spécialisé gériatrie"/>
-         <Concept code="ORG-104" codeSystem="" displayName="SSR polyvalent"/>
-         <Concept code="ORG-162" codeSystem="" displayName="MCO"/>
+         <Concept code="ORG-102"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="SSR spécialisé neuro"/>
+         <Concept code="ORG-103"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="SSR spécialisé gériatrie"/>
+         <Concept code="ORG-104"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="SSR polyvalent"/>
+         <Concept code="ORG-162"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="MCO"/>
          <Concept code="GEN-092.06.01"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre établissement de santé"/>
-         <Concept code="GEN-092.06.03" codeSystem="" displayName="Autre destination"/>
+         <Concept code="GEN-092.06.03"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre destination"/>
          <Concept code="127"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Hospitalisation à Domicile"/>

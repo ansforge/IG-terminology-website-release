@@ -1,0 +1,185 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-636",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-636",
+  "name" : "IntersectionTRE_R45_FonctionQualifieeAndTRE_R45_FonctionQualifiee",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:38+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "FQ01",
+    "display" : "Expérience pratique art R.5124-16 du CSP Fabricant (FQ)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Expér prat R.5124-16 Fabricant"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "FQ02",
+    "display" : "Expérience pratique art R.5124-16 du CSP Exploitant (FQ)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Expér prat R.5124-16 Exploit"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "FQ03",
+    "display" : "Expérience pratique art R.5124-16 du CSP Thérapie cellulaire (FQ)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Expér prat R.5124-16 Thér cel"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "FQ04",
+    "display" : "Expérience pratique art R.5124-18 du CSP Pharmacie (FQ)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Expér prat R.5124-18 Pharmacie"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "FQ05",
+    "display" : "Expérience pratique art R.5141-129 du CSP Autovaccins (FQ)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Expér prat R.5141-129 Autovac"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-26T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  }]
+}

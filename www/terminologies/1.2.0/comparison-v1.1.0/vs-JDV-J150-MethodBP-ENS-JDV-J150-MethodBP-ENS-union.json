@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1004",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1004",
+  "name" : "UnionJDV_J150_MethodBP_ENSAndJDV_J150_MethodBP_ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Y210905",
+        "display" : "INTERFACES DE CAPTEURS EXTERNES"
+      },
+      {
+        "code" : "Z12050404",
+        "display" : "ENREGISTREURS HOLTER DE LA PRESSION ARTÉRIELLE"
+      },
+      {
+        "code" : "Z1203020501",
+        "display" : "TENSIOMÈTRES OSCILLOMÉTRIQUES NON INVASIFS"
+      },
+      {
+        "code" : "Z1203020599",
+        "display" : "TENSIOMÈTRES NON INVASIFS - AUTRES"
+      }]
+    }]
+  }
+}

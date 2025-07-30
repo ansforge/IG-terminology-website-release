@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="920" codeSystem="" displayName="Tête"/>
-         <Concept code="921" codeSystem="" displayName="Crochet"/>
-         <Concept code="922" codeSystem="" displayName="Isthme"/>
-         <Concept code="923" codeSystem="" displayName="Corps"/>
-         <Concept code="924" codeSystem="" displayName="Queue"/>
+         <Concept code="920"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Tête"/>
+         <Concept code="921"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Crochet"/>
+         <Concept code="922"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Isthme"/>
+         <Concept code="923"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Corps"/>
+         <Concept code="924"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Queue"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

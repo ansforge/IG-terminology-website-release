@@ -10,7 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1288" codeSystem="" displayName="Aucun signe"/>
+         <Concept code="MED-1288"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Aucun signe"/>
          <Concept code="255407002"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="néonatal"/>

@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1833",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1833",
+  "name" : "IntersectionJdvDeficiencePhysiqueCisisAndJdvDeficiencePhysiqueCisis",
+  "title" : "Intersection of JDV Deficience Physique CISIS And JDV Deficience Physique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "R47.02",
+        "display" : "Aphasie, autre et sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-329",
+        "display" : "Spasticité gênante"
+      },
+      {
+        "code" : "MED-330",
+        "display" : "Négligence visuospatiale"
+      },
+      {
+        "code" : "MED-331",
+        "display" : "HLH - QLH"
+      },
+      {
+        "code" : "MED-332",
+        "display" : "Trouble de la déglutition"
+      },
+      {
+        "code" : "MED-333",
+        "display" : "Trouble de l'élimination urinaire"
+      },
+      {
+        "code" : "MED-334",
+        "display" : "Trouble de l'élimination fécale"
+      },
+      {
+        "code" : "MED-335",
+        "display" : "Trouble de la sexualité"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "44695005",
+        "display" : "paralysie"
+      },
+      {
+        "code" : "33653009",
+        "display" : "absence de sensation"
+      }]
+    }]
+  }
+}

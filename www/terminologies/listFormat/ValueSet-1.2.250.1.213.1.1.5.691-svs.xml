@@ -10,21 +10,23 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1160" codeSystem="" displayName="A jeûn"/>
+         <Concept code="MED-1160"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="A jeûn"/>
          <Concept code="MED-1161"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prendre RDV au laboratoire"/>
          <Concept code="MED-1162"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Il est préférable de faire cet examen dans le même laboratoire."/>
          <Concept code="MED-1163"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="De préférence à jeûn ou à distance d'un repas"/>
          <Concept code="MED-1164"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Totalité des urines recueillies sur 24 heures. La collecte doit être complète."/>
          <Concept code="MED-1165"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prélèvement à réaliser au laboratoire. Le prélèvement chez la femme doit être effectué en début de phase folliculaire."/>
       </ConceptList>
    </ValueSet>

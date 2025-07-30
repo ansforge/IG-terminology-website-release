@@ -11,27 +11,31 @@
              urlFichier="">
       <ConceptList>
          <Concept code="DS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
                   displayName="Journée (par exemple : entre 6h et 18h)"/>
-         <Concept code="EMS" codeSystem="" displayName="Matin (entre 2h et 14h)"/>
+         <Concept code="EMS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+                  displayName="Matin (entre 2h et 14h)"/>
          <Concept code="ES"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
                   displayName="Après-midi (entre 14h et minuit)"/>
-         <Concept code="NS" codeSystem="" displayName="Nuit (entre 21h et 8h)"/>
+         <Concept code="NS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+                  displayName="Nuit (entre 21h et 8h)"/>
          <Concept code="RSWN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
                   displayName="Variable (journées, soirées, avec parfois des nuits)"/>
          <Concept code="RSWON"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
                   displayName="Variable (journées, soirées, sans nuits ni soirées)"/>
          <Concept code="SS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
                   displayName="Journée avec coupure de 2 à 4 heures."/>
          <Concept code="VLS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
                   displayName="Horaires de longue durée (17h ou plus)"/>
          <Concept code="VS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
                   displayName="Irrégulier avec information à court terme"/>
       </ConceptList>
    </ValueSet>

@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2126",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2126",
+  "name" : "UnionJdvImmunizationRouteCodeCisisAndJdvImmunizationRouteCodeCisis",
+  "title" : "Union of JDV Immunization Route Code CISIS And JDV Immunization Route Code CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "20035000",
+        "display" : "Voie intramusculaire"
+      },
+      {
+        "code" : "20030000",
+        "display" : "Voie intradermique"
+      },
+      {
+        "code" : "20020000",
+        "display" : "Voie inhalée"
+      },
+      {
+        "code" : "20053000",
+        "display" : "Voie orale"
+      },
+      {
+        "code" : "20066000",
+        "display" : "Voie sous-cutanée"
+      }]
+    }]
+  }
+}

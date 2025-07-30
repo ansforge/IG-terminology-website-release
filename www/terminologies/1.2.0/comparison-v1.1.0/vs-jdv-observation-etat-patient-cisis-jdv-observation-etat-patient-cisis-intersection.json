@@ -1,0 +1,79 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2424",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2424",
+  "name" : "IntersectionJdvObservationEtatPatientCisisAndJdvObservationEtatPatientCisis",
+  "title" : "Intersection of JDV Observation Etat Patient CISIS And JDV Observation Etat Patient CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "288575003",
+        "display" : "capable de communiquer"
+      },
+      {
+        "code" : "247663003",
+        "display" : "bien orienté"
+      },
+      {
+        "code" : "62476001",
+        "display" : "désorienté(e)"
+      },
+      {
+        "code" : "24199005",
+        "display" : "sensation d'agitation"
+      },
+      {
+        "code" : "248043008",
+        "display" : "comportement non-conciliant"
+      },
+      {
+        "code" : "425104003",
+        "display" : "comportement suicidaire"
+      },
+      {
+        "code" : "397540003",
+        "display" : "malvoyance"
+      },
+      {
+        "code" : "15188001",
+        "display" : "perte auditive"
+      },
+      {
+        "code" : "62305002",
+        "display" : "trouble du langage"
+      },
+      {
+        "code" : "161898004",
+        "display" : "chutes"
+      },
+      {
+        "code" : "50239007",
+        "display" : "errance"
+      },
+      {
+        "code" : "248046000",
+        "display" : "fugue"
+      },
+      {
+        "code" : "386423001",
+        "display" : "contention physique"
+      },
+      {
+        "code" : "285304000",
+        "display" : "à risque d'escarre"
+      },
+      {
+        "code" : "249492002",
+        "display" : "fausse route alimentaire"
+      }]
+    }]
+  }
+}

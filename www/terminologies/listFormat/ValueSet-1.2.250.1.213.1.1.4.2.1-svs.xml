@@ -11,23 +11,25 @@
              urlFichier="">
       <ConceptList>
          <Concept code="J0105"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="DÉFIBRILLATEURS IMPLANTABLES"/>
-         <Concept code="P0703" codeSystem="" displayName="VALVES CARDIAQUES"/>
+         <Concept code="P0703"
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
+                  displayName="VALVES CARDIAQUES"/>
          <Concept code="P0704"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="ENDOPROTHÈSES VASCULAIRES ET CARDIAQUES"/>
          <Concept code="J0101"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="STIMULATEURS CARDIAQUES IMPLANTABLES"/>
          <Concept code="J019001010101"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="SONDES DE STIMULATION CARDIAQUE AURICULAIRE À FIXATION PASSIVE"/>
          <Concept code="J01030101"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="DISPOSITIFS IMPLANTABLES D'ASSISTANCE VENTRICULAIRE DROITE (RVAD)"/>
          <Concept code="J01030102"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="DISPOSITIFS IMPLANTABLES D'ASSISTANCE VENTRICULAIRE GAUCHE (LVAD)"/>
       </ConceptList>
    </ValueSet>

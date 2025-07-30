@@ -98,20 +98,26 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Tension batterie"/>
          <Concept code="99686-8"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Type de stimulateur cardiaque"/>
-         <Concept code="20228-3" codeSystem="" displayName="Latéralité"/>
+         <Concept code="20228-3"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Latéralité"/>
          <Concept code="88020-3"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Capacité fonctionnelle NYHA"/>
          <Concept code="10230-1"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Fraction d'éjection [Fraction volumique] Ventricule gauche ; Numérique"/>
          <Concept code="85734-2"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Date de la dernière évaluation"/>
-         <Concept code="21938-6" codeSystem="" displayName="Voie d'abord"/>
-         <Concept code="39111-0" codeSystem="" displayName="Localisation anatomique"/>
+         <Concept code="21938-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Voie d'abord"/>
+         <Concept code="39111-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Localisation anatomique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

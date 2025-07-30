@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2156",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2156",
+  "name" : "UnionJdvInvestigationRealiseeCisisAndJdvInvestigationRealiseeCisis",
+  "title" : "Union of JDV Investigation Realisee CISIS And JDV Investigation Realisee CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.04.03",
+        "display" : "Autres investigations"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "58147004",
+        "display" : "clinique"
+      },
+      {
+        "code" : "12893009",
+        "display" : "biologique"
+      },
+      {
+        "code" : "80534008",
+        "display" : "biochimique"
+      },
+      {
+        "code" : "363679005",
+        "display" : "imagerie"
+      },
+      {
+        "code" : "116148004",
+        "display" : "procédé de génétique moléculaire"
+      },
+      {
+        "code" : "73735000",
+        "display" : "procédure cytogénétique"
+      },
+      {
+        "code" : "12894003",
+        "display" : "évaluation fonctionnelle"
+      },
+      {
+        "code" : "108257001",
+        "display" : "intervention en anatomopathologie"
+      }]
+    }]
+  }
+}

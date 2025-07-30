@@ -11,13 +11,17 @@
              urlFichier="">
       <ConceptList>
          <Concept code="GEN-092.01.13"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre(s) accident(s) domestique(s)"/>
          <Concept code="NF0A.4"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.347"
                   displayName="Choc traumatique, non classé ailleurs"/>
-         <Concept code="NE2Z" codeSystem="" displayName="Brûlures, sans précision"/>
-         <Concept code="NE61" codeSystem="" displayName="Intoxication SAI"/>
+         <Concept code="NE2Z"
+                  codeSystem="2.16.840.1.113883.6.347"
+                  displayName="Brûlures, sans précision"/>
+         <Concept code="NE61"
+                  codeSystem="2.16.840.1.113883.6.347"
+                  displayName="Intoxication SAI"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

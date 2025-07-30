@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2408",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2408",
+  "name" : "UnionJdvNvpoCisisAndJdvNvpoCisis",
+  "title" : "Union of JDV Nvpo CISIS And JDV Nvpo CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-627",
+        "display" : "1 - Rien"
+      },
+      {
+        "code" : "MED-628",
+        "display" : "2 - Nausées modéréés"
+      },
+      {
+        "code" : "MED-629",
+        "display" : "3 - Nausées intenses"
+      },
+      {
+        "code" : "MED-630",
+        "display" : "4 - Vomissements"
+      },
+      {
+        "code" : "MED-631",
+        "display" : "5 - Vomissement répétés ou incoercibles"
+      },
+      {
+        "code" : "MED-659",
+        "display" : "Non évaluable"
+      }]
+    }]
+  }
+}

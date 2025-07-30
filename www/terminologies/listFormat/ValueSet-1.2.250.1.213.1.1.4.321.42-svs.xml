@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-122" codeSystem="" displayName="Raison inconnue"/>
-         <Concept code="AVC-123" codeSystem="" displayName="Sans étiologie"/>
+         <Concept code="AVC-122"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Raison inconnue"/>
+         <Concept code="AVC-123"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Sans étiologie"/>
          <Concept code="AVC-124"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Bilan étiologique incomplet"/>
       </ConceptList>
    </ValueSet>

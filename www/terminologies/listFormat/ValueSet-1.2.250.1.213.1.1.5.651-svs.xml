@@ -11,32 +11,38 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-1070"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Pathologie listée dans arrété du 3 décembre 2018 publié le 13 décembre 2018"/>
          <Concept code="MED-1182"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Date de fin d'adapation de la prescription"/>
          <Concept code="MED-1071"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Puissance de la sphère - verre prescrit"/>
          <Concept code="MED-1072"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Puissance du cylindre - verre prescrit"/>
          <Concept code="MED-1076"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Axe en degrés - verre prescrit"/>
-         <Concept code="MED-886" codeSystem="" displayName="Addition"/>
+         <Concept code="MED-886"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Addition"/>
          <Concept code="MED-1073"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prisme - puissance - verre prescrit"/>
          <Concept code="MED-1074"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prisme - orientation base - verre prescrit"/>
          <Concept code="MED-1075"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prisme - axe en degrés - verre prescrit"/>
-         <Concept code="74712-1" codeSystem="" displayName="Date de fin de validité"/>
-         <Concept code="95324-0" codeSystem="" displayName="Type de prisme"/>
+         <Concept code="74712-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Date de fin de validité"/>
+         <Concept code="95324-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Type de prisme"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

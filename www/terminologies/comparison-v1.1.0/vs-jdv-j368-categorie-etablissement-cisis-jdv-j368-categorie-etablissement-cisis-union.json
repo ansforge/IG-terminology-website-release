@@ -1,0 +1,24 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2174",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2174",
+  "name" : "UnionJdvJ368CategorieEtablissementCisisAndJdvJ368CategorieEtablissementCisis",
+  "title" : "Union of Jdv J368 Categorie Etablissement Cisis And Jdv J368 Categorie Etablissement Cisis",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "filter" : [{
+        "property" : "status",
+        "op" : "=",
+        "value" : "active"
+      }]
+    }]
+  }
+}

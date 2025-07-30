@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="973" codeSystem="" displayName="Plèvre"/>
-         <Concept code="974" codeSystem="" displayName="Paroi"/>
-         <Concept code="975" codeSystem="" displayName="Organes du médiastin"/>
+         <Concept code="973"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Plèvre"/>
+         <Concept code="974"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Paroi"/>
+         <Concept code="975"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Organes du médiastin"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

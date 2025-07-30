@@ -1,0 +1,104 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-profession-personnel-activite-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "jdv-profession-personnel-activite-cisis"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "4" ] ;
+     fhir:lastUpdated [ fhir:v "2025-06-25T09:15:32.513+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "fr-FR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-FR\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-profession-personnel-activite-cisis</b></p><a name=\"jdv-profession-personnel-activite-cisis\"> </a><a name=\"hcjdv-profession-personnel-activite-cisis\"> </a><a name=\"jdv-profession-personnel-activite-cisis-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Last updated: 2025-06-25 09:15:32+0000; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Include ces codes sont définis dans <a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_10\">G15_10</a></td><td>Médecin</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_60\">G15_60</a></td><td>Infirmier</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_70\">G15_70</a></td><td>Masseur-Kinésithérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_91\">G15_91</a></td><td>Orthophoniste</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_94\">G15_94</a></td><td>Ergothérapeute</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_95\">G15_95</a></td><td>Diététicien</td></tr><tr><td><a href=\"CodeSystem-TRE-A02-ProfessionSavFaire-CISIS.html#TRE-A02-ProfessionSavFaire-CISIS-G15_96\">G15_96</a></td><td>Psychomotricien</td></tr></table></li><li>Include ces codes sont définis dans <a href=\"CodeSystem-TRE-R95-UsagerTitre.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R95-UsagerTitre.html#TRE-R95-UsagerTitre-93\">93</a></td><td>Psychologue</td></tr></table></li><li>Include ces codes sont définis dans <a href=\"CodeSystem-TRE-R94-ProfessionSocial.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R94-ProfessionSocial.html#TRE-R94-ProfessionSocial-41\">41</a></td><td>Assistant de service social</td></tr></table></li><li>Include ces codes sont définis dans <a href=\"CodeSystem-TRE-R85-RolePriseCharge.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-312\">312</a></td><td>Autre professionnel</td><td>Code destiné aux professionnels sans obligation d'enregistrement dans le RPPS et pour lesquels la situation métier ne correspond à aucun autre code de la TRE.</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-326\">326</a></td><td>Educateur spécialisé</td><td>CASF Articles D451-47 à D451-47-1 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/434g?champRecherche=true</td></tr><tr><td><a href=\"CodeSystem-TRE-R85-RolePriseCharge.html#TRE-R85-RolePriseCharge-329\">329</a></td><td>Conseiller en génétique</td><td>CASF Articles D451-88 à D451-93 https://www.insee.fr/fr/metadonnees/pcsese2017/rubriqueRegroupee/422e?champRecherche=true</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2010-01-01T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-profession-personnel-activite-cisis"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.42" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20250624152100"] ; # 
+  fhir:name [ fhir:v "JdvProfessionPersonnelActiviteCisis"] ; # 
+  fhir:title [ fhir:v "JDV Profession Personnel Activite CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-06-24T15:21:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "JDV Profession Personnel Activite CISIS"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_A02-ProfessionSavFaire-CISIS/FHIR/TRE-A02-ProfessionSavFaire-CISIS"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "G15_10" ] ;
+         fhir:display [ fhir:v "Médecin" ]
+       ] [
+         fhir:code [ fhir:v "G15_60" ] ;
+         fhir:display [ fhir:v "Infirmier" ]
+       ] [
+         fhir:code [ fhir:v "G15_70" ] ;
+         fhir:display [ fhir:v "Masseur-Kinésithérapeute" ]
+       ] [
+         fhir:code [ fhir:v "G15_91" ] ;
+         fhir:display [ fhir:v "Orthophoniste" ]
+       ] [
+         fhir:code [ fhir:v "G15_94" ] ;
+         fhir:display [ fhir:v "Ergothérapeute" ]
+       ] [
+         fhir:code [ fhir:v "G15_95" ] ;
+         fhir:display [ fhir:v "Diététicien" ]
+       ] [
+         fhir:code [ fhir:v "G15_96" ] ;
+         fhir:display [ fhir:v "Psychomotricien" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R95-UsagerTitre/FHIR/TRE-R95-UsagerTitre"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "93" ] ;
+         fhir:display [ fhir:v "Psychologue" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R94-ProfessionSocial/FHIR/TRE-R94-ProfessionSocial"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "41" ] ;
+         fhir:display [ fhir:v "Assistant de service social" ]
+       ] )
+     ] [
+       fhir:system [ fhir:v "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "312" ] ;
+         fhir:display [ fhir:v "Autre professionnel" ]
+       ] [
+         fhir:code [ fhir:v "326" ] ;
+         fhir:display [ fhir:v "Educateur spécialisé" ]
+       ] [
+         fhir:code [ fhir:v "329" ] ;
+         fhir:display [ fhir:v "Conseiller en génétique" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

@@ -10,27 +10,41 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-164" codeSystem="" displayName="Education thérapeutique"/>
-         <Concept code="MED-097" codeSystem="" displayName="Diagnostic"/>
-         <Concept code="MED-098" codeSystem="" displayName="Conseil génétique"/>
-         <Concept code="MED-099" codeSystem="" displayName="Diagnostic prénatal"/>
+         <Concept code="ORG-164"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Education thérapeutique"/>
+         <Concept code="MED-097"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Diagnostic"/>
+         <Concept code="MED-098"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Conseil génétique"/>
+         <Concept code="MED-099"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Diagnostic prénatal"/>
          <Concept code="MED-100"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Diagnostic préimplantatoire"/>
          <Concept code="ORG-046"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Mise en place de la prise en charge"/>
-         <Concept code="ORG-047" codeSystem="" displayName="Suivi"/>
+         <Concept code="ORG-047"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Suivi"/>
          <Concept code="ORG-048"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prise en charge en urgence"/>
-         <Concept code="ORG-049" codeSystem="" displayName="Protocole de recherche"/>
-         <Concept code="ORG-031" codeSystem="" displayName="Acte médical"/>
+         <Concept code="ORG-049"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Protocole de recherche"/>
+         <Concept code="ORG-031"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Acte médical"/>
          <Concept code="ORG-123"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Consultation de transition enfant/adulte"/>
          <Concept code="MED-1289"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Rendu de résultat diagnostic génétique"/>
       </ConceptList>
    </ValueSet>

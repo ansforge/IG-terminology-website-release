@@ -1,0 +1,301 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-18",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/41d026bd-9ab2-44e3-bf59-97ef030ccee7-18",
+  "name" : "IntersectionTRE_A03_ClasseDocumentAndTRE_A03_ClasseDocument",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:25+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "10",
+    "display" : "Compte rendu",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "Synthèse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "31",
+    "display" : "Imagerie médicale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "42",
+    "display" : "Prescription",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "43",
+    "display" : "Dispensation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "44",
+    "display" : "Plan de soins, protocole de soins",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Plan, protocole de soins"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "45",
+    "display" : "Traitement administré",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "52",
+    "display" : "Certificat, déclaration",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "60",
+    "display" : "Données de remboursement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "90",
+    "display" : "Autres documents déposés par le patient",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Autres doc déposés par patient"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-12-17T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-12-17T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "95",
+    "display" : "Document de gestion",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-05-29T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "99",
+    "display" : "Document technique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2023-07-28T09:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-07-28T09:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2023-07-28T09:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2023-07-28T09:00:00+01:00"
+    }]
+  }]
+}

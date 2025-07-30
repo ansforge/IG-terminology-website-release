@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-031" codeSystem="" displayName="Analogique"/>
-         <Concept code="MED-032" codeSystem="" displayName="Numérique DR"/>
-         <Concept code="MED-033" codeSystem="" displayName="Numérique CR"/>
+         <Concept code="MED-031"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Analogique"/>
+         <Concept code="MED-032"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Numérique DR"/>
+         <Concept code="MED-033"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Numérique CR"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

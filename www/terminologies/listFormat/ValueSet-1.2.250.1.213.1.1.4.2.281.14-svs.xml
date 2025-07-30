@@ -11,11 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="ORG-121"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation Oncogériatrique"/>
-         <Concept code="ORG-122" codeSystem="" displayName="Consultation génétique"/>
+         <Concept code="ORG-122"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Consultation génétique"/>
          <Concept code="ORG-124"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre examen/expertise complémentaire"/>
       </ConceptList>
    </ValueSet>

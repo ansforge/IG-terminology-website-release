@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-130" codeSystem="" displayName="Oncogériatrie"/>
-         <Concept code="ORG-116" codeSystem="" displayName="Pédiatrie"/>
+         <Concept code="ORG-130"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Oncogériatrie"/>
+         <Concept code="ORG-116"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Pédiatrie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

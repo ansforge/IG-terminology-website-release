@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="J22"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Infection aigüe des voies respiratoires inférieures, sans précision"/>
          <Concept code="MED-511"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Troubles respiratoires justifiant une ventilation assistée"/>
          <Concept code="MED-505"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Troubles respiratoires justifiant une VNI"/>
          <Concept code="MED-506"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Troubles respiratoires justifiant une trachéotomie"/>
       </ConceptList>
    </ValueSet>

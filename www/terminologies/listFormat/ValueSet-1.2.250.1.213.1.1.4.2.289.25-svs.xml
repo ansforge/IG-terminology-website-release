@@ -10,15 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1245" codeSystem="" displayName="Occipito-pubien"/>
-         <Concept code="MED-1246" codeSystem="" displayName="Occipito-sacré"/>
-         <Concept code="OBS_213" codeSystem="" displayName="Bregma"/>
-         <Concept code="F-87050" codeSystem="" displayName="Sommet"/>
-         <Concept code="F-87140" codeSystem="" displayName="Face"/>
-         <Concept code="F-87210" codeSystem="" displayName="Front"/>
-         <Concept code="F-87290" codeSystem="" displayName="Siège complet"/>
-         <Concept code="F-87310" codeSystem="" displayName="Siège incomplet"/>
-         <Concept code="F-87400" codeSystem="" displayName="Transverse"/>
+         <Concept code="MED-1245"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Occipito-pubien"/>
+         <Concept code="MED-1246"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Occipito-sacré"/>
+         <Concept code="OBS_213"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Bregma"/>
+         <Concept code="F-87050" codeSystem="1.2.250.1.213.2.12" displayName="Sommet"/>
+         <Concept code="F-87140" codeSystem="1.2.250.1.213.2.12" displayName="Face"/>
+         <Concept code="F-87210" codeSystem="1.2.250.1.213.2.12" displayName="Front"/>
+         <Concept code="F-87290"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Siège complet"/>
+         <Concept code="F-87310"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Siège incomplet"/>
+         <Concept code="F-87400"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Transverse"/>
          <Concept code="38049006"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="présentation de siège décomplété"/>

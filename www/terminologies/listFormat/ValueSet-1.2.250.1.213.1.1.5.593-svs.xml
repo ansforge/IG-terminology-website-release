@@ -11,9 +11,11 @@
              urlFichier="">
       <ConceptList>
          <Concept code="G020299"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="SONDES DE NUTRITION/ASPIRATION GASTRO-INTESTINALES - AUTRES"/>
-         <Concept code="G02020101" codeSystem="" displayName="SONDES NASO-GASTRIQUES"/>
+         <Concept code="G02020101"
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
+                  displayName="SONDES NASO-GASTRIQUES"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

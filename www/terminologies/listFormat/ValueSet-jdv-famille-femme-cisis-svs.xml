@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="DAU" codeSystem="" displayName="Fille biologique"/>
-         <Concept code="MTH" codeSystem="" displayName="Mère"/>
-         <Concept code="SIS" codeSystem="" displayName="Sœur"/>
+         <Concept code="DAU"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Fille biologique"/>
+         <Concept code="MTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Mère"/>
+         <Concept code="SIS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Sœur"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

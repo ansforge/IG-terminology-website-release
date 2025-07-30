@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1165" codeSystem="" displayName="Profonde"/>
-         <Concept code="1166" codeSystem="" displayName="Latérale"/>
+         <Concept code="1165"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Profonde"/>
+         <Concept code="1166"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Latérale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

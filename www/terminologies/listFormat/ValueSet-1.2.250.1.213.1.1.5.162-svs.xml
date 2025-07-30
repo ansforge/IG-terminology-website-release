@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="774007" codeSystem="" displayName="tête et cou"/>
-         <Concept code="53120007" codeSystem="" displayName="membre supérieur"/>
-         <Concept code="85562004" codeSystem="" displayName="main"/>
-         <Concept code="61685007" codeSystem="" displayName="membre inférieur"/>
+         <Concept code="774007"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="tête et cou"/>
+         <Concept code="53120007"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="membre supérieur"/>
+         <Concept code="85562004"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="main"/>
+         <Concept code="61685007"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="membre inférieur"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

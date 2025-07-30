@@ -11,32 +11,38 @@
              urlFichier="">
       <ConceptList>
          <Concept code="111636"
-                  codeSystem=""
+                  codeSystem="1.2.840.10008.2.16.4"
                   displayName="Dose dans l'air à l'entrée du patient (Kerma dans l'air)"/>
          <Concept code="111637"
-                  codeSystem=""
+                  codeSystem="1.2.840.10008.2.16.4"
                   displayName="DGM total : Dose Glandulaire Moyenne Total"/>
          <Concept code="113722"
-                  codeSystem=""
+                  codeSystem="1.2.840.10008.2.16.4"
                   displayName="PDS Total : Produit Dose Surface Total"/>
          <Concept code="113726"
-                  codeSystem=""
+                  codeSystem="1.2.840.10008.2.16.4"
                   displayName="PDS de Scopie Total : Produit Dose Surface de Scopie Total"/>
          <Concept code="113727"
-                  codeSystem=""
+                  codeSystem="1.2.840.10008.2.16.4"
                   displayName="PDS de Graphie Total : Produit Dose Surface de Graphie Total"/>
-         <Concept code="113730" codeSystem="" displayName="Temps total de scopie"/>
+         <Concept code="113730"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="Temps total de scopie"/>
          <Concept code="113731"
-                  codeSystem=""
+                  codeSystem="1.2.840.10008.2.16.4"
                   displayName="Nombre total d’images radiographiques"/>
-         <Concept code="113507" codeSystem="" displayName="Activité administrée"/>
+         <Concept code="113507"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="Activité administrée"/>
          <Concept code="113813"
-                  codeSystem=""
+                  codeSystem="1.2.840.10008.2.16.4"
                   displayName="PDL Total : Produit Dose Longueur Total"/>
          <Concept code="113830"
-                  codeSystem=""
+                  codeSystem="1.2.840.10008.2.16.4"
                   displayName="IDSV Moyen : Indice de Dose Scanographique Volumique"/>
-         <Concept code="113839" codeSystem="" displayName="E : Dose efficace"/>
+         <Concept code="113839"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="E : Dose efficace"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

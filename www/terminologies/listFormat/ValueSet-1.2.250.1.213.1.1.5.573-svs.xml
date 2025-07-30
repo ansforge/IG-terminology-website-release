@@ -10,21 +10,29 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
-         <Concept code="MED-772" codeSystem="" displayName="Rectocolite hémorragique"/>
-         <Concept code="MED-773" codeSystem="" displayName="Maladie de Crohn"/>
-         <Concept code="MED-774" codeSystem="" displayName="Appendice normal"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
+         <Concept code="MED-772"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Rectocolite hémorragique"/>
+         <Concept code="MED-773"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Maladie de Crohn"/>
+         <Concept code="MED-774"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Appendice normal"/>
          <Concept code="MED-775"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Diverticule(s) du sigmoïde non compliqué(s)"/>
          <Concept code="MED-776"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Sigmoïdite diverticulaire chronique"/>
          <Concept code="MED-777"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Sigmoïdite diverticulaire sub-aiguë"/>
          <Concept code="MED-778"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Sigmoïdite diverticulaire aiguë"/>
       </ConceptList>
    </ValueSet>

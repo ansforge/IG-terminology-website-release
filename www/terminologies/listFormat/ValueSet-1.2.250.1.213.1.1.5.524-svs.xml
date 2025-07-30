@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-655" codeSystem="" displayName="Intubation orotrachéale"/>
-         <Concept code="MED-656" codeSystem="" displayName="Intubation nasotrachéale"/>
-         <Concept code="MED-657" codeSystem="" displayName="Abord trachéal direct"/>
+         <Concept code="MED-655"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Intubation orotrachéale"/>
+         <Concept code="MED-656"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Intubation nasotrachéale"/>
+         <Concept code="MED-657"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Abord trachéal direct"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

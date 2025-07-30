@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="active" codeSystem="" displayName="Actif"/>
-         <Concept code="inactive" codeSystem="" displayName="Inactif"/>
-         <Concept code="resolved" codeSystem="" displayName="Résolu"/>
+         <Concept code="active"
+                  codeSystem="2.16.840.1.113883.4.642.4.1373"
+                  displayName="Actif"/>
+         <Concept code="inactive"
+                  codeSystem="2.16.840.1.113883.4.642.4.1373"
+                  displayName="Inactif"/>
+         <Concept code="resolved"
+                  codeSystem="2.16.840.1.113883.4.642.4.1373"
+                  displayName="Résolu"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

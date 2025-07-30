@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2721",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2721",
+  "name" : "IntersectionJdvStatutQuorumCisisAndJdvStatutQuorumCisis",
+  "title" : "Intersection of JDV Statut Quorum CISIS And JDV Statut Quorum CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-126",
+        "display" : "Quorum atteint"
+      },
+      {
+        "code" : "ORG-133",
+        "display" : "Quorum non atteint"
+      },
+      {
+        "code" : "GEN-010",
+        "display" : "Ne sait pas"
+      }]
+    }]
+  }
+}

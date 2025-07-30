@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1890",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1890",
+  "name" : "IntersectionJdvEtiologieAvcCisisAndJdvEtiologieAvcCisis",
+  "title" : "Intersection of JDV Etiologie Avc CISIS And JDV Etiologie Avc CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "I51.6",
+        "display" : "Maladie cardiovasculaire, sans précision"
+      },
+      {
+        "code" : "D75.9",
+        "display" : "Maladie du sang et des organes hématopoïétiques, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "782964007",
+        "display" : "maladie génétique"
+      }]
+    }]
+  }
+}

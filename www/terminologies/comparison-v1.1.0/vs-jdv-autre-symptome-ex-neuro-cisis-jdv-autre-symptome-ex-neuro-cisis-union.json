@@ -1,0 +1,95 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1706",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1706",
+  "name" : "UnionJdvAutreSymptomeExNeuroCisisAndJdvAutreSymptomeExNeuroCisis",
+  "title" : "Union of JDV Autre Symptome Ex Neuro CISIS And JDV Autre Symptome Ex Neuro CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "G52.3",
+        "display" : "Affections du nerf grand hypoglosse"
+      },
+      {
+        "code" : "G90.2",
+        "display" : "Syndrome de Claude Bernard–Horner"
+      },
+      {
+        "code" : "H53.2",
+        "display" : "Diplopie"
+      },
+      {
+        "code" : "H54.4",
+        "display" : "Cécité monoculaire"
+      },
+      {
+        "code" : "H55",
+        "display" : "Nystagmus et autres anomalies des mouvements oculaires"
+      },
+      {
+        "code" : "Y06.9",
+        "display" : "Délaissement et abandon par une personne non précisée"
+      },
+      {
+        "code" : "R13",
+        "display" : "Dysphagie"
+      },
+      {
+        "code" : "R41.8",
+        "display" : "Symptômes et signes relatifs aux fonctions cognitives et à la conscience, autres et non précisés"
+      },
+      {
+        "code" : "R41.0",
+        "display" : "Désorientation, sans précision"
+      },
+      {
+        "code" : "R47.02",
+        "display" : "Aphasie, autre et sans précision"
+      },
+      {
+        "code" : "R47.1",
+        "display" : "Dysarthrie et anarthrie"
+      },
+      {
+        "code" : "G98",
+        "display" : "Autres affections du système nerveux, non classées ailleurs"
+      },
+      {
+        "code" : "J39.2",
+        "display" : "Paralysie du pharynx"
+      },
+      {
+        "code" : "K13.7",
+        "display" : "Paralysie du voile du palais"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-380",
+        "display" : "Déficit moteur de la main"
+      },
+      {
+        "code" : "MED-484",
+        "display" : "Latéropulsion"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "37125009",
+        "display" : "mydriase"
+      },
+      {
+        "code" : "301939004",
+        "display" : "myosis"
+      }]
+    }]
+  }
+}

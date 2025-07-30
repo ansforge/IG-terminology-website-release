@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1109" codeSystem="" displayName="Cystectomie partielle"/>
-         <Concept code="1110" codeSystem="" displayName="Cystectomie totale"/>
+         <Concept code="1109"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Cystectomie partielle"/>
+         <Concept code="1110"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Cystectomie totale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

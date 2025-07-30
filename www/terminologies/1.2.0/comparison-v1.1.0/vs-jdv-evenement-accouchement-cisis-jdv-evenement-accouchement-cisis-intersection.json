@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1920",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1920",
+  "name" : "IntersectionJdvEvenementAccouchementCisisAndJdvEvenementAccouchementCisis",
+  "title" : "Intersection of JDV Evenement Accouchement CISIS And JDV Evenement Accouchement CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1248",
+        "display" : "Présentation fœtale"
+      },
+      {
+        "code" : "MED-166",
+        "display" : "Rupture membranaire plus de 12 h avant l'accouchement"
+      },
+      {
+        "code" : "MED-168",
+        "display" : "Analgésie au cours du travail"
+      },
+      {
+        "code" : "MED-600",
+        "display" : "Cause de la césarienne"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "55281-0",
+        "display" : "Nombre de fœtus"
+      },
+      {
+        "code" : "11885-1",
+        "display" : "Age gestationnel (semaines d'amenorrhées révolues)"
+      },
+      {
+        "code" : "73771-8",
+        "display" : "Rang de naissance"
+      },
+      {
+        "code" : "73813-8",
+        "display" : "Caractéristiques du travail"
+      },
+      {
+        "code" : "57071-3",
+        "display" : "Méthode d'accouchement"
+      }]
+    }]
+  }
+}

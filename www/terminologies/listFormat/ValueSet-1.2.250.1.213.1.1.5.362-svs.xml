@@ -11,20 +11,22 @@
              urlFichier="">
       <ConceptList>
          <Concept code="948"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT0: No evidence of primary tumor"/>
-         <Concept code="949" codeSystem="" displayName="pTis: Carcinoma in situ"/>
+         <Concept code="949"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="pTis: Carcinoma in situ"/>
          <Concept code="950"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT1: Tumor limited to the pancreas, 2 cm or less in greatest dimension"/>
          <Concept code="951"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT2: Tumor limited to the pancreas, more than 2 cm in greatest dimension"/>
          <Concept code="952"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT3: Tumor extends beyond the pancreas but without involvement of the celiac axis or the superior mesenteric artery"/>
          <Concept code="953"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT4: Tumor involves the celiac axis or the superior mesenteric artery"/>
       </ConceptList>
    </ValueSet>

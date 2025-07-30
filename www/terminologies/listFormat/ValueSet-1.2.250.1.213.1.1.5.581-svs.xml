@@ -10,23 +10,33 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C29744" codeSystem="" displayName="Formol (FFPE)"/>
+         <Concept code="C29744"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Formol (FFPE)"/>
          <Concept code="C84514"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Pièce parvenue à l'état fixé"/>
          <Concept code="C84517"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Pièce parvenue à l'état frais"/>
-         <Concept code="GEN-273" codeSystem="" displayName="Non renseignée"/>
-         <Concept code="MED-919" codeSystem="" displayName="Tête et cou"/>
+         <Concept code="GEN-273"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non renseignée"/>
+         <Concept code="MED-919"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Tête et cou"/>
          <Concept code="MED-920"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Epaule et membre supérieur"/>
-         <Concept code="MED-921" codeSystem="" displayName="Tronc"/>
+         <Concept code="MED-921"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Tronc"/>
          <Concept code="MED-922"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Hanche et membre inférieur"/>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
+         <Concept code="GEN-092"
+                  codeSystem="1.2.250.1.213.1.1.4.325"
+                  displayName="Autre"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

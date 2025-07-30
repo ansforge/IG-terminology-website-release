@@ -1,18 +1,18 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.4.2.289.1;JDV;JDV_IssueGrossesse_CISIS.tabs;JDV_IssueGrossesse_CISIS;;20210315000000;;20231205000000
-<OID>;<Code>;<Libellé> 
-;O00;Grossesse extra-utérine
-;O01;Môle hydatiforme
-;O03;Avortement spontané
-;O04;Avortement médical
-;O04.-0;Interruption médicale volontaire de grossesse [IVG dans le cadre légal]
-;P95;Mort fœtale (de cause non précisée)
-;OBS_101;Accouchement
-;OBS_103;IMG < 22
-;OBS_104;IMG >= 22
-;OBS_127;Grossesse actuelle
-;D8-00110;Môle
-;D8-02000;GEU
-;D8-04100;Avortement spontané
-;D8-04201;IVG
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/icd10;O00;Grossesse extra-utérine
+http://terminology.hl7.org/CodeSystem/icd10;O01;Môle hydatiforme
+http://terminology.hl7.org/CodeSystem/icd10;O03;Avortement spontané
+http://terminology.hl7.org/CodeSystem/icd10;O04;Avortement médical
+http://terminology.hl7.org/CodeSystem/icd10;O04.-0;Interruption médicale volontaire de grossesse [IVG dans le cadre légal]
+http://terminology.hl7.org/CodeSystem/icd10;P95;Mort fœtale (de cause non précisée)
+1.2.250.1.213.1.1.4.2.289;OBS_101;Accouchement
+1.2.250.1.213.1.1.4.2.289;OBS_103;IMG < 22
+1.2.250.1.213.1.1.4.2.289;OBS_104;IMG >= 22
+1.2.250.1.213.1.1.4.2.289;OBS_127;Grossesse actuelle
+1.2.250.1.213.2.12;D8-00110;Môle
+1.2.250.1.213.2.12;D8-02000;GEU
+1.2.250.1.213.2.12;D8-04100;Avortement spontané
+1.2.250.1.213.2.12;D8-04201;IVG
 2.16.840.1.113883.6.96;236973005;Accouchement

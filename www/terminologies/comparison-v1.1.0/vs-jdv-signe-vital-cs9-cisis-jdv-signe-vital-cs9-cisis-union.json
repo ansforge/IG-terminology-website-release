@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2681",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2681",
+  "name" : "UnionJdvSigneVitalCs9CisisAndJdvSigneVitalCs9Cisis",
+  "title" : "Union of JDV Signe Vital Cs9 CISIS And JDV Signe Vital Cs9 CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "29463-7",
+        "display" : "Poids"
+      },
+      {
+        "code" : "8302-2",
+        "display" : "Taille"
+      },
+      {
+        "code" : "8287-5",
+        "display" : "Périmètre crânien"
+      }]
+    }]
+  }
+}

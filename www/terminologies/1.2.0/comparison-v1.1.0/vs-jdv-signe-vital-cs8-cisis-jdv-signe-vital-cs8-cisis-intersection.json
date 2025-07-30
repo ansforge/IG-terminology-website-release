@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2679",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2679",
+  "name" : "IntersectionJdvSigneVitalCs8CisisAndJdvSigneVitalCs8Cisis",
+  "title" : "Intersection of JDV Signe Vital Cs8 CISIS And JDV Signe Vital Cs8 CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "29463-7",
+        "display" : "Poids"
+      },
+      {
+        "code" : "8302-2",
+        "display" : "Taille"
+      },
+      {
+        "code" : "8287-5",
+        "display" : "Périmètre crânien"
+      },
+      {
+        "code" : "9272-6",
+        "display" : "APGAR à 1mn"
+      },
+      {
+        "code" : "9274-2",
+        "display" : "APGAR à 5mn"
+      },
+      {
+        "code" : "9271-8",
+        "display" : "APGAR à 10mn"
+      }]
+    }]
+  }
+}

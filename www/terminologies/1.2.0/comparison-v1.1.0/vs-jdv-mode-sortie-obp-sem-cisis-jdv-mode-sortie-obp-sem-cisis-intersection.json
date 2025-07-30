@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2307",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2307",
+  "name" : "IntersectionJdvModeSortieObpSemCisisAndJdvModeSortieObpSemCisis",
+  "title" : "Intersection of JDV Mode Sortie Obp Sem CISIS And JDV Mode Sortie Obp Sem CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-302",
+        "display" : "Avec sa mère"
+      },
+      {
+        "code" : "GEN-092.06.09",
+        "display" : "Autre mode de sortie"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "419620001",
+        "display" : "mort"
+      },
+      {
+        "code" : "107724000",
+        "display" : "transfert du patient"
+      }]
+    }]
+  }
+}

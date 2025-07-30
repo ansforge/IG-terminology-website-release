@@ -11,19 +11,35 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-450"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Sinus longitudinal supérieur partiel"/>
          <Concept code="MED-451"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Sinus longitudinal supérieur total"/>
-         <Concept code="MED-452" codeSystem="" displayName="Sinus Latéral droit"/>
-         <Concept code="MED-453" codeSystem="" displayName="Sinus Latéral gauche"/>
-         <Concept code="MED-454" codeSystem="" displayName="Sinus droit"/>
-         <Concept code="MED-455" codeSystem="" displayName="Veines corticales"/>
-         <Concept code="MED-456" codeSystem="" displayName="Veines jugulaires droite"/>
-         <Concept code="MED-457" codeSystem="" displayName="Veines jugulaires gauche"/>
-         <Concept code="MED-458" codeSystem="" displayName="Veines profondes"/>
-         <Concept code="T-49840" codeSystem="" displayName="Sinus caverneux"/>
+         <Concept code="MED-452"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Sinus Latéral droit"/>
+         <Concept code="MED-453"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Sinus Latéral gauche"/>
+         <Concept code="MED-454"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Sinus droit"/>
+         <Concept code="MED-455"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Veines corticales"/>
+         <Concept code="MED-456"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Veines jugulaires droite"/>
+         <Concept code="MED-457"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Veines jugulaires gauche"/>
+         <Concept code="MED-458"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Veines profondes"/>
+         <Concept code="T-49840"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Sinus caverneux"/>
          <Concept code="230722002"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="thrombose veineuse cérébrale de la veine corticale"/>

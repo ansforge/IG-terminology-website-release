@@ -11,40 +11,44 @@
              urlFichier="">
       <ConceptList>
          <Concept code="I63.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Infarctus cérébral, sans précision"/>
          <Concept code="G45.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Accident ischémique cérébral transitoire, sans précision"/>
          <Concept code="G93.2"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Hypertension intracrânienne bénigne"/>
          <Concept code="I64"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Accident vasculaire cérébral, non précisé comme étant hémorragique ou par infarctus"/>
          <Concept code="I60.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Hémorragie sousarachnoïdienne, sans précision"/>
          <Concept code="I21.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Infarctus du myocarde sans précision, prise en charge non précisée"/>
          <Concept code="I20.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Angine de poitrine instable"/>
          <Concept code="I74.3"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Embolie et thrombose des artères des membres inférieurs"/>
          <Concept code="I20.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Angine de poitrine, sans précision"/>
          <Concept code="I48"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Fibrillation et flutter auriculaires"/>
-         <Concept code="F03" codeSystem="" displayName="Démence, sans précision"/>
+         <Concept code="F03"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Démence, sans précision"/>
          <Concept code="C80"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Tumeur maligne de siège non précisé"/>
-         <Concept code="MED-533" codeSystem="" displayName="Comorbidité"/>
+         <Concept code="MED-533"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Comorbidité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

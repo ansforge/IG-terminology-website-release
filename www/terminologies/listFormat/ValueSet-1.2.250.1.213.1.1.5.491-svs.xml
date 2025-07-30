@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-578" codeSystem="" displayName="Chirurgie ouverte"/>
-         <Concept code="MED-579" codeSystem="" displayName="Endoscopique"/>
-         <Concept code="MED-580" codeSystem="" displayName="Percutanée"/>
+         <Concept code="MED-578"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Chirurgie ouverte"/>
+         <Concept code="MED-579"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Endoscopique"/>
+         <Concept code="MED-580"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Percutanée"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

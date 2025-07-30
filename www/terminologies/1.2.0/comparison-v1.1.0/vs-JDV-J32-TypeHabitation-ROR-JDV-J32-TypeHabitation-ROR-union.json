@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1406",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1406",
+  "name" : "UnionJDV_J32_TypeHabitation_RORAndJDV_J32_TypeHabitation_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Chambre double"
+      },
+      {
+        "code" : "02",
+        "display" : "Chambre simple"
+      },
+      {
+        "code" : "03",
+        "display" : "F1"
+      },
+      {
+        "code" : "04",
+        "display" : "F2"
+      },
+      {
+        "code" : "05",
+        "display" : "F1bis"
+      },
+      {
+        "code" : "06",
+        "display" : "F3"
+      },
+      {
+        "code" : "07",
+        "display" : "F4"
+      }]
+    }]
+  }
+}

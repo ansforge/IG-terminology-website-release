@@ -1,0 +1,113 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-60",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/41d026bd-9ab2-44e3-bf59-97ef030ccee7-60",
+  "name" : "IntersectionTRE_G04_NiveauResponsabiliteCPxAndTRE_G04_NiveauResponsabiliteCPx",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:25+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "00",
+    "display" : "Sans objet",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "01",
+    "display" : "Responsable de la structure",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "Assistant ou adjoint au responsable de la structure",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Assistant, adjoint resp struct"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2010-11-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  }]
+}

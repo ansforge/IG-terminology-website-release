@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1682",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1682",
+  "name" : "UnionJdvAppreciationDiagnosticCentreCisisAndJdvAppreciationDiagnosticCentreCisis",
+  "title" : "Union of JDV Appreciation Diagnostic Centre CISIS And JDV Appreciation Diagnostic Centre CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "2667000",
+        "display" : "absent"
+      },
+      {
+        "code" : "71978007",
+        "display" : "inadéquat"
+      },
+      {
+        "code" : "88323005",
+        "display" : "adéquat"
+      }]
+    }]
+  }
+}

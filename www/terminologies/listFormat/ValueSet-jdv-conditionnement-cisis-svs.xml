@@ -10,13 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C" codeSystem="" displayName="Cytologie par étalement"/>
+         <Concept code="C"
+                  codeSystem="1.2.250.1.213.2.11"
+                  displayName="Cytologie par étalement"/>
          <Concept code="H"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.11"
                   displayName="Histologie et cytologie par inclusion"/>
-         <Concept code="K" codeSystem="" displayName="Matériel congelé – tissuthèque"/>
+         <Concept code="K"
+                  codeSystem="1.2.250.1.213.2.11"
+                  displayName="Matériel congelé – tissuthèque"/>
          <Concept code="X"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.11"
                   displayName="Autres technique (Imagerie, radiologie, échographie,  tomodensitométrie, IRM…)"/>
       </ConceptList>
    </ValueSet>

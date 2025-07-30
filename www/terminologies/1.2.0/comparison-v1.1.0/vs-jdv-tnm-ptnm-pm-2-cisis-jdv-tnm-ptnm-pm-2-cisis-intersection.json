@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2754",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2754",
+  "name" : "IntersectionJdvTnmPtnmPm2CisisAndJdvTnmPtnmPm2Cisis",
+  "title" : "Intersection of JDV Tnm Ptnm Pm 2 CISIS And JDV Tnm Ptnm Pm 2 CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-816",
+        "display" : "Métastase(s) hépatique(s) seule(s)"
+      },
+      {
+        "code" : "MED-817",
+        "display" : "Métastase(s) extrahépatique(s) seule(s)"
+      },
+      {
+        "code" : "MED-818",
+        "display" : "Métastase(s) hépatique(s) et métastase(s) extrahépatique(s)"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2360",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2360",
+  "name" : "UnionJdvNihssAtaxieCisisAndJdvNihssAtaxieCisis",
+  "title" : "Union of JDV Nihss Ataxie CISIS And JDV Nihss Ataxie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA9634-2",
+        "display" : "Absente."
+      },
+      {
+        "code" : "LA18466-5",
+        "display" : "Présente pour un membre."
+      },
+      {
+        "code" : "LA18467-3",
+        "display" : "Présente pour deux membres."
+      },
+      {
+        "code" : "LA18461-6",
+        "display" : "Amputation, blocage articulaire (expliquer)"
+      }]
+    }]
+  }
+}

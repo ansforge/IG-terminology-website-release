@@ -1,0 +1,8573 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-575",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-575",
+  "name" : "UnionTRE_R35_TypeVoieAndTRE_R35_TypeVoie",
+  "title" : "Union of null And null",
+  "status" : "retired",
+  "date" : "2025-07-30T08:23:38+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "ABE",
+    "display" : "Abbaye",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ACH",
+    "display" : "Ancien chemin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "AERD",
+    "display" : "Aérodrome",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "AERG",
+    "display" : "Aérogare",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "AERP",
+    "display" : "Aéroport",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "AGL",
+    "display" : "Agglomération",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "AIRE",
+    "display" : "Aire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ALL",
+    "display" : "Allée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ANGL",
+    "display" : "Angle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ANSE",
+    "display" : "Anse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ARC",
+    "display" : "Arcade",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ART",
+    "display" : "Ancienne route",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "AUT",
+    "display" : "Autoroute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "AV",
+    "display" : "Avenue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BAST",
+    "display" : "Bastion",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BCH",
+    "display" : "Bas chemin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BCLE",
+    "display" : "Boucle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BD",
+    "display" : "Boulevard",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BEGI",
+    "display" : "Béguinage",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BER",
+    "display" : "Berge",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BOIS",
+    "display" : "Bois",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BRE",
+    "display" : "Barrière",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BRG",
+    "display" : "Bourg",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BSTD",
+    "display" : "Bastide",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "BUT",
+    "display" : "Butte",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CALE",
+    "display" : "Cale",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CAMP",
+    "display" : "Camp",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CAR",
+    "display" : "Carrefour",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CARE",
+    "display" : "Carrière",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CARR",
+    "display" : "Carré",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CAU",
+    "display" : "Carreau",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CAV",
+    "display" : "Cavée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CCAL",
+    "display" : "Centre commercial",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CGNE",
+    "display" : "Campagne",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CHE",
+    "display" : "Chemin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CHEM",
+    "display" : "Chemin, cheminement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CHEZ",
+    "display" : "Chez",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CHI",
+    "display" : "Charmille",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CHL",
+    "display" : "Chalet",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CHP",
+    "display" : "Chapelle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CHS",
+    "display" : "Chaussée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CHT",
+    "display" : "Château",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CHV",
+    "display" : "Chemin vicinal",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CITE",
+    "display" : "Cité",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CLOI",
+    "display" : "Cloître",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CLOS",
+    "display" : "Clos",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "COL",
+    "display" : "Col",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "COLI",
+    "display" : "Colline",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "COR",
+    "display" : "Corniche",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "COTE",
+    "display" : "Cote",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "COTT",
+    "display" : "Cottage",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "COUR",
+    "display" : "Cour",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CPG",
+    "display" : "Camping",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CRS",
+    "display" : "Cours",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CST",
+    "display" : "Castel",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CTR",
+    "display" : "Contour",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "CTRE",
+    "display" : "Centre",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DARS",
+    "display" : "Darse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DEG",
+    "display" : "Degré",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DIG",
+    "display" : "Digue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DOM",
+    "display" : "Domaine",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "DSC",
+    "display" : "Descente",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ECL",
+    "display" : "Ecluse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "EGL",
+    "display" : "Eglise",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "EN",
+    "display" : "Enceinte",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ENC",
+    "display" : "Enclos",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ENV",
+    "display" : "Enclave",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ESC",
+    "display" : "Escalier",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ESP",
+    "display" : "Esplanade",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ESPA",
+    "display" : "Espace",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ETNG",
+    "display" : "Etang",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "FG",
+    "display" : "Faubourg",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "FON",
+    "display" : "Fontaine",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "FORM",
+    "display" : "Forum",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "FORT",
+    "display" : "Fort",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "FOS",
+    "display" : "Fosse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "FOYR",
+    "display" : "Foyer",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "FRM",
+    "display" : "Ferme",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GAL",
+    "display" : "Galerie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GARE",
+    "display" : "Gare",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GARN",
+    "display" : "Garenne",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GBD",
+    "display" : "Grand boulevard",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GDEN",
+    "display" : "Grand ensemble",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GPE",
+    "display" : "Groupe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GPT",
+    "display" : "Groupement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GR",
+    "display" : "Grand rue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GRI",
+    "display" : "Grille",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "GRIM",
+    "display" : "Grimpette",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "HAM",
+    "display" : "Hameau",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "HCH",
+    "display" : "Haut chemin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "HIP",
+    "display" : "Hippodrome",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "HLE",
+    "display" : "Halle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "HLM",
+    "display" : "HLM",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ILE",
+    "display" : "Ile",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "IMM",
+    "display" : "Immeuble",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "IMP",
+    "display" : "Impasse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "JARD",
+    "display" : "Jardin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "JTE",
+    "display" : "Jetée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "LD",
+    "display" : "Lieu dit",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "LEVE",
+    "display" : "Levée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "LOT",
+    "display" : "Lotissement",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MAIL",
+    "display" : "Mail",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MAN",
+    "display" : "Manoir",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MAR",
+    "display" : "Marche",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MAS",
+    "display" : "Mas",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MET",
+    "display" : "Métro",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MF",
+    "display" : "Maison forestière",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MLN",
+    "display" : "Moulin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MTE",
+    "display" : "Montée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "MUS",
+    "display" : "Musée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "NTE",
+    "display" : "Nouvelle route",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PAE",
+    "display" : "Petite avenue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PAL",
+    "display" : "Palais",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PARC",
+    "display" : "Parc",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PAS",
+    "display" : "Passage",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PASS",
+    "display" : "Passe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PAT",
+    "display" : "Patio",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PAV",
+    "display" : "Pavillon",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PCH",
+    "display" : "Petit chemin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PCHE",
+    "display" : "Porche",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PERI",
+    "display" : "Périphérique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PIM",
+    "display" : "Petite impasse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PKG",
+    "display" : "Parking",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PL",
+    "display" : "Place",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PLAG",
+    "display" : "Plage",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PLAN",
+    "display" : "Plan",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PLCI",
+    "display" : "Placis",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PLE",
+    "display" : "Passerelle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PLN",
+    "display" : "Plaine",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PLT",
+    "display" : "Plateau",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PN",
+    "display" : "Passage à niveau",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PNT",
+    "display" : "Pointe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PONT",
+    "display" : "Pont",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PORQ",
+    "display" : "Portique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PORT",
+    "display" : "Port",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "POT",
+    "display" : "Poterne",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "POUR",
+    "display" : "Pourtour",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PRE",
+    "display" : "Pré",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PROM",
+    "display" : "Promenade",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PRQ",
+    "display" : "Presqu'ile",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PRT",
+    "display" : "Petite route",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PRV",
+    "display" : "Parvis",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PSTY",
+    "display" : "Péristyle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PTA",
+    "display" : "Petite allée",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "PTE",
+    "display" : "Porte",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "QU",
+    "display" : "Quai",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "QUA",
+    "display" : "Quartier",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "R",
+    "display" : "Rue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "RAC",
+    "display" : "Raccourci",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "RAID",
+    "display" : "Raidillon",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "REM",
+    "display" : "Rempart",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "RES",
+    "display" : "Résidence",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "RLE",
+    "display" : "Ruelle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ROC",
+    "display" : "Rocade",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ROQT",
+    "display" : "Roquet",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "RPE",
+    "display" : "Rampe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "RPT",
+    "display" : "Rond point",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "RTD",
+    "display" : "Rotonde",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "RTE",
+    "display" : "Route",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "RUE",
+    "display" : "Rue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2021-03-26T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "SEN",
+    "display" : "Sentier",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "SQ",
+    "display" : "Square",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "STA",
+    "display" : "Station",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "STDE",
+    "display" : "Stade",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "TOUR",
+    "display" : "Tour",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "TPL",
+    "display" : "Terre plein",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "TRA",
+    "display" : "Traverse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "TRN",
+    "display" : "Terrain",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "TRT",
+    "display" : "Tertre",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "TSSE",
+    "display" : "Terrasse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "VAL",
+    "display" : "Vallée, vallon",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "VCHE",
+    "display" : "Vieux chemin",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "VEN",
+    "display" : "Venelle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "VGE",
+    "display" : "Village",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "VIA",
+    "display" : "Via",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "VLA",
+    "display" : "Villa",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "VLGE",
+    "display" : "Village",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "VOI",
+    "display" : "Voie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "VTE",
+    "display" : "Vieille route",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ZA",
+    "display" : "Zone d'activité",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ZAC",
+    "display" : "Zone d'aménagement concerté",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ZAD",
+    "display" : "Zone d'aménagement différé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ZI",
+    "display" : "Zone industrielle",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ZONE",
+    "display" : "Zone",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ZUP",
+    "display" : "Zone à urbaniser en priorité",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:45+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2008-02-28T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  }]
+}

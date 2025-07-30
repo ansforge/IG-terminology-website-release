@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2601",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2601",
+  "name" : "IntersectionJdvResultatRechercheHpvCcuCisisAndJdvResultatRechercheHpvCcuCisis",
+  "title" : "Intersection of JDV Resultat Recherche Hpv Ccu CISIS And JDV Resultat Recherche Hpv Ccu CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "77851000146104",
+        "display" : "HPV-HR non détecté"
+      },
+      {
+        "code" : "1269497006",
+        "display" : "ADN d'HPV-HR détecté"
+      },
+      {
+        "code" : "442754001",
+        "display" : "résultat de l'évaluation non concluant"
+      },
+      {
+        "code" : "125154007",
+        "display" : "échantillon insatisfaisant pour l'évaluation"
+      }]
+    }]
+  }
+}

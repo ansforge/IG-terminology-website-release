@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2532",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2532",
+  "name" : "IntersectionJdvRepriseProfessionnelleCisisAndJdvRepriseProfessionnelleCisis",
+  "title" : "Intersection of JDV Reprise Professionnelle CISIS And JDV Reprise Professionnelle CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-125",
+        "display" : "Reprise à envisager. Démarches faites."
+      },
+      {
+        "code" : "GEN-126",
+        "display" : "Reprise inenvisageable. Démarches faites."
+      }]
+    }]
+  }
+}

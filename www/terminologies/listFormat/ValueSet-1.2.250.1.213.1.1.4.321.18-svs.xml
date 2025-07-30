@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-134" codeSystem="" displayName="Carrefour"/>
-         <Concept code="T-A2200" codeSystem="" displayName="lobe frontal"/>
-         <Concept code="T-A2300" codeSystem="" displayName="lobe pariétal"/>
-         <Concept code="T-A2400" codeSystem="" displayName="lobe occipital"/>
-         <Concept code="T-A2500" codeSystem="" displayName="lobe temporal"/>
+         <Concept code="AVC-134"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Carrefour"/>
+         <Concept code="T-A2200"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="lobe frontal"/>
+         <Concept code="T-A2300"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="lobe pariétal"/>
+         <Concept code="T-A2400"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="lobe occipital"/>
+         <Concept code="T-A2500"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="lobe temporal"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

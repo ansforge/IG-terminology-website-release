@@ -10,27 +10,29 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-957" codeSystem="" displayName="Ganglions non évaluables"/>
+         <Concept code="MED-957"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Ganglions non évaluables"/>
          <Concept code="MED-958"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Pas de métastase ganglionnaire régionale"/>
          <Concept code="MED-959"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Micrométastase dans 1 ganglion lymphatique"/>
          <Concept code="MED-960"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Macrométastase dans 1 ganglion lymphatique"/>
          <Concept code="MED-961"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Micrométastase dans 2 ou 3 ganglions lymphatiques"/>
          <Concept code="MED-962"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Macrométastase dans 2 ou 3 ganglions lymphatiques"/>
          <Concept code="MED-963"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Métastase(s) en transit / satellite(s) sans ganglion envahi"/>
          <Concept code="MED-964"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Métastases dans 4 ganglions lymphatiques ou plus, ou agglomérat de N+ ou métastase en transit avec ganglion(s) envahi(s)"/>
       </ConceptList>
    </ValueSet>

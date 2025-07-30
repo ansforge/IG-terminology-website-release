@@ -1,0 +1,55 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2105",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2105",
+  "name" : "UnionWorkScheduleODHAndWorkScheduleODH",
+  "title" : "Union of WorkScheduleODH And WorkScheduleODH",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DS",
+        "display" : "Journée (par exemple : entre 6h et 18h)"
+      },
+      {
+        "code" : "EMS",
+        "display" : "Matin (entre 2h et 14h)"
+      },
+      {
+        "code" : "ES",
+        "display" : "Après-midi (entre 14h et minuit)"
+      },
+      {
+        "code" : "NS",
+        "display" : "Nuit (entre 21h et 8h)"
+      },
+      {
+        "code" : "RSWN",
+        "display" : "Variable (journées, soirées, avec parfois des nuits)"
+      },
+      {
+        "code" : "RSWON",
+        "display" : "Variable (journées, soirées, sans nuits ni soirées)"
+      },
+      {
+        "code" : "SS",
+        "display" : "Journée avec coupure de 2 à 4 heures."
+      },
+      {
+        "code" : "VLS",
+        "display" : "Horaires de longue durée (17h ou plus)"
+      },
+      {
+        "code" : "VS",
+        "display" : "Irrégulier avec information à court terme"
+      }]
+    }]
+  }
+}

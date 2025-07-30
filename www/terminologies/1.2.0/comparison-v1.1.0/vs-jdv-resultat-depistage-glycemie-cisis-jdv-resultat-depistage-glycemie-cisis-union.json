@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2567",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2567",
+  "name" : "UnionJdvResultatDepistageGlycemieCisisAndJdvResultatDepistageGlycemieCisis",
+  "title" : "Union of JDV Resultat Depistage Glycemie CISIS And JDV Resultat Depistage Glycemie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "17621005",
+        "display" : "normal"
+      },
+      {
+        "code" : "80394007",
+        "display" : "hyperglycémie"
+      },
+      {
+        "code" : "302866003",
+        "display" : "hypoglycémie"
+      }]
+    }]
+  }
+}

@@ -11,15 +11,17 @@
              urlFichier="">
       <ConceptList>
          <Concept code="AVC-129"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Artère Cérébelleuse Moyenne (ACM)"/>
          <Concept code="AVC-130"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Artère Cérébelleuse Inférieure (ACI)"/>
          <Concept code="T-45840"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="artère cérébelleuse supérieure"/>
-         <Concept code="T-45850" codeSystem="" displayName="artère cérébelleuse, SAI"/>
+         <Concept code="T-45850"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="artère cérébelleuse, SAI"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

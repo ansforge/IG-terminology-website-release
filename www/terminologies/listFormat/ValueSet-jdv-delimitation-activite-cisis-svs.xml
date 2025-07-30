@@ -35,18 +35,26 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Le patient bénéficie-t-il d'une aide humaine ?"/>
          <Concept code="45537-8"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Se déplacer en fauteuil roulant seul"/>
-         <Concept code="45588-1" codeSystem="" displayName="Se lever seul"/>
-         <Concept code="45590-7" codeSystem="" displayName="Faire ses transferts"/>
+         <Concept code="45588-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Se lever seul"/>
+         <Concept code="45590-7"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Faire ses transferts"/>
          <Concept code="45592-3"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Marcher seul à l'intérieur"/>
          <Concept code="45602-0"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Manger un repas préparé seul"/>
-         <Concept code="45604-6" codeSystem="" displayName="Utiliser les wc seul"/>
-         <Concept code="45606-1" codeSystem="" displayName="Faire sa toilette seul"/>
+         <Concept code="45604-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Utiliser les wc seul"/>
+         <Concept code="45606-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Faire sa toilette seul"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

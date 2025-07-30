@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-129" codeSystem="" displayName="Normal BI-RADS ACR 1"/>
-         <Concept code="MED-130" codeSystem="" displayName="Bénin BI-RADS ACR 2"/>
-         <Concept code="MED-131" codeSystem="" displayName="Anormal BI-RADS ACR 3"/>
-         <Concept code="MED-132" codeSystem="" displayName="Anormal BI-RADS ACR 4"/>
-         <Concept code="MED-133" codeSystem="" displayName="Anormal BI-RADS ACR 5"/>
+         <Concept code="MED-129"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Normal BI-RADS ACR 1"/>
+         <Concept code="MED-130"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bénin BI-RADS ACR 2"/>
+         <Concept code="MED-131"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Anormal BI-RADS ACR 3"/>
+         <Concept code="MED-132"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Anormal BI-RADS ACR 4"/>
+         <Concept code="MED-133"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Anormal BI-RADS ACR 5"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1931",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1931",
+  "name" : "UnionJdvExamenCliniqueCisisAndJdvExamenCliniqueCisis",
+  "title" : "Union of JDV Examen Clinique CISIS And JDV Examen Clinique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-038",
+        "display" : "Bénin"
+      },
+      {
+        "code" : "GEN-103",
+        "display" : "Normal"
+      },
+      {
+        "code" : "GEN-011",
+        "display" : "Refus"
+      },
+      {
+        "code" : "GEN-039",
+        "display" : "Suspect"
+      },
+      {
+        "code" : "MED-117",
+        "display" : "Asymétrie mammaire"
+      }]
+    }]
+  }
+}

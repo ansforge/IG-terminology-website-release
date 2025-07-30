@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2654",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2654",
+  "name" : "UnionJdvScoreMallampatiCisisAndJdvScoreMallampatiCisis",
+  "title" : "Union of JDV Score Mallampati CISIS And JDV Score Mallampati CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "425247007",
+        "display" : "classe I de Mallampati"
+      },
+      {
+        "code" : "424694002",
+        "display" : "classe II de Mallampati"
+      },
+      {
+        "code" : "424915003",
+        "display" : "classe III de Mallampati"
+      },
+      {
+        "code" : "424397003",
+        "display" : "classe IV de Mallampati"
+      }]
+    }]
+  }
+}

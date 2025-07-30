@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C29744" codeSystem="" displayName="Formol (FFPE)"/>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
-         <Concept code="GEN-092.03.05" codeSystem="" displayName="Autre"/>
+         <Concept code="C29744"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Formol (FFPE)"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
+         <Concept code="GEN-092.03.05"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

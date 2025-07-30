@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2643",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2643",
+  "name" : "IntersectionJdvScoreCormackCisisAndJdvScoreCormackCisis",
+  "title" : "Intersection of JDV Score Cormack CISIS And JDV Score Cormack CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "417548001",
+        "display" : "Cormack et Lehane grade 1"
+      },
+      {
+        "code" : "417666002",
+        "display" : "Cormack et Lehane grade 2"
+      },
+      {
+        "code" : "416876007",
+        "display" : "Cormack et Lehane grade 3"
+      },
+      {
+        "code" : "416141007",
+        "display" : "Cormack et Lehane grade 4"
+      }]
+    }]
+  }
+}

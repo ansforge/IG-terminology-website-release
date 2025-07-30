@@ -1,0 +1,165 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-126",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-126",
+  "name" : "IntersectionTRE_R11_CiviliteExerciceAndTRE_R11_CiviliteExercice",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:38+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "DR",
+    "display" : "Docteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "MC",
+    "display" : "Médecin chef",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "MG",
+    "display" : "Médecin général",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "PC",
+    "display" : "Pharmacien chef",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "PG",
+    "display" : "Pharmacien général",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "PR",
+    "display" : "Professeur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:35+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-03-29T00:00:00+01:00"
+    }]
+  }]
+}

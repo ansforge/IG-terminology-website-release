@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="low" codeSystem="" displayName="Bas"/>
-         <Concept code="high" codeSystem="" displayName="Elevé"/>
+         <Concept code="low"
+                  codeSystem="http://hl7.org/fhir/allergy-intolerance-criticality"
+                  displayName="Bas"/>
+         <Concept code="high"
+                  codeSystem="http://hl7.org/fhir/allergy-intolerance-criticality"
+                  displayName="Elevé"/>
          <Concept code="unable-to-assess"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/allergy-intolerance-criticality"
                   displayName="Impossible à évaluer"/>
       </ConceptList>
    </ValueSet>

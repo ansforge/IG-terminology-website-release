@@ -10,19 +10,23 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="H53.2" codeSystem="" displayName="Diplopie"/>
-         <Concept code="H53.4" codeSystem="" displayName="Anomalies du champ visuel"/>
+         <Concept code="H53.2"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Diplopie"/>
+         <Concept code="H53.4"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Anomalies du champ visuel"/>
          <Concept code="H54.5"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Déficience visuelle sévère, monoculaire"/>
          <Concept code="H53.8"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Autres troubles de la vision"/>
          <Concept code="H53.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Trouble de la vision, sans précision"/>
          <Concept code="MED-348"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Troubles visuels bilatéraux"/>
       </ConceptList>
    </ValueSet>

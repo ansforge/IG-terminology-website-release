@@ -1,0 +1,187 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-480",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/41d026bd-9ab2-44e3-bf59-97ef030ccee7-480",
+  "name" : "IntersectionTRE_R318_BesoinAideMobiliteAndTRE_R318_BesoinAideMobilite",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:25+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "01",
+    "display" : "Se déplacer dans le domicile",
+    "definition" : "La personne a besoin d'aide pour se déplacer à l'intérieur de son domicile",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "02",
+    "display" : "Sortir du domicile ou y entrer",
+    "definition" : "La personne a besoin d'aide pour sortir de son domicile ou pour y entrer",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "03",
+    "display" : "Se déplacer à l'extérieur du domicile",
+    "definition" : "La personne a besoin d'aide pour se déplacer à l'extérieur de son domicile",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Se déplacer hors du domicile"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "04",
+    "display" : "Utiliser un véhicule",
+    "definition" : "La personne a besoin d'aide pour utiliser un véhicule",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "05",
+    "display" : "Utiliser les transports en commun",
+    "definition" : "La personne a besoin d'aide pour utiliser les transports en commun",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Utiliser les tr en commun"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "06",
+    "display" : "Partir en vacances",
+    "definition" : "La personne a besoin d'aide pour partir en vacances",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2021-09-24T12:00:00+01:00"
+    }]
+  }]
+}

@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="qc0" codeSystem="" displayName="Aucune difficulté"/>
-         <Concept code="qc2" codeSystem="" displayName="Difficulté modérée"/>
-         <Concept code="qc4" codeSystem="" displayName="Difficulté absolue"/>
+         <Concept code="qc0"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Aucune difficulté"/>
+         <Concept code="qc2"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Difficulté modérée"/>
+         <Concept code="qc4"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Difficulté absolue"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

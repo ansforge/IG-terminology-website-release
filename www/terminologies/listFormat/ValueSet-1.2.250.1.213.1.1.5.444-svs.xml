@@ -10,11 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1205" codeSystem="" displayName="Capsule de la thyroide"/>
+         <Concept code="1205"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Capsule de la thyroide"/>
          <Concept code="1206"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Extension extra-thyroidienne"/>
-         <Concept code="1207" codeSystem="" displayName="Organes adjacents, préciser"/>
+         <Concept code="1207"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Organes adjacents, préciser"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

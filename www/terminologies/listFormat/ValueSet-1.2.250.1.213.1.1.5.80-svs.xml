@@ -10,12 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-092.01.04" codeSystem="" displayName="Autre addiction"/>
+         <Concept code="GEN-092.01.04"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre addiction"/>
          <Concept code="11343-1"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Consommation de drogue non médicales"/>
-         <Concept code="74011-8" codeSystem="" displayName="Consommation tabagique"/>
-         <Concept code="74013-4" codeSystem="" displayName="Consommation d’alcool"/>
+         <Concept code="74011-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Consommation tabagique"/>
+         <Concept code="74013-4"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Consommation d’alcool"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

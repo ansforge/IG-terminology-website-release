@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C53610" codeSystem="" displayName="Renouvellement"/>
-         <Concept code="C43383" codeSystem="" displayName="modèle"/>
+         <Concept code="C53610"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Renouvellement"/>
+         <Concept code="C43383"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="modèle"/>
          <Concept code="MED-1181"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Date de délivrance"/>
@@ -43,10 +47,14 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Puissance du cylindre – lentille délivrée"/>
          <Concept code="95325-7"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Axe en degrés des lentilles"/>
-         <Concept code="28814-2" codeSystem="" displayName="Addition – grandeur"/>
-         <Concept code="28815-9" codeSystem="" displayName="Addition – valeur"/>
+         <Concept code="28814-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Addition – grandeur"/>
+         <Concept code="28815-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Addition – valeur"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

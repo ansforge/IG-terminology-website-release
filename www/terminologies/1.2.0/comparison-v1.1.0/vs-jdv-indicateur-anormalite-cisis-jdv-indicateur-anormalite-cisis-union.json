@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2138",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2138",
+  "name" : "UnionJdvIndicateurAnormaliteCisisAndJdvIndicateurAnormaliteCisis",
+  "title" : "Union of JDV Indicateur Anormalite CISIS And JDV Indicateur Anormalite CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "N",
+        "display" : "Normal"
+      },
+      {
+        "code" : "L",
+        "display" : "Anormalement bas"
+      },
+      {
+        "code" : "H",
+        "display" : "Anormalement haut"
+      },
+      {
+        "code" : "LL",
+        "display" : "Très anormalement bas, alerte"
+      },
+      {
+        "code" : "HH",
+        "display" : "Très anormalement haut, alerte"
+      }]
+    }]
+  }
+}

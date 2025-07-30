@@ -10,17 +10,29 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C15313" codeSystem="" displayName="radiothérapie"/>
-         <Concept code="C15195" codeSystem="" displayName="curiethérapie"/>
-         <Concept code="C15632" codeSystem="" displayName="chimiothérapie"/>
-         <Concept code="C93352" codeSystem="" displayName="thérapie ciblée"/>
-         <Concept code="C15445" codeSystem="" displayName="hormonothérapie"/>
-         <Concept code="C15262" codeSystem="" displayName="immunothérapie"/>
+         <Concept code="C15313"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="radiothérapie"/>
+         <Concept code="C15195"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="curiethérapie"/>
+         <Concept code="C15632"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="chimiothérapie"/>
+         <Concept code="C93352"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="thérapie ciblée"/>
+         <Concept code="C15445"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="hormonothérapie"/>
+         <Concept code="C15262"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="immunothérapie"/>
          <Concept code="C63334"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Radiologie interventionnelle"/>
          <Concept code="C157891"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="endoscopie interventionnelle"/>
          <Concept code="MED-556"
                   codeSystem="1.2.250.1.213.1.1.4.322"

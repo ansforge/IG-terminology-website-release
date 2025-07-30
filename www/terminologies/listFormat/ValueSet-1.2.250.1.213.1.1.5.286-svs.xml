@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="898" codeSystem="" displayName="Carcinome hépatocellulaire"/>
-         <Concept code="899" codeSystem="" displayName="Cholangiocarcinome"/>
+         <Concept code="898"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome hépatocellulaire"/>
+         <Concept code="899"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Cholangiocarcinome"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,9 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="%" codeSystem="" displayName="pourcent"/>
-         <Concept code="g/L" codeSystem="" displayName="gramme par litre"/>
-         <Concept code="mg/dL" codeSystem="" displayName="milligramme par décilitre"/>
+         <Concept code="%" codeSystem="2.16.840.1.113883.6.8" displayName="pourcent"/>
+         <Concept code="g/L"
+                  codeSystem="2.16.840.1.113883.6.8"
+                  displayName="gramme par litre"/>
+         <Concept code="mg/dL"
+                  codeSystem="2.16.840.1.113883.6.8"
+                  displayName="milligramme par décilitre"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -11,28 +11,38 @@
              urlFichier="">
       <ConceptList>
          <Concept code="R56.8"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Convulsions, autres et non précisées"/>
          <Concept code="I50.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Insuffisance cardiaque, sans précision"/>
          <Concept code="B99"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Maladies infectieuses, autres et non précisées"/>
-         <Concept code="MED-503" codeSystem="" displayName="Aggravation neurologique"/>
+         <Concept code="MED-503"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Aggravation neurologique"/>
          <Concept code="MED-504"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Troubles de la déglution justifiant une gastrostomie"/>
-         <Concept code="MED-518" codeSystem="" displayName="Complication pulmonaire"/>
+         <Concept code="MED-518"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Complication pulmonaire"/>
          <Concept code="MED-519"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Complication thromboembolique"/>
-         <Concept code="MED-520" codeSystem="" displayName="Complication urinaire"/>
-         <Concept code="MED-521" codeSystem="" displayName="Complication digestive"/>
+         <Concept code="MED-520"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Complication urinaire"/>
+         <Concept code="MED-521"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Complication digestive"/>
          <Concept code="MED-522"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Complication neuropsychiatrique"/>
-         <Concept code="GEN-092.01.01" codeSystem="" displayName="Autre problème"/>
+         <Concept code="GEN-092.01.01"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre problème"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

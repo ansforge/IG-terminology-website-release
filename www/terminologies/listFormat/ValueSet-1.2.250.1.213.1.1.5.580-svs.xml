@@ -10,12 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
-         <Concept code="GEN-263" codeSystem="" displayName="Non spécifié"/>
-         <Concept code="MED-915" codeSystem="" displayName="Biopsie Shaving"/>
-         <Concept code="MED-916" codeSystem="" displayName="Biopsie Punch"/>
-         <Concept code="MED-917" codeSystem="" displayName="Exérèse"/>
-         <Concept code="MED-918" codeSystem="" displayName="Amputation"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
+         <Concept code="GEN-263"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non spécifié"/>
+         <Concept code="MED-915"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Biopsie Shaving"/>
+         <Concept code="MED-916"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Biopsie Punch"/>
+         <Concept code="MED-917"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Exérèse"/>
+         <Concept code="MED-918"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Amputation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

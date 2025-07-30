@@ -11,16 +11,20 @@
              urlFichier="">
       <ConceptList>
          <Concept code="O24.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Diabète sucré préexistant, de type 1"/>
          <Concept code="O24.1"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Diabète sucré préexistant, de type 2"/>
          <Concept code="O24.4"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Diabète sucré survenant au cours de la grossesse"/>
-         <Concept code="OBS_129" codeSystem="" displayName="Diabète gestationnel ID"/>
-         <Concept code="OBS_130" codeSystem="" displayName="Diabète gestationnel NID"/>
+         <Concept code="OBS_129"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Diabète gestationnel ID"/>
+         <Concept code="OBS_130"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Diabète gestationnel NID"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="507" codeSystem="" displayName="Carcinome invasif (SAI)"/>
+         <Concept code="507"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome invasif (SAI)"/>
          <Concept code="1437"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Carcinome épidermoïde invasif (SAI)"/>
          <Concept code="1438"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Adénocarcinome invasif (SAI)"/>
       </ConceptList>
    </ValueSet>

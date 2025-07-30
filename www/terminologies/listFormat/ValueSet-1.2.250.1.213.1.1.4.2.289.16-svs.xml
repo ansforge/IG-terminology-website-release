@@ -11,20 +11,26 @@
              urlFichier="">
       <ConceptList>
          <Concept code="Q89.7"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Malformations congénitales multiples, non classées ailleurs"/>
          <Concept code="Q99.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Anomalies chromosomiques, non classées ailleurs"/>
          <Concept code="OBS_124"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Pas d'anomalie constitutionnelle"/>
-         <Concept code="OBS_125" codeSystem="" displayName="Malformation isolée"/>
-         <Concept code="OBS_126" codeSystem="" displayName="Anomalie génique"/>
+         <Concept code="OBS_125"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Malformation isolée"/>
+         <Concept code="OBS_126"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Anomalie génique"/>
          <Concept code="D4-00100"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Syndrome polymalformatif"/>
-         <Concept code="D4-02000" codeSystem="" displayName="Anomalie chromosomique"/>
+         <Concept code="D4-02000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Anomalie chromosomique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

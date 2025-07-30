@@ -11,10 +11,14 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-048"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Anormal BI-RADS ACR [0,3,4,5]"/>
-         <Concept code="MED-129" codeSystem="" displayName="Normal BI-RADS ACR 1"/>
-         <Concept code="MED-130" codeSystem="" displayName="Bénin BI-RADS ACR 2"/>
+         <Concept code="MED-129"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Normal BI-RADS ACR 1"/>
+         <Concept code="MED-130"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bénin BI-RADS ACR 2"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

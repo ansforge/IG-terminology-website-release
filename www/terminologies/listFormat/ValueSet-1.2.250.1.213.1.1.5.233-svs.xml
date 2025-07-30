@@ -10,13 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="522" codeSystem="" displayName="2/3 supérieurs du vagin"/>
-         <Concept code="523" codeSystem="" displayName="1/3 inférieur du vagin"/>
-         <Concept code="524" codeSystem="" displayName="Paramètres"/>
-         <Concept code="525" codeSystem="" displayName="Paroi pelvienne"/>
-         <Concept code="526" codeSystem="" displayName="Vessie (muqueuse)"/>
-         <Concept code="527" codeSystem="" displayName="Rectum (muqueuse)"/>
-         <Concept code="528" codeSystem="" displayName="Uretère"/>
+         <Concept code="522"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="2/3 supérieurs du vagin"/>
+         <Concept code="523"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="1/3 inférieur du vagin"/>
+         <Concept code="524"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Paramètres"/>
+         <Concept code="525"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Paroi pelvienne"/>
+         <Concept code="526"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Vessie (muqueuse)"/>
+         <Concept code="527"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Rectum (muqueuse)"/>
+         <Concept code="528"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Uretère"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

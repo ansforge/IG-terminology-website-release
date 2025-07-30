@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="active" codeSystem="" displayName="Actif"/>
-         <Concept code="inactive" codeSystem="" displayName="Inactif"/>
-         <Concept code="resolved" codeSystem="" displayName="Résolu"/>
+         <Concept code="active"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+                  displayName="Actif"/>
+         <Concept code="inactive"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+                  displayName="Inactif"/>
+         <Concept code="resolved"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/allergyintolerance-clinical"
+                  displayName="Résolu"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

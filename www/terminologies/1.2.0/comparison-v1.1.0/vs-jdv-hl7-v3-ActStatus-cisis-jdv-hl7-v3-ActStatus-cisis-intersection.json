@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2049",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2049",
+  "name" : "IntersectionActStatusAndActStatus",
+  "title" : "Intersection of ActStatus And ActStatus",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "aborted",
+        "display" : "Arrêté (après son lancement)"
+      },
+      {
+        "code" : "active",
+        "display" : "Actif (en cours ou à venir)"
+      },
+      {
+        "code" : "cancelled",
+        "display" : "Annulé (avant son lancement)"
+      },
+      {
+        "code" : "completed",
+        "display" : "Terminé"
+      },
+      {
+        "code" : "held",
+        "display" : "En attente (avant son lancement)"
+      },
+      {
+        "code" : "new",
+        "display" : "En préparation"
+      },
+      {
+        "code" : "suspended",
+        "display" : "Suspendu (au cours de sa réalisation)"
+      }]
+    }]
+  }
+}

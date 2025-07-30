@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2618",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2618",
+  "name" : "UnionJdvScoreBradenActiviteCisisAndJdvScoreBradenActiviteCisis",
+  "title" : "Union of JDV Score Braden Activite CISIS And JDV Score Braden Activite CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA6742-6",
+        "display" : "Alité"
+      },
+      {
+        "code" : "LA9611-0",
+        "display" : "Confiné au fauteuil"
+      },
+      {
+        "code" : "LA9612-8",
+        "display" : "Marche occasionnellement"
+      },
+      {
+        "code" : "LA9613-6",
+        "display" : "Marche fréquemment"
+      }]
+    }]
+  }
+}

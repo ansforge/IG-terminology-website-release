@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="no-device-info"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d'information sur les dispositifs médicaux"/>
          <Concept code="no-known-devices"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas de dispositif médical connu"/>
       </ConceptList>
    </ValueSet>

@@ -10,17 +10,23 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-096" codeSystem="" displayName="Médecin traitant"/>
-         <Concept code="ORG-097" codeSystem="" displayName="Correspondant"/>
-         <Concept code="ORG-113" codeSystem="" displayName="RCP"/>
+         <Concept code="ORG-096"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Médecin traitant"/>
+         <Concept code="ORG-097"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Correspondant"/>
+         <Concept code="ORG-113"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="RCP"/>
          <Concept code="ORG-135"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Session RCP et inscription"/>
          <Concept code="ORG-136"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Médecin coordonateur de session"/>
          <Concept code="ORG-137"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="PS participant à la session de RCP"/>
       </ConceptList>
    </ValueSet>

@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1255" codeSystem="" displayName="Spatules"/>
+         <Concept code="MED-1255"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Spatules"/>
          <Concept code="GEN-092.04.21"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre manœuvre siège"/>
          <Concept code="GEN-092.04.22"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre manœuvre voie basse"/>
          <Concept code="237008007"
                   codeSystem="2.16.840.1.113883.6.96"

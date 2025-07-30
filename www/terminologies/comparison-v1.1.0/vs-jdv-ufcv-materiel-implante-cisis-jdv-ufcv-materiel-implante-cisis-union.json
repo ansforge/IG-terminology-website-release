@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2969",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2969",
+  "name" : "UnionJdvUfcvMaterielImplanteCisisAndJdvUfcvMaterielImplanteCisis",
+  "title" : "Union of JDV UFCV Materiel Implente CISIS And JDV UFCV Materiel Implente CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "J0105",
+        "display" : "DÉFIBRILLATEURS IMPLANTABLES"
+      },
+      {
+        "code" : "P0703",
+        "display" : "VALVES CARDIAQUES"
+      },
+      {
+        "code" : "P0704",
+        "display" : "ENDOPROTHÈSES VASCULAIRES ET CARDIAQUES"
+      },
+      {
+        "code" : "J0101",
+        "display" : "STIMULATEURS CARDIAQUES IMPLANTABLES"
+      },
+      {
+        "code" : "J019001010101",
+        "display" : "SONDES DE STIMULATION CARDIAQUE AURICULAIRE À FIXATION PASSIVE"
+      },
+      {
+        "code" : "J01030101",
+        "display" : "DISPOSITIFS IMPLANTABLES D'ASSISTANCE VENTRICULAIRE DROITE (RVAD)"
+      },
+      {
+        "code" : "J01030102",
+        "display" : "DISPOSITIFS IMPLANTABLES D'ASSISTANCE VENTRICULAIRE GAUCHE (LVAD)"
+      }]
+    }]
+  }
+}

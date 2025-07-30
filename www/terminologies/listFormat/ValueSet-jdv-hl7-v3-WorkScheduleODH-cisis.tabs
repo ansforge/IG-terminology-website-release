@@ -1,12 +1,12 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 2.16.840.1.113883.1.11.20561;JDV;WorkScheduleODH.tabs;WorkScheduleODH;;20190101000000;;20250624152059
-<OID>;<Code>;<Libellé> 
-;DS;Journée (par exemple : entre 6h et 18h)
-;EMS;Matin (entre 2h et 14h)
-;ES;Après-midi (entre 14h et minuit)
-;NS;Nuit (entre 21h et 8h)
-;RSWN;Variable (journées, soirées, avec parfois des nuits)
-;RSWON;Variable (journées, soirées, sans nuits ni soirées)
-;SS;Journée avec coupure de 2 à 4 heures.
-;VLS;Horaires de longue durée (17h ou plus)
-;VS;Irrégulier avec information à court terme
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-ObservationValue;DS;Journée (par exemple : entre 6h et 18h)
+http://terminology.hl7.org/CodeSystem/v3-ObservationValue;EMS;Matin (entre 2h et 14h)
+http://terminology.hl7.org/CodeSystem/v3-ObservationValue;ES;Après-midi (entre 14h et minuit)
+http://terminology.hl7.org/CodeSystem/v3-ObservationValue;NS;Nuit (entre 21h et 8h)
+http://terminology.hl7.org/CodeSystem/v3-ObservationValue;RSWN;Variable (journées, soirées, avec parfois des nuits)
+http://terminology.hl7.org/CodeSystem/v3-ObservationValue;RSWON;Variable (journées, soirées, sans nuits ni soirées)
+http://terminology.hl7.org/CodeSystem/v3-ObservationValue;SS;Journée avec coupure de 2 à 4 heures.
+http://terminology.hl7.org/CodeSystem/v3-ObservationValue;VLS;Horaires de longue durée (17h ou plus)
+http://terminology.hl7.org/CodeSystem/v3-ObservationValue;VS;Irrégulier avec information à court terme

@@ -1,10 +1,10 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 2.16.840.1.113883.1.11.15933;JDV;JDV_HL7_ActStatus_CISIS.tabs;JDV_HL7_ActStatus_CISIS;;20210315000000;;20100101000000
-<OID>;<Code>;<Libellé> 
-;aborted;Arrêté (après son lancement)
-;active;Actif (en cours ou à venir)
-;cancelled;Annulé (avant son lancement)
-;completed;Terminé
-;held;En attente (avant son lancement)
-;new;En préparation
-;suspended;Suspendu (au cours de sa réalisation)
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-ActStatus;aborted;Arrêté (après son lancement)
+http://terminology.hl7.org/CodeSystem/v3-ActStatus;active;Actif (en cours ou à venir)
+http://terminology.hl7.org/CodeSystem/v3-ActStatus;cancelled;Annulé (avant son lancement)
+http://terminology.hl7.org/CodeSystem/v3-ActStatus;completed;Terminé
+http://terminology.hl7.org/CodeSystem/v3-ActStatus;held;En attente (avant son lancement)
+http://terminology.hl7.org/CodeSystem/v3-ActStatus;new;En préparation
+http://terminology.hl7.org/CodeSystem/v3-ActStatus;suspended;Suspendu (au cours de sa réalisation)

@@ -10,14 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C25757" codeSystem="" displayName="Ulcération"/>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
-         <Concept code="MED-758" codeSystem="" displayName="Aspect normal/subnormal"/>
+         <Concept code="C25757"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Ulcération"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
+         <Concept code="MED-758"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Aspect normal/subnormal"/>
          <Concept code="MED-759"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Petite perte de substance superficielle"/>
-         <Concept code="MED-760" codeSystem="" displayName="Suffusions hémorragiques"/>
-         <Concept code="MED-761" codeSystem="" displayName="Aspect cicatriciel"/>
+         <Concept code="MED-760"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Suffusions hémorragiques"/>
+         <Concept code="MED-761"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Aspect cicatriciel"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

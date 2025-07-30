@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1986",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1986",
+  "name" : "IntersectionJdvGestionEffetSecondaireCisisAndJdvGestionEffetSecondaireCisis",
+  "title" : "Intersection of JDV Gestion Effet Secondaire CISIS And JDV Gestion Effet Secondaire CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C20427",
+        "display" : "facteur de croissance hématopoïétique"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "GEN-092.04.12",
+        "display" : "Autre gestion des effets secondaires"
+      }]
+    }]
+  }
+}

@@ -10,12 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="LA6742-6" codeSystem="" displayName="Alité"/>
-         <Concept code="LA9611-0" codeSystem="" displayName="Confiné au fauteuil"/>
+         <Concept code="LA6742-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Alité"/>
+         <Concept code="LA9611-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Confiné au fauteuil"/>
          <Concept code="LA9612-8"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Marche occasionnellement"/>
-         <Concept code="LA9613-6" codeSystem="" displayName="Marche fréquemment"/>
+         <Concept code="LA9613-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Marche fréquemment"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

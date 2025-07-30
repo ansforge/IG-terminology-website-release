@@ -1,19 +1,19 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 2.16.840.1.113883.1.11.10196;JDV;JDV_HL7_ActMood_CISIS.tabs;JDV_HL7_ActMood_CISIS;;20210315000000;;20240905000000
-<OID>;<Code>;<Libellé> 
-;DEF;Définition
-;PERM;Permission
-;SLOT;Possible sur la période spécifiée
-;EVN;Réalisé
-;INT;Prévu
-;ARQ;Prévu mais non confirmé
-;PERMRQ;Demande d'autorisation
-;RQO;Demande
-;PRP;Proposition
-;RMD;Recommandation
-;PRMS;Planifié et confirmé
-;APT;Date et lieu confirmé
-;EXPEC;Attendu
-;GOL;But
-;RSK;Risque
-;OPT;Option
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-ActMood;DEF;Définition
+http://terminology.hl7.org/CodeSystem/v3-ActMood;PERM;Permission
+http://terminology.hl7.org/CodeSystem/v3-ActMood;SLOT;Possible sur la période spécifiée
+http://terminology.hl7.org/CodeSystem/v3-ActMood;EVN;Réalisé
+http://terminology.hl7.org/CodeSystem/v3-ActMood;INT;Prévu
+http://terminology.hl7.org/CodeSystem/v3-ActMood;ARQ;Prévu mais non confirmé
+http://terminology.hl7.org/CodeSystem/v3-ActMood;PERMRQ;Demande d'autorisation
+http://terminology.hl7.org/CodeSystem/v3-ActMood;RQO;Demande
+http://terminology.hl7.org/CodeSystem/v3-ActMood;PRP;Proposition
+http://terminology.hl7.org/CodeSystem/v3-ActMood;RMD;Recommandation
+http://terminology.hl7.org/CodeSystem/v3-ActMood;PRMS;Planifié et confirmé
+http://terminology.hl7.org/CodeSystem/v3-ActMood;APT;Date et lieu confirmé
+http://terminology.hl7.org/CodeSystem/v3-ActMood;EXPEC;Attendu
+http://terminology.hl7.org/CodeSystem/v3-ActMood;GOL;But
+http://terminology.hl7.org/CodeSystem/v3-ActMood;RSK;Risque
+http://terminology.hl7.org/CodeSystem/v3-ActMood;OPT;Option

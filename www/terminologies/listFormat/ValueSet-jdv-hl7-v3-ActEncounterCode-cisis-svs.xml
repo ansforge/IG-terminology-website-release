@@ -11,25 +11,31 @@
              urlFichier="">
       <ConceptList>
          <Concept code="AMB"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Ambulatoire (hors établissement)"/>
          <Concept code="EMER"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Passage aux urgences (établissement)"/>
          <Concept code="FLD"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Terrain (voie publique, hélicoptère, ambulance, etc.)"/>
          <Concept code="HH"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Soins à domicile (hors établissement)"/>
          <Concept code="IMP"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Hospitalisation (établissement, y compris HAD)"/>
-         <Concept code="OBSENC" codeSystem="" displayName="Observation"/>
-         <Concept code="PRENC" codeSystem="" displayName="Pré-admission"/>
-         <Concept code="SS" codeSystem="" displayName="Hospitalisation de jour"/>
+         <Concept code="OBSENC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Observation"/>
+         <Concept code="PRENC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Pré-admission"/>
+         <Concept code="SS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Hospitalisation de jour"/>
          <Concept code="VR"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Virtuelle (exemple : RCP en l'absence du patient)"/>
       </ConceptList>
    </ValueSet>

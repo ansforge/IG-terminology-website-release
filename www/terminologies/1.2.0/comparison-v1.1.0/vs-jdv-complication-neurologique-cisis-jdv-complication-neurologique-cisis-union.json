@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1781",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1781",
+  "name" : "UnionJdvComplicationNeurologiqueCisisAndJdvComplicationNeurologiqueCisis",
+  "title" : "Union of JDV Complication Neurologique CISIS And JDV Complication Neurologique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "I22",
+        "display" : "infarctus du myocarde récidivant"
+      },
+      {
+        "code" : "R60.9",
+        "display" : "Œdème, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-469",
+        "display" : "Récidive d'hémorragie"
+      },
+      {
+        "code" : "MED-470",
+        "display" : "Transformation hémorragique"
+      },
+      {
+        "code" : "GEN-092.01.03",
+        "display" : "Autre complication neurologique"
+      }]
+    }]
+  }
+}

@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-103" codeSystem="" displayName="Normal"/>
+         <Concept code="GEN-103"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Normal"/>
          <Concept code="AVC-052"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="extinction ou négligence visuelle, tactile, auditive, spatiale ou personnelle à la stimulation bilatérale simultanée dans une des modalités."/>
          <Concept code="AVC-053"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="héminégligence sévère ou portant sur plus d’une modalité sensorielle. Ne reconnaît pas sa propre main ou ne s’oriente que vers un côté de l’espace."/>
       </ConceptList>
    </ValueSet>

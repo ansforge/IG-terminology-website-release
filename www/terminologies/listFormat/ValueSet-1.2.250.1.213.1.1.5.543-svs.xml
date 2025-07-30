@@ -10,16 +10,30 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C13056" codeSystem="" displayName="Musculeuse"/>
-         <Concept code="C13166" codeSystem="" displayName="Muqueuse"/>
-         <Concept code="C13167" codeSystem="" displayName="Sous-muqueuse"/>
-         <Concept code="C13807" codeSystem="" displayName="Intra-épithéliale"/>
+         <Concept code="C13056"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Musculeuse"/>
+         <Concept code="C13166"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Muqueuse"/>
+         <Concept code="C13167"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Sous-muqueuse"/>
+         <Concept code="C13807"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Intra-épithéliale"/>
          <Concept code="C33880"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Surface du péritoine viscéral"/>
-         <Concept code="C94494" codeSystem="" displayName="Sous-séreuse"/>
-         <Concept code="MED-725" codeSystem="" displayName="Graisse péri-rectale"/>
-         <Concept code="MED-727" codeSystem="" displayName="Organe(s) adjacent(s)"/>
+         <Concept code="C94494"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Sous-séreuse"/>
+         <Concept code="MED-725"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Graisse péri-rectale"/>
+         <Concept code="MED-727"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Organe(s) adjacent(s)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

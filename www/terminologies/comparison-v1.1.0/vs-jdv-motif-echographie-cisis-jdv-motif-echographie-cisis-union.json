@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2339",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2339",
+  "name" : "UnionJdvMotifEchographieCisisAndJdvMotifEchographieCisis",
+  "title" : "Union of JDV Motif Echographie CISIS And JDV Motif Echographie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C94305",
+        "display" : "densité mammaire"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-107",
+        "display" : "Implant"
+      },
+      {
+        "code" : "GEN-092.01.07",
+        "display" : "Autre motif d'échographie"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "161615003",
+        "display" : "antécédents d'intervention chirurgicale"
+      }]
+    }]
+  }
+}

@@ -10,30 +10,56 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C15313" codeSystem="" displayName="radiothérapie"/>
-         <Concept code="C15195" codeSystem="" displayName="curiethérapie"/>
-         <Concept code="C15632" codeSystem="" displayName="chimiothérapie"/>
-         <Concept code="C93352" codeSystem="" displayName="thérapie ciblée"/>
-         <Concept code="C547" codeSystem="" displayName="Hormonothérapie"/>
-         <Concept code="C15262" codeSystem="" displayName="immunothérapie"/>
+         <Concept code="C15313"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="radiothérapie"/>
+         <Concept code="C15195"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="curiethérapie"/>
+         <Concept code="C15632"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="chimiothérapie"/>
+         <Concept code="C93352"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="thérapie ciblée"/>
+         <Concept code="C547"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Hormonothérapie"/>
+         <Concept code="C15262"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="immunothérapie"/>
          <Concept code="C63334"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Radiologie interventionnelle"/>
          <Concept code="C157891"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="endoscopie interventionnelle"/>
-         <Concept code="C15747" codeSystem="" displayName="soins de support"/>
-         <Concept code="C15252" codeSystem="" displayName="soins palliatifs"/>
-         <Concept code="MED-556" codeSystem="" displayName="Fenêtre thérapeutique"/>
-         <Concept code="MED-226" codeSystem="" displayName="Surveillance seule"/>
-         <Concept code="MED-227" codeSystem="" displayName="Surveillance active"/>
-         <Concept code="MED-232" codeSystem="" displayName="Irathérapie"/>
-         <Concept code="MED-126" codeSystem="" displayName="Allogreffe / Autogreffe"/>
+         <Concept code="C15747"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="soins de support"/>
+         <Concept code="C15252"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="soins palliatifs"/>
+         <Concept code="MED-556"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Fenêtre thérapeutique"/>
+         <Concept code="MED-226"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Surveillance seule"/>
+         <Concept code="MED-227"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Surveillance active"/>
+         <Concept code="MED-232"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Irathérapie"/>
+         <Concept code="MED-126"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Allogreffe / Autogreffe"/>
          <Concept code="GEN-092.03.01"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre(s) traitement(s)"/>
          <Concept code="GEN-092.03.02"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre(s) traitement(s) médicamenteux spécifique(s)"/>
          <Concept code="387713003"
                   codeSystem="2.16.840.1.113883.6.96"

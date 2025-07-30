@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-039" codeSystem="" displayName="a"/>
-         <Concept code="MED-040" codeSystem="" displayName="b"/>
-         <Concept code="MED-041" codeSystem="" displayName="c"/>
-         <Concept code="MED-042" codeSystem="" displayName="d"/>
+         <Concept code="MED-039"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="a"/>
+         <Concept code="MED-040"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="b"/>
+         <Concept code="MED-041"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="c"/>
+         <Concept code="MED-042"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="d"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

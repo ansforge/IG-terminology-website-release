@@ -10,9 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-192" codeSystem="" displayName="Marche normale"/>
+         <Concept code="GEN-192"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Marche normale"/>
          <Concept code="GEN-092.08.01"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre aide au déplacement"/>
          <Concept code="895457008"
                   codeSystem="2.16.840.1.113883.6.96"

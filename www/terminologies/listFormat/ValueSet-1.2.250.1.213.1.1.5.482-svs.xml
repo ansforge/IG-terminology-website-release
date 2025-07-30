@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="LA25377-5" codeSystem="" displayName="Bilatéral"/>
-         <Concept code="LA25378-3" codeSystem="" displayName="Unilatéral"/>
-         <Concept code="LA4306-2" codeSystem="" displayName="Droit"/>
-         <Concept code="LA4585-1" codeSystem="" displayName="Gauche"/>
-         <Concept code="LA4720-4" codeSystem="" displayName="Non applicable"/>
+         <Concept code="LA25377-5"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Bilatéral"/>
+         <Concept code="LA25378-3"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Unilatéral"/>
+         <Concept code="LA4306-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Droit"/>
+         <Concept code="LA4585-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Gauche"/>
+         <Concept code="LA4720-4"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Non applicable"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

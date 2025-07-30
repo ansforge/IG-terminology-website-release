@@ -1,0 +1,57 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2459",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2459",
+  "name" : "UnionJdvPresentationFoetaleCisisAndJdvPresentationFoetaleCisis",
+  "title" : "Union of JDV Presentation Foetale CISIS And JDV Presentation Foetale CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1245",
+        "display" : "Occipito-pubien"
+      },
+      {
+        "code" : "MED-1246",
+        "display" : "Occipito-sacré"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "70028003",
+        "display" : "présentation du sommet"
+      },
+      {
+        "code" : "289366006",
+        "display" : "malposition du fœtus par présentation de la face"
+      },
+      {
+        "code" : "289367002",
+        "display" : "malposition du fœtus par présentation du front"
+      },
+      {
+        "code" : "49168004",
+        "display" : "présentation en siège complet"
+      },
+      {
+        "code" : "38049006",
+        "display" : "présentation de siège décomplété"
+      },
+      {
+        "code" : "289368007",
+        "display" : "malposition du foetus par présentation de l'épaule"
+      },
+      {
+        "code" : "249082000",
+        "display" : "présentation par la grande fontanelle"
+      }]
+    }]
+  }
+}

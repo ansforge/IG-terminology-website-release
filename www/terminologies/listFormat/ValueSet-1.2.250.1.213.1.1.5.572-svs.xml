@@ -10,25 +10,29 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-787" codeSystem="" displayName="Évaluation impossible"/>
-         <Concept code="MED-788" codeSystem="" displayName="Pas de tumeur retrouvée"/>
+         <Concept code="MED-787"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Évaluation impossible"/>
+         <Concept code="MED-788"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Pas de tumeur retrouvée"/>
          <Concept code="MED-789"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Carcinome intra-épithélial / intra-muqueux"/>
          <Concept code="MED-790"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Envahissement  de la sous-muqueuse"/>
          <Concept code="MED-791"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Envahissement  de la musculeuse"/>
          <Concept code="MED-792"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Envahissement  de la sous-séreuse ou de la graisse périrectale"/>
          <Concept code="MED-793"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Envahissement de la séreuse (revêtement mésothélial)"/>
          <Concept code="MED-794"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Envahissement ou adhérence aux organes de voisinage"/>
       </ConceptList>
    </ValueSet>

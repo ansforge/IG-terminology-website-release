@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="D0009-6" codeSystem="" displayName="Paroi Libre de l’OD"/>
-         <Concept code="D0009-7" codeSystem="" displayName="Plancher VD"/>
+         <Concept code="D0009-6"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Paroi Libre de l’OD"/>
+         <Concept code="D0009-7"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Plancher VD"/>
          <Concept code="D0009-9"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Veine cardiaque latérale gauche"/>
          <Concept code="13383001"
                   codeSystem="2.16.840.1.113883.6.96"

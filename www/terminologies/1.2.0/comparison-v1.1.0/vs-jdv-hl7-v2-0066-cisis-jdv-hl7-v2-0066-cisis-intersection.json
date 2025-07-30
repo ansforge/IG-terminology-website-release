@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2025",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2025",
+  "name" : "IntersectionHl7VSEmploymentStatusAndHl7VSEmploymentStatus",
+  "title" : "Intersection of hl7VS-employmentStatus And hl7VS-employmentStatus",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Employé à temps plein"
+      },
+      {
+        "code" : "2",
+        "display" : "Employé à temps partiel"
+      },
+      {
+        "code" : "3",
+        "display" : "Sans emploi"
+      },
+      {
+        "code" : "4",
+        "display" : "Auto-entrepreuneur"
+      },
+      {
+        "code" : "5",
+        "display" : "Retraité"
+      },
+      {
+        "code" : "6",
+        "display" : "En service militaire actif"
+      },
+      {
+        "code" : "9",
+        "display" : "Statut d'emploi inconnu"
+      },
+      {
+        "code" : "C",
+        "display" : "Contrat journalier"
+      },
+      {
+        "code" : "L",
+        "display" : "Congé (par exemple, congé familial, congé sabbatique, etc.)"
+      },
+      {
+        "code" : "T",
+        "display" : "Temporairement sans emploi"
+      },
+      {
+        "code" : "O",
+        "display" : "Autre"
+      }]
+    }]
+  }
+}

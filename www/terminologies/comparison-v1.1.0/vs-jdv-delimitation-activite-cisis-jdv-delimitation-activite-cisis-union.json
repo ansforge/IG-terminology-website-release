@@ -1,0 +1,81 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1835",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1835",
+  "name" : "UnionJdvDelimitationActiviteCisisAndJdvDelimitationActiviteCisis",
+  "title" : "Union of JDV Delimitation Activite CISIS And JDV Delimitation Activite CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-144",
+        "display" : "Risque de chute"
+      },
+      {
+        "code" : "GEN-145",
+        "display" : "Incontinence"
+      },
+      {
+        "code" : "GEN-146",
+        "display" : "Gérer ses comptes et ses affaires personnelles"
+      },
+      {
+        "code" : "GEN-147",
+        "display" : "Gérer seul ses traitements"
+      },
+      {
+        "code" : "GEN-148",
+        "display" : "Marcher seul à l'exterieur (transports)"
+      },
+      {
+        "code" : "GEN-149",
+        "display" : "Communiquer\u00a0: proches"
+      },
+      {
+        "code" : "GEN-150",
+        "display" : "Extérieur (appel secours, courses…)"
+      },
+      {
+        "code" : "GEN-151",
+        "display" : "Le patient bénéficie-t-il d'une aide humaine ?"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "45537-8",
+        "display" : "Se déplacer en fauteuil roulant seul"
+      },
+      {
+        "code" : "45588-1",
+        "display" : "Se lever seul"
+      },
+      {
+        "code" : "45590-7",
+        "display" : "Faire ses transferts"
+      },
+      {
+        "code" : "45592-3",
+        "display" : "Marcher seul à l'intérieur"
+      },
+      {
+        "code" : "45602-0",
+        "display" : "Manger un repas préparé seul"
+      },
+      {
+        "code" : "45604-6",
+        "display" : "Utiliser les wc seul"
+      },
+      {
+        "code" : "45606-1",
+        "display" : "Faire sa toilette seul"
+      }]
+    }]
+  }
+}

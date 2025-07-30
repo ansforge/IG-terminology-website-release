@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-311" codeSystem="" displayName="Jamais"/>
-         <Concept code="GEN-312" codeSystem="" displayName="&lt; 1 fois/semaine"/>
-         <Concept code="GEN-313" codeSystem="" displayName="&gt;= 1 fois/semaine"/>
+         <Concept code="GEN-311"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Jamais"/>
+         <Concept code="GEN-312"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="&lt; 1 fois/semaine"/>
+         <Concept code="GEN-313"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="&gt;= 1 fois/semaine"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

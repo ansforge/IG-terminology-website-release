@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2726",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2726",
+  "name" : "UnionJdvStatutTabagiqueCisisAndJdvStatutTabagiqueCisis",
+  "title" : "Union of JDV Statut Tabagique CISIS And JDV Statut Tabagique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "449868002",
+        "display" : "fumeur(-euse) quotidien(ne)"
+      },
+      {
+        "code" : "428041000124106",
+        "display" : "fumeur(-euse) occasionnel(le)"
+      },
+      {
+        "code" : "8517006",
+        "display" : "ancien(ne) fumeur(-euse)"
+      },
+      {
+        "code" : "266919005",
+        "display" : "n'a jamais fumé"
+      },
+      {
+        "code" : "266927001",
+        "display" : "Tobacco smoking consumption unknown"
+      },
+      {
+        "code" : "56771006",
+        "display" : "gros(se) fumeur(-euse) (plus de 20 cigarettes par jour)"
+      },
+      {
+        "code" : "56578002",
+        "display" : "fumeur(-euse) modéré(e) (20 cigarettes ou moins par jour)"
+      }]
+    }]
+  }
+}

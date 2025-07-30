@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2153",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2153",
+  "name" : "UnionJdvInvestigationRealiseeAunvCisisAndJdvInvestigationRealiseeAunvCisis",
+  "title" : "Union of JDV Investigation Realisee Aunv CISIS And JDV Investigation Realisee Aunv CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEQP003",
+        "display" : "Électrocardiographie sur au moins 12 dérivations"
+      },
+      {
+        "code" : "ACQK001",
+        "display" : "Scannographie du crâne et de son contenu"
+      },
+      {
+        "code" : "ACQN001",
+        "display" : "Remnographie [IRM] du crâne et de son contenu, sans injection intraveineuse de produit de contraste"
+      },
+      {
+        "code" : "EAQH002",
+        "display" : "Scanographie des vaisseaux encéphaliques"
+      },
+      {
+        "code" : "EAQJ001",
+        "display" : "Remnographie des vaisseaux encéphaliques"
+      }]
+    }]
+  }
+}

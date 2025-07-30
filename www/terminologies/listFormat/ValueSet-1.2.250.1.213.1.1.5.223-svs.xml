@@ -11,15 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="F32.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Épisode dépressif, sans précision"/>
-         <Concept code="MED-523" codeSystem="" displayName="Syndrome anxieux"/>
+         <Concept code="MED-523"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Syndrome anxieux"/>
          <Concept code="MED-524"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Troubles du comportement (agitation, hallucinations)"/>
-         <Concept code="MED-525" codeSystem="" displayName="Troubles du sommeil"/>
+         <Concept code="MED-525"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Troubles du sommeil"/>
          <Concept code="GEN-092.01.15"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autres syndromes psycho-comportementaux"/>
       </ConceptList>
    </ValueSet>

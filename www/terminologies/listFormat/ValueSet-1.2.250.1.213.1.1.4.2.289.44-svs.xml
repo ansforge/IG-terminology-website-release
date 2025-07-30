@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="OBS_244" codeSystem="" displayName="Gastrique"/>
-         <Concept code="OBS_245" codeSystem="" displayName="Sang"/>
+         <Concept code="OBS_244"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Gastrique"/>
+         <Concept code="OBS_245"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Sang"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

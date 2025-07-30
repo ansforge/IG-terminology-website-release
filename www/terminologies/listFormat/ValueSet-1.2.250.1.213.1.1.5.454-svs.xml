@@ -11,10 +11,14 @@
              urlFichier="">
       <ConceptList>
          <Concept code="1119"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Tumeur urothéliale papillaire de faible potentiel de malignité"/>
-         <Concept code="1120" codeSystem="" displayName="Carcinome de haut grade"/>
-         <Concept code="1121" codeSystem="" displayName="Carcinome de bas grade"/>
+         <Concept code="1120"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome de haut grade"/>
+         <Concept code="1121"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome de bas grade"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

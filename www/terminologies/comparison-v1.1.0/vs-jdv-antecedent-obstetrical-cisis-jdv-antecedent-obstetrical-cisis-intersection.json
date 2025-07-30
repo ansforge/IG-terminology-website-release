@@ -1,0 +1,87 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1674",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1674",
+  "name" : "IntersectionJdvAntecedentObstetricalCisisAndJdvAntecedentObstetricalCisis",
+  "title" : "Intersection of JDV Antecedent Obstetrical CISIS And JDV Antecedent Obstetrical CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "O13",
+        "display" : "Hypertension gestationnelle [liée à la grossesse]"
+      },
+      {
+        "code" : "O14.9",
+        "display" : "Prééclampsie, sans précision"
+      },
+      {
+        "code" : "O82.9",
+        "display" : "Accouchement par césarienne, sans précision"
+      },
+      {
+        "code" : "O24.4",
+        "display" : "Diabète sucré survenant au cours de la grossesse"
+      },
+      {
+        "code" : "O99",
+        "display" : "Autres maladies de la mère classées ailleurs, mais compliquant la grossesse, l'accouchement et la puerpéralité"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1184",
+        "display" : "Nombre d'enfants nés vivants et décédés avant 28 jours"
+      },
+      {
+        "code" : "MED-159",
+        "display" : "Nombre d'enfants pesant moins de 2500 g"
+      },
+      {
+        "code" : "ORG-077",
+        "display" : "Hospitalisation (y compris à domicile)"
+      },
+      {
+        "code" : "ORG-086",
+        "display" : "Motif d'hospitalisation"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "8348-5",
+        "display" : "Poids corporel avant grossesse"
+      },
+      {
+        "code" : "8302-2",
+        "display" : "Taille"
+      },
+      {
+        "code" : "11637-6",
+        "display" : "Nombre d'enfants prématurés (nés avant 37 semaines)"
+      },
+      {
+        "code" : "11977-6",
+        "display" : "Parité (nombre total d'accouchements y compris actuel)"
+      },
+      {
+        "code" : "11996-6",
+        "display" : "Gestité (nombre total de grossesses y compris actuelle)"
+      },
+      {
+        "code" : "57062-2",
+        "display" : "Nombre d'enfants mort-nés"
+      },
+      {
+        "code" : "75200-6",
+        "display" : "Date de la première consultation (déclaration de grossesse)"
+      }]
+    }]
+  }
+}

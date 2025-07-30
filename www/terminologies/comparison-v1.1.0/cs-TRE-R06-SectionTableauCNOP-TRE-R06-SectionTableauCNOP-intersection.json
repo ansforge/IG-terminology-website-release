@@ -1,0 +1,245 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-117",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-117",
+  "name" : "IntersectionTRE_R06_SectionTableauCNOPAndTRE_R06_SectionTableauCNOP",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:38+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "A",
+    "display" : "Pharmacien titulaire d'officine",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Pharmacien titulaire officine"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "B",
+    "display" : "Pharmacien d'entreprise - industrie",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Pharmacien entreprise, indus"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "C",
+    "display" : "Pharmacien d'entreprise - distribution",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Pharmacien entreprise, distrib"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "D",
+    "display" : "Pharmacien adjoint, remplaçant ou gérant",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Pharmacien adjoint, divers"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "E",
+    "display" : "Pharmacien d'Outre-Mer",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "G",
+    "display" : "Pharmacien biologiste",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "H",
+    "display" : "Pharmacien d'établissement de santé",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Pharmacien d'étab de santé"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T15:04:42+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "M",
+    "display" : "Pharmacien militaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2007-07-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-09-01T00:00:00+01:00"
+    }]
+  }]
+}

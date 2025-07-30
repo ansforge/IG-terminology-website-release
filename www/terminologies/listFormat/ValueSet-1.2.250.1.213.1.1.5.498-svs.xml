@@ -10,14 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-627" codeSystem="" displayName="1 - Rien"/>
-         <Concept code="MED-628" codeSystem="" displayName="2 - Nausées modéréés"/>
-         <Concept code="MED-629" codeSystem="" displayName="3 - Nausées intenses"/>
-         <Concept code="MED-630" codeSystem="" displayName="4 - Vomissements"/>
+         <Concept code="MED-627"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="1 - Rien"/>
+         <Concept code="MED-628"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="2 - Nausées modéréés"/>
+         <Concept code="MED-629"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="3 - Nausées intenses"/>
+         <Concept code="MED-630"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="4 - Vomissements"/>
          <Concept code="MED-631"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="5 - Vomissement répétés ou incoercibles"/>
-         <Concept code="MED-659" codeSystem="" displayName="Non évaluable"/>
+         <Concept code="MED-659"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non évaluable"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

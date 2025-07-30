@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1236",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1236",
+  "name" : "IntersectionJDV_J224_StatutLieu_RORAndJDV_J224_StatutLieu_ROR",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Fermé définitivement"
+      },
+      {
+        "code" : "2",
+        "display" : "Fermé temporairement"
+      },
+      {
+        "code" : "3",
+        "display" : "Opérationnel"
+      }]
+    }]
+  }
+}

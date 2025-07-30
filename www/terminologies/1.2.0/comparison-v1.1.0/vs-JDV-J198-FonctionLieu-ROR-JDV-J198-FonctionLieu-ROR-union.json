@@ -1,0 +1,71 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1148",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1148",
+  "name" : "UnionJDV_J198_FonctionLieu_RORAndJDV_J198_FonctionLieu_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "001",
+        "display" : "Hébergement MCO"
+      },
+      {
+        "code" : "002",
+        "display" : "Hébergement PSY"
+      },
+      {
+        "code" : "003",
+        "display" : "Hébergement MS"
+      },
+      {
+        "code" : "004",
+        "display" : "Hébergement SMR"
+      },
+      {
+        "code" : "005",
+        "display" : "Adresse"
+      },
+      {
+        "code" : "006",
+        "display" : "Bloc opératoire"
+      },
+      {
+        "code" : "007",
+        "display" : "Caisson hyperbare"
+      },
+      {
+        "code" : "008",
+        "display" : "Chambre mortuaire"
+      },
+      {
+        "code" : "009",
+        "display" : "Plateau d’endoscopie"
+      },
+      {
+        "code" : "010",
+        "display" : "Plateau d’imagerie conventionnelle"
+      },
+      {
+        "code" : "011",
+        "display" : "Plateau d’imagerie interventionnelle"
+      },
+      {
+        "code" : "012",
+        "display" : "Plateau de réadaptation"
+      },
+      {
+        "code" : "013",
+        "display" : "Salle de travail (salle de naissance)"
+      }]
+    }]
+  }
+}

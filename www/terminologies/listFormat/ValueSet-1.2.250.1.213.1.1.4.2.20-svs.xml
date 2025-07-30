@@ -10,15 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="P07040201" codeSystem="" displayName="STENTS CORONAIRES"/>
+         <Concept code="P07040201"
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
+                  displayName="STENTS CORONAIRES"/>
          <Concept code="P0704020201"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="STENTS VASCULAIRES PÉRIPHÉRIQUES NUS"/>
          <Concept code="P07040202"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="ENDOPROTHÈSES VASCULAIRES PÉRIPHÉRIQUES DITES &amp;quot;STENTS PÉRIPHÉRIQUES&amp;quot;"/>
          <Concept code="P07040199"
-                  codeSystem=""
+                  codeSystem="https://smt-pprod.esante.gouv.fr/terminologie-emdn"
                   displayName="ENDOPROTHÈSES VASCULAIRES - AUTRES"/>
       </ConceptList>
    </ValueSet>

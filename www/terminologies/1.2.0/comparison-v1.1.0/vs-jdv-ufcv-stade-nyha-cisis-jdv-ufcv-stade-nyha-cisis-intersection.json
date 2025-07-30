@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2985",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2985",
+  "name" : "IntersectionJdvUfcvStadeNyhaCisisAndJdvUfcvStadeNyhaCisis",
+  "title" : "Intersection of JDV UFCV Stade Nyha CISIS And JDV UFCV Stade Nyha CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "420300004",
+        "display" : "classe I de la New York Heart Association Classification"
+      },
+      {
+        "code" : "421704003",
+        "display" : "classe II de la New York Heart Association Classification"
+      },
+      {
+        "code" : "420913000",
+        "display" : "classe III de la New York Heart Association Classification"
+      },
+      {
+        "code" : "422293003",
+        "display" : "classe IV de la New York Heart Association Classification"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2100",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2100",
+  "name" : "IntersectionSpecimenRoleTypeAndSpecimenRoleType",
+  "title" : "Intersection of SpecimenRoleType And SpecimenRoleType",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C",
+        "display" : "Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"
+      },
+      {
+        "code" : "G",
+        "display" : "Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés."
+      },
+      {
+        "code" : "L",
+        "display" : "Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus."
+      },
+      {
+        "code" : "P",
+        "display" : "Spécimen prélevé sur un patient"
+      }]
+    }]
+  }
+}

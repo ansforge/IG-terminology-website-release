@@ -10,13 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-043" codeSystem="" displayName="absente."/>
-         <Concept code="AVC-044" codeSystem="" displayName="présente pour un membre."/>
+         <Concept code="AVC-043"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="absente."/>
+         <Concept code="AVC-044"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="présente pour un membre."/>
          <Concept code="AVC-045"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="présente pour deux membres."/>
          <Concept code="AVC-046"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="amputation, blocage articulaire (expliquer)"/>
       </ConceptList>
    </ValueSet>

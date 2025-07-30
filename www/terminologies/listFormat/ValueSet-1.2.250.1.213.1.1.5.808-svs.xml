@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-208" codeSystem="" displayName="Materiel médical"/>
-         <Concept code="ORG-209" codeSystem="" displayName="Matériel pédagogique"/>
+         <Concept code="ORG-208"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Materiel médical"/>
+         <Concept code="ORG-209"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Matériel pédagogique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

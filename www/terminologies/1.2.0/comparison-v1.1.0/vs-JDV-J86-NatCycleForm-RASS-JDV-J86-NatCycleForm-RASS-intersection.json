@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1557",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1557",
+  "name" : "IntersectionJDV_J86_NatCycleForm_RASSAndJDV_J86_NatCycleForm_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C2",
+        "display" : "2ième cycle"
+      },
+      {
+        "code" : "C3C",
+        "display" : "3ième cycle court"
+      },
+      {
+        "code" : "C3L",
+        "display" : "3ième cycle long / internat"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1572",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1572",
+  "name" : "IntersectionJDV_J91_TypeSavoirFaire_RASSAndJDV_J91_TypeSavoirFaire_RASS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C",
+        "display" : "Compétence"
+      },
+      {
+        "code" : "CAPA",
+        "display" : "Capacité"
+      },
+      {
+        "code" : "CEX",
+        "display" : "Compétence exclusive"
+      },
+      {
+        "code" : "CM",
+        "display" : "Compétence métier"
+      },
+      {
+        "code" : "DEC",
+        "display" : "Droit d'exercice complémentaire"
+      },
+      {
+        "code" : "DNQ",
+        "display" : "DESC non qualifiant"
+      },
+      {
+        "code" : "FQ",
+        "display" : "Fonction qualifiée"
+      },
+      {
+        "code" : "OP",
+        "display" : "Orientation particulière"
+      },
+      {
+        "code" : "PAC",
+        "display" : "Qualification Praticien adjoint contractuel (PAC)"
+      },
+      {
+        "code" : "S",
+        "display" : "Spécialité ordinale"
+      },
+      {
+        "code" : "SH",
+        "display" : "Spécialité de concours hospitalier"
+      },
+      {
+        "code" : "SST",
+        "display" : "Surspécialité acquise à l'issue d'une Formation Spécialisée Transversale (FST)"
+      }]
+    }]
+  }
+}

@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="863" codeSystem="" displayName="Extension péri-colo-rectale"/>
-         <Concept code="864" codeSystem="" displayName="Organes adjacents, préciser"/>
+         <Concept code="863"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Extension péri-colo-rectale"/>
+         <Concept code="864"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Organes adjacents, préciser"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

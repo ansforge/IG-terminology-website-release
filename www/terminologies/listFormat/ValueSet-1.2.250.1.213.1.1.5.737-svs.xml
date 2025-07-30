@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="2603003" codeSystem="" displayName="secondaire"/>
-         <Concept code="88694003" codeSystem="" displayName="immédiat"/>
+         <Concept code="2603003"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="secondaire"/>
+         <Concept code="88694003"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="immédiat"/>
          <Concept code="GEN-301"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Pas de transfert ni mutation"/>
       </ConceptList>
    </ValueSet>

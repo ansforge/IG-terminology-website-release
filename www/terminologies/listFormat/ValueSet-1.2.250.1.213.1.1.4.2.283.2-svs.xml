@@ -10,14 +10,22 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="CDA_002" codeSystem="" displayName="Résolu"/>
-         <Concept code="G-A201" codeSystem="" displayName="Exclus"/>
-         <Concept code="G-A202" codeSystem="" displayName="Ecarté"/>
-         <Concept code="G-A230" codeSystem="" displayName="Actif"/>
-         <Concept code="G-A270" codeSystem="" displayName="Chronique"/>
-         <Concept code="G-A378" codeSystem="" displayName="Inactif"/>
-         <Concept code="G-A397" codeSystem="" displayName="Intermittent"/>
-         <Concept code="G-A500" codeSystem="" displayName="Récurrent"/>
+         <Concept code="CDA_002"
+                  codeSystem="1.2.250.1.213.1.1.4.2.286"
+                  displayName="Résolu"/>
+         <Concept code="G-A201" codeSystem="1.2.250.1.213.2.12" displayName="Exclus"/>
+         <Concept code="G-A202" codeSystem="1.2.250.1.213.2.12" displayName="Ecarté"/>
+         <Concept code="G-A230" codeSystem="1.2.250.1.213.2.12" displayName="Actif"/>
+         <Concept code="G-A270"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Chronique"/>
+         <Concept code="G-A378" codeSystem="1.2.250.1.213.2.12" displayName="Inactif"/>
+         <Concept code="G-A397"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Intermittent"/>
+         <Concept code="G-A500"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Récurrent"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

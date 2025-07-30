@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2196",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2196",
+  "name" : "IntersectionJdvLateraliteTechniqueImagerieCisisAndJdvLateraliteTechniqueImagerieCisis",
+  "title" : "Intersection of JDV Lateralite Technique Imagerie CISIS And JDV Lateralite Technique Imagerie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "66459002",
+        "display" : "unilatéral"
+      },
+      {
+        "code" : "51440002",
+        "display" : "bilatéral"
+      }]
+    }]
+  }
+}

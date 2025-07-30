@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1343",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1343",
+  "name" : "UnionJDV_J260_TypeFermeture_RASSAndJDV_J260_TypeFermeture_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEF",
+        "display" : "Définitive"
+      },
+      {
+        "code" : "ERR",
+        "display" : "Erreur"
+      },
+      {
+        "code" : "NDI",
+        "display" : "Non défini"
+      },
+      {
+        "code" : "CHP",
+        "display" : "Sortie du champ FINESS"
+      },
+      {
+        "code" : "EML",
+        "display" : "Ancienne autorisation fonctionnement EML"
+      },
+      {
+        "code" : "PRO",
+        "display" : "Provisoire"
+      }]
+    }]
+  }
+}

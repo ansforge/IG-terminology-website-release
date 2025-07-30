@@ -10,13 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="CDA_014" codeSystem="" displayName="Conclusions"/>
-         <Concept code="F-01000" codeSystem="" displayName="Problème"/>
-         <Concept code="F-01050" codeSystem="" displayName="Condition préexistante"/>
-         <Concept code="F-01100" codeSystem="" displayName="Trouble fonctionnel"/>
-         <Concept code="F-01200" codeSystem="" displayName="Plainte"/>
-         <Concept code="F-01250" codeSystem="" displayName="Symptôme"/>
-         <Concept code="G-1009" codeSystem="" displayName="Diagnostic"/>
+         <Concept code="CDA_014"
+                  codeSystem="1.2.250.1.213.1.1.4.2.286"
+                  displayName="Conclusions"/>
+         <Concept code="F-01000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Problème"/>
+         <Concept code="F-01050"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Condition préexistante"/>
+         <Concept code="F-01100"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Trouble fonctionnel"/>
+         <Concept code="F-01200"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Plainte"/>
+         <Concept code="F-01250"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Symptôme"/>
+         <Concept code="G-1009"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Diagnostic"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

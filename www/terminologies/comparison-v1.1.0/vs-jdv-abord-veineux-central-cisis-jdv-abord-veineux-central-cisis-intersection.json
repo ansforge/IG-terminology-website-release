@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1605",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1605",
+  "name" : "IntersectionJdvAbordVeineuxCentralCisisAndJdvAbordVeineuxCentralCisis",
+  "title" : "Intersection of JDV Abord Veineux Central CISIS And JDV Abord Veineux Central CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "181372005",
+        "display" : "veine jugulaire interne entière"
+      },
+      {
+        "code" : "181371003",
+        "display" : "veine brachiocéphalique entière"
+      },
+      {
+        "code" : "181388005",
+        "display" : "veine sous-clavière entière"
+      },
+      {
+        "code" : "362071002",
+        "display" : "veine fémorale entière"
+      },
+      {
+        "code" : "181387000",
+        "display" : "veines du membre supérieur entier"
+      }]
+    }]
+  }
+}

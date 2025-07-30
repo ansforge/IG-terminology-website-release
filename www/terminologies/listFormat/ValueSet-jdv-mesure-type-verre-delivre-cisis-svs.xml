@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C80261" codeSystem="" displayName="Monture"/>
-         <Concept code="C71898" codeSystem="" displayName="nom de marque"/>
+         <Concept code="C80261"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Monture"/>
+         <Concept code="C71898"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="nom de marque"/>
          <Concept code="MED-1181"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Date de délivrance"/>
@@ -30,8 +34,12 @@
          <Concept code="MED-893"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Hauteur de montage"/>
-         <Concept code="64885-7" codeSystem="" displayName="Types de verres"/>
-         <Concept code="67716-1" codeSystem="" displayName="modèle du dispositif"/>
+         <Concept code="64885-7"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Types de verres"/>
+         <Concept code="67716-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="modèle du dispositif"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,10 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-007" codeSystem="" displayName="Découverte à l’admission"/>
-         <Concept code="G-A464" codeSystem="" displayName="Connu"/>
-         <Concept code="G-A468" codeSystem="" displayName="Paroxystique"/>
-         <Concept code="G-A541" codeSystem="" displayName="Permanent"/>
+         <Concept code="AVC-007"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Découverte à l’admission"/>
+         <Concept code="G-A464" codeSystem="1.2.250.1.213.2.12" displayName="Connu"/>
+         <Concept code="G-A468"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Paroxystique"/>
+         <Concept code="G-A541"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Permanent"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

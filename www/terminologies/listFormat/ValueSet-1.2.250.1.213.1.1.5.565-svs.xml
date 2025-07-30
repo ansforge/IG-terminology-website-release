@@ -10,15 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C48190" codeSystem="" displayName="Absente"/>
+         <Concept code="C48190"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Absente"/>
          <Concept code="MED-732"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Présente dans les petits vaisseaux (lymphatiques ou veineux)"/>
          <Concept code="MED-733"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Présente dans les veines intra-murales"/>
          <Concept code="MED-734"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Présente dans les veines extra-murales"/>
       </ConceptList>
    </ValueSet>

@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
-         <Concept code="MED-784" codeSystem="" displayName="Péritoine"/>
-         <Concept code="MED-785" codeSystem="" displayName="Epiploon"/>
-         <Concept code="MED-786" codeSystem="" displayName="Foie"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
+         <Concept code="MED-784"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Péritoine"/>
+         <Concept code="MED-785"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Epiploon"/>
+         <Concept code="MED-786"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Foie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,16 +10,36 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="APT" codeSystem="" displayName="Date et lieu confirmé"/>
-         <Concept code="ARQ" codeSystem="" displayName="Prévu mais non confirmé"/>
-         <Concept code="DEF" codeSystem="" displayName="Définition"/>
-         <Concept code="EVN" codeSystem="" displayName="Réalisé"/>
-         <Concept code="GOL" codeSystem="" displayName="But"/>
-         <Concept code="INT" codeSystem="" displayName="Prévu"/>
-         <Concept code="PRMS" codeSystem="" displayName="Planifié et confirmé"/>
-         <Concept code="PRP" codeSystem="" displayName="Proposition"/>
-         <Concept code="RQO" codeSystem="" displayName="Demande"/>
-         <Concept code="RSK" codeSystem="" displayName="Risque"/>
+         <Concept code="APT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Date et lieu confirmé"/>
+         <Concept code="ARQ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Prévu mais non confirmé"/>
+         <Concept code="DEF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Définition"/>
+         <Concept code="EVN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Réalisé"/>
+         <Concept code="GOL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="But"/>
+         <Concept code="INT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Prévu"/>
+         <Concept code="PRMS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Planifié et confirmé"/>
+         <Concept code="PRP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Proposition"/>
+         <Concept code="RQO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Demande"/>
+         <Concept code="RSK"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Risque"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,15 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-205" codeSystem="" displayName="Centre 15"/>
-         <Concept code="AVC-206" codeSystem="" displayName="SAU ou SU local"/>
+         <Concept code="AVC-205"
+                  codeSystem="1.2.250.1.213.1.1.4.X"
+                  displayName="Centre 15"/>
+         <Concept code="AVC-206"
+                  codeSystem="1.2.250.1.213.1.1.4.X"
+                  displayName="SAU ou SU local"/>
          <Concept code="AVC-207"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.X"
                   displayName="SU d'un autre établissement de santé (préciser)"/>
-         <Concept code="AVC-208" codeSystem="" displayName="Pompiers"/>
-         <Concept code="AVC-209" codeSystem="" displayName="Médecin de ville"/>
-         <Concept code="AVC-210" codeSystem="" displayName="Arrivée directe"/>
-         <Concept code="GEN-097" codeSystem="" displayName="Autre (préciser)"/>
+         <Concept code="AVC-208"
+                  codeSystem="1.2.250.1.213.1.1.4.X"
+                  displayName="Pompiers"/>
+         <Concept code="AVC-209"
+                  codeSystem="1.2.250.1.213.1.1.4.X"
+                  displayName="Médecin de ville"/>
+         <Concept code="AVC-210"
+                  codeSystem="1.2.250.1.213.1.1.4.X"
+                  displayName="Arrivée directe"/>
+         <Concept code="GEN-097"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre (préciser)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

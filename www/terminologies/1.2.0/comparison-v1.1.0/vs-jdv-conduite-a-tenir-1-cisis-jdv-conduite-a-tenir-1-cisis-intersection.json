@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1803",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1803",
+  "name" : "IntersectionJdvConduiteATenir1CisisAndJdvConduiteATenir1Cisis",
+  "title" : "Intersection of JDV Conduite A Tenir 1 CISIS And JDV Conduite A Tenir 1 CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-116",
+        "display" : "Suivi rapproché (< 2 ans)"
+      },
+      {
+        "code" : "MED-012",
+        "display" : "Avis spécialisé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MR",
+        "display" : "IRM"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "17636008",
+        "display" : "prélèvement d'échantillons"
+      },
+      {
+        "code" : "268547008",
+        "display" : "dépistage du cancer du sein"
+      }]
+    }]
+  }
+}

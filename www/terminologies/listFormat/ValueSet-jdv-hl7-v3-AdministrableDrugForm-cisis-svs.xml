@@ -10,15 +10,33 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="APPFUL" codeSystem="" displayName="Applicateur"/>
-         <Concept code="PUFF" codeSystem="" displayName="Bouffée"/>
-         <Concept code="SCOOP" codeSystem="" displayName="Cuillère-mesure"/>
-         <Concept code="SPRY" codeSystem="" displayName="Pulvérisation"/>
-         <Concept code="DROP" codeSystem="" displayName="Gouttes"/>
-         <Concept code="NDROP" codeSystem="" displayName="Gouttes nasales"/>
-         <Concept code="OPDROP" codeSystem="" displayName="Gouttes ophtalmiques"/>
-         <Concept code="ORDROP" codeSystem="" displayName="Gouttes orales"/>
-         <Concept code="OTDROP" codeSystem="" displayName="Gouttes auriculaires"/>
+         <Concept code="APPFUL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Applicateur"/>
+         <Concept code="PUFF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Bouffée"/>
+         <Concept code="SCOOP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Cuillère-mesure"/>
+         <Concept code="SPRY"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Pulvérisation"/>
+         <Concept code="DROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Gouttes"/>
+         <Concept code="NDROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Gouttes nasales"/>
+         <Concept code="OPDROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Gouttes ophtalmiques"/>
+         <Concept code="ORDROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Gouttes orales"/>
+         <Concept code="OTDROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Gouttes auriculaires"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

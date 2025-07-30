@@ -1,0 +1,67 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1812",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1812",
+  "name" : "IntersectionJdvContexteActiviteCisisAndJdvContexteActiviteCisis",
+  "title" : "Intersection of JDV Contexte Activite CISIS And JDV Contexte Activite CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.05.04",
+        "display" : "Autre contexte"
+      },
+      {
+        "code" : "MED-095",
+        "display" : "Avis d'expertise sur un dossier"
+      },
+      {
+        "code" : "ORG-045",
+        "display" : "Hospitalisation traditionnelle"
+      },
+      {
+        "code" : "ORG-029",
+        "display" : "Avis sur dossier en consultation"
+      },
+      {
+        "code" : "ORG-030",
+        "display" : "Avis en salle"
+      },
+      {
+        "code" : "ORG-198",
+        "display" : "RCP régionale ou locale - centre organisateur"
+      },
+      {
+        "code" : "ORG-199",
+        "display" : "RCP nationale ou européenne - centre participatif"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "29",
+        "display" : "Hospitalisation de jour (HJ)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "448337001",
+        "display" : "téléconsultation"
+      },
+      {
+        "code" : "11429006",
+        "display" : "consultation"
+      },
+      {
+        "code" : "1268903003",
+        "display" : "consultation pluridisciplinaire"
+      }]
+    }]
+  }
+}

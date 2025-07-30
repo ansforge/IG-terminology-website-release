@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-009" codeSystem="" displayName="Non"/>
-         <Concept code="MED-763" codeSystem="" displayName="Oui en zone d'intérêt"/>
+         <Concept code="GEN-009"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non"/>
+         <Concept code="MED-763"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Oui en zone d'intérêt"/>
          <Concept code="MED-764"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Oui en dehors de la zone d'intérêt"/>
       </ConceptList>
    </ValueSet>

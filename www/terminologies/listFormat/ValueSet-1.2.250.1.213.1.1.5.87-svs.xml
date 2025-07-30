@@ -10,9 +10,13 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-012" codeSystem="" displayName="Avis spécialisé"/>
-         <Concept code="MED-044" codeSystem="" displayName="Prélèvement"/>
-         <Concept code="MR" codeSystem="" displayName="IRM"/>
+         <Concept code="MED-012"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Avis spécialisé"/>
+         <Concept code="MED-044"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Prélèvement"/>
+         <Concept code="MR" codeSystem="1.2.840.10008.2.16.4" displayName="IRM"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

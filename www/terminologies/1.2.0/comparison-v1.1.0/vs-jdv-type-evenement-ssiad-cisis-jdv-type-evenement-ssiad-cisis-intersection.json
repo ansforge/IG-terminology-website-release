@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2877",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2877",
+  "name" : "IntersectionJdvTypeEvenementSsiadCisisAndJdvTypeEvenementSsiadCisis",
+  "title" : "Intersection of JDV Type Evenement Ssiad CISIS And JDV Type Evenement Ssiad CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1296",
+        "display" : "Intervention d'un aide soignant"
+      },
+      {
+        "code" : "MED-1297",
+        "display" : "Intervention d'un infirmier libéral"
+      },
+      {
+        "code" : "MED-1298",
+        "display" : "Intervention d'un infirmer salarié"
+      },
+      {
+        "code" : "MED-1299",
+        "display" : "Intervention conjointe"
+      },
+      {
+        "code" : "MED-1311",
+        "display" : "Prise en charge infirmier du diabète insulinotraité"
+      }]
+    }]
+  }
+}

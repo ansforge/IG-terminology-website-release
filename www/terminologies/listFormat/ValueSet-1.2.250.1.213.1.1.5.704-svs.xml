@@ -11,17 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="P22.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Détresse respiratoire du nouveau-né, sans précision"/>
          <Concept code="G96.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Affection du système nerveux central, sans précision"/>
          <Concept code="MED-276"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Antibiothérapie (de plus de 48 heures)"/>
-         <Concept code="MED-170" codeSystem="" displayName="Urgence chirurgicale"/>
+         <Concept code="MED-170"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Urgence chirurgicale"/>
          <Concept code="GEN-092.01.11"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autres pathologies de la 1ère semaine"/>
       </ConceptList>
    </ValueSet>

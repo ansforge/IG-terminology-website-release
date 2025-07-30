@@ -10,16 +10,30 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="771" codeSystem="" displayName="Carcinome épidermoïde"/>
-         <Concept code="772" codeSystem="" displayName="Carcinome verruqueux"/>
-         <Concept code="773" codeSystem="" displayName="Carcinome basaloïde"/>
+         <Concept code="771"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome épidermoïde"/>
+         <Concept code="772"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome verruqueux"/>
+         <Concept code="773"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome basaloïde"/>
          <Concept code="774"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Carcinome à cellules fusiformes"/>
-         <Concept code="775" codeSystem="" displayName="Adénocarcinome"/>
-         <Concept code="776" codeSystem="" displayName="Carcinome adénosquameux"/>
-         <Concept code="777" codeSystem="" displayName="Carcinome mucoépidermoïde"/>
-         <Concept code="778" codeSystem="" displayName="Carcinome adénoïde kystique"/>
+         <Concept code="775"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Adénocarcinome"/>
+         <Concept code="776"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome adénosquameux"/>
+         <Concept code="777"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome mucoépidermoïde"/>
+         <Concept code="778"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome adénoïde kystique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

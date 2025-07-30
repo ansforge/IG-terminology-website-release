@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2709",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2709",
+  "name" : "IntersectionJdvStatutCasPresenteCisisAndJdvStatutCasPresenteCisis",
+  "title" : "Intersection of JDV Statut Cas Presente CISIS And JDV Statut Cas Presente CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-128",
+        "display" : "Cas enregistré"
+      },
+      {
+        "code" : "ORG-134",
+        "display" : "Cas discuté"
+      }]
+    }]
+  }
+}

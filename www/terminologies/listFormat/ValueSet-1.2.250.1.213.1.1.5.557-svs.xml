@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C25250" codeSystem="" displayName="Complet"/>
-         <Concept code="C49160" codeSystem="" displayName="Incomplet"/>
-         <Concept code="C62222" codeSystem="" displayName="Non évaluable"/>
-         <Concept code="GEN-254" codeSystem="" displayName="Presque complet"/>
+         <Concept code="C25250"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Complet"/>
+         <Concept code="C49160"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Incomplet"/>
+         <Concept code="C62222"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Non évaluable"/>
+         <Concept code="GEN-254"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Presque complet"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

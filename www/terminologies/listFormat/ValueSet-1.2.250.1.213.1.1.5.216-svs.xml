@@ -11,19 +11,23 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-495"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Aspirine dans les 24h d'hospitalisation"/>
          <Concept code="MED-496"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Posologie aspirine entre 160 et 300 mg"/>
          <Concept code="MED-497"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Contre-indication aspirine"/>
-         <Concept code="MED-500" codeSystem="" displayName="Inclusion dans protocole"/>
+         <Concept code="MED-500"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Inclusion dans protocole"/>
          <Concept code="MED-501"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Date de consentement au protocole"/>
-         <Concept code="MED-502" codeSystem="" displayName="Nom du protocole"/>
+         <Concept code="MED-502"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Nom du protocole"/>
          <Concept code="233428003"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="thrombolyse d'une veine"/>

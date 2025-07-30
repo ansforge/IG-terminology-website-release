@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="LA9603-7" codeSystem="" displayName="Complètement limitée"/>
-         <Concept code="LA9604-5" codeSystem="" displayName="Très limitée"/>
-         <Concept code="LA9605-2" codeSystem="" displayName="Légèrement limitée"/>
-         <Concept code="LA9606-0" codeSystem="" displayName="Aucune atteinte"/>
+         <Concept code="LA9603-7"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Complètement limitée"/>
+         <Concept code="LA9604-5"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Très limitée"/>
+         <Concept code="LA9605-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Légèrement limitée"/>
+         <Concept code="LA9606-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Aucune atteinte"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

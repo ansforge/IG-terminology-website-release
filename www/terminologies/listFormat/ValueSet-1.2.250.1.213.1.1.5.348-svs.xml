@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="638" codeSystem="" displayName="Régionaux"/>
-         <Concept code="639" codeSystem="" displayName="A distance, préciser"/>
+         <Concept code="638"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Régionaux"/>
+         <Concept code="639"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="A distance, préciser"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

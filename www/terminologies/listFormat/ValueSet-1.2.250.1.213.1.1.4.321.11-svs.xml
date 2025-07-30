@@ -11,30 +11,54 @@
              urlFichier="">
       <ConceptList>
          <Concept code="G98"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Autres affections du système nerveux"/>
-         <Concept code="J39.2" codeSystem="" displayName="Paralysie du Pharynx"/>
+         <Concept code="J39.2"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Paralysie du Pharynx"/>
          <Concept code="K13.7"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Paralysie du voile du Palais"/>
-         <Concept code="AVC-126" codeSystem="" displayName="Latéropulsion"/>
+         <Concept code="AVC-126"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Latéropulsion"/>
          <Concept code="DA-41070"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="affection du douxième nerf crânien"/>
          <Concept code="DA-48034"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="syndrome de Claude Bernard-Horner"/>
-         <Concept code="DA-74510" codeSystem="" displayName="Diplopie"/>
-         <Concept code="DA-74940" codeSystem="" displayName="cécité d'un oeil"/>
-         <Concept code="DA-78500" codeSystem="" displayName="nystagmus"/>
-         <Concept code="DF-D1670" codeSystem="" displayName="négligence"/>
-         <Concept code="F-51702" codeSystem="" displayName="déglutition anormale"/>
-         <Concept code="F-A5560" codeSystem="" displayName="trouble de la conscience"/>
-         <Concept code="F-A5562" codeSystem="" displayName="confusion"/>
-         <Concept code="F-A6000" codeSystem="" displayName="Aphasie"/>
-         <Concept code="F-A6660" codeSystem="" displayName="dysarthrie"/>
-         <Concept code="F-F2020" codeSystem="" displayName="mydriase"/>
-         <Concept code="F-F2030" codeSystem="" displayName="myosis"/>
+         <Concept code="DA-74510"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Diplopie"/>
+         <Concept code="DA-74940"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="cécité d'un oeil"/>
+         <Concept code="DA-78500"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="nystagmus"/>
+         <Concept code="DF-D1670"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="négligence"/>
+         <Concept code="F-51702"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="déglutition anormale"/>
+         <Concept code="F-A5560"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="trouble de la conscience"/>
+         <Concept code="F-A5562"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="confusion"/>
+         <Concept code="F-A6000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Aphasie"/>
+         <Concept code="F-A6660"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="dysarthrie"/>
+         <Concept code="F-F2020"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="mydriase"/>
+         <Concept code="F-F2030" codeSystem="1.2.250.1.213.2.12" displayName="myosis"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

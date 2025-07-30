@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-103" codeSystem="" displayName="Normal"/>
+         <Concept code="GEN-103"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Normal"/>
          <Concept code="AVC-055"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="déficit sensitif discret à modéré ; du côté atteint, la piqûre est moins bien perçue ou non perçue mais le patient est conscient d’être touché."/>
          <Concept code="AVC-056"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="déficit sévère à total; le patient n’a pas conscience d’être touché au niveau de la face, du bras et de la jambe."/>
       </ConceptList>
    </ValueSet>

@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2838",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2838",
+  "name" : "IntersectionJdvTypeDeMesureAcuiteVisuelleCisisAndJdvTypeDeMesureAcuiteVisuelleCisis",
+  "title" : "Intersection of JDV Type De Mesure Acuite Visuelle CISIS And JDV Type De Mesure Acuite Visuelle CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-886",
+        "display" : "Addition"
+      },
+      {
+        "code" : "MED-990",
+        "display" : "Prisme – puissance – acuité visuelle"
+      },
+      {
+        "code" : "MED-887",
+        "display" : "Prisme - orientation base – acuité visuelle"
+      },
+      {
+        "code" : "MED-1047",
+        "display" : "Prisme - axe en degrés – acuité visuelle"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "28711-0",
+        "display" : "Acuité visuelle - vision de loin"
+      },
+      {
+        "code" : "64841-0",
+        "display" : "Acuité visuelle - ETDRS"
+      },
+      {
+        "code" : "98475-7",
+        "display" : "Acuité visuelle - vision de près"
+      },
+      {
+        "code" : "95320-8",
+        "display" : "Puissance de la sphère – acuité visuelle"
+      },
+      {
+        "code" : "95322-4",
+        "display" : "Puissance du cylindre – acuité visuelle"
+      },
+      {
+        "code" : "95321-6",
+        "display" : "Axe en degrés – acuité visuelle"
+      }]
+    }]
+  }
+}

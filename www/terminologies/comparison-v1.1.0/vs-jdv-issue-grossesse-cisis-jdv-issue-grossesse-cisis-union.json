@@ -1,0 +1,49 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2165",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2165",
+  "name" : "UnionJdvIssueGrossesseCisisAndJdvIssueGrossesseCisis",
+  "title" : "Union of JDV Issue Grossesse CISIS And JDV Issue Grossesse CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "O01",
+        "display" : "Môle hydatiforme"
+      },
+      {
+        "code" : "O00",
+        "display" : "Grossesse extra-utérine"
+      },
+      {
+        "code" : "O03",
+        "display" : "Avortement spontané"
+      },
+      {
+        "code" : "O04.-0",
+        "display" : "Interruption médicale volontaire de grossesse [IVG dans le cadre légal]"
+      },
+      {
+        "code" : "O04",
+        "display" : "Avortement médical"
+      },
+      {
+        "code" : "P95",
+        "display" : "Mort fœtale (de cause non précisée)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "3950001",
+        "display" : "naissance"
+      }]
+    }]
+  }
+}

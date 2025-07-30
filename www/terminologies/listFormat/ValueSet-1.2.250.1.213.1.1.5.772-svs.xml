@@ -11,12 +11,14 @@
              urlFichier="">
       <ConceptList>
          <Concept code="249125003"
-                  codeSystem=""
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
                   displayName="membranes amniotiques intactes"/>
          <Concept code="44223004"
-                  codeSystem=""
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
                   displayName="rupture prématurée des membranes"/>
-         <Concept code="373068000" codeSystem="" displayName="indéterminé(e)"/>
+         <Concept code="373068000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="indéterminé(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

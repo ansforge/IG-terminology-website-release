@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C62222" codeSystem="" displayName="Non évaluable"/>
-         <Concept code="C8503" codeSystem="" displayName="Evaluable"/>
+         <Concept code="C62222"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Non évaluable"/>
+         <Concept code="C8503"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Evaluable"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

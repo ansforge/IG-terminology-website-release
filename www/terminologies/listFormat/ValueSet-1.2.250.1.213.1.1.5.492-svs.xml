@@ -11,20 +11,26 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-582"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Anesthésie locorégionale péridurale ou épidurale"/>
          <Concept code="MED-583"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Anesthésie locorégionale subarachnoïdienne (rachianesthésie)"/>
          <Concept code="MED-584"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Anesthésie locorégionale plexique ou tronculaire"/>
          <Concept code="MED-585"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Anesthésie locorégionale intraveineuse"/>
-         <Concept code="MED-586" codeSystem="" displayName="Sédation"/>
-         <Concept code="MED-587" codeSystem="" displayName="Hypnose"/>
-         <Concept code="MED-588" codeSystem="" displayName="Surveillance simple"/>
+         <Concept code="MED-586"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Sédation"/>
+         <Concept code="MED-587"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Hypnose"/>
+         <Concept code="MED-588"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Surveillance simple"/>
          <Concept code="50697003"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="anesthésie générale"/>

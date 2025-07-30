@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1745",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1745",
+  "name" : "UnionJdvClasseTherapieCisisAndJdvClasseTherapieCisis",
+  "title" : "Union of JDV Classe Therapie CISIS And JDV Classe Therapie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "L01XX",
+        "display" : "autres antinéoplasiques"
+      },
+      {
+        "code" : "L01E",
+        "display" : "inhibiteurs de protéines kinases"
+      },
+      {
+        "code" : "L01EE",
+        "display" : "inhibiteurs de protéine kinase activée par un mitogène (MEK)"
+      },
+      {
+        "code" : "L01EX",
+        "display" : "autres inhibiteurs de protéines kinases"
+      },
+      {
+        "code" : "L01F",
+        "display" : "anticorps monoclonaux et conjugués anticorps-médicaments"
+      },
+      {
+        "code" : "L01FX",
+        "display" : "autres anticorps monoclonaux et conjugués anticorps-médicaments"
+      }]
+    }]
+  }
+}

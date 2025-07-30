@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20250708100000"
              dateValid="20100101000000"
              description="JDV Indicateur Anormalite CISIS"
              displayName="JdvIndicateurAnormaliteCisis"
@@ -10,12 +10,20 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="N" codeSystem="" displayName="Normal"/>
-         <Concept code="L" codeSystem="" displayName="Anormalement bas"/>
-         <Concept code="H" codeSystem="" displayName="Anormalement haut"/>
-         <Concept code="LL" codeSystem="" displayName="Très anormalement bas, alerte"/>
+         <Concept code="N"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                  displayName="Normal"/>
+         <Concept code="L"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                  displayName="Anormalement bas"/>
+         <Concept code="H"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                  displayName="Anormalement haut"/>
+         <Concept code="LL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                  displayName="Très anormalement bas, alerte"/>
          <Concept code="HH"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
                   displayName="Très anormalement haut, alerte"/>
       </ConceptList>
    </ValueSet>

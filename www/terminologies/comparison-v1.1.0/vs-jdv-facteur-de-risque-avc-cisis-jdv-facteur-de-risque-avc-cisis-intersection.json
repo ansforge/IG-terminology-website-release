@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1956",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1956",
+  "name" : "IntersectionJdvFacteurDeRisqueAvcCisisAndJdvFacteurDeRisqueAvcCisis",
+  "title" : "Intersection of JDV Facteur De Risque Avc CISIS And JDV Facteur De Risque Avc CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "I10",
+        "display" : "Hypertension essentielle (primitive)"
+      },
+      {
+        "code" : "E14",
+        "display" : "Diabète sucré, sans précision"
+      },
+      {
+        "code" : "E66.9",
+        "display" : "Obésité, sans précision"
+      },
+      {
+        "code" : "F17",
+        "display" : "Troubles mentaux et du comportement liés à l'utilisation de tabac"
+      },
+      {
+        "code" : "E78",
+        "display" : "Anomalies du métabolisme des lipoprotéines et autres lipidémies"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-325",
+        "display" : "Risque de récidive"
+      }]
+    }]
+  }
+}

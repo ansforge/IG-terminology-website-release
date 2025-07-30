@@ -10,13 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="CAREGIVER" codeSystem="" displayName="aidant"/>
-         <Concept code="CON" codeSystem="" displayName="informateur"/>
+         <Concept code="CAREGIVER"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="aidant"/>
+         <Concept code="CON"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="informateur"/>
          <Concept code="ECON"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
                   displayName="personne à prévenir en cas d’urgence"/>
-         <Concept code="NOK" codeSystem="" displayName="personne de confiance"/>
-         <Concept code="PAT" codeSystem="" displayName="aidé"/>
+         <Concept code="NOK"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="personne de confiance"/>
+         <Concept code="PAT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="aidé"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

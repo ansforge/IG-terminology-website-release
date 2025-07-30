@@ -10,12 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-047" codeSystem="" displayName="normal, pas d’aphasie."/>
+         <Concept code="AVC-047"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="normal, pas d’aphasie."/>
          <Concept code="AVC-048"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="aphasie discrète à modérée."/>
-         <Concept code="AVC-049" codeSystem="" displayName="aphasie sévère"/>
-         <Concept code="AVC-050" codeSystem="" displayName="mutisme; aphasie globale"/>
+         <Concept code="AVC-049"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="aphasie sévère"/>
+         <Concept code="AVC-050"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="mutisme; aphasie globale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

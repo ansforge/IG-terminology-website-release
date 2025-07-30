@@ -1,12 +1,12 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.581;JDV;JDV_Localisation_Region_Melanome_CISIS.tabs;JDV_Localisation_Region_Melanome_CISIS;;20210315000000;;20230404000000
-<OID>;<Code>;<Libellé> 
-;C29744;Formol (FFPE)
-;C84514;Pièce parvenue à l'état fixé
-;C84517;Pièce parvenue à l'état frais
-;GEN-273;Non renseignée
-;MED-919;Tête et cou
-;MED-920;Epaule et membre supérieur
-;MED-921;Tronc
-;MED-922;Hanche et membre inférieur
-;GEN-092;Autre
+<OID>;<Code>;<Libellé>
+2.16.840.1.113883.3.26.1.1;C29744;Formol (FFPE)
+2.16.840.1.113883.3.26.1.1;C84514;Pièce parvenue à l'état fixé
+2.16.840.1.113883.3.26.1.1;C84517;Pièce parvenue à l'état frais
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;GEN-273;Non renseignée
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-919;Tête et cou
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-920;Epaule et membre supérieur
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-921;Tronc
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-922;Hanche et membre inférieur
+1.2.250.1.213.1.1.4.325;GEN-092;Autre

@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="IM" codeSystem="" displayName="Injection intramusculaire"/>
-         <Concept code="INDINJ" codeSystem="" displayName="Injection intradermique"/>
-         <Concept code="NASINHLC" codeSystem="" displayName="Par inhalation"/>
-         <Concept code="PO" codeSystem="" displayName="Prendre par la bouche"/>
-         <Concept code="SQ" codeSystem="" displayName="Injection sous-cutanée"/>
+         <Concept code="IM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                  displayName="Injection intramusculaire"/>
+         <Concept code="INDINJ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                  displayName="Injection intradermique"/>
+         <Concept code="NASINHLC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                  displayName="Par inhalation"/>
+         <Concept code="PO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                  displayName="Prendre par la bouche"/>
+         <Concept code="SQ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                  displayName="Injection sous-cutanée"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

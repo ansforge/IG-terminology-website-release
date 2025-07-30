@@ -10,22 +10,36 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-054" codeSystem="" displayName="Santé"/>
-         <Concept code="GEN-055" codeSystem="" displayName="Social, médico-social"/>
-         <Concept code="GEN-056" codeSystem="" displayName="Armée, Police, Secours"/>
-         <Concept code="GEN-057" codeSystem="" displayName="Education nationale"/>
-         <Concept code="GEN-058" codeSystem="" displayName="Justice"/>
+         <Concept code="GEN-054"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Santé"/>
+         <Concept code="GEN-055"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Social, médico-social"/>
+         <Concept code="GEN-056"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Armée, Police, Secours"/>
+         <Concept code="GEN-057"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Education nationale"/>
+         <Concept code="GEN-058"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Justice"/>
          <Concept code="GEN-059"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Au contact des animaux, agriculture, eaux, forêts et pêche"/>
          <Concept code="GEN-060"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Assainissement – Environnement"/>
          <Concept code="GEN-061"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Restauration - Blanchisserie – Tatouage"/>
-         <Concept code="GEN-062" codeSystem="" displayName="Services funéraires"/>
-         <Concept code="GEN-063" codeSystem="" displayName="Tourisme et transports"/>
+         <Concept code="GEN-062"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Services funéraires"/>
+         <Concept code="GEN-063"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Tourisme et transports"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

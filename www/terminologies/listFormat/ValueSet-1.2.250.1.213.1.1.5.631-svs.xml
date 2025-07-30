@@ -11,12 +11,14 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-933"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Présents brisk (très nombreux et diffus)"/>
          <Concept code="MED-934"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Présents non brisk (focal)"/>
-         <Concept code="MED-659" codeSystem="" displayName="Non évaluable"/>
+         <Concept code="MED-659"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non évaluable"/>
          <Concept code="260415000"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="non dépisté"/>

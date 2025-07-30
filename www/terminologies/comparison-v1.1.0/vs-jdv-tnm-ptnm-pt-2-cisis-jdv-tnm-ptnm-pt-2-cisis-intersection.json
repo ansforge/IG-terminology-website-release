@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2769",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2769",
+  "name" : "IntersectionJdvTnmPtnmPt2CisisAndJdvTnmPtnmPt2Cisis",
+  "title" : "Intersection of JDV Tnm Ptnm Pt 2 CISIS And JDV Tnm Ptnm Pt 2 CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-787",
+        "display" : "Évaluation impossible"
+      },
+      {
+        "code" : "MED-788",
+        "display" : "Pas de tumeur retrouvée"
+      },
+      {
+        "code" : "MED-811",
+        "display" : "Tumeur envahissant la muqueuse ou la sous-muqueuse, < 1 cm"
+      },
+      {
+        "code" : "MED-812",
+        "display" : "Tumeur envahissant la muqueuse ou la sous-muqueuse,  >= 1 cm et <= 2 cm"
+      },
+      {
+        "code" : "MED-813",
+        "display" : "Tumeur envahissant la musculeuse ou > 2 cm"
+      },
+      {
+        "code" : "MED-814",
+        "display" : "Tumeur envahissant la sous-séreuse  ou  la graisse périrectale"
+      },
+      {
+        "code" : "MED-815",
+        "display" : "Tumeur perforant le péritoine viscéral ou envahissant d'autres organes"
+      }]
+    }]
+  }
+}

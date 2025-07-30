@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2297",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2297",
+  "name" : "UnionJdvModeNaissanceCisisAndJdvModeNaissanceCisis",
+  "title" : "Union of JDV Mode Naissance CISIS And JDV Mode Naissance CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1253",
+        "display" : "Césarienne pendant travail"
+      },
+      {
+        "code" : "MED-1254",
+        "display" : "Césarienne avant travail"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "48782003",
+        "display" : "accouchement normal"
+      },
+      {
+        "code" : "700000006",
+        "display" : "accouchement par voie basse"
+      }]
+    }]
+  }
+}

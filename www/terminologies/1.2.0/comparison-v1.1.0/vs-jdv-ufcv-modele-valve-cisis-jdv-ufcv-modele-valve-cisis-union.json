@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2972",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2972",
+  "name" : "UnionJdvUfcvModeleValveCisisAndJdvUfcvModeleValveCisis",
+  "title" : "Union of JDV UFCV Modele Valve CISIS And JDV UFCV Modele Valve CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "P070301030101",
+        "display" : "VALVES AORTIQUES BIOLOGIQUES AVEC ARMATURE PAR VOIE PERCUTANÉE AVEC SUPPORT - VALVE D'ORIGINE ANIMALE"
+      },
+      {
+        "code" : "P070301030102",
+        "display" : "VALVES MITRALES BIOLOGIQUES AVEC ARMATURE PAR VOIE PERCUTANÉE AVEC SUPPORT - VALVE D'ORIGINE ANIMALE"
+      },
+      {
+        "code" : "P070301030103",
+        "display" : "VALVES PULMONAIRES BIOLOGIQUES AVEC ARMATURE PAR VOIE PERCUTANÉE AVEC SUPPORT - VALVE D'ORIGINE ANIMALE"
+      },
+      {
+        "code" : "P070301030104",
+        "display" : "VALVES TRICUSPIDES BIOLOGIQUES AVEC ARMATURE PAR VOIE PERCUTANÉE AVEC SUPPORT - VALVE D'ORIGINE ANIMALE"
+      }]
+    }]
+  }
+}

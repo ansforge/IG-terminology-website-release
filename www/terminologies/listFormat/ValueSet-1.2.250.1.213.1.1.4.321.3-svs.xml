@@ -10,10 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="T-D1200" codeSystem="" displayName="Face"/>
-         <Concept code="T-D8000" codeSystem="" displayName="Membre supérieur"/>
-         <Concept code="T-D8700" codeSystem="" displayName="Main (isolée)"/>
-         <Concept code="T-D9000" codeSystem="" displayName="Membre inférieur"/>
+         <Concept code="T-D1200" codeSystem="1.2.250.1.213.2.12" displayName="Face"/>
+         <Concept code="T-D8000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Membre supérieur"/>
+         <Concept code="T-D8700"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Main (isolée)"/>
+         <Concept code="T-D9000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Membre inférieur"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

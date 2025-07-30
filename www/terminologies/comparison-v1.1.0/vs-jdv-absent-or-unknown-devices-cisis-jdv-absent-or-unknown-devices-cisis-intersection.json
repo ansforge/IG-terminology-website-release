@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1614",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1614",
+  "name" : "IntersectionJdvAbsentOrUnknownDevicesCisisAndJdvAbsentOrUnknownDevicesCisis",
+  "title" : "Intersection of JDV Absent Or Unknown Devices CISIS And JDV Absent Or Unknown Devices CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "no-device-info",
+        "display" : "Pas d'information sur les dispositifs médicaux"
+      },
+      {
+        "code" : "no-known-devices",
+        "display" : "Pas de dispositif médical connu"
+      }]
+    }]
+  }
+}

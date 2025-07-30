@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C14158" codeSystem="" displayName="haut grade"/>
-         <Concept code="C14161" codeSystem="" displayName="bas grade"/>
-         <Concept code="623" codeSystem="" displayName="Haut grade"/>
-         <Concept code="624" codeSystem="" displayName="Bas grade"/>
+         <Concept code="C14158"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="haut grade"/>
+         <Concept code="C14161"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="bas grade"/>
+         <Concept code="623"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Haut grade"/>
+         <Concept code="624"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Bas grade"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

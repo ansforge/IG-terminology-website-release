@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2967",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2967",
+  "name" : "IntersectionJdvUfcvLocalisationSondeCisisAndJdvUfcvLocalisationSondeCisis",
+  "title" : "Intersection of JDV UFCV Localisation Sonde CISIS And JDV UFCV Localisation Sonde CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1314",
+        "display" : "Paroi Libre de l’OD"
+      },
+      {
+        "code" : "MED-1315",
+        "display" : "Plancher VD"
+      },
+      {
+        "code" : "MED-1316",
+        "display" : "Veine cardiaque latérale gauche"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "13383001",
+        "display" : "apex du cœur"
+      },
+      {
+        "code" : "49082002",
+        "display" : "petite veine cardiaque"
+      },
+      {
+        "code" : "5928000",
+        "display" : "grande veine cardiaque"
+      },
+      {
+        "code" : "589001",
+        "display" : "septum interventriculaire"
+      },
+      {
+        "code" : "44627009",
+        "display" : "voie efférente du ventricule droit"
+      },
+      {
+        "code" : "6871001",
+        "display" : "péricarde viscéral"
+      },
+      {
+        "code" : "68300000",
+        "display" : "appendice atrial droite"
+      },
+      {
+        "code" : "195416006",
+        "display" : "veine postérieure du ventricule gauche"
+      }]
+    }]
+  }
+}

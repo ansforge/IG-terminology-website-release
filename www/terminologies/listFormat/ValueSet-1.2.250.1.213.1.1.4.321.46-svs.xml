@@ -10,15 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-166" codeSystem="" displayName="Absence de sang"/>
+         <Concept code="AVC-166"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Absence de sang"/>
          <Concept code="AVC-167"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Dépôts de moins de 1 mm d'épaisseur"/>
          <Concept code="AVC-168"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Dépôts de plus de 1 mm d'épaisseur"/>
          <Concept code="AVC-169"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Hématome parenchymateux ou hémorragie ventriculaire"/>
       </ConceptList>
    </ValueSet>

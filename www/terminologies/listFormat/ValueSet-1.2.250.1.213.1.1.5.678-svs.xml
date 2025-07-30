@@ -11,19 +11,23 @@
              urlFichier="">
       <ConceptList>
          <Concept code="I10"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Hypertension essentielle (primitive)"/>
          <Concept code="E14"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Diabète sucré, sans précision"/>
-         <Concept code="E66.9" codeSystem="" displayName="Obésité, sans précision"/>
+         <Concept code="E66.9"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Obésité, sans précision"/>
          <Concept code="F17"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Troubles mentaux et du comportement liés à l'utilisation de tabac"/>
          <Concept code="E78"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Anomalies du métabolisme des lipoprotéines et autres lipidémies"/>
-         <Concept code="MED-325" codeSystem="" displayName="Risque de récidive"/>
+         <Concept code="MED-325"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Risque de récidive"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

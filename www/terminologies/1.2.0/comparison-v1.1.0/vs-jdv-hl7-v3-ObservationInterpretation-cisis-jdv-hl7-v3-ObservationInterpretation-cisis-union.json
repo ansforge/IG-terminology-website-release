@@ -1,0 +1,175 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2072",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2072",
+  "name" : "UnionObservationInterpretationAndObservationInterpretation",
+  "title" : "Union of ObservationInterpretation And ObservationInterpretation",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "<",
+        "display" : "Inférieur à la limite de détection"
+      },
+      {
+        "code" : ">",
+        "display" : "Supérieur à la limite maximale de mesure"
+      },
+      {
+        "code" : "A",
+        "display" : "Anormal"
+      },
+      {
+        "code" : "AA",
+        "display" : "Très anormal, alerte"
+      },
+      {
+        "code" : "B",
+        "display" : "Amélioration"
+      },
+      {
+        "code" : "CAR",
+        "display" : "Porteur d'une forme altérée d'un gène"
+      },
+      {
+        "code" : "D",
+        "display" : "Diminution significative par rapport au résultat antérieur"
+      },
+      {
+        "code" : "DET",
+        "display" : "Détecté"
+      },
+      {
+        "code" : "E",
+        "display" : "Équivoque"
+      },
+      {
+        "code" : "EX",
+        "display" : "Hors seuils"
+      },
+      {
+        "code" : "EXP",
+        "display" : "Attendu"
+      },
+      {
+        "code" : "H",
+        "display" : "Anormalement haut"
+      },
+      {
+        "code" : "HH",
+        "display" : "Très anormalement haut, alerte"
+      },
+      {
+        "code" : "HU",
+        "display" : "Significativement haut"
+      },
+      {
+        "code" : "HX",
+        "display" : "Hors seuil supérieur"
+      },
+      {
+        "code" : "I",
+        "display" : "Intermédiaire"
+      },
+      {
+        "code" : "IE",
+        "display" : "Preuves insuffisantes"
+      },
+      {
+        "code" : "IND",
+        "display" : "Indéterminé"
+      },
+      {
+        "code" : "L",
+        "display" : "Anormalement bas"
+      },
+      {
+        "code" : "LL",
+        "display" : "Très anormalement bas, alerte"
+      },
+      {
+        "code" : "LU",
+        "display" : "Significativement bas"
+      },
+      {
+        "code" : "LX",
+        "display" : "Hors seuil inférieur"
+      },
+      {
+        "code" : "N",
+        "display" : "Normal"
+      },
+      {
+        "code" : "NCL",
+        "display" : "Pas de standard défini"
+      },
+      {
+        "code" : "ND",
+        "display" : "Non détecté"
+      },
+      {
+        "code" : "NEG",
+        "display" : "Négatif"
+      },
+      {
+        "code" : "NR",
+        "display" : "Non réactif"
+      },
+      {
+        "code" : "NS",
+        "display" : "Non sensible"
+      },
+      {
+        "code" : "POS",
+        "display" : "Positif"
+      },
+      {
+        "code" : "R",
+        "display" : "Résistant"
+      },
+      {
+        "code" : "RR",
+        "display" : "Réactif"
+      },
+      {
+        "code" : "S",
+        "display" : "Sensible"
+      },
+      {
+        "code" : "SDD",
+        "display" : "Sensible à forte dose"
+      },
+      {
+        "code" : "SYN-R",
+        "display" : "Synergie - résistant"
+      },
+      {
+        "code" : "SYN-S",
+        "display" : "Synergie - sensible"
+      },
+      {
+        "code" : "U",
+        "display" : "Augmentation significative par rapport au résultat antérieur"
+      },
+      {
+        "code" : "UNE",
+        "display" : "Inattendu"
+      },
+      {
+        "code" : "W",
+        "display" : "Dégradation"
+      },
+      {
+        "code" : "WR",
+        "display" : "Faiblement réactif"
+      }]
+    }]
+  }
+}

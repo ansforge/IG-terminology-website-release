@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-131" codeSystem="" displayName="Capsulo-thalamique"/>
-         <Concept code="AVC-132" codeSystem="" displayName="Capsulo-lenticulaire"/>
-         <Concept code="AVC-162" codeSystem="" displayName="Système ventriculaire"/>
-         <Concept code="T-A3200" codeSystem="" displayName="noyau caudé"/>
+         <Concept code="AVC-131"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Capsulo-thalamique"/>
+         <Concept code="AVC-132"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Capsulo-lenticulaire"/>
+         <Concept code="AVC-162"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Système ventriculaire"/>
+         <Concept code="T-A3200"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="noyau caudé"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

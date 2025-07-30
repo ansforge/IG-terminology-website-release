@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2637",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2637",
+  "name" : "IntersectionJdvScoreBradenPerceptionSensorielleCisisAndJdvScoreBradenPerceptionSensorielleCisis",
+  "title" : "Intersection of JDV Score Braden Perception Sensorielle CISIS And JDV Score Braden Perception Sensorielle CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA9603-7",
+        "display" : "Complètement limitée"
+      },
+      {
+        "code" : "LA9604-5",
+        "display" : "Très limitée"
+      },
+      {
+        "code" : "LA9605-2",
+        "display" : "Légèrement limitée"
+      },
+      {
+        "code" : "LA9606-0",
+        "display" : "Aucune atteinte"
+      }]
+    }]
+  }
+}

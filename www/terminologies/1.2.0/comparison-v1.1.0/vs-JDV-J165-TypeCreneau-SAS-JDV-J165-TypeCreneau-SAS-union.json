@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1049",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1049",
+  "name" : "UnionJDV_J165_TypeCreneau_SASAndJDV_J165_TypeCreneau_SAS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "PUBLIC",
+        "display" : "Créneau accessible par le grand public"
+      },
+      {
+        "code" : "PRO",
+        "display" : "Créneau accessible par l'ensemble des professionnels de santé"
+      },
+      {
+        "code" : "SNP",
+        "display" : "Créneau accessible par les Régulateurs et Organisateurs de Soins Non Programmés"
+      },
+      {
+        "code" : "CPTS",
+        "display" : "Créneau accessible par les communautés professionnelles territoriales de santé"
+      }]
+    }]
+  }
+}

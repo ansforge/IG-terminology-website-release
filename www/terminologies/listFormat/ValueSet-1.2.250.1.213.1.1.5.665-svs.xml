@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="no-procedure-info"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d'information sur les actes et interventions"/>
          <Concept code="no-known-procedures"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d'acte ou intervention connu"/>
       </ConceptList>
    </ValueSet>

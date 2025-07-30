@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2912",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2912",
+  "name" : "UnionJdvTypePresentationCisisAndJdvTypePresentationCisis",
+  "title" : "Union of JDV Type Presentation CISIS And JDV Type Presentation CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.01.21",
+        "display" : "Autre présentation foetale"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "70028003",
+        "display" : "présentation du sommet"
+      },
+      {
+        "code" : "6096002",
+        "display" : "présentation en siège du fœtus"
+      }]
+    }]
+  }
+}

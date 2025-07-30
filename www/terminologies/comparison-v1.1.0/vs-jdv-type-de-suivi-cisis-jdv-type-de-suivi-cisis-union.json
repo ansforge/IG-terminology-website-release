@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2849",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2849",
+  "name" : "UnionJdvTypeDeSuiviCisisAndJdvTypeDeSuiviCisis",
+  "title" : "Union of JDV Type De Suivi CISIS And JDV Type De Suivi CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-091",
+        "display" : "Examen de biologie"
+      },
+      {
+        "code" : "MED-092",
+        "display" : "Examen d'imagerie médicale"
+      },
+      {
+        "code" : "GEN-092.04.06",
+        "display" : "Autre type de suivi"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "11429006",
+        "display" : "consultation"
+      }]
+    }]
+  }
+}

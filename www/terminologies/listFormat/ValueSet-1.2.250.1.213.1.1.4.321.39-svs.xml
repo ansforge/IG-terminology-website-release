@@ -10,12 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="IAINJ" codeSystem="" displayName="injection intra-artérielle"/>
-         <Concept code="IV" codeSystem="" displayName="perfusion intraveineuse"/>
+         <Concept code="IAINJ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                  displayName="injection intra-artérielle"/>
+         <Concept code="IV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                  displayName="perfusion intraveineuse"/>
          <Concept code="IVINJBOL"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
                   displayName="injection intraveineuse en bolus"/>
-         <Concept code="PO" codeSystem="" displayName="per os intra-artérielle"/>
+         <Concept code="PO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration"
+                  displayName="per os intra-artérielle"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

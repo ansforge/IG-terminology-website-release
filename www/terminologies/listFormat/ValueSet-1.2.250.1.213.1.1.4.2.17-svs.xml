@@ -10,14 +10,30 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="D0020-1" codeSystem="" displayName="3.2mm"/>
-         <Concept code="D0020-2" codeSystem="" displayName="IS-1"/>
-         <Concept code="D0020-3" codeSystem="" displayName="5 mm"/>
-         <Concept code="D0020-4" codeSystem="" displayName="6 mm"/>
-         <Concept code="D0020-5" codeSystem="" displayName="IS-4"/>
-         <Concept code="D0020-6" codeSystem="" displayName="LV-1"/>
-         <Concept code="D0020-7" codeSystem="" displayName="DF-1"/>
-         <Concept code="D0020-8" codeSystem="" displayName="DF-4"/>
+         <Concept code="D0020-1"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="3.2mm"/>
+         <Concept code="D0020-2"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="IS-1"/>
+         <Concept code="D0020-3"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="5 mm"/>
+         <Concept code="D0020-4"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="6 mm"/>
+         <Concept code="D0020-5"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="IS-4"/>
+         <Concept code="D0020-6"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="LV-1"/>
+         <Concept code="D0020-7"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="DF-1"/>
+         <Concept code="D0020-8"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="DF-4"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

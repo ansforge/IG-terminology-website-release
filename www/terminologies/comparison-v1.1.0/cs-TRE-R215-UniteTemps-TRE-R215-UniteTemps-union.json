@@ -1,0 +1,385 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-194",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-194",
+  "name" : "UnionTRE_R215_UniteTempsAndTRE_R215_UniteTemps",
+  "title" : "Union of null And null",
+  "status" : "retired",
+  "date" : "2025-07-30T08:23:38+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "a",
+    "display" : "année",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "m",
+    "display" : "mois",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "j",
+    "display" : "jour",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "h",
+    "display" : "heure",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "mn",
+    "display" : "minute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "s",
+    "display" : "seconde",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "ms",
+    "display" : "milliseconde",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2016-02-04T00:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  }]
+}

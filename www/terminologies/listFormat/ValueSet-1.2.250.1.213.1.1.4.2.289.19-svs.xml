@@ -11,11 +11,17 @@
              urlFichier="">
       <ConceptList>
          <Concept code="D8-72100"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Décédé sans précision chronologique"/>
-         <Concept code="D8-72200" codeSystem="" displayName="Décédé avant travail"/>
-         <Concept code="D8-72300" codeSystem="" displayName="Décédé pendant travail"/>
-         <Concept code="D8-78400" codeSystem="" displayName="Décédé au décours IMG"/>
+         <Concept code="D8-72200"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Décédé avant travail"/>
+         <Concept code="D8-72300"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Décédé pendant travail"/>
+         <Concept code="D8-78400"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Décédé au décours IMG"/>
          <Concept code="1762004"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="mort fœtale par asphyxie et/ou par anoxie pendant le travail"/>

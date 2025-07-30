@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-3011",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-3011",
+  "name" : "UnionJdvVieEnCollectiviteCisisAndJdvVieEnCollectiviteCisis",
+  "title" : "Union of JDV Vie En Collectivite CISIS And JDV Vie En Collectivite CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-147",
+        "display" : "Établissement de santé de moyen ou long séjour"
+      },
+      {
+        "code" : "ORG-148",
+        "display" : "Établissement ou service de soins de suite"
+      },
+      {
+        "code" : "ORG-149",
+        "display" : "Établissement d’hébergement de personnes handicapées"
+      },
+      {
+        "code" : "ORG-150",
+        "display" : "Institution psychiatrique"
+      },
+      {
+        "code" : "ORG-151",
+        "display" : "Prison"
+      }]
+    }]
+  }
+}

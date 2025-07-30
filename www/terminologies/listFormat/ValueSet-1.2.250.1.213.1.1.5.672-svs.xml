@@ -10,12 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="121079" codeSystem="" displayName="préliminaire"/>
+         <Concept code="121079"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="préliminaire"/>
          <Concept code="121080"
-                  codeSystem=""
+                  codeSystem="1.2.840.10008.2.16.4"
                   displayName="Meilleure illustration de résultat"/>
-         <Concept code="121112" codeSystem="" displayName="Source de mesure"/>
-         <Concept code="121200" codeSystem="" displayName="Illustration de la ROI"/>
+         <Concept code="121112"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="Source de mesure"/>
+         <Concept code="121200"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="Illustration de la ROI"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

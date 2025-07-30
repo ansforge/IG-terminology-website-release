@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20250721120000"
              dateValid="20150101000000"
              description="Rôle dans la prise en charge des patients ou des usagers"
              displayName="TRE_R85_RolePriseCharge"
@@ -667,6 +667,15 @@
                   longDesignation="Aide à domicile"
                   shortDesignation="Aide à domicile"
                   descriptionMetier="L’aide à domicile réalise des interventions sociales au quotidien visant à accompagner une personne en situation de handicap ou touchée par un manque d’autonomie quelles qu’en soient l’origine ou la nature. L’aide à domicile accompagne les personnes dans les actes essentiels de la vie quotidienne, directement à leur domicile ou leur lieu de vie."/>
+         <Concept code="373"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  dateFin=""
+                  dateMaj="20250721120000"
+                  dateValid="20250721120000"
+                  displayName="Technicien d’études cliniques"
+                  longDesignation="Technicien d’études cliniques"
+                  shortDesignation="Technicien d’études cliniques"
+                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

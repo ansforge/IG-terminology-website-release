@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1725",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1725",
+  "name" : "IntersectionJdvCauseAccidentDomestiqueCisisAndJdvCauseAccidentDomestiqueCisis",
+  "title" : "Intersection of JDV Cause Accident Domestique CISIS And JDV Cause Accident Domestique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-092.01.13",
+        "display" : "Autre(s) accident(s) domestique(s)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "NF0A.4",
+        "display" : "Choc traumatique, non classé ailleurs"
+      },
+      {
+        "code" : "NE2Z",
+        "display" : "Brulures, sans précision"
+      },
+      {
+        "code" : "NE61",
+        "display" : "Effets nocifs ou exposition à des substances nocives, principalement d'origine nonmédicinale, non classés ailleurs"
+      }]
+    }]
+  }
+}

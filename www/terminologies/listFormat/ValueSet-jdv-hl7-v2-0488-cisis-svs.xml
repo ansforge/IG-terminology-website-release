@@ -10,56 +10,132 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="FNA" codeSystem="" displayName="Aspiration, Fine Needle"/>
-         <Concept code="PNA" codeSystem="" displayName="Arterial puncture"/>
-         <Concept code="BIO" codeSystem="" displayName="Biopsy"/>
+         <Concept code="FNA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Aspiration, Fine Needle"/>
+         <Concept code="PNA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Arterial puncture"/>
+         <Concept code="BIO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Biopsy"/>
          <Concept code="BCAE"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
                   displayName="Blood Culture, Aerobic Bottle"/>
          <Concept code="BCAN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
                   displayName="Blood Culture, Anaerobic Bottle"/>
          <Concept code="BCPD"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
                   displayName="Blood Culture, Pediatric Bottle"/>
-         <Concept code="CAP" codeSystem="" displayName="Capillary Specimen"/>
-         <Concept code="CATH" codeSystem="" displayName="Catheterized"/>
-         <Concept code="EPLA" codeSystem="" displayName="Environmental, Plate"/>
-         <Concept code="ESWA" codeSystem="" displayName="Environmental, Swab"/>
-         <Concept code="LNA" codeSystem="" displayName="Line, Arterial"/>
-         <Concept code="CVP" codeSystem="" displayName="Line, CVP"/>
-         <Concept code="LNV" codeSystem="" displayName="Line, Venous"/>
-         <Concept code="MARTL" codeSystem="" displayName="Martin-Lewis Agar"/>
-         <Concept code="ML11" codeSystem="" displayName="Mod. Martin-Lewis Agar"/>
-         <Concept code="PACE" codeSystem="" displayName="Pace, Gen-Probe"/>
-         <Concept code="PIN" codeSystem="" displayName="Pinworm Prep"/>
-         <Concept code="KOFFP" codeSystem="" displayName="Plate, Cough"/>
-         <Concept code="MLP" codeSystem="" displayName="Plate, Martin-Lewis"/>
-         <Concept code="NYP" codeSystem="" displayName="Plate, New York City"/>
-         <Concept code="TMP" codeSystem="" displayName="Plate, Thayer-Martin"/>
-         <Concept code="ANP" codeSystem="" displayName="Plates, Anaerobic"/>
-         <Concept code="BAP" codeSystem="" displayName="Plates, Blood Agar"/>
-         <Concept code="PRIME" codeSystem="" displayName="Pump Prime"/>
-         <Concept code="PUMP" codeSystem="" displayName="Pump Specimen"/>
-         <Concept code="QC5" codeSystem="" displayName="Quality Control For Micro"/>
-         <Concept code="SCLP" codeSystem="" displayName="Scalp, Fetal Vein"/>
-         <Concept code="SCRAPS" codeSystem="" displayName="Scrapings"/>
-         <Concept code="SHA" codeSystem="" displayName="Shaving"/>
-         <Concept code="SWA" codeSystem="" displayName="Swab"/>
-         <Concept code="SWD" codeSystem="" displayName="Swab, Dacron tipped"/>
-         <Concept code="WOOD" codeSystem="" displayName="Swab, Wooden Shaft"/>
-         <Concept code="TMOT" codeSystem="" displayName="Transport Media,"/>
-         <Concept code="TMAN" codeSystem="" displayName="Transport Media, Anaerobic"/>
-         <Concept code="TMCH" codeSystem="" displayName="Transport Media, Chalamydia"/>
-         <Concept code="TMM4" codeSystem="" displayName="Transport Media, M4"/>
-         <Concept code="TMMY" codeSystem="" displayName="Transport Media, Mycoplasma"/>
-         <Concept code="TMPV" codeSystem="" displayName="Transport Media, PVA"/>
+         <Concept code="CAP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Capillary Specimen"/>
+         <Concept code="CATH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Catheterized"/>
+         <Concept code="EPLA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Environmental, Plate"/>
+         <Concept code="ESWA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Environmental, Swab"/>
+         <Concept code="LNA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Line, Arterial"/>
+         <Concept code="CVP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Line, CVP"/>
+         <Concept code="LNV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Line, Venous"/>
+         <Concept code="MARTL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Martin-Lewis Agar"/>
+         <Concept code="ML11"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Mod. Martin-Lewis Agar"/>
+         <Concept code="PACE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Pace, Gen-Probe"/>
+         <Concept code="PIN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Pinworm Prep"/>
+         <Concept code="KOFFP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Plate, Cough"/>
+         <Concept code="MLP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Plate, Martin-Lewis"/>
+         <Concept code="NYP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Plate, New York City"/>
+         <Concept code="TMP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Plate, Thayer-Martin"/>
+         <Concept code="ANP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Plates, Anaerobic"/>
+         <Concept code="BAP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Plates, Blood Agar"/>
+         <Concept code="PRIME"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Pump Prime"/>
+         <Concept code="PUMP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Pump Specimen"/>
+         <Concept code="QC5"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Quality Control For Micro"/>
+         <Concept code="SCLP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Scalp, Fetal Vein"/>
+         <Concept code="SCRAPS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Scrapings"/>
+         <Concept code="SHA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Shaving"/>
+         <Concept code="SWA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Swab"/>
+         <Concept code="SWD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Swab, Dacron tipped"/>
+         <Concept code="WOOD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Swab, Wooden Shaft"/>
+         <Concept code="TMOT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Transport Media,"/>
+         <Concept code="TMAN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Transport Media, Anaerobic"/>
+         <Concept code="TMCH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Transport Media, Chalamydia"/>
+         <Concept code="TMM4"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Transport Media, M4"/>
+         <Concept code="TMMY"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Transport Media, Mycoplasma"/>
+         <Concept code="TMPV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Transport Media, PVA"/>
          <Concept code="TMSC"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
                   displayName="Transport Media, Stool Culture"/>
-         <Concept code="TMUP" codeSystem="" displayName="Transport Media, Ureaplasma"/>
-         <Concept code="TMVI" codeSystem="" displayName="Transport Media, Viral"/>
-         <Concept code="VENIP" codeSystem="" displayName="Venipuncture"/>
+         <Concept code="TMUP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Transport Media, Ureaplasma"/>
+         <Concept code="TMVI"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Transport Media, Viral"/>
+         <Concept code="VENIP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v2-0488"
+                  displayName="Venipuncture"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

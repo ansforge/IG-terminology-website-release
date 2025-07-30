@@ -11,36 +11,38 @@
              urlFichier="">
       <ConceptList>
          <Concept code="I95.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Hypotension, sans précision"/>
          <Concept code="O74.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Syndrome de Mendelson dû à anesthésie au cours du travail et de l'accouchement"/>
          <Concept code="O74.1"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Autres complications pulmonaires de l'anesthésie au cours du travail et de l'accouchement"/>
          <Concept code="O74.2"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Complications cardiaques de l'anesthésie au cours du travail et de l'accouchement"/>
          <Concept code="O74.3"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Complications intéressant le système nerveux central dues à l'anesthésie au cours du travail et de l'accouchement"/>
          <Concept code="O74.4"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Réaction toxique à une anesthésie locale au cours du travail et de l'accouchement"/>
          <Concept code="O74.5"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Céphalée provoquée par une rachianesthésie et une anesthésie épidurale au cours du travail et de l'accouchement"/>
          <Concept code="O74.6"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Autres complications d'une rachianesthésie et d'une anesthésie épidurale au cours du travail et de l'accouchement"/>
          <Concept code="O74.7"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Échec ou difficulté d'intubation au cours du travail et de l'accouchement"/>
          <Concept code="O74.8"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Autres complications de l'anesthésie au cours du travail et de l'accouchement"/>
-         <Concept code="D3-04000" codeSystem="" displayName="Lésion"/>
+         <Concept code="D3-04000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Lésion"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

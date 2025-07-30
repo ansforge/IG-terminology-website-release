@@ -1,0 +1,79 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1899",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1899",
+  "name" : "IntersectionJdvEvaluationAggirPaCisisAndJdvEvaluationAggirPaCisis",
+  "title" : "Intersection of JDV Evaluation Aggir Pa CISIS And JDV Evaluation Aggir Pa CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "b160",
+        "display" : "Fonctions de la pensée"
+      },
+      {
+        "code" : "b114",
+        "display" : "Fonctions d'orientation"
+      },
+      {
+        "code" : "d5100",
+        "display" : "Se laver des parties du corps"
+      },
+      {
+        "code" : "d520",
+        "display" : "Prendre soin des parties de son corps"
+      },
+      {
+        "code" : "d5400",
+        "display" : "Mettre des vêtements"
+      },
+      {
+        "code" : "d440",
+        "display" : "Activités de motricité fine"
+      },
+      {
+        "code" : "d5402",
+        "display" : "Mettre des chaussures"
+      },
+      {
+        "code" : "d550",
+        "display" : "Manger"
+      },
+      {
+        "code" : "b5105",
+        "display" : "Passage des aliments par l'estomac et les intestins"
+      },
+      {
+        "code" : "d5300",
+        "display" : "Assurer la régulation de la miction"
+      },
+      {
+        "code" : "d5301",
+        "display" : "Assurer la régulation de la défécation"
+      },
+      {
+        "code" : "d410",
+        "display" : "Changer la position corporelle de base"
+      },
+      {
+        "code" : "d4600",
+        "display" : "Se déplacer dans la maison"
+      },
+      {
+        "code" : "d4602",
+        "display" : "Se déplacer en dehors de la maison et d'autres bâtiments"
+      },
+      {
+        "code" : "d3608",
+        "display" : "Utiliser d'autres appareils et techniques de communication précisés"
+      }]
+    }]
+  }
+}

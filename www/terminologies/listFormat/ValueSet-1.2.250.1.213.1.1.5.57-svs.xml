@@ -10,9 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-165" codeSystem="" displayName="Séjour de répit"/>
+         <Concept code="ORG-165"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Séjour de répit"/>
          <Concept code="GEN-092.04.05"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre traitement / suivi"/>
          <Concept code="28"
                   codeSystem="1.2.250.1.213.3.3.13"

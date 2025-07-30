@@ -10,16 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1179" codeSystem="" displayName="Verres prescrits"/>
-         <Concept code="MED-1067" codeSystem="" displayName="Verres délivrés"/>
+         <Concept code="MED-1179"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Verres prescrits"/>
+         <Concept code="MED-1067"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Verres délivrés"/>
          <Concept code="MED-1068"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Types de verres délivrés"/>
          <Concept code="28818-3"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Types de verres prescrits"/>
-         <Concept code="28866-2" codeSystem="" displayName="Lentilles prescrites"/>
-         <Concept code="28868-8" codeSystem="" displayName="Lentilles délivrées"/>
+         <Concept code="28866-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Lentilles prescrites"/>
+         <Concept code="28868-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Lentilles délivrées"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

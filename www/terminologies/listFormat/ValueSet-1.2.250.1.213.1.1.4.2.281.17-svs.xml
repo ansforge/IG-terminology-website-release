@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-128" codeSystem="" displayName="Cas enregistré"/>
-         <Concept code="ORG-134" codeSystem="" displayName="Cas discuté"/>
+         <Concept code="ORG-128"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Cas enregistré"/>
+         <Concept code="ORG-134"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Cas discuté"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

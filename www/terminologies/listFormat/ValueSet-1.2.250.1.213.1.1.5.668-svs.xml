@@ -11,16 +11,28 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-1133"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="FDG Oncologie /Infectieux/inflammatoire"/>
-         <Concept code="MED-1134" codeSystem="" displayName="FDG cérébrale"/>
-         <Concept code="MED-1135" codeSystem="" displayName="F-Choline"/>
-         <Concept code="MED-1136" codeSystem="" displayName="F-DOPA cérébrale"/>
-         <Concept code="MED-1137" codeSystem="" displayName="F-DOPA oncologie"/>
-         <Concept code="MED-1138" codeSystem="" displayName="FNA"/>
-         <Concept code="MED-1139" codeSystem="" displayName="F-Fluciclovine"/>
+         <Concept code="MED-1134"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="FDG cérébrale"/>
+         <Concept code="MED-1135"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="F-Choline"/>
+         <Concept code="MED-1136"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="F-DOPA cérébrale"/>
+         <Concept code="MED-1137"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="F-DOPA oncologie"/>
+         <Concept code="MED-1138"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="FNA"/>
+         <Concept code="MED-1139"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="F-Fluciclovine"/>
          <Concept code="GEN-092.04.18"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre (autres traceurs, TEP-IRM)"/>
       </ConceptList>
    </ValueSet>

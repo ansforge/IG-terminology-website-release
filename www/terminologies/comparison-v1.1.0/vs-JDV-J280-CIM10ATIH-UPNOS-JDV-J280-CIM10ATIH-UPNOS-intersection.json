@@ -1,0 +1,111 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1377",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1377",
+  "name" : "IntersectionJDV_J280_CIM10ATIH_UPNOSAndJDV_J280_CIM10ATIH_UPNOS",
+  "title" : "Intersection of null And null",
+  "status" : "retired",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "E10",
+        "display" : "Diabète sucré de type 1"
+      },
+      {
+        "code" : "O24.4",
+        "display" : "Diabète sucré survenant au cours de la grossesse"
+      },
+      {
+        "code" : "E14",
+        "display" : "Diabète sucré, sans précision"
+      },
+      {
+        "code" : "E11.00",
+        "display" : "Diabète sucré de type 2 - \"Avec coma\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.08",
+        "display" : "Diabète sucré de type 2 - \"Avec coma\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      },
+      {
+        "code" : "E11.10",
+        "display" : "Diabète sucré de type 2 - \"Avec acidocétose\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.18",
+        "display" : "Diabète sucré de type 2 - \"Avec acidocétose\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      },
+      {
+        "code" : "E11.20",
+        "display" : "Diabète sucré de type 2 - \"Avec complications rénales\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.28",
+        "display" : "Diabète sucré de type 2 - \"Avec complications rénales\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      },
+      {
+        "code" : "E11.30",
+        "display" : "Diabète sucré de type 2 - \"Avec complications oculaires\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.38",
+        "display" : "Diabète sucré de type 2 - \"Avec complications oculaires\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      },
+      {
+        "code" : "E11.40",
+        "display" : "Diabète sucré de type 2 - \"Avec complications neurologiques\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.48",
+        "display" : "Diabète sucré de type 2 - \"Avec complications neurologiques\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      },
+      {
+        "code" : "E11.50",
+        "display" : "Diabète sucré de type 2 - \"Avec complications vasculaires périphériques\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.58",
+        "display" : "Diabète sucré de type 2 - \"Avec complications vasculaires périphériques\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      },
+      {
+        "code" : "E11.60",
+        "display" : "Diabète sucré de type 2 - \"Avec autres complications précisées\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.68",
+        "display" : "Diabète sucré de type 2 - \"Avec autres complications précisées\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      },
+      {
+        "code" : "E11.70",
+        "display" : "Diabète sucré de type 2 - \"Avec complications multiples\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.78",
+        "display" : "Diabète sucré de type 2 - \"Avec complications multiples\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      },
+      {
+        "code" : "E11.80",
+        "display" : "Diabète sucré de type 2 - \"Avec complications non précisées\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.88",
+        "display" : "Diabète sucré de type 2 - \"Avec complications non précisées\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      },
+      {
+        "code" : "E11.90",
+        "display" : "Diabète sucré de type 2 - \"Sans complication\" - \"diabète sucré de type 2 insulinotraité\""
+      },
+      {
+        "code" : "E11.98",
+        "display" : "Diabète sucré de type 2 - \"Sans complication\" - \"diabète sucré de type 2 non insulinotraité ou sans précision\""
+      }]
+    }]
+  }
+}

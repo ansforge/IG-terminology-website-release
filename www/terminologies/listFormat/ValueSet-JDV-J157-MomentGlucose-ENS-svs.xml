@@ -11,17 +11,23 @@
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS">
       <ConceptList>
          <Concept code="16915-1"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Glucose [Masse/volume] Serum/Plasma --post prandial"/>
          <Concept code="53049-3"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Glucose [Masse/volume] Serum/Plasma --à jeun"/>
          <Concept code="88365-2"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Glucose [Masse/volume] dans le sang --avant repas"/>
-         <Concept code="LA11865-5" codeSystem="" displayName="Après exercice"/>
-         <Concept code="LA46-8" codeSystem="" displayName="Autre"/>
-         <Concept code="MED-1278" codeSystem="" displayName="Lors d'un malaise"/>
+         <Concept code="LA11865-5"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Après exercice"/>
+         <Concept code="LA46-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Autre"/>
+         <Concept code="MED-1278"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Lors d'un malaise"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

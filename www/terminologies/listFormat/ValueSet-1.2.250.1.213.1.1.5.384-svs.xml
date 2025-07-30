@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1641" codeSystem="" displayName="pT3: Mucosal disease"/>
+         <Concept code="1641"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="pT3: Mucosal disease"/>
          <Concept code="1642"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT4a: Moderately advanced disease. Tumor involving deep soft tissue, cartilage,bone, or overlying skin."/>
          <Concept code="1643"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="pT4b: Very advanced disease. Tumor involving brain, dura, skull base, lower cranial nerves (IX, X, XI, XII), masticator space, carotid artery, prevertebral space, or mediastinal structures."/>
       </ConceptList>
    </ValueSet>

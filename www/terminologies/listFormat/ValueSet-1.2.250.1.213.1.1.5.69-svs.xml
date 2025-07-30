@@ -10,9 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-337" codeSystem="" displayName="Syndrome dysexécutif"/>
+         <Concept code="MED-337"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Syndrome dysexécutif"/>
          <Concept code="MED-338"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Détérioration intellectuelle"/>
       </ConceptList>
    </ValueSet>

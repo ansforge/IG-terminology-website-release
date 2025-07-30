@@ -11,25 +11,31 @@
              urlFichier="">
       <ConceptList>
          <Concept code="O10.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Hypertension préexistante compliquant la grossesse, l'accouchement et la puerpéralité, sans précision"/>
          <Concept code="O11"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Prééclampsie surajoutée à une hypertension chronique"/>
          <Concept code="O13"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Hypertension gestationnelle [liée à la grossesse]"/>
          <Concept code="O14.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Prééclampsie, sans précision"/>
-         <Concept code="O15" codeSystem="" displayName="Éclampsie"/>
+         <Concept code="O15"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Éclampsie"/>
          <Concept code="D8-11000"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="HTA gravidique (sans protéinurie)"/>
-         <Concept code="D8-11120" codeSystem="" displayName="HTA chronique isolée"/>
-         <Concept code="D8-11210" codeSystem="" displayName="prééclampsie"/>
+         <Concept code="D8-11120"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="HTA chronique isolée"/>
+         <Concept code="D8-11210"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="prééclampsie"/>
          <Concept code="D8-11270"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="HTA préexistante avec prééclampsie surajoutée"/>
       </ConceptList>
    </ValueSet>

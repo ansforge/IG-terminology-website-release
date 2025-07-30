@@ -10,12 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="700" codeSystem="" displayName="Supérieure"/>
-         <Concept code="701" codeSystem="" displayName="Inférieure"/>
-         <Concept code="702" codeSystem="" displayName="Mediane"/>
-         <Concept code="703" codeSystem="" displayName="Latérale"/>
-         <Concept code="704" codeSystem="" displayName="Antérieure"/>
-         <Concept code="705" codeSystem="" displayName="Postérieure"/>
+         <Concept code="700"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Supérieure"/>
+         <Concept code="701"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Inférieure"/>
+         <Concept code="702"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Mediane"/>
+         <Concept code="703"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Latérale"/>
+         <Concept code="704"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Antérieure"/>
+         <Concept code="705"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Postérieure"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

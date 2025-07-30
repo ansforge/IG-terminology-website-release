@@ -11,15 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="Q27.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Malformation congénitale de l'appareil circulatoire périphérique, sans précision"/>
-         <Concept code="MED-473" codeSystem="" displayName="Maladie petites artères"/>
+         <Concept code="MED-473"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Maladie petites artères"/>
          <Concept code="MED-474"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Anticoagulant au long cours"/>
-         <Concept code="MED-475" codeSystem="" displayName="Angiopathie amyloïde"/>
+         <Concept code="MED-475"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Angiopathie amyloïde"/>
          <Concept code="GEN-092.01.10"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre étiologie de l'hémorragie"/>
       </ConceptList>
    </ValueSet>

@@ -1,0 +1,81 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2729",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2729",
+  "name" : "UnionJdvStructureDeSoinsCisisAndJdvStructureDeSoinsCisis",
+  "title" : "Union of JDV Structure De Soins CISIS And JDV Structure De Soins CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-109",
+        "display" : "Caisse d'assurance de retraite et santé au travail (CARSAT)"
+      },
+      {
+        "code" : "ORG-110",
+        "display" : "Service d'appui au maintien dans l'emploi des travailleurs handicapés (SAMETH)"
+      },
+      {
+        "code" : "ORG-054",
+        "display" : "Établissement de santé de référence"
+      },
+      {
+        "code" : "ORG-055",
+        "display" : "Centre d'hébergement"
+      },
+      {
+        "code" : "ORG-056",
+        "display" : "Structure(s) de coordination ville-hôpital"
+      },
+      {
+        "code" : "ORG-057",
+        "display" : "Organisme social et de maintien dans l'emploi"
+      },
+      {
+        "code" : "ORG-059",
+        "display" : "Lieu d'administration"
+      },
+      {
+        "code" : "ORG-060",
+        "display" : "Lieu de prise en charge en oncogératrie"
+      },
+      {
+        "code" : "ORG-061",
+        "display" : "Lieu des mesures de préservation de la fertilité"
+      },
+      {
+        "code" : "ORG-062",
+        "display" : "Structure(s) de soutien et d'information"
+      },
+      {
+        "code" : "GEN-092.06.01",
+        "display" : "Autre établissement de santé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "616",
+        "display" : "Services de Prévention et de Santé au Travail (SPST)"
+      },
+      {
+        "code" : "220",
+        "display" : "Centre Social"
+      },
+      {
+        "code" : "609",
+        "display" : "Maison Départementale pour Personnes Handicapées (MDPH)"
+      },
+      {
+        "code" : "463",
+        "display" : "Centres Locaux Information Coordination P.A.(C.L.I.C.)"
+      }]
+    }]
+  }
+}

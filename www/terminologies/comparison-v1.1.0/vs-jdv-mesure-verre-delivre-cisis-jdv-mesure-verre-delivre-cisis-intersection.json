@@ -1,0 +1,53 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2253",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2253",
+  "name" : "IntersectionJdvMesureVerreDelivreCisisAndJdvMesureVerreDelivreCisis",
+  "title" : "Intersection of JDV Mesure Verre Delivre CISIS And JDV Mesure Verre Delivre CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1077",
+        "display" : "Puissance de la sphère – verre délivré"
+      },
+      {
+        "code" : "MED-1078",
+        "display" : "Puissance du cylindre – verre délivré"
+      },
+      {
+        "code" : "MED-1082",
+        "display" : "Axe en degrés – verre délivré"
+      },
+      {
+        "code" : "MED-886",
+        "display" : "Addition"
+      },
+      {
+        "code" : "MED-1079",
+        "display" : "Prisme – puissance – verre délivré"
+      },
+      {
+        "code" : "MED-1080",
+        "display" : "Prisme - orientation base – verre délivré"
+      },
+      {
+        "code" : "MED-1081",
+        "display" : "Prisme - axe en degrés – verre délivré"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "95324-0",
+        "display" : "Type de prisme"
+      }]
+    }]
+  }
+}

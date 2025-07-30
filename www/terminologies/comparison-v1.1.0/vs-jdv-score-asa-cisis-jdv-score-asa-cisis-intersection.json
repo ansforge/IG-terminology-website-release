@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2616",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2616",
+  "name" : "IntersectionJdvScoreAsaCisisAndJdvScoreAsaCisis",
+  "title" : "Intersection of JDV Score Asa CISIS And JDV Score Asa CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "413495001",
+        "display" : "classe I du système de classification de l'état physique de l'American Society of Anesthesiologists"
+      },
+      {
+        "code" : "413496000",
+        "display" : "classe II du système de classification de l'état physique de l'American Society of Anesthesiologists"
+      },
+      {
+        "code" : "413497009",
+        "display" : "classe III du système de classification de l'état physique de l'American Society of Anesthesiologists"
+      },
+      {
+        "code" : "413498004",
+        "display" : "classe IV du système de classification de l'état physique de l'American Society of Anesthesiologists"
+      },
+      {
+        "code" : "413499007",
+        "display" : "classe V du système de classification de l'état physique de l'American Society of Anesthesiologists"
+      },
+      {
+        "code" : "413500003",
+        "display" : "classe VI du système de classification de l'état physique de l'American Society of Anesthesiologists"
+      }]
+    }]
+  }
+}

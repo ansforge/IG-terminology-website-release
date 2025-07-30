@@ -11,9 +11,11 @@
              urlFichier="">
       <ConceptList>
          <Concept code="P36.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Infection bactérienne du nouveau-né"/>
-         <Concept code="OBS_226" codeSystem="" displayName="Colonisation"/>
+         <Concept code="OBS_226"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Colonisation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

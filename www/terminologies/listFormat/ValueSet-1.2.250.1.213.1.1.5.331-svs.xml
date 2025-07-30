@@ -10,16 +10,30 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1231" codeSystem="" displayName="Glossectomie subtotale"/>
-         <Concept code="1232" codeSystem="" displayName="Glossectomie partielle"/>
-         <Concept code="1233" codeSystem="" displayName="Basiglossectomie"/>
-         <Concept code="1234" codeSystem="" displayName="Pelviglossectomie"/>
-         <Concept code="1235" codeSystem="" displayName="Hémiglossectomie"/>
+         <Concept code="1231"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Glossectomie subtotale"/>
+         <Concept code="1232"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Glossectomie partielle"/>
+         <Concept code="1233"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Basiglossectomie"/>
+         <Concept code="1234"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Pelviglossectomie"/>
+         <Concept code="1235"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Hémiglossectomie"/>
          <Concept code="1236"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Mandibulectomie +/- bucco-pharyngectomie transmandibulaire"/>
-         <Concept code="1237" codeSystem="" displayName="Pelvectomie"/>
-         <Concept code="1238" codeSystem="" displayName="Oropharyngectomie"/>
+         <Concept code="1237"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Pelvectomie"/>
+         <Concept code="1238"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Oropharyngectomie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

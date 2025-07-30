@@ -11,17 +11,23 @@
              urlFichier="">
       <ConceptList>
          <Concept code="845"
-                  codeSystem=""
+                  codeSystem="https://bioportal.bioontology.org/ontologies/PATHLEX"
                   displayName="Colectomie (qualificateur: Droit, Gauche, Transverse)"/>
-         <Concept code="846" codeSystem="" displayName="Sigmoïdectomie"/>
-         <Concept code="847" codeSystem="" displayName="Exérèse locale endorectale"/>
+         <Concept code="846"
+                  codeSystem="https://bioportal.bioontology.org/ontologies/PATHLEX"
+                  displayName="Sigmoïdectomie"/>
+         <Concept code="847"
+                  codeSystem="https://bioportal.bioontology.org/ontologies/PATHLEX"
+                  displayName="Exérèse locale endorectale"/>
          <Concept code="848"
-                  codeSystem=""
+                  codeSystem="https://bioportal.bioontology.org/ontologies/PATHLEX"
                   displayName="Exérèse du rectum et mésorectum"/>
          <Concept code="849"
-                  codeSystem=""
+                  codeSystem="https://bioportal.bioontology.org/ontologies/PATHLEX"
                   displayName="Amputation abdomino-périnéale"/>
-         <Concept code="850" codeSystem="" displayName="Anoproctectomie"/>
+         <Concept code="850"
+                  codeSystem="https://bioportal.bioontology.org/ontologies/PATHLEX"
+                  displayName="Anoproctectomie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

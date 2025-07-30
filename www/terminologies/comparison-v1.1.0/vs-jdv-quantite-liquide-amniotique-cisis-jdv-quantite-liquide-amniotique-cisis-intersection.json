@@ -1,0 +1,37 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2490",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2490",
+  "name" : "IntersectionJdvQuantiteLiquideAmniotiqueCisisAndJdvQuantiteLiquideAmniotiqueCisis",
+  "title" : "Intersection of JDV Quantite Liquide Amniotique CISIS And JDV Quantite Liquide Amniotique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "O40",
+        "display" : "Hydramnios"
+      },
+      {
+        "code" : "O41.0",
+        "display" : "Oligoamnios"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "278092006",
+        "display" : "volume de liquide amniotique dans l'intervalle de référence"
+      },
+      {
+        "code" : "289297007",
+        "display" : "liquide amniotique absent"
+      }]
+    }]
+  }
+}

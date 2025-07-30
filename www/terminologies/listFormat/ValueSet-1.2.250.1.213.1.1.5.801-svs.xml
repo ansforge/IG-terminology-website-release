@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-354" codeSystem="" displayName="Véhicule thermique"/>
-         <Concept code="GEN-355" codeSystem="" displayName="Véhicule électrique"/>
-         <Concept code="GEN-356" codeSystem="" displayName="Véhicule hybride"/>
+         <Concept code="GEN-354"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Véhicule thermique"/>
+         <Concept code="GEN-355"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Véhicule électrique"/>
+         <Concept code="GEN-356"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Véhicule hybride"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,0 +1,463 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-749",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-749",
+  "name" : "UnionTRE_R95_UsagerTitreAndTRE_R95_UsagerTitre",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "deprecationDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#deprecationDate",
+    "description" : "Date Concept was deprecated",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "status",
+    "uri" : "http://hl7.org/fhir/concept-properties#status",
+    "description" : "A property that indicates the status of the concept.",
+    "type" : "code"
+  },
+  {
+    "code" : "retirementDate",
+    "uri" : "http://hl7.org/fhir/concept-properties#retirementDate",
+    "description" : "Date Concept was retired",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "171",
+    "display" : "Ostéopathe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "172",
+    "display" : "Psychothérapeute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "173",
+    "display" : "Chiropracteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "193",
+    "display" : "Psychologue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "194",
+    "display" : "Conseiller en génétique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2019-03-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  },
+  {
+    "code" : "71",
+    "display" : "Ostéopathe",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "72",
+    "display" : "Psychothérapeute",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "73",
+    "display" : "Chiropracteur",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "93",
+    "display" : "Psychologue",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "active"
+    }]
+  },
+  {
+    "code" : "97",
+    "display" : "Conseiller en génétique",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2020-05-29T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "valueDateTime" : "2024-12-13T12:00:00+01:00"
+    },
+    {
+      "valueCode" : "deprecated"
+    }]
+  }]
+}

@@ -1,0 +1,165 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-150",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/41d026bd-9ab2-44e3-bf59-97ef030ccee7-150",
+  "name" : "IntersectionTRE_R201_TypeDivisionTerritorialeAndTRE_R201_TypeDivisionTerritoriale",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:25+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "1",
+    "display" : "Région",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Département",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Commune",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "Territoire de Santé",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Pays",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2015-03-25T00:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Zone de Défense",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2018-04-27T12:00:00+01:00"
+    }]
+  }]
+}

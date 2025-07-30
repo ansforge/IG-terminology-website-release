@@ -10,16 +10,36 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C103438" codeSystem="" displayName="Colon rectosigmoïde"/>
-         <Concept code="C12265" codeSystem="" displayName="Côlon ascendant"/>
-         <Concept code="C12266" codeSystem="" displayName="Angle colique droit"/>
-         <Concept code="C12267" codeSystem="" displayName="Angle colique gauche"/>
-         <Concept code="C12268" codeSystem="" displayName="Côlon descendant"/>
-         <Concept code="C12381" codeSystem="" displayName="Caecum"/>
-         <Concept code="C12384" codeSystem="" displayName="Côlon sigmoïde"/>
-         <Concept code="C12385" codeSystem="" displayName="Côlon transverse"/>
-         <Concept code="C12390" codeSystem="" displayName="Rectum"/>
-         <Concept code="GEN-021" codeSystem="" displayName="Non déterminé"/>
+         <Concept code="C103438"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Colon rectosigmoïde"/>
+         <Concept code="C12265"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Côlon ascendant"/>
+         <Concept code="C12266"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Angle colique droit"/>
+         <Concept code="C12267"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Angle colique gauche"/>
+         <Concept code="C12268"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Côlon descendant"/>
+         <Concept code="C12381"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Caecum"/>
+         <Concept code="C12384"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Côlon sigmoïde"/>
+         <Concept code="C12385"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Côlon transverse"/>
+         <Concept code="C12390"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Rectum"/>
+         <Concept code="GEN-021"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non déterminé"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="LA9617-7" codeSystem="" displayName="Problème présent"/>
-         <Concept code="LA9618-5" codeSystem="" displayName="Problème potentiel"/>
+         <Concept code="LA9617-7"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Problème présent"/>
+         <Concept code="LA9618-5"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Problème potentiel"/>
          <Concept code="LA9619-3"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Pas de problème apparent"/>
       </ConceptList>
    </ValueSet>

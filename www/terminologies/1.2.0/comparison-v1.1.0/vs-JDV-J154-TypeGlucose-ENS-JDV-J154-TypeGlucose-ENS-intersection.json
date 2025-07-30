@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1017",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1017",
+  "name" : "IntersectionJDV_J154_TypeGlucose_ENSAndJDV_J154_TypeGlucose_ENS",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "2345-7",
+        "display" : "Glucose [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "4548-4",
+        "display" : "Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique"
+      }]
+    }]
+  }
+}

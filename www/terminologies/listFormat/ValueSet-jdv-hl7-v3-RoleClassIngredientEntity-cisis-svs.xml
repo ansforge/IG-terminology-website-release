@@ -10,14 +10,30 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="INGR" codeSystem="" displayName="Ingrédient"/>
-         <Concept code="ACTI" codeSystem="" displayName="Ingredient actif"/>
-         <Concept code="ADJV" codeSystem="" displayName="Adjuvant"/>
-         <Concept code="ADTV" codeSystem="" displayName="Additif"/>
-         <Concept code="BASE" codeSystem="" displayName="Base"/>
-         <Concept code="CNTM" codeSystem="" displayName="Ingredient contaminant"/>
-         <Concept code="IACT" codeSystem="" displayName="Ingredient inactif"/>
-         <Concept code="MECH" codeSystem="" displayName="Ingrédient mécanique"/>
+         <Concept code="INGR"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="Ingrédient"/>
+         <Concept code="ACTI"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="Ingredient actif"/>
+         <Concept code="ADJV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="Adjuvant"/>
+         <Concept code="ADTV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="Additif"/>
+         <Concept code="BASE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="Base"/>
+         <Concept code="CNTM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="Ingredient contaminant"/>
+         <Concept code="IACT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="Ingredient inactif"/>
+         <Concept code="MECH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleClass"
+                  displayName="Ingrédient mécanique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

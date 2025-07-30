@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1704",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1704",
+  "name" : "IntersectionJdvAutreSymptomeAvcCisisAndJdvAutreSymptomeAvcCisis",
+  "title" : "Intersection of JDV Autre Symptome Avc CISIS And JDV Autre Symptome Avc CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Y06.9",
+        "display" : "Délaissement et abandon par une personne non précisée"
+      },
+      {
+        "code" : "G44",
+        "display" : "Autres syndromes d'algies céphaliques"
+      },
+      {
+        "code" : "R41.8",
+        "display" : "Symptômes et signes relatifs aux fonctions cognitives et à la conscience, autres et non précisés"
+      },
+      {
+        "code" : "R41.0",
+        "display" : "Désorientation, sans précision"
+      },
+      {
+        "code" : "R47.02",
+        "display" : "Aphasie, autre et sans précision"
+      },
+      {
+        "code" : "R47.1",
+        "display" : "Dysarthrie et anarthrie"
+      },
+      {
+        "code" : "G90.9",
+        "display" : "Affection du système nerveux autonome, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "61683000",
+        "display" : "drop attack"
+      },
+      {
+        "code" : "399090003",
+        "display" : "vertige subjectif"
+      },
+      {
+        "code" : "88052002",
+        "display" : "mutisme"
+      }]
+    }]
+  }
+}

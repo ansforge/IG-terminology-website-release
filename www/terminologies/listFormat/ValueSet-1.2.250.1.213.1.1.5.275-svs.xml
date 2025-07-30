@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="804" codeSystem="" displayName="Œsogastrectomie totale"/>
-         <Concept code="805" codeSystem="" displayName="Gastrectomie totale"/>
-         <Concept code="806" codeSystem="" displayName="Gastrectomie proximale"/>
-         <Concept code="807" codeSystem="" displayName="Gastrectomie distale"/>
-         <Concept code="808" codeSystem="" displayName="Exérèse locale endoluminale"/>
+         <Concept code="804"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Œsogastrectomie totale"/>
+         <Concept code="805"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Gastrectomie totale"/>
+         <Concept code="806"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Gastrectomie proximale"/>
+         <Concept code="807"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Gastrectomie distale"/>
+         <Concept code="808"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Exérèse locale endoluminale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

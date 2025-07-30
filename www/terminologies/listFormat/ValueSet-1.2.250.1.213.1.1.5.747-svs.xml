@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="O40" codeSystem="" displayName="Hydramnios"/>
-         <Concept code="O41.0" codeSystem="" displayName="Oligoamnios"/>
+         <Concept code="O40"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Hydramnios"/>
+         <Concept code="O41.0"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Oligoamnios"/>
          <Concept code="278092006"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="volume de liquide amniotique dans l'intervalle de référence"/>

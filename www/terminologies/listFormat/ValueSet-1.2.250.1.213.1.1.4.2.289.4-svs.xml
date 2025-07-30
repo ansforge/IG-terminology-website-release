@@ -11,25 +11,29 @@
              urlFichier="">
       <ConceptList>
          <Concept code="O70.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Déchirure obstétricale du périnée, du premier degré"/>
          <Concept code="O70.1"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Déchirure obstétricale du périnée, du deuxième degré"/>
          <Concept code="O70.2"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Déchirure obstétricale du périnée, du troisième degré"/>
          <Concept code="O70.3"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Déchirure obstétricale du périnée, du quatrième degré"/>
-         <Concept code="OBS_106" codeSystem="" displayName="Périnée intact"/>
+         <Concept code="OBS_106"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Périnée intact"/>
          <Concept code="OBS_107"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Déchirure périnéale simple (1er et 2ème degré)"/>
          <Concept code="OBS_108"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Déchirure sphinctérienne (périnée complet et compliqué = 3ème et 4ème degré)"/>
-         <Concept code="P1-86130" codeSystem="" displayName="Episiotomie"/>
+         <Concept code="P1-86130"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Episiotomie"/>
          <Concept code="289854007"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="périnée intact"/>

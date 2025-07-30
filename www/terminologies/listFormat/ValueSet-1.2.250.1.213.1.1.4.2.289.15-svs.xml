@@ -11,16 +11,20 @@
              urlFichier="">
       <ConceptList>
          <Concept code="P05.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Croissance lente du fœtus, sans précision"/>
          <Concept code="MED-1261"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Pas d'anomalie de croissance intra-utérine"/>
          <Concept code="OBS_123"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Pas d'anomalie de croissance intra-utérine"/>
-         <Concept code="D8-70110" codeSystem="" displayName="Retard de croissance"/>
-         <Concept code="D8-70310" codeSystem="" displayName="Macrosomie"/>
+         <Concept code="D8-70110"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Retard de croissance"/>
+         <Concept code="D8-70310"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Macrosomie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

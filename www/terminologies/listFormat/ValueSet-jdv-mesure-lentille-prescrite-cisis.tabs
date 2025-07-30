@@ -1,8 +1,8 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.655;JDV;JdvMesureLentillePrescriteCisis.tabs;JDV Mesure Lentille Prescrite CISIS;;20210924000000;;20250624152059
-<OID>;<Code>;<Libellé> 
-;C53610;Renouvellement
-;C43383;modèle
+<OID>;<Code>;<Libellé>
+2.16.840.1.113883.3.26.1.1;C53610;Renouvellement
+2.16.840.1.113883.3.26.1.1;C43383;modèle
 1.2.250.1.213.1.1.4.322;MED-897;Prise en charge LPP
 1.2.250.1.213.1.1.4.322;MED-1083;Prescription pour primo porteur de lentille de contact
 1.2.250.1.213.1.1.4.322;MED-1182;Date de fin d'adapation de la prescription
@@ -18,9 +18,9 @@
 1.2.250.1.213.1.1.4.322;MED-1066;Valeur de la kératométrie dans l'axe le plus cambré
 1.2.250.1.213.1.1.4.322;MED-1087;Puissance de la sphère – lentille prescrite
 1.2.250.1.213.1.1.4.322;MED-1088;Puissance du cylindre – lentille prescrite
-;74712-1;Date de fin de validité
-;69730-0;Consignes et conseils
-;95300-0;Axe du K
-;95325-7;Axe en degrés des lentilles
-;28814-2;Addition – grandeur
-;28815-9;Addition – valeur
+2.16.840.1.113883.6.1;74712-1;Date de fin de validité
+2.16.840.1.113883.6.1;69730-0;Consignes et conseils
+2.16.840.1.113883.6.1;95300-0;Axe du K
+2.16.840.1.113883.6.1;95325-7;Axe en degrés des lentilles
+2.16.840.1.113883.6.1;28814-2;Addition – grandeur
+2.16.840.1.113883.6.1;28815-9;Addition – valeur

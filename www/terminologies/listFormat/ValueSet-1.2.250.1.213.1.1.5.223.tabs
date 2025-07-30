@@ -1,8 +1,8 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.223;JDV;JDV_Complicationneuropsychiatriques_CISIS.tabs;JDV_Complicationneuropsychiatriques_CISIS;;20210315000000;;20231114000000
-<OID>;<Code>;<Libellé> 
-;F32.9;Épisode dépressif, sans précision
-;MED-523;Syndrome anxieux
-;MED-524;Troubles du comportement (agitation, hallucinations)
-;MED-525;Troubles du sommeil
-;GEN-092.01.15;Autres syndromes psycho-comportementaux
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/icd10;F32.9;Épisode dépressif, sans précision
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-523;Syndrome anxieux
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-524;Troubles du comportement (agitation, hallucinations)
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-525;Troubles du sommeil
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;GEN-092.01.15;Autres syndromes psycho-comportementaux

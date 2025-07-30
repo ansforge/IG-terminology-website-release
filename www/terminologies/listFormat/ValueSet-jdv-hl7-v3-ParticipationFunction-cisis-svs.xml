@@ -11,13 +11,17 @@
              urlFichier="">
       <ConceptList>
          <Concept code="ADMPHYS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"
                   displayName="Responsable de l'admission"/>
          <Concept code="ATTPHYS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"
                   displayName="Référent - Responsable du patient dans la structure de soins"/>
-         <Concept code="DISPHYS" codeSystem="" displayName="Responsable de la sortie"/>
-         <Concept code="PCP" codeSystem="" displayName="Médecin traitant"/>
+         <Concept code="DISPHYS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"
+                  displayName="Responsable de la sortie"/>
+         <Concept code="PCP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationFunction"
+                  displayName="Médecin traitant"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

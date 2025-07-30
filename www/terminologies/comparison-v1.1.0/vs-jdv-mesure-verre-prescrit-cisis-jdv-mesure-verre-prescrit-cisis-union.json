@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2255",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2255",
+  "name" : "UnionJdvMesureVerrePrescritCisisAndJdvMesureVerrePrescritCisis",
+  "title" : "Union of JDV Mesure Verre Prescrit CISIS And JDV Mesure Verre Prescrit CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1070",
+        "display" : "Pathologie listée dans arrété du 3 décembre 2018 publié le 13 décembre 2018"
+      },
+      {
+        "code" : "MED-1182",
+        "display" : "Date de fin d'adapation de la prescription"
+      },
+      {
+        "code" : "MED-1071",
+        "display" : "Puissance de la sphère - verre prescrit"
+      },
+      {
+        "code" : "MED-1072",
+        "display" : "Puissance du cylindre - verre prescrit"
+      },
+      {
+        "code" : "MED-1076",
+        "display" : "Axe en degrés - verre prescrit"
+      },
+      {
+        "code" : "MED-886",
+        "display" : "Addition"
+      },
+      {
+        "code" : "MED-1073",
+        "display" : "Prisme - puissance - verre prescrit"
+      },
+      {
+        "code" : "MED-1074",
+        "display" : "Prisme - orientation base - verre prescrit"
+      },
+      {
+        "code" : "MED-1075",
+        "display" : "Prisme - axe en degrés - verre prescrit"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "74712-1",
+        "display" : "Date de fin de validité"
+      },
+      {
+        "code" : "95324-0",
+        "display" : "Type de prisme"
+      }]
+    }]
+  }
+}

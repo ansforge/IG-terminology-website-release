@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="DRUG" codeSystem="" displayName="Médicament"/>
-         <Concept code="FD" codeSystem="" displayName="Aliment"/>
+         <Concept code="DRUG"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Médicament"/>
+         <Concept code="FD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Aliment"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

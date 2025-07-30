@@ -10,24 +10,42 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="O00" codeSystem="" displayName="Grossesse extra-utérine"/>
-         <Concept code="O01" codeSystem="" displayName="Môle hydatiforme"/>
-         <Concept code="O03" codeSystem="" displayName="Avortement spontané"/>
-         <Concept code="O04" codeSystem="" displayName="Avortement médical"/>
+         <Concept code="O00"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Grossesse extra-utérine"/>
+         <Concept code="O01"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Môle hydatiforme"/>
+         <Concept code="O03"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Avortement spontané"/>
+         <Concept code="O04"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Avortement médical"/>
          <Concept code="O04.-0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Interruption médicale volontaire de grossesse [IVG dans le cadre légal]"/>
          <Concept code="P95"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Mort fœtale (de cause non précisée)"/>
-         <Concept code="OBS_101" codeSystem="" displayName="Accouchement"/>
-         <Concept code="OBS_103" codeSystem="" displayName="IMG &lt; 22"/>
-         <Concept code="OBS_104" codeSystem="" displayName="IMG &gt;= 22"/>
-         <Concept code="OBS_127" codeSystem="" displayName="Grossesse actuelle"/>
-         <Concept code="D8-00110" codeSystem="" displayName="Môle"/>
-         <Concept code="D8-02000" codeSystem="" displayName="GEU"/>
-         <Concept code="D8-04100" codeSystem="" displayName="Avortement spontané"/>
-         <Concept code="D8-04201" codeSystem="" displayName="IVG"/>
+         <Concept code="OBS_101"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Accouchement"/>
+         <Concept code="OBS_103"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="IMG &lt; 22"/>
+         <Concept code="OBS_104"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="IMG &gt;= 22"/>
+         <Concept code="OBS_127"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Grossesse actuelle"/>
+         <Concept code="D8-00110" codeSystem="1.2.250.1.213.2.12" displayName="Môle"/>
+         <Concept code="D8-02000" codeSystem="1.2.250.1.213.2.12" displayName="GEU"/>
+         <Concept code="D8-04100"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Avortement spontané"/>
+         <Concept code="D8-04201" codeSystem="1.2.250.1.213.2.12" displayName="IVG"/>
          <Concept code="236973005"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="Accouchement"/>

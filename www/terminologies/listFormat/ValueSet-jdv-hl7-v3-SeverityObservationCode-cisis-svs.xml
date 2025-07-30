@@ -10,7 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="SEV" codeSystem="" displayName="Sévérité"/>
+         <Concept code="SEV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Sévérité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

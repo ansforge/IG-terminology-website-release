@@ -10,26 +10,32 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-092.05.04" codeSystem="" displayName="Autre contexte"/>
+         <Concept code="GEN-092.05.04"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre contexte"/>
          <Concept code="MED-095"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Avis d'expertise sur un dossier"/>
-         <Concept code="MED-096" codeSystem="" displayName="Téléconsultation"/>
+         <Concept code="MED-096"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Téléconsultation"/>
          <Concept code="ORG-045"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Hospitalisation traditionnelle"/>
          <Concept code="ORG-028"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Consultation pluridisciplinaire"/>
          <Concept code="ORG-029"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Avis sur dossier en consultation"/>
-         <Concept code="ORG-030" codeSystem="" displayName="Avis en salle"/>
+         <Concept code="ORG-030"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Avis en salle"/>
          <Concept code="ORG-198"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="RCP régionale ou locale - centre organisateur"/>
          <Concept code="ORG-199"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="RCP nationale ou européenne - centre participatif"/>
          <Concept code="29"
                   codeSystem="1.2.250.1.213.3.3.13"

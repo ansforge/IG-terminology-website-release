@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-160" codeSystem="" displayName="Raison inconnue"/>
-         <Concept code="MED-471" codeSystem="" displayName="Sans étiologie"/>
+         <Concept code="GEN-160"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Raison inconnue"/>
+         <Concept code="MED-471"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Sans étiologie"/>
          <Concept code="MED-472"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Bilan étiologique incomplet"/>
       </ConceptList>
    </ValueSet>

@@ -11,16 +11,20 @@
              urlFichier="">
       <ConceptList>
          <Concept code="ORG-007"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prise en charge des conséquences neurocognitives et endocriniennes"/>
          <Concept code="ORG-171"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prise en charge des conséquences des tumeurs cérébrales et de leurs traitements"/>
-         <Concept code="MED-555" codeSystem="" displayName="Contraception"/>
+         <Concept code="MED-555"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Contraception"/>
          <Concept code="ORG-001"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prise en charge spécifique en oncogériatrie"/>
-         <Concept code="GEN-092.04.11" codeSystem="" displayName="Autre mesure"/>
+         <Concept code="GEN-092.04.11"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre mesure"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

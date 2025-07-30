@@ -11,9 +11,11 @@
              urlFichier="">
       <ConceptList>
          <Concept code="JQQP003"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.215.300.1"
                   displayName="Autopsie médicale d'un fœtus ou d'un nouveau-né de moins de 4 jours de vie, avec examen de l'encéphale"/>
-         <Concept code="GEN-092.04.13" codeSystem="" displayName="Autre acte"/>
+         <Concept code="GEN-092.04.13"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre acte"/>
          <Concept code="275977009"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="test néonatal de 14 maladies congénitales"/>

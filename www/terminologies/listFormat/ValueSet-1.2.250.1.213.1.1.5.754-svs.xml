@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1259" codeSystem="" displayName="PPC nasale"/>
+         <Concept code="MED-1259"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="PPC nasale"/>
          <Concept code="MED-1260"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Ventilation sur tube endotrachéal"/>
          <Concept code="MED-174"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Geste technique spécialisé"/>
          <Concept code="112798008"
                   codeSystem="2.16.840.1.113883.6.96"

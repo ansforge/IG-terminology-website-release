@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="944" codeSystem="" displayName="Pancréatique proximale"/>
-         <Concept code="945" codeSystem="" displayName="Biliaire"/>
-         <Concept code="946" codeSystem="" displayName="Pancréatique distale"/>
-         <Concept code="947" codeSystem="" displayName="Rétropéritonéale"/>
+         <Concept code="944"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Pancréatique proximale"/>
+         <Concept code="945"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Biliaire"/>
+         <Concept code="946"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Pancréatique distale"/>
+         <Concept code="947"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Rétropéritonéale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

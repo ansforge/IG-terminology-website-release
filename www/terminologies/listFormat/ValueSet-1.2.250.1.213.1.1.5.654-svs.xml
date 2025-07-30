@@ -10,22 +10,36 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C80261" codeSystem="" displayName="Monture"/>
-         <Concept code="C101668" codeSystem="" displayName="Marque"/>
-         <Concept code="C43383" codeSystem="" displayName="modèle"/>
-         <Concept code="MED-1181" codeSystem="" displayName="Date de délivrance"/>
-         <Concept code="GEN-292" codeSystem="" displayName="Commentaire"/>
+         <Concept code="C80261"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Monture"/>
+         <Concept code="C101668"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Marque"/>
+         <Concept code="C43383"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="modèle"/>
+         <Concept code="MED-1181"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Date de délivrance"/>
+         <Concept code="GEN-292"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Commentaire"/>
          <Concept code="MED-890"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Demi-écart interpupillaire VL"/>
          <Concept code="MED-891"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Demi-écart interpupillaire VI"/>
          <Concept code="MED-892"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Demi-écart interpupillaire VP"/>
-         <Concept code="MED-893" codeSystem="" displayName="Hauteur de montage"/>
-         <Concept code="64885-7" codeSystem="" displayName="Types de verres"/>
+         <Concept code="MED-893"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Hauteur de montage"/>
+         <Concept code="64885-7"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Types de verres"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

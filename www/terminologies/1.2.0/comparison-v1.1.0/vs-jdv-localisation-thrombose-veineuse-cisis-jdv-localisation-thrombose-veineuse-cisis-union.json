@@ -1,0 +1,61 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2225",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2225",
+  "name" : "UnionJdvLocalisationThromboseVeineuseCisisAndJdvLocalisationThromboseVeineuseCisis",
+  "title" : "Union of JDV Localisation Thrombose Veineuse CISIS And JDV Localisation Thrombose Veineuse CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-450",
+        "display" : "Sinus longitudinal supérieur partiel"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "24773008",
+        "display" : "sinus sagittal supérieur"
+      },
+      {
+        "code" : "1290463001",
+        "display" : "sinus transverse droit"
+      },
+      {
+        "code" : "1290462006",
+        "display" : "sinus transverse gauche"
+      },
+      {
+        "code" : "38745009",
+        "display" : "sinus droit"
+      },
+      {
+        "code" : "68351006",
+        "display" : "veine de l'encéphale"
+      },
+      {
+        "code" : "764263004",
+        "display" : "veine jugulaire droite"
+      },
+      {
+        "code" : "764262009",
+        "display" : "veine jugulaire gauche"
+      },
+      {
+        "code" : "87003004",
+        "display" : "veine profonde"
+      },
+      {
+        "code" : "18782006",
+        "display" : "sinus caverneux"
+      }]
+    }]
+  }
+}

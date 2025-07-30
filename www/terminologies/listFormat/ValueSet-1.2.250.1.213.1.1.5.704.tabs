@@ -1,8 +1,8 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.704;JDV;JDV_Patho_1ere_semaine_CS8_CISIS.tabs;JDV_Patho_1ere_semaine_CS8_CISIS;;20210315000000;;20230202000000
-<OID>;<Code>;<Libellé> 
-;P22.9;Détresse respiratoire du nouveau-né, sans précision
-;G96.9;Affection du système nerveux central, sans précision
-;MED-276;Antibiothérapie (de plus de 48 heures)
-;MED-170;Urgence chirurgicale
-;GEN-092.01.11;Autres pathologies de la 1ère semaine
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/icd10;P22.9;Détresse respiratoire du nouveau-né, sans précision
+http://terminology.hl7.org/CodeSystem/icd10;G96.9;Affection du système nerveux central, sans précision
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-276;Antibiothérapie (de plus de 48 heures)
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-170;Urgence chirurgicale
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;GEN-092.01.11;Autres pathologies de la 1ère semaine

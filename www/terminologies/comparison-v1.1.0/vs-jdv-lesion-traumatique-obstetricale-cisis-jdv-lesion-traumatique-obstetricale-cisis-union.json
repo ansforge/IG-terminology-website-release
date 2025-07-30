@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2198",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2198",
+  "name" : "UnionJdvLesionTraumatiqueObstetricaleCisisAndJdvLesionTraumatiqueObstetricaleCisis",
+  "title" : "Union of JDV Lesion Traumatique Obstetricale CISIS And JDV Lesion Traumatique Obstetricale CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "P11.3",
+        "display" : "Paralysie faciale due à un traumatisme obstétrical"
+      },
+      {
+        "code" : "P13.4",
+        "display" : "Fracture de la clavicule due à un traumatisme obstétrical"
+      },
+      {
+        "code" : "P14.3",
+        "display" : "Autres lésions du plexus brachial dues à un traumatisme obstétrical"
+      },
+      {
+        "code" : "P15.4",
+        "display" : "Lésion faciale due à un traumatisme obstétrical"
+      },
+      {
+        "code" : "P15.8",
+        "display" : "Autres traumatismes obstétricaux précisés"
+      }]
+    }]
+  }
+}

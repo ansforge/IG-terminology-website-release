@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-103" codeSystem="" displayName="normal"/>
+         <Concept code="GEN-103"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="normal"/>
          <Concept code="AVC-021"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="paralysie partielle (ce score est attribué quand l'oculomotricité est anormale pour 1 ou 2 yeux, mais sans déviation forcée, ni paralysie complète)."/>
          <Concept code="AVC-022"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="déviation forcée ou paralysie complète non vaincue par les manœuvres oculo céphaliques."/>
       </ConceptList>
    </ValueSet>

@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1337" codeSystem="" displayName="Ipsilatéraux"/>
-         <Concept code="1338" codeSystem="" displayName="Controlatéraux"/>
-         <Concept code="1339" codeSystem="" displayName="Bilatéraux"/>
+         <Concept code="1337"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Ipsilatéraux"/>
+         <Concept code="1338"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Controlatéraux"/>
+         <Concept code="1339"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Bilatéraux"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

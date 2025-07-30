@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-206" codeSystem="" displayName="Matériel spécialisé"/>
-         <Concept code="ORG-207" codeSystem="" displayName="Ressource immobilière"/>
-         <Concept code="GEN-092.06.10" codeSystem="" displayName="Autre ressource"/>
+         <Concept code="ORG-206"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Matériel spécialisé"/>
+         <Concept code="ORG-207"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Ressource immobilière"/>
+         <Concept code="GEN-092.06.10"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre ressource"/>
          <Concept code="261324000"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="véhicule"/>

@@ -1,0 +1,83 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2036",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2036",
+  "name" : "UnionActMoodAndActMood",
+  "title" : "Union of ActMood And ActMood",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "DEF",
+        "display" : "Définition"
+      },
+      {
+        "code" : "PERM",
+        "display" : "Permission"
+      },
+      {
+        "code" : "SLOT",
+        "display" : "Possible sur la période spécifiée"
+      },
+      {
+        "code" : "EVN",
+        "display" : "Réalisé"
+      },
+      {
+        "code" : "INT",
+        "display" : "Prévu"
+      },
+      {
+        "code" : "ARQ",
+        "display" : "Prévu mais non confirmé"
+      },
+      {
+        "code" : "PERMRQ",
+        "display" : "Demande d'autorisation"
+      },
+      {
+        "code" : "RQO",
+        "display" : "Demande"
+      },
+      {
+        "code" : "PRP",
+        "display" : "Proposition"
+      },
+      {
+        "code" : "RMD",
+        "display" : "Recommandation"
+      },
+      {
+        "code" : "PRMS",
+        "display" : "Planifié et confirmé"
+      },
+      {
+        "code" : "APT",
+        "display" : "Date et lieu confirmé"
+      },
+      {
+        "code" : "EXPEC",
+        "display" : "Attendu"
+      },
+      {
+        "code" : "GOL",
+        "display" : "But"
+      },
+      {
+        "code" : "RSK",
+        "display" : "Risque"
+      },
+      {
+        "code" : "OPT",
+        "display" : "Option"
+      }]
+    }]
+  }
+}

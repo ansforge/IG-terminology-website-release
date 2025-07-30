@@ -10,16 +10,30 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
          <Concept code="GEN-092.06.04"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre lieu d'accouchement"/>
-         <Concept code="GEN-117" codeSystem="" displayName="Domicile"/>
-         <Concept code="GEN-310" codeSystem="" displayName="Maternité"/>
-         <Concept code="OBS_201" codeSystem="" displayName="Maternité"/>
-         <Concept code="OBS_202" codeSystem="" displayName="Domicile"/>
-         <Concept code="OBS_203" codeSystem="" displayName="Autre maternité"/>
-         <Concept code="OBS_204" codeSystem="" displayName="Autre lieu"/>
+         <Concept code="GEN-117"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Domicile"/>
+         <Concept code="GEN-310"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Maternité"/>
+         <Concept code="OBS_201"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Maternité"/>
+         <Concept code="OBS_202"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Domicile"/>
+         <Concept code="OBS_203"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Autre maternité"/>
+         <Concept code="OBS_204"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Autre lieu"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

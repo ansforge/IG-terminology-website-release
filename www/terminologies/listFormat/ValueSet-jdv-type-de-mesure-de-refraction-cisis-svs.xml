@@ -17,15 +17,17 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Valeur de la kératométrie dans l'axe le plus cambré"/>
          <Concept code="95290-3"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Puissance de la sphère - réfraction"/>
          <Concept code="95292-9"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Puissance du cylindre - réfraction"/>
          <Concept code="95291-1"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Axe en degrés - réfraction"/>
-         <Concept code="95300-0" codeSystem="" displayName="Axe du K"/>
+         <Concept code="95300-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Axe du K"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

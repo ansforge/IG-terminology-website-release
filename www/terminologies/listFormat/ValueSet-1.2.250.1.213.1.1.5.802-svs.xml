@@ -11,15 +11,17 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-1292"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation AGGIR PH SSIAD"/>
          <Concept code="MED-1293"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation AGGIR PA SSIAD"/>
          <Concept code="MED-1290"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation de la situation SSIAD"/>
-         <Concept code="MED-1291" codeSystem="" displayName="Evaluation SERAFIN"/>
+         <Concept code="MED-1291"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Evaluation SERAFIN"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

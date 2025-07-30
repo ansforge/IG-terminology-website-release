@@ -20,10 +20,14 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Etat du périnée"/>
          <Concept code="11884-4"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Age gestationnel du fœtus (estimation clinique)"/>
-         <Concept code="63893-2" codeSystem="" displayName="Issue de la grossesse"/>
-         <Concept code="11638-4" codeSystem="" displayName="Nombre d'enfants vivants"/>
+         <Concept code="63893-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Issue de la grossesse"/>
+         <Concept code="11638-4"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Nombre d'enfants vivants"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -11,12 +11,14 @@
              urlFichier="">
       <ConceptList>
          <Concept code="GEN-105"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Protection universelle maladie (PUMa)"/>
          <Concept code="GEN-107"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Aide médicale de l’état (AME)"/>
-         <Concept code="GEN-108" codeSystem="" displayName="Aucune"/>
+         <Concept code="GEN-108"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Aucune"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

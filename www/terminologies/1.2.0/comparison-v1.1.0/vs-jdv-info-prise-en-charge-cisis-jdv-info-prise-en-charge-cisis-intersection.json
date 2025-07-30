@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2145",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2145",
+  "name" : "IntersectionJdvInfoPriseEnChargeCisisAndJdvInfoPriseEnChargeCisis",
+  "title" : "Intersection of JDV Info Prise En Charge CISIS And JDV Info Prise En Charge CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "U83.71",
+        "display" : "Bactérie multirésistante [BMR]"
+      },
+      {
+        "code" : "Z74.0",
+        "display" : "Besoin d'assistance du fait de mobilité restreinte"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-1124",
+        "display" : "Patient nécessitant un accompagnement par un tiers"
+      },
+      {
+        "code" : "MED-1125",
+        "display" : "Patient potentiellement non-coopérant (déficience mentale, etc.)"
+      },
+      {
+        "code" : "MED-1123",
+        "display" : "Patient porteur d'un germe à transmission aérienne"
+      }]
+    }]
+  }
+}

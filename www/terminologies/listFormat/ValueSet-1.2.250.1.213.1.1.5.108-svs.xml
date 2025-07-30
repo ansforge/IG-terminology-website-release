@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="PAT-035" codeSystem="" displayName="Ecole primaire"/>
-         <Concept code="PAT-036" codeSystem="" displayName="Collège"/>
-         <Concept code="PAT-037" codeSystem="" displayName="Lycée"/>
-         <Concept code="PAT-038" codeSystem="" displayName="Bac +1 ou +2"/>
-         <Concept code="PAT-039" codeSystem="" displayName="Bac +3 et +"/>
+         <Concept code="PAT-035"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Ecole primaire"/>
+         <Concept code="PAT-036"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Collège"/>
+         <Concept code="PAT-037"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Lycée"/>
+         <Concept code="PAT-038"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bac +1 ou +2"/>
+         <Concept code="PAT-039"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bac +3 et +"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

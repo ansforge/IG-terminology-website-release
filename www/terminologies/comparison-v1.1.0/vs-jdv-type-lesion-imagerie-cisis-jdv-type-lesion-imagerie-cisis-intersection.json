@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2898",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2898",
+  "name" : "IntersectionJdvTypeLesionImagerieCisisAndJdvTypeLesionImagerieCisis",
+  "title" : "Intersection of JDV Type Lesion Imagerie CISIS And JDV Type Lesion Imagerie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "I60.9",
+        "display" : "Hémorragie sousarachnoïdienne, sans précision"
+      },
+      {
+        "code" : "I61.9",
+        "display" : "Hémorragie intracérébrale, sans précision"
+      },
+      {
+        "code" : "I63.9",
+        "display" : "Infarctus cérébral, sans précision"
+      },
+      {
+        "code" : "I63.6",
+        "display" : "Infarctus cérébral dû à une thrombose veineuse cérébrale, non pyogène"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-467",
+        "display" : "Hémorragie ancienne"
+      },
+      {
+        "code" : "MED-468",
+        "display" : "Microsaignements"
+      }]
+    }]
+  }
+}

@@ -11,12 +11,14 @@
              urlFichier="">
       <ConceptList>
          <Concept code="762"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Oesophagectomie totale avec gastrectomie totale ou polaire supérieure ou pharyngolaryngectomie"/>
          <Concept code="763"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Oesophagectomie partielle avec gastrectomie totale ou polaire supérieure"/>
-         <Concept code="1413" codeSystem="" displayName="Résection endoluminale"/>
+         <Concept code="1413"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Résection endoluminale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

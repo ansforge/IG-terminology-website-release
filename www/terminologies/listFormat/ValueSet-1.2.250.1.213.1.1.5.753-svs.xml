@@ -11,11 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-1256"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Alimentation lait maternel exclusif"/>
-         <Concept code="MED-1257" codeSystem="" displayName="Alimentation mixte"/>
+         <Concept code="MED-1257"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Alimentation mixte"/>
          <Concept code="MED-1258"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Alimentation lait artificiel exclusif"/>
       </ConceptList>
    </ValueSet>

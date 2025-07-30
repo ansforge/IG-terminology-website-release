@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2531",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2531",
+  "name" : "UnionJdvRepriseProfessionnelleCisisAndJdvRepriseProfessionnelleCisis",
+  "title" : "Union of JDV Reprise Professionnelle CISIS And JDV Reprise Professionnelle CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-125",
+        "display" : "Reprise à envisager. Démarches faites."
+      },
+      {
+        "code" : "GEN-126",
+        "display" : "Reprise inenvisageable. Démarches faites."
+      }]
+    }]
+  }
+}

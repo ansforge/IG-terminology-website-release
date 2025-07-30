@@ -10,74 +10,162 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="BE" codeSystem="" displayName="dans les deux oreilles"/>
-         <Concept code="BN" codeSystem="" displayName="dans les deux narines"/>
-         <Concept code="BU" codeSystem="" displayName="fesse"/>
-         <Concept code="LA" codeSystem="" displayName="bras gauche"/>
-         <Concept code="LAC" codeSystem="" displayName="poitrine antérieure gauche"/>
+         <Concept code="BE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="dans les deux oreilles"/>
+         <Concept code="BN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="dans les deux narines"/>
+         <Concept code="BU"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="fesse"/>
+         <Concept code="LA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="bras gauche"/>
+         <Concept code="LAC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="poitrine antérieure gauche"/>
          <Concept code="LACF"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
                   displayName="région cubitale antérieure gauche"/>
-         <Concept code="LD" codeSystem="" displayName="deltoïde gauche"/>
-         <Concept code="LE" codeSystem="" displayName="oreille gauche"/>
-         <Concept code="LEJ" codeSystem="" displayName="jugulaire externe gauche"/>
-         <Concept code="LF" codeSystem="" displayName="pied gauche"/>
-         <Concept code="LG" codeSystem="" displayName="muscle moyen fessier gauche"/>
-         <Concept code="LH" codeSystem="" displayName="main gauche"/>
-         <Concept code="LIJ" codeSystem="" displayName="jugulaire interne gauche"/>
+         <Concept code="LD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="deltoïde gauche"/>
+         <Concept code="LE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="oreille gauche"/>
+         <Concept code="LEJ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="jugulaire externe gauche"/>
+         <Concept code="LF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="pied gauche"/>
+         <Concept code="LG"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="muscle moyen fessier gauche"/>
+         <Concept code="LH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="main gauche"/>
+         <Concept code="LIJ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="jugulaire interne gauche"/>
          <Concept code="LLAQ"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
                   displayName="quadrant inférieur gauche de l'abdomen"/>
-         <Concept code="LLFA" codeSystem="" displayName="avant-bras inférieur gauche"/>
-         <Concept code="LMFA" codeSystem="" displayName="avant-bras moyen gauche"/>
-         <Concept code="LN" codeSystem="" displayName="narine gauche"/>
-         <Concept code="LPC" codeSystem="" displayName="poitrine postérieure gauche"/>
-         <Concept code="LSC" codeSystem="" displayName="sous-clavière gauche"/>
-         <Concept code="LT" codeSystem="" displayName="cuisse gauche"/>
-         <Concept code="LUA" codeSystem="" displayName="bras supérieur gauche"/>
+         <Concept code="LLFA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="avant-bras inférieur gauche"/>
+         <Concept code="LMFA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="avant-bras moyen gauche"/>
+         <Concept code="LN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="narine gauche"/>
+         <Concept code="LPC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="poitrine postérieure gauche"/>
+         <Concept code="LSC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="sous-clavière gauche"/>
+         <Concept code="LT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="cuisse gauche"/>
+         <Concept code="LUA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="bras supérieur gauche"/>
          <Concept code="LUAQ"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
                   displayName="quadrant supérieur gauche de l'abdomen"/>
-         <Concept code="LUFA" codeSystem="" displayName="avant-bras supérieur gauche"/>
+         <Concept code="LUFA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="avant-bras supérieur gauche"/>
          <Concept code="LVG"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
                   displayName="muscle fessier antérieur gauche"/>
-         <Concept code="LVL" codeSystem="" displayName="muscle vaste externe gauche"/>
-         <Concept code="OD" codeSystem="" displayName="oeil droit"/>
-         <Concept code="OS" codeSystem="" displayName="oeil gauche"/>
-         <Concept code="OU" codeSystem="" displayName="dans les deux yeux"/>
-         <Concept code="PA" codeSystem="" displayName="péri-anal"/>
-         <Concept code="PERIN" codeSystem="" displayName="périnéal"/>
-         <Concept code="RA" codeSystem="" displayName="bras droit"/>
-         <Concept code="RAC" codeSystem="" displayName="poitrine antérieure droite"/>
+         <Concept code="LVL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="muscle vaste externe gauche"/>
+         <Concept code="OD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="oeil droit"/>
+         <Concept code="OS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="oeil gauche"/>
+         <Concept code="OU"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="dans les deux yeux"/>
+         <Concept code="PA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="péri-anal"/>
+         <Concept code="PERIN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="périnéal"/>
+         <Concept code="RA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="bras droit"/>
+         <Concept code="RAC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="poitrine antérieure droite"/>
          <Concept code="RACF"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
                   displayName="région cubitale antérieure droite"/>
-         <Concept code="RD" codeSystem="" displayName="deltoïde droit"/>
-         <Concept code="RE" codeSystem="" displayName="oreille droite"/>
-         <Concept code="REJ" codeSystem="" displayName="jugulaire externe droite"/>
-         <Concept code="RF" codeSystem="" displayName="pied droit"/>
-         <Concept code="RG" codeSystem="" displayName="muscle moyen fessier droite"/>
-         <Concept code="RH" codeSystem="" displayName="main droite"/>
-         <Concept code="RIJ" codeSystem="" displayName="jugulaire interne droite"/>
+         <Concept code="RD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="deltoïde droit"/>
+         <Concept code="RE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="oreille droite"/>
+         <Concept code="REJ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="jugulaire externe droite"/>
+         <Concept code="RF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="pied droit"/>
+         <Concept code="RG"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="muscle moyen fessier droite"/>
+         <Concept code="RH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="main droite"/>
+         <Concept code="RIJ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="jugulaire interne droite"/>
          <Concept code="RLAQ"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
                   displayName="quadrant inférieur droit de l'abdomen"/>
-         <Concept code="RLFA" codeSystem="" displayName="avant-bras inférieur droite"/>
-         <Concept code="RMFA" codeSystem="" displayName="avant-bras moyen droit"/>
-         <Concept code="RN" codeSystem="" displayName="narine droite"/>
-         <Concept code="RPC" codeSystem="" displayName="poitrine postérieure droite"/>
-         <Concept code="RSC" codeSystem="" displayName="sous-clavière droite"/>
-         <Concept code="RT" codeSystem="" displayName="cuisse droite"/>
-         <Concept code="RUA" codeSystem="" displayName="bras supérieur droit"/>
+         <Concept code="RLFA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="avant-bras inférieur droite"/>
+         <Concept code="RMFA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="avant-bras moyen droit"/>
+         <Concept code="RN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="narine droite"/>
+         <Concept code="RPC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="poitrine postérieure droite"/>
+         <Concept code="RSC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="sous-clavière droite"/>
+         <Concept code="RT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="cuisse droite"/>
+         <Concept code="RUA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="bras supérieur droit"/>
          <Concept code="RUAQ"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
                   displayName="quadrant supérieur droit de l'abdomen"/>
-         <Concept code="RUFA" codeSystem="" displayName="avant-bras supérieur droite"/>
+         <Concept code="RUFA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="avant-bras supérieur droite"/>
          <Concept code="RVG"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
                   displayName="muscle fessier antérieur droit"/>
-         <Concept code="RVL" codeSystem="" displayName="muscle vaste externe droit"/>
+         <Concept code="RVL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActSite"
+                  displayName="muscle vaste externe droit"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

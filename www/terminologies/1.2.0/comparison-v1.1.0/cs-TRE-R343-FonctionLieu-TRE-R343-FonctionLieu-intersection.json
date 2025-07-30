@@ -1,0 +1,329 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-561",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/41d026bd-9ab2-44e3-bf59-97ef030ccee7-561",
+  "name" : "IntersectionTRE_R343_FonctionLieuAndTRE_R343_FonctionLieu",
+  "title" : "Intersection of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:25+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "property" : [{
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateValid",
+    "description" : "date de validité d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateMaj",
+    "description" : "Date de mise à jour d'un code concept",
+    "type" : "dateTime"
+  },
+  {
+    "code" : "dateFin",
+    "description" : "Date de fin d'exploitation d'un code concept",
+    "type" : "dateTime"
+  }],
+  "concept" : [{
+    "code" : "001",
+    "display" : "Hébergement MCO",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2022-09-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2022-09-30T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "002",
+    "display" : "Hébergement PSY",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "003",
+    "display" : "Hébergement MS",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "004",
+    "display" : "Hébergement SMR",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "005",
+    "display" : "Adresse",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "006",
+    "display" : "Bloc opératoire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "007",
+    "display" : "Caisson hyperbare",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "008",
+    "display" : "Chambre mortuaire",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "009",
+    "display" : "Plateau d’endoscopie",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "010",
+    "display" : "Plateau d’imagerie conventionnelle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Plateau d’imagerie conv."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "011",
+    "display" : "Plateau d’imagerie interventionnelle",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Plateau d’imagerie inter."
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "012",
+    "display" : "Plateau de réadaptation",
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  },
+  {
+    "code" : "013",
+    "display" : "Salle de travail (salle de naissance)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Salle de travail"
+    }],
+    "property" : [{
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2025-06-20T12:00:00+01:00"
+    }]
+  }]
+}

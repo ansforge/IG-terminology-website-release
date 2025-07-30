@@ -11,10 +11,14 @@
              urlFichier="">
       <ConceptList>
          <Concept code="GEN-301"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Pas de transfert ni mutation"/>
-         <Concept code="G-4029" codeSystem="" displayName="Secondaire"/>
-         <Concept code="G-A377" codeSystem="" displayName="Immédiat"/>
+         <Concept code="G-4029"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Secondaire"/>
+         <Concept code="G-A377"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Immédiat"/>
          <Concept code="2603003"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="secondaire"/>

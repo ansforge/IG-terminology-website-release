@@ -10,17 +10,23 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-140" codeSystem="" displayName="Hémorragie ancienne"/>
-         <Concept code="AVC-141" codeSystem="" displayName="Microsaignments"/>
+         <Concept code="AVC-140"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Hémorragie ancienne"/>
+         <Concept code="AVC-141"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Microsaignments"/>
          <Concept code="D3-89110"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="hémorragie sous-arachnoïdienne"/>
          <Concept code="D3-89200"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="hémorragie intracérébrale"/>
-         <Concept code="D3-89400" codeSystem="" displayName="Infarctus cérébral"/>
+         <Concept code="D3-89400"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Infarctus cérébral"/>
          <Concept code="D3-89424"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="thrombose veineuse cérébrale"/>
       </ConceptList>
    </ValueSet>

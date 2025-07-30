@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ARQ" codeSystem="" displayName="Prévu mais non confirmé"/>
-         <Concept code="EVN" codeSystem="" displayName="Réalisé"/>
-         <Concept code="PRMS" codeSystem="" displayName="Planifié et confirmé"/>
+         <Concept code="ARQ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Prévu mais non confirmé"/>
+         <Concept code="EVN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Réalisé"/>
+         <Concept code="PRMS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  displayName="Planifié et confirmé"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

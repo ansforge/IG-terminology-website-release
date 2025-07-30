@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1785",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1785",
+  "name" : "IntersectionJdvComplicationNeuropsychiatriqueCisisAndJdvComplicationNeuropsychiatriqueCisis",
+  "title" : "Intersection of JDV Complication Neuropsychiatrique CISIS And JDV Complication Neuropsychiatrique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "F32.9",
+        "display" : "Épisode dépressif, sans précision"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-523",
+        "display" : "Syndrome anxieux"
+      },
+      {
+        "code" : "MED-524",
+        "display" : "Troubles du comportement (agitation, hallucinations)"
+      },
+      {
+        "code" : "MED-525",
+        "display" : "Troubles du sommeil"
+      },
+      {
+        "code" : "GEN-092.01.15",
+        "display" : "Autres syndromes psycho-comportementaux"
+      }]
+    }]
+  }
+}

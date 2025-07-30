@@ -1,245 +1,245 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 2.16.840.1.113883.5.112;JDV;JDV_HL7_RouteOfAdministration_CISIS.tabs;JDV_HL7_RouteOfAdministration_CISIS;;20210315000000;;20221231000000
-<OID>;<Code>;<Libellé> 
-;AMNINJ;injection dans le liquide amniotique
-;BILINJ;injection dans le tractus biliaire
-;BLADINJ;injection dans la vessie
-;BLADINSTL;instillation par cathéter urinaire
-;BLADIRR;irrigation de la vessie
-;BLADIRRC;irrigation continue de la vessie
-;BLADIRRT;irrigation de la vessie par lavage
-;BUC;application topique buccale
-;CAPDINSTL;instillation dans un port de dialyse péritonéale continue ambulatoire
-;CECINSTL;instillation caecostomie
-;CERV;application topique cervicale
-;CERVINJ;injection cervicale
-;CERVINS;insertion cervicale (utérine)
-;CHEW;mâcher
-;CHOLINJ;injection pour cholangiographie
-;CTINSTL;instillation par tube thoracique
-;DEN;application topique dentaire
-;DENRINSE;rinçage dentaire
-;DISSOLVE;dissolution orale
-;DOUCHE;douche vaginale
-;DRESS;application topique par pansement humide
-;EFT;instillation par sonde gastrique pour gavage entéral
-;ELECTOSMOS;électro-osmose
-;ENDOSININJ;injection endosinusale
-;ENEMA;lavement rectal
-;ENTINSTL;instillation entérale
-;EPI;perfusion épidurale
-;EPIDURINJ;injection épidurale
-;EPIINJ;injection épidurale directe
-;EPINJSP;injection épidurale directe-lente
-;ETINSTL;instillation par tube endotrachéal
-;ETNEB;nébulisation par tube endotrachéal
-;EXTCORPDIF;diffusion extracorporelle
-;EXTCORPINJ;injection extracorporelle
-;EXTRAMNINJ;injection extra-amniotique
-;GARGLE;gargarisme
-;GBINJ;injection par bouton de gastrostomie
-;GIN;application topique gingivale
-;GINGINJ;injection gingivale
-;GJT;instillation par tube de gastro-jéjunostomie
-;GT;instillation par tube de gastrostomie
-;GUIRR;irrigation génito-urinaire
-;HAIR;application topique capillaire
-;HEMODIFF;diffusion en hémodialyse
-;HEMOPORT;injection dans le port d'hémodialyse
-;IA;perfusion cathéter intra-artériel
-;IABDINJ;injection intra-abdominale
-;IAINJ;injection intra-artérielle
-;IAINJP;injection intra-artérielle directe
-;IAINJSP;injection intraartérielle directe-lente
-;IARTINJ;injection intra-articulaire
-;IBRONCHINSTIL;instillation intrabronchique
-;IBURSINJ;injection intrabursique
-;IC;perfusion intracardiaque
-;ICARDINJ;injection intracardiaque
-;ICARDINJRP;injection intracardiaque directe-rapide
-;ICARDINJSP;injection intracardiaque directe-lente
-;ICARINJP;injection intracardiaque directe
-;ICARTINJ;injection intracartilagineuse
-;ICAUDINJ;injection intracaudale
-;ICAVINJ;injection intracaverneuse
-;ICAVITINJ;injection endocavitaire
-;ICEREBINJ;injection intracérébrale
-;ICISTERNINJ;injection intravésicale
-;ICOR;perfusion intracoronaire
-;ICORNTA;application topique intracornéenne
-;ICORONINJ;injection intracoronaire
-;ICORONINJP;injection intracoronaire directe
-;ICORONTA;application topique sur une couronne (dentaire)
-;ICORPCAVINJ;injection dans le corps caverneux
-;IDIMPLNT;implant intradermique
-;IDINJ;injection intradermique
-;IDISCINJ;injection intradiscale
-;IDOUDMAB;absorption par la muqueuse intraduodénale
-;IDUCTINJ;injection intacanale
-;IDUODINSTIL;instillation intraduodénale
-;IDURINJ;injection intra-durale
-;IEPIDINJ;injection intra-épidermique
-;IEPITHINJ;injection intra-épithéliale
-;IESOPHINSTIL;instillation intra-oesophagienne
-;IESOPHTA;application topique intra-oesophagique
-;IGASTINSTIL;instillation intragastrique
-;IGASTIRR;irrigation intragastrique
-;IGASTLAV;lavage intragastrique
-;IILEALINJ;instillation intra-iléale
-;IILEALTA;application topique intra-iléale
-;ILESINJ;injection intralésionnelle
-;ILESIRR;irrigation intralésionnelle
-;ILTOP;application topique intralésionnelle
-;ILUMINJ;injection intracavitaire
-;ILUMTA;application topique intracavitaire
-;ILYMPJINJ;injection intralymphatique
-;IM;injection intramusculaire
-;IMD;injection intramusculaire profonde
-;IMEDULINJ;injection intra-médullaire
-;IMZ;injection intramusculaire par technique en z
-;INSUF;insufflation
-;INTERMENINJ;injection intraméningée
-;INTERSTITINJ;injection interstitielle
-;IOINJ;injection intraoculaire
-;IOINSTL;instillation intraoculaire
-;IOIRR;irrigation intraoculaire
-;IONTO;application topique par ionophorèse
-;IOSSC;perfusion intraosseuse continue
-;IOSSINJ;injection intra-osseuse
-;IOSURGINS;insertion intraoculaire chirurgicale
-;IOTOP;application topique intraoculaire
-;IOVARINJ;injection intra-ovarienne
-;IPCARDINJ;injection intrapéricardique
-;IPERINJ;injection intra-péritonéale
-;IPINJ;injection intrapulmonaire
-;IPLRINJ;injection intrapleurale
-;IPPB;inhalation respiration sous pression positive (RPP)
-;IPROSTINJ;injection intraprostatique
-;IPUMPINJ;injection par pompe à insuline
-;ISININSTIL;instillation intrasinale
-;ISINJ;injection intrarachidienne
-;ISTERINJ;injection intrasternale
-;ISYNINJ;injection intrasynoviale
-;IT;perfusion intrathécale
-;ITENDINJ;injection intratendineuse
-;ITESTINJ;injection intratesticulaire
-;ITHORINJ;injection intrathoracique
-;ITINJ;injection intrathécale
-;ITRACHINSTIL;instillation intra-trachéale
-;ITRACHMAB;absorption par la muqueuse intratrachéale
-;ITUBINJ;injection intratubulaire
-;ITUMINJ;injection intratumorale
-;ITYMPINJ;injection intratympanique
-;IU;insertion intra-utérine
-;IUINJ;injection intra-utérine
-;IUINJC;injection intracervicale (utérus)
-;IUINSTL;instillation intra-utérine
-;IURETINJ;injection intraurétéral rétrograde
-;IV;perfusion intraveineuse
-;IVASCINFUS;perfusion intravasculaire
-;IVASCINJ;injection intravasculaire
-;IVC;perfusion cathéter intraveineux
-;IVCC;perfusion cathéter intraveineux, continue
-;IVCI;perfusion cathéter intraveineux, intermittente
-;IVENTINJ;injection intra-ventriculaire (coeur)
-;IVESINJ;injection intravésicule
-;IVFLUSH;rinçage de cathéter intraveineux
-;IVINJ;injection intraveineuse
-;IVINJBOL;injection intraveineuse en bolus
-;IVITIMPLNT;implant intravitréen
-;IVITINJ;injection intravitréenne
-;IVPUSH;injection intraveineuse directe
-;IVRPUSH;injection intraveineuse directe-rapide
-;IVSPUSH;injection intraveineuse directe-lente
-;JJTINSTL;instillation par tube de jéjunostomie
-;LARYNGINSTIL;instillation laryngée
-;LARYNGTA;application topique laryngée
-;LPINS;insertion aux points lacrymaux
-;MUC;application topique mucosale
-;NAIL;application topique sur un ongle
-;NASAL;application topique nasale
-;NASALINSTIL;instillation nasale
-;NASINHL;inhalation nasale
-;NASINHLC;inhalation par canule nasale
-;NASNEB;inhalation par nébulisation nasale
-;NASOGASINSTIL;instillation nasogastrique
-;NEB;inhalation par nébulisation
-;NGT;instillation par tube nasogastrique
-;NP;inhalation par canule nasale
-;NTT;instillation par tube nasotrachéal
-;OCDRESTA;technique de pansement occlusif
-;OGT;instillation par tube orogastrique
-;OJJ;instillation par tube orojéjunal
-;OPTHALTA;application topique ophtalmique
-;ORALTA;application topique orale
-;ORIFINHL;inhalation par flux oral intermittent
-;ORINHL;inhalation respiratoire
-;ORMUC;application topique sur la muqueuse orale
-;ORNEB;inhalation par nébulisation orale
-;OROPHARTA;application topique sur la muqueuse oropharyngée
-;ORRINSE;rinçage oral
-;OT;instillation auriculaire
-;PAINJ;injection périarticulaire
-;PARENTINJ;injection parentérale
-;PCA;perfusion cathéter intraveineux, pompe d'analgésie contrôlée par le patient
-;PDONTINJ;injection parodontale
-;PDONTTA;application topique parodontale
-;PDPINJ;injection dans le port de dialyse péritonéale
-;PDPINSTL;instillation dans un port de dialyse péritonéale
-;PDURINJ;injection péridurale
-;PERIANAL;application topique péri-anale
-;PERINEAL;application topique périnéale
-;PNINJ;injection périneurale
-;PNSINJ;injection dans les sinus paranasaux
-;PNSINSTL;instillation dans les sinus paranasaux
-;PO;per os
-;PR;insertion rectale
-;RBINJ;injection rétrobulbaire
-;REBREATH;inhalation par masque à recirculation orale
-;RECINSTL;instillation rectale
-;RECIRR;irrigation rectale
-;RECTAL;application topique rectale
-;RECTINSTL;instillation par tube rectal
-;RETENEMA;lavement rétention rectale
-;SCALP;application topique sur le cuir chevelu
-;SCINJ;injection subconjonctivale
-;SHAMPOO;shampooing
-;SININSTIL;instillation dans les sinus (non spécifié)
-;SKIN;application topique cutanée
-;SL;dissolution sublinguale
-;SLESINJ;injection sous-lésionnelle
-;SMUCMAB;absorption par la sousmuqueuse
-;SOAK;trempage (immersion)
-;SOFTISINJ;injection dans un tissu mou
-;SOFTISINSTIL;instillation dans un tissu mou
-;SQ;injection sous-cutanée
-;SQIMPLNT;implant sous-cutané
-;SQINFUS;perfusion sous-cutanée
-;SQSURGINS;insertion sous-cutanée chirurgicale
-;SUBARACHINJ;injection sous-arachnoïdienne
-;SUBCONJTA;sous-conjonctivale
-;SUBMUCINJ;injection sous-mucosale
-;SUCK;sucer
-;SWAB;application topique avec un écouvillon
-;SWISHSPIT;gargariser et cracher
-;SWISHSWAL;gargariser et avaler
-;TMUCTA;application topique transmuqueuse
-;TOPICAL;topique
-;TRACH;inhalation par trachéotomie
-;TRACHINSTL;instillation dans trachéotomie
-;TRNSDERM;transdermique
-;TRNSDERMD;diffusion transdermique
-;TRNSLING;translingual
-;TRPLACINJ;injection transplacentaire
-;TRTRACHINJ;injection transtrachéale
-;TRTYMPINSTIL;instillation transtympanique
-;TTYMPTABSORP;absorption topique, transtympanique
-;URETHINJ;injection uréthrale
-;URETHINS;insertion urétrale
-;URETHINSTL;instillation urétrale
-;URETHSUP;suppositoire urétrale
-;URETINJ;injection urétérale
-;VAGINS;application topique vaginale
-;VAGINSI;insertion vaginale
-;VENT;inhalation par respirateur
-;VENTMASK;inhalation par masque de ventilation
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;AMNINJ;injection dans le liquide amniotique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;BILINJ;injection dans le tractus biliaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;BLADINJ;injection dans la vessie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;BLADINSTL;instillation par cathéter urinaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;BLADIRR;irrigation de la vessie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;BLADIRRC;irrigation continue de la vessie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;BLADIRRT;irrigation de la vessie par lavage
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;BUC;application topique buccale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;CAPDINSTL;instillation dans un port de dialyse péritonéale continue ambulatoire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;CECINSTL;instillation caecostomie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;CERV;application topique cervicale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;CERVINJ;injection cervicale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;CERVINS;insertion cervicale (utérine)
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;CHEW;mâcher
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;CHOLINJ;injection pour cholangiographie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;CTINSTL;instillation par tube thoracique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;DEN;application topique dentaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;DENRINSE;rinçage dentaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;DISSOLVE;dissolution orale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;DOUCHE;douche vaginale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;DRESS;application topique par pansement humide
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;EFT;instillation par sonde gastrique pour gavage entéral
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ELECTOSMOS;électro-osmose
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ENDOSININJ;injection endosinusale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ENEMA;lavement rectal
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ENTINSTL;instillation entérale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;EPI;perfusion épidurale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;EPIDURINJ;injection épidurale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;EPIINJ;injection épidurale directe
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;EPINJSP;injection épidurale directe-lente
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ETINSTL;instillation par tube endotrachéal
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ETNEB;nébulisation par tube endotrachéal
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;EXTCORPDIF;diffusion extracorporelle
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;EXTCORPINJ;injection extracorporelle
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;EXTRAMNINJ;injection extra-amniotique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;GARGLE;gargarisme
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;GBINJ;injection par bouton de gastrostomie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;GIN;application topique gingivale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;GINGINJ;injection gingivale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;GJT;instillation par tube de gastro-jéjunostomie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;GT;instillation par tube de gastrostomie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;GUIRR;irrigation génito-urinaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;HAIR;application topique capillaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;HEMODIFF;diffusion en hémodialyse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;HEMOPORT;injection dans le port d'hémodialyse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IA;perfusion cathéter intra-artériel
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IABDINJ;injection intra-abdominale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IAINJ;injection intra-artérielle
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IAINJP;injection intra-artérielle directe
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IAINJSP;injection intraartérielle directe-lente
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IARTINJ;injection intra-articulaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IBRONCHINSTIL;instillation intrabronchique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IBURSINJ;injection intrabursique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IC;perfusion intracardiaque
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICARDINJ;injection intracardiaque
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICARDINJRP;injection intracardiaque directe-rapide
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICARDINJSP;injection intracardiaque directe-lente
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICARINJP;injection intracardiaque directe
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICARTINJ;injection intracartilagineuse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICAUDINJ;injection intracaudale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICAVINJ;injection intracaverneuse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICAVITINJ;injection endocavitaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICEREBINJ;injection intracérébrale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICISTERNINJ;injection intravésicale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICOR;perfusion intracoronaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICORNTA;application topique intracornéenne
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICORONINJ;injection intracoronaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICORONINJP;injection intracoronaire directe
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICORONTA;application topique sur une couronne (dentaire)
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ICORPCAVINJ;injection dans le corps caverneux
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IDIMPLNT;implant intradermique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IDINJ;injection intradermique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IDISCINJ;injection intradiscale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IDOUDMAB;absorption par la muqueuse intraduodénale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IDUCTINJ;injection intacanale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IDUODINSTIL;instillation intraduodénale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IDURINJ;injection intra-durale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IEPIDINJ;injection intra-épidermique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IEPITHINJ;injection intra-épithéliale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IESOPHINSTIL;instillation intra-oesophagienne
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IESOPHTA;application topique intra-oesophagique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IGASTINSTIL;instillation intragastrique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IGASTIRR;irrigation intragastrique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IGASTLAV;lavage intragastrique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IILEALINJ;instillation intra-iléale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IILEALTA;application topique intra-iléale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ILESINJ;injection intralésionnelle
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ILESIRR;irrigation intralésionnelle
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ILTOP;application topique intralésionnelle
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ILUMINJ;injection intracavitaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ILUMTA;application topique intracavitaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ILYMPJINJ;injection intralymphatique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IM;injection intramusculaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IMD;injection intramusculaire profonde
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IMEDULINJ;injection intra-médullaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IMZ;injection intramusculaire par technique en z
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;INSUF;insufflation
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;INTERMENINJ;injection intraméningée
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;INTERSTITINJ;injection interstitielle
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IOINJ;injection intraoculaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IOINSTL;instillation intraoculaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IOIRR;irrigation intraoculaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IONTO;application topique par ionophorèse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IOSSC;perfusion intraosseuse continue
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IOSSINJ;injection intra-osseuse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IOSURGINS;insertion intraoculaire chirurgicale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IOTOP;application topique intraoculaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IOVARINJ;injection intra-ovarienne
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IPCARDINJ;injection intrapéricardique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IPERINJ;injection intra-péritonéale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IPINJ;injection intrapulmonaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IPLRINJ;injection intrapleurale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IPPB;inhalation respiration sous pression positive (RPP)
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IPROSTINJ;injection intraprostatique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IPUMPINJ;injection par pompe à insuline
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ISININSTIL;instillation intrasinale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ISINJ;injection intrarachidienne
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ISTERINJ;injection intrasternale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ISYNINJ;injection intrasynoviale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IT;perfusion intrathécale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ITENDINJ;injection intratendineuse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ITESTINJ;injection intratesticulaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ITHORINJ;injection intrathoracique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ITINJ;injection intrathécale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ITRACHINSTIL;instillation intra-trachéale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ITRACHMAB;absorption par la muqueuse intratrachéale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ITUBINJ;injection intratubulaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ITUMINJ;injection intratumorale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ITYMPINJ;injection intratympanique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IU;insertion intra-utérine
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IUINJ;injection intra-utérine
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IUINJC;injection intracervicale (utérus)
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IUINSTL;instillation intra-utérine
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IURETINJ;injection intraurétéral rétrograde
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IV;perfusion intraveineuse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVASCINFUS;perfusion intravasculaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVASCINJ;injection intravasculaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVC;perfusion cathéter intraveineux
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVCC;perfusion cathéter intraveineux, continue
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVCI;perfusion cathéter intraveineux, intermittente
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVENTINJ;injection intra-ventriculaire (coeur)
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVESINJ;injection intravésicule
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVFLUSH;rinçage de cathéter intraveineux
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVINJ;injection intraveineuse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVINJBOL;injection intraveineuse en bolus
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVITIMPLNT;implant intravitréen
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVITINJ;injection intravitréenne
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVPUSH;injection intraveineuse directe
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVRPUSH;injection intraveineuse directe-rapide
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;IVSPUSH;injection intraveineuse directe-lente
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;JJTINSTL;instillation par tube de jéjunostomie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;LARYNGINSTIL;instillation laryngée
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;LARYNGTA;application topique laryngée
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;LPINS;insertion aux points lacrymaux
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;MUC;application topique mucosale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NAIL;application topique sur un ongle
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NASAL;application topique nasale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NASALINSTIL;instillation nasale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NASINHL;inhalation nasale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NASINHLC;inhalation par canule nasale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NASNEB;inhalation par nébulisation nasale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NASOGASINSTIL;instillation nasogastrique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NEB;inhalation par nébulisation
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NGT;instillation par tube nasogastrique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NP;inhalation par canule nasale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;NTT;instillation par tube nasotrachéal
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;OCDRESTA;technique de pansement occlusif
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;OGT;instillation par tube orogastrique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;OJJ;instillation par tube orojéjunal
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;OPTHALTA;application topique ophtalmique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ORALTA;application topique orale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ORIFINHL;inhalation par flux oral intermittent
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ORINHL;inhalation respiratoire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ORMUC;application topique sur la muqueuse orale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ORNEB;inhalation par nébulisation orale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;OROPHARTA;application topique sur la muqueuse oropharyngée
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;ORRINSE;rinçage oral
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;OT;instillation auriculaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PAINJ;injection périarticulaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PARENTINJ;injection parentérale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PCA;perfusion cathéter intraveineux, pompe d'analgésie contrôlée par le patient
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PDONTINJ;injection parodontale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PDONTTA;application topique parodontale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PDPINJ;injection dans le port de dialyse péritonéale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PDPINSTL;instillation dans un port de dialyse péritonéale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PDURINJ;injection péridurale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PERIANAL;application topique péri-anale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PERINEAL;application topique périnéale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PNINJ;injection périneurale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PNSINJ;injection dans les sinus paranasaux
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PNSINSTL;instillation dans les sinus paranasaux
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PO;per os
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;PR;insertion rectale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;RBINJ;injection rétrobulbaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;REBREATH;inhalation par masque à recirculation orale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;RECINSTL;instillation rectale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;RECIRR;irrigation rectale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;RECTAL;application topique rectale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;RECTINSTL;instillation par tube rectal
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;RETENEMA;lavement rétention rectale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SCALP;application topique sur le cuir chevelu
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SCINJ;injection subconjonctivale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SHAMPOO;shampooing
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SININSTIL;instillation dans les sinus (non spécifié)
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SKIN;application topique cutanée
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SL;dissolution sublinguale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SLESINJ;injection sous-lésionnelle
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SMUCMAB;absorption par la sousmuqueuse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SOAK;trempage (immersion)
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SOFTISINJ;injection dans un tissu mou
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SOFTISINSTIL;instillation dans un tissu mou
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SQ;injection sous-cutanée
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SQIMPLNT;implant sous-cutané
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SQINFUS;perfusion sous-cutanée
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SQSURGINS;insertion sous-cutanée chirurgicale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SUBARACHINJ;injection sous-arachnoïdienne
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SUBCONJTA;sous-conjonctivale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SUBMUCINJ;injection sous-mucosale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SUCK;sucer
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SWAB;application topique avec un écouvillon
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SWISHSPIT;gargariser et cracher
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;SWISHSWAL;gargariser et avaler
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TMUCTA;application topique transmuqueuse
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TOPICAL;topique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TRACH;inhalation par trachéotomie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TRACHINSTL;instillation dans trachéotomie
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TRNSDERM;transdermique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TRNSDERMD;diffusion transdermique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TRNSLING;translingual
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TRPLACINJ;injection transplacentaire
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TRTRACHINJ;injection transtrachéale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TRTYMPINSTIL;instillation transtympanique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;TTYMPTABSORP;absorption topique, transtympanique
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;URETHINJ;injection uréthrale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;URETHINS;insertion urétrale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;URETHINSTL;instillation urétrale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;URETHSUP;suppositoire urétrale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;URETINJ;injection urétérale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;VAGINS;application topique vaginale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;VAGINSI;insertion vaginale
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;VENT;inhalation par respirateur
+http://terminology.hl7.org/CodeSystem/v3-RouteOfAdministration;VENTMASK;inhalation par masque de ventilation

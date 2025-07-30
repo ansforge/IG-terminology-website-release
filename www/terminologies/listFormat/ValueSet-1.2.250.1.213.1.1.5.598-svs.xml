@@ -11,38 +11,58 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C88"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Maladies immunoprolifératives malignes"/>
-         <Concept code="C3211" codeSystem="" displayName="lymphome non hodgkinien"/>
-         <Concept code="C9357" codeSystem="" displayName="Lymphome de Hodgkin"/>
-         <Concept code="C3483" codeSystem="" displayName="leucémie chronique"/>
+         <Concept code="C3211"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="lymphome non hodgkinien"/>
+         <Concept code="C9357"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Lymphome de Hodgkin"/>
+         <Concept code="C3483"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="leucémie chronique"/>
          <Concept code="C3163"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Leucémie lymphocytique chronique"/>
          <Concept code="C3167"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Leucémie lymphoblastique aiguë"/>
-         <Concept code="C3172" codeSystem="" displayName="Leucémie myéloïde"/>
-         <Concept code="C3171" codeSystem="" displayName="leucémie myéloïde aiguë"/>
+         <Concept code="C3172"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Leucémie myéloïde"/>
+         <Concept code="C3171"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="leucémie myéloïde aiguë"/>
          <Concept code="C3174"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="leucémie myéloïde chronique BCR-ABL positive"/>
-         <Concept code="C4861" codeSystem="" displayName="leucémie monocytaire aiguë"/>
-         <Concept code="C9300" codeSystem="" displayName="leucémie aiguë"/>
+         <Concept code="C4861"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="leucémie monocytaire aiguë"/>
+         <Concept code="C9300"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="leucémie aiguë"/>
          <Concept code="C27262"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="maladies myélodysplasiques-myéloprolifératives"/>
          <Concept code="C3242"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="myélome à cellules plasmatiques"/>
-         <Concept code="C94529" codeSystem="" displayName="Vulve et vagin"/>
-         <Concept code="C12664" codeSystem="" displayName="Péritoine-rétropéritoine"/>
+         <Concept code="C94529"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Vulve et vagin"/>
+         <Concept code="C12664"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Péritoine-rétropéritoine"/>
          <Concept code="MED-237"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Fosses nasales, sinus, oreille moy/int"/>
-         <Concept code="MED-251" codeSystem="" displayName="Colon-Rectum-Anus"/>
+         <Concept code="MED-251"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Colon-Rectum-Anus"/>
          <Concept code="MED-255"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Trachée, Bronches, Poumon"/>
          <Concept code="57171008"
                   codeSystem="2.16.840.1.113883.6.96"

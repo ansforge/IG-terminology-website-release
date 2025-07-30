@@ -1,8 +1,8 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.138;JDV;JdvParticipantAdditionnelResultatCisis.tabs;JDV Participant Additionnel Resultat CISIS;;20100101000000;;20250624152100
-<OID>;<Code>;<Libellé> 
-;DEV;Dispositif automatique impliqué dans la production des résultats
-;AUTHEN;Valideur des résultats (ex : un biologiste ou un système expert)
-;RESP;Responsable de l'acte
-;ENT;Transcripteur du contenu à partir d'une autre forme
-;PRF;Exécutant
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;DEV;Dispositif automatique impliqué dans la production des résultats
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;AUTHEN;Valideur des résultats (ex : un biologiste ou un système expert)
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;RESP;Responsable de l'acte
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;ENT;Transcripteur du contenu à partir d'une autre forme
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;PRF;Exécutant

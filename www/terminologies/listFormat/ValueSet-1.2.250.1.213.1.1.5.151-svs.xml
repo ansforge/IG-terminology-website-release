@@ -11,17 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-302"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Macro dissection de la zone d’intérêt"/>
-         <Concept code="MED-303" codeSystem="" displayName="Punch du bloc tumoral"/>
+         <Concept code="MED-303"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Punch du bloc tumoral"/>
          <Concept code="MED-304"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Production de copeaux de paraffines à partir du bloc tumoral"/>
          <Concept code="MED-305"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Traitement de lames de cytologie"/>
          <Concept code="GEN-092.04.09"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre méthode de préparation"/>
       </ConceptList>
    </ValueSet>

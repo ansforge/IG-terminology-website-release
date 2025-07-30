@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="504" codeSystem="" displayName="Exocol"/>
-         <Concept code="505" codeSystem="" displayName="Jonction"/>
-         <Concept code="506" codeSystem="" displayName="Endocol"/>
+         <Concept code="504"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Exocol"/>
+         <Concept code="505"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Jonction"/>
+         <Concept code="506"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Endocol"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,0 +1,75 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2873",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2873",
+  "name" : "UnionJdvTypeEvenementIndesirablePrevisibleCisisAndJdvTypeEvenementIndesirablePrevisibleCisis",
+  "title" : "Union of JDV Type Evenement Indesirable Previsible CISIS And JDV Type Evenement Indesirable Previsible CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "420134006",
+        "display" : "propension aux effets indésirables"
+      },
+      {
+        "code" : "609328004",
+        "display" : "allergie"
+      },
+      {
+        "code" : "416098002",
+        "display" : "allergie médicamenteuse"
+      },
+      {
+        "code" : "414285001",
+        "display" : "allergie alimentaire"
+      },
+      {
+        "code" : "419199007",
+        "display" : "allergie à une substance"
+      },
+      {
+        "code" : "609396006",
+        "display" : "hypersensibilité non allergique"
+      },
+      {
+        "code" : "609398007",
+        "display" : "hypersensibilité non allergique à une drogue ou un médicament"
+      },
+      {
+        "code" : "735449006",
+        "display" : "hypersensibilité non allergique alimentaire"
+      },
+      {
+        "code" : "609397002",
+        "display" : "hypersensibilité non allergique à une substance"
+      },
+      {
+        "code" : "782197009",
+        "display" : "intolérance à une substance"
+      },
+      {
+        "code" : "59037007",
+        "display" : "intolérance aux drogues et/ou médicaments"
+      },
+      {
+        "code" : "235719002",
+        "display" : "intolérance alimentaire"
+      },
+      {
+        "code" : "1.2.250.1.213.1.1.5.794.1",
+        "display" : "intolérance à un agent environnemental (Demande de création SNOMED CT en cours)"
+      },
+      {
+        "code" : "56840009",
+        "display" : "idiosyncrasie"
+      }]
+    }]
+  }
+}

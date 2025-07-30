@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument"/>
          <Concept code="G"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés."/>
          <Concept code="L"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus."/>
          <Concept code="P"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Spécimen prélevé sur un patient"/>
       </ConceptList>
    </ValueSet>

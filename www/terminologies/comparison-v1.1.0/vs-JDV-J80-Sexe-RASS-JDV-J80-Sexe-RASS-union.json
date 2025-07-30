@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1538",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1538",
+  "name" : "UnionJDV_J80_Sexe_RASSAndJDV_J80_Sexe_RASS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "UN",
+        "display" : "Inconnu"
+      },
+      {
+        "code" : "F",
+        "display" : "Féminin"
+      },
+      {
+        "code" : "M",
+        "display" : "Masculin"
+      },
+      {
+        "code" : "O",
+        "display" : "Autre sexe (ni masculin, ni féminin)"
+      }]
+    }]
+  }
+}

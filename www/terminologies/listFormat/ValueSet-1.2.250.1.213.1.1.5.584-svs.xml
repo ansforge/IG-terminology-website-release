@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-245" codeSystem="" displayName="Présente"/>
-         <Concept code="MED-427" codeSystem="" displayName="Absente"/>
-         <Concept code="MED-659" codeSystem="" displayName="Non évaluable"/>
+         <Concept code="GEN-245"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Présente"/>
+         <Concept code="MED-427"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Absente"/>
+         <Concept code="MED-659"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non évaluable"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

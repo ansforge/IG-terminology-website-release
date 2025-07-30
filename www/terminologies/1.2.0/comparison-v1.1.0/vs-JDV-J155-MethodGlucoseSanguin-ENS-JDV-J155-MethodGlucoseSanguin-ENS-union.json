@@ -1,0 +1,29 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1019",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1019",
+  "name" : "UnionJDV_J155_MethodGlucoseSanguin_ENSAndJDV_J155_MethodGlucoseSanguin_ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "Z1204011501",
+        "display" : "SYSTÈMES DE SURVEILLANCE NON INVASIVE DE LA GLYCÉMIE"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "82078001",
+        "display" : "prélèvement d'un échantillon sanguin pour le laboratoire"
+      }]
+    }]
+  }
+}

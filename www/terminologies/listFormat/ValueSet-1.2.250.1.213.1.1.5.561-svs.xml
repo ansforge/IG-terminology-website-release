@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-659" codeSystem="" displayName="Non évaluable"/>
+         <Concept code="MED-659"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non évaluable"/>
          <Concept code="MED-770"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Bas grade (bien ou moyennement différencié)"/>
          <Concept code="MED-771"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Haut grade (peu différencié ou indifférencié)"/>
       </ConceptList>
    </ValueSet>

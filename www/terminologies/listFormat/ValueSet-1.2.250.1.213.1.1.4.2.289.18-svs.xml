@@ -10,17 +10,25 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
          <Concept code="GEN-092.01.05"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre aspect du liquide amniotique"/>
-         <Concept code="OBS_216" codeSystem="" displayName="Teinté (méconial fluide)"/>
-         <Concept code="OBS_217" codeSystem="" displayName="Méconial épais"/>
-         <Concept code="OBS_218" codeSystem="" displayName="Sanglant"/>
+         <Concept code="OBS_216"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Teinté (méconial fluide)"/>
+         <Concept code="OBS_217"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Méconial épais"/>
+         <Concept code="OBS_218"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Sanglant"/>
          <Concept code="OBS_219"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Autre aspect du liquide amniotique"/>
-         <Concept code="G-A456" codeSystem="" displayName="Clair"/>
+         <Concept code="G-A456" codeSystem="1.2.250.1.213.2.12" displayName="Clair"/>
          <Concept code="168092006"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="coloration méconiale du liquide amniotique"/>

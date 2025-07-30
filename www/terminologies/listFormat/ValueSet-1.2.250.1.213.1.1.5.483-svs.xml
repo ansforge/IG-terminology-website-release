@@ -10,11 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-197" codeSystem="" displayName="Pas de dépendance"/>
-         <Concept code="GEN-198" codeSystem="" displayName="Dépendance faible"/>
-         <Concept code="GEN-199" codeSystem="" displayName="Dépendance moyenne"/>
+         <Concept code="GEN-197"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Pas de dépendance"/>
+         <Concept code="GEN-198"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Dépendance faible"/>
+         <Concept code="GEN-199"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Dépendance moyenne"/>
          <Concept code="GEN-200"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Dépendance forte ou très forte"/>
       </ConceptList>
    </ValueSet>

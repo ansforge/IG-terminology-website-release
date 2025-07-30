@@ -10,21 +10,29 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="O48" codeSystem="" displayName="Grossesse prolongée"/>
+         <Concept code="O48"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Grossesse prolongée"/>
          <Concept code="O42.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Rupture prématurée des membranes, sans précision"/>
          <Concept code="P95"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Mort fœtale (de cause non précisée)"/>
-         <Concept code="O04" codeSystem="" displayName="Avortement médical"/>
+         <Concept code="O04"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Avortement médical"/>
          <Concept code="MED-1283"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Sans indication médicale"/>
-         <Concept code="MED-219" codeSystem="" displayName="Cause Maternelle"/>
-         <Concept code="MED-210" codeSystem="" displayName="Cause Fœtale"/>
+         <Concept code="MED-219"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Cause Maternelle"/>
+         <Concept code="MED-210"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Cause Fœtale"/>
          <Concept code="GEN-092.01.06"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre motif de déclenchement"/>
       </ConceptList>
    </ValueSet>

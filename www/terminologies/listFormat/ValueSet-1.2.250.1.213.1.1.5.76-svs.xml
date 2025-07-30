@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-091" codeSystem="" displayName="Examen de biologie"/>
+         <Concept code="MED-091"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Examen de biologie"/>
          <Concept code="MED-092"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Examen d’imagerie médicale"/>
          <Concept code="GEN-092.04.06"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre type de suivi"/>
          <Concept code="11429006"
                   codeSystem="2.16.840.1.113883.6.96"

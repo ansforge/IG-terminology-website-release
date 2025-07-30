@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2331",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2331",
+  "name" : "IntersectionJdvMotifConsultationOphtalmologiqueCisisAndJdvMotifConsultationOphtalmologiqueCisis",
+  "title" : "Intersection of JDV Motif Consultation Ophtalmologique CISIS And JDV Motif Consultation Ophtalmologique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-900",
+        "display" : "Bilan de réfraction sans prescription (ophtalmo)"
+      },
+      {
+        "code" : "MED-901",
+        "display" : "Bilan de réfraction avec prescription (ophtalmo)"
+      },
+      {
+        "code" : "MED-902",
+        "display" : "Modification d’une prescription existante (opticien, orthoptiste)"
+      },
+      {
+        "code" : "MED-903",
+        "display" : "Délivrance de correction optique (opticien)"
+      }]
+    }]
+  }
+}

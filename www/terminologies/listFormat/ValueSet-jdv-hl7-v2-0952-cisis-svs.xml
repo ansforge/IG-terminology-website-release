@@ -10,12 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="L" codeSystem="" displayName="Bas"/>
-         <Concept code="M" codeSystem="" displayName="Modéré"/>
-         <Concept code="N" codeSystem="" displayName="Normal"/>
-         <Concept code="R" codeSystem="" displayName="Restreint"/>
-         <Concept code="U" codeSystem="" displayName="Non restreint"/>
-         <Concept code="V" codeSystem="" displayName="Très restreint"/>
+         <Concept code="L"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  displayName="Bas"/>
+         <Concept code="M"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  displayName="Modéré"/>
+         <Concept code="N"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  displayName="Normal"/>
+         <Concept code="R"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  displayName="Restreint"/>
+         <Concept code="U"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  displayName="Non restreint"/>
+         <Concept code="V"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  displayName="Très restreint"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

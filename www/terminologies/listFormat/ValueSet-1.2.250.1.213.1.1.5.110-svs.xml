@@ -10,16 +10,30 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="PAT-040" codeSystem="" displayName="Activité salariée"/>
-         <Concept code="PAT-042" codeSystem="" displayName="Retraité"/>
-         <Concept code="PAT-043" codeSystem="" displayName="Au foyer"/>
-         <Concept code="PAT-044" codeSystem="" displayName="Congé parental"/>
-         <Concept code="PAT-045" codeSystem="" displayName="Chômeur"/>
+         <Concept code="PAT-040"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Activité salariée"/>
+         <Concept code="PAT-042"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Retraité"/>
+         <Concept code="PAT-043"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Au foyer"/>
+         <Concept code="PAT-044"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Congé parental"/>
+         <Concept code="PAT-045"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Chômeur"/>
          <Concept code="PAT-046"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Elève, étudiant ou en formation"/>
-         <Concept code="GEN-092.05.06" codeSystem="" displayName="Autre inactif"/>
-         <Concept code="GEN-092.05.05" codeSystem="" displayName="Autre activité"/>
+         <Concept code="GEN-092.05.06"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre inactif"/>
+         <Concept code="GEN-092.05.05"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre activité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

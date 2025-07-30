@@ -10,10 +10,16 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="G-2001" codeSystem="" displayName="Suspectée"/>
-         <Concept code="G-2002" codeSystem="" displayName="Probable"/>
-         <Concept code="G-A204" codeSystem="" displayName="Absente"/>
-         <Concept code="G-A647" codeSystem="" displayName="Certaine"/>
+         <Concept code="G-2001"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Suspectée"/>
+         <Concept code="G-2002"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Probable"/>
+         <Concept code="G-A204" codeSystem="1.2.250.1.213.2.12" displayName="Absente"/>
+         <Concept code="G-A647"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Certaine"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

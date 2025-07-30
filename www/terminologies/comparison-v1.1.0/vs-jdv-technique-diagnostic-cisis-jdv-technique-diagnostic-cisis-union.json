@@ -1,0 +1,41 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2744",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2744",
+  "name" : "UnionJdvTechniqueDiagnosticCisisAndJdvTechniqueDiagnosticCisis",
+  "title" : "Union of JDV Technique Diagnostic CISIS And JDV Technique Diagnostic CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-082",
+        "display" : "Analyse chromosomique sur puce à ADN"
+      },
+      {
+        "code" : "MED-083",
+        "display" : "Analyse moléculaire ciblée (1 ou plusieurs gènes)"
+      },
+      {
+        "code" : "MED-084",
+        "display" : "Analyse pangénomique"
+      },
+      {
+        "code" : "GEN-092.04.17",
+        "display" : "Autre technique"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "73735000",
+        "display" : "technique cytogénétique"
+      }]
+    }]
+  }
+}

@@ -22,7 +22,9 @@
          <Concept code="G15_10/SM18"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Médecin - Gériatrie (SM)&amp;quot;"/>
-         <Concept code="GEN-092.04.04" codeSystem="" displayName="Autre avis médical"/>
+         <Concept code="GEN-092.04.04"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre avis médical"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

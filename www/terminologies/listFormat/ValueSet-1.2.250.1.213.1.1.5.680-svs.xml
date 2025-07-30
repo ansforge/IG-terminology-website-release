@@ -11,12 +11,20 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-320"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Affection longue durée (ALD)"/>
-         <Concept code="MED-321" codeSystem="" displayName="Surhandicap"/>
-         <Concept code="MED-322" codeSystem="" displayName="Plurihandicap"/>
-         <Concept code="MED-323" codeSystem="" displayName="Polyhandicap"/>
-         <Concept code="MED-324" codeSystem="" displayName="Polypathologies"/>
+         <Concept code="MED-321"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Surhandicap"/>
+         <Concept code="MED-322"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Plurihandicap"/>
+         <Concept code="MED-323"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Polyhandicap"/>
+         <Concept code="MED-324"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Polypathologies"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

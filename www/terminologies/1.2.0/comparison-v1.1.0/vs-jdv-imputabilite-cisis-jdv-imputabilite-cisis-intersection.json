@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2136",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2136",
+  "name" : "IntersectionJdvImputabiliteCisisAndJdvImputabiliteCisis",
+  "title" : "Intersection of JDV Imputabilite CISIS And JDV Imputabilite CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "17162000",
+        "display" : "certain(e)"
+      },
+      {
+        "code" : "371930009",
+        "display" : "possible"
+      },
+      {
+        "code" : "64957009",
+        "display" : "incertain(e)"
+      },
+      {
+        "code" : "373068000",
+        "display" : "indéterminé(e)"
+      }]
+    }]
+  }
+}

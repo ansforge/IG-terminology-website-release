@@ -10,9 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="DLU_020" codeSystem="" displayName="Ordonnance de sortie"/>
+         <Concept code="DLU_020"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Ordonnance de sortie"/>
          <Concept code="DLU_021"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Copie du dossier des urgences"/>
       </ConceptList>
    </ValueSet>

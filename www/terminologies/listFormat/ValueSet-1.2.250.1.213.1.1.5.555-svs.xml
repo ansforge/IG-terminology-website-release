@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-250" codeSystem="" displayName="Entièrement au-dessus"/>
-         <Concept code="GEN-251" codeSystem="" displayName="Partiellement en dessous"/>
-         <Concept code="GEN-252" codeSystem="" displayName="Entièrement en dessous"/>
+         <Concept code="GEN-250"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Entièrement au-dessus"/>
+         <Concept code="GEN-251"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Partiellement en dessous"/>
+         <Concept code="GEN-252"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Entièrement en dessous"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

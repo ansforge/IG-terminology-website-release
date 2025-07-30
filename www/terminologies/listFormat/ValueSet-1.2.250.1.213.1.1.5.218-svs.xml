@@ -11,15 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="I22"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="infarctus du myocarde récidivant"/>
-         <Concept code="R60.9" codeSystem="" displayName="Œdème, sans précision"/>
-         <Concept code="MED-469" codeSystem="" displayName="Récidive d'hémorragie"/>
+         <Concept code="R60.9"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Œdème, sans précision"/>
+         <Concept code="MED-469"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Récidive d'hémorragie"/>
          <Concept code="MED-470"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Transformation hémorragique"/>
          <Concept code="GEN-092.01.03"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre complication neurologique"/>
       </ConceptList>
    </ValueSet>

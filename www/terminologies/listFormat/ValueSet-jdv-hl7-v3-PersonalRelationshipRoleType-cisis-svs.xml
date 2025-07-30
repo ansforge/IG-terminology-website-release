@@ -10,178 +10,330 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ADOPTF" codeSystem="" displayName="Père adoptif"/>
-         <Concept code="ADOPTM" codeSystem="" displayName="Mère adoptive"/>
+         <Concept code="ADOPTF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Père adoptif"/>
+         <Concept code="ADOPTM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Mère adoptive"/>
          <Concept code="ADOPTP"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Parent adoptif, au sens père ou mère"/>
-         <Concept code="AUNT" codeSystem="" displayName="Tante"/>
-         <Concept code="BRO" codeSystem="" displayName="Frère"/>
-         <Concept code="BROINLAW" codeSystem="" displayName="Beau-frère"/>
-         <Concept code="CHILD" codeSystem="" displayName="Enfant"/>
-         <Concept code="CHLDADOPT" codeSystem="" displayName="Enfant adopté"/>
+         <Concept code="AUNT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Tante"/>
+         <Concept code="BRO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Frère"/>
+         <Concept code="BROINLAW"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Beau-frère"/>
+         <Concept code="CHILD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Enfant"/>
+         <Concept code="CHLDADOPT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Enfant adopté"/>
          <Concept code="CHLDFOST"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Enfant placé en famille d'accueil"/>
-         <Concept code="CHLDINLAW" codeSystem="" displayName="Gendre ou belle-fille"/>
-         <Concept code="COUSN" codeSystem="" displayName="Cousin(e)"/>
-         <Concept code="DAU" codeSystem="" displayName="Fille biologique"/>
-         <Concept code="DAUADOPT" codeSystem="" displayName="Fille adoptive"/>
-         <Concept code="DAUC" codeSystem="" displayName="Fille"/>
+         <Concept code="CHLDINLAW"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Gendre ou belle-fille"/>
+         <Concept code="COUSN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Cousin(e)"/>
+         <Concept code="DAU"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Fille biologique"/>
+         <Concept code="DAUADOPT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Fille adoptive"/>
+         <Concept code="DAUC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Fille"/>
          <Concept code="DAUFOST"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Fille placée en famille d'accueil"/>
-         <Concept code="DAUINLAW" codeSystem="" displayName="Belle-fille"/>
+         <Concept code="DAUINLAW"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Belle-fille"/>
          <Concept code="DOMPART"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Concubin(e) ou partenaire PACS"/>
          <Concept code="EXT"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Autre membre de la famille sans lien génétique direct"/>
          <Concept code="FAMMEMB"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Autre membre de la famille"/>
          <Concept code="FMRSPS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Ancien époux ou ancienne épouse"/>
-         <Concept code="FRND" codeSystem="" displayName="Autre proche"/>
-         <Concept code="FTH" codeSystem="" displayName="Père"/>
+         <Concept code="FRND"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Autre proche"/>
+         <Concept code="FTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Père"/>
          <Concept code="FTHFOST"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Assistant familial - Famille d'accueil"/>
-         <Concept code="FTHINLAW" codeSystem="" displayName="Beau-père"/>
-         <Concept code="FTWIN" codeSystem="" displayName="Jumeau ou jumelle dizygote"/>
-         <Concept code="FTWINBRO" codeSystem="" displayName="Jumeau dizygote"/>
-         <Concept code="FTWINSIS" codeSystem="" displayName="Jumelle dizygote"/>
-         <Concept code="GESTM" codeSystem="" displayName="Mère porteuse"/>
-         <Concept code="GGRFTH" codeSystem="" displayName="Arrière-grand-père"/>
-         <Concept code="GGRMTH" codeSystem="" displayName="Arrière-grand-mère"/>
-         <Concept code="GGRPRN" codeSystem="" displayName="Arrière-grand-parent"/>
-         <Concept code="GRFTH" codeSystem="" displayName="Grand-père"/>
-         <Concept code="GRMTH" codeSystem="" displayName="Grand-mère"/>
-         <Concept code="GRPRN" codeSystem="" displayName="Grand-parent"/>
-         <Concept code="GRNDCHILD" codeSystem="" displayName="Petit-enfant"/>
-         <Concept code="GRNDDAU" codeSystem="" displayName="Petite-fille"/>
-         <Concept code="GRNDSON" codeSystem="" displayName="Petit-fils"/>
-         <Concept code="HBRO" codeSystem="" displayName="Demi-frère"/>
-         <Concept code="HSIB" codeSystem="" displayName="Demi-frère ou demi-sœur"/>
-         <Concept code="HSIS" codeSystem="" displayName="Demi-sœur"/>
-         <Concept code="HUSB" codeSystem="" displayName="Epoux"/>
+         <Concept code="FTHINLAW"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Beau-père"/>
+         <Concept code="FTWIN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Jumeau ou jumelle dizygote"/>
+         <Concept code="FTWINBRO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Jumeau dizygote"/>
+         <Concept code="FTWINSIS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Jumelle dizygote"/>
+         <Concept code="GESTM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Mère porteuse"/>
+         <Concept code="GGRFTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Arrière-grand-père"/>
+         <Concept code="GGRMTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Arrière-grand-mère"/>
+         <Concept code="GGRPRN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Arrière-grand-parent"/>
+         <Concept code="GRFTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Grand-père"/>
+         <Concept code="GRMTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Grand-mère"/>
+         <Concept code="GRPRN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Grand-parent"/>
+         <Concept code="GRNDCHILD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Petit-enfant"/>
+         <Concept code="GRNDDAU"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Petite-fille"/>
+         <Concept code="GRNDSON"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Petit-fils"/>
+         <Concept code="HBRO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Demi-frère"/>
+         <Concept code="HSIB"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Demi-frère ou demi-sœur"/>
+         <Concept code="HSIS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Demi-sœur"/>
+         <Concept code="HUSB"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Epoux"/>
          <Concept code="ITWIN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Jumeau ou jumelle monozygote"/>
-         <Concept code="ITWINBRO" codeSystem="" displayName="Jumeau monozygote"/>
-         <Concept code="ITWINSIS" codeSystem="" displayName="Jumelle monozygote"/>
-         <Concept code="MAUNT" codeSystem="" displayName="Tante maternelle"/>
-         <Concept code="MCOUSN" codeSystem="" displayName="Cousin (maternel)"/>
+         <Concept code="ITWINBRO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Jumeau monozygote"/>
+         <Concept code="ITWINSIS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Jumelle monozygote"/>
+         <Concept code="MAUNT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Tante maternelle"/>
+         <Concept code="MCOUSN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Cousin (maternel)"/>
          <Concept code="MGGRFTH"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Arrière-grand-père maternel"/>
          <Concept code="MGGRMTH"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Arrière-grand-mère maternelle"/>
          <Concept code="MGGRPRN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Arrière grand parent maternel"/>
-         <Concept code="MGRFTH" codeSystem="" displayName="Grand-père maternel"/>
-         <Concept code="MGRMTH" codeSystem="" displayName="Grand-mère maternelle"/>
-         <Concept code="MGRPRN" codeSystem="" displayName="Grand parent maternel"/>
-         <Concept code="MTH" codeSystem="" displayName="Mère"/>
+         <Concept code="MGRFTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Grand-père maternel"/>
+         <Concept code="MGRMTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Grand-mère maternelle"/>
+         <Concept code="MGRPRN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Grand parent maternel"/>
+         <Concept code="MTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Mère"/>
          <Concept code="MTHFOST"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Assistante familiale - Famille d'accueil"/>
-         <Concept code="MTHINLAW" codeSystem="" displayName="Belle-mère"/>
-         <Concept code="MUNCLE" codeSystem="" displayName="Oncle maternel"/>
-         <Concept code="NBOR" codeSystem="" displayName="Voisin(e)"/>
-         <Concept code="NBRO" codeSystem="" displayName="Frère biologique"/>
-         <Concept code="NCHILD" codeSystem="" displayName="Enfant biologique"/>
-         <Concept code="NEPHEW" codeSystem="" displayName="Neveu"/>
-         <Concept code="NFTH" codeSystem="" displayName="Père biologique"/>
-         <Concept code="NFTHF" codeSystem="" displayName="Père biologique du fœtus"/>
-         <Concept code="NIECE" codeSystem="" displayName="Nièce"/>
-         <Concept code="NIENEPH" codeSystem="" displayName="Neveu ou nièce"/>
-         <Concept code="NMTH" codeSystem="" displayName="Mère biologique"/>
-         <Concept code="NMTHF" codeSystem="" displayName="Mère biologique du fœtus"/>
+         <Concept code="MTHINLAW"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Belle-mère"/>
+         <Concept code="MUNCLE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Oncle maternel"/>
+         <Concept code="NBOR"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Voisin(e)"/>
+         <Concept code="NBRO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Frère biologique"/>
+         <Concept code="NCHILD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Enfant biologique"/>
+         <Concept code="NEPHEW"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Neveu"/>
+         <Concept code="NFTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Père biologique"/>
+         <Concept code="NFTHF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Père biologique du fœtus"/>
+         <Concept code="NIECE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Nièce"/>
+         <Concept code="NIENEPH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Neveu ou nièce"/>
+         <Concept code="NMTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Mère biologique"/>
+         <Concept code="NMTHF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Mère biologique du fœtus"/>
          <Concept code="NPRN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Parent biologique, au sens père ou mère"/>
-         <Concept code="NSIB" codeSystem="" displayName="Frère ou soeur biologique"/>
-         <Concept code="NSIS" codeSystem="" displayName="Soeur biologique"/>
-         <Concept code="PAUNT" codeSystem="" displayName="Tante paternelle"/>
-         <Concept code="PCOUSN" codeSystem="" displayName="Cousin (paternel)"/>
+         <Concept code="NSIB"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Frère ou soeur biologique"/>
+         <Concept code="NSIS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Soeur biologique"/>
+         <Concept code="PAUNT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Tante paternelle"/>
+         <Concept code="PCOUSN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Cousin (paternel)"/>
          <Concept code="PGGRFTH"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Arrière-grand-père paternel"/>
          <Concept code="PGGRMTH"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Arrière-grand-mère paternelle"/>
          <Concept code="PGGRPRN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Arrière grand parent paternel"/>
-         <Concept code="PGRFTH" codeSystem="" displayName="Grand-père paternel"/>
-         <Concept code="PGRMTH" codeSystem="" displayName="Grand-mère paternelle"/>
-         <Concept code="PGRPRN" codeSystem="" displayName="Grand parent paternel"/>
-         <Concept code="PRN" codeSystem="" displayName="Parent, au sens père ou mère"/>
-         <Concept code="PRNINLAW" codeSystem="" displayName="Beau-père ou belle-mère"/>
+         <Concept code="PGRFTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Grand-père paternel"/>
+         <Concept code="PGRMTH"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Grand-mère paternelle"/>
+         <Concept code="PGRPRN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Grand parent paternel"/>
+         <Concept code="PRN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Parent, au sens père ou mère"/>
+         <Concept code="PRNINLAW"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Beau-père ou belle-mère"/>
          <Concept code="PRNFOST"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Parent, au sens famille d'accueil"/>
-         <Concept code="PUNCLE" codeSystem="" displayName="Oncle paternel"/>
+         <Concept code="PUNCLE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Oncle paternel"/>
          <Concept code="RESPRSN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Responsable légal non membre de la famille"/>
          <Concept code="ROOM"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Personne vivant sous le même toit"/>
-         <Concept code="SIB" codeSystem="" displayName="Frère ou sœur"/>
+         <Concept code="SIB"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Frère ou sœur"/>
          <Concept code="SIBINLAW"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Beau-frère ou belle-sœur"/>
-         <Concept code="SIGOTHR" codeSystem="" displayName="Conjoint"/>
-         <Concept code="SIS" codeSystem="" displayName="Sœur"/>
-         <Concept code="SISINLAW" codeSystem="" displayName="Belle-sœur"/>
-         <Concept code="SON" codeSystem="" displayName="Fils biologique"/>
-         <Concept code="SONADOPT" codeSystem="" displayName="Fils adoptif"/>
-         <Concept code="SONC" codeSystem="" displayName="Fils"/>
+         <Concept code="SIGOTHR"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Conjoint"/>
+         <Concept code="SIS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Sœur"/>
+         <Concept code="SISINLAW"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Belle-sœur"/>
+         <Concept code="SON"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Fils biologique"/>
+         <Concept code="SONADOPT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Fils adoptif"/>
+         <Concept code="SONC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Fils"/>
          <Concept code="SONFOST"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Garçon placé en famille d'accueil"/>
-         <Concept code="SONINLAW" codeSystem="" displayName="Gendre"/>
-         <Concept code="SPS" codeSystem="" displayName="Epoux ou épouse"/>
+         <Concept code="SONINLAW"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Gendre"/>
+         <Concept code="SPS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Epoux ou épouse"/>
          <Concept code="STPBRO"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Fils du beau-père ou de la belle-mère"/>
          <Concept code="STPFTH"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Beau-père - époux du père ou de la mère"/>
          <Concept code="STPMTH"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Belle-mère - épouse du père ou de la mère"/>
          <Concept code="STPCHLD"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Enfant du conjoint, issu d'un mariage précédent"/>
          <Concept code="STPDAU"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Fille du conjoint, issue d'un mariage précédent"/>
          <Concept code="STPPRN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Beau-père ou belle-mère - époux(se) du père ou de la mère"/>
          <Concept code="STPSIB"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Enfant du beau-père ou de la belle-mère"/>
          <Concept code="STPSIS"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Fille du beau-père ou de la belle-mère"/>
          <Concept code="STPSON"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Fils du conjoint, issu d'un mariage précédent"/>
          <Concept code="TWIN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
                   displayName="Frère jumeau ou soeur jumelle"/>
-         <Concept code="TWINBRO" codeSystem="" displayName="Frère jumeau"/>
-         <Concept code="TWINSIS" codeSystem="" displayName="Soeur jumelle"/>
-         <Concept code="UNCLE" codeSystem="" displayName="Oncle"/>
-         <Concept code="WIFE" codeSystem="" displayName="Epouse"/>
+         <Concept code="TWINBRO"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Frère jumeau"/>
+         <Concept code="TWINSIS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Soeur jumelle"/>
+         <Concept code="UNCLE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Oncle"/>
+         <Concept code="WIFE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Epouse"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

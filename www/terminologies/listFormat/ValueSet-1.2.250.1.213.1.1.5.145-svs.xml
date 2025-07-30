@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-166" codeSystem="" displayName="Qualité"/>
-         <Concept code="GEN-167" codeSystem="" displayName="Quantité"/>
+         <Concept code="GEN-166"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Qualité"/>
+         <Concept code="GEN-167"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Quantité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

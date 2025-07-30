@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="10022401" codeSystem="" displayName="Diminution de l'INR"/>
-         <Concept code="10022402" codeSystem="" displayName="Augmentation de l'INR"/>
+         <Concept code="10022401"
+                  codeSystem="2.16.840.1.113883.6.163"
+                  displayName="Diminution de l'INR"/>
+         <Concept code="10022402"
+                  codeSystem="2.16.840.1.113883.6.163"
+                  displayName="Augmentation de l'INR"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

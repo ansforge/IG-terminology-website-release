@@ -31,7 +31,9 @@
          <Concept code="MED-1081"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Prisme - axe en degrés – verre délivré"/>
-         <Concept code="95324-0" codeSystem="" displayName="Type de prisme"/>
+         <Concept code="95324-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Type de prisme"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

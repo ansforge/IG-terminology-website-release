@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-899",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-899",
+  "name" : "UnionJDV_J119_TypeActiviteLiberale_ENREGAndJDV_J119_TypeActiviteLiberale_ENREG",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ACT-LIB-01",
+        "display" : "Cabinet primaire"
+      },
+      {
+        "code" : "ACT-LIB-02",
+        "display" : "Cabinet secondaire"
+      },
+      {
+        "code" : "ACT-LIB-03",
+        "display" : "Plateau technique"
+      },
+      {
+        "code" : "ACT-LIB-04",
+        "display" : "Secteur privé à l'hôpital"
+      },
+      {
+        "code" : "ACT-LIB-05",
+        "display" : "Autre lieu d'exercice ou autre site"
+      },
+      {
+        "code" : "ACT-LIB-06",
+        "display" : "Cabinet"
+      }]
+    }]
+  }
+}

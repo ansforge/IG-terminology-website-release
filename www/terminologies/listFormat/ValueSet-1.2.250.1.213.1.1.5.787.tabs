@@ -1,10 +1,10 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.787;JDV;JDV_Gravite_CISIS.tabs;JDV_Gravite_CISIS;;20210315000000;;20240522010000
-<OID>;<Code>;<Libellé> 
-;255604002;gravité légère
-;266938001;patient(e) hospitalisé(e)
-;2655002;invalidité
-;276654001;malformation congénitale
-;442452003;mise en jeu du pronostic vital
-;GEN-092.01.22;Autre situation médicale grave
-;419620001;mort
+<OID>;<Code>;<Libellé>
+urn:oid:2.16.840.1.113883.6.96;255604002;gravité légère
+urn:oid:2.16.840.1.113883.6.96;266938001;patient(e) hospitalisé(e)
+urn:oid:2.16.840.1.113883.6.96;2655002;invalidité
+urn:oid:2.16.840.1.113883.6.96;276654001;malformation congénitale
+urn:oid:2.16.840.1.113883.6.96;442452003;mise en jeu du pronostic vital
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;GEN-092.01.22;Autre situation médicale grave
+urn:oid:2.16.840.1.113883.6.96;419620001;mort

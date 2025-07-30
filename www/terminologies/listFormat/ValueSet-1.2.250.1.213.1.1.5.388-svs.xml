@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="963" codeSystem="" displayName="Proximal"/>
-         <Concept code="964" codeSystem="" displayName="Parenchymateux"/>
-         <Concept code="976" codeSystem="" displayName="Bronchique"/>
-         <Concept code="977" codeSystem="" displayName="Vasculaire"/>
+         <Concept code="963"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Proximal"/>
+         <Concept code="964"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Parenchymateux"/>
+         <Concept code="976"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Bronchique"/>
+         <Concept code="977"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Vasculaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

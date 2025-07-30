@@ -28,8 +28,12 @@
          <Concept code="MED-218"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Rééducation en cours d'hospitalisation"/>
-         <Concept code="75859-9" codeSystem="" displayName="Score de Rankin"/>
-         <Concept code="72089-6" codeSystem="" displayName="Score NIH Stroke Scale"/>
+         <Concept code="75859-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Score de Rankin"/>
+         <Concept code="72089-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Score NIH Stroke Scale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

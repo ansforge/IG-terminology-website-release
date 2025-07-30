@@ -10,32 +10,38 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="JNBD002" codeSystem="" displayName="Ballonnets intra-utérin"/>
+         <Concept code="JNBD002"
+                  codeSystem="1.2.250.1.213.2.5"
+                  displayName="Ballonnets intra-utérin"/>
          <Concept code="JNED001"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.5"
                   displayName="Réduction manuelle d’inversion utérine"/>
          <Concept code="JNFA001"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.5"
                   displayName="Hystérectomie pour complications obstétricales, par laparotomie"/>
          <Concept code="JPGD001"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.5"
                   displayName="Délivrance artificielle (+ révision utérine)"/>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
          <Concept code="GEN-092.04.02"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre acte réalisé en postpartum immédiat"/>
-         <Concept code="OBS_210" codeSystem="" displayName="Révision utérine isolée"/>
+         <Concept code="OBS_210"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Révision utérine isolée"/>
          <Concept code="OBS_211"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Autre technique chirurgicale"/>
          <Concept code="OBS_212"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Autre acte réalisé en postpartum immédiat"/>
          <Concept code="P1-30530"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Embolisation artérielle sélective"/>
          <Concept code="P1-86EA8"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Réduction manuelle d’inversion utérine"/>
          <Concept code="49149002"
                   codeSystem="2.16.840.1.113883.6.96"

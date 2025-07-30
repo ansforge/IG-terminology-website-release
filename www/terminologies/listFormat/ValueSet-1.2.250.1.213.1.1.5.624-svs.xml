@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1216" codeSystem="" displayName="Prisme intégré"/>
-         <Concept code="MED-1217" codeSystem="" displayName="Prisme souple"/>
+         <Concept code="MED-1216"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Prisme intégré"/>
+         <Concept code="MED-1217"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Prisme souple"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

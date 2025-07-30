@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="706" codeSystem="" displayName="Axillaires"/>
-         <Concept code="707" codeSystem="" displayName="Intra-mammaires"/>
-         <Concept code="708" codeSystem="" displayName="Sentinelle"/>
+         <Concept code="706"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Axillaires"/>
+         <Concept code="707"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Intra-mammaires"/>
+         <Concept code="708"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Sentinelle"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

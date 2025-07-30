@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-178" codeSystem="" displayName="Test auditif normal"/>
-         <Concept code="MED-179" codeSystem="" displayName="Audition à recontrôler"/>
+         <Concept code="MED-178"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Test auditif normal"/>
+         <Concept code="MED-179"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Audition à recontrôler"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

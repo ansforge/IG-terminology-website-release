@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1887",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1887",
+  "name" : "IntersectionJdvEtatPsychiqueCisisAndJdvEtatPsychiqueCisis",
+  "title" : "Intersection of JDV Etat Psychique CISIS And JDV Etat Psychique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "288575003",
+        "display" : "capable de communiquer"
+      },
+      {
+        "code" : "247663003",
+        "display" : "bien orienté"
+      },
+      {
+        "code" : "62476001",
+        "display" : "désorienté(e)"
+      },
+      {
+        "code" : "24199005",
+        "display" : "sensation d'agitation"
+      },
+      {
+        "code" : "248043008",
+        "display" : "comportement non-conciliant"
+      },
+      {
+        "code" : "425104003",
+        "display" : "comportement suicidaire"
+      }]
+    }]
+  }
+}

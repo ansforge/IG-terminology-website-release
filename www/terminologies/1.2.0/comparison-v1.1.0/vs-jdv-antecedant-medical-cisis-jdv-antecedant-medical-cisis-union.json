@@ -1,0 +1,73 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1664",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1664",
+  "name" : "UnionJdvAntecedantMedicalCisisAndJdvAntecedantMedicalCisis",
+  "title" : "Union of JDV Antecedant Medical CISIS And JDV Antecedant Medical CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "I63.9",
+        "display" : "Infarctus cérébral, sans précision"
+      },
+      {
+        "code" : "G45.9",
+        "display" : "Accident ischémique cérébral transitoire, sans précision"
+      },
+      {
+        "code" : "G93.2",
+        "display" : "Hypertension intracrânienne bénigne"
+      },
+      {
+        "code" : "I64",
+        "display" : "Accident vasculaire cérébral, non précisé comme étant hémorragique ou par infarctus"
+      },
+      {
+        "code" : "I60.9",
+        "display" : "Hémorragie sousarachnoïdienne, sans précision"
+      },
+      {
+        "code" : "I21.9",
+        "display" : "Infarctus aigu du myocarde, sans précision"
+      },
+      {
+        "code" : "I20.0",
+        "display" : "Angine de poitrine instable"
+      },
+      {
+        "code" : "I74.3",
+        "display" : "Embolie et thrombose des artères des membres inférieurs"
+      },
+      {
+        "code" : "I20.9",
+        "display" : "Angine de poitrine, sans précision"
+      },
+      {
+        "code" : "I48",
+        "display" : "Fibrillation et flutter auriculaires"
+      },
+      {
+        "code" : "F03",
+        "display" : "Démence, sans précision"
+      },
+      {
+        "code" : "C80",
+        "display" : "Tumeur maligne de siège non précisé"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-533",
+        "display" : "Comorbidité"
+      }]
+    }]
+  }
+}

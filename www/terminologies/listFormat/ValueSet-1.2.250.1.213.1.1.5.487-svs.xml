@@ -10,11 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-575" codeSystem="" displayName="Alimentation mixée"/>
+         <Concept code="MED-575"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Alimentation mixée"/>
          <Concept code="MED-576"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Alimentation entérale par sonde"/>
-         <Concept code="MED-577" codeSystem="" displayName="Alimentation parentérale"/>
+         <Concept code="MED-577"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Alimentation parentérale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

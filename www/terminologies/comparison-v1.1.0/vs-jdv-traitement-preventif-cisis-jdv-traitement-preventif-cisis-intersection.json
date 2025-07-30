@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2781",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2781",
+  "name" : "IntersectionJdvTraitementPreventifCisisAndJdvTraitementPreventifCisis",
+  "title" : "Intersection of JDV Traitement Preventif CISIS And JDV Traitement Preventif CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "306805000",
+        "display" : "recommandation de continuer un traitement"
+      },
+      {
+        "code" : "445528004",
+        "display" : "traitement modifié"
+      }]
+    }]
+  }
+}

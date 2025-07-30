@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1671",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1671",
+  "name" : "IntersectionJdvAntecedentCse9CisisAndJdvAntecedentCse9Cisis",
+  "title" : "Intersection of JDV Antecedent Cse9 CISIS And JDV Antecedent Cse9 CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-183",
+        "display" : "Prématurité inf. à 33 semaines"
+      },
+      {
+        "code" : "MED-186",
+        "display" : "Accident(s) domestique(s) avant le 9ème mois"
+      }]
+    }]
+  }
+}

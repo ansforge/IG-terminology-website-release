@@ -10,19 +10,35 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="d350" codeSystem="" displayName="Conversation"/>
-         <Concept code="b114" codeSystem="" displayName="Fonctions d'orientation"/>
-         <Concept code="d510" codeSystem="" displayName="Se laver"/>
-         <Concept code="d540" codeSystem="" displayName="S'habiller"/>
-         <Concept code="d550" codeSystem="" displayName="Manger"/>
-         <Concept code="d530" codeSystem="" displayName="Aller aux toilettes"/>
-         <Concept code="d420" codeSystem="" displayName="Se transférer"/>
-         <Concept code="d4600" codeSystem="" displayName="Se déplacer dans la maison"/>
+         <Concept code="d350"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Conversation"/>
+         <Concept code="b114"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Fonctions d'orientation"/>
+         <Concept code="d510"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Se laver"/>
+         <Concept code="d540"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="S'habiller"/>
+         <Concept code="d550"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Manger"/>
+         <Concept code="d530"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Aller aux toilettes"/>
+         <Concept code="d420"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Se transférer"/>
+         <Concept code="d4600"
+                  codeSystem="2.16.840.1.113883.6.254"
+                  displayName="Se déplacer dans la maison"/>
          <Concept code="d4602"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.254"
                   displayName="Se déplacer en dehors de la maison et d'autres bâtiments"/>
          <Concept code="d360"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.254"
                   displayName="Utiliser des appareils et des techniques de communication"/>
       </ConceptList>
    </ValueSet>

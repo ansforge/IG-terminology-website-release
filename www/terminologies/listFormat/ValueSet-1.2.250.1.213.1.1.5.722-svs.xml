@@ -11,20 +11,22 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-1210"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Test HPV-HR de dépistage primaire réalisé sur prélèvement cervico-utérin"/>
          <Concept code="MED-1211"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Test HPV-HR de dépistage primaire réalisé sur un auto-prélèvement"/>
          <Concept code="MED-1212"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Test HPV-HR réalisé en réflexe après examen cytologique anormal (ASCUS - AGC) de dépistage primaire"/>
-         <Concept code="MED-1213" codeSystem="" displayName="Test HPV-HR de contrôle"/>
+         <Concept code="MED-1213"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Test HPV-HR de contrôle"/>
          <Concept code="MED-1214"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Examen cytologique de dépistage primaire"/>
          <Concept code="MED-1215"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Examen cytologique de contrôle"/>
       </ConceptList>
    </ValueSet>

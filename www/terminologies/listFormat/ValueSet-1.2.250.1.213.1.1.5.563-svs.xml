@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-659" codeSystem="" displayName="Non évaluable"/>
-         <Concept code="MED-728" codeSystem="" displayName="Evaluable"/>
+         <Concept code="MED-659"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non évaluable"/>
+         <Concept code="MED-728"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Evaluable"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

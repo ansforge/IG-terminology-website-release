@@ -11,11 +11,17 @@
              urlFichier="">
       <ConceptList>
          <Concept code="P95"
-                  codeSystem=""
+                  codeSystem="urn:oid:2.16.840.1.113883.6.3"
                   displayName="Mort fœtale (de cause non précisée)"/>
-         <Concept code="281050002" codeSystem="" displayName="naissance vivante"/>
-         <Concept code="391181005" codeSystem="" displayName="mort néonatale précoce"/>
-         <Concept code="240297000" codeSystem="" displayName="mort infantile"/>
+         <Concept code="281050002"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="naissance vivante"/>
+         <Concept code="391181005"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="mort néonatale précoce"/>
+         <Concept code="240297000"
+                  codeSystem="urn:oid:2.16.840.1.113883.6.96"
+                  displayName="mort infantile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

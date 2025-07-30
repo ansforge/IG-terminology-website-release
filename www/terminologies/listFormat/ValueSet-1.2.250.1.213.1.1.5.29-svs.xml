@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-024" codeSystem="" displayName="Films"/>
-         <Concept code="MED-025" codeSystem="" displayName="Console d'interprétation"/>
+         <Concept code="MED-024"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Films"/>
+         <Concept code="MED-025"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Console d'interprétation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

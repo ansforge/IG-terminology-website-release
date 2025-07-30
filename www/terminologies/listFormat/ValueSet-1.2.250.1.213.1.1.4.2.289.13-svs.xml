@@ -11,11 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="N39.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Infection urinaire non précisée"/>
-         <Concept code="D7-12600" codeSystem="" displayName="Pyélonéphrite"/>
+         <Concept code="D7-12600"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Pyélonéphrite"/>
          <Concept code="D7-20020"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Infection urinaire basse"/>
       </ConceptList>
    </ValueSet>

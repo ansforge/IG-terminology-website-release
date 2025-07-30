@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="FFC"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Première dispensation - complète"/>
          <Concept code="FFP"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Première dispensation - partielle"/>
          <Concept code="RFP"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Dispensation suivante - partielle"/>
          <Concept code="RFC"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Dispensation suivante - complète"/>
       </ConceptList>
    </ValueSet>

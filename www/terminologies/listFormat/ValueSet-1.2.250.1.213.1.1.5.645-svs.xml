@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MG" codeSystem="" displayName="Mammographie"/>
-         <Concept code="US" codeSystem="" displayName="Échographie"/>
-         <Concept code="OT" codeSystem="" displayName="Autre technique d'imagerie"/>
+         <Concept code="MG"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="Mammographie"/>
+         <Concept code="US"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="Échographie"/>
+         <Concept code="OT"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="Autre technique d'imagerie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

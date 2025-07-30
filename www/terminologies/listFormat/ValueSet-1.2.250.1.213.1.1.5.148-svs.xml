@@ -10,22 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="A" codeSystem="" displayName="Aspiration"/>
-         <Concept code="B" codeSystem="" displayName="Biopsie chirurgicale"/>
+         <Concept code="A" codeSystem="1.2.250.1.213.2.11" displayName="Aspiration"/>
+         <Concept code="B"
+                  codeSystem="1.2.250.1.213.2.11"
+                  displayName="Biopsie chirurgicale"/>
          <Concept code="C"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.11"
                   displayName="Cytoponction non guidée par imagerie"/>
          <Concept code="F"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.11"
                   displayName="Frottis par raclage, brossage ou écouvillonnage"/>
          <Concept code="L"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.11"
                   displayName="Liquide spontanément émis ou de ponction (épanchement, urine, LCR,  kyste, bulle)"/>
          <Concept code="O"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.11"
                   displayName="Pièce opératoire avec exérèse complète de l’organe"/>
          <Concept code="P"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.11"
                   displayName="Ponction, biopsie et biopsie instrumentale non guidée par imagerie"/>
       </ConceptList>
    </ValueSet>

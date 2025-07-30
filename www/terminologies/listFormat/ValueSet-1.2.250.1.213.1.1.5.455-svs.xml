@@ -10,14 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1111" codeSystem="" displayName="Trigone"/>
+         <Concept code="1111"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Trigone"/>
          <Concept code="1112"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Face latérale (qualificateur: droit, gauche)"/>
-         <Concept code="1113" codeSystem="" displayName="Face antérieure"/>
-         <Concept code="1114" codeSystem="" displayName="Face postérieure"/>
-         <Concept code="1115" codeSystem="" displayName="Dôme"/>
-         <Concept code="1116" codeSystem="" displayName="Col"/>
+         <Concept code="1113"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Face antérieure"/>
+         <Concept code="1114"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Face postérieure"/>
+         <Concept code="1115"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Dôme"/>
+         <Concept code="1116"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Col"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

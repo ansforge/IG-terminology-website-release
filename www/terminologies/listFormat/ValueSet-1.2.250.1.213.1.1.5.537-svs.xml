@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C49487" codeSystem="" displayName="Non"/>
-         <Concept code="MED-699" codeSystem="" displayName="Oui en zone tumorale"/>
-         <Concept code="MED-700" codeSystem="" displayName="Oui en zone non tumorale"/>
+         <Concept code="C49487"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Non"/>
+         <Concept code="MED-699"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Oui en zone tumorale"/>
+         <Concept code="MED-700"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Oui en zone non tumorale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

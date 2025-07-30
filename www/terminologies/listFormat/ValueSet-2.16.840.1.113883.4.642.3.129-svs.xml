@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="low" codeSystem="" displayName="Bas"/>
-         <Concept code="high" codeSystem="" displayName="Elevé"/>
+         <Concept code="low"
+                  codeSystem="2.16.840.1.113883.4.642.4.130"
+                  displayName="Bas"/>
+         <Concept code="high"
+                  codeSystem="2.16.840.1.113883.4.642.4.130"
+                  displayName="Elevé"/>
          <Concept code="unable-to-assess"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.4.642.4.130"
                   displayName="Impossible à évaluer"/>
       </ConceptList>
    </ValueSet>

@@ -19,25 +19,39 @@
          <Concept code="G15_10/SM54"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Médecin - Médecine Générale (SM)"/>
-         <Concept code="ORG-019" codeSystem="" displayName="Venu de lui-même"/>
-         <Concept code="ORG-020" codeSystem="" displayName="Association de patients"/>
-         <Concept code="ORG-021" codeSystem="" displayName="Pédiatre ville"/>
-         <Concept code="ORG-022" codeSystem="" displayName="Pédiatre hôpital"/>
+         <Concept code="ORG-019"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Venu de lui-même"/>
+         <Concept code="ORG-020"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Association de patients"/>
+         <Concept code="ORG-021"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Pédiatre ville"/>
+         <Concept code="ORG-022"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Pédiatre hôpital"/>
          <Concept code="ORG-023"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Centre de protection maternelle et infantile"/>
-         <Concept code="GEN-092.05.02" codeSystem="" displayName="Autre spécialiste"/>
-         <Concept code="ORG-025" codeSystem="" displayName="Site de prise en charge"/>
+         <Concept code="GEN-092.05.02"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre spécialiste"/>
+         <Concept code="ORG-025"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Site de prise en charge"/>
          <Concept code="ORG-026"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Centre pluridisciplinaire de diagnostic prénatal"/>
          <Concept code="ORG-182"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Centre de référence maladies rares (CRM)"/>
          <Concept code="ORG-183"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Centre de compétences maladies rares (CCM)"/>
-         <Concept code="GEN-092.05.01" codeSystem="" displayName="Autre personne"/>
+         <Concept code="GEN-092.05.01"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre personne"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

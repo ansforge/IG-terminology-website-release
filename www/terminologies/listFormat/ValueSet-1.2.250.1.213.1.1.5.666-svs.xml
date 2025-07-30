@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="no-immunization-info"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d'information sur les vaccins"/>
          <Concept code="no-known-immunizations"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas de vaccin connu"/>
       </ConceptList>
    </ValueSet>

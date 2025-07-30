@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.1.0"/>
+  <version value="1.2.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-07-02T12:47:09+00:00"/>
+  <date value="2025-07-30T08:19:15+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -34,9 +34,9 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
       <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
     </extension>
-    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology|6.4.0"/>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology|6.5.0"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.4.0"/>
+    <version value="6.5.0"/>
   </dependsOn>
   <dependsOn id="hl7ext">
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
@@ -233,31 +233,7 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="http://snomed.info/sct"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"/>
+        <valueString value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -513,38 +489,6 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
         <valueString value="https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA"/>
       </extension>
     </extension>
@@ -561,7 +505,7 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt-pprod.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"/>
+        <valueString value="https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -569,7 +513,7 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt-pprod.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm"/>
+        <valueString value="https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -2929,6 +2873,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-de-survenue-cisis"/>
       </extension>
     </extension>
@@ -3441,6 +3393,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-depistage-neonatal-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deplacement-cisis"/>
       </extension>
     </extension>
@@ -3450,6 +3410,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-obp-sne-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -3545,6 +3513,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-psychique-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-avc-cisis"/>
       </extension>
     </extension>
@@ -3626,6 +3602,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evenement-accouchement-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -3801,6 +3785,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-groupe-rhesus-cisis"/>
       </extension>
     </extension>
@@ -3897,6 +3889,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-indicateur-anormalite-cisis"/>
       </extension>
     </extension>
@@ -3970,6 +3970,38 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-issue-grossesse-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -4353,6 +4385,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-morphologie-cisis"/>
       </extension>
     </extension>
@@ -4457,6 +4497,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-commandes-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-conscience-cisis"/>
       </extension>
     </extension>
@@ -4521,7 +4569,23 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-paralysie-faciale-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-questions-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-sensibilite-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -4578,6 +4642,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-enfant-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -4801,6 +4873,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-recherche-aghbs-cisis"/>
       </extension>
     </extension>
@@ -4921,7 +5001,23 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-corps-cetoniques-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-crp-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -4970,6 +5066,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-proteinurie-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -5193,6 +5297,14 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sedentarite-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis"/>
       </extension>
     </extension>
@@ -5338,6 +5450,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-resultat-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-tabagique-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -6105,22 +6225,6 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-paralysie-faciale-cisis"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-sensibilite-cisis"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-MediaType-cisis"/>
       </extension>
     </extension>
@@ -6130,6 +6234,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -6273,7 +6385,39 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/NamingSystem/NCIT"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -6386,14 +6530,6 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/terminologie-SERAFINPH"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://snomed.info/sct"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -8426,6 +8562,38 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -8764,31 +8932,7 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="http://snomed.info/sct"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"/>
+        <valueString value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -9044,38 +9188,6 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
         <valueString value="https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA"/>
       </extension>
     </extension>
@@ -9092,7 +9204,7 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt-pprod.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"/>
+        <valueString value="https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -9100,7 +9212,7 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt-pprod.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm"/>
+        <valueString value="https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-bdpm"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -11460,6 +11572,14 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-age-de-survenue-cisis"/>
       </extension>
     </extension>
@@ -11972,6 +12092,14 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-depistage-neonatal-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-deplacement-cisis"/>
       </extension>
     </extension>
@@ -11981,6 +12109,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-obp-sne-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-destination-transfert-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -12076,6 +12212,14 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etat-psychique-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-avc-cisis"/>
       </extension>
     </extension>
@@ -12157,6 +12301,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evenement-accouchement-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-evolution-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -12332,6 +12484,14 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-gravite-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-groupe-rhesus-cisis"/>
       </extension>
     </extension>
@@ -12428,6 +12588,14 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-imputabilite-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-indicateur-anormalite-cisis"/>
       </extension>
     </extension>
@@ -12501,6 +12669,38 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-issue-grossesse-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j367-type-projet-personnalise-ms"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j368-categorie-etablissement-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -12884,6 +13084,14 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modificateur-topographique-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-morphologie-cisis"/>
       </extension>
     </extension>
@@ -12988,6 +13196,14 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-commandes-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-conscience-cisis"/>
       </extension>
     </extension>
@@ -13052,7 +13268,23 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-paralysie-faciale-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-questions-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-sensibilite-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -13109,6 +13341,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-enfant-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-observation-etat-patient-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -13332,6 +13572,14 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-realisation-activite-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-recherche-aghbs-cisis"/>
       </extension>
     </extension>
@@ -13452,7 +13700,23 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-corps-cetoniques-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-crp-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -13501,6 +13765,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-proteinurie-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-depistage-rupture-membrane-ph-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -13724,6 +13996,14 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-sedentarite-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-severite-observation-cisis"/>
       </extension>
     </extension>
@@ -13869,6 +14149,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-resultat-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-statut-tabagique-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -14636,22 +14924,6 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-paralysie-faciale-cisis"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-nihss-sensibilite-cisis"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-MediaType-cisis"/>
       </extension>
     </extension>
@@ -14661,6 +14933,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationInterpretation-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-ObservationMethod-cisis"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -14804,7 +15084,39 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-xBasicConfidentialityKind-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/NamingSystem/ADICAP"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
         <valueString value="https://interop.esante.gouv.fr/terminologies/NamingSystem/v3-loinc"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/NamingSystem/NCIT"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/NamingSystem/PCS"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -14917,14 +15229,6 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/terminologie-SERAFINPH"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://snomed.info/sct"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -16961,6 +17265,38 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r389-statut-bilan-projet-personnalise"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r390-type-projet-personnalise"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r394-competence-metier"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueCode value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -17208,6 +17544,16 @@
       </reference>
       <name value="ActSubstanceAdminSubstitutionCode"/>
       <description value="ActSubstanceAdminSubstitutionCode"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/ADICAP"/>
+      </reference>
+      <name value="ADICAP"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25475,6 +25821,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/NCIT"/>
+      </reference>
+      <name value="NCIT"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -25552,6 +25908,16 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="NamingSystem"/>
+      </extension>
+      <reference>
+        <reference value="NamingSystem/PCS"/>
+      </reference>
+      <name value="PCS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -25610,7 +25976,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20250601"/>
+        <reference value="CodeSystem/900000000000207008-20250701"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>

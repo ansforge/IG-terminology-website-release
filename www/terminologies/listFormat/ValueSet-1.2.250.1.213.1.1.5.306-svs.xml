@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1333" codeSystem="" displayName="Péri-salivaire"/>
-         <Concept code="1334" codeSystem="" displayName="Peau"/>
-         <Concept code="1335" codeSystem="" displayName="Conduit auditif externe"/>
-         <Concept code="1336" codeSystem="" displayName="Nerf facial"/>
+         <Concept code="1333"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Péri-salivaire"/>
+         <Concept code="1334"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Peau"/>
+         <Concept code="1335"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Conduit auditif externe"/>
+         <Concept code="1336"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Nerf facial"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

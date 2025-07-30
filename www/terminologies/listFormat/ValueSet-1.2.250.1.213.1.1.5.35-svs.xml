@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1056" codeSystem="" displayName="Clinique"/>
-         <Concept code="MED-110" codeSystem="" displayName="Mammographique"/>
+         <Concept code="MED-1056"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Clinique"/>
+         <Concept code="MED-110"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Mammographique"/>
          <Concept code="MED-111"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Clinique et mammographique"/>
       </ConceptList>
    </ValueSet>

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2372",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2372",
+  "name" : "UnionJdvNihssDysarthrieCisisAndJdvNihssDysarthrieCisis",
+  "title" : "Union of JDV Nihss Dysarthrie CISIS And JDV Nihss Dysarthrie CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA6626-1",
+        "display" : "Normal"
+      },
+      {
+        "code" : "LA18475-6",
+        "display" : "Discrète à modérée; le patient n’articule pas bien au moins quelques mots et, au pire, peut être compris avec quelques difficultés."
+      },
+      {
+        "code" : "LA18476-4",
+        "display" : "Sévère: le discours du patient est tellement mal articulé qu'il devient inintelligible en l'absence ou hors de proportion avec toute éventuelle aphasie ou est mutique, anarthrique."
+      },
+      {
+        "code" : "LA18477-2",
+        "display" : "Intubation, autre obstacle mécanique (expliquer)"
+      }]
+    }]
+  }
+}

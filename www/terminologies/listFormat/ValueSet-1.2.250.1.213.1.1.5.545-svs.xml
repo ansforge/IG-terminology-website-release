@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-729" codeSystem="" displayName="Bd1 (0-4)"/>
-         <Concept code="MED-730" codeSystem="" displayName="Bd2 (5-9)"/>
-         <Concept code="MED-731" codeSystem="" displayName="Bd3 (&gt;10)"/>
+         <Concept code="MED-729"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bd1 (0-4)"/>
+         <Concept code="MED-730"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bd2 (5-9)"/>
+         <Concept code="MED-731"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bd3 (&gt;10)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2553",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2553",
+  "name" : "IntersectionJdvResultatDepistageCholesterolCisisAndJdvResultatDepistageCholesterolCisis",
+  "title" : "Intersection of JDV Resultat Depistage Cholesterol CISIS And JDV Resultat Depistage Cholesterol CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "17621005",
+        "display" : "normal"
+      },
+      {
+        "code" : "371879000",
+        "display" : "anormalement haut"
+      }]
+    }]
+  }
+}

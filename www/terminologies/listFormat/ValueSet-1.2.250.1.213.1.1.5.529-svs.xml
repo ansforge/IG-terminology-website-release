@@ -10,26 +10,42 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="HHFA018" codeSystem="" displayName="Colectomie transverse"/>
-         <Concept code="HHQX011" codeSystem="" displayName="Coloproctectomie"/>
+         <Concept code="HHFA018"
+                  codeSystem="1.2.250.1.213.2.5"
+                  displayName="Colectomie transverse"/>
+         <Concept code="HHQX011"
+                  codeSystem="1.2.250.1.213.2.5"
+                  displayName="Coloproctectomie"/>
          <Concept code="HJFD004"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.5"
                   displayName="Résection rectale antérieure"/>
          <Concept code="C124294"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Prélèvement de type indéterminé"/>
-         <Concept code="C51623" codeSystem="" displayName="Colectomie droite"/>
-         <Concept code="C51624" codeSystem="" displayName="Colectomie gauche"/>
-         <Concept code="C51887" codeSystem="" displayName="Colectomie subtotale"/>
+         <Concept code="C51623"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Colectomie droite"/>
+         <Concept code="C51624"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Colectomie gauche"/>
+         <Concept code="C51887"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Colectomie subtotale"/>
          <Concept code="C91826"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="Amputation abdomino-périnéale"/>
-         <Concept code="C91838" codeSystem="" displayName="Sigmoïdectomie"/>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
+         <Concept code="C91838"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Sigmoïdectomie"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
          <Concept code="GEN-092.04.10"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre type de prélèvement"/>
-         <Concept code="MED-681" codeSystem="" displayName="Intervention de Hartmann"/>
+         <Concept code="MED-681"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Intervention de Hartmann"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

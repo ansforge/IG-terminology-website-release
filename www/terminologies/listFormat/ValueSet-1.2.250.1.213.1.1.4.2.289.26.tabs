@@ -1,11 +1,11 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.4.2.289.26;JDV;JDV_OBP_QuantiteLA_CISIS.tabs;JDV_OBP_QuantiteLA_CISIS;;20210315000000;;20231205000000
-<OID>;<Code>;<Libellé> 
-;O40;Hydramnios
-;O41.0;Oligoamnios
-;OBS_214;Quantité de liquide amniotique normale
-;OBS_215;Anamnios
-;D8-22100;Hydramnios
-;D8-22110;Oligoamnios
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/icd10;O40;Hydramnios
+http://terminology.hl7.org/CodeSystem/icd10;O41.0;Oligoamnios
+1.2.250.1.213.1.1.4.2.289;OBS_214;Quantité de liquide amniotique normale
+1.2.250.1.213.1.1.4.2.289;OBS_215;Anamnios
+1.2.250.1.213.2.12;D8-22100;Hydramnios
+1.2.250.1.213.2.12;D8-22110;Oligoamnios
 2.16.840.1.113883.6.96;278092006;volume de liquide amniotique dans l'intervalle de référence
 2.16.840.1.113883.6.96;289297007;liquide amniotique absent

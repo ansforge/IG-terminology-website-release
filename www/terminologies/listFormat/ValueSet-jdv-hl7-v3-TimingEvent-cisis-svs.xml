@@ -10,28 +10,60 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AC" codeSystem="" displayName="Avant le repas"/>
-         <Concept code="ACD" codeSystem="" displayName="Avant le déjeuner"/>
-         <Concept code="ACM" codeSystem="" displayName="Avant le petit-déjeuner"/>
-         <Concept code="ACV" codeSystem="" displayName="Avant le dîner"/>
-         <Concept code="C" codeSystem="" displayName="Pendant les repas"/>
-         <Concept code="CD" codeSystem="" displayName="Pendant le déjeuner"/>
-         <Concept code="CM" codeSystem="" displayName="Pendant le petit-déjeuner"/>
-         <Concept code="CV" codeSystem="" displayName="Pendant le dîner"/>
-         <Concept code="HS" codeSystem="" displayName="Au coucher"/>
-         <Concept code="IC" codeSystem="" displayName="Entre les repas"/>
+         <Concept code="AC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Avant le repas"/>
+         <Concept code="ACD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Avant le déjeuner"/>
+         <Concept code="ACM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Avant le petit-déjeuner"/>
+         <Concept code="ACV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Avant le dîner"/>
+         <Concept code="C"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Pendant les repas"/>
+         <Concept code="CD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Pendant le déjeuner"/>
+         <Concept code="CM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Pendant le petit-déjeuner"/>
+         <Concept code="CV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Pendant le dîner"/>
+         <Concept code="HS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Au coucher"/>
+         <Concept code="IC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Entre les repas"/>
          <Concept code="ICD"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
                   displayName="Entre le déjeuner et le dîner"/>
          <Concept code="ICM"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
                   displayName="Entre le petit-déjeûner et le déjeûner"/>
-         <Concept code="ICV" codeSystem="" displayName="Entre le diner et le coucher"/>
-         <Concept code="PC" codeSystem="" displayName="Après le repas"/>
-         <Concept code="PCD" codeSystem="" displayName="Après le déjeuner"/>
-         <Concept code="PCM" codeSystem="" displayName="Après le petit-déjeuner"/>
-         <Concept code="PCV" codeSystem="" displayName="Après le dîner"/>
-         <Concept code="WAKE" codeSystem="" displayName="Au réveil"/>
+         <Concept code="ICV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Entre le diner et le coucher"/>
+         <Concept code="PC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Après le repas"/>
+         <Concept code="PCD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Après le déjeuner"/>
+         <Concept code="PCM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Après le petit-déjeuner"/>
+         <Concept code="PCV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Après le dîner"/>
+         <Concept code="WAKE"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-TimingEvent"
+                  displayName="Au réveil"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

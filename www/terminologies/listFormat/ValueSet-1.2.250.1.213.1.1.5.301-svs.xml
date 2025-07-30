@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="797" codeSystem="" displayName="Intact"/>
-         <Concept code="798" codeSystem="" displayName="Non intact"/>
+         <Concept code="797"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Intact"/>
+         <Concept code="798"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Non intact"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

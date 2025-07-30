@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-009" codeSystem="" displayName="Prise en charge médicale"/>
-         <Concept code="ORG-010" codeSystem="" displayName="Prise en charge sociale"/>
+         <Concept code="ORG-009"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Prise en charge médicale"/>
+         <Concept code="ORG-010"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Prise en charge sociale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,19 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="DEQP003" codeSystem="" displayName="ECG"/>
-         <Concept code="DEQP004" codeSystem="" displayName="Scope"/>
-         <Concept code="DEQP005" codeSystem="" displayName="Holter"/>
+         <Concept code="DEQP003" codeSystem="1.2.250.1.215.300.1" displayName="ECG"/>
+         <Concept code="DEQP004" codeSystem="1.2.250.1.215.300.1" displayName="Scope"/>
+         <Concept code="DEQP005"
+                  codeSystem="1.2.250.1.215.300.1"
+                  displayName="Holter"/>
          <Concept code="DZQM006"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.215.300.1"
                   displayName="Echographie transthoracique"/>
          <Concept code="DZQJ001"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.215.300.1"
                   displayName="Echographie transoesophagienne"/>
-         <Concept code="ACQN001" codeSystem="" displayName="ARM Cervicale"/>
-         <Concept code="EBQH006" codeSystem="" displayName="Angiographie cervicale"/>
-         <Concept code="EAQM004" codeSystem="" displayName="Echo-Doppler cervical"/>
-         <Concept code="EAQM002" codeSystem="" displayName="DTC"/>
+         <Concept code="ACQN001"
+                  codeSystem="1.2.250.1.215.300.1"
+                  displayName="ARM Cervicale"/>
+         <Concept code="EBQH006"
+                  codeSystem="1.2.250.1.215.300.1"
+                  displayName="Angiographie cervicale"/>
+         <Concept code="EAQM004"
+                  codeSystem="1.2.250.1.215.300.1"
+                  displayName="Echo-Doppler cervical"/>
+         <Concept code="EAQM002" codeSystem="1.2.250.1.215.300.1" displayName="DTC"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,12 +10,20 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="501" codeSystem="" displayName="Hystérectomie + annexectomie"/>
-         <Concept code="502" codeSystem="" displayName="Colpectomie"/>
-         <Concept code="503" codeSystem="" displayName="Colpohystérectomie"/>
-         <Concept code="1435" codeSystem="" displayName="Frottis par étalement"/>
+         <Concept code="501"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Hystérectomie + annexectomie"/>
+         <Concept code="502"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Colpectomie"/>
+         <Concept code="503"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Colpohystérectomie"/>
+         <Concept code="1435"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Frottis par étalement"/>
          <Concept code="1436"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Préparation en milieu liquide"/>
       </ConceptList>
    </ValueSet>

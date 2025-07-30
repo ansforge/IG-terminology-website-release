@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1016",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1016",
+  "name" : "UnionJDV_J154_TypeGlucose_ENSAndJDV_J154_TypeGlucose_ENS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "2345-7",
+        "display" : "Glucose [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "4548-4",
+        "display" : "Hémoglobine A1c/hémoglobine totale [Fraction massique] Sang ; Numérique"
+      },
+      {
+        "code" : "99504-3",
+        "display" : "Glucose [Masse/Volume] Liquide interstitiel ; Numérique"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+      "concept" : [{
+        "code" : "MED-972",
+        "display" : "Index de gestion de glycémie (IGG)"
+      }]
+    },
+    {
+      "system" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
+      "concept" : [{
+        "code" : "MED-972",
+        "display" : "Index de gestion de glycémie (IGG)"
+      }]
+    }]
+  }
+}

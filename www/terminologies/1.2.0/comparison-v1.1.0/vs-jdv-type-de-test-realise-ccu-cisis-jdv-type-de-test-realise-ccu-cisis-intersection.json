@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2853",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2853",
+  "name" : "IntersectionJdvTypeDetestRealiseCcuCisisAndJdvTypeDetestRealiseCcuCisis",
+  "title" : "Intersection of JDV Type De Test Realise Ccu CISIS And JDV Type De Test Realise Ccu CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "10524-7",
+        "display" : "Observation [Identification] Col de l'utérus ; Résultat nominal ; Coloration cellulaire"
+      },
+      {
+        "code" : "77379-6",
+        "display" : "Papillomavirus humain 16 et 18 et 31+33+35+39+45+51+52+56+58+59+66+68 ADN [Interprétation] Col de l'utérus ; Résultat nominal"
+      }]
+    }]
+  }
+}

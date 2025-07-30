@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-217" codeSystem="" displayName="Alité"/>
-         <Concept code="GEN-218" codeSystem="" displayName="Confiné au fauteuil"/>
-         <Concept code="GEN-219" codeSystem="" displayName="Marche occasionnellement"/>
-         <Concept code="GEN-220" codeSystem="" displayName="Marche fréquemment"/>
+         <Concept code="GEN-217"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Alité"/>
+         <Concept code="GEN-218"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Confiné au fauteuil"/>
+         <Concept code="GEN-219"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Marche occasionnellement"/>
+         <Concept code="GEN-220"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Marche fréquemment"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

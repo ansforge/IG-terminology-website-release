@@ -1,0 +1,65 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1865",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1865",
+  "name" : "UnionJdvDispositionPretherapeutiqueCisisAndJdvDispositionPretherapeutiqueCisis",
+  "title" : "Union of JDV Disposition Pretherapeutique CISIS And JDV Disposition Pretherapeutique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-495",
+        "display" : "Aspirine dans les 24h d'hospitalisation"
+      },
+      {
+        "code" : "MED-496",
+        "display" : "Posologie aspirine entre 160 et 300 mg"
+      },
+      {
+        "code" : "MED-497",
+        "display" : "Contre-indication aspirine"
+      },
+      {
+        "code" : "MED-500",
+        "display" : "Inclusion dans protocole"
+      },
+      {
+        "code" : "MED-501",
+        "display" : "Date de consentement au protocole"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "42796-3",
+        "display" : "Nom du protocole d'essai clinique"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "233428003",
+        "display" : "thrombolyse d'une veine"
+      },
+      {
+        "code" : "43810009",
+        "display" : "thrombectomie"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "B01AC04",
+        "display" : "clopidogrel"
+      },
+      {
+        "code" : "B01AB01",
+        "display" : "héparine"
+      }]
+    }]
+  }
+}

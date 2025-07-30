@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="F-D0720" codeSystem="" displayName="thrombolyse"/>
-         <Concept code="P1-30322" codeSystem="" displayName="thrombectomie"/>
+         <Concept code="F-D0720"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="thrombolyse"/>
+         <Concept code="P1-30322"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="thrombectomie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

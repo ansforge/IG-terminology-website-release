@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-008" codeSystem="" displayName="Oui"/>
-         <Concept code="GEN-009" codeSystem="" displayName="Non"/>
-         <Concept code="GEN-010" codeSystem="" displayName="Ne sait pas"/>
+         <Concept code="GEN-008"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Oui"/>
+         <Concept code="GEN-009"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non"/>
+         <Concept code="GEN-010"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Ne sait pas"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

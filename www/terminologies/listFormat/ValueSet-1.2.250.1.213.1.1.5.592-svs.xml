@@ -11,12 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C15409"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
                   displayName="transfusion de concentré de globules rouges"/>
-         <Concept code="C15366" codeSystem="" displayName="transfusion de plaquettes"/>
-         <Concept code="C140042" codeSystem="" displayName="transfusion de plasma"/>
+         <Concept code="C15366"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="transfusion de plaquettes"/>
+         <Concept code="C140042"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="transfusion de plasma"/>
          <Concept code="GEN-092.03.06"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre type de produit sanguin labile"/>
       </ConceptList>
    </ValueSet>

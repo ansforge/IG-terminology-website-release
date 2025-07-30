@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1088" codeSystem="" displayName="Graisse péri-rénale"/>
-         <Concept code="1089" codeSystem="" displayName="Graisse sinusale"/>
-         <Concept code="1090" codeSystem="" displayName="Fascia de Gérota"/>
-         <Concept code="1091" codeSystem="" displayName="Voies excrétrices"/>
-         <Concept code="1092" codeSystem="" displayName="Surrénale"/>
+         <Concept code="1088"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Graisse péri-rénale"/>
+         <Concept code="1089"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Graisse sinusale"/>
+         <Concept code="1090"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Fascia de Gérota"/>
+         <Concept code="1091"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Voies excrétrices"/>
+         <Concept code="1092"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Surrénale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

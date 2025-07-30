@@ -1,14 +1,14 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.660;JDV;JDV_Modalite_demandeActeImagerie_CISIS.tabs;JDV_Modalite_demandeActeImagerie_CISIS;;20210315000000;;20211216000000
-<OID>;<Code>;<Libellé> 
-;C63334;Radiologie interventionnelle
-;MED-1126;Radiographie sans contraste
-;MED-1127;Radiographie avec contraste
-;MED-1128;Échographie sans contraste
-;MED-1129;Échographie avec contraste
-;MG;Mammographie
-;CT;Scanner/TDM
-;MR;IRM
-;OT;Autre technique d'imagerie
-;NM;Scintigraphie
-;PT;TEP : Tomographie par émission de positons
+<OID>;<Code>;<Libellé>
+2.16.840.1.113883.3.26.1.1;C63334;Radiologie interventionnelle
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-1126;Radiographie sans contraste
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-1127;Radiographie avec contraste
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-1128;Échographie sans contraste
+https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322;MED-1129;Échographie avec contraste
+1.2.840.10008.2.16.4;MG;Mammographie
+1.2.840.10008.2.16.4;CT;Scanner/TDM
+1.2.840.10008.2.16.4;MR;IRM
+1.2.840.10008.2.16.4;OT;Autre technique d'imagerie
+1.2.840.10008.2.16.4;NM;Scintigraphie
+1.2.840.10008.2.16.4;PT;TEP : Tomographie par émission de positons

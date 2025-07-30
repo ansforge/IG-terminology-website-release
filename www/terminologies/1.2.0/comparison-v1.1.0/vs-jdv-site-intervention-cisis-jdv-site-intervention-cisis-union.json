@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2684",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2684",
+  "name" : "UnionJdvSiteInterventionCisisAndJdvSiteInterventionCisis",
+  "title" : "Union of JDV Site Intervention CISIS And JDV Site Intervention CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "15825003",
+        "display" : "aorte"
+      },
+      {
+        "code" : "41801008",
+        "display" : "artère coronaire"
+      },
+      {
+        "code" : "22286001",
+        "display" : "artère carotide externe"
+      },
+      {
+        "code" : "85234005",
+        "display" : "artère vertébrale"
+      },
+      {
+        "code" : "36765005",
+        "display" : "artère subclavière"
+      },
+      {
+        "code" : "10293006",
+        "display" : "artère iliaque"
+      },
+      {
+        "code" : "127955005",
+        "display" : "artère intracrânienne"
+      },
+      {
+        "code" : "61685007",
+        "display" : "membre inférieur"
+      }]
+    }]
+  }
+}

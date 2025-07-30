@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="https://mos.esante.gouv.fr/NOS/JDV_J163-GlucoseUnits-ENS">
       <ConceptList>
-         <Concept code="mg/dL" codeSystem="" displayName="milligramme par décilitre"/>
-         <Concept code="%" codeSystem="" displayName="pourcentage"/>
+         <Concept code="mg/dL"
+                  codeSystem="2.16.840.1.113883.6.8"
+                  displayName="milligramme par décilitre"/>
+         <Concept code="%"
+                  codeSystem="2.16.840.1.113883.6.8"
+                  displayName="pourcentage"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

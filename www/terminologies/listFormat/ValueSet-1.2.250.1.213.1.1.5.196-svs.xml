@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-442" codeSystem="" displayName="Carotidien territorial"/>
-         <Concept code="MED-443" codeSystem="" displayName="Carotidien lacunaire"/>
-         <Concept code="MED-444" codeSystem="" displayName="VB territorial"/>
-         <Concept code="MED-445" codeSystem="" displayName="VB lacunaire"/>
+         <Concept code="MED-442"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Carotidien territorial"/>
+         <Concept code="MED-443"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Carotidien lacunaire"/>
+         <Concept code="MED-444"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="VB territorial"/>
+         <Concept code="MED-445"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="VB lacunaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

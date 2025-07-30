@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2540",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2540",
+  "name" : "UnionJdvResultatDepistageAcideAscorbiqueCisisAndJdvResultatDepistageAcideAscorbiqueCisis",
+  "title" : "Union of JDV Resultat Depistage Acide Ascorbique CISIS And JDV Resultat Depistage Acide Ascorbique CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "260385009",
+        "display" : "négatif(-ive)"
+      },
+      {
+        "code" : "1345200000",
+        "display" : "présence + sur ++"
+      },
+      {
+        "code" : "1345201001",
+        "display" : "présence ++ sur ++"
+      }]
+    }]
+  }
+}

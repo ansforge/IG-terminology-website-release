@@ -10,19 +10,33 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="EDAP_001" codeSystem="" displayName="Réanimation"/>
-         <Concept code="EDAP_002" codeSystem="" displayName="Intubation"/>
-         <Concept code="EDAP_003" codeSystem="" displayName="Perfusions"/>
+         <Concept code="EDAP_001"
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
+                  displayName="Réanimation"/>
+         <Concept code="EDAP_002"
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
+                  displayName="Intubation"/>
+         <Concept code="EDAP_003"
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
+                  displayName="Perfusions"/>
          <Concept code="EDAP_004"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
                   displayName="Réanimation Cardiopulmonaire"/>
-         <Concept code="EDAP_005" codeSystem="" displayName="Antibiothérapie"/>
-         <Concept code="EDAP_006" codeSystem="" displayName="Maintien en vie"/>
+         <Concept code="EDAP_005"
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
+                  displayName="Antibiothérapie"/>
+         <Concept code="EDAP_006"
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
+                  displayName="Maintien en vie"/>
          <Concept code="EDAP_007"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
                   displayName="Alimentation parentérale"/>
-         <Concept code="EDAP_008" codeSystem="" displayName="Transfusion"/>
-         <Concept code="EDAP_009" codeSystem="" displayName="Donneur d'organes"/>
+         <Concept code="EDAP_008"
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
+                  displayName="Transfusion"/>
+         <Concept code="EDAP_009"
+                  codeSystem="1.2.250.1.213.1.1.4.2.285"
+                  displayName="Donneur d'organes"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

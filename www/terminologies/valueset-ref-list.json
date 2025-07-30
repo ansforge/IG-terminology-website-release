@@ -56,7 +56,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-      "version" : "20250328120000",
+      "version" : "20250721120000",
       "status" : "active",
       "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
       "title" : null,
@@ -117,7 +117,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-      "version" : "20250626120000",
+      "version" : "20250721120000",
       "status" : "active",
       "name" : "JDV_J05_SubjectRole_CISIS",
       "title" : null,
@@ -986,13 +986,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J154-TypeGlucose-ENS/FHIR/JDV-J154-TypeGlucose-ENS",
-      "version" : "20250425120000",
+      "version" : "20250728120000",
       "status" : "active",
       "name" : "JDV_J154_TypeGlucose_ENS",
       "title" : null,
       "description" : "JDV pour caractériser le type de glucose",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
         "http://loinc.org"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.609"],
@@ -1025,13 +1025,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J157-MomentGlucose-ENS/FHIR/JDV-J157-MomentGlucose-ENS",
-      "version" : "20250425120000",
+      "version" : "20250728120000",
       "status" : "active",
       "name" : "JDV_J157_MomentGlucose_ENS",
       "title" : null,
       "description" : "JDV pour caractériser le moment de la mesure de glucose",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322",
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
         "http://loinc.org"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.612"],
@@ -1109,13 +1109,13 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J164-GlucoseNumberOfDays-ENS/FHIR/JDV-J164-GlucoseNumberOfDays-ENS",
-      "version" : "20241213120000",
+      "version" : "20250728120000",
       "status" : "active",
       "name" : "JDV_J164_GlucoseNumberOfDays_ENS",
       "title" : null,
       "description" : "Liste fermée des codes utilisables pour la mesure du taux de glucose interstitiel et de l'index de gestion de glycémie (IGG) avec le profil ENS_ObservationGlucose",
       "systems" : [
-        "https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis"
       ],
       "oids" : ["1.2.250.1.213.1.1.5.640"],
       "sources" : ["1.2.250.1.213.1.1.5.640"]
@@ -1189,7 +1189,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-      "version" : "20250620120000",
+      "version" : "20250723120000",
       "status" : "active",
       "name" : "JDV_J17_ActiviteOperationnelle_ROR",
       "title" : null,
@@ -1400,7 +1400,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J186-ProfessionRessource-ROR/FHIR/JDV-J186-ProfessionRessource-ROR",
-      "version" : "20250623120000",
+      "version" : "20250710120000",
       "status" : "active",
       "name" : "JDV_J186_ProfessionRessource_ROR",
       "title" : null,
@@ -1978,7 +1978,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR",
-      "version" : "20250425120000",
+      "version" : "20250709120000",
       "status" : "active",
       "name" : "JDV_J226_ModaliteAccueil_ROR",
       "title" : null,
@@ -2139,7 +2139,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-      "version" : "20250625120000",
+      "version" : "20250710120000",
       "status" : "active",
       "name" : "JDV_J238_TypeOffre_ROR",
       "title" : null,
@@ -2721,7 +2721,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-      "version" : "20250625120000",
+      "version" : "20250723120000",
       "status" : "active",
       "name" : "JDV_J34_CategorieOrganisation_ROR",
       "title" : null,
@@ -5816,8 +5816,8 @@
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-indicateur-anormalite-cisis",
-      "version" : "20250624152100",
-      "status" : "active",
+      "version" : "20250708100000",
+      "status" : "retired",
       "name" : "JdvIndicateurAnormaliteCisis",
       "title" : "JDV Indicateur Anormalite CISIS",
       "description" : "JDV Indicateur Anormalite CISIS",
@@ -9451,7 +9451,10 @@
       "name" : "ValueSet_ATC_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"]
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"],
+      "uses" : {
+      },
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
@@ -9460,7 +9463,10 @@
       "name" : "ValueSet_BDPM_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"]
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
+      "uses" : {
+      },
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -9478,7 +9484,11 @@
       "name" : "ValueSet_NUVA_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie NUVA",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"]
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
+      "uses" : {
+      },
+      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
+      "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",

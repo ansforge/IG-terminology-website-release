@@ -11,12 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-965"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Métastases à distance (cutanées ou sous-cutanées ou ganglionnaires au-delà des ganglions loco-régionaux)"/>
-         <Concept code="MED-966" codeSystem="" displayName="Métastases pulmonaires"/>
-         <Concept code="MED-968" codeSystem="" displayName="Métastases dans le SNC"/>
+         <Concept code="MED-966"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Métastases pulmonaires"/>
+         <Concept code="MED-968"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Métastases dans le SNC"/>
          <Concept code="GEN-092.01.19"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autres métastases viscérales. Toutes métastases à distance (autres que SNC)"/>
       </ConceptList>
    </ValueSet>

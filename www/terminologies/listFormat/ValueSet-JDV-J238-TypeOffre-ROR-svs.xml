@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250625120000"
+             dateMaj="20250710120000"
              dateValid="20240126120000"
              description="Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne"
              displayName="JDV_J238_TypeOffre_ROR"
@@ -201,7 +201,7 @@
                   displayName="Bureau d'Aide Psychologique Universitaire (B.A.P.U.)"/>
          <Concept code="65"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Pôles de compétences et de prestations externalisées (PCPE)"/>
+                  displayName="Pôle de compétences et de prestations externalisées (PCPE)"/>
          <Concept code="66"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Equipe Relai Handicap rare"/>
@@ -717,7 +717,7 @@
                   displayName="Unité hospitalière d'anesthésie"/>
          <Concept code="238"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité de médecine polyvalente"/>
+                  displayName="Unité hospitalière de médecine polyvalente"/>
          <Concept code="239"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière de médecine nucléaire"/>
@@ -829,6 +829,15 @@
          <Concept code="275"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité de dialyse Médicalisée (UDM)"/>
+         <Concept code="276"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité d’Accueil et de Soins pour personnes Sourdes et malentendantes (UASS)"/>
+         <Concept code="277"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe de coordination hospitalière de tissus et/ou d’organes"/>
+         <Concept code="278"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité Hospitalière de Courte Durée (UHCD)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

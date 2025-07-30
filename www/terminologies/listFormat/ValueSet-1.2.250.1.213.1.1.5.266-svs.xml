@@ -10,9 +10,11 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="551" codeSystem="" displayName="Hystérectomie"/>
+         <Concept code="551"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Hystérectomie"/>
          <Concept code="553"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Hystérectomie + annexectomie bilatérale"/>
       </ConceptList>
    </ValueSet>

@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2114",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2114",
+  "name" : "UnionXBasicConfidentialityKindAndXBasicConfidentialityKind",
+  "title" : "Union of x_BasicConfidentialityKind And x_BasicConfidentialityKind",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "N",
+        "display" : "Normal"
+      },
+      {
+        "code" : "R",
+        "display" : "Restreint"
+      },
+      {
+        "code" : "V",
+        "display" : "Très restreint"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,451 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2085",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2085",
+  "name" : "IntersectionPersonalRelationshipRoleTypeAndPersonalRelationshipRoleType",
+  "title" : "Intersection of PersonalRelationshipRoleType And PersonalRelationshipRoleType",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ADOPTF",
+        "display" : "Père adoptif"
+      },
+      {
+        "code" : "ADOPTM",
+        "display" : "Mère adoptive"
+      },
+      {
+        "code" : "ADOPTP",
+        "display" : "Parent adoptif, au sens père ou mère"
+      },
+      {
+        "code" : "AUNT",
+        "display" : "Tante"
+      },
+      {
+        "code" : "BRO",
+        "display" : "Frère"
+      },
+      {
+        "code" : "BROINLAW",
+        "display" : "Beau-frère"
+      },
+      {
+        "code" : "CHILD",
+        "display" : "Enfant"
+      },
+      {
+        "code" : "CHLDADOPT",
+        "display" : "Enfant adopté"
+      },
+      {
+        "code" : "CHLDFOST",
+        "display" : "Enfant placé en famille d'accueil"
+      },
+      {
+        "code" : "CHLDINLAW",
+        "display" : "Gendre ou belle-fille"
+      },
+      {
+        "code" : "COUSN",
+        "display" : "Cousin(e)"
+      },
+      {
+        "code" : "DAU",
+        "display" : "Fille biologique"
+      },
+      {
+        "code" : "DAUADOPT",
+        "display" : "Fille adoptive"
+      },
+      {
+        "code" : "DAUC",
+        "display" : "Fille"
+      },
+      {
+        "code" : "DAUFOST",
+        "display" : "Fille placée en famille d'accueil"
+      },
+      {
+        "code" : "DAUINLAW",
+        "display" : "Belle-fille"
+      },
+      {
+        "code" : "DOMPART",
+        "display" : "Concubin(e) ou partenaire PACS"
+      },
+      {
+        "code" : "EXT",
+        "display" : "Autre membre de la famille sans lien génétique direct"
+      },
+      {
+        "code" : "FAMMEMB",
+        "display" : "Autre membre de la famille"
+      },
+      {
+        "code" : "FMRSPS",
+        "display" : "Ancien époux ou ancienne épouse"
+      },
+      {
+        "code" : "FRND",
+        "display" : "Autre proche"
+      },
+      {
+        "code" : "FTH",
+        "display" : "Père"
+      },
+      {
+        "code" : "FTHFOST",
+        "display" : "Assistant familial - Famille d'accueil"
+      },
+      {
+        "code" : "FTHINLAW",
+        "display" : "Beau-père"
+      },
+      {
+        "code" : "FTWIN",
+        "display" : "Jumeau ou jumelle dizygote"
+      },
+      {
+        "code" : "FTWINBRO",
+        "display" : "Jumeau dizygote"
+      },
+      {
+        "code" : "FTWINSIS",
+        "display" : "Jumelle dizygote"
+      },
+      {
+        "code" : "GESTM",
+        "display" : "Mère porteuse"
+      },
+      {
+        "code" : "GGRFTH",
+        "display" : "Arrière-grand-père"
+      },
+      {
+        "code" : "GGRMTH",
+        "display" : "Arrière-grand-mère"
+      },
+      {
+        "code" : "GGRPRN",
+        "display" : "Arrière-grand-parent"
+      },
+      {
+        "code" : "GRFTH",
+        "display" : "Grand-père"
+      },
+      {
+        "code" : "GRMTH",
+        "display" : "Grand-mère"
+      },
+      {
+        "code" : "GRPRN",
+        "display" : "Grand-parent"
+      },
+      {
+        "code" : "GRNDCHILD",
+        "display" : "Petit-enfant"
+      },
+      {
+        "code" : "GRNDDAU",
+        "display" : "Petite-fille"
+      },
+      {
+        "code" : "GRNDSON",
+        "display" : "Petit-fils"
+      },
+      {
+        "code" : "HBRO",
+        "display" : "Demi-frère"
+      },
+      {
+        "code" : "HSIB",
+        "display" : "Demi-frère ou demi-sœur"
+      },
+      {
+        "code" : "HSIS",
+        "display" : "Demi-sœur"
+      },
+      {
+        "code" : "HUSB",
+        "display" : "Epoux"
+      },
+      {
+        "code" : "ITWIN",
+        "display" : "Jumeau ou jumelle monozygote"
+      },
+      {
+        "code" : "ITWINBRO",
+        "display" : "Jumeau monozygote"
+      },
+      {
+        "code" : "ITWINSIS",
+        "display" : "Jumelle monozygote"
+      },
+      {
+        "code" : "MAUNT",
+        "display" : "Tante maternelle"
+      },
+      {
+        "code" : "MCOUSN",
+        "display" : "Cousin (maternel)"
+      },
+      {
+        "code" : "MGGRFTH",
+        "display" : "Arrière-grand-père maternel"
+      },
+      {
+        "code" : "MGGRMTH",
+        "display" : "Arrière-grand-mère maternelle"
+      },
+      {
+        "code" : "MGGRPRN",
+        "display" : "Arrière grand parent maternel"
+      },
+      {
+        "code" : "MGRFTH",
+        "display" : "Grand-père maternel"
+      },
+      {
+        "code" : "MGRMTH",
+        "display" : "Grand-mère maternelle"
+      },
+      {
+        "code" : "MGRPRN",
+        "display" : "Grand parent maternel"
+      },
+      {
+        "code" : "MTH",
+        "display" : "Mère"
+      },
+      {
+        "code" : "MTHFOST",
+        "display" : "Assistante familiale - Famille d'accueil"
+      },
+      {
+        "code" : "MTHINLAW",
+        "display" : "Belle-mère"
+      },
+      {
+        "code" : "MUNCLE",
+        "display" : "Oncle maternel"
+      },
+      {
+        "code" : "NBOR",
+        "display" : "Voisin(e)"
+      },
+      {
+        "code" : "NBRO",
+        "display" : "Frère biologique"
+      },
+      {
+        "code" : "NCHILD",
+        "display" : "Enfant biologique"
+      },
+      {
+        "code" : "NEPHEW",
+        "display" : "Neveu"
+      },
+      {
+        "code" : "NFTH",
+        "display" : "Père biologique"
+      },
+      {
+        "code" : "NFTHF",
+        "display" : "Père biologique du fœtus"
+      },
+      {
+        "code" : "NIECE",
+        "display" : "Nièce"
+      },
+      {
+        "code" : "NIENEPH",
+        "display" : "Neveu ou nièce"
+      },
+      {
+        "code" : "NMTH",
+        "display" : "Mère biologique"
+      },
+      {
+        "code" : "NMTHF",
+        "display" : "Mère biologique du fœtus"
+      },
+      {
+        "code" : "NPRN",
+        "display" : "Parent biologique, au sens père ou mère"
+      },
+      {
+        "code" : "NSIB",
+        "display" : "Frère ou soeur biologique"
+      },
+      {
+        "code" : "NSIS",
+        "display" : "Soeur biologique"
+      },
+      {
+        "code" : "PAUNT",
+        "display" : "Tante paternelle"
+      },
+      {
+        "code" : "PCOUSN",
+        "display" : "Cousin (paternel)"
+      },
+      {
+        "code" : "PGGRFTH",
+        "display" : "Arrière-grand-père paternel"
+      },
+      {
+        "code" : "PGGRMTH",
+        "display" : "Arrière-grand-mère paternelle"
+      },
+      {
+        "code" : "PGGRPRN",
+        "display" : "Arrière grand parent paternel"
+      },
+      {
+        "code" : "PGRFTH",
+        "display" : "Grand-père paternel"
+      },
+      {
+        "code" : "PGRMTH",
+        "display" : "Grand-mère paternelle"
+      },
+      {
+        "code" : "PGRPRN",
+        "display" : "Grand parent paternel"
+      },
+      {
+        "code" : "PRN",
+        "display" : "Parent, au sens père ou mère"
+      },
+      {
+        "code" : "PRNINLAW",
+        "display" : "Beau-père ou belle-mère"
+      },
+      {
+        "code" : "PRNFOST",
+        "display" : "Parent, au sens famille d'accueil"
+      },
+      {
+        "code" : "PUNCLE",
+        "display" : "Oncle paternel"
+      },
+      {
+        "code" : "RESPRSN",
+        "display" : "Responsable légal non membre de la famille"
+      },
+      {
+        "code" : "ROOM",
+        "display" : "Personne vivant sous le même toit"
+      },
+      {
+        "code" : "SIB",
+        "display" : "Frère ou sœur"
+      },
+      {
+        "code" : "SIBINLAW",
+        "display" : "Beau-frère ou belle-sœur"
+      },
+      {
+        "code" : "SIGOTHR",
+        "display" : "Conjoint"
+      },
+      {
+        "code" : "SIS",
+        "display" : "Sœur"
+      },
+      {
+        "code" : "SISINLAW",
+        "display" : "Belle-sœur"
+      },
+      {
+        "code" : "SON",
+        "display" : "Fils biologique"
+      },
+      {
+        "code" : "SONADOPT",
+        "display" : "Fils adoptif"
+      },
+      {
+        "code" : "SONC",
+        "display" : "Fils"
+      },
+      {
+        "code" : "SONFOST",
+        "display" : "Garçon placé en famille d'accueil"
+      },
+      {
+        "code" : "SONINLAW",
+        "display" : "Gendre"
+      },
+      {
+        "code" : "SPS",
+        "display" : "Epoux ou épouse"
+      },
+      {
+        "code" : "STPBRO",
+        "display" : "Fils du beau-père ou de la belle-mère"
+      },
+      {
+        "code" : "STPFTH",
+        "display" : "Beau-père - époux du père ou de la mère"
+      },
+      {
+        "code" : "STPMTH",
+        "display" : "Belle-mère - épouse du père ou de la mère"
+      },
+      {
+        "code" : "STPCHLD",
+        "display" : "Enfant du conjoint, issu d'un mariage précédent"
+      },
+      {
+        "code" : "STPDAU",
+        "display" : "Fille du conjoint, issue d'un mariage précédent"
+      },
+      {
+        "code" : "STPPRN",
+        "display" : "Beau-père ou belle-mère - époux(se) du père ou de la mère"
+      },
+      {
+        "code" : "STPSIB",
+        "display" : "Enfant du beau-père ou de la belle-mère"
+      },
+      {
+        "code" : "STPSIS",
+        "display" : "Fille du beau-père ou de la belle-mère"
+      },
+      {
+        "code" : "STPSON",
+        "display" : "Fils du conjoint, issu d'un mariage précédent"
+      },
+      {
+        "code" : "TWIN",
+        "display" : "Frère jumeau ou soeur jumelle"
+      },
+      {
+        "code" : "TWINBRO",
+        "display" : "Frère jumeau"
+      },
+      {
+        "code" : "TWINSIS",
+        "display" : "Soeur jumelle"
+      },
+      {
+        "code" : "UNCLE",
+        "display" : "Oncle"
+      },
+      {
+        "code" : "WIFE",
+        "display" : "Epouse"
+      }]
+    }]
+  }
+}

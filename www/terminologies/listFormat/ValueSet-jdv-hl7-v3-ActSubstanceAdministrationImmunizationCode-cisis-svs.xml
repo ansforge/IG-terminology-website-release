@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="BOOSTER" codeSystem="" displayName="Rappel de vaccin"/>
+         <Concept code="BOOSTER"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  displayName="Rappel de vaccin"/>
          <Concept code="IMMUNIZ"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="Vaccination sans autre précision"/>
          <Concept code="INITIMMUNIZ"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
                   displayName="1ère série vaccinante"/>
       </ConceptList>
    </ValueSet>

@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="N" codeSystem="" displayName="Normal"/>
-         <Concept code="R" codeSystem="" displayName="Restreint"/>
-         <Concept code="V" codeSystem="" displayName="Très restreint"/>
+         <Concept code="N"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  displayName="Normal"/>
+         <Concept code="R"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  displayName="Restreint"/>
+         <Concept code="V"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  displayName="Très restreint"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

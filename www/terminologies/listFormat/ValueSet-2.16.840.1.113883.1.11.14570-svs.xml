@@ -10,15 +10,33 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="APPFUL" codeSystem="" displayName="Applicatorful"/>
-         <Concept code="PUFF" codeSystem="" displayName="Puff"/>
-         <Concept code="SCOOP" codeSystem="" displayName="Scoops"/>
-         <Concept code="SPRY" codeSystem="" displayName="Sprays"/>
-         <Concept code="DROP" codeSystem="" displayName="Drops"/>
-         <Concept code="NDROP" codeSystem="" displayName="Nasal Drops"/>
-         <Concept code="OPDROP" codeSystem="" displayName="Ophthalmic Drops"/>
-         <Concept code="ORDROP" codeSystem="" displayName="Oral Drops"/>
-         <Concept code="OTDROP" codeSystem="" displayName="Otic Drops"/>
+         <Concept code="APPFUL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Applicatorful"/>
+         <Concept code="PUFF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Puff"/>
+         <Concept code="SCOOP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Scoops"/>
+         <Concept code="SPRY"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Sprays"/>
+         <Concept code="DROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Drops"/>
+         <Concept code="NDROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Nasal Drops"/>
+         <Concept code="OPDROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Ophthalmic Drops"/>
+         <Concept code="ORDROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Oral Drops"/>
+         <Concept code="OTDROP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  displayName="Otic Drops"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="FAMDEP" codeSystem="" displayName="Couverture familiale"/>
-         <Concept code="STUD" codeSystem="" displayName="Couverture étudiante"/>
-         <Concept code="SELF" codeSystem="" displayName="Couverture personnelle"/>
+         <Concept code="FAMDEP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Couverture familiale"/>
+         <Concept code="STUD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Couverture étudiante"/>
+         <Concept code="SELF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  displayName="Couverture personnelle"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

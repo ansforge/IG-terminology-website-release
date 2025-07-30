@@ -1,0 +1,33 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2141",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2141",
+  "name" : "UnionJdvInfoDecesCs8CisisAndJdvInfoDecesCs8Cisis",
+  "title" : "Union of JDV Info Deces Cs8 CISIS And JDV Info Deces Cs8 CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-173",
+        "display" : "Mort de l'enfant"
+      },
+      {
+        "code" : "PAT-034",
+        "display" : "Age au moment du décès"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "79378-6",
+        "display" : "Causes du décès"
+      }]
+    }]
+  }
+}

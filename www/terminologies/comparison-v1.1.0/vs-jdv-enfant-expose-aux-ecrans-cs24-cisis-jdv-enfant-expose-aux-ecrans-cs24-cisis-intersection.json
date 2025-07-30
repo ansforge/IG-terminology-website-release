@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1878",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1878",
+  "name" : "IntersectionJdvEnfantExposeAuxEcransCs24CisisAndJdvEnfantExposeAuxEcransCs24Cisis",
+  "title" : "Intersection of JDV Enfant Expose Aux Ecrans Cs24 CISIS And JDV Enfant Expose Aux Ecrans Cs24 CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-311",
+        "display" : "Jamais"
+      },
+      {
+        "code" : "GEN-312",
+        "display" : "< 1 fois/semaine"
+      },
+      {
+        "code" : "GEN-313",
+        "display" : ">= 1 fois/semaine"
+      }]
+    }]
+  }
+}

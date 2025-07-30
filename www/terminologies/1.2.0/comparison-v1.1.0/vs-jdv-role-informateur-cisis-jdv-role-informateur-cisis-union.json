@@ -1,0 +1,39 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2609",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2609",
+  "name" : "UnionJdvRoleInformateurCisisAndJdvRoleInformateurCisis",
+  "title" : "Union of Jdv Role Informateur CISIS And Jdv Role Informateur CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "CAREGIVER",
+        "display" : "aidant"
+      },
+      {
+        "code" : "CON",
+        "display" : "informateur"
+      },
+      {
+        "code" : "ECON",
+        "display" : "personne à prévenir en cas d’urgence"
+      },
+      {
+        "code" : "NOK",
+        "display" : "personne de confiance"
+      },
+      {
+        "code" : "PAT",
+        "display" : "aidé"
+      }]
+    }]
+  }
+}

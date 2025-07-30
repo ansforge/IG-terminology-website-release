@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="799" codeSystem="" displayName="Unique"/>
-         <Concept code="800" codeSystem="" displayName="Multifocale"/>
+         <Concept code="799"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Unique"/>
+         <Concept code="800"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Multifocale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="no-problem-info"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas d'information sur les problèmes"/>
          <Concept code="no-known-problems"
-                  codeSystem=""
+                  codeSystem="http://hl7.org/fhir/uv/ips/CodeSystem/absent-unknown-uv-ips"
                   displayName="Pas de problème connu"/>
       </ConceptList>
    </ValueSet>

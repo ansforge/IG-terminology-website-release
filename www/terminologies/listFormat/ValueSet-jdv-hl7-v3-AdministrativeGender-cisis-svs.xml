@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="F" codeSystem="" displayName="Féminin"/>
-         <Concept code="M" codeSystem="" displayName="Masculin"/>
-         <Concept code="UN" codeSystem="" displayName="Inconnu"/>
+         <Concept code="F"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"
+                  displayName="Féminin"/>
+         <Concept code="M"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"
+                  displayName="Masculin"/>
+         <Concept code="UN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-AdministrativeGender"
+                  displayName="Inconnu"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

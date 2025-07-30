@@ -1,12 +1,12 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 2.16.840.1.113883.1.11.13955;JDV;ActEncounterCode.tabs;ActEncounterCode;;20100101000000;;20250624152100
-<OID>;<Code>;<Libellé> 
-;AMB;Ambulatoire (hors établissement)
-;EMER;Passage aux urgences (établissement)
-;FLD;Terrain (voie publique, hélicoptère, ambulance, etc.)
-;HH;Soins à domicile (hors établissement)
-;IMP;Hospitalisation (établissement, y compris HAD)
-;OBSENC;Observation
-;PRENC;Pré-admission
-;SS;Hospitalisation de jour
-;VR;Virtuelle (exemple : RCP en l'absence du patient)
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-ActCode;AMB;Ambulatoire (hors établissement)
+http://terminology.hl7.org/CodeSystem/v3-ActCode;EMER;Passage aux urgences (établissement)
+http://terminology.hl7.org/CodeSystem/v3-ActCode;FLD;Terrain (voie publique, hélicoptère, ambulance, etc.)
+http://terminology.hl7.org/CodeSystem/v3-ActCode;HH;Soins à domicile (hors établissement)
+http://terminology.hl7.org/CodeSystem/v3-ActCode;IMP;Hospitalisation (établissement, y compris HAD)
+http://terminology.hl7.org/CodeSystem/v3-ActCode;OBSENC;Observation
+http://terminology.hl7.org/CodeSystem/v3-ActCode;PRENC;Pré-admission
+http://terminology.hl7.org/CodeSystem/v3-ActCode;SS;Hospitalisation de jour
+http://terminology.hl7.org/CodeSystem/v3-ActCode;VR;Virtuelle (exemple : RCP en l'absence du patient)

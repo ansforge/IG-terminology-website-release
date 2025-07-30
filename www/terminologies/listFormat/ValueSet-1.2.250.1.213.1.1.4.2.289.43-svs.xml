@@ -10,27 +10,39 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1259" codeSystem="" displayName="PPC nasale"/>
+         <Concept code="MED-1259"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="PPC nasale"/>
          <Concept code="MED-1260"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Ventilation sur tube endotrachéal"/>
          <Concept code="MED-174"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Geste technique spécialisé"/>
          <Concept code="OBS_233"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Aspiration sous laryngoscope"/>
-         <Concept code="OBS_234" codeSystem="" displayName="Ventilation au masque"/>
+         <Concept code="OBS_234"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Ventilation au masque"/>
          <Concept code="OBS_235"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Oxygène sous hood ou sonde nasale"/>
-         <Concept code="OBS_236" codeSystem="" displayName="PPC nasale"/>
+         <Concept code="OBS_236"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="PPC nasale"/>
          <Concept code="OBS_237"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Ventilation sur tube endotrachéal"/>
-         <Concept code="OBS_238" codeSystem="" displayName="Intubation trachéale"/>
-         <Concept code="OBS_239" codeSystem="" displayName="Massage cardiaque"/>
-         <Concept code="OBS_240" codeSystem="" displayName="Injection médicamenteuse"/>
+         <Concept code="OBS_238"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Intubation trachéale"/>
+         <Concept code="OBS_239"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Massage cardiaque"/>
+         <Concept code="OBS_240"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Injection médicamenteuse"/>
          <Concept code="5447007"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="transfusion"/>

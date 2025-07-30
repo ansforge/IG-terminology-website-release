@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="DA-38010" codeSystem="" displayName="migraine avec aura"/>
-         <Concept code="DA-38020" codeSystem="" displayName="migraine sans aura"/>
+         <Concept code="DA-38010"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="migraine avec aura"/>
+         <Concept code="DA-38020"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="migraine sans aura"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

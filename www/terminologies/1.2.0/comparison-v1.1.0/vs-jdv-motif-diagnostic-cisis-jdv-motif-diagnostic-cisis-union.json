@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2336",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2336",
+  "name" : "UnionJdvMotifDiagnosticCisisAndJdvMotifDiagnosticCisis",
+  "title" : "Union of JDV Motif Diagnostic CISIS And JDV Motif Diagnostic CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1056",
+        "display" : "Clinique"
+      },
+      {
+        "code" : "MED-110",
+        "display" : "Mammographique"
+      },
+      {
+        "code" : "MED-111",
+        "display" : "Clinique et mammographique"
+      }]
+    }]
+  }
+}

@@ -10,10 +10,18 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-103" codeSystem="" displayName="Normal"/>
-         <Concept code="AVC-178" codeSystem="" displayName="Somnolence ou coma léger"/>
-         <Concept code="AVC-179" codeSystem="" displayName="Coma lourd"/>
-         <Concept code="AVC-180" codeSystem="" displayName="Coma profond ou mort"/>
+         <Concept code="GEN-103"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Normal"/>
+         <Concept code="AVC-178"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Somnolence ou coma léger"/>
+         <Concept code="AVC-179"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Coma lourd"/>
+         <Concept code="AVC-180"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Coma profond ou mort"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

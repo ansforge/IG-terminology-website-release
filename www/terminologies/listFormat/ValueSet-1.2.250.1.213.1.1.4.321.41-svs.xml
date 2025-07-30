@@ -10,13 +10,25 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="AVC-115" codeSystem="" displayName="Athérome extracrânien"/>
-         <Concept code="AVC-116" codeSystem="" displayName="Athérome intracrânien"/>
-         <Concept code="AVC-117" codeSystem="" displayName="Embolie cardiaque"/>
-         <Concept code="AVC-118" codeSystem="" displayName="Maladie petites artères"/>
-         <Concept code="AVC-119" codeSystem="" displayName="Dissection des TSA"/>
-         <Concept code="AVC-121" codeSystem="" displayName="Etiologie multiple"/>
-         <Concept code="G-A609" codeSystem="" displayName="autre"/>
+         <Concept code="AVC-115"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Athérome extracrânien"/>
+         <Concept code="AVC-116"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Athérome intracrânien"/>
+         <Concept code="AVC-117"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Embolie cardiaque"/>
+         <Concept code="AVC-118"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Maladie petites artères"/>
+         <Concept code="AVC-119"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Dissection des TSA"/>
+         <Concept code="AVC-121"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Etiologie multiple"/>
+         <Concept code="G-A609" codeSystem="1.2.250.1.213.2.12" displayName="autre"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

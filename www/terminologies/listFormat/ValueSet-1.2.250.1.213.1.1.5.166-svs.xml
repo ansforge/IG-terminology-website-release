@@ -10,10 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="E10" codeSystem="" displayName="Diabète sucré de type 1"/>
-         <Concept code="E11" codeSystem="" displayName="Diabète sucré de type 2"/>
+         <Concept code="E10"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Diabète sucré de type 1"/>
+         <Concept code="E11"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Diabète sucré de type 2"/>
          <Concept code="E74.3"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Autres anomalies de l'absorption intestinale des hydrates de carbone"/>
       </ConceptList>
    </ValueSet>

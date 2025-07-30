@@ -10,20 +10,36 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-053" codeSystem="" displayName="Soins de support"/>
+         <Concept code="MED-053"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Soins de support"/>
          <Concept code="MED-229"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Radiologie interventionnelle"/>
          <Concept code="MED-256"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Préservation de la fertilité"/>
-         <Concept code="MED-257" codeSystem="" displayName="Cancers rares"/>
-         <Concept code="ORG-129" codeSystem="" displayName="Oncogénétique"/>
-         <Concept code="ORG-130" codeSystem="" displayName="Oncogériatrie"/>
-         <Concept code="ORG-131" codeSystem="" displayName="Oncologie médicale"/>
-         <Concept code="D1-F0106" codeSystem="" displayName="Métastase osseuse"/>
-         <Concept code="F-A2600" codeSystem="" displayName="Douleur"/>
-         <Concept code="P2-00200" codeSystem="" displayName="Soins palliatifs"/>
+         <Concept code="MED-257"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Cancers rares"/>
+         <Concept code="ORG-129"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Oncogénétique"/>
+         <Concept code="ORG-130"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Oncogériatrie"/>
+         <Concept code="ORG-131"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Oncologie médicale"/>
+         <Concept code="D1-F0106"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Métastase osseuse"/>
+         <Concept code="F-A2600"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Douleur"/>
+         <Concept code="P2-00200"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Soins palliatifs"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

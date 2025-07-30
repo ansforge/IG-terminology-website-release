@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1859",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1859",
+  "name" : "UnionJdvDeveloppementPsychomoteurCs24CisisAndJdvDeveloppementPsychomoteurCs24Cisis",
+  "title" : "Union of JDV Developpement Psychomoteur Cs24 CISIS And JDV Developpement Psychomoteur Cs24 CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-200",
+        "display" : "Marche acquise"
+      },
+      {
+        "code" : "MED-201",
+        "display" : "Age de la marche acquise (mois)"
+      },
+      {
+        "code" : "MED-1274",
+        "display" : "Repérage troubles du neurodéveloppement"
+      }]
+    }]
+  }
+}

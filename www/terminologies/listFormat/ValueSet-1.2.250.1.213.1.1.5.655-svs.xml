@@ -10,51 +10,75 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C53610" codeSystem="" displayName="Renouvellement"/>
-         <Concept code="C43383" codeSystem="" displayName="modèle"/>
-         <Concept code="MED-897" codeSystem="" displayName="Prise en charge LPP"/>
+         <Concept code="C53610"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Renouvellement"/>
+         <Concept code="C43383"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="modèle"/>
+         <Concept code="MED-897"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Prise en charge LPP"/>
          <Concept code="MED-1083"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Prescription pour primo porteur de lentille de contact"/>
          <Concept code="MED-1182"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Date de fin d'adapation de la prescription"/>
-         <Concept code="MED-1183" codeSystem="" displayName="Produit d'entretien"/>
-         <Concept code="MED-1180" codeSystem="" displayName="Type de lentille"/>
-         <Concept code="GEN-292" codeSystem="" displayName="Commentaire"/>
-         <Concept code="GEN-309" codeSystem="" displayName="matériau"/>
+         <Concept code="MED-1183"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Produit d'entretien"/>
+         <Concept code="MED-1180"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Type de lentille"/>
+         <Concept code="GEN-292"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Commentaire"/>
+         <Concept code="GEN-309"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="matériau"/>
          <Concept code="MED-1084"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Diamètre lentille – lentille prescrite"/>
          <Concept code="MED-1085"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Rayon 1 lentille – lentille prescrite"/>
          <Concept code="MED-1086"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Rayon 2 lentille – lentille prescrite"/>
          <Concept code="GEN-092.08.04"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre(s) paramètre(s)"/>
          <Concept code="MED-1065"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Valeur de la kératométrie dans l'axe le plus plat"/>
          <Concept code="MED-1066"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Valeur de la kératométrie dans l'axe le plus cambré"/>
          <Concept code="MED-1087"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Puissance de la sphère – lentille prescrite"/>
          <Concept code="MED-1088"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Puissance du cylindre – lentille prescrite"/>
-         <Concept code="74712-1" codeSystem="" displayName="Date de fin de validité"/>
-         <Concept code="69730-0" codeSystem="" displayName="Consignes et conseils"/>
-         <Concept code="95300-0" codeSystem="" displayName="Axe du K"/>
+         <Concept code="74712-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Date de fin de validité"/>
+         <Concept code="69730-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Consignes et conseils"/>
+         <Concept code="95300-0"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Axe du K"/>
          <Concept code="95325-7"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Axe en degrés des lentilles"/>
-         <Concept code="28814-2" codeSystem="" displayName="Addition – grandeur"/>
-         <Concept code="28815-9" codeSystem="" displayName="Addition – valeur"/>
+         <Concept code="28814-2"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Addition – grandeur"/>
+         <Concept code="28815-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Addition – valeur"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

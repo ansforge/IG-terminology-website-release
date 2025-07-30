@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1655",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1655",
+  "name" : "UnionJdvAideAuDeplacementCisisAndJdvAideAuDeplacementCisis",
+  "title" : "Union of JDV Aide Au Deplacement CISIS And JDV Aide Au Deplacement CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-192",
+        "display" : "Marche normale"
+      },
+      {
+        "code" : "GEN-092.08.01",
+        "display" : "Autre aide au déplacement"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "895457008",
+        "display" : "se déplace avec canne"
+      },
+      {
+        "code" : "895488007",
+        "display" : "se déplace avec déambulateur"
+      },
+      {
+        "code" : "301578005",
+        "display" : "se déplace en fauteuil roulant"
+      },
+      {
+        "code" : "160685001",
+        "display" : "état grabataire"
+      }]
+    }]
+  }
+}

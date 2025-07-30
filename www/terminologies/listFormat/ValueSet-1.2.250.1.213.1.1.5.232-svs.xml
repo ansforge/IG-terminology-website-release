@@ -11,9 +11,11 @@
              urlFichier="">
       <ConceptList>
          <Concept code="ORG-163"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Consultation de spécialité"/>
-         <Concept code="ORG-164" codeSystem="" displayName="Education thérapeutique"/>
+         <Concept code="ORG-164"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Education thérapeutique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

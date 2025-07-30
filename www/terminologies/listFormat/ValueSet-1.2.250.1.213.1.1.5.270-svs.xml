@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="809" codeSystem="" displayName="Cardia"/>
-         <Concept code="810" codeSystem="" displayName="Grosse tubérosité"/>
-         <Concept code="811" codeSystem="" displayName="Pylore"/>
-         <Concept code="812" codeSystem="" displayName="Corps"/>
-         <Concept code="813" codeSystem="" displayName="Antre"/>
+         <Concept code="809"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Cardia"/>
+         <Concept code="810"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Grosse tubérosité"/>
+         <Concept code="811"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Pylore"/>
+         <Concept code="812"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Corps"/>
+         <Concept code="813"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Antre"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

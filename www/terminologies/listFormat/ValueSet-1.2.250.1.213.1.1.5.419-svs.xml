@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="755" codeSystem="" displayName="Score 1"/>
-         <Concept code="756" codeSystem="" displayName="Score 2"/>
-         <Concept code="757" codeSystem="" displayName="Score 3"/>
+         <Concept code="755"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Score 1"/>
+         <Concept code="756"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Score 2"/>
+         <Concept code="757"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Score 3"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

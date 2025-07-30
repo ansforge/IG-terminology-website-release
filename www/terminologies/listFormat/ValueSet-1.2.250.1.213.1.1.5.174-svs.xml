@@ -11,43 +11,59 @@
              urlFichier="">
       <ConceptList>
          <Concept code="G52.3"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Affections du nerf grand hypoglosse"/>
          <Concept code="G90.2"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Syndrome de Claude Bernard–Horner"/>
-         <Concept code="H53.2" codeSystem="" displayName="Diplopie"/>
-         <Concept code="H54.4" codeSystem="" displayName="Cécité monoculaire"/>
+         <Concept code="H53.2"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Diplopie"/>
+         <Concept code="H54.4"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Cécité monoculaire"/>
          <Concept code="H55"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Nystagmus et autres anomalies des mouvements oculaires"/>
          <Concept code="Y06.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Délaissement et abandon par une personne non précisée"/>
-         <Concept code="R13" codeSystem="" displayName="Dysphagie"/>
+         <Concept code="R13"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Dysphagie"/>
          <Concept code="R41.8"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Symptômes et signes relatifs aux fonctions cognitives et à la conscience, autres et non précisés"/>
          <Concept code="R41.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Désorientation, sans précision"/>
          <Concept code="R47.02"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Aphasie, autre et sans précision"/>
-         <Concept code="R47.1" codeSystem="" displayName="Dysarthrie et anarthrie"/>
-         <Concept code="H57.04" codeSystem="" displayName="Mydriase"/>
-         <Concept code="H57.03" codeSystem="" displayName="Myosis"/>
+         <Concept code="R47.1"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Dysarthrie et anarthrie"/>
+         <Concept code="H57.04"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Mydriase"/>
+         <Concept code="H57.03"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Myosis"/>
          <Concept code="G98"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Autres affections du système nerveux, non classées ailleurs"/>
-         <Concept code="J39.2" codeSystem="" displayName="Paralysie du pharynx"/>
+         <Concept code="J39.2"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Paralysie du pharynx"/>
          <Concept code="K13.7"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Paralysie du voile du palais"/>
          <Concept code="MED-380"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Déficit moteur de la main"/>
-         <Concept code="MED-484" codeSystem="" displayName="Latéropulsion"/>
+         <Concept code="MED-484"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Latéropulsion"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

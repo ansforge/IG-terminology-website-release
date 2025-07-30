@@ -1,0 +1,253 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2501",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2501",
+  "name" : "UnionJdvRcpOrganeCisisAndJdvRcpOrganeCisis",
+  "title" : "Union of JDV RCP Organe CISIS And JDV RCP Organe CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C88",
+        "display" : "Maladies immunoprolifératives malignes"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "C3211",
+        "display" : "lymphome non hodgkinien"
+      },
+      {
+        "code" : "C9357",
+        "display" : "Lymphome de Hodgkin"
+      },
+      {
+        "code" : "C3483",
+        "display" : "leucémie chronique"
+      },
+      {
+        "code" : "C3163",
+        "display" : "Leucémie lymphocytique chronique"
+      },
+      {
+        "code" : "C3167",
+        "display" : "Leucémie lymphoblastique aiguë"
+      },
+      {
+        "code" : "C3172",
+        "display" : "Leucémie myéloïde"
+      },
+      {
+        "code" : "C3171",
+        "display" : "leucémie myéloïde aiguë"
+      },
+      {
+        "code" : "C3174",
+        "display" : "leucémie myéloïde chronique BCR-ABL positive"
+      },
+      {
+        "code" : "C4861",
+        "display" : "leucémie monocytaire aiguë"
+      },
+      {
+        "code" : "C9300",
+        "display" : "leucémie aiguë"
+      },
+      {
+        "code" : "C27262",
+        "display" : "maladies myélodysplasiques-myéloprolifératives"
+      },
+      {
+        "code" : "C3242",
+        "display" : "myélome à cellules plasmatiques"
+      },
+      {
+        "code" : "C94529",
+        "display" : "Vulve et vagin"
+      },
+      {
+        "code" : "C12664",
+        "display" : "Péritoine-rétropéritoine"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-237",
+        "display" : "Fosses nasales, sinus, oreille moy/int"
+      },
+      {
+        "code" : "MED-251",
+        "display" : "Colon-Rectum-Anus"
+      },
+      {
+        "code" : "MED-255",
+        "display" : "Trachée, Bronches, Poumon"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "57171008",
+        "display" : "structure du système hématopoïétique"
+      },
+      {
+        "code" : "119253004",
+        "display" : "voie aérodigestive supérieure"
+      },
+      {
+        "code" : "303270005",
+        "display" : "foie et/ou voies biliaires"
+      },
+      {
+        "code" : "39937001",
+        "display" : "peau"
+      },
+      {
+        "code" : "76752008",
+        "display" : "sein"
+      },
+      {
+        "code" : "306721000",
+        "display" : "os et/ou articulation"
+      },
+      {
+        "code" : "87784001",
+        "display" : "tissus mous"
+      },
+      {
+        "code" : "312419003",
+        "display" : "appareil respiratoire et/ou cavité thoracique"
+      },
+      {
+        "code" : "4596009",
+        "display" : "larynx"
+      },
+      {
+        "code" : "3120008",
+        "display" : "plèvre"
+      },
+      {
+        "code" : "86762007",
+        "display" : "système digestif"
+      },
+      {
+        "code" : "74262004",
+        "display" : "cavité orale"
+      },
+      {
+        "code" : "48477009",
+        "display" : "lèvre de la bouche"
+      },
+      {
+        "code" : "21974007",
+        "display" : "langue"
+      },
+      {
+        "code" : "54066008",
+        "display" : "pharynx"
+      },
+      {
+        "code" : "32849002",
+        "display" : "œsophage"
+      },
+      {
+        "code" : "69695003",
+        "display" : "estomac"
+      },
+      {
+        "code" : "30315005",
+        "display" : "intestin grêle"
+      },
+      {
+        "code" : "385294005",
+        "display" : "glande salivaire"
+      },
+      {
+        "code" : "15776009",
+        "display" : "pancréas"
+      },
+      {
+        "code" : "122489005",
+        "display" : "système urinaire"
+      },
+      {
+        "code" : "431491007",
+        "display" : "voies urinaires supérieures proprement dites"
+      },
+      {
+        "code" : "64033007",
+        "display" : "rein"
+      },
+      {
+        "code" : "89837001",
+        "display" : "vessie"
+      },
+      {
+        "code" : "53065001",
+        "display" : "appareil génital féminin"
+      },
+      {
+        "code" : "23952005",
+        "display" : "corps de l'utérus"
+      },
+      {
+        "code" : "71252005",
+        "display" : "col utérin"
+      },
+      {
+        "code" : "15497006",
+        "display" : "ovaire"
+      },
+      {
+        "code" : "90264002",
+        "display" : "appareil génital masculin"
+      },
+      {
+        "code" : "18911002",
+        "display" : "pénis"
+      },
+      {
+        "code" : "41216001",
+        "display" : "prostate"
+      },
+      {
+        "code" : "40689003",
+        "display" : "testicule"
+      },
+      {
+        "code" : "21483005",
+        "display" : "système nerveux central"
+      },
+      {
+        "code" : "84782009",
+        "display" : "nerf périphérique"
+      },
+      {
+        "code" : "1290040004",
+        "display" : "œil entier"
+      },
+      {
+        "code" : "387910009",
+        "display" : "glande endocrine"
+      },
+      {
+        "code" : "23451007",
+        "display" : "glande surrénale"
+      },
+      {
+        "code" : "69748006",
+        "display" : "glande thyroïde"
+      },
+      {
+        "code" : "72410000",
+        "display" : "médiastin"
+      }]
+    }]
+  }
+}

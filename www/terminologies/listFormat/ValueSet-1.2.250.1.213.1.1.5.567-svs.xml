@@ -11,9 +11,11 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-737"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Non atteinte par la tumeur"/>
-         <Concept code="MED-738" codeSystem="" displayName="Infiltrée"/>
+         <Concept code="MED-738"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Infiltrée"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

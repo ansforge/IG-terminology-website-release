@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1926",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1926",
+  "name" : "IntersectionJdvExamenBiochimieAunvCisisAndJdvExamenBiochimieAunvCisis",
+  "title" : "Intersection of JDV Examen Biochimie Aunv CISIS And JDV Examen Biochimie Aunv CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "32016-8",
+        "display" : "Glucose [Masse/Volume] Sang capillaire ; Numérique"
+      },
+      {
+        "code" : "2345-7",
+        "display" : "Glucose [Masse/Volume] Sérum/Plasma ; Numérique"
+      },
+      {
+        "code" : "53049-3",
+        "display" : "Glucose à jeun [Masse/Volume] Sérum/Plasma ; Numérique"
+      }]
+    }]
+  }
+}

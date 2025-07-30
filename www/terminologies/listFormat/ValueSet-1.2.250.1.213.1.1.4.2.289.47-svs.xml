@@ -11,27 +11,47 @@
              urlFichier="">
       <ConceptList>
          <Concept code="JQQP003"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.5"
                   displayName="Autopsie médicale d'un fœtus ou d'un nouveau-né de moins de 4 jours de vie, avec examen de l'encéphale"/>
-         <Concept code="GEN-092.04.01" codeSystem="" displayName="Autre dépistage"/>
-         <Concept code="GEN-092.04.13" codeSystem="" displayName="Autre acte"/>
+         <Concept code="GEN-092.04.01"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre dépistage"/>
+         <Concept code="GEN-092.04.13"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre acte"/>
          <Concept code="OBS_251"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Dépistage hyperphénylalaninémie"/>
-         <Concept code="OBS_252" codeSystem="" displayName="Dépistage hypothyroïdie"/>
+         <Concept code="OBS_252"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Dépistage hypothyroïdie"/>
          <Concept code="OBS_253"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Dépistage hyperplasie congénitale des surrénales"/>
-         <Concept code="OBS_254" codeSystem="" displayName="Dépistage drépanocytose"/>
-         <Concept code="OBS_255" codeSystem="" displayName="Dépistage mucoviscidose"/>
-         <Concept code="OBS_256" codeSystem="" displayName="Dépistage MCAD"/>
-         <Concept code="OBS_257" codeSystem="" displayName="Test audition"/>
-         <Concept code="OBS_269" codeSystem="" displayName="Autre dépistage"/>
+         <Concept code="OBS_254"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Dépistage drépanocytose"/>
+         <Concept code="OBS_255"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Dépistage mucoviscidose"/>
+         <Concept code="OBS_256"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Dépistage MCAD"/>
+         <Concept code="OBS_257"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Test audition"/>
+         <Concept code="OBS_269"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Autre dépistage"/>
          <Concept code="P2-45012"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Administration d'antibiotiques"/>
-         <Concept code="P2-47020" codeSystem="" displayName="Vaccination par le BCG"/>
-         <Concept code="P2-47430" codeSystem="" displayName="Vaccination Hépatite B"/>
+         <Concept code="P2-47020"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Vaccination par le BCG"/>
+         <Concept code="P2-47430"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Vaccination Hépatite B"/>
          <Concept code="68322007"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="administration d'un antibiotique"/>

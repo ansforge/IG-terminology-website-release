@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="LA18959-9" codeSystem="" displayName="Indéterminé"/>
-         <Concept code="LA2-8" codeSystem="" displayName="Masculin"/>
-         <Concept code="LA3-6" codeSystem="" displayName="Féminin"/>
+         <Concept code="LA18959-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Indéterminé"/>
+         <Concept code="LA2-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Masculin"/>
+         <Concept code="LA3-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Féminin"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

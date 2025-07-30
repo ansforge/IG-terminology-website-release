@@ -10,90 +10,180 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ADM" codeSystem="" displayName="Responsable de l'admission"/>
+         <Concept code="ADM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Responsable de l'admission"/>
          <Concept code="ALY"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Cible d'une observation (substance ou composant le plus spécifique)"/>
          <Concept code="ATND"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Superviseur / Responsable des soins"/>
-         <Concept code="AUT" codeSystem="" displayName="Auteur"/>
+         <Concept code="AUT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Auteur"/>
          <Concept code="AUTHEN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Valideur des résultats (ex : un biologiste ou un système expert)"/>
-         <Concept code="BBY" codeSystem="" displayName="Nouveau né"/>
-         <Concept code="BEN" codeSystem="" displayName="Bénéficiaire"/>
-         <Concept code="CAGNT" codeSystem="" displayName="Agent causal"/>
-         <Concept code="CALLBCK" codeSystem="" displayName="Contact à rappeler"/>
-         <Concept code="CAT" codeSystem="" displayName="Catalyseur"/>
-         <Concept code="CON" codeSystem="" displayName="Consultant"/>
+         <Concept code="BBY"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Nouveau né"/>
+         <Concept code="BEN"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Bénéficiaire"/>
+         <Concept code="CAGNT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Agent causal"/>
+         <Concept code="CALLBCK"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Contact à rappeler"/>
+         <Concept code="CAT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Catalyseur"/>
+         <Concept code="CON"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Consultant"/>
          <Concept code="COV"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Partie couverte (titulaire ou bénéficiaire)"/>
-         <Concept code="CSM" codeSystem="" displayName="Consommable"/>
-         <Concept code="CST" codeSystem="" displayName="Responsable de l'information"/>
+         <Concept code="CSM"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Consommable"/>
+         <Concept code="CST"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Responsable de l'information"/>
          <Concept code="DEV"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Dispositif automatique impliqué dans la production des résultats"/>
-         <Concept code="DIR" codeSystem="" displayName="Participant direct"/>
-         <Concept code="DIS" codeSystem="" displayName="Responsable de la sortie"/>
-         <Concept code="DIST" codeSystem="" displayName="Distributeur"/>
-         <Concept code="DON" codeSystem="" displayName="Donneur"/>
-         <Concept code="DST" codeSystem="" displayName="Destination"/>
+         <Concept code="DIR"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Participant direct"/>
+         <Concept code="DIS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Responsable de la sortie"/>
+         <Concept code="DIST"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Distributeur"/>
+         <Concept code="DON"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Donneur"/>
+         <Concept code="DST"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Destination"/>
          <Concept code="ELOC"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Emplacement où les données sont saisies"/>
          <Concept code="ENT"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Transcripteur du contenu à partir d'une autre forme"/>
-         <Concept code="ESC" codeSystem="" displayName="Accompagnateur"/>
-         <Concept code="EXPAGNT" codeSystem="" displayName="Agent de l'exposition"/>
-         <Concept code="EXPART" codeSystem="" displayName="Partie de l'exposition"/>
-         <Concept code="EXSRC" codeSystem="" displayName="Source de l'exposition"/>
-         <Concept code="EXPTRGT" codeSystem="" displayName="Cible de l'exposition"/>
-         <Concept code="GUAR" codeSystem="" displayName="Garant"/>
-         <Concept code="HLD" codeSystem="" displayName="Souscripteur"/>
-         <Concept code="IND" codeSystem="" displayName="Cible indirecte"/>
-         <Concept code="INF" codeSystem="" displayName="Informateur"/>
+         <Concept code="ESC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Accompagnateur"/>
+         <Concept code="EXPAGNT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Agent de l'exposition"/>
+         <Concept code="EXPART"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Partie de l'exposition"/>
+         <Concept code="EXSRC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Source de l'exposition"/>
+         <Concept code="EXPTRGT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Cible de l'exposition"/>
+         <Concept code="GUAR"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Garant"/>
+         <Concept code="HLD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Souscripteur"/>
+         <Concept code="IND"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Cible indirecte"/>
+         <Concept code="INF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Informateur"/>
          <Concept code="IRCP"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Destinataire de l'information"/>
-         <Concept code="LA" codeSystem="" displayName="Responsable légal de l'acte"/>
-         <Concept code="LOC" codeSystem="" displayName="Emplacement principal"/>
-         <Concept code="NRD" codeSystem="" displayName="Dispositif non réutilisable"/>
+         <Concept code="LA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Responsable légal de l'acte"/>
+         <Concept code="LOC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Emplacement principal"/>
+         <Concept code="NRD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Dispositif non réutilisable"/>
          <Concept code="NOT"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Personne à prévenir en cas d'urgence"/>
-         <Concept code="ORG" codeSystem="" displayName="Lieu d'origine"/>
-         <Concept code="PART" codeSystem="" displayName="Participant"/>
-         <Concept code="PPRF" codeSystem="" displayName="Exécutant principal"/>
+         <Concept code="ORG"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Lieu d'origine"/>
+         <Concept code="PART"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Participant"/>
+         <Concept code="PPRF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Exécutant principal"/>
          <Concept code="PRCP"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Destinataire principal de l'information"/>
-         <Concept code="PRD" codeSystem="" displayName="Produit"/>
-         <Concept code="PRF" codeSystem="" displayName="Exécutant"/>
-         <Concept code="RCT" codeSystem="" displayName="Dossier médical"/>
-         <Concept code="RCV" codeSystem="" displayName="Récepteur"/>
-         <Concept code="RDV" codeSystem="" displayName="Dispositif réutilisable"/>
-         <Concept code="REF" codeSystem="" displayName="Référent / Prescripteur"/>
+         <Concept code="PRD"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Produit"/>
+         <Concept code="PRF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Exécutant"/>
+         <Concept code="RCT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Dossier médical"/>
+         <Concept code="RCV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Récepteur"/>
+         <Concept code="RDV"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Dispositif réutilisable"/>
+         <Concept code="REF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Référent / Prescripteur"/>
          <Concept code="REFB"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Personne ayant adressé le patient"/>
          <Concept code="REFT"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Personne recevant le patient"/>
-         <Concept code="RESP" codeSystem="" displayName="Responsable de l'acte"/>
-         <Concept code="RML" codeSystem="" displayName="Emplacement distant"/>
-         <Concept code="SBJ" codeSystem="" displayName="Sujet"/>
-         <Concept code="SPC" codeSystem="" displayName="Echantillon"/>
-         <Concept code="SPRF" codeSystem="" displayName="Exécutant secondaire"/>
-         <Concept code="TRANS" codeSystem="" displayName="Transcripteur"/>
+         <Concept code="RESP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Responsable de l'acte"/>
+         <Concept code="RML"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Emplacement distant"/>
+         <Concept code="SBJ"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Sujet"/>
+         <Concept code="SPC"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Echantillon"/>
+         <Concept code="SPRF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Exécutant secondaire"/>
+         <Concept code="TRANS"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Transcripteur"/>
          <Concept code="TRC"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Personne recevant une copie de l'information"/>
-         <Concept code="VIA" codeSystem="" displayName="Emplacement intermédiaire"/>
-         <Concept code="VRF" codeSystem="" displayName="Vérificateur"/>
-         <Concept code="WIT" codeSystem="" displayName="Témoin"/>
+         <Concept code="VIA"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Emplacement intermédiaire"/>
+         <Concept code="VRF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Vérificateur"/>
+         <Concept code="WIT"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Témoin"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

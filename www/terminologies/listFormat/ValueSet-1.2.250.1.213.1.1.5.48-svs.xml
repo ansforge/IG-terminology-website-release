@@ -11,14 +11,20 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-081"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Chromosomique (caryotype, FISH)"/>
-         <Concept code="MED-082" codeSystem="" displayName="ACPA"/>
+         <Concept code="MED-082"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ACPA"/>
          <Concept code="MED-083"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Analyse moléculaire ciblée (1 ou plusieurs gènes)"/>
-         <Concept code="MED-084" codeSystem="" displayName="Analyse pangénomique"/>
-         <Concept code="GEN-092.04.17" codeSystem="" displayName="Autre technique"/>
+         <Concept code="MED-084"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Analyse pangénomique"/>
+         <Concept code="GEN-092.04.17"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre technique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

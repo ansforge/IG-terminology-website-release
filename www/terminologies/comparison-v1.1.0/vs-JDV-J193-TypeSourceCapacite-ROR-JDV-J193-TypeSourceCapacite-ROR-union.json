@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1133",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1133",
+  "name" : "UnionJDV_J193_TypeSourceCapacite_RORAndJDV_J193_TypeSourceCapacite_ROR",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "01",
+        "display" : "Saisie manuelle"
+      },
+      {
+        "code" : "02",
+        "display" : "Bed management"
+      },
+      {
+        "code" : "03",
+        "display" : "Gestion administrative du malade (GAM)"
+      },
+      {
+        "code" : "04",
+        "display" : "Dossier patient informatisé (DPI)"
+      }]
+    }]
+  }
+}

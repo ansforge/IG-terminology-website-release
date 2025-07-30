@@ -11,19 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="U83.71"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Bactérie multirésistante [BMR]"/>
          <Concept code="Z74.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Besoin d'assistance du fait de mobilité restreinte"/>
          <Concept code="MED-1124"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Patient nécessitant un accompagnement par un tiers"/>
          <Concept code="MED-1125"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Patient potentiellement non-coopérant (déficience mentale, etc.)"/>
          <Concept code="MED-1123"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Patient porteur d'un germe à transmission aérienne"/>
       </ConceptList>
    </ValueSet>

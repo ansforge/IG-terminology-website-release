@@ -10,14 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="1006" codeSystem="" displayName="Adénocarcinome prostatique"/>
-         <Concept code="1007" codeSystem="" displayName="Adénocarcinome ductal"/>
-         <Concept code="1008" codeSystem="" displayName="Carcinome mucineux"/>
-         <Concept code="1009" codeSystem="" displayName="Carcinome basaloïde"/>
+         <Concept code="1006"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Adénocarcinome prostatique"/>
+         <Concept code="1007"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Adénocarcinome ductal"/>
+         <Concept code="1008"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome mucineux"/>
+         <Concept code="1009"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome basaloïde"/>
          <Concept code="1010"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="Carcinome à cellules spumeuses"/>
-         <Concept code="1011" codeSystem="" displayName="Carcinome neuro-endocrine"/>
+         <Concept code="1011"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Carcinome neuro-endocrine"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

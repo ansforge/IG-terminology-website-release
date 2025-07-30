@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="582" codeSystem="" displayName="Pelviens"/>
-         <Concept code="583" codeSystem="" displayName="Para-aortiques"/>
-         <Concept code="584" codeSystem="" displayName="A distance"/>
+         <Concept code="582"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Pelviens"/>
+         <Concept code="583"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="Para-aortiques"/>
+         <Concept code="584"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="A distance"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

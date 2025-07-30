@@ -1,0 +1,83 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2946",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2946",
+  "name" : "IntersectionJdvTypeTraitementPpsCisisAndJdvTypeTraitementPpsCisis",
+  "title" : "Intersection of JDV Type Traitement Pps CISIS And JDV Type Traitement Pps CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "C15313",
+        "display" : "radiothérapie"
+      },
+      {
+        "code" : "C15195",
+        "display" : "curiethérapie"
+      },
+      {
+        "code" : "C15632",
+        "display" : "chimiothérapie"
+      },
+      {
+        "code" : "C93352",
+        "display" : "thérapie ciblée"
+      },
+      {
+        "code" : "C15445",
+        "display" : "hormonothérapie"
+      },
+      {
+        "code" : "C15262",
+        "display" : "immunothérapie"
+      },
+      {
+        "code" : "C63334",
+        "display" : "Radiologie interventionnelle"
+      },
+      {
+        "code" : "C157891",
+        "display" : "endoscopie interventionnelle"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "MED-556",
+        "display" : "Fenêtre thérapeutique"
+      },
+      {
+        "code" : "MED-226",
+        "display" : "Surveillance seule"
+      },
+      {
+        "code" : "MED-232",
+        "display" : "Irathérapie"
+      },
+      {
+        "code" : "MED-126",
+        "display" : "Allogreffe / Autogreffe"
+      },
+      {
+        "code" : "GEN-092.03.01",
+        "display" : "Autre(s) traitement(s)"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "387713003",
+        "display" : "intervention chirurgicale"
+      },
+      {
+        "code" : "424313000",
+        "display" : "surveillance active"
+      }]
+    }]
+  }
+}

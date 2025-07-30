@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1650",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1650",
+  "name" : "IntersectionJdvAgeCisisAndJdvAgeCisis",
+  "title" : "Intersection of JDV Age CISIS And JDV Age CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1288",
+        "display" : "Aucun signe à ce jour ou porteur sain"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "255407002",
+        "display" : "néonatal"
+      },
+      {
+        "code" : "767023003",
+        "display" : "période de la vie entre la naissance et la mort"
+      },
+      {
+        "code" : "373068000",
+        "display" : "indéterminé(e)"
+      },
+      {
+        "code" : "303112003",
+        "display" : "période fœtale"
+      },
+      {
+        "code" : "303113008",
+        "display" : "période postmortem"
+      }]
+    }]
+  }
+}

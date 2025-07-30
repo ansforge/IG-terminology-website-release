@@ -10,11 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-034" codeSystem="" displayName="Agrandissement"/>
+         <Concept code="MED-034"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Agrandissement"/>
          <Concept code="MED-035"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Cliché(s) supplémentaire(s)"/>
-         <Concept code="US" codeSystem="" displayName="Échographie"/>
+         <Concept code="US"
+                  codeSystem="1.2.840.10008.2.16.4"
+                  displayName="Échographie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

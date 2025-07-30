@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-1623",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-1623",
+  "name" : "IntersectionJdvAbsentOrUnknownProblemCisisAndJdvAbsentOrUnknownProblemCisis",
+  "title" : "Intersection of JDV Absent Or Unknown Pproblem CISIS And JDV Absent Or Unknown Pproblem CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "no-problem-info",
+        "display" : "Pas d'information sur les problèmes"
+      },
+      {
+        "code" : "no-known-problems",
+        "display" : "Pas de problème connu"
+      }]
+    }]
+  }
+}

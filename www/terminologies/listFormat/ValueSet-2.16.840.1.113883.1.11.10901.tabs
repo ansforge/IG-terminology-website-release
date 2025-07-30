@@ -1,61 +1,61 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 2.16.840.1.113883.1.11.10901;JDV;JDV_HL7_ParticipationType_CISIS.tabs;JDV_HL7_ParticipationType_CISIS;;20210315000000;;20200902000000
-<OID>;<Code>;<Libellé> 
-;ADM;Responsable de l'admission
-;ALY;Cible d'une observation (substance ou composant le plus spécifique)
-;ATND;Superviseur / Responsable des soins
-;AUT;Auteur
-;AUTHEN;Valideur des résultats (ex : un biologiste ou un système expert)
-;BBY;Nouveau né
-;BEN;Bénéficiaire
-;CAGNT;Agent causal
-;CALLBCK;Contact à rappeler
-;CAT;Catalyseur
-;CON;Consultant
-;COV;Partie couverte (titulaire ou bénéficiaire)
-;CSM;Consommable
-;CST;Responsable de l'information
-;DEV;Dispositif automatique impliqué dans la production des résultats
-;DIR;Participant direct
-;DIS;Responsable de la sortie
-;DIST;Distributeur
-;DON;Donneur
-;DST;Destination
-;ELOC;Emplacement où les données sont saisies
-;ENT;Transcripteur du contenu à partir d'une autre forme
-;ESC;Accompagnateur
-;EXPAGNT;Agent de l'exposition
-;EXPART;Partie de l'exposition
-;EXSRC;Source de l'exposition
-;EXPTRGT;Cible de l'exposition
-;GUAR;Garant
-;HLD;Souscripteur
-;IND;Cible indirecte
-;INF;Informateur
-;IRCP;Destinataire de l'information
-;LA;Responsable légal de l'acte
-;LOC;Emplacement principal
-;NRD;Dispositif non réutilisable
-;NOT;Personne à prévenir en cas d'urgence
-;ORG;Lieu d'origine
-;PART;Participant
-;PPRF;Exécutant principal
-;PRCP;Destinataire principal de l'information
-;PRD;Produit
-;PRF;Exécutant
-;RCT;Dossier médical
-;RCV;Récepteur
-;RDV;Dispositif réutilisable
-;REF;Référent / Prescripteur
-;REFB;Personne ayant adressé le patient
-;REFT;Personne recevant le patient
-;RESP;Responsable de l'acte
-;RML;Emplacement distant
-;SBJ;Sujet
-;SPC;Echantillon
-;SPRF;Exécutant secondaire
-;TRANS;Transcripteur
-;TRC;Personne recevant une copie de l'information
-;VIA;Emplacement intermédiaire
-;VRF;Vérificateur
-;WIT;Témoin
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;ADM;Responsable de l'admission
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;ALY;Cible d'une observation (substance ou composant le plus spécifique)
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;ATND;Superviseur / Responsable des soins
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;AUT;Auteur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;AUTHEN;Valideur des résultats (ex : un biologiste ou un système expert)
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;BBY;Nouveau né
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;BEN;Bénéficiaire
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;CAGNT;Agent causal
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;CALLBCK;Contact à rappeler
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;CAT;Catalyseur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;CON;Consultant
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;COV;Partie couverte (titulaire ou bénéficiaire)
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;CSM;Consommable
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;CST;Responsable de l'information
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;DEV;Dispositif automatique impliqué dans la production des résultats
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;DIR;Participant direct
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;DIS;Responsable de la sortie
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;DIST;Distributeur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;DON;Donneur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;DST;Destination
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;ELOC;Emplacement où les données sont saisies
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;ENT;Transcripteur du contenu à partir d'une autre forme
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;ESC;Accompagnateur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;EXPAGNT;Agent de l'exposition
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;EXPART;Partie de l'exposition
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;EXSRC;Source de l'exposition
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;EXPTRGT;Cible de l'exposition
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;GUAR;Garant
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;HLD;Souscripteur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;IND;Cible indirecte
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;INF;Informateur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;IRCP;Destinataire de l'information
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;LA;Responsable légal de l'acte
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;LOC;Emplacement principal
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;NRD;Dispositif non réutilisable
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;NOT;Personne à prévenir en cas d'urgence
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;ORG;Lieu d'origine
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;PART;Participant
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;PPRF;Exécutant principal
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;PRCP;Destinataire principal de l'information
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;PRD;Produit
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;PRF;Exécutant
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;RCT;Dossier médical
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;RCV;Récepteur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;RDV;Dispositif réutilisable
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;REF;Référent / Prescripteur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;REFB;Personne ayant adressé le patient
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;REFT;Personne recevant le patient
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;RESP;Responsable de l'acte
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;RML;Emplacement distant
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;SBJ;Sujet
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;SPC;Echantillon
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;SPRF;Exécutant secondaire
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;TRANS;Transcripteur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;TRC;Personne recevant une copie de l'information
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;VIA;Emplacement intermédiaire
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;VRF;Vérificateur
+http://terminology.hl7.org/CodeSystem/v3-ParticipationType;WIT;Témoin

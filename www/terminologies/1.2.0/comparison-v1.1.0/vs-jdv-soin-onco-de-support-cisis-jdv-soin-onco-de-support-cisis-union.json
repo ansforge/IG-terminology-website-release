@@ -1,0 +1,63 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2693",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2693",
+  "name" : "UnionJdvSoinOncoDeSupportCisisAndJdvSoinOncoDeSupportCisis",
+  "title" : "Union of JDV Soin Onco De Support CISIS And JDV Soin Onco De Support CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-035",
+        "display" : "Traitement de la douleur"
+      },
+      {
+        "code" : "ORG-036",
+        "display" : "Prise en charge diététique et nutritionnelle"
+      },
+      {
+        "code" : "ORG-174",
+        "display" : "Continuité de la scolarité"
+      },
+      {
+        "code" : "ORG-175",
+        "display" : "Activité physique adaptée"
+      },
+      {
+        "code" : "ORG-176",
+        "display" : "Conseil d’hygiène de vie"
+      },
+      {
+        "code" : "ORG-037",
+        "display" : "Soutien psychologique des proches et des aidants des personnes atteintes de cancer"
+      },
+      {
+        "code" : "MED-051",
+        "display" : "Soutien à la mise en oeuvre de la préservation de la fertilité"
+      },
+      {
+        "code" : "MED-562",
+        "display" : "Soutien au sevrage tabagique"
+      },
+      {
+        "code" : "MED-563",
+        "display" : "Soutien au sevrage alcoolique"
+      },
+      {
+        "code" : "MED-564",
+        "display" : "Soutien au sevrage (autre addiction)"
+      },
+      {
+        "code" : "GEN-092.04.07",
+        "display" : "Autre soins de support"
+      }]
+    }]
+  }
+}

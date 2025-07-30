@@ -10,18 +10,24 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-659" codeSystem="" displayName="Non évaluable"/>
-         <Concept code="1160" codeSystem="" displayName="I (Melanoma in situ)"/>
+         <Concept code="MED-659"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Non évaluable"/>
+         <Concept code="1160"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="I (Melanoma in situ)"/>
          <Concept code="1161"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="II (invasion partielle du derme papillaire,  pas d'atteinte du derme réticulaire)"/>
          <Concept code="1162"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="III (comblement du derme papillaire ou appui des mélanocytes sur l'interface derme papillaire/réticulaire)"/>
          <Concept code="1163"
-                  codeSystem=""
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
                   displayName="IV (invasion du derme réticulaire)"/>
-         <Concept code="1164" codeSystem="" displayName="V (invasion de l'hypoderme)"/>
+         <Concept code="1164"
+                  codeSystem="1.3.6.1.4.1.19376.1.8.2.1"
+                  displayName="V (invasion de l'hypoderme)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

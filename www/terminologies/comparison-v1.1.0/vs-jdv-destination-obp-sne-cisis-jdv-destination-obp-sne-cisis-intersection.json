@@ -1,0 +1,45 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1848",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1848",
+  "name" : "IntersectionJdvDestinationObpSneCisisAndJdvDestinationObpSneCisis",
+  "title" : "Intersection of JDV Destination Obp Sne CISIS And JDV Destination Obp Sne CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "ORG-141",
+        "display" : "Unité Kangourou"
+      },
+      {
+        "code" : "GEN-092.06.03",
+        "display" : "Autre destination"
+      }]
+    },
+    {
+      "concept" : [{
+        "code" : "309904001",
+        "display" : "unité de soins intensifs"
+      },
+      {
+        "code" : "405269005",
+        "display" : "unité de soins intensifs néonatals"
+      },
+      {
+        "code" : "1279968000",
+        "display" : "service de néonatalogie"
+      },
+      {
+        "code" : "309967005",
+        "display" : "service de chirurgie"
+      }]
+    }]
+  }
+}

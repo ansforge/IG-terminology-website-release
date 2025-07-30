@@ -1,0 +1,96 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-785",
+  "url" : "http://hl7.org/fhir/comparison/CodeSystem/41d026bd-9ab2-44e3-bf59-97ef030ccee7-785",
+  "name" : "UnionClaDiMedAndClaDiMed",
+  "title" : "Union of Classification des dispositifs médicaux And Classification des dispositifs médicaux",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:25+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "filter" : [{
+    "code" : "root",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "deprecated",
+    "operator" : ["="],
+    "value" : "True or false."
+  },
+  {
+    "code" : "imported",
+    "operator" : ["="],
+    "value" : "True or false"
+  }],
+  "property" : [{
+    "code" : "type",
+    "uri" : "http://purl.org/dc/elements/1.1/type",
+    "description" : "Type fonctionnel d'un concept",
+    "type" : "string"
+  },
+  {
+    "code" : "comment",
+    "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "type" : "string"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  },
+  {
+    "code" : "type",
+    "uri" : "http://purl.org/dc/elements/1.1/type",
+    "description" : "Type fonctionnel d'un concept",
+    "type" : "string"
+  },
+  {
+    "code" : "comment",
+    "uri" : "http://www.w3.org/2000/01/rdf-schema#comment",
+    "type" : "string"
+  },
+  {
+    "code" : "parent",
+    "uri" : "http://hl7.org/fhir/concept-properties#parent",
+    "description" : "Codes des parents du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "child",
+    "uri" : "http://hl7.org/fhir/concept-properties#child",
+    "description" : "Codes des enfants du concept courant",
+    "type" : "code"
+  },
+  {
+    "code" : "imported",
+    "description" : "Indicates if the concept is imported from another code system.",
+    "type" : "boolean"
+  },
+  {
+    "code" : "root",
+    "description" : "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent).",
+    "type" : "boolean"
+  }]
+}

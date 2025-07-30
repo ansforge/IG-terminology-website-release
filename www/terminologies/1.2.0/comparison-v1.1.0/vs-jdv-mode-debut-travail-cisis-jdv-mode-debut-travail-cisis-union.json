@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2294",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2294",
+  "name" : "UnionJdvModeDebutTravailCisisAndJdvModeDebutTravailCisis",
+  "title" : "Union of JDV Mode Debut Travail CISIS And JDV Mode Debut Travail CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "84457005",
+        "display" : "déclenchement spontané du travail"
+      },
+      {
+        "code" : "112070001",
+        "display" : "déclenchement provoqué du travail"
+      },
+      {
+        "code" : "11466000",
+        "display" : "césarienne"
+      }]
+    }]
+  }
+}

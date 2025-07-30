@@ -10,17 +10,29 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="ORG-100" codeSystem="" displayName="EHPAD"/>
-         <Concept code="ORG-101" codeSystem="" displayName="Retour au domicile"/>
-         <Concept code="ORG-102" codeSystem="" displayName="SSR spécialisé neuro"/>
-         <Concept code="ORG-103" codeSystem="" displayName="SSR spécialisé gériatrie"/>
-         <Concept code="ORG-104" codeSystem="" displayName="SSR polyvalent"/>
-         <Concept code="ORG-162" codeSystem="" displayName="MCO"/>
+         <Concept code="ORG-100"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="EHPAD"/>
+         <Concept code="ORG-101"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Retour au domicile"/>
+         <Concept code="ORG-102"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="SSR spécialisé neuro"/>
+         <Concept code="ORG-103"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="SSR spécialisé gériatrie"/>
+         <Concept code="ORG-104"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="SSR polyvalent"/>
+         <Concept code="ORG-162"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="MCO"/>
          <Concept code="6" codeSystem="1.2.250.1.213.2.2" displayName="HAD"/>
          <Concept code="P0-20300"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="mutation (-&gt;Transfert d'un patient dans un autre ES)"/>
-         <Concept code="R99" codeSystem="" displayName="décès"/>
+         <Concept code="R99" codeSystem="1.2.250.1.213.2.12" displayName="décès"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,44 +10,50 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="E14" codeSystem="" displayName="Diabète"/>
          <Concept code="E14"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Diabète"/>
+         <Concept code="E14"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Diabète sucré, sans précision"/>
          <Concept code="N39.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Infection des voies urinaires, siège non précisé"/>
          <Concept code="O16"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Hypertension de la mère, sans précision"/>
          <Concept code="O23"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Infections de l'appareil génito-urinaire au cours de la grossesse"/>
          <Concept code="O42"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Rupture prématurée des membranes"/>
          <Concept code="O46"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Hémorragie précédant l'accouchement, non classée ailleurs"/>
          <Concept code="O47.0"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Faux travail avant 37 semaines révolues de gestation"/>
          <Concept code="OBS_016"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Métrorragies du 2ème- 3ème trimestre"/>
          <Concept code="OBS_017"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Rupture prématurée des membranes"/>
          <Concept code="OBS_019"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Autres pathologies maternelles"/>
          <Concept code="OBS_132"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Infection cervico-vaginale"/>
-         <Concept code="D7-10030" codeSystem="" displayName="Infection urinaire"/>
-         <Concept code="D8-11000" codeSystem="" displayName="Hypertension artérielle"/>
+         <Concept code="D7-10030"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Infection urinaire"/>
+         <Concept code="D8-11000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Hypertension artérielle"/>
          <Concept code="D8-12000"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Menace d'accouchement prématuré"/>
       </ConceptList>
    </ValueSet>

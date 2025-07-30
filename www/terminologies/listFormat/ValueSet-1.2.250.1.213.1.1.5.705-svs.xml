@@ -11,9 +11,11 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-174"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Gestes techniques spécialisés"/>
-         <Concept code="MED-1304" codeSystem="" displayName="Dépistage de la surdité"/>
+         <Concept code="MED-1304"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Dépistage de la surdité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

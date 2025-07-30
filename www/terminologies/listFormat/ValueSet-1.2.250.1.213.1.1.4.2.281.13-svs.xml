@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-268" codeSystem="" displayName="Phase initiale du cancer"/>
-         <Concept code="MED-244" codeSystem="" displayName="Rechute du cancer"/>
+         <Concept code="MED-268"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Phase initiale du cancer"/>
+         <Concept code="MED-244"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Rechute du cancer"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

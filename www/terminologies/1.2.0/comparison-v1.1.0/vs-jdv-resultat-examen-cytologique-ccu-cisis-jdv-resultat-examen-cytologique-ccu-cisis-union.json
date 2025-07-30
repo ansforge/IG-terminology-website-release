@@ -1,0 +1,95 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2594",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2594",
+  "name" : "UnionJdvResultatExamenCytologiqueCcuCisisAndJdvResultatExamenCytologiqueCcuCisis",
+  "title" : "Union of JDV Resultat Examen Cytologique Ccu CISIS And JDV Resultat Examen Cytologique Ccu CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-1192",
+        "display" : "non satisfaisant pour l’évaluation"
+      },
+      {
+        "code" : "MED-1193",
+        "display" : "négatif pour une lésion intra-épithéliale ou maligne"
+      },
+      {
+        "code" : "MED-1194",
+        "display" : "adénocarcinome SAP"
+      },
+      {
+        "code" : "MED-1195",
+        "display" : "adénocarcinome in situ de l’endocol"
+      },
+      {
+        "code" : "MED-1196",
+        "display" : "adénocarcinome endocervical"
+      },
+      {
+        "code" : "MED-1197",
+        "display" : "adénocarcinome endométrial"
+      },
+      {
+        "code" : "MED-1198",
+        "display" : "adénocarcinome d’origine extra-utérine"
+      },
+      {
+        "code" : "MED-1199",
+        "display" : "cellules malpighiennes atypiques de signification indéterminée (ASC-US)"
+      },
+      {
+        "code" : "MED-1200",
+        "display" : "cellules malpighiennes atypiques ne permettant pas d’éliminer une lésion malpighienne intra-épithéliale de haut grade (ASC-H)"
+      },
+      {
+        "code" : "MED-1201",
+        "display" : "cellules malpighiennes intra-épithéliale de haut grade (HSIL)"
+      },
+      {
+        "code" : "MED-1202",
+        "display" : "cellules glandulaires atypiques SAP"
+      },
+      {
+        "code" : "MED-1203",
+        "display" : "cellules endocervicales atypiques SAP"
+      },
+      {
+        "code" : "MED-1204",
+        "display" : "cellules endométriales atypiques SAP"
+      },
+      {
+        "code" : "MED-1205",
+        "display" : "cellules glandulaires en faveur d’une néoplasie"
+      },
+      {
+        "code" : "MED-1206",
+        "display" : "cellules endocervicales atypiques en faveur d’une néoplasie"
+      },
+      {
+        "code" : "MED-1207",
+        "display" : "carcinome epidermoïde"
+      },
+      {
+        "code" : "MED-1208",
+        "display" : "lésion malpighienne intra-épithéliale de bas grade (LSIL)"
+      },
+      {
+        "code" : "MED-1209",
+        "display" : "lésion malpighienne intra-épithéliale de haut grade avec des aspects faisant suspecter une invasion"
+      },
+      {
+        "code" : "GEN-092.01.12",
+        "display" : "Autre tumeur maligne"
+      }]
+    }]
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2633",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2633",
+  "name" : "UnionJdvScoreBradenNutritionCisisAndJdvScoreBradenNutritionCisis",
+  "title" : "Union of JDV Score Braden Nutrition CISIS And JDV Score Braden Nutrition CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "LA9615-1",
+        "display" : "Très pauvre"
+      },
+      {
+        "code" : "LA9616-9",
+        "display" : "Probablement inadéquate"
+      },
+      {
+        "code" : "LA8913-1",
+        "display" : "Adéquate"
+      },
+      {
+        "code" : "LA9206-9",
+        "display" : "Excellente"
+      }]
+    }]
+  }
+}

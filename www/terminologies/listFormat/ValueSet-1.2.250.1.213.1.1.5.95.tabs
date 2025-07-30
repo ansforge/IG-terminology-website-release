@@ -1,8 +1,8 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 1.2.250.1.213.1.1.5.95;JDV;JDV_IndicateurAnormalite_CISIS.tabs;JDV_IndicateurAnormalite_CISIS;;20210315000000;;20230428000000
-<OID>;<Code>;<Libellé> 
-;N;Normal
-;L;Anormalement bas
-;H;Anormalement haut
-;LL;Très anormalement bas, alerte
-;HH;Très anormalement haut, alerte
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation;N;Normal
+http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation;L;Anormalement bas
+http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation;H;Anormalement haut
+http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation;LL;Très anormalement bas, alerte
+http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation;HH;Très anormalement haut, alerte

@@ -10,12 +10,14 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="I26" codeSystem="" displayName="Embolie pulmonaire"/>
+         <Concept code="I26"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Embolie pulmonaire"/>
          <Concept code="I80.2"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Thrombose veineuse profonde"/>
          <Concept code="I82.9"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Embolie et thrombose d'une veine non précisée"/>
       </ConceptList>
    </ValueSet>

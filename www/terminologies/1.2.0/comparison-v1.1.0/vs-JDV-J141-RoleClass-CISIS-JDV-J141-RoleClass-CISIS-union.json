@@ -1,0 +1,27 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-974",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-974",
+  "name" : "UnionJDV_J141_RoleClass_CISISAndJDV_J141_RoleClass_CISIS",
+  "title" : "Union of null And null",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "PROV",
+        "display" : "Professionnel de santé"
+      },
+      {
+        "code" : "AGNT",
+        "display" : "Professionnel caractérisé par son rôle"
+      }]
+    }]
+  }
+}

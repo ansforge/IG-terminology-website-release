@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1099" codeSystem="" displayName="ACR 1"/>
-         <Concept code="MED-1100" codeSystem="" displayName="ACR 2"/>
-         <Concept code="MED-1101" codeSystem="" displayName="ACR 3"/>
-         <Concept code="MED-1102" codeSystem="" displayName="ACR 4"/>
-         <Concept code="MED-1103" codeSystem="" displayName="ACR 5"/>
+         <Concept code="MED-1099"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ACR 1"/>
+         <Concept code="MED-1100"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ACR 2"/>
+         <Concept code="MED-1101"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ACR 3"/>
+         <Concept code="MED-1102"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ACR 4"/>
+         <Concept code="MED-1103"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ACR 5"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

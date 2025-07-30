@@ -10,8 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-1155" codeSystem="" displayName="traité"/>
-         <Concept code="MED-1156" codeSystem="" displayName="non traité"/>
+         <Concept code="MED-1155"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="traité"/>
+         <Concept code="MED-1156"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="non traité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

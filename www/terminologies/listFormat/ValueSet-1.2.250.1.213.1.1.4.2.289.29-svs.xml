@@ -11,27 +11,41 @@
              urlFichier="">
       <ConceptList>
          <Concept code="GEN-092.04.21"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre manœuvre siège"/>
          <Concept code="GEN-092.04.22"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre manœuvre voie basse"/>
-         <Concept code="MED-1255" codeSystem="" displayName="Spatules"/>
-         <Concept code="OBS_222" codeSystem="" displayName="Spatules"/>
-         <Concept code="OBS_223" codeSystem="" displayName="Autre manœuvre siège"/>
+         <Concept code="MED-1255"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Spatules"/>
+         <Concept code="OBS_222"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Spatules"/>
+         <Concept code="OBS_223"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Autre manœuvre siège"/>
          <Concept code="OBS_224"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Manœuvre pour dystocie des épaules"/>
          <Concept code="OBS_225"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Autre manœuvre voie basse"/>
-         <Concept code="P1-86E31" codeSystem="" displayName="Grande extraction siège"/>
-         <Concept code="P1-86E32" codeSystem="" displayName="Petite extraction siège"/>
-         <Concept code="P1-86E50" codeSystem="" displayName="Forceps"/>
+         <Concept code="P1-86E31"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Grande extraction siège"/>
+         <Concept code="P1-86E32"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Petite extraction siège"/>
+         <Concept code="P1-86E50"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Forceps"/>
          <Concept code="P1-86E80"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Version par manœuvre interne"/>
-         <Concept code="P1-86EA0" codeSystem="" displayName="Ventouse"/>
+         <Concept code="P1-86EA0"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Ventouse"/>
          <Concept code="61586001"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="accouchement par extraction par ventouse"/>

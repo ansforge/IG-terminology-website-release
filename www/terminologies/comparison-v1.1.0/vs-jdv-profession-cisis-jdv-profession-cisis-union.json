@@ -1,0 +1,43 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2468",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2468",
+  "name" : "UnionJdvProfessionCisisAndJdvProfessionCisis",
+  "title" : "Union of JDV Profession CISIS And JDV Profession CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "1",
+        "display" : "Agriculteur"
+      },
+      {
+        "code" : "2",
+        "display" : "Artisan, commerçant ou chef d'entreprise"
+      },
+      {
+        "code" : "3",
+        "display" : "Cadre ou profession intellectuelle supérieure"
+      },
+      {
+        "code" : "4",
+        "display" : "Profession intermédiaire"
+      },
+      {
+        "code" : "5",
+        "display" : "Employé"
+      },
+      {
+        "code" : "6",
+        "display" : "Ouvrier"
+      }]
+    }]
+  }
+}

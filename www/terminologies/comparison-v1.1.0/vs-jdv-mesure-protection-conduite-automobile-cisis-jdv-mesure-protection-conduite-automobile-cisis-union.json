@@ -1,0 +1,31 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2243",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-2243",
+  "name" : "UnionJdvMesureProtectionConduiteAutomobileCisisAndJdvMesureProtectionConduiteAutomobileCisis",
+  "title" : "Union of JDV Mesure Protection Conduite Automobile CISIS And JDV Mesure Protection Conduite Automobile CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "GEN-128",
+        "display" : "Conduite formellement contre-indiquée"
+      },
+      {
+        "code" : "GEN-129",
+        "display" : "Conduite possible sans permis spécial"
+      },
+      {
+        "code" : "GEN-130",
+        "display" : "Les démarches ont-elles été faites ? (Commission médicale)"
+      }]
+    }]
+  }
+}

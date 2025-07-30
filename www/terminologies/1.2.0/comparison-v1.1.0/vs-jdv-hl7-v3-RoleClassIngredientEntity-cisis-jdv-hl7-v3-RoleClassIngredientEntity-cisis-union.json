@@ -1,0 +1,51 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "41d026bd-9ab2-44e3-bf59-97ef030ccee7-2090",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/41d026bd-9ab2-44e3-bf59-97ef030ccee7-2090",
+  "name" : "UnionRoleClassIngredientEntityAndRoleClassIngredientEntity",
+  "title" : "Union of RoleClassIngredientEntity And RoleClassIngredientEntity",
+  "status" : "active",
+  "date" : "2025-07-30T08:02:26+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "INGR",
+        "display" : "Ingrédient"
+      },
+      {
+        "code" : "ACTI",
+        "display" : "Ingredient actif"
+      },
+      {
+        "code" : "ADJV",
+        "display" : "Adjuvant"
+      },
+      {
+        "code" : "ADTV",
+        "display" : "Additif"
+      },
+      {
+        "code" : "BASE",
+        "display" : "Base"
+      },
+      {
+        "code" : "CNTM",
+        "display" : "Ingredient contaminant"
+      },
+      {
+        "code" : "IACT",
+        "display" : "Ingredient inactif"
+      },
+      {
+        "code" : "MECH",
+        "display" : "Ingrédient mécanique"
+      }]
+    }]
+  }
+}

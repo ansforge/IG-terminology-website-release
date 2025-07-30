@@ -11,12 +11,20 @@
              urlFichier="">
       <ConceptList>
          <Concept code="ORG-143"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Réanimation/soins intentifs"/>
-         <Concept code="ORG-144" codeSystem="" displayName="Autre court-séjour"/>
-         <Concept code="ORG-145" codeSystem="" displayName="Service réadaptation"/>
-         <Concept code="ORG-146" codeSystem="" displayName="Psychiatrie"/>
-         <Concept code="OBS_203" codeSystem="" displayName="Autre maternité"/>
+         <Concept code="ORG-144"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre court-séjour"/>
+         <Concept code="ORG-145"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Service réadaptation"/>
+         <Concept code="ORG-146"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Psychiatrie"/>
+         <Concept code="OBS_203"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Autre maternité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

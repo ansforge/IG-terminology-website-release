@@ -10,15 +10,29 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-310" codeSystem="" displayName="Bloc tissulaire parafiné"/>
-         <Concept code="MED-311" codeSystem="" displayName="Lame"/>
-         <Concept code="MED-312" codeSystem="" displayName="Copeaux"/>
-         <Concept code="MED-313" codeSystem="" displayName="Punch"/>
-         <Concept code="MED-314" codeSystem="" displayName="Tissu congelé"/>
-         <Concept code="MED-315" codeSystem="" displayName="ADN"/>
-         <Concept code="MED-316" codeSystem="" displayName="ARN"/>
+         <Concept code="MED-310"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bloc tissulaire parafiné"/>
+         <Concept code="MED-311"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Lame"/>
+         <Concept code="MED-312"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Copeaux"/>
+         <Concept code="MED-313"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Punch"/>
+         <Concept code="MED-314"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Tissu congelé"/>
+         <Concept code="MED-315"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ADN"/>
+         <Concept code="MED-316"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="ARN"/>
          <Concept code="GEN-092.07.01"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autre nature du matériel étudié"/>
       </ConceptList>
    </ValueSet>

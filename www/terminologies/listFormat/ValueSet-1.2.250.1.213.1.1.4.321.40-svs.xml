@@ -10,13 +10,17 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="I22.9" codeSystem="" displayName="Récidive d'infarctus"/>
-         <Concept code="AVC-137" codeSystem="" displayName="Récidive d'hémorragie"/>
+         <Concept code="I22.9"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
+                  displayName="Récidive d'infarctus"/>
+         <Concept code="AVC-137"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Récidive d'hémorragie"/>
          <Concept code="AVC-138"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Transformation hémorragique"/>
-         <Concept code="G-A609" codeSystem="" displayName="Autre"/>
-         <Concept code="M-36300" codeSystem="" displayName="Œdème"/>
+         <Concept code="G-A609" codeSystem="1.2.250.1.213.2.12" displayName="Autre"/>
+         <Concept code="M-36300" codeSystem="1.2.250.1.213.2.12" displayName="Œdème"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

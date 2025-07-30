@@ -10,32 +10,60 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-053" codeSystem="" displayName="Soins de support"/>
-         <Concept code="MED-124" codeSystem="" displayName="Autre(s) traitement(s)"/>
+         <Concept code="MED-053"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Soins de support"/>
+         <Concept code="MED-124"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre(s) traitement(s)"/>
          <Concept code="MED-125"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Autres traitements médicamenteux spécifiques"/>
-         <Concept code="MED-126" codeSystem="" displayName="Allogreffe / Autogreffe"/>
-         <Concept code="MED-127" codeSystem="" displayName="Hormonothérapie"/>
-         <Concept code="MED-226" codeSystem="" displayName="Surveillance seule"/>
-         <Concept code="MED-227" codeSystem="" displayName="Surveillance active"/>
-         <Concept code="MED-228" codeSystem="" displayName="Thérapies ciblées"/>
+         <Concept code="MED-126"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Allogreffe / Autogreffe"/>
+         <Concept code="MED-127"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Hormonothérapie"/>
+         <Concept code="MED-226"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Surveillance seule"/>
+         <Concept code="MED-227"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Surveillance active"/>
+         <Concept code="MED-228"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Thérapies ciblées"/>
          <Concept code="MED-229"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Radiologie interventionnelle"/>
          <Concept code="MED-231"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Endoscopie interventionnelle"/>
-         <Concept code="MED-232" codeSystem="" displayName="Irathérapie"/>
-         <Concept code="MED-556" codeSystem="" displayName="Fenêtre thérapeutique"/>
-         <Concept code="P1-00000" codeSystem="" displayName="Chirurgie"/>
-         <Concept code="P2-00200" codeSystem="" displayName="Soins palliatifs"/>
+         <Concept code="MED-232"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Irathérapie"/>
+         <Concept code="MED-556"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Fenêtre thérapeutique"/>
+         <Concept code="P1-00000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Chirurgie"/>
+         <Concept code="P2-00200"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Soins palliatifs"/>
          <Concept code="P2-67010"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Chimiothérapie conventionnelle"/>
-         <Concept code="P2-69200" codeSystem="" displayName="Immunothérapie"/>
-         <Concept code="P5-C0300" codeSystem="" displayName="Radiothérapie"/>
-         <Concept code="P5-C0600" codeSystem="" displayName="Curiethérapie"/>
+         <Concept code="P2-69200"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Immunothérapie"/>
+         <Concept code="P5-C0300"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Radiothérapie"/>
+         <Concept code="P5-C0600"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Curiethérapie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

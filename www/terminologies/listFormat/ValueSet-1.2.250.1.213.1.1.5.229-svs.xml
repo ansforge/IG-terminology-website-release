@@ -11,25 +11,29 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-513"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation en kinésithérapie"/>
          <Concept code="MED-514"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation en orthophonie"/>
          <Concept code="MED-515"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation en ergothérapie"/>
          <Concept code="MED-516"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation de l'assistance sociale"/>
          <Concept code="MED-517"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation en neuropsychologie"/>
          <Concept code="MED-218"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Rééducation en cours d'hospitalisation"/>
-         <Concept code="75859-9" codeSystem="" displayName="Score de Rankin"/>
-         <Concept code="72089-6" codeSystem="" displayName="Score NIH Stroke Scale"/>
+         <Concept code="75859-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Score de Rankin"/>
+         <Concept code="72089-6"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Score NIH Stroke Scale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -10,101 +10,155 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="MED-236" codeSystem="" displayName="VADS sans précision"/>
+         <Concept code="MED-236"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="VADS sans précision"/>
          <Concept code="MED-237"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Fosses nasales, sinus, oreille moy/int"/>
-         <Concept code="MED-251" codeSystem="" displayName="Colon-Rectum-Anus"/>
-         <Concept code="MED-252" codeSystem="" displayName="Foie et voies biliaires"/>
+         <Concept code="MED-251"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Colon-Rectum-Anus"/>
+         <Concept code="MED-252"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Foie et voies biliaires"/>
          <Concept code="MED-253"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Maladie myéloproliférative et syndrome myélodysplasique"/>
          <Concept code="MED-254"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Myélome multiple et tumeur maligne à plasmocytes"/>
          <Concept code="MED-255"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Trachée, Bronches, Poumon"/>
          <Concept code="18723-7"
-                  codeSystem=""
+                  codeSystem="2.16.840.1.113883.6.1"
                   displayName="Hématologie sans précision"/>
-         <Concept code="DC-F2603" codeSystem="" displayName="Lymphome non Hodgkinien"/>
+         <Concept code="DC-F2603"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Lymphome non Hodgkinien"/>
          <Concept code="DC-F2803"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Maladie immunoproliférative maligne"/>
-         <Concept code="M-96503" codeSystem="" displayName="Lymphome Hodgkinien"/>
+         <Concept code="M-96503"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Lymphome Hodgkinien"/>
          <Concept code="M-98003"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Leucémie chronique ou non précisé, autre"/>
          <Concept code="M-98233"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Leucémie lymphoïde, chronique ou non précisé"/>
-         <Concept code="M-98353" codeSystem="" displayName="Leucémie lymphoïde aigue"/>
+         <Concept code="M-98353"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Leucémie lymphoïde aigue"/>
          <Concept code="M-98603"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Leucémie monocytaire, chronique ou non précisé"/>
-         <Concept code="M-98613" codeSystem="" displayName="Leucémie myéloïde aigue"/>
+         <Concept code="M-98613"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Leucémie myéloïde aigue"/>
          <Concept code="M-98633"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Leucémie myéloïde, chronique ou non précisé"/>
          <Concept code="M-98913"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Leucémie monocytaire aigue"/>
-         <Concept code="M-99400" codeSystem="" displayName="Leucémie aigue, autre"/>
-         <Concept code="T-01000" codeSystem="" displayName="Peau"/>
-         <Concept code="T-04000" codeSystem="" displayName="Sein"/>
+         <Concept code="M-99400"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Leucémie aigue, autre"/>
+         <Concept code="T-01000" codeSystem="1.2.250.1.213.2.12" displayName="Peau"/>
+         <Concept code="T-04000" codeSystem="1.2.250.1.213.2.12" displayName="Sein"/>
          <Concept code="T-11001"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Os, articulations, cartilage articulaire"/>
          <Concept code="T-1A000"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Tissus mous, non classés ailleurs"/>
          <Concept code="T-20000"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Appareil respiratoire/thorax sans précision"/>
-         <Concept code="T-24100" codeSystem="" displayName="Larynx"/>
-         <Concept code="T-29000" codeSystem="" displayName="Plèvre"/>
+         <Concept code="T-24100" codeSystem="1.2.250.1.213.2.12" displayName="Larynx"/>
+         <Concept code="T-29000" codeSystem="1.2.250.1.213.2.12" displayName="Plèvre"/>
          <Concept code="T-50000"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Appareil digestif sans précision"/>
-         <Concept code="T-51004" codeSystem="" displayName="Cavité orale"/>
-         <Concept code="T-52000" codeSystem="" displayName="Lèvre"/>
-         <Concept code="T-53000" codeSystem="" displayName="Langue"/>
-         <Concept code="T-55000" codeSystem="" displayName="Pharynx"/>
-         <Concept code="T-56000" codeSystem="" displayName="Oesophage"/>
-         <Concept code="T-57000" codeSystem="" displayName="Estomac"/>
-         <Concept code="T-58000" codeSystem="" displayName="Intestin grêle"/>
-         <Concept code="T-61000" codeSystem="" displayName="Glandes salivaires"/>
-         <Concept code="T-65000" codeSystem="" displayName="Pancréas"/>
+         <Concept code="T-51004"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Cavité orale"/>
+         <Concept code="T-52000" codeSystem="1.2.250.1.213.2.12" displayName="Lèvre"/>
+         <Concept code="T-53000" codeSystem="1.2.250.1.213.2.12" displayName="Langue"/>
+         <Concept code="T-55000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Pharynx"/>
+         <Concept code="T-56000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Oesophage"/>
+         <Concept code="T-57000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Estomac"/>
+         <Concept code="T-58000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Intestin grêle"/>
+         <Concept code="T-61000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Glandes salivaires"/>
+         <Concept code="T-65000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Pancréas"/>
          <Concept code="T-70000"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Appareil urinaire sans précision"/>
-         <Concept code="T-70010" codeSystem="" displayName="Voies urinaires hautes"/>
-         <Concept code="T-71000" codeSystem="" displayName="Rein"/>
-         <Concept code="T-74000" codeSystem="" displayName="Vessie"/>
+         <Concept code="T-70010"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Voies urinaires hautes"/>
+         <Concept code="T-71000" codeSystem="1.2.250.1.213.2.12" displayName="Rein"/>
+         <Concept code="T-74000" codeSystem="1.2.250.1.213.2.12" displayName="Vessie"/>
          <Concept code="T-80000"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Organes génitaux féminins sans précision"/>
-         <Concept code="T-81090" codeSystem="" displayName="Vulve et vagin"/>
-         <Concept code="T-83020" codeSystem="" displayName="Corps utérus"/>
-         <Concept code="T-83200" codeSystem="" displayName="Col utérus"/>
-         <Concept code="T-87000" codeSystem="" displayName="Ovaire"/>
+         <Concept code="T-81090"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Vulve et vagin"/>
+         <Concept code="T-83020"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Corps utérus"/>
+         <Concept code="T-83200"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Col utérus"/>
+         <Concept code="T-87000" codeSystem="1.2.250.1.213.2.12" displayName="Ovaire"/>
          <Concept code="T-90000"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Organes génitaux masculins sans précision"/>
-         <Concept code="T-91000" codeSystem="" displayName="Pénis"/>
-         <Concept code="T-92000" codeSystem="" displayName="Prostate"/>
-         <Concept code="T-94000" codeSystem="" displayName="Testicule"/>
-         <Concept code="T-A0090" codeSystem="" displayName="Système nerveux central"/>
-         <Concept code="T-A0500" codeSystem="" displayName="Nerfs périphériques"/>
-         <Concept code="T-AA000" codeSystem="" displayName="Oeil"/>
+         <Concept code="T-91000" codeSystem="1.2.250.1.213.2.12" displayName="Pénis"/>
+         <Concept code="T-92000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Prostate"/>
+         <Concept code="T-94000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Testicule"/>
+         <Concept code="T-A0090"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Système nerveux central"/>
+         <Concept code="T-A0500"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Nerfs périphériques"/>
+         <Concept code="T-AA000" codeSystem="1.2.250.1.213.2.12" displayName="Oeil"/>
          <Concept code="T-B0000"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Glande endocrine sans précision"/>
-         <Concept code="T-B3000" codeSystem="" displayName="Surrénale"/>
-         <Concept code="T-B6000" codeSystem="" displayName="Thyroïde"/>
-         <Concept code="T-D3300" codeSystem="" displayName="Médiastin"/>
-         <Concept code="T-D4000" codeSystem="" displayName="Péritoine-rétropéritoine"/>
+         <Concept code="T-B3000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Surrénale"/>
+         <Concept code="T-B6000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Thyroïde"/>
+         <Concept code="T-D3300"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Médiastin"/>
+         <Concept code="T-D4000"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Péritoine-rétropéritoine"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

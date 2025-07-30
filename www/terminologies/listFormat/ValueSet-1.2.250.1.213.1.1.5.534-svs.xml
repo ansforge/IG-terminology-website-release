@@ -10,11 +10,21 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C25757" codeSystem="" displayName="Ulcérée"/>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
-         <Concept code="MED-695" codeSystem="" displayName="Bourgeonnante"/>
-         <Concept code="MED-696" codeSystem="" displayName="Ulcéro-bourgeonnante"/>
-         <Concept code="MED-697" codeSystem="" displayName="Plane"/>
+         <Concept code="C25757"
+                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  displayName="Ulcérée"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
+         <Concept code="MED-695"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Bourgeonnante"/>
+         <Concept code="MED-696"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Ulcéro-bourgeonnante"/>
+         <Concept code="MED-697"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Plane"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

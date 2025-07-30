@@ -10,28 +10,44 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-092" codeSystem="" displayName="Autre"/>
-         <Concept code="OBS_228" codeSystem="" displayName="Placement"/>
-         <Concept code="OBS_270" codeSystem="" displayName="Maison maternelle"/>
+         <Concept code="GEN-092"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre"/>
+         <Concept code="OBS_228"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Placement"/>
+         <Concept code="OBS_270"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Maison maternelle"/>
          <Concept code="OBS_271"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Appartement thérapeutique"/>
-         <Concept code="OBS_272" codeSystem="" displayName="Famille d’accueil"/>
-         <Concept code="OBS_273" codeSystem="" displayName="Hôtel du SAMU social"/>
-         <Concept code="OBS_307" codeSystem="" displayName="Domicile - Bonne santé"/>
-         <Concept code="OBS_308" codeSystem="" displayName="Sage-femme dom. hors HAD"/>
-         <Concept code="OBS_309" codeSystem="" displayName="Autre mode de sortie"/>
+         <Concept code="OBS_272"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Famille d’accueil"/>
+         <Concept code="OBS_273"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Hôtel du SAMU social"/>
+         <Concept code="OBS_307"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Domicile - Bonne santé"/>
+         <Concept code="OBS_308"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Sage-femme dom. hors HAD"/>
+         <Concept code="OBS_309"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Autre mode de sortie"/>
          <Concept code="P0-20100"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Départ de la patiente contre avis médical"/>
          <Concept code="P0-20300"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Mutation (Transfert d'un patient dans un autre ES)"/>
          <Concept code="P0-20400"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Transfert (Transfert du patient à l'intérieur de l'ES)"/>
-         <Concept code="PA-63000" codeSystem="" displayName="HAD"/>
-         <Concept code="R99" codeSystem="" displayName="Décès"/>
+         <Concept code="PA-63000" codeSystem="1.2.250.1.213.2.12" displayName="HAD"/>
+         <Concept code="R99" codeSystem="1.2.250.1.213.2.12" displayName="Décès"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

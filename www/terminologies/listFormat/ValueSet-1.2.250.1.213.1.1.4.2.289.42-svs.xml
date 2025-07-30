@@ -11,19 +11,23 @@
              urlFichier="">
       <ConceptList>
          <Concept code="MED-1256"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Allaitement maternel exclusif"/>
          <Concept code="MED-1257"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Allaitement maternel mixte"/>
-         <Concept code="MED-1258" codeSystem="" displayName="Allaitement artificiel"/>
+         <Concept code="MED-1258"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Allaitement artificiel"/>
          <Concept code="OBS_229"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Allaitement maternel exclusif"/>
          <Concept code="OBS_230"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
                   displayName="Allaitement maternel mixte"/>
-         <Concept code="OBS_231" codeSystem="" displayName="Allaitement artificiel"/>
+         <Concept code="OBS_231"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Allaitement artificiel"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

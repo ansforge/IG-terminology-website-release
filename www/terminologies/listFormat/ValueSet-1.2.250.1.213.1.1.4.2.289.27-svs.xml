@@ -10,15 +10,27 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="GEN-092.03.03" codeSystem="" displayName="Autre analgésie"/>
-         <Concept code="MED-222" codeSystem="" displayName="Pas d'anesthésie"/>
-         <Concept code="MED-223" codeSystem="" displayName="Autre analgésie"/>
-         <Concept code="OBS_209" codeSystem="" displayName="Pas d'anesthésie"/>
-         <Concept code="P1-C0010" codeSystem="" displayName="Anesthésie générale"/>
+         <Concept code="GEN-092.03.03"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre analgésie"/>
+         <Concept code="MED-222"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Pas d'anesthésie"/>
+         <Concept code="MED-223"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Autre analgésie"/>
+         <Concept code="OBS_209"
+                  codeSystem="1.2.250.1.213.1.1.4.2.289"
+                  displayName="Pas d'anesthésie"/>
+         <Concept code="P1-C0010"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Anesthésie générale"/>
          <Concept code="P1-C0200"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.2.12"
                   displayName="Anesthésie loco-régionale"/>
-         <Concept code="P1-C0400" codeSystem="" displayName="Anesthésie locale"/>
+         <Concept code="P1-C0400"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="Anesthésie locale"/>
          <Concept code="27372005"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="anesthésie locorégionale"/>

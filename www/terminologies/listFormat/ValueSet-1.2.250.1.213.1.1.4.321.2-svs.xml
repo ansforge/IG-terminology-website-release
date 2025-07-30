@@ -10,9 +10,15 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="F-A5410" codeSystem="" displayName="droitier"/>
-         <Concept code="F-A5420" codeSystem="" displayName="gaucher"/>
-         <Concept code="F-A5440" codeSystem="" displayName="ambidextérité"/>
+         <Concept code="F-A5410"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="droitier"/>
+         <Concept code="F-A5420"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="gaucher"/>
+         <Concept code="F-A5440"
+                  codeSystem="1.2.250.1.213.2.12"
+                  displayName="ambidextérité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

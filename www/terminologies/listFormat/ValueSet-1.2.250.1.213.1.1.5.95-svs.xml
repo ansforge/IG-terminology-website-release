@@ -10,12 +10,20 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="N" codeSystem="" displayName="Normal"/>
-         <Concept code="L" codeSystem="" displayName="Anormalement bas"/>
-         <Concept code="H" codeSystem="" displayName="Anormalement haut"/>
-         <Concept code="LL" codeSystem="" displayName="Très anormalement bas, alerte"/>
+         <Concept code="N"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                  displayName="Normal"/>
+         <Concept code="L"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                  displayName="Anormalement bas"/>
+         <Concept code="H"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                  displayName="Anormalement haut"/>
+         <Concept code="LL"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
+                  displayName="Très anormalement bas, alerte"/>
          <Concept code="HH"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation"
                   displayName="Très anormalement haut, alerte"/>
       </ConceptList>
    </ValueSet>

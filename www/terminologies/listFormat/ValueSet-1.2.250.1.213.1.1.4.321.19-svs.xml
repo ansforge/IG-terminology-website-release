@@ -11,10 +11,12 @@
              urlFichier="">
       <ConceptList>
          <Concept code="AVC-135"
-                  codeSystem=""
+                  codeSystem="1.2.250.1.213.1.1.4.321"
                   displayName="Hémisphérique médial (noyaux)"/>
-         <Concept code="AVC-136" codeSystem="" displayName="Hémisphérique latéral"/>
-         <Concept code="T-A6210" codeSystem="" displayName="vermis"/>
+         <Concept code="AVC-136"
+                  codeSystem="1.2.250.1.213.1.1.4.321"
+                  displayName="Hémisphérique latéral"/>
+         <Concept code="T-A6210" codeSystem="1.2.250.1.213.2.12" displayName="vermis"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

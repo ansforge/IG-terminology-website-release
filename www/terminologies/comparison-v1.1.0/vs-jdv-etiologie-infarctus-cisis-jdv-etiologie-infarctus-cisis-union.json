@@ -1,0 +1,47 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1895",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/0d5647b6-3102-4ed2-b5f3-d2c676dcca2a-1895",
+  "name" : "UnionJdvEtiologieInfarctusCisisAndJdvEtiologieInfarctusCisis",
+  "title" : "Union of JDV Etiologie Infarctus CISIS And JDV Etiologie Infarctus CISIS",
+  "status" : "active",
+  "date" : "2025-07-30T08:23:39+00:00",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "concept" : [{
+        "code" : "MED-479",
+        "display" : "Athérome extracrânien"
+      },
+      {
+        "code" : "MED-480",
+        "display" : "Athérome intracrânien"
+      },
+      {
+        "code" : "MED-481",
+        "display" : "Embolie cardiaque"
+      },
+      {
+        "code" : "MED-473",
+        "display" : "Maladie petites artères"
+      },
+      {
+        "code" : "MED-482",
+        "display" : "Dissection des TSA"
+      },
+      {
+        "code" : "MED-476",
+        "display" : "Etiologie multiple"
+      },
+      {
+        "code" : "GEN-092.01.09",
+        "display" : "Autre étiologie de l'infarctus"
+      }]
+    }]
+  }
+}

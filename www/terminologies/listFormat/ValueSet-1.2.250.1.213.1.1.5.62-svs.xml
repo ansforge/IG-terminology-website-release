@@ -11,21 +11,29 @@
              urlFichier="">
       <ConceptList>
          <Concept code="R47.02"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/icd10"
                   displayName="Aphasie, autre et sans précision"/>
-         <Concept code="MED-329" codeSystem="" displayName="Spasticité gênante"/>
-         <Concept code="MED-330" codeSystem="" displayName="Négligence visuospatiale"/>
-         <Concept code="MED-331" codeSystem="" displayName="HLH – QLH"/>
+         <Concept code="MED-329"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Spasticité gênante"/>
+         <Concept code="MED-330"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Négligence visuospatiale"/>
+         <Concept code="MED-331"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="HLH – QLH"/>
          <Concept code="MED-332"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Trouble de la déglutition"/>
          <Concept code="MED-333"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Trouble de l’élimination urinaire"/>
          <Concept code="MED-334"
-                  codeSystem=""
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
                   displayName="Trouble de l’élimination fécale"/>
-         <Concept code="MED-335" codeSystem="" displayName="Trouble de la sexualité"/>
+         <Concept code="MED-335"
+                  codeSystem="https://smt.esante.gouv.fr/fhir/CodeSystem/1.2.250.1.213.1.1.4.322"
+                  displayName="Trouble de la sexualité"/>
          <Concept code="44695005"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="paralysie"/>

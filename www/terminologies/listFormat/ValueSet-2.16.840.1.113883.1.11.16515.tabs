@@ -1,7 +1,7 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
 2.16.840.1.113883.1.11.16515;JDV;JDV_HL7_SpecimenRoleType_CISIS.tabs;JDV_HL7_SpecimenRoleType_CISIS;;20210315000000;;20200118000000
-<OID>;<Code>;<Libellé> 
-;C;Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument
-;G;Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés.
-;L;Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus.
-;P;Spécimen prélevé sur un patient
+<OID>;<Code>;<Libellé>
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;C;Spécimen utilisé pour les paramètres d'étalonnage initiaux d'un instrument
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;G;Ensemble d'échantillons de patients dans lequel les individus du groupe peuvent ou non être identifiés.
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;L;Aliquot d'échantillons individuels combinés pour former un seul spécimen représentant tous les individus inclus.
+http://terminology.hl7.org/CodeSystem/v3-RoleCode;P;Spécimen prélevé sur un patient

@@ -11,16 +11,20 @@
              urlFichier="">
       <ConceptList>
          <Concept code="DEV"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Dispositif automatique impliqué dans la production des résultats"/>
          <Concept code="AUTHEN"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Valideur des résultats (ex : un biologiste ou un système expert)"/>
-         <Concept code="RESP" codeSystem="" displayName="Responsable de l'acte"/>
+         <Concept code="RESP"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Responsable de l'acte"/>
          <Concept code="ENT"
-                  codeSystem=""
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
                   displayName="Transcripteur du contenu à partir d'une autre forme"/>
-         <Concept code="PRF" codeSystem="" displayName="Exécutant"/>
+         <Concept code="PRF"
+                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ParticipationType"
+                  displayName="Exécutant"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
