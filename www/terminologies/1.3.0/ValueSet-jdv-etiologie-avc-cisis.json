@@ -1,0 +1,59 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "jdv-etiologie-avc-cisis",
+  "meta" : {
+    "versionId" : "4",
+    "lastUpdated" : "2025-06-25T09:13:55.788+00:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
+  },
+  "language" : "fr-FR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-FR\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-etiologie-avc-cisis</b></p><a name=\"jdv-etiologie-avc-cisis\"> </a><a name=\"hcjdv-etiologie-avc-cisis\"> </a><a name=\"jdv-etiologie-avc-cisis-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Last updated: 2025-06-25 09:13:55+0000; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Include ces codes sont définis dans <a href=\"CodeSystem-terminologie-cim-10.html\"><code>https://smt.esante.gouv.fr/terminologie-cim-10</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>I51.6</td><td>Maladie cardiovasculaire, sans précision</td></tr><tr><td>D75.9</td><td>Maladie du sang et des organes hématopoïétiques, sans précision</td></tr></table></li><li>Include ces codes sont définis dans <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://snomed.info/id/782964007\">782964007</a></td><td>maladie génétique</td></tr></table></li></ul></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2022-04-01T00:00:00+01:00"
+    }
+  }],
+  "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-etiologie-avc-cisis",
+  "identifier" : [{
+    "system" : "urn:ietf:rfc:3986",
+    "value" : "urn:oid:1.2.250.1.213.1.1.5.679"
+  }],
+  "version" : "20250624152100",
+  "name" : "JdvEtiologieAvcCisis",
+  "title" : "JDV Etiologie Avc CISIS",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2025-06-24T15:21:00+01:00",
+  "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
+  "description" : "JDV Etiologie Avc CISIS",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "FR"
+    }]
+  }],
+  "compose" : {
+    "include" : [{
+      "system" : "https://smt.esante.gouv.fr/terminologie-cim-10",
+      "concept" : [{
+        "code" : "I51.6",
+        "display" : "Maladie cardiovasculaire, sans précision"
+      },
+      {
+        "code" : "D75.9",
+        "display" : "Maladie du sang et des organes hématopoïétiques, sans précision"
+      }]
+    },
+    {
+      "system" : "http://snomed.info/sct",
+      "concept" : [{
+        "code" : "782964007",
+        "display" : "maladie génétique"
+      }]
+    }]
+  }
+}

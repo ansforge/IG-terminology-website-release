@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20250915120000"
              dateValid="20190125120000"
              description="Type de fermeture, codes provenant du FINESS pour les EJ et EG"
              displayName="TRE_R286_TypeFermeture"
@@ -63,6 +63,15 @@
                   displayName="Provisoire"
                   longDesignation="Provisoire"
                   shortDesignation="Provisoire"
+                  descriptionMetier=""/>
+         <Concept code="PRE"
+                  codeSystem="1.2.250.1.213.1.6.1.136"
+                  dateFin=""
+                  dateMaj="20250915120000"
+                  dateValid="20250915120000"
+                  displayName="Prévisionnelle"
+                  longDesignation="Prévisionnelle"
+                  shortDesignation="Prévisionnelle"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

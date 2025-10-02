@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.3.3.11;TRE;TRE_R210_ActeSpecifique.tabs;Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.;https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique;20150408000000;;20250723120000
+1.2.250.1.213.3.3.11;TRE;TRE_R210_ActeSpecifique.tabs;Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.;https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique;20150408000000;;20250919120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.213.3.3.11;0001;Ablation par radiofréquence de trouble du rythme et de conduction;1;Ablation par radiofréquence de trouble du rythme et de conduction;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0002;Accident vasculaire cérébral aigu (AVC);2;Accident vasculaire cérébral aigu (AVC);20150408000000;20180126120000;20180126120000
@@ -55,7 +55,7 @@
 1.2.250.1.213.3.3.11;0052;Chirurgie bariatrique (obésité);52;Chirurgie bariatrique (obésité);20150408000000;20161102000000;20161102000000
 1.2.250.1.213.3.3.11;0053;Chirurgie carcinologique dermatologique;53;Chirurgie carcinologique dermatologique;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0054;Chirurgie carcinologique gynécologique;54;Chirurgie carcinologique gynécologique;20150408000000;;20150408000000
-1.2.250.1.213.3.3.11;0055;Chirurgie carcinologique maxillo-faciale et stomatologique;55;Chirurgie carcinologique maxillo-faciale et stomatologique;20150408000000;;20150408000000
+1.2.250.1.213.3.3.11;0055;Chirurgie carcinologique maxillo-faciale et stomatologique;55;Chirurgie carcinologique maxillo-faciale et stomatologique;20150408000000;20250919120000;20250919000000
 1.2.250.1.213.3.3.11;0056;Chirurgie carcinologique ophtalmologique;56;Chirurgie carcinologique ophtalmologique;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0057;Chirurgie carcinologique orthopédique;57;Chirurgie carcinologique orthopédique;20150408000000;20220624120000;20220624120000
 1.2.250.1.213.3.3.11;0058;Chirurgie carcinologique oto-rhino-laryngologique (ORL) et cervico-faciale;58;Chirurgie carcinologique oto-rhino-laryngologique (ORL) et cervico-faciale;20150408000000;;20150408000000
@@ -384,7 +384,7 @@
 1.2.250.1.213.3.3.11;0381;Dérivation porto-cave par voie transjugulaire (TIPS);381;Dérivation porto-cave par voie transjugulaire (TIPS);20150408000000;;20170707100000
 1.2.250.1.213.3.3.11;0382;Prélèvement d'organes : coeur;382;Prélèvement d'organes : coeur;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0383;Prélèvement d'organes à coeur arrêté;383;Prélèvement d'organes à coeur arrêté;20150408000000;;20150408000000
-1.2.250.1.213.3.3.11;0384;Prélèvement d'organes à coeur battant;384;Prélèvement d'organes à coeur battant;20150408000000;;20150408000000
+1.2.250.1.213.3.3.11;0384;Prélèvement d'organes à coeur battant (mort cérébrale);384;Prélèvement d'organes à coeur battant (mort cérébrale);20150408000000;;20250919000000
 1.2.250.1.213.3.3.11;0385;Prélèvement d'organes sur personne vivante : foie;385;Prélèvement d'organes sur personne vivante : foie;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0386;Prélèvement d'organes sur personne vivante : poumon;386;Prélèvement d'organes sur personne vivante : poumon;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0387;Prélèvement d'organes sur personne vivante : rein;387;Prélèvement d'organes sur personne vivante : rein;20150408000000;;20150408000000
@@ -413,7 +413,7 @@
 1.2.250.1.213.3.3.11;0410;Reconstruction artérielle des membres;410;Reconstruction artérielle des membres;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0411;Recueil, traitement de gamètes issus de dons;411;Recueil, traitement de gamètes issus de dons;20150408000000;20170707100000;20170707100000
 1.2.250.1.213.3.3.11;0412;Rééducation basse vision;412;Rééducation basse vision;20150408000000;;20150408000000
-1.2.250.1.213.3.3.11;0413;Rééducation orthoptique;413;Rééducation orthoptique;20150408000000;;20150408000000
+1.2.250.1.213.3.3.11;0413;Rééducation orthoptique;413;Rééducation orthoptique;20150408000000;20250919120000;20250919000000
 1.2.250.1.213.3.3.11;0414;Réhabilitation respiratoire;414;Réhabilitation respiratoire;20150408000000;20240927120000;20240927120000
 1.2.250.1.213.3.3.11;0415;Ré-implantation de doigts;415;Ré-implantation de doigts;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0416;Ré-implantation de main;416;Ré-implantation de main;20150408000000;;20150408000000
@@ -440,7 +440,7 @@
 1.2.250.1.213.3.3.11;0437;Scintigraphie SPECT-CT;437;Scintigraphie SPECT-CT;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0438;Scolarisation sur site;438;Scolarisation sur site;20150408000000;20180330120000;20180330120000
 1.2.250.1.213.3.3.11;0439;Sevrage;439;Sevrage;20150408000000;20160502000000;20160502000000
-1.2.250.1.213.3.3.11;0440;Soins odontologiques sous anesthésie générale (AG);440;Soins odontologiques sous anesthésie générale (AG);20150408000000;;20150408000000
+1.2.250.1.213.3.3.11;0440;Soins odontologiques sous anesthésie générale (AG);440;Soins odontologiques sous anesthésie générale (AG);20150408000000;20250919000000;20250919000000
 1.2.250.1.213.3.3.11;0441;Soins avec administration de MEOPA;441;Soins avec administration de MEOPA;20150408000000;;20211029120000
 1.2.250.1.213.3.3.11;0442;Méthode de relaxation;442;Méthode de relaxation;20150408000000;;20180531120000
 1.2.250.1.213.3.3.11;0443;Spectroscopie par résonance magnétique (SRM) cérébrale;443;Spectroscopie par résonance magnétique (SRM) cérébrale;20150408000000;;20150408000000
@@ -500,7 +500,7 @@
 1.2.250.1.213.3.3.11;0497;Urgences psychiatriques;497;Urgences psychiatriques;20150408000000;20180126120000;20180126120000
 1.2.250.1.213.3.3.11;0498;Vaccination : encéphalite japonaise;498;Vaccination : encéphalite japonaise;20150408000000;20170707100000;20170707100000
 1.2.250.1.213.3.3.11;0499;Vaccination : fièvre jaune;499;Vaccination : fièvre jaune;20150408000000;20170707100000;20170707100000
-1.2.250.1.213.3.3.11;0500;Vaccination antirabique (rage) post-exposition;500;Vaccination antirabique (rage) post-exposition;20150408000000;;20250623100000
+1.2.250.1.213.3.3.11;0500;Vaccination antirabique (rage) post-exposition;500;Vaccination antirabique (rage) post-exposition;20150408000000;;20250918100000
 1.2.250.1.213.3.3.11;0501;Vaccinations des voyageurs;501;Vaccinations des voyageurs;20150408000000;;20250623120000
 1.2.250.1.213.3.3.11;0502;Ventilation en poumons séparés;502;Ventilation en poumons séparés;20150408000000;20170707100000;20170707100000
 1.2.250.1.213.3.3.11;0503;Ventilation par oscillations à haute fréquence (HFO);503;Ventilation par oscillations à haute fréquence (HFO);20150408000000;;20150408000000
@@ -731,7 +731,7 @@
 1.2.250.1.213.3.3.11;0728;Apprentissage des techniques d'aide à la mobilité pour personne déficiente visuelle (canne longue, canne de signalement, chiens-guide, GPS,...);728;Apprentissage des techniques d'aide à la mobilité pour personne déf. visuelle;20180126120000;;20250723120000
 1.2.250.1.213.3.3.11;0729;Mesure du volume vésical par échographe portable (Bladder-scan);729;Mesure du volume vésical par échographe portable (Bladder-scan);20180126120000;;20240927120000
 1.2.250.1.213.3.3.11;0730;Suivi de grossesse à risque;730;Suivi de grossesse à risque;20180126120000;;20180126120000
-1.2.250.1.213.3.3.11;0731;Surveillance du nouveau-né à risque;731;Surveillance du nouveau-né à risque;20180126120000;;20180126120000
+1.2.250.1.213.3.3.11;0731;Surveillance du nouveau-né à risque;731;Surveillance du nouveau-né à risque;20180126120000;;20250919120000
 1.2.250.1.213.3.3.11;0732;Confection d'orthèse du membre supérieur;732;Confection d'orthèse du membre supérieur;20180126120000;;20230127120000
 1.2.250.1.213.3.3.11;0733;Prise de mesure, ajustement et livraison d'orthèses du membre supérieur;733;Prise de mesure, ajustement et livraison d'orthèses du membre supérieur;20180126120000;;20180126120000
 1.2.250.1.213.3.3.11;0734;Prise de mesure, ajustement et livraison d'orthèses du rachis;734;Prise de mesure, ajustement et livraison d'orthèses du rachis;20180126120000;;20180126120000
@@ -810,7 +810,7 @@
 1.2.250.1.213.3.3.11;0807;Enseignement, Formation - Services aux personnes et aux collectivités;807;Enseignement, Formation - Services aux personnes et aux collectivités;20180330120000;;20180531120000
 1.2.250.1.213.3.3.11;0808;Enseignement, Formation - Professions de la Santé et du Médico-social;808;Enseignement, Formation - Professions de la Santé et du Médico-social;20180330120000;;20180531120000
 1.2.250.1.213.3.3.11;0809;Enseignement, Formation - Chimie, biologie et biochimie;809;Enseignement, Formation - Chimie, biologie et biochimie;20180330120000;;20180531120000
-1.2.250.1.213.3.3.11;0810;Préparation à la naissance et à la parentalité;810;Préparation à la naissance et à la parentalité;20180330120000;;20231030120000
+1.2.250.1.213.3.3.11;0810;Séance de préparation à la naissance et à la parentalité en groupe;810;Séance de préparation à la naissance et à la parentalité en groupe;20180330120000;;20250919120000
 1.2.250.1.213.3.3.11;0811;Accompagnement de la parentalité;811;Accompagnement de la parentalité;20180330120000;20181214120000;20181214120000
 1.2.250.1.213.3.3.11;0812;Médiation familiale;812;Médiation familiale;20180330120000;;20180330120000
 1.2.250.1.213.3.3.11;0813;Visite de convivialité;813;Visite de convivialité;20180531120000;;20180531120000
@@ -823,7 +823,7 @@
 1.2.250.1.213.3.3.11;0820;Enseignement dans un contexte de communication augmentative-alternative;820;Enseignement dans un contexte de communication augmentative-alternative;20180531120000;;20180531120000
 1.2.250.1.213.3.3.11;0821;Enseignement Langue des Signes Française (LSF) tactile;821;Enseignement Langue des Signes Française (LSF) tactile;20180531120000;;20180531120000
 1.2.250.1.213.3.3.11;0822;Groupes de soutien et d'échange;822;Groupes de soutien et d'échange;20180531120000;;20181026120000
-1.2.250.1.213.3.3.11;0823;Méthode de détente activo-passive;823;Méthode de détente activo-passive;20180531120000;;20180531120000
+1.2.250.1.213.3.3.11;0823;Méthode de détente activo-passive;823;Méthode de détente activo-passive;20180531120000;;20250919120000
 1.2.250.1.213.3.3.11;0824;Téléassistance;824;Téléassistance;20180531120000;;20180531120000
 1.2.250.1.213.3.3.11;0825;Prophylaxie pré-exposition par voie orale (PrEP);825;Prophylaxie pré-exposition par voie orale (PrEP);20180629120000;;20180629120000
 1.2.250.1.213.3.3.11;0826;Evaluation pluri-professionnelle post-Accident Vasculaire Cérébral (AVC);826;Evaluation pluri-professionnelle post-Accident Vasculaire Cérébral (AVC);20180629120000;;20250723120000
@@ -893,11 +893,11 @@
 1.2.250.1.213.3.3.11;0890;Endoscopie urologique (fibroscopie urétro-vésicale);890;Endoscopie urologique (fibroscopie urétro-vésicale);20190329120000;;20190329120000
 1.2.250.1.213.3.3.11;0891;Mesure de l'indice bispectral (BIS);891;Mesure de l'indice bispectral (BIS);20190329120000;;20190329120000
 1.2.250.1.213.3.3.11;0892;Réadaptation vésico-sphinctérienne;892;Réadaptation vésico-sphinctérienne;20190329120000;;20230630120000
-1.2.250.1.213.3.3.11;0893;Réadaptation des fonctions sexuelles et de la reproduction;893;Réadaptation des fonctions sexuelles et de la reproduction;20190329120000;;20230630120000
+1.2.250.1.213.3.3.11;0893;Réadaptation des fonctions sexuelles et de la reproduction;893;Réadaptation des fonctions sexuelles et de la reproduction;20190329120000;20250919120000;20250919120000
 1.2.250.1.213.3.3.11;0894;Réadaptation anorectale;894;Réadaptation anorectale;20190329120000;;20230630120000
 1.2.250.1.213.3.3.11;0895;Aspiration gastrique;895;Aspiration gastrique;20190329120000;;20190329120000
 1.2.250.1.213.3.3.11;0896;Drainage bronchique;896;Drainage bronchique;20190329120000;;20190329120000
-1.2.250.1.213.3.3.11;0897;Vaccination épidémie saisonnière;897;Vaccination épidémie Grippe;20190329120000;;20250623120000
+1.2.250.1.213.3.3.11;0897;Vaccination épidémie saisonnière;897;Vaccination épidémie Grippe;20190329120000;;20250918120000
 1.2.250.1.213.3.3.11;0898;Dépistage du diabète;898;Dépistage du diabète;20190329120000;;20190329120000
 1.2.250.1.213.3.3.11;0899;Chirurgie de la cheville;899;Chirurgie de la cheville;20190705120000;20190830120000;20190830120000
 1.2.250.1.213.3.3.11;0900;Chirurgie des tumeurs de l'appareil locomoteur;900;Chirurgie des tumeurs de l'appareil locomoteur;20190705120000;20190830120000;20190830120000
@@ -932,7 +932,7 @@
 1.2.250.1.213.3.3.11;0929;Evaluation et suivi des addictions liées au sport;929;Evaluation et suivi des addictions liées au sport;20190705120000;;20230127120000
 1.2.250.1.213.3.3.11;0930;Evaluation et suivi des addictions liées aux achats compulsifs;930;Evaluation et suivi des addictions liées aux achats compulsifs;20190705120000;;20190705120000
 1.2.250.1.213.3.3.11;0931;Initiation de traitement de substitution aux opiacés;931;Initiation de traitement de substitution aux opiacés;20190705120000;;20190705120000
-1.2.250.1.213.3.3.11;0932;Tests Rapides d'Orientation Diagnostique (TROD);932;Tests Rapides d'Orientation Diagnostique (TROD);20190705120000;;20190705120000
+1.2.250.1.213.3.3.11;0932;Test Rapide d’Orientation Diagnostique (TROD) VIH / Hépatite B / Hépatite C;932;Test Rapide d’Orientation Diagnostique (TROD) VIH / Hépatite B / Hépatite C;20190705120000;;20250919120000
 1.2.250.1.213.3.3.11;0933;Echo-doppler artériel de l'aorte;933;Echo-doppler artériel de l'aorte;20190705120000;20190830120000;20190830120000
 1.2.250.1.213.3.3.11;0934;Mesure ambulatoire de la pression artérielle sur 24 heures (MAPA) (Holter tensionnel);934;MAPA sur 24h (Holter tensionnel);20190705120000;20190830120000;20190830120000
 1.2.250.1.213.3.3.11;0935;Enregistrement polygraphique dans le cadre du SAOS (ne plus utiliser);935;Enregistrement polygraphique dans le cadre du SAOS (ne plus utiliser);20190705120000;20221216120000;20221216120000
@@ -1113,7 +1113,7 @@
 1.2.250.1.213.3.3.11;1110;Réadaptation post polio;Réadaptation post polio;Réadaptation post polio;20220624120000;;20220624120000
 1.2.250.1.213.3.3.11;1111;Réadaptation sensorielle;Réadaptation sensorielle;Réadaptation sensorielle;20220624120000;20231030120000;20231030120000
 1.2.250.1.213.3.3.11;1112;Test au baclofène intrathécal;Test au baclofène intrathécal;Test au baclofène intrathécal;20220624120000;;20221028120000
-1.2.250.1.213.3.3.11;1113;Thérapie manuelle;Thérapie manuelle;Thérapie manuelle;20220624120000;;20220624120000
+1.2.250.1.213.3.3.11;1113;Thérapie manuelle;Thérapie manuelle;Thérapie manuelle;20220624120000;20250919120000;20250919120000
 1.2.250.1.213.3.3.11;1114;Abords vasculaires pour hémodialyse;Abords vasculaires pour hémodialyse;Abords vasculaires pour hémodialyse;20220624120000;;20220624120000
 1.2.250.1.213.3.3.11;1115;Chirurgie de l'aorte abdominale ouverte et endovasculaire;Chirurgie de l'aorte abdominale ouverte et endovasculaire;Chirurgie de l'aorte abdominale ouverte et endovasculaire;20220624120000;;20220624120000
 1.2.250.1.213.3.3.11;1116;Chirurgie de l'aorte thoracique endovasculaire;Chirurgie de l'aorte thoracique endovasculaire;Chirurgie de l'aorte thoracique endovasculaire;20220624120000;;20220624120000
@@ -1483,7 +1483,7 @@
 1.2.250.1.213.3.3.11;1481;Diathermie et électrothérapie combinées;Diathermie et électrothérapie combinées;Diathermie et électrothérapie combinées;20240927120000;;20240927120000
 1.2.250.1.213.3.3.11;1482;Cryothérapie compressive;Cryothérapie compressive;Cryothérapie compressive;20240927120000;;20240927120000
 1.2.250.1.213.3.3.11;1483;Télésurveillance médicale de l'insuffisance cardiaque;Télésurveillance médicale de l'insuffisance cardiaque;Télésurveillance médicale de l'insuffisance cardiaque;20241025120000;;20241025120000
-1.2.250.1.213.3.3.11;1484;Télésurveillance médicale de l'insuffisance rénale;Télésurveillance médicale de l'insuffisance rénale;Télésurveillance médicale de l'insuffisance rénale;20241025120000;;20241025120000
+1.2.250.1.213.3.3.11;1484;Télésurveillance médicale de la maladie rénale chronique (MRC);Télésurveillance médicale de la maladie rénale chronique (MRC);Télésurveillance médicale de la maladie rénale chronique (MRC);20241025120000;;20250919120000
 1.2.250.1.213.3.3.11;1485;Télésurveillance médicale de l'insuffisance respiratoire;Télésurveillance médicale de l'insuffisance respiratoire;Télésurveillance médicale de l'insuffisance respiratoire;20241025120000;;20241025120000
 1.2.250.1.213.3.3.11;1486;Télésurveillance médicale du diabète;Télésurveillance médicale du diabète;Télésurveillance médicale du diabète;20241025120000;;20241025120000
 1.2.250.1.213.3.3.11;1487;Télésurveillance médicale en oncologie;Télésurveillance médicale en oncologie;Télésurveillance médicale en oncologie;20241025120000;;20241025120000
@@ -1497,7 +1497,7 @@
 1.2.250.1.213.3.3.11;1495;HandiBloc;HandiBloc;HandiBloc;20250131120000;;20250131120000
 1.2.250.1.213.3.3.11;1496;Accompagnement des troubles de l'écriture;Accompagnement des troubles de l'écriture;Accompagnement des troubles de l'écriture;20250328120000;;20250723120000
 1.2.250.1.213.3.3.11;1497;Accompagnement ergothérapique à l'accès aux nouvelles technologies;Accompagnement ergothérapique à l'accès aux nouvelles technologies;Accompagnement ergothérapique à l'accès aux nouvelles technologies;20250328120000;;20250723120000
-1.2.250.1.213.3.3.11;1498;Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement;Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement;Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement;20250328120000;;20250723120000
+1.2.250.1.213.3.3.11;1498;Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d’accompagnement en Accompagnement ergothérapique auprès des proches aidants;Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement;Accompagnement ergothérapique auprès des proches aidants (proches et professionnels) : apprentissage de techniques d'accompagnement;20250328120000;;20250723120000
 1.2.250.1.213.3.3.11;1499;Accompagnement ergothérapique dans le cadre de déficiences visuelles;Accompagnement ergothérapique dans le cadre de déficiences visuelles;Accompagnement ergothérapique dans le cadre de déficiences visuelles;20250328120000;;20250723120000
 1.2.250.1.213.3.3.11;1500;Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM);Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM);Accompagnement ergothérapique dans le cadre de maladies neuro-évolutives (SLA, SEP, Parkinson, Alzheimer, PNM);20250328120000;;20250723120000
 1.2.250.1.213.3.3.11;1501;Accompagnement ergothérapique dans le cadre de particularités sensorielles (TND);Accompagnement ergothérapique dans le cadre de particularités sensorielles (TND);Accompagnement ergothérapique dans le cadre de particularités sensorielles (TND);20250328120000;;20250723120000
@@ -1513,11 +1513,11 @@
 1.2.250.1.213.3.3.11;1511;Accompagnement précoce des déficiences;Accompagnement précoce des déficiences;Accompagnement précoce des déficiences;20250425120000;;20250425120000
 1.2.250.1.213.3.3.11;1512;Consultation spécialisée en allaitement;Consultation spécialisée en allaitement;Consultation spécialisée en allaitement;20250623120000;;20250623120000
 1.2.250.1.213.3.3.11;1513;Consultations néonatales pédiatriques;Consultations néonatales pédiatriques;Consultations néonatales pédiatriques;20250623120000;;20250623120000
-1.2.250.1.213.3.3.11;1514;Dialyse longue nocturne;Dialyse longue nocturne;Dialyse longue nocturne;20250623120000;;20250623120000
+1.2.250.1.213.3.3.11;1514;Dialyse longue nocturne;Dialyse longue nocturne;Dialyse longue nocturne;20250623120000;;20250918120000
 1.2.250.1.213.3.3.11;1515;Diathermie et électrothérapie combinées en soins pelvi-périnéaux;Diathermie et électrothérapie combinées en soins pelvi-périnéaux;Diathermie et électrothérapie combinées en soins pelvi-périnéaux;20250623120000;;20250623120000
 1.2.250.1.213.3.3.11;1516;Évaluation et adaptation diététique de nutrition artificielle;Évaluation et adaptation diététique de nutrition artificielle;Évaluation et adaptation diététique de nutrition artificielle;20250623120000;;20250623120000
 1.2.250.1.213.3.3.11;1517;Parcours surpoids et obésité pédiatrique « Mission : Retrouve ton Cap »;Parcours surpoids et obésité pédiatrique « Mission : Retrouve ton Cap »;Parcours surpoids et obésité pédiatrique « Mission : Retrouve ton Cap »;20250623120000;;20250623120000
-1.2.250.1.213.3.3.11;1518;Participation au dispositif HandiGynéco;Participation au dispositif HandiGynéco;Participation au dispositif HandiGynéco;20250623120000;;20250623120000
+1.2.250.1.213.3.3.11;1518;Participation au dispositif HandiGynéco;Participation au dispositif HandiGynéco;Participation au dispositif HandiGynéco;20250623120000;;20250918120000
 1.2.250.1.213.3.3.11;1519;Séance de préparation à la naissance et à la parentalité individuelle;Séance de préparation à la naissance et à la parentalité individuelle;Séance de préparation à la naissance et à la parentalité individuelle;20250623120000;;20250623120000
 1.2.250.1.213.3.3.11;1520;Soin diététique et nutritionnel adulte des traitements oncologiques;Soin diététique et nutritionnel adulte pendant et après les traitements oncologiques;Soin diététique et nutritionnel adulte pendant et après les traitements oncologiques;20250623120000;;20250623120000
 1.2.250.1.213.3.3.11;1521;Soin diététique et nutritionnel des alimentations pauvres en FODMAPs;Soin diététique et nutritionnel des alimentations pauvres en FODMAPs;Soin diététique et nutritionnel des alimentations pauvres en FODMAPs;20250623120000;;20250623120000
@@ -1530,11 +1530,24 @@
 1.2.250.1.213.3.3.11;1528;Soin diététique et nutritionnel des diabètes;Soin diététique et nutritionnel des diabètes;Soin diététique et nutritionnel des diabètes;20250623120000;;20250623120000
 1.2.250.1.213.3.3.11;1529;Soins gynécologiques pour personnes en situation de handicap;Soins gynécologiques pour personnes en situation de handicap;Soins gynécologiques pour personnes en situation de handicap;20250623120000;;20250623120000
 1.2.250.1.213.3.3.11;1530;Suivi post-accouchement à domicile;Suivi post-accouchement à domicile;Suivi post-accouchement à domicile;20250623120000;;20250623120000
-1.2.250.1.213.3.3.11;1531;Suivi staturopondéral des nourrissons;Suivi staturopondéral des nourrissons;Suivi staturopondéral des nourrissons;20250623120000;;20250623120000
-1.2.250.1.213.3.3.11;1532;Surveillance d'ictère néonatal par mesure transcutanée;Surveillance d'ictère néonatal par mesure transcutanée;Surveillance d'ictère néonatal par mesure transcutanée;20250623120000;;20250623120000
+1.2.250.1.213.3.3.11;1531;Suivi staturopondéral des nourrissons;Suivi staturopondéral des nourrissons;Suivi staturopondéral des nourrissons;20250623120000;;20250918120000
+1.2.250.1.213.3.3.11;1532;Surveillance d'ictère néonatal par mesure transcutanée;Surveillance d'ictère néonatal par mesure transcutanée;Surveillance d'ictère néonatal par mesure transcutanée;20250623120000;;20250918120000
 1.2.250.1.213.3.3.11;1533;Test de Guthrie hors établissement (test néonatal du buvard);Test de Guthrie hors établissement (test néonatal du buvard);Test de Guthrie hors établissement (test néonatal du buvard);20250623120000;;20250623120000
-1.2.250.1.213.3.3.11;1534;Vaccination contre la tuberculose;Vaccination contre la tuberculose;Vaccination contre la tuberculose;20250623120000;;20250623120000
-1.2.250.1.213.3.3.11;1535;Vaccination du calendrier vaccinal de l’adolescent et de l’adulte;Vaccination du calendrier vaccinal de l’adolescent et de l’adulte;Vaccination du calendrier vaccinal de l’adolescent et de l’adulte;20250623120000;;20250623120000
-1.2.250.1.213.3.3.11;1536;Vaccination du calendrier vaccinal du jeune enfant (0-12 ans);Vaccination du calendrier vaccinal du jeune enfant (0-12 ans);Vaccination du calendrier vaccinal du jeune enfant (0-12 ans);20250623120000;;20250623120000
-1.2.250.1.213.3.3.11;1537;Vaccination du calendrier vaccinal du sénior;Vaccination du calendrier vaccinal du sénior;Vaccination du calendrier vaccinal du sénior;20250623120000;;20250623120000
+1.2.250.1.213.3.3.11;1534;Vaccination contre la tuberculose;Vaccination contre la tuberculose;Vaccination contre la tuberculose;20250623120000;;20250918120000
+1.2.250.1.213.3.3.11;1535;Vaccination du calendrier vaccinal de l’adolescent et de l’adulte;Vaccination du calendrier vaccinal de l’adolescent et de l’adulte;Vaccination du calendrier vaccinal de l’adolescent et de l’adulte;20250623120000;;20250918120000
+1.2.250.1.213.3.3.11;1536;Vaccination du calendrier vaccinal du jeune enfant (0-12 ans);Vaccination du calendrier vaccinal du jeune enfant (0-12 ans);Vaccination du calendrier vaccinal du jeune enfant (0-12 ans);20250623120000;;20250918120000
+1.2.250.1.213.3.3.11;1537;Vaccination du calendrier vaccinal du sénior;Vaccination du calendrier vaccinal du sénior;Vaccination du calendrier vaccinal du sénior;20250623120000;;20250918120000
 1.2.250.1.213.3.3.11;1538;Vaccination épidémie Covid;Vaccination épidémie Covid;Vaccination épidémie Covid;20250623120000;;20250623120000
+1.2.250.1.213.3.3.11;1539;Test Rapide d’Orientation Diagnostique (TROD) Covid-19;Test Rapide d’Orientation Diagnostique (TROD) Covid-19;Test Rapide d’Orientation Diagnostique (TROD) Covid-19;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1540;Test Rapide d’Orientation Diagnostique (TROD) Grippe;Test Rapide d’Orientation Diagnostique (TROD) Grippe;Test Rapide d’Orientation Diagnostique (TROD) Grippe;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1541;Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS);Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS);Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS);20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1542;Test Rapide d’Orientation Diagnostique (TROD) Angine;Test Rapide d’Orientation Diagnostique (TROD) Angine;Test Rapide d’Orientation Diagnostique (TROD) Angine;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1543;Test Rapide d’Orientation Diagnostique (TROD) Syphilis;Test Rapide d’Orientation Diagnostique (TROD) Syphilis;Test Rapide d’Orientation Diagnostique (TROD) Syphilis;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1544;Test Rapide d’Orientation Diagnostique (TROD) Cystite;Test Rapide d’Orientation Diagnostique (TROD) Cystite;Test Rapide d’Orientation Diagnostique (TROD) Cystite;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1545;Chirurgie de l’allongement osseux;Chirurgie de l’allongement osseux;Chirurgie de l’allongement osseux;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1546;Correction des malformations congénitales de la main;Correction des malformations congénitales de la main;Correction des malformations congénitales de la main;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1547;Accueil saisonnier possible;Accueil saisonnier possible;Accueil saisonnier possible;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1548;Accueil saisonnier uniquement;Accueil saisonnier uniquement;Accueil saisonnier uniquement;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1549;Autodialyse simple;Autodialyse simple;Autodialyse simple;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1550;Autodialyse assistée;Autodialyse assistée;Autodialyse assistée;20250919120000;;20250919120000
+1.2.250.1.213.3.3.11;1551;Accueil en unité protégée;Accueil en unité protégée;Accueil en unité protégée;20250924120000;;20250924120000

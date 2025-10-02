@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>TRE_R31_StatutEtatCivil - Terminologies  de Santé v1.2.0</title>
+    <title>TRE_R31_StatutEtatCivil - Terminologies  de Santé v1.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.920"}
-    h3,h4,h5,h6{--heading-prefix:"7.920"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.919"}
+    h3,h4,h5,h6{--heading-prefix:"7.919"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.2.0 - final-text
+            <span style="display:inline-block;">1.3.0 - final-text
 
 
 
@@ -164,7 +164,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.2.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.3.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -195,12 +195,6 @@
     </li>
   
 
-
-  
-    <li>
-      <a href="CodeSystem-TRE-R31-StatutEtatCivil.ttl.html">TTL</a>
-    </li>
-  
 
 
 
@@ -371,54 +365,62 @@
 <td>http://hl7.org/fhir/concept-properties#retirementDate</td>
 <td>dateTime</td>
 <td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R31-StatutEtatCivil/FHIR/TRE-R31-StatutEtatCivil</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr><td style="white-space:nowrap">AC<a name="TRE-R31-StatutEtatCivil-AC"> </a></td>
 <td>Demande de certification forcée par le guichet</td>
 <td></td>
 <td>2007-07-25T15:04:44+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
 <td>Demande forcée</td></tr>
 <tr><td style="white-space:nowrap">AN<a name="TRE-R31-StatutEtatCivil-AN"> </a></td>
 <td>Demande annulée</td>
 <td></td>
 <td>2007-07-25T15:04:44+01:00</td>
 <td>2007-07-25T15:04:44+01:00</td>
+<td>active</td>
 <td>Annulation</td></tr>
 <tr><td style="white-space:nowrap">C<a name="TRE-R31-StatutEtatCivil-C"> </a></td>
 <td>Certifié INSEE</td>
 <td></td>
 <td>2007-07-25T15:04:44+01:00</td>
 <td>2007-07-25T15:04:44+01:00</td>
+<td>active</td>
 <td>Certifié</td></tr>
 <tr><td style="white-space:nowrap">DI<a name="TRE-R31-StatutEtatCivil-DI"> </a></td>
 <td>Demande de certification normale</td>
 <td></td>
 <td>2007-07-25T15:04:44+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
 <td>Demande certification</td></tr>
 <tr><td style="white-space:nowrap">FC<a name="TRE-R31-StatutEtatCivil-FC"> </a></td>
 <td>Certifié par FranceConnect</td>
 <td>FranceConnect est un dispositif qui permet aux internautes de s'identifier sur un service en ligne par l'intermédiaire d'un compte existant (impots.gouv.fr, ameli.fr…). Les données d'état civil récupérées depuis le Répertoire national d'identification des personnes physiques de l'Insee (RNIPP) lors de l'identification par FranceConnect sont certifiées par l'Insee.</td>
 <td>2021-11-26T12:00:00+01:00</td>
 <td>2021-11-26T12:00:00+01:00</td>
+<td>active</td>
 <td>Certifié FranceConnect</td></tr>
 <tr><td style="white-space:nowrap">FCP<a name="TRE-R31-StatutEtatCivil-FCP"> </a></td>
 <td>Certifié par FranceConnect+</td>
 <td>FranceConnect+ est une version plus sécurisée de FranceConnect et propose une authentification renforcée permettant de limiter les risques d'usurpations d'identité grâce à l'identité numérique de La Poste.</td>
 <td>2025-01-31T12:00:00+01:00</td>
 <td>2025-01-31T12:00:00+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">NC<a name="TRE-R31-StatutEtatCivil-NC"> </a></td>
 <td>Non certifiable</td>
 <td></td>
 <td>2007-07-25T15:04:44+01:00</td>
 <td>2007-07-25T15:04:44+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">NCI<a name="TRE-R31-StatutEtatCivil-NCI"> </a></td>
 <td>Non certifié INSEE, Immatriculation en cours</td>
 <td></td>
 <td>2007-07-25T15:04:44+01:00</td>
 <td>2007-07-25T15:04:44+01:00</td>
+<td>active</td>
 <td>Non certifié</td></tr></table></div>
 </div>
   
@@ -468,7 +470,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 30, 2025 08:20+0000">2025-07-30</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 2, 2025 12:01+0000">2025-10-02</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

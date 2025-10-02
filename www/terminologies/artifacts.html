@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary - Terminologies  de Santé v1.2.0</title>
+    <title>Artifacts Summary - Terminologies  de Santé v1.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.2.0 - final-text
+            <span style="display:inline-block;">1.3.0 - final-text
 
 
 
@@ -171,7 +171,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.2.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.3.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -357,14 +357,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </td>
             <td>
 <p>CoverageRoleType</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
-               <a href="ValueSet-designation-use.html" title="ValueSet/designation-use">Designation Use</a>
-            </td>
-            <td>
-<p>Details of how a designation would be used</p>
 </td>
          </tr>
          <tr>
@@ -5071,7 +5063,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="ValueSet/JDV-J185-TypeFermeture-ROR">JDV_J185_TypeFermeture_ROR</a>
             </td>
             <td>
-<p>Destination d’usage du lieu pour le lieu de réalisation de l’offre.</p>
+<p>Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres</p>
 </td>
          </tr>
          <tr>
@@ -5233,7 +5225,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
                   title="ValueSet/JDV-J201-TypeFermeture-ROR">JDV_J201_TypeFermeture_ROR</a>
             </td>
             <td>
-<p>Type de fermeture, codes provenant du FINESS pour les EJ et EG</p>
+<p>Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage)</p>
 </td>
          </tr>
          <tr>
@@ -6875,15 +6867,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="CodeSystem-terminologie-cladimed.html"
-                  title="CodeSystem/terminologie-cladimed">Classification des dispositifs médicaux</a>
-            </td>
-            <td>
-
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
                <a href="CodeSystem-terminologie-cim-10.html"
                   title="CodeSystem/terminologie-cim-10">Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)</a>
             </td>
@@ -6977,6 +6960,15 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
             <td style="column-width:30%">
                <a href="CodeSystem-900000000000207008-20250701.html"
                   title="CodeSystem/900000000000207008-20250701">SNOMED CT core</a>
+            </td>
+            <td>
+<p>SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-900000000000207008-20250901.html"
+                  title="CodeSystem/900000000000207008-20250901">SNOMED CT core</a>
             </td>
             <td>
 <p>SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).</p>
@@ -7507,7 +7499,7 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
                   title="CodeSystem/TRE-R210-ActeSpecifique">TRE_R210_ActeSpecifique</a>
             </td>
             <td>
-<p>Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.</p>
+<p>Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.</p>
 </td>
          </tr>
          <tr>
@@ -9303,7 +9295,18 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="NamingSystem-IHERoleCodeVocabulary.html"
+                  title="NamingSystem/IHERoleCodeVocabulary">IHERoleCode_Vocabulary</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="NamingSystem-v3-loinc.html" title="NamingSystem/v3-loinc">LOINC</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="NamingSystem-MEDDRA.html" title="NamingSystem/MEDDRA">MEDDRA</a>
             </td>
          </tr>
          <tr>
@@ -9318,8 +9321,18 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="NamingSystem-SERAFIN.html" title="NamingSystem/SERAFIN">SERAFIN</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="NamingSystem-Snomed-CT-core.html"
                   title="NamingSystem/Snomed-CT-core">Snomed_CT_core_900000000000207008</a>
+            </td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="NamingSystem-UCUM.html" title="NamingSystem/UCUM">UCUM</a>
             </td>
          </tr>
       </tbody>
@@ -9584,20 +9597,11 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="ConceptMap-alignement-nuva-atc.html"
-                  title="ConceptMap/alignement-nuva-atc">Aligner les codes ATC de NUVA avec les codes ATC</a>
-            </td>
-            <td>
-<p>Source des données SYADEM</p>
-</td>
-         </tr>
-         <tr>
-            <td style="column-width:30%">
                <a href="ConceptMap-alignement-nuva-bdpm.html"
                   title="ConceptMap/alignement-nuva-bdpm">Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM</a>
             </td>
             <td>
-<p>Source des données SYADEM</p>
+
 </td>
          </tr>
       </tbody>
@@ -9642,7 +9646,7 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 30, 2025 08:20+0000">2025-07-30</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 2, 2025 12:01+0000">2025-10-02</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

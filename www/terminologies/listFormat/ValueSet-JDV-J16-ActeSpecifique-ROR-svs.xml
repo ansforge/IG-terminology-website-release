@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250625120000"
+             dateMaj="20250919120000"
              dateValid="20160901000000"
              description="Acte spécifique - ROR"
              displayName="JDV_J16_ActeSpecifique_ROR"
@@ -106,9 +106,6 @@
          <Concept code="0054"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Chirurgie carcinologique gynécologique"/>
-         <Concept code="0055"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Chirurgie carcinologique maxillo-faciale et stomatologique"/>
          <Concept code="0056"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Chirurgie carcinologique ophtalmologique"/>
@@ -630,7 +627,7 @@
                   displayName="Prélèvement d'organes à coeur arrêté"/>
          <Concept code="0384"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Prélèvement d'organes à coeur battant"/>
+                  displayName="Prélèvement d'organes à coeur battant (mort cérébrale)"/>
          <Concept code="0385"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Prélèvement d'organes sur personne vivante : foie"/>
@@ -667,9 +664,6 @@
          <Concept code="0412"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Rééducation basse vision"/>
-         <Concept code="0413"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Rééducation orthoptique"/>
          <Concept code="0415"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Ré-implantation de doigts"/>
@@ -727,9 +721,6 @@
          <Concept code="0437"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Scintigraphie SPECT-CT"/>
-         <Concept code="0440"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Soins odontologiques sous anesthésie générale (AG)"/>
          <Concept code="0441"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Soins avec administration de MEOPA"/>
@@ -1342,9 +1333,6 @@
          <Concept code="0730"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Suivi de grossesse à risque"/>
-         <Concept code="0731"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Surveillance du nouveau-né à risque"/>
          <Concept code="0732"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Confection d'orthèse du membre supérieur"/>
@@ -1560,7 +1548,7 @@
                   displayName="Enseignement, Formation - Chimie, biologie et biochimie"/>
          <Concept code="0810"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Préparation à la naissance et à la parentalité"/>
+                  displayName="Séance de préparation à la naissance et à la parentalité en groupe"/>
          <Concept code="0812"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Médiation familiale"/>
@@ -1795,9 +1783,6 @@
          <Concept code="0892"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Réadaptation vésico-sphinctérienne"/>
-         <Concept code="0893"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Réadaptation des fonctions sexuelles et de la reproduction"/>
          <Concept code="0894"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Réadaptation anorectale"/>
@@ -1884,7 +1869,7 @@
                   displayName="Initiation de traitement de substitution aux opiacés"/>
          <Concept code="0932"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Tests Rapides d'Orientation Diagnostique (TROD)"/>
+                  displayName="Test Rapide d’Orientation Diagnostique (TROD) VIH / Hépatite B / Hépatite C"/>
          <Concept code="0958"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="CAR-T Cells"/>
@@ -2341,9 +2326,6 @@
          <Concept code="1112"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Test au baclofène intrathécal"/>
-         <Concept code="1113"
-                  codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Thérapie manuelle"/>
          <Concept code="1114"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Abords vasculaires pour hémodialyse"/>
@@ -3396,7 +3378,7 @@
                   displayName="Télésurveillance médicale de l'insuffisance cardiaque"/>
          <Concept code="1484"
                   codeSystem="1.2.250.1.213.3.3.11"
-                  displayName="Télésurveillance médicale de l'insuffisance rénale"/>
+                  displayName="Télésurveillance médicale de la maladie rénale chronique (MRC)"/>
          <Concept code="1485"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Télésurveillance médicale de l'insuffisance respiratoire"/>
@@ -3559,6 +3541,42 @@
          <Concept code="1538"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Vaccination épidémie Covid"/>
+         <Concept code="1539"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Test Rapide d’Orientation Diagnostique (TROD) Covid-19"/>
+         <Concept code="1540"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Test Rapide d’Orientation Diagnostique (TROD) Grippe"/>
+         <Concept code="1541"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS)"/>
+         <Concept code="1542"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Test Rapide d’Orientation Diagnostique (TROD) Angine"/>
+         <Concept code="1543"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Test Rapide d’Orientation Diagnostique (TROD) Syphilis"/>
+         <Concept code="1544"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Test Rapide d’Orientation Diagnostique (TROD) Cystite"/>
+         <Concept code="1545"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Chirurgie de l’allongement osseux"/>
+         <Concept code="1546"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Correction des malformations congénitales de la main"/>
+         <Concept code="1547"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accueil saisonnier possible"/>
+         <Concept code="1548"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accueil saisonnier uniquement"/>
+         <Concept code="1549"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Autodialyse simple"/>
+         <Concept code="1550"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Autodialyse assistée"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

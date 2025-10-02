@@ -1,0 +1,206 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-acquisition-cisis> a fhir:ValueSet ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "jdv-modalite-acquisition-cisis"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "4" ] ;
+     fhir:lastUpdated [ fhir:v "2025-06-25T09:14:53.067+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+     ] )
+  ] ; # 
+  fhir:language [ fhir:v "fr-FR"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "extensions" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"fr-FR\" lang=\"fr-FR\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-modalite-acquisition-cisis</b></p><a name=\"jdv-modalite-acquisition-cisis\"> </a><a name=\"hcjdv-modalite-acquisition-cisis\"> </a><a name=\"jdv-modalite-acquisition-cisis-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version: 4; Last updated: 2025-06-25 09:14:53+0000; Language: fr-FR</p><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><ul><li>Include ces codes sont définis dans <a href=\"http://dicom.nema.org/resources/ontology/DCM\"><code>http://dicom.nema.org/resources/ontology/DCM</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td></tr><tr><td><code>AR</code></td><td>Autoréfraction</td><td>An acquisition device, process or method that measures autorefraction.</td></tr><tr><td><code>BDUS</code></td><td>Échodensitométrie osseuse</td><td>An acquisition device, process or method that performs ultrasound bone densitometry.</td></tr><tr><td><code>BI</code></td><td>Imagerie biomagnétique</td><td>An acquisition device, process or method that performs biomagnetic imaging.</td></tr><tr><td><code>BMD</code></td><td>Ostéodensitométrie</td><td>An acquisition device, process or method that performs bone mineral densitometry by X-Ray, including dual-energy X-Ray absorptiometry (DXA) and morphometric X-Ray absorptiometry (MXA).</td></tr><tr><td><code>CR</code></td><td>Radiographie assistée par ordinateur</td><td>An acquisition device, process or method that performs computed radiography.</td></tr><tr><td><code>CT</code></td><td>Tomodensitométrie</td><td>An acquisition device, process or method that performs computed tomography.</td></tr><tr><td><code>DG</code></td><td>Diaphanographie</td><td>An acquisition device, process or method that performs diaphanography.</td></tr><tr><td><code>DMS</code></td><td>Dermoscopie</td><td>An acquisition device, process or method that performs imaging of the surface of the skin using epiluminescence microscopy.</td></tr><tr><td><code>DX</code></td><td>Radiographie numérique</td><td>An acquisition device, process or method that performs digital radiography.</td></tr><tr><td><code>ECG</code></td><td>Électrocardiographie</td><td>An acquisition device, process or method that performs electrocardiography.</td></tr><tr><td><code>EEG</code></td><td>Électroencéphalographie</td><td>An acquisition device, process or method that performs electroencephalography.</td></tr><tr><td><code>EMG</code></td><td>Électromyographie</td><td>An acquisition device, process or method that performs electromyography.</td></tr><tr><td><code>EOG</code></td><td>Électrooculographie</td><td>An acquisition device, process or method that performs electrooculography.</td></tr><tr><td><code>EPS</code></td><td>Électrophysiologie cardiaque</td><td>An acquisition device, process or method that performs cardiac electrophysiology.</td></tr><tr><td><code>ES</code></td><td>Endoscopie</td><td>An acquisition device, process or method that records images during endoscopy.</td></tr><tr><td><code>GM</code></td><td>Microscopie générale</td><td>An acquisition device, process or method that performs general microscopy.</td></tr><tr><td><code>HD</code></td><td>Onde hémodynamique</td><td>An acquisition device, process or method that records hemodynamic waveforms.</td></tr><tr><td><code>IO</code></td><td>Radiographie intrabuccale</td><td>An acquisition device, process or method that performs intra-oral radiography.</td></tr><tr><td><code>IVOCT</code></td><td>Tomographie par cohérence optique intravasculaire</td><td>An acquisition device, process or method that performs intravascular optical coherence tomography</td></tr><tr><td><code>IVUS</code></td><td>Ultrasonore intravasculaire</td><td>An acquisition device, process or method that performs intravascular ultrasound.</td></tr><tr><td><code>KER</code></td><td>Kératométrie</td><td>An acquisition device, process or method that performs keratometry.</td></tr><tr><td><code>LEN</code></td><td>Lensométrie</td><td>An acquisition device, process or method that performs lensometry.</td></tr><tr><td><code>LS</code></td><td>Scan laser</td><td>An acquisition device, process or method that performs laser surface scanning.</td></tr><tr><td><code>MG</code></td><td>Mammographie</td><td>An acquisition device, process or method that performs mammography.</td></tr><tr><td><code>MR</code></td><td>Résonance magnétique</td><td>An acquisition device, process or method that performs magnetic resonance imaging.</td></tr><tr><td><code>NM</code></td><td>Médecine nucléaire</td><td>An acquisition device, process or method that performs nuclear medicine imaging.</td></tr><tr><td><code>OAM</code></td><td>Mesures axiales ophtalmiques</td><td>An acquisition device, process or method that measures the axial length of the eye.</td></tr><tr><td><code>OCT</code></td><td>Tomographie à cohérence optique</td><td>An acquisition device, process or method that uses an interferometric, non-invasive optical tomographic technique to image 2D slices and 3D volumes of tissue using visible and near visible frequencies.</td></tr><tr><td><code>OP</code></td><td>Photographique ophtalmique</td><td>An acquisition device, process or method that performs ophthalmic photography.</td></tr><tr><td><code>OPM</code></td><td>Cartographie ophtalmique</td><td>An acquisition device, process or method that measures corneal topography, corneal or retinal thickness, and other similar parameters that are typically displayed as maps.</td></tr><tr><td><code>OPT</code></td><td>Tomographie ophtalmique</td><td>An acquisition device, process or method that performs tomography of the eye that is based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded.</td></tr><tr><td><code>OPTBSV</code></td><td>Tomographie ophtalmique B-scan analyse de volume</td><td>An acquisition device, process or method that performs B-scan volume analysis of tomography images of the eye based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded.</td></tr><tr><td><code>OPTENF</code></td><td>Tomographie ophtalmique en face</td><td>An acquisition device, process or method that creates en face tomography images of the eye based on light and optical principles. Tomography based on other principles, such as ultrasound, is excluded.</td></tr><tr><td><code>OPV</code></td><td>Champ visuel ophtalmique</td><td>An acquisition device, process or method that measures visual fields and perform visual perimetry.</td></tr><tr><td><code>OSS</code></td><td>Scanner optique de surface</td><td>An acquisition device, process or method that performs optical surface scanning.</td></tr><tr><td><code>POS</code></td><td>Détecteur de position</td><td>A device or sensor measuring the orientation of the patient’s body.</td></tr><tr><td><code>PT</code></td><td>TEP : Tomographie par émission de positons</td><td>An acquisition device, process or method that performs positron emission tomography (PET).</td></tr><tr><td><code>PX</code></td><td>Panaromique X-Ray</td><td>An acquisition device, process or method that performs panoramic X-Rays.</td></tr><tr><td><code>RESP</code></td><td>Onde respiratoire</td><td>A device, process or method that produces waveforms of electrical signals from the patient’s respiratory system.</td></tr><tr><td><code>RF</code></td><td>Radio-fluoroscopie</td><td>An acquisition device, process or method that performs radiofluoroscopy.</td></tr><tr><td><code>RG</code></td><td>Imagerie radiographique</td><td>An acquisition device, process or method that performs radiographic imaging (conventional film/screen).</td></tr><tr><td><code>RTIMAGE</code></td><td>Image RT</td><td>An acquisition device, process or method that performs radiotherapy imaging; includes portal imaging.</td></tr><tr><td><code>SM</code></td><td>Microscopie à lames</td><td>An acquisition device, process or method that performs slide microscopy.</td></tr><tr><td><code>SRF</code></td><td>Réfraction subjective</td><td>An acquisition device, process or method that records subjective refraction.</td></tr><tr><td><code>TG</code></td><td>Thermographie</td><td>An acquisition device, process or method that performs thermography.</td></tr><tr><td><code>US</code></td><td>Échographie</td><td>An acquisition device, process or method that performs ultrasound.</td></tr><tr><td><code>VA</code></td><td>Acuité visuelle</td><td>An acquisition device, process or method that measures visual acuity.</td></tr><tr><td><code>XA</code></td><td>Angiographie X-Ray</td><td>An acquisition device, process or method that performs X-Ray angiography.</td></tr><tr><td><code>XC</code></td><td>Caméra de photographie externe</td><td>An acquisition device, process or method that performs photography with an external camera.</td></tr></table></li></ul></div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:extension ( [
+     fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
+     fhir:value [
+       a fhir:Period ;
+       fhir:start [ fhir:v "2021-04-19T00:00:00+01:00"^^xsd:dateTime ]
+     ]
+  ] ) ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modalite-acquisition-cisis"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.1.1.5.618" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "20250624152100"] ; # 
+  fhir:name [ fhir:v "JdvModaliteAcquisitionCisis"] ; # 
+  fhir:title [ fhir:v "JDV Modalite Acquisition CISIS"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2025-06-24T15:21:00+01:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
+  fhir:description [ fhir:v "JDV Modalite Acquisition CISIS"] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FR" ]
+     ] )
+  ] ) ; # 
+  fhir:compose [
+     fhir:include ( [
+       fhir:system [ fhir:v "http://dicom.nema.org/resources/ontology/DCM"^^xsd:anyURI ] ;
+       fhir:concept ( [
+         fhir:code [ fhir:v "AR" ] ;
+         fhir:display [ fhir:v "Autoréfraction" ]
+       ] [
+         fhir:code [ fhir:v "BDUS" ] ;
+         fhir:display [ fhir:v "Échodensitométrie osseuse" ]
+       ] [
+         fhir:code [ fhir:v "BI" ] ;
+         fhir:display [ fhir:v "Imagerie biomagnétique" ]
+       ] [
+         fhir:code [ fhir:v "BMD" ] ;
+         fhir:display [ fhir:v "Ostéodensitométrie" ]
+       ] [
+         fhir:code [ fhir:v "CR" ] ;
+         fhir:display [ fhir:v "Radiographie assistée par ordinateur" ]
+       ] [
+         fhir:code [ fhir:v "CT" ] ;
+         fhir:display [ fhir:v "Tomodensitométrie" ]
+       ] [
+         fhir:code [ fhir:v "DG" ] ;
+         fhir:display [ fhir:v "Diaphanographie" ]
+       ] [
+         fhir:code [ fhir:v "DMS" ] ;
+         fhir:display [ fhir:v "Dermoscopie" ]
+       ] [
+         fhir:code [ fhir:v "DX" ] ;
+         fhir:display [ fhir:v "Radiographie numérique" ]
+       ] [
+         fhir:code [ fhir:v "ECG" ] ;
+         fhir:display [ fhir:v "Électrocardiographie" ]
+       ] [
+         fhir:code [ fhir:v "EEG" ] ;
+         fhir:display [ fhir:v "Électroencéphalographie" ]
+       ] [
+         fhir:code [ fhir:v "EMG" ] ;
+         fhir:display [ fhir:v "Électromyographie" ]
+       ] [
+         fhir:code [ fhir:v "EOG" ] ;
+         fhir:display [ fhir:v "Électrooculographie" ]
+       ] [
+         fhir:code [ fhir:v "EPS" ] ;
+         fhir:display [ fhir:v "Électrophysiologie cardiaque" ]
+       ] [
+         fhir:code [ fhir:v "ES" ] ;
+         fhir:display [ fhir:v "Endoscopie" ]
+       ] [
+         fhir:code [ fhir:v "GM" ] ;
+         fhir:display [ fhir:v "Microscopie générale" ]
+       ] [
+         fhir:code [ fhir:v "HD" ] ;
+         fhir:display [ fhir:v "Onde hémodynamique" ]
+       ] [
+         fhir:code [ fhir:v "IO" ] ;
+         fhir:display [ fhir:v "Radiographie intrabuccale" ]
+       ] [
+         fhir:code [ fhir:v "IVOCT" ] ;
+         fhir:display [ fhir:v "Tomographie par cohérence optique intravasculaire" ]
+       ] [
+         fhir:code [ fhir:v "IVUS" ] ;
+         fhir:display [ fhir:v "Ultrasonore intravasculaire" ]
+       ] [
+         fhir:code [ fhir:v "KER" ] ;
+         fhir:display [ fhir:v "Kératométrie" ]
+       ] [
+         fhir:code [ fhir:v "LEN" ] ;
+         fhir:display [ fhir:v "Lensométrie" ]
+       ] [
+         fhir:code [ fhir:v "LS" ] ;
+         fhir:display [ fhir:v "Scan laser" ]
+       ] [
+         fhir:code [ fhir:v "MG" ] ;
+         fhir:display [ fhir:v "Mammographie" ]
+       ] [
+         fhir:code [ fhir:v "MR" ] ;
+         fhir:display [ fhir:v "Résonance magnétique" ]
+       ] [
+         fhir:code [ fhir:v "NM" ] ;
+         fhir:display [ fhir:v "Médecine nucléaire" ]
+       ] [
+         fhir:code [ fhir:v "OAM" ] ;
+         fhir:display [ fhir:v "Mesures axiales ophtalmiques" ]
+       ] [
+         fhir:code [ fhir:v "OCT" ] ;
+         fhir:display [ fhir:v "Tomographie à cohérence optique" ]
+       ] [
+         fhir:code [ fhir:v "OP" ] ;
+         fhir:display [ fhir:v "Photographique ophtalmique" ]
+       ] [
+         fhir:code [ fhir:v "OPM" ] ;
+         fhir:display [ fhir:v "Cartographie ophtalmique" ]
+       ] [
+         fhir:code [ fhir:v "OPT" ] ;
+         fhir:display [ fhir:v "Tomographie ophtalmique" ]
+       ] [
+         fhir:code [ fhir:v "OPTBSV" ] ;
+         fhir:display [ fhir:v "Tomographie ophtalmique B-scan analyse de volume" ]
+       ] [
+         fhir:code [ fhir:v "OPTENF" ] ;
+         fhir:display [ fhir:v "Tomographie ophtalmique en face" ]
+       ] [
+         fhir:code [ fhir:v "OPV" ] ;
+         fhir:display [ fhir:v "Champ visuel ophtalmique" ]
+       ] [
+         fhir:code [ fhir:v "OSS" ] ;
+         fhir:display [ fhir:v "Scanner optique de surface" ]
+       ] [
+         fhir:code [ fhir:v "POS" ] ;
+         fhir:display [ fhir:v "Détecteur de position" ]
+       ] [
+         fhir:code [ fhir:v "PT" ] ;
+         fhir:display [ fhir:v "TEP : Tomographie par émission de positons" ]
+       ] [
+         fhir:code [ fhir:v "PX" ] ;
+         fhir:display [ fhir:v "Panaromique X-Ray" ]
+       ] [
+         fhir:code [ fhir:v "RESP" ] ;
+         fhir:display [ fhir:v "Onde respiratoire" ]
+       ] [
+         fhir:code [ fhir:v "RF" ] ;
+         fhir:display [ fhir:v "Radio-fluoroscopie" ]
+       ] [
+         fhir:code [ fhir:v "RG" ] ;
+         fhir:display [ fhir:v "Imagerie radiographique" ]
+       ] [
+         fhir:code [ fhir:v "RTIMAGE" ] ;
+         fhir:display [ fhir:v "Image RT" ]
+       ] [
+         fhir:code [ fhir:v "SM" ] ;
+         fhir:display [ fhir:v "Microscopie à lames" ]
+       ] [
+         fhir:code [ fhir:v "SRF" ] ;
+         fhir:display [ fhir:v "Réfraction subjective" ]
+       ] [
+         fhir:code [ fhir:v "TG" ] ;
+         fhir:display [ fhir:v "Thermographie" ]
+       ] [
+         fhir:code [ fhir:v "US" ] ;
+         fhir:display [ fhir:v "Échographie" ]
+       ] [
+         fhir:code [ fhir:v "VA" ] ;
+         fhir:display [ fhir:v "Acuité visuelle" ]
+       ] [
+         fhir:code [ fhir:v "XA" ] ;
+         fhir:display [ fhir:v "Angiographie X-Ray" ]
+       ] [
+         fhir:code [ fhir:v "XC" ] ;
+         fhir:display [ fhir:v "Caméra de photographie externe" ]
+       ] )
+     ] )
+  ] . # 
+
+# -------------------------------------------------------------------------------------
+

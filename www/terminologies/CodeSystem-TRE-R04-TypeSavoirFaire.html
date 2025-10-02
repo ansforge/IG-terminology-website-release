@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>TRE_R04_TypeSavoirFaire - Terminologies  de Santé v1.2.0</title>
+    <title>TRE_R04_TypeSavoirFaire - Terminologies  de Santé v1.3.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.797"}
-    h3,h4,h5,h6{--heading-prefix:"7.797"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.796"}
+    h3,h4,h5,h6{--heading-prefix:"7.796"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.2.0 - final-text
+            <span style="display:inline-block;">1.3.0 - final-text
 
 
 
@@ -164,7 +164,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.2.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.3.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -195,12 +195,6 @@
     </li>
   
 
-
-  
-    <li>
-      <a href="CodeSystem-TRE-R04-TypeSavoirFaire.ttl.html">TTL</a>
-    </li>
-  
 
 
 
@@ -372,78 +366,90 @@
 <td>http://hl7.org/fhir/concept-properties#retirementDate</td>
 <td>dateTime</td>
 <td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>French (France) (fr)</b></td></tr>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr><td style="white-space:nowrap">C<a name="TRE-R04-TypeSavoirFaire-C"> </a></td>
 <td>Compétence</td>
 <td></td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2007-07-25T15:04:43+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">CAPA<a name="TRE-R04-TypeSavoirFaire-CAPA"> </a></td>
 <td>Capacité</td>
 <td></td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2007-07-25T15:04:43+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">CEX<a name="TRE-R04-TypeSavoirFaire-CEX"> </a></td>
 <td>Compétence exclusive</td>
 <td></td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2007-07-25T15:04:43+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">CM<a name="TRE-R04-TypeSavoirFaire-CM"> </a></td>
 <td>Compétence métier</td>
 <td>La&nbsp;compétence métier&nbsp;désigne un type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. Elle reflète une expertise fonctionnelle ou technique mobilisée dans l’exercice quotidien du professionnel de santé. Contrairement aux&nbsp;spécialités ordinales&nbsp;ou&nbsp;compétences de médecines, la compétence métier n’est pas nécessairement encadrée par un diplôme ou une qualification ordinale, mais elle peut être attestée par l’expérience, des formations spécifiques, ou une reconnaissance institutionnelle (ex. : missions ANS, ARS, établissements de santé, etc.). Dans le cadre du modèle, la&nbsp;classe CompétenceMetier&nbsp;est représentée comme une spécialisation de la classe&nbsp;SavoirFaire, i-e un TypeDeSavoirFaire et à ce titre, elle hérite des attributs et des associations de cette classe. Elle se distingue des autres types de savoir-faire par son ancrage dans les pratiques professionnelles et organisationnelles, plutôt que dans une logique de qualification médicale ou réglementaire.</td>
 <td>2025-06-25T15:04:43+01:00</td>
 <td>2025-06-25T15:04:43+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">DEC<a name="TRE-R04-TypeSavoirFaire-DEC"> </a></td>
 <td>Droit d'exercice complémentaire</td>
 <td></td>
 <td>2016-09-01T00:00:00+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
 <td>Droit d'exercice complément</td></tr>
 <tr><td style="white-space:nowrap">DNQ<a name="TRE-R04-TypeSavoirFaire-DNQ"> </a></td>
 <td>DESC non qualifiant</td>
 <td></td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2007-07-25T15:04:43+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">FQ<a name="TRE-R04-TypeSavoirFaire-FQ"> </a></td>
 <td>Fonction qualifiée</td>
 <td></td>
 <td>2007-07-25T00:00:00+01:00</td>
 <td>2007-07-25T00:00:00+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">OP<a name="TRE-R04-TypeSavoirFaire-OP"> </a></td>
 <td>Orientation particulière</td>
 <td></td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">PAC<a name="TRE-R04-TypeSavoirFaire-PAC"> </a></td>
 <td>Qualification PAC</td>
 <td></td>
 <td>2007-07-25T00:00:00+01:00</td>
 <td>2007-07-25T00:00:00+01:00</td>
+<td>active</td>
 <td>Qualification Praticien adjoint contractuel (PAC)</td></tr>
 <tr><td style="white-space:nowrap">S<a name="TRE-R04-TypeSavoirFaire-S"> </a></td>
 <td>Spécialité ordinale</td>
 <td></td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">SH<a name="TRE-R04-TypeSavoirFaire-SH"> </a></td>
 <td>Spécialité de concours hospitalier</td>
 <td></td>
 <td>2007-07-25T15:04:43+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
+<td>active</td>
 <td>Spéc de concours hospitalier</td></tr>
 <tr><td style="white-space:nowrap">SST<a name="TRE-R04-TypeSavoirFaire-SST"> </a></td>
 <td>Surspécialité de Formation Spécialisée Transversale (FST)</td>
 <td></td>
 <td>2023-10-30T12:00:00+01:00</td>
 <td>2023-10-30T12:00:00+01:00</td>
+<td>active</td>
 <td>Surspécialité transversale</td></tr></table></div>
 </div>
   
@@ -493,7 +499,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.2.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Wed, Jul 30, 2025 08:20+0000">2025-07-30</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 2, 2025 12:01+0000">2025-10-02</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

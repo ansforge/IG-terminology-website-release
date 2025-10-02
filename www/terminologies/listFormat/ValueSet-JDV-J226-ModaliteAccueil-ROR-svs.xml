@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250709120000"
+             dateMaj="20250828120000"
              dateValid="20220826120000"
              description="Modalité d'accueil"
              displayName="JDV_J226_ModaliteAccueil_ROR"
@@ -18,7 +18,7 @@
                   displayName="Prise en charge directe SMUR"/>
          <Concept code="03"
                   codeSystem="1.2.250.1.213.3.3.221"
-                  displayName="Consultation en présentiel"/>
+                  displayName="En présentiel"/>
          <Concept code="04"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Téléconsultation"/>
@@ -68,6 +68,18 @@
          <Concept code="20"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Accueil en unité protégée"/>
+         <Concept code="21"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  displayName="Accueil saisonnier possible"/>
+         <Concept code="22"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  displayName="Accueil saisonnier uniquement"/>
+         <Concept code="23"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  displayName="Autodialyse simple"/>
+         <Concept code="24"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  displayName="Autodialyse assistée"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

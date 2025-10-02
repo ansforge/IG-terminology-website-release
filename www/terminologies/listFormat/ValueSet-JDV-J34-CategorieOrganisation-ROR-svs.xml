@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250723120000"
+             dateMaj="20250828120000"
              dateValid="20171013120000"
              description="Catégorie d'organisation - ROR"
              displayName="JDV_J34_CategorieOrganisation_ROR"
@@ -144,7 +144,7 @@
                   displayName="Unités évaluation réentraînement et d'orientation sociale et professionnel (UEROS)"/>
          <Concept code="46"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Établissements et Services de Pré-Orientation (ESPO)"/>
+                  displayName="Établissement et Service de Pré-Orientation (ESPO)"/>
          <Concept code="47"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Plateforme Emploi Accompagné (PEA)"/>
@@ -352,15 +352,9 @@
          <Concept code="115"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Equipe Spécialisée de Soins Infirmiers Précarité (ESSIP)"/>
-         <Concept code="116"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité de chirurgie oncologique"/>
          <Concept code="117"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité de radiothérapie"/>
-         <Concept code="118"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité de traitements médicamenteux systémiques du cancer"/>
          <Concept code="119"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité mère-enfant"/>
@@ -706,9 +700,6 @@
          <Concept code="234"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière d'urologie"/>
-         <Concept code="235"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité hospitalière de médecine générale"/>
          <Concept code="236"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière d'odontologie"/>
@@ -730,9 +721,6 @@
          <Concept code="242"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière de chirurgie plastique, reconstructrice et esthétique"/>
-         <Concept code="243"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Cabinet de ville de médecine intensive et réanimation (MIR)"/>
          <Concept code="244"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Equipe Mobile d'Expertise en Réadaptation (EMER) neuro-locomoteur"/>
@@ -777,7 +765,7 @@
                   displayName="Unité pour Personnes Handicapées Vieillissantes (UPHV)"/>
          <Concept code="258"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Hébergement Temporaire d'urgence en Sortie d'Hospitalisation"/>
+                  displayName="Hébergement Temporaire d'urgence (dont HT-SH)"/>
          <Concept code="259"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Point d'information local dédié aux personnes âgées"/>

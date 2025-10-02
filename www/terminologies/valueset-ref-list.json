@@ -15,17 +15,6 @@
       "ConceptMap-ASS-A33-AdministrativeGender-Sexe.html" : "ASS_A33_AdministrativeGender_Sexe"
     },
     {
-      "url" : "http://hl7.org/fhir/ValueSet/designation-use",
-      "version" : "4.0.1",
-      "status" : "active",
-      "name" : "DesignationUse",
-      "title" : "Designation Use",
-      "description" : "Details of how a designation would be used",
-      "systems" : ["http://snomed.info/sct"],
-      "oids" : ["2.16.840.1.113883.4.642.3.264"],
-      "sources" : ["2.16.840.1.113883.4.642.3.264"]
-    },
-    {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs",
       "version" : "1.1.0",
       "status" : "active",
@@ -218,7 +207,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J101-SecteurActivite-RASS/FHIR/JDV-J101-SecteurActivite-RASS",
-      "version" : "20250523120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "JDV_J101_SecteurActivite_RASS",
       "title" : null,
@@ -257,7 +246,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J105-EnsembleDiplome-RASS/FHIR/JDV-J105-EnsembleDiplome-RASS",
-      "version" : "20250425120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "JDV_J105_EnsembleDiplome_RASS",
       "title" : null,
@@ -1061,7 +1050,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR",
-      "version" : "20250625120000",
+      "version" : "20250919120000",
       "status" : "active",
       "name" : "JDV_J16_ActeSpecifique_ROR",
       "title" : null,
@@ -1189,7 +1178,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR/FHIR/JDV-J17-ActiviteOperationnelle-ROR",
-      "version" : "20250723120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "JDV_J17_ActiviteOperationnelle_ROR",
       "title" : null,
@@ -1368,7 +1357,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J183-Diplome-EPARS/FHIR/JDV-J183-Diplome-EPARS",
-      "version" : "20240927120000",
+      "version" : "20250917120000",
       "status" : "active",
       "name" : "JDV_J183_Diplome_EPARS",
       "title" : null,
@@ -1387,11 +1376,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J185-TypeFermeture-ROR/FHIR/JDV-J185-TypeFermeture-ROR",
-      "version" : "20220930120000",
+      "version" : "20250923120000",
       "status" : "active",
       "name" : "JDV_J185_TypeFermeture_ROR",
       "title" : null,
-      "description" : "Destination d'usage du lieu pour le lieu de réalisation de l'offre.",
+      "description" : "Les seules valeurs acceptées par le ROR pour les Organisations internes et les offres",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
       ],
@@ -1457,7 +1446,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J19-ModePriseEnCharge-ROR/FHIR/JDV-J19-ModePriseEnCharge-ROR",
-      "version" : "20230127120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "JDV_J19_ModePriseEnCharge_ROR",
       "title" : null,
@@ -1470,7 +1459,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J190-GenreCapacite-ROR/FHIR/JDV-J190-GenreCapacite-ROR",
-      "version" : "20220527120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "JDV_J190_GenreCapacite_ROR",
       "title" : null,
@@ -1626,11 +1615,11 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J201-TypeFermeture-ROR/FHIR/JDV-J201-TypeFermeture-ROR",
-      "version" : "20220826120000",
+      "version" : "20250923120000",
       "status" : "active",
       "name" : "JDV_J201_TypeFermeture_ROR",
       "title" : null,
-      "description" : "Type de fermeture, codes provenant du FINESS pour les EJ et EG",
+      "description" : "Différentes valeurs de type de fermeture que peuvent envoyer FINESS au ROR (il en existe davantage)",
       "systems" : [
         "https://mos.esante.gouv.fr/NOS/TRE_R286-TypeFermeture/FHIR/TRE-R286-TypeFermeture"
       ],
@@ -1978,7 +1967,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J226-ModaliteAccueil-ROR/FHIR/JDV-J226-ModaliteAccueil-ROR",
-      "version" : "20250709120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "JDV_J226_ModaliteAccueil_ROR",
       "title" : null,
@@ -2139,7 +2128,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J238-TypeOffre-ROR/FHIR/JDV-J238-TypeOffre-ROR",
-      "version" : "20250710120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "JDV_J238_TypeOffre_ROR",
       "title" : null,
@@ -2721,7 +2710,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR/FHIR/JDV-J34-CategorieOrganisation-ROR",
-      "version" : "20250723120000",
+      "version" : "20250828120000",
       "status" : "active",
       "name" : "JDV_J34_CategorieOrganisation_ROR",
       "title" : null,
@@ -9451,10 +9440,7 @@
       "name" : "ValueSet_ATC_All",
       "title" : null,
       "description" : "Ce jeu de valeurs inclut tous les codes concepts de la terminologie ATC",
-      "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"],
-      "uses" : {
-      },
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC"
+      "systems" : ["https://smt.esante.gouv.fr/terminologie-atc"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-bdpm?vs",
@@ -9487,7 +9473,6 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
       "uses" : {
       },
-      "ConceptMap-alignement-nuva-atc.html" : "Aligner les codes ATC de NUVA avec les codes ATC",
       "ConceptMap-alignement-nuva-bdpm.html" : "Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"
     },
     {

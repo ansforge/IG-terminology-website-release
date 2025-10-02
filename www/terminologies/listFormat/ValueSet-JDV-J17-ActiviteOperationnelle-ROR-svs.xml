@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250723120000"
+             dateMaj="20250828120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -64,7 +64,9 @@
          <Concept code="030"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Chirurgie thoracique et pulmonaire"/>
-         <Concept code="031" codeSystem="1.2.250.1.213.3.3.12" displayName="Urologie"/>
+         <Concept code="031"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Urologie (chirurgie urologique)"/>
          <Concept code="032"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Chirurgie vasculaire et endovasculaire"/>
@@ -73,7 +75,7 @@
                   displayName="Chirurgie digestive et viscérale fonctionnelle (hors carcinologie)"/>
          <Concept code="035"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Coordination hospitalière de prélèvement d'organes et de tissus"/>
+                  displayName="Coordination hospitalière de prélèvement d'organes"/>
          <Concept code="037"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Dermatologie"/>
@@ -85,7 +87,7 @@
                   displayName="Diabétologie"/>
          <Concept code="040"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Nutrition"/>
+                  displayName="Médecine nutritionnelle"/>
          <Concept code="041"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Endocrinologie"/>
@@ -173,9 +175,6 @@
          <Concept code="082"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Médecine du travail (pathologie professionnelle)"/>
-         <Concept code="083"
-                  codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Médecine polyvalente"/>
          <Concept code="084"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Médecine hyperbare"/>
@@ -433,7 +432,7 @@
                   displayName="Oncologie médicale urologique (cancérologie)"/>
          <Concept code="197"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Ostéopathie"/>
+                  displayName="Ostéopathie (hors actes réservés aux médecins)"/>
          <Concept code="198"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Parodontologie"/>
@@ -1544,6 +1543,21 @@
          <Concept code="592"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Prévention et lutte contre la tuberculose"/>
+         <Concept code="593"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Prise en charge coordonnée des patients atteints de maladies rares"/>
+         <Concept code="594"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Coordination hospitalière de prélèvement de tissus"/>
+         <Concept code="595"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Coordination hospitalière de prélèvement de tissus pédiatrique"/>
+         <Concept code="596"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Coordination hospitalière de prélèvement d’organes pédiatrique"/>
+         <Concept code="597"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Evaluation de la mémoire (bilan mémoire)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
