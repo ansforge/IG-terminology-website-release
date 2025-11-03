@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251028115832"
              dateValid="20230803000000"
              description="JDV Circonstance Deces CISIS"
              displayName="JdvCirconstanceDecesCisis"
@@ -12,13 +12,13 @@
       <ConceptList>
          <Concept code="17766007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="mort fœtale par asphyxie et/ou par anoxie, pas clair si noté avant ou après le début du travaile"/>
+                  displayName="mort fœtale par asphyxie et/ou anoxie, pas clair si noté avant ou après le début du travail"/>
          <Concept code="44174001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="mort fœtale par asphyxie et/ou par anoxie avant le début du travail"/>
+                  displayName="mort fœtale par asphyxie et/ou anoxie avant le début du travail"/>
          <Concept code="1762004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="mort fœtale par asphyxie et/ou par anoxie pendant le travail"/>
+                  displayName="mort fœtale par asphyxie et/ou anoxie pendant le travail"/>
          <Concept code="67313008"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="mort fœtale due à une interruption de grossesse"/>

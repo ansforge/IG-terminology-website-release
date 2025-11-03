@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251028115833"
              dateValid="20220110000000"
              description="JDV Statut Tabagique CISIS"
              displayName="JdvStatutTabagiqueCisis"
@@ -12,25 +12,25 @@
       <ConceptList>
          <Concept code="449868002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="fumeur(-euse) quotidien(ne)"/>
+                  displayName="fume quotidiennement"/>
          <Concept code="428041000124106"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="fumeur(-euse) occasionnel(le)"/>
+                  displayName="fume occasionnellement"/>
          <Concept code="8517006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="ancien(ne) fumeur(-euse)"/>
+                  displayName="ne fume plus"/>
          <Concept code="266919005"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="n'a jamais fumé"/>
          <Concept code="266927001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="Tobacco smoking consumption unknown"/>
+                  displayName="consommation de tabac inconnue"/>
          <Concept code="56771006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="gros(se) fumeur(-euse) (plus de 20 cigarettes par jour)"/>
+                  displayName="fume plus de 20 fois par jour"/>
          <Concept code="56578002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="fumeur(-euse) modéré(e) (20 cigarettes ou moins par jour)"/>
+                  displayName="fume 20 fois ou moins par jour"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

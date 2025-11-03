@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251028115833"
              dateValid="20100101000000"
              description="JDV Health Status Code CISIS"
              displayName="JdvHealthStatusCodeCisis"
@@ -10,9 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="102499006"
+         <Concept code="81323004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="en forme"/>
+                  displayName="fonction corporelle générale : normale"/>
+         <Concept code="765205004"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="pathologie en rémission"/>
          <Concept code="27624003"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="maladie chronique"/>
@@ -22,13 +25,13 @@
          <Concept code="161045001"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="incapacité : sévère"/>
-         <Concept code="419620001"
+         <Concept code="419099009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="mort"/>
+                  displayName="mort(e)"/>
          <Concept code="21134002"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="incapacité"/>
-         <Concept code="84387000"
+         <Concept code="162467007"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="asymptomatique"/>
       </ConceptList>

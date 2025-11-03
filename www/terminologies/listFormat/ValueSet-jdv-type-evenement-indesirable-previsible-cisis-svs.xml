@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251028115833"
              dateValid="20240604000000"
              description="JDV Type Evenement Indesirable Previsible CISIS"
              displayName="JdvTypeEvenementIndesirablePrevisibleCisis"
@@ -30,7 +30,7 @@
                   displayName="hypersensibilité non allergique"/>
          <Concept code="609398007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="hypersensibilité non allergique à une drogue ou un médicament"/>
+                  displayName="hypersensibilité non allergique médicamenteuse"/>
          <Concept code="735449006"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="hypersensibilité non allergique alimentaire"/>
@@ -42,7 +42,7 @@
                   displayName="intolérance à une substance"/>
          <Concept code="59037007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="intolérance aux drogues et/ou médicaments"/>
+                  displayName="intolérance médicamenteuse"/>
          <Concept code="235719002"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="intolérance alimentaire"/>

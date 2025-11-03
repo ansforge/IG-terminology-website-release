@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
-1.2.250.1.213.1.1.5.694;JDV;JdvLocalisationAnatomiqueCisis.tabs;JDV Localisation Anatomique CISIS;;20230601000000;;20250624152100
+1.2.250.1.213.1.1.5.694;JDV;JdvLocalisationAnatomiqueCisis.tabs;JDV Localisation Anatomique CISIS;;20230601000000;;20251028115832
 <OID>;<Code>;<Libellé>
 2.16.840.1.113883.6.96;302553009;abdomen entier
 2.16.840.1.113883.6.96;244231007;aorte abdominale entière
@@ -21,7 +21,7 @@
 2.16.840.1.113883.6.96;314790003;apex pulmonaire entier
 2.16.840.1.113883.6.96;264913008;apex entier du ventricule droit
 2.16.840.1.113883.6.96;181255000;appendice entier
-2.16.840.1.113883.6.96;730364005;zone entière du conduit auditif interne
+2.16.840.1.113883.6.96;730364005;zone entière du méat acoustique interne
 2.16.840.1.113883.6.96;362877004;artère entière
 2.16.840.1.113883.6.96;244324006;artère entière d'un membre inférieur
 2.16.840.1.113883.6.96;244310007;artère entière d'un membre supérieur
@@ -104,12 +104,12 @@
 2.16.840.1.113883.6.96;181432000;épididyme entier
 2.16.840.1.113883.6.96;362693006;région épigastrique entière
 2.16.840.1.113883.6.96;181245004;œsophage entier
-2.16.840.1.113883.6.96;181178004;conduit auditif externe entier
+2.16.840.1.113883.6.96;181178004;méat acoustique externe entier
 2.16.840.1.113883.6.96;362044002;artère carotide externe entière
 2.16.840.1.113883.6.96;181352000;artère iliaque externe entière
 2.16.840.1.113883.6.96;181400000;veine iliaque externe entière
 2.16.840.1.113883.6.96;181373000;veine jugulaire externe entière
-2.16.840.1.113883.6.96;1290040004;œil entier
+2.16.840.1.113883.6.96;81745001;œil
 2.16.840.1.113883.6.96;732141005;région oculaire entière
 2.16.840.1.113883.6.96;265782007;paupière entière
 2.16.840.1.113883.6.96;302549007;face entière
@@ -119,7 +119,7 @@
 2.16.840.1.113883.6.96;244332003;artère fémorale entière
 2.16.840.1.113883.6.96;362071002;veine fémorale entière
 2.16.840.1.113883.6.96;302529003;fibula entière
-2.16.840.1.113883.6.96;302541005;doigt entier de la main, sauf le pouce
+2.16.840.1.113883.6.96;302541005;doigt entier de la main excepté le pouce
 2.16.840.1.113883.6.96;362673003;flanc entier
 2.16.840.1.113883.6.96;272681004;fontanelle crânienne entière
 2.16.840.1.113883.6.96;302545001;pied entier
@@ -140,7 +140,7 @@
 2.16.840.1.113883.6.96;730856005;veine perforante hunterienne entière
 2.16.840.1.113883.6.96;182339008;région entière de l'hypochondre
 2.16.840.1.113883.6.96;182348003;région hypogastrique entière
-2.16.840.1.113883.6.96;281490009;partie laryngée entière du pharynx
+2.16.840.1.113883.6.96;281490009;hypopharynx entier
 2.16.840.1.113883.6.96;181249005;iléon entier
 2.16.840.1.113883.6.96;244330006;artère iliaque entière
 2.16.840.1.113883.6.96;732003000;veine iliaque entière
@@ -154,7 +154,7 @@
 2.16.840.1.113883.6.96;243962005;région inguinale entière
 2.16.840.1.113883.6.96;181189006;oreille interne entière
 2.16.840.1.113883.6.96;182176003;articulation entière du carpe
-2.16.840.1.113883.6.96;361734005;conduit auditif interne entier de l'os temporal
+2.16.840.1.113883.6.96;361734005;méat acoustique interne entier de l'os temporal
 2.16.840.1.113883.6.96;362045001;artère carotide interne entière
 2.16.840.1.113883.6.96;181346001;artère iliaque interne entière
 2.16.840.1.113883.6.96;181372005;veine jugulaire interne entière
@@ -172,8 +172,8 @@
 2.16.840.1.113883.6.96;181254001;gros intestin entier
 2.16.840.1.113883.6.96;181212004;larynx entier
 2.16.840.1.113883.6.96;180930008;ventricule latéral entier
-2.16.840.1.113883.6.96;244387002;atrium gauche entier
-2.16.840.1.113883.6.96;277930000;appendice atrial gauche entier
+2.16.840.1.113883.6.96;244387002;oreillette gauche entière
+2.16.840.1.113883.6.96;277930000;appendice auriculaire gauche entier
 2.16.840.1.113883.6.96;244385005;ventricule cardiaque gauche entier
 2.16.840.1.113883.6.96;55188000;veine hépatique gauche entière
 2.16.840.1.113883.6.96;304374005;branche principale gauche entière de la veine porte
@@ -184,7 +184,7 @@
 2.16.840.1.113883.6.96;181402008;veine saphène interne entière
 2.16.840.1.113883.6.96;243406001;quadrant abdominal inférieur entier
 2.16.840.1.113883.6.96;181135009;quadrant mammaire inféro-interne entier
-2.16.840.1.113883.6.96;362793004;partie inférieure entière de la jambe, du genou à la cheville
+2.16.840.1.113883.6.96;362793004;partie inférieure entière du membre inférieur
 2.16.840.1.113883.6.96;182281004;membre inférieur entier
 2.16.840.1.113883.6.96;181136005;quadrant mammaire inféroexterne entier
 2.16.840.1.113883.6.96;181420004;voies urinaires inférieures entières
@@ -198,7 +198,7 @@
 2.16.840.1.113883.6.96;181756000;nœud lymphatique entier
 2.16.840.1.113883.6.96;362715007;grand bassin entier
 2.16.840.1.113883.6.96;181812008;mandibule entière
-2.16.840.1.113883.6.96;265784008;mastoïde entière
+2.16.840.1.113883.6.96;265784008;mastoïde entier
 2.16.840.1.113883.6.96;181813003;maxillaire entier
 2.16.840.1.113883.6.96;181217005;médiastin entier
 2.16.840.1.113883.6.96;281084003;artère mésentérique entière
@@ -319,7 +319,7 @@
 2.16.840.1.113883.6.96;180931007;troisième ventricule cérébral entier
 2.16.840.1.113883.6.96;302510009;aorte thoracique entière
 2.16.840.1.113883.6.96;243949006;cavité thoracique entière
-2.16.840.1.113883.6.96;243931006;colonne thoracique entière
+2.16.840.1.113883.6.96;243931006;colonne vertébrale thoracique entière
 2.16.840.1.113883.6.96;1145018008;jonction thoracolombaire vertébrale entière
 2.16.840.1.113883.6.96;302551006;thorax entier
 2.16.840.1.113883.6.96;302540006;pouce entier
@@ -334,10 +334,10 @@
 2.16.840.1.113883.6.96;181948009;ulna entier
 2.16.840.1.113883.6.96;181333006;artère ulnaire entière
 2.16.840.1.113883.6.96;261404000;artère ombilicale entière
-2.16.840.1.113883.6.96;61660003;portion ombilicale entière de la veine porte
+2.16.840.1.113883.6.96;61660003;partie ombilicale entière de la veine porte
 2.16.840.1.113883.6.96;243961003;région ombilicale entière
 2.16.840.1.113883.6.96;243382001;quadrant abdominal supérieur entier
-2.16.840.1.113883.6.96;302538001;partie supérieure entière du bras, de l'épaule au coude
+2.16.840.1.113883.6.96;302538001;partie supérieure entière du membre supérieur
 2.16.840.1.113883.6.96;181132007;quadrant mammaire supéro-interne entier
 2.16.840.1.113883.6.96;182245002;membre supérieur entier
 2.16.840.1.113883.6.96;181134008;quadrant mammaire supéroexterne entier

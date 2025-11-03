@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>TRE_R04_TypeSavoirFaire - Terminologies  de Santé v1.3.0</title>
+    <title>TRE_R04_TypeSavoirFaire - Terminologies  de Santé v1.4.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.3.0 - final-text
+            <span style="display:inline-block;">1.4.0 - final-text
 
 
 
@@ -97,7 +97,7 @@
     <a href="jdv.html">Jeux de valeurs</a>
   </li>
   <li>
-    <a href="namingSystem.html">Identifiants externes</a>
+    <a href="identifiants.html">Identifiants</a>
   </li>
   <li>
     <a href="ass.html">Association</a>
@@ -164,7 +164,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.3.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.4.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -231,9 +231,7 @@
 </ul>
 
   <a name="root"> </a>
-  <h2 id="root">CodeSystem: 	
-	  TRE_R04_TypeSavoirFaire
-	
+  <h2 id="root">CodeSystem: TRE_R04_TypeSavoirFaire
 
   </h2>
 
@@ -244,7 +242,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">20250625120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire|20250625120000"/></span>
+      <span class="copy-text">20251016120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire|20251016120000"/></span>
       </td>
     </tr>
  
@@ -260,7 +258,7 @@
         
           Active
           
-            as of 2025-06-25
+            as of 2025-10-16
           
         
       </td>
@@ -283,7 +281,7 @@
         <i>As active of:</i> 
       </td>
       <td colspan="2">
-        <i>RevisionDate:</i> 2025-06-25T12:00:00+01:00
+        <i>RevisionDate:</i> 2025-10-16T12:00:00+01:00
       </td>      
     </tr>
 
@@ -316,14 +314,13 @@
 
 </p>
 
-<div id="orig">
   <!-- insert intro if present -->
   
 
 
 
   <p>
-  This Code system is referenced in the content logical definition of the following value sets:
+  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants :
   </p>
 
   
@@ -334,7 +331,7 @@
 
 
   <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TRE-R04-TypeSavoirFaire</b></p><a name="TRE-R04-TypeSavoirFaire"> </a><a name="hcTRE-R04-TypeSavoirFaire"> </a><a name="TRE-R04-TypeSavoirFaire-fr-FR"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 6; Last updated: 2025-07-02 18:12:04+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 7; Last updated: 2025-10-31 14:58:01+0100</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
 <table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>dateValid</td>
 <td>dateValid</td>
@@ -368,73 +365,73 @@
 <td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R04-TypeSavoirFaire/FHIR/TRE-R04-TypeSavoirFaire</code> defines the following codes:</p>
 <table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr><td style="white-space:nowrap">C<a name="TRE-R04-TypeSavoirFaire-C"> </a></td>
-<td>Compétence</td>
-<td></td>
+<td>Compétence de médecine</td>
+<td>Compétence acquise par le professionnel.</td>
 <td>2007-07-25T15:04:43+01:00</td>
-<td>2007-07-25T15:04:43+01:00</td>
+<td>2025-10-16T15:04:43+01:00</td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">CAPA<a name="TRE-R04-TypeSavoirFaire-CAPA"> </a></td>
 <td>Capacité</td>
-<td></td>
+<td>La capacité, en tant que savoir-faire, représente la reconnaissance par l'ordre d'un diplôme de capacité.</td>
 <td>2007-07-25T15:04:43+01:00</td>
-<td>2007-07-25T15:04:43+01:00</td>
+<td>2025-10-16T15:04:43+01:00</td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">CEX<a name="TRE-R04-TypeSavoirFaire-CEX"> </a></td>
 <td>Compétence exclusive</td>
-<td></td>
+<td>La compétence exclusive, en tant que savoir-faire, est une compétence exercée à titre exclusif. Un professionnel ne peut exercer à la fois une compétence exclusive et une spécialité.</td>
 <td>2007-07-25T15:04:43+01:00</td>
-<td>2007-07-25T15:04:43+01:00</td>
+<td>2025-10-16T15:04:43+01:00</td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">CM<a name="TRE-R04-TypeSavoirFaire-CM"> </a></td>
 <td>Compétence métier</td>
-<td>La&nbsp;compétence métier&nbsp;désigne un type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. Elle reflète une expertise fonctionnelle ou technique mobilisée dans l’exercice quotidien du professionnel de santé. Contrairement aux&nbsp;spécialités ordinales&nbsp;ou&nbsp;compétences de médecines, la compétence métier n’est pas nécessairement encadrée par un diplôme ou une qualification ordinale, mais elle peut être attestée par l’expérience, des formations spécifiques, ou une reconnaissance institutionnelle (ex. : missions ANS, ARS, établissements de santé, etc.). Dans le cadre du modèle, la&nbsp;classe CompétenceMetier&nbsp;est représentée comme une spécialisation de la classe&nbsp;SavoirFaire, i-e un TypeDeSavoirFaire et à ce titre, elle hérite des attributs et des associations de cette classe. Elle se distingue des autres types de savoir-faire par son ancrage dans les pratiques professionnelles et organisationnelles, plutôt que dans une logique de qualification médicale ou réglementaire.</td>
+<td>La&nbsp;compétence métie&nbsp;désigne un type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. Elle reflète une expertise fonctionnelle ou technique mobilisée dans l’exercice quotidien du professionnel de santé.</td>
 <td>2025-06-25T15:04:43+01:00</td>
-<td>2025-06-25T15:04:43+01:00</td>
+<td>2025-10-16T15:04:43+01:00</td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">DEC<a name="TRE-R04-TypeSavoirFaire-DEC"> </a></td>
 <td>Droit d'exercice complémentaire</td>
-<td></td>
+<td>Les docteurs en médecine initialement qualifiés comme médecins spécialistes peuvent obtenir un droit d'exercice dans l'une des spécialités définies par un des DESC de médecine du groupe I.</td>
 <td>2016-09-01T00:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td>
+<td>2025-10-16T00:00:00+01:00</td>
 <td>active</td>
 <td>Droit d'exercice complément</td></tr>
 <tr><td style="white-space:nowrap">DNQ<a name="TRE-R04-TypeSavoirFaire-DNQ"> </a></td>
 <td>DESC non qualifiant</td>
-<td></td>
+<td>Diplôme d'Etudes Spécialisées Complémentaires (DESC) non qualifiant, en fonction du ou des DESC de groupe I, que le professionnel a obtenu(s).</td>
 <td>2007-07-25T15:04:43+01:00</td>
-<td>2007-07-25T15:04:43+01:00</td>
+<td>2025-10-16T15:04:43+01:00</td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">FQ<a name="TRE-R04-TypeSavoirFaire-FQ"> </a></td>
 <td>Fonction qualifiée</td>
-<td></td>
+<td>Expérience pratique exigée par le code de la santé publique (art R5124-16) pour exercer certaines fonctions dans l’industrie pharmaceutique et la distribution en gros. Ces dispositions s’appliquent uniquement à la profession de pharmacien.</td>
 <td>2007-07-25T00:00:00+01:00</td>
-<td>2007-07-25T00:00:00+01:00</td>
+<td>2025-10-16T00:00:00+01:00</td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">OP<a name="TRE-R04-TypeSavoirFaire-OP"> </a></td>
 <td>Orientation particulière</td>
-<td></td>
+<td>Type de savoir faire qui caractérise une orientation d'exercice: acupuncture ou homéopathie.</td>
 <td>2007-07-25T15:04:43+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td>
+<td>2025-10-16T00:00:00+01:00</td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">PAC<a name="TRE-R04-TypeSavoirFaire-PAC"> </a></td>
 <td>Qualification PAC</td>
-<td></td>
+<td>La qualification de Praticien Adjoint Contractuel (PAC) autorise à exercer en établissement sans être qualifié ni en médecine générale, ni en spécialité. (diplômes étrangers)</td>
 <td>2007-07-25T00:00:00+01:00</td>
 <td>2007-07-25T00:00:00+01:00</td>
 <td>active</td>
 <td>Qualification Praticien adjoint contractuel (PAC)</td></tr>
 <tr><td style="white-space:nowrap">S<a name="TRE-R04-TypeSavoirFaire-S"> </a></td>
 <td>Spécialité ordinale</td>
-<td></td>
+<td>Spécialité médicale ou odontologique, reconnue par une autorité d'enregistrement (Ordre ou SSA)</td>
 <td>2007-07-25T15:04:43+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td>
+<td>2025-10-16T00:00:00+01:00</td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">SH<a name="TRE-R04-TypeSavoirFaire-SH"> </a></td>
@@ -446,12 +443,12 @@
 <td>Spéc de concours hospitalier</td></tr>
 <tr><td style="white-space:nowrap">SST<a name="TRE-R04-TypeSavoirFaire-SST"> </a></td>
 <td>Surspécialité de Formation Spécialisée Transversale (FST)</td>
-<td></td>
+<td>Surspécialité acquise par le professionnel en supplément de la spécialité de DES</td>
 <td>2023-10-30T12:00:00+01:00</td>
-<td>2023-10-30T12:00:00+01:00</td>
+<td>2025-10-16T12:00:00+01:00</td>
 <td>active</td>
 <td>Surspécialité transversale</td></tr></table></div>
-</div>
+
   
 
   <!-- insert notes if present -->
@@ -499,7 +496,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.3.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 2, 2025 12:01+0000">2025-10-02</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 3, 2025 13:53+0000">2025-11-03</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

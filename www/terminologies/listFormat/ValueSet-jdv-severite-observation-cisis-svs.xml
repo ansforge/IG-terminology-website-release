@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251028115833"
              dateValid="20221114000000"
              description="JDV Severite Observation CISIS"
              displayName="JdvSeveriteObservationCisis"
@@ -12,22 +12,22 @@
       <ConceptList>
          <Concept code="442452003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="gravité mortelle"/>
+                  displayName="mise en jeu du pronostic vital"/>
          <Concept code="24484000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="grave"/>
+                  displayName="gravité sévère"/>
          <Concept code="371924009"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="modéré à sévère"/>
+                  displayName="gravité modérée à sévère"/>
          <Concept code="6736007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="modéré"/>
+                  displayName="gravité modérée"/>
          <Concept code="371923003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="léger à modéré"/>
+                  displayName="gravité modérée à sévère"/>
          <Concept code="255604002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="léger"/>
+                  displayName="gravité légère"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

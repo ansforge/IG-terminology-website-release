@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152059"
+             dateMaj="20251028115832"
              dateValid="20240307000000"
              description="JDV Resultat Depistage Cholesterol CISIS"
              displayName="JdvResultatDepistageCholesterolCisis"
@@ -15,7 +15,7 @@
                   displayName="normal"/>
          <Concept code="371879000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="anormalement haut"/>
+                  displayName="anormalement haut(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

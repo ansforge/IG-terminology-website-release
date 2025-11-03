@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250623120000"
+             dateMaj="20251023120000"
              dateValid="20070725000000"
              description="Fonction"
              displayName="TRE_R21_Fonction"
@@ -486,6 +486,15 @@
                   displayName="Pharmacien remplaçant BPDO"
                   longDesignation="Pharmacien remplaçant Bonnes Pratiques de Dispensation d'Oxygène"
                   shortDesignation="Pharmacien remplaçant BPDO"
+                  descriptionMetier=""/>
+         <Concept code="FON-62"
+                  codeSystem="1.2.250.1.213.1.6.1.17"
+                  dateFin=""
+                  dateMaj="20251023120000"
+                  dateValid="20251023120000"
+                  displayName="Consultations de solidarité territoriale"
+                  longDesignation="Fonction d'un médecin volontaire exerçant dans une zone rouge identifiée dans le cadre du pacte de solidarité (zone en manque de médecins traitants)"
+                  shortDesignation="Consultations de solidarité territoriale"
                   descriptionMetier=""/>
          <Concept code="FON-AU"
                   codeSystem="1.2.250.1.213.1.6.1.17"

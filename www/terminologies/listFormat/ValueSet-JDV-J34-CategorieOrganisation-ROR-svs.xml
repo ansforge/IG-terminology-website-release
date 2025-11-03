@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250828120000"
+             dateMaj="20251017120000"
              dateValid="20171013120000"
              description="Catégorie d'organisation - ROR"
              displayName="JDV_J34_CategorieOrganisation_ROR"
@@ -24,7 +24,7 @@
                   displayName="Centre d'Accueil Permanent (CAP)"/>
          <Concept code="05"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Centre d'Accueil Thérapeutique à Temps Partiel (CATTP)"/>
+                  displayName="Centre d’Activités Thérapeutiques et de Temps de Groupe (CATTG) – ex CATTP"/>
          <Concept code="06"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Centre de crise"/>
@@ -39,7 +39,7 @@
                   displayName="Centre Expert"/>
          <Concept code="10"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Centre Médico-Psychologique (CMP)"/>
+                  displayName="Centre Médico-Psychologique (CMP) Adulte"/>
          <Concept code="11"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Hôpital De Jour (HDJ)"/>
@@ -144,7 +144,7 @@
                   displayName="Unités évaluation réentraînement et d'orientation sociale et professionnel (UEROS)"/>
          <Concept code="46"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Établissement et Service de Pré-Orientation (ESPO)"/>
+                  displayName="Établissement et Service de Préorientation (ESPO)"/>
          <Concept code="47"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Plateforme Emploi Accompagné (PEA)"/>
@@ -519,7 +519,7 @@
                   displayName="Unité hospitalière oto-rhino-laryngologie (ORL)"/>
          <Concept code="174"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité psychiatrique"/>
+                  displayName="Unité hospitalière de psychiatrie de l’adulte"/>
          <Concept code="175"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unités de soins palliatifs"/>
@@ -762,7 +762,7 @@
                   displayName="Etablissement d'accueil temporaire pour adultes handicapés"/>
          <Concept code="257"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité pour Personnes Handicapées Vieillissantes (UPHV)"/>
+                  displayName="Unité pour Personnes Handicapées Vieillissantes (UPHV - UPHA)"/>
          <Concept code="258"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Hébergement Temporaire d'urgence (dont HT-SH)"/>
@@ -826,6 +826,21 @@
          <Concept code="278"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité Hospitalière de Courte Durée (UHCD)"/>
+         <Concept code="279"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe mobile de psychiatrie de l'Enfant et de l'Adolescent"/>
+         <Concept code="280"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe mobile de psychiatrie adulte"/>
+         <Concept code="281"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centre Médico-Psychologique Enfant et Adolescent (CMPEA)"/>
+         <Concept code="282"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité hospitalière de psychiatrie de l’enfant et de l’adolescent (pédopsychiatrie)"/>
+         <Concept code="283"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe mobile de psychiatrie périnatale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

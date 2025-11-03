@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251028115832"
              dateValid="20100101000000"
              description="JDV Localisation Infarctus Cerebral CISIS"
              displayName="JdvLocalisationInfarctusCerebralCisis"
@@ -12,7 +12,7 @@
       <ConceptList>
          <Concept code="60176003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="artère cérébrale antérieure"/>
+                  displayName="ACA - artère cérébrale antérieure"/>
          <Concept code="55438003"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="centre semi-ovale"/>
@@ -21,7 +21,7 @@
                   displayName="artère cérébrale postérieure"/>
          <Concept code="50974003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="jonctionnel"/>
+                  displayName="jonctionnel(le)"/>
          <Concept code="15926001"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="tronc de l'encéphale"/>

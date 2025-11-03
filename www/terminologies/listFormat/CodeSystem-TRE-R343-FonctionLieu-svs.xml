@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250620120000"
+             dateMaj="20251017120000"
              dateValid="20220930120000"
              description="Destination d'usage du lieu"
              displayName="TRE_R343_FonctionLieu"
@@ -127,6 +127,15 @@
                   longDesignation="Salle de travail (salle de naissance)"
                   shortDesignation="Salle de travail"
                   descriptionMetier=""/>
+         <Concept code="014"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  dateFin=""
+                  dateMaj="20251017120000"
+                  dateValid="20251017120000"
+                  displayName="Bloc obstétrical"
+                  longDesignation="Bloc obstétrical"
+                  shortDesignation="Bloc obstétrical"
+                  descriptionMetier="Lieu hospitalier dédié à la prise en charge des césariennes, disposant des locaux, du matériel et des équipes pluridisciplinaires (sages-femmes, obstétriciens, anesthésistes, pédiatres) nécessaires à toute heure pour assurer la sécurité de la mère et du nouveau-né, y compris en cas de complications obstétricales."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

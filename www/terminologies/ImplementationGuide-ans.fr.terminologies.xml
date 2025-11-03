@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.3.0"/>
+  <version value="1.4.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-10-02T12:01:06+00:00"/>
+  <date value="2025-11-03T13:53:01+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -24,7 +24,7 @@
   <jurisdiction>
     <coding>
       <system value="urn:iso:std:iso:3166"/>
-      <code value="FR"/>
+      <code value="FRA"/>
     </coding>
   </jurisdiction>
   <packageId value="ans.fr.terminologies"/>
@@ -139,6 +139,38 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueString value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="generate"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="init"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="progress"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueString value="viewDefinition"/>
       </extension>
       <extension url="value">
@@ -151,6 +183,30 @@
       </extension>
       <extension url="value">
         <valueString value="input/sql/sql-add-info-codesystem.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-codesystemOid.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-codesystem-property.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-namingSystemOid.sql"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -8822,6 +8878,38 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
+        <valueCode value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="html"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="generate"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="init"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="logging"/>
+      </extension>
+      <extension url="value">
+        <valueString value="progress"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
         <valueCode value="viewDefinition"/>
       </extension>
       <extension url="value">
@@ -8834,6 +8922,30 @@
       </extension>
       <extension url="value">
         <valueString value="input/sql/sql-add-info-codesystem.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-codesystemOid.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-codesystem-property.sql"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="viewDefinition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="input/sql/sql-add-info-namingSystemOid.sql"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -17548,9 +17660,19 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
+        <reference value="ConceptMap/alignement-nuva-cipucd"/>
+      </reference>
+      <name value="Alignement des codes NUVA avec les codes CIP de la CIP_CUD"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
         <reference value="ConceptMap/alignement-nuva-bdpm"/>
       </reference>
-      <name value="Aligner les codes CIS et CIP de NUVA avec les codes CIS et CIP du BDPM"/>
+      <name value="Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17891,6 +18013,7 @@
         <reference value="CodeSystem/terminologie-bdpm"/>
       </reference>
       <name value="Base de données publique du médicament"/>
+      <description value="LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17901,6 +18024,7 @@
         <reference value="CodeSystem/terminologie-atc"/>
       </reference>
       <name value="Classification anatomique, thérapeutique et chimique"/>
+      <description value="La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17911,6 +18035,7 @@
         <reference value="CodeSystem/terminologie-ccam"/>
       </reference>
       <name value="Classification Commune des Actes Médicaux"/>
+      <description value="La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17921,6 +18046,7 @@
         <reference value="CodeSystem/terminologie-cim-10"/>
       </reference>
       <name value="Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)"/>
+      <description value="La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17931,6 +18057,7 @@
         <reference value="CodeSystem/terminologie-cim11-mms"/>
       </reference>
       <name value="Classification internationale des maladies et des problèmes de santé connexes - 11ème révision"/>
+      <description value="La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17990,12 +18117,13 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
+        <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/terminologie-sms"/>
+        <reference value="ValueSet/jdv-hl7-days-of-week"/>
       </reference>
-      <name value="Dictionnaire européen multilingue des substances entrant dans la composition de médicaments"/>
+      <name value="DaysOfWeek"/>
+      <description value="DaysOfWeek"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18017,6 +18145,7 @@
         <reference value="CodeSystem/terminologie-emdn"/>
       </reference>
       <name value="European Medical device nomenclature"/>
+      <description value="La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature que doivent utiliser les fabricants pour enregistrer leurs dispositifs médicaux dans EUDAMED, base de données européenne sur les dispositifs médicaux. Il s'agit d'alimenter le système européen d’identification des dispositifs fondé sur un identifiant unique du dispositif (IUD) pour en faciliter la traçabilité."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25938,18 +26067,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20250701"/>
-      </reference>
-      <name value="SNOMED CT core"/>
-      <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/900000000000207008-20250901"/>
+        <reference value="CodeSystem/900000000000207008-20251001"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
@@ -28894,6 +29012,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/VS-test"/>
+      </reference>
+      <name value="VS-test"/>
+      <description value="VS-test"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-hl7-v3-WorkScheduleODH-cisis"/>
       </reference>
       <name value="WorkScheduleODH"/>
@@ -29059,11 +29188,27 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="namingSystem.html"/>
+          <valueUrl value="identifiants.html"/>
         </extension>
-        <nameUrl value="namingSystem.html"/>
-        <title value="Identifiants externes"/>
+        <nameUrl value="identifiants.html"/>
+        <title value="Identifiants"/>
         <generation value="html"/>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="namingSystem.html"/>
+          </extension>
+          <nameUrl value="namingSystem.html"/>
+          <title value="Identifiants externes"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="listOid.html"/>
+          </extension>
+          <nameUrl value="listOid.html"/>
+          <title value="Listes des OID"/>
+          <generation value="html"/>
+        </page>
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">

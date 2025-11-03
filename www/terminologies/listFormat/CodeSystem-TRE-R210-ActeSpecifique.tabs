@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.3.3.11;TRE;TRE_R210_ActeSpecifique.tabs;Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.;https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique;20150408000000;;20250919120000
+1.2.250.1.213.3.3.11;TRE;TRE_R210_ActeSpecifique.tabs;Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.;https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique;20150408000000;;20251017120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.213.3.3.11;0001;Ablation par radiofréquence de trouble du rythme et de conduction;1;Ablation par radiofréquence de trouble du rythme et de conduction;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0002;Accident vasculaire cérébral aigu (AVC);2;Accident vasculaire cérébral aigu (AVC);20150408000000;20180126120000;20180126120000
@@ -384,7 +384,7 @@
 1.2.250.1.213.3.3.11;0381;Dérivation porto-cave par voie transjugulaire (TIPS);381;Dérivation porto-cave par voie transjugulaire (TIPS);20150408000000;;20170707100000
 1.2.250.1.213.3.3.11;0382;Prélèvement d'organes : coeur;382;Prélèvement d'organes : coeur;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0383;Prélèvement d'organes à coeur arrêté;383;Prélèvement d'organes à coeur arrêté;20150408000000;;20150408000000
-1.2.250.1.213.3.3.11;0384;Prélèvement d'organes à coeur battant (mort cérébrale);384;Prélèvement d'organes à coeur battant (mort cérébrale);20150408000000;;20250919000000
+1.2.250.1.213.3.3.11;0384;Prélèvement d'organes à coeur battant (mort cérébrale);384;Prélèvement d'organes à coeur battant (mort cérébrale);20150408000000;;20251017000000
 1.2.250.1.213.3.3.11;0385;Prélèvement d'organes sur personne vivante : foie;385;Prélèvement d'organes sur personne vivante : foie;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0386;Prélèvement d'organes sur personne vivante : poumon;386;Prélèvement d'organes sur personne vivante : poumon;20150408000000;;20150408000000
 1.2.250.1.213.3.3.11;0387;Prélèvement d'organes sur personne vivante : rein;387;Prélèvement d'organes sur personne vivante : rein;20150408000000;;20150408000000
@@ -1538,16 +1538,21 @@
 1.2.250.1.213.3.3.11;1536;Vaccination du calendrier vaccinal du jeune enfant (0-12 ans);Vaccination du calendrier vaccinal du jeune enfant (0-12 ans);Vaccination du calendrier vaccinal du jeune enfant (0-12 ans);20250623120000;;20250918120000
 1.2.250.1.213.3.3.11;1537;Vaccination du calendrier vaccinal du sénior;Vaccination du calendrier vaccinal du sénior;Vaccination du calendrier vaccinal du sénior;20250623120000;;20250918120000
 1.2.250.1.213.3.3.11;1538;Vaccination épidémie Covid;Vaccination épidémie Covid;Vaccination épidémie Covid;20250623120000;;20250623120000
-1.2.250.1.213.3.3.11;1539;Test Rapide d’Orientation Diagnostique (TROD) Covid-19;Test Rapide d’Orientation Diagnostique (TROD) Covid-19;Test Rapide d’Orientation Diagnostique (TROD) Covid-19;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1540;Test Rapide d’Orientation Diagnostique (TROD) Grippe;Test Rapide d’Orientation Diagnostique (TROD) Grippe;Test Rapide d’Orientation Diagnostique (TROD) Grippe;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1541;Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS);Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS);Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS);20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1542;Test Rapide d’Orientation Diagnostique (TROD) Angine;Test Rapide d’Orientation Diagnostique (TROD) Angine;Test Rapide d’Orientation Diagnostique (TROD) Angine;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1543;Test Rapide d’Orientation Diagnostique (TROD) Syphilis;Test Rapide d’Orientation Diagnostique (TROD) Syphilis;Test Rapide d’Orientation Diagnostique (TROD) Syphilis;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1544;Test Rapide d’Orientation Diagnostique (TROD) Cystite;Test Rapide d’Orientation Diagnostique (TROD) Cystite;Test Rapide d’Orientation Diagnostique (TROD) Cystite;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1545;Chirurgie de l’allongement osseux;Chirurgie de l’allongement osseux;Chirurgie de l’allongement osseux;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1546;Correction des malformations congénitales de la main;Correction des malformations congénitales de la main;Correction des malformations congénitales de la main;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1547;Accueil saisonnier possible;Accueil saisonnier possible;Accueil saisonnier possible;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1548;Accueil saisonnier uniquement;Accueil saisonnier uniquement;Accueil saisonnier uniquement;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1549;Autodialyse simple;Autodialyse simple;Autodialyse simple;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1550;Autodialyse assistée;Autodialyse assistée;Autodialyse assistée;20250919120000;;20250919120000
-1.2.250.1.213.3.3.11;1551;Accueil en unité protégée;Accueil en unité protégée;Accueil en unité protégée;20250924120000;;20250924120000
+1.2.250.1.213.3.3.11;1539;Test Rapide d’Orientation Diagnostique (TROD) Covid-19;Test Rapide d’Orientation Diagnostique (TROD) Covid-19;Test Rapide d’Orientation Diagnostique (TROD) Covid-19;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1540;Test Rapide d’Orientation Diagnostique (TROD) Grippe;Test Rapide d’Orientation Diagnostique (TROD) Grippe;Test Rapide d’Orientation Diagnostique (TROD) Grippe;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1541;Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS);Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS);Test Rapide d’Orientation Diagnostique (TROD) Virus respiratoire syncytial (VRS);20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1542;Test Rapide d’Orientation Diagnostique (TROD) Angine;Test Rapide d’Orientation Diagnostique (TROD) Angine;Test Rapide d’Orientation Diagnostique (TROD) Angine;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1543;Test Rapide d’Orientation Diagnostique (TROD) Syphilis;Test Rapide d’Orientation Diagnostique (TROD) Syphilis;Test Rapide d’Orientation Diagnostique (TROD) Syphilis;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1544;Test Rapide d’Orientation Diagnostique (TROD) Cystite;Test Rapide d’Orientation Diagnostique (TROD) Cystite;Test Rapide d’Orientation Diagnostique (TROD) Cystite;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1545;Chirurgie de l’allongement osseux;Chirurgie de l’allongement osseux;Chirurgie de l’allongement osseux;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1546;Correction des malformations congénitales de la main;Correction des malformations congénitales de la main;Correction des malformations congénitales de la main;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1547;Accueil saisonnier possible;Accueil saisonnier possible;Accueil saisonnier possible;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1548;Accueil saisonnier uniquement;Accueil saisonnier uniquement;Accueil saisonnier uniquement;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1549;Autodialyse simple;Autodialyse simple;Autodialyse simple;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1550;Autodialyse assistée;Autodialyse assistée;Autodialyse assistée;20250919120000;;20251017120000
+1.2.250.1.213.3.3.11;1551;Accueil en unité protégée;Accueil en unité protégée;Accueil en unité protégée;20250924120000;;20251017120000
+1.2.250.1.213.3.3.11;1552;Rééducation par réalité virtuelle;Rééducation par réalité virtuelle;Rééducation par réalité virtuelle;20251017120000;;20251017120000
+1.2.250.1.213.3.3.11;1553;Rééducation de l’amputé;Rééducation de l’amputé;Rééducation de l’amputé;20251017120000;;20251017120000
+1.2.250.1.213.3.3.11;1554;Rééducation vestibulaire (trouble de l’équilibre);Rééducation vestibulaire (trouble de l’équilibre);Rééducation vestibulaire (trouble de l’équilibre);20251017120000;;20251017120000
+1.2.250.1.213.3.3.11;1555;Rééducation du rachis;Rééducation du rachis;Rééducation du rachis;20251017120000;;20251017120000
+1.2.250.1.213.3.3.11;1556;Rééducation des paralysies cérébrales et polyhandicaps;Rééducation des paralysies cérébrales et polyhandicaps;Rééducation des paralysies cérébrales et polyhandicaps;20251017120000;;20251017120000

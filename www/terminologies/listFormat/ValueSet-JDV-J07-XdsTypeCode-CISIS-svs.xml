@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250623120000"
+             dateMaj="20251029120000"
              dateValid="20130123000000"
              description="XDS typeCode CI-SIS"
              displayName="JDV_J07_XdsTypeCode_CISIS"
@@ -304,6 +304,9 @@
          <Concept code="83901-9"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Bilan psychologique"/>
+         <Concept code="83963-9"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Synthèse environnementale"/>
          <Concept code="83981-1"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Lettre de liaison à la sortie d'une structure sociale ou médico-sociale"/>

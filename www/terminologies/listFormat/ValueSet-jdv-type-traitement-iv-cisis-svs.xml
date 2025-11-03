@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251028115835"
              dateValid="20100101000000"
              description="JDV Type Traitement Iv CISIS"
              displayName="JdvTypeTraitementIvCisis"
@@ -12,10 +12,10 @@
       <ConceptList>
          <Concept code="233428003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="thrombolyse d'une veine"/>
+                  displayName="thrombolyse veineuse"/>
          <Concept code="397028007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="thrombectomie d'une veine"/>
+                  displayName="thrombectomie veineuse"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251028115835"
              dateValid="20210419000000"
              description="JDV RCP Appareil CISIS"
              displayName="JdvRcpAppareilCisis"
@@ -15,10 +15,10 @@
                   displayName="glande endocrine"/>
          <Concept code="57171008"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="structure du système hématopoïétique"/>
-         <Concept code="1290040004"
+                  displayName="système hématopoïétique"/>
+         <Concept code="81745001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="œil entier"/>
+                  displayName="œil"/>
          <Concept code="272673000"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="os"/>
@@ -51,7 +51,7 @@
                   displayName="tissus mous"/>
          <Concept code="119253004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="voie aérodigestive supérieure"/>
+                  displayName="voies aérodigestives supérieures"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

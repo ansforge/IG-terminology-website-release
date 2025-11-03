@@ -27,13 +27,13 @@
   fhir:name [ fhir:v "ValueSet_EDQM_All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-10-02T12:01:06+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-11-03T13:53:01+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie EDQM"] ; # 
   fhir:jurisdiction ( [
      fhir:coding ( [
        fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
-       fhir:code [ fhir:v "FR" ]
+       fhir:code [ fhir:v "FRA" ]
      ] )
   ] ) ; # 
   fhir:compose [

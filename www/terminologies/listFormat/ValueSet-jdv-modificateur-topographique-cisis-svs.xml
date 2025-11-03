@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251028115832"
              dateValid="20221114000000"
              description="JDV Modificateur Topographique CISIS"
              displayName="JdvModificateurTopographiqueCisis"
@@ -12,13 +12,13 @@
       <ConceptList>
          <Concept code="24028007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="droit"/>
+                  displayName="côté droit"/>
          <Concept code="7771000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="gauche"/>
+                  displayName="côté gauche"/>
          <Concept code="51440002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="bilatéral"/>
+                  displayName="bilatéral(e)"/>
          <Concept code="66459002"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="unilatéral(e)"/>
@@ -75,10 +75,10 @@
                   displayName="distal(e)"/>
          <Concept code="60583000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="postaxial"/>
+                  displayName="postaxial(e)"/>
          <Concept code="32400000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="préaxial"/>
+                  displayName="préaxial(e)"/>
          <Concept code="43674008"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="apical(e)"/>
@@ -111,7 +111,7 @@
                   displayName="vertical(e)"/>
          <Concept code="30730003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="sagital(le)"/>
+                  displayName="sagittal(e)"/>
          <Concept code="24422004"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="axial(e)"/>
@@ -147,7 +147,7 @@
                   displayName="intra-articulaire"/>
          <Concept code="112233002"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="marginal"/>
+                  displayName="marginal(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

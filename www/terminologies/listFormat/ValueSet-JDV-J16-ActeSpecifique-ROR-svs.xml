@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250919120000"
+             dateMaj="20251017120000"
              dateValid="20160901000000"
              description="Acte spécifique - ROR"
              displayName="JDV_J16_ActeSpecifique_ROR"
@@ -3577,6 +3577,24 @@
          <Concept code="1550"
                   codeSystem="1.2.250.1.213.3.3.11"
                   displayName="Autodialyse assistée"/>
+         <Concept code="1551"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Accueil en unité protégée"/>
+         <Concept code="1552"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Rééducation par réalité virtuelle"/>
+         <Concept code="1553"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Rééducation de l’amputé"/>
+         <Concept code="1554"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Rééducation vestibulaire (trouble de l’équilibre)"/>
+         <Concept code="1555"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Rééducation du rachis"/>
+         <Concept code="1556"
+                  codeSystem="1.2.250.1.213.3.3.11"
+                  displayName="Rééducation des paralysies cérébrales et polyhandicaps"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
