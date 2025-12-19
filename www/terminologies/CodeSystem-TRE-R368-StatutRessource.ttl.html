@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>TRE_R368_StatutRessource - TTL Representation - Terminologies  de Santé v1.4.0</title>
+    <title>TRE_R368_StatutRessource - TTL Representation - Terminologies  de Santé v1.5.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.959"}
-    h3,h4,h5,h6{--heading-prefix:"7.959"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.986"}
+    h3,h4,h5,h6{--heading-prefix:"7.986"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,11 +58,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.4.0 - final-text
+            <span style="display:inline-block;">1.5.0 - final-text
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  <span title="">FRA</span>
 
 
             </span>
@@ -166,7 +166,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.4.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.5.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -209,9 +209,12 @@
 
 
 
-<li>
-  <a href="CodeSystem-TRE-R368-StatutRessource.demande.html">Demande</a>
-</li>
+  
+  <li>
+    <a href="CodeSystem-TRE-R368-StatutRessource.demande.html">Demande</a>
+  </li>
+  
+
 
 
 
@@ -245,7 +248,7 @@
         
           Active
           
-            as of 2025-09-19
+            as of 2025-12-22
           
         
       </td>
@@ -261,7 +264,7 @@
 
 
 
-  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+  <pre class="rdf" style="white-space: pre; overflow: hidden">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
@@ -274,15 +277,15 @@
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TRE-R368-StatutRessource&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">fhir:meta</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;6&quot; ] ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2025-10-02T20:13:53.616+02:00&quot;^^xsd:dateTime ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;7&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2025-12-18T16:42:50.291+01:00&quot;^^xsd:dateTime ] ;
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/shareablecodesystem&quot;^^xsd:anyURI ;
-<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablecodesystem&gt;     ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1&gt;     ] )
   ] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem TRE-R368-StatutRessource&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;TRE-R368-StatutRessource\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcTRE-R368-StatutRessource\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;TRE-R368-StatutRessource-fr-FR\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version: 5; Last updated: 2025-09-29 16:30:25+0200&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablecodesystem.html\&quot;&gt;Shareable CodeSystem&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td/&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td/&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td/&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#deprecationDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date Concept was deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;A property that indicates the status of the concept.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#retirementDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date Concept was retired&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Définition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateValid&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;dateMaj&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TERMINE&lt;a name=\&quot;TRE-R368-StatutRessource-TERMINE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Terminé&lt;/td&gt;&lt;td&gt;La ressource est totalement finie. Resource achevée. Ce statut s'adresse à la ressource Evaluation de l'individu.  Ce statut s'applique également au projet personnalisé ainsi qu'à ses ressources Action et Objectif.&lt;/td&gt;&lt;td&gt;2024-09-27T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-09-19T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VALIDE&lt;a name=\&quot;TRE-R368-StatutRessource-VALIDE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Validé&lt;/td&gt;&lt;td&gt;Ressource approuvée officiellement par une personne ou un organisme. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.&lt;/td&gt;&lt;td&gt;2024-09-27T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-09-19T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;APPROUVE&lt;a name=\&quot;TRE-R368-StatutRessource-APPROUVE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Approuvé&lt;/td&gt;&lt;td&gt;Le professionnel considère la ressource comme correcte. Ce statut s'adresse à la ressource Evaluation de l'individu.&lt;/td&gt;&lt;td&gt;2024-09-27T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-09-19T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PLANIFIE&lt;a name=\&quot;TRE-R368-StatutRessource-PLANIFIE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Planifié&lt;/td&gt;&lt;td&gt;Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS.&lt;/td&gt;&lt;td&gt;2024-09-27T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-09-19T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;REALISE&lt;a name=\&quot;TRE-R368-StatutRessource-REALISE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Réalisé&lt;/td&gt;&lt;td&gt;Ressource totalement effectuée. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS.&lt;/td&gt;&lt;td&gt;2024-09-27T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-09-19T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANNULE&lt;a name=\&quot;TRE-R368-StatutRessource-ANNULE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Annulé&lt;/td&gt;&lt;td&gt;La ressource n’est plus effective mais le statut est gardé pour historique. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS.&lt;/td&gt;&lt;td&gt;2024-09-27T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-09-19T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ACTIF&lt;a name=\&quot;TRE-R368-StatutRessource-ACTIF\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Actif&lt;/td&gt;&lt;td&gt;Ressource vivante. Ce statut s'adresse aux ressources du projet personnalisé Action et Objectif.&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NONDEBUTE&lt;a name=\&quot;TRE-R368-StatutRessource-NONDEBUTE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Non débuté&lt;/td&gt;&lt;td&gt;Ressource qui n'a pas commencée. Ce statut s'adresse projet personnalisé.&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENPREPARATION&lt;a name=\&quot;TRE-R368-StatutRessource-ENPREPARATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;En préparation&lt;/td&gt;&lt;td&gt;Ressource qui est en train d'être faite, conçue, élaborée. Ce statut s'adresse au projet personnalisé.&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENREALISATION&lt;a name=\&quot;TRE-R368-StatutRessource-ENREALISATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;En réalisation&lt;/td&gt;&lt;td&gt;Ressource qui est en cours d'élaboration. Ce statut s'adresse au projet personnalisé&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CREATION&lt;a name=\&quot;TRE-R368-StatutRessource-CREATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Création&lt;/td&gt;&lt;td&gt;Etat de la ressource après la préparation. Ce statut s'adresse au projet personnalisé&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;2025-04-25T12:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem TRE-R368-StatutRessource&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;TRE-R368-StatutRessource\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcTRE-R368-StatutRessource\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;TRE-R368-StatutRessource-fr-FR\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version: 7; Last updated: 2025-12-18 16:42:50+0100&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablecodesystem.html\&quot;&gt;Shareable CodeSystemversion: null4.0.1)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#deprecationDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date Concept was deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;A property that indicates the status of the concept.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#retirementDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date Concept was retired&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;https://mos.esante.gouv.fr/NOS/TRE_R368-StatutRessource/FHIR/TRE-R368-StatutRessource&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Définition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;deprecationDate&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TERMINE&lt;a name=\&quot;TRE-R368-StatutRessource-TERMINE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Terminé&lt;/td&gt;&lt;td&gt;La ressource est totalement finie. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Resource achevée. Ce statut s'adresse au projet personnalisé ainsi qu'aux ressources associées : Action, Objectif et Prestation.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VALIDE&lt;a name=\&quot;TRE-R368-StatutRessource-VALIDE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Validé&lt;/td&gt;&lt;td&gt;Ressource approuvée officiellement par une personne ou un organisme. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;APPROUVE&lt;a name=\&quot;TRE-R368-StatutRessource-APPROUVE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Approuvé&lt;/td&gt;&lt;td&gt;Le professionnel considère la ressource comme correcte. Ce statut s'adresse à la ressource Evaluation de l'individu.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PLANIFIE&lt;a name=\&quot;TRE-R368-StatutRessource-PLANIFIE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Planifié&lt;/td&gt;&lt;td&gt;Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;background-color: #ffeeee\&quot;&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;REALISE&lt;a name=\&quot;TRE-R368-StatutRessource-REALISE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Réalisé&lt;/td&gt;&lt;td&gt;Ressource totalement effectuée. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS.&lt;/td&gt;&lt;td&gt;2025-12-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANNULE&lt;a name=\&quot;TRE-R368-StatutRessource-ANNULE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Annulé&lt;/td&gt;&lt;td&gt;La ressource n’est plus effective mais le statut est gardé pour historique. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Ce statut s'adresse également aux ressources Action, Objectif et Prestation du projet personnalisé.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ACTIF&lt;a name=\&quot;TRE-R368-StatutRessource-ACTIF\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Actif&lt;/td&gt;&lt;td&gt;Ressource vivante. Ce statut s'adresse aux ressources Action, Objectif et Prestation du projet personnalisé.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;background-color: #ffeeee\&quot;&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NONDEBUTE&lt;a name=\&quot;TRE-R368-StatutRessource-NONDEBUTE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Non débuté&lt;/td&gt;&lt;td&gt;Ressource qui n'a pas commencée. Ce statut s'adresse projet personnalisé.&lt;/td&gt;&lt;td&gt;2025-12-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENPREPARATION&lt;a name=\&quot;TRE-R368-StatutRessource-ENPREPARATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;En préparation&lt;/td&gt;&lt;td&gt;Ressource qui est en train d'être faite, conçue, élaborée. Ce statut s'adresse aux ressources Evaluation de l'individu. Ce statut s'adresse au projet personnalisé ainsi qu'aux ressources associées : Action, Objectif et Prestation.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;background-color: #ffeeee\&quot;&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENREALISATION&lt;a name=\&quot;TRE-R368-StatutRessource-ENREALISATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;En réalisation&lt;/td&gt;&lt;td&gt;Ressource qui est en cours d'élaboration. Ce statut s'adresse au projet personnalisé&lt;/td&gt;&lt;td&gt;2025-12-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr style=\&quot;background-color: #ffeeee\&quot;&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CREATION&lt;a name=\&quot;TRE-R368-StatutRessource-CREATION\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Création&lt;/td&gt;&lt;td&gt;Etat de la ressource après la préparation. Ce statut s'adresse au projet personnalisé&lt;/td&gt;&lt;td&gt;2025-12-22T12:00:00+01:00&lt;/td&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENCOURS&lt;a name=\&quot;TRE-R368-StatutRessource-ENCOURS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;En cours&lt;/td&gt;&lt;td&gt;Ressource qui est en cours de mise en pratique. Ce statut s'adresse au projet personnalisé.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ENPAUSE&lt;a name=\&quot;TRE-R368-StatutRessource-ENPAUSE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;En pause&lt;/td&gt;&lt;td&gt;Etat de la ressource lors d’un arrêt temporaire. Ce statut s'adresse au projet personnalisé.&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
   ] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.extension">fhir:extension</a> ( [
 <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod&quot;^^xsd:anyURI ] ;
@@ -295,11 +298,11 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:ietf:rfc:3986&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;urn:oid:1.2.250.1.213.3.3.250&quot; ]
   ] ) ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20250919120000&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20251222120000&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TRE_R368_StatutRessource&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-09-19T12:00:00+01:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">fhir:jurisdiction</a> ( [
@@ -309,17 +312,20 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;complete&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">fhir:count</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:v</a> &quot;11&quot;^^xsd:nonNegativeInteger] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">fhir:count</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:v</a> &quot;13&quot;^^xsd:nonNegativeInteger] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:property</a> ( [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;date de validité d'un code concept&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/concept-properties#dateValid&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Date de validité d'un code concept&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateTime&quot; ]
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Date de mise à jour d'un code concept&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateTime&quot; ]
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateFin&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/concept-properties#dateFin&quot;^^xsd:anyURI ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Date de fin d'exploitation d'un code concept&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateTime&quot; ]
   ] [
@@ -341,7 +347,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:concept</a> ( [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TERMINE&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Terminé&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;La ressource est totalement finie. Resource achevée. Ce statut s'adresse à la ressource Evaluation de l'individu.  Ce statut s'applique également au projet personnalisé ainsi qu'à ses ressources Action et Objectif.&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;La ressource est totalement finie. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Resource achevée. Ce statut s'adresse au projet personnalisé ainsi qu'aux ressources associées : Action, Objectif et Prestation.&quot; ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -350,7 +356,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-09-19T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
@@ -418,15 +424,23 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-09-19T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateFin&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deprecationDate&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deprecated&quot;       ]     ] )
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ANNULE&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Annulé&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;La ressource n’est plus effective mais le statut est gardé pour historique. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS.&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;La ressource n’est plus effective mais le statut est gardé pour historique. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Ce statut s'adresse également aux ressources Action, Objectif et Prestation du projet personnalisé.&quot; ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -435,7 +449,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-09-19T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
@@ -443,7 +457,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ACTIF&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Actif&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ressource vivante. Ce statut s'adresse aux ressources du projet personnalisé Action et Objectif.&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ressource vivante. Ce statut s'adresse aux ressources Action, Objectif et Prestation du projet personnalisé.&quot; ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -452,7 +466,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-04-25T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
@@ -469,15 +483,23 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-04-25T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateFin&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deprecationDate&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deprecated&quot;       ]     ] )
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ENPREPARATION&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;En préparation&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ressource qui est en train d'être faite, conçue, élaborée. Ce statut s'adresse au projet personnalisé.&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ressource qui est en train d'être faite, conçue, élaborée. Ce statut s'adresse aux ressources Evaluation de l'individu. Ce statut s'adresse au projet personnalisé ainsi qu'aux ressources associées : Action, Objectif et Prestation.&quot; ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
@@ -486,7 +508,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-04-25T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
@@ -503,11 +525,19 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-04-25T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateFin&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deprecationDate&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deprecated&quot;       ]     ] )
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CREATION&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Création&quot; ] ;
@@ -520,14 +550,56 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
-<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-04-25T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateFin&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deprecationDate&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deprecated&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ENCOURS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;En cours&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ressource qui est en cours de mise en pratique. Ce statut s'adresse au projet personnalisé.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ENPAUSE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;En pause&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Etat de la ressource lors d’un arrêt temporaire. Ce statut s'adresse au projet personnalisé.&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:dateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2025-12-22T12:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
   ] ) . # 
 
-</code></pre>
+</pre>
 
 
 
@@ -574,7 +646,7 @@ fhir:div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 3, 2025 13:53+0000">2025-11-03</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 19, 2025 16:19+0000">2025-12-19</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

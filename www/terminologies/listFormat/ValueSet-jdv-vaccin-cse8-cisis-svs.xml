@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115835"
+             dateMaj="20251216141840"
              dateValid="20100101000000"
              description="JDV Vaccin Cse8 CISIS"
              displayName="JdvVaccinCse8Cisis"
@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="J07BC01"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem="http://www.whocc.no/atc"
                   displayName="hépatite B, antigène purifié"/>
          <Concept code="J07AN"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem="http://www.whocc.no/atc"
                   displayName="vaccins de la tuberculose"/>
       </ConceptList>
    </ValueSet>

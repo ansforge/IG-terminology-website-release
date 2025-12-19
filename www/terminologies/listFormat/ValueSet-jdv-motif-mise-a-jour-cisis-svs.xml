@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141839"
              dateValid="20100101000000"
              description="JDV Motif Mise A Jour CISIS"
              displayName="JdvMotifMiseAJourCisis"
@@ -39,7 +39,7 @@
                   displayName="Autre motif de mise à jour"/>
          <Concept code="263855007"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="rechute"/>
+                  displayName="phase de rechute"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

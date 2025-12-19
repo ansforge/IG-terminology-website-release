@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250425120000"
+             dateMaj="20251222120000"
              dateValid="20220826120000"
              description="Niveau de ressources humaines et matérielles utiles pour la réalisation de l'offre"
              displayName="JDV_J227_NiveauExpertise_ROR"
@@ -121,6 +121,24 @@
          <Concept code="42"
                   codeSystem="1.2.250.1.213.3.3.228"
                   displayName="Filière Obésité - Niveau 3 (Centre Spécialisé Obésité)"/>
+         <Concept code="43"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Centre Ressources Autisme (CRA)"/>
+         <Concept code="44"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Centre de référence des Troubles du Langage et de l’Apprentissage (CRTLA)"/>
+         <Concept code="45"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Centre de référence du Trouble Déficit de l’Attention avec ou sans Hyperactivité (CRTDAH)"/>
+         <Concept code="46"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Centre de compétence centre mémoire ressources et recherche (CMRR)"/>
+         <Concept code="47"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Centre expert Parkinson"/>
+         <Concept code="48"
+                  codeSystem="1.2.250.1.213.3.3.228"
+                  displayName="Centre de ressources et de compétences sclérose en plaques (SEP)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

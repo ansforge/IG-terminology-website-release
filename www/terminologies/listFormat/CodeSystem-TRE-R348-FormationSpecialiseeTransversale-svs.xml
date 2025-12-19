@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20251222120000"
              dateValid="20230331120000"
              description="Formation Spécialisée Transversale (FST)"
              displayName="TRE_R348_FormationSpecialiseeTransversale"
@@ -243,6 +243,15 @@
                   displayName="FST Urgences pédiatriques"
                   longDesignation="FST Urgences pédiatriques"
                   shortDesignation="FST Urgences pédia"
+                  descriptionMetier=""/>
+         <Concept code="FST27"
+                  codeSystem="1.2.250.1.213.1.6.1.251"
+                  dateFin=""
+                  dateMaj="20251222120000"
+                  dateValid="20251222120000"
+                  displayName="FST Innovation et recherche en sciences biologiques et pharmaceutiques"
+                  longDesignation="FST Innovation et recherche en sciences biologiques et pharmaceutiques"
+                  shortDesignation="FST Innovation et recherche en sciences biologiques et pharmaceutiques"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

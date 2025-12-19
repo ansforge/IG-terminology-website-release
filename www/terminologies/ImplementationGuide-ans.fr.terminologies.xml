@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.4.0"/>
+  <version value="1.5.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-11-03T13:53:01+00:00"/>
+  <date value="2025-12-19T16:18:25+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -34,17 +34,17 @@
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment">
       <valueMarkdown value="Automatically added as a dependency - all IGs depend on HL7 Terminology"/>
     </extension>
-    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology|6.5.0"/>
+    <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology|7.0.1"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="6.5.0"/>
+    <version value="7.0.1"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_ips">
-    <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>
+    <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips|1.1.0"/>
     <packageId value="hl7.fhir.uv.ips"/>
     <version value="1.1.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_extensions_r4">
-    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
+    <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions|5.2.0"/>
     <packageId value="hl7.fhir.uv.extensions.r4"/>
     <version value="5.2.0"/>
   </dependsOn>
@@ -86,7 +86,7 @@
         <valueString value="pin-canonicals"/>
       </extension>
       <extension url="value">
-        <valueString value="pin-multiples"/>
+        <valueString value="pin-all"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -263,6 +263,206 @@
       </extension>
       <extension url="value">
         <valueString value="https://mos.esante.gouv.fr/NOS"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -542,7 +742,7 @@
         <valueString value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"/>
+        <valueString value="https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -711,6 +911,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -4039,6 +4247,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -8825,7 +9041,7 @@
         <valueCode value="pin-canonicals"/>
       </extension>
       <extension url="value">
-        <valueString value="pin-multiples"/>
+        <valueString value="pin-all"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -9002,6 +9218,206 @@
       </extension>
       <extension url="value">
         <valueString value="https://mos.esante.gouv.fr/NOS"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -9281,7 +9697,7 @@
         <valueCode value="special-url"/>
       </extension>
       <extension url="value">
-        <valueString value="https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"/>
+        <valueString value="https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -9450,6 +9866,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -12778,6 +13202,14 @@
       </extension>
       <extension url="value">
         <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="special-url"/>
+      </extension>
+      <extension url="value">
+        <valueString value="https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -17526,6 +17958,17 @@
     </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/actCode-supplement-fr"/>
+      </reference>
+      <name value="ActCodeSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -17559,6 +18002,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ActMood-supplement-fr"/>
+      </reference>
+      <name value="ActMoodSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -17581,6 +18035,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ActPriority-supplement-fr"/>
+      </reference>
+      <name value="ActPrioritySupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -17588,6 +18053,17 @@
       </reference>
       <name value="ActStatus"/>
       <description value="ActStatus"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ActStatus-supplement-fr"/>
+      </reference>
+      <name value="ActStatusSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17657,6 +18133,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/AdministrativeGender-supplement-fr"/>
+      </reference>
+      <name value="AdministrativeGenderSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
@@ -17673,6 +18160,16 @@
         <reference value="ConceptMap/alignement-nuva-bdpm"/>
       </reference>
       <name value="Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ConceptMap"/>
+      </extension>
+      <reference>
+        <reference value="ConceptMap/alignement-bdpm-cipucd"/>
+      </reference>
+      <name value="Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -17695,6 +18192,28 @@
       </reference>
       <name value="AllergyIntolerance Clinical Status Codes"/>
       <description value="AllergyIntolerance Clinical Status Codes"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/allergyintolerance-clinical-supplement-fr"/>
+      </reference>
+      <name value="AllergyIntoleranceClinicalSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/allergy-intolerance-criticality-supplement-fr"/>
+      </reference>
+      <name value="AllergyIntoleranceCriticalitySupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18095,6 +18614,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/condition-clinical-supplement-fr"/>
+      </reference>
+      <name value="ConditionClinicalSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/condition-ver-status-supplement-fr"/>
+      </reference>
+      <name value="ConditionVerStatusSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -18102,6 +18643,17 @@
       </reference>
       <name value="Confidentiality"/>
       <description value="Confidentiality"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/Confidentiality-supplement-fr"/>
+      </reference>
+      <name value="Confidentiality SupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18128,6 +18680,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-sms"/>
+      </reference>
+      <name value="Dictionnaire européen multilingue des substances entrant dans la composition de médicaments"/>
+      <description value="Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -18135,6 +18698,17 @@
       </reference>
       <name value="EmploymentStatusODH"/>
       <description value="EmploymentStatusODH"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/employmentStatus-supplement-fr"/>
+      </reference>
+      <name value="EmploymentStatusSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -19208,6 +19782,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-etat-de-conscience-cisis"/>
+      </reference>
+      <name value="Jdv Etat De Conscience CISIS"/>
+      <description value="Jdv Etat De Conscience CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-etat-naissance-cisis"/>
       </reference>
       <name value="JDV Etat Naissance CISIS"/>
@@ -19927,6 +20512,17 @@
       </reference>
       <name value="Jdv J370 Type Contrat Sejour Ms"/>
       <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"/>
+      </reference>
+      <name value="Jdv J383 Motif Cloture Exercice Professionnel Epars"/>
+      <description value="Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22204,6 +22800,17 @@
       </reference>
       <name value="Jdv Tre R221 Modele Document Cda Non Structure All"/>
       <description value="JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-trod-examen-cisis"/>
+      </reference>
+      <name value="Jdv Trod Examen CISIS"/>
+      <description value="Jdv Trod Examen CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25074,7 +25681,7 @@
         <reference value="ValueSet/JDV-J281-StatutsRessourcesMS"/>
       </reference>
       <name value="JDV_J281_StatutsRessourcesMS"/>
-      <description value="Statut de l'évaluation et des événements"/>
+      <description value="Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25902,6 +26509,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/mediaType-supplement-fr"/>
+      </reference>
+      <name value="MediaTypeSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="NamingSystem"/>
       </extension>
       <reference>
@@ -25956,6 +26574,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ObservationInterpretation-supplement-fr"/>
+      </reference>
+      <name value="ObservationInterpretationSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -25963,6 +26592,39 @@
       </reference>
       <name value="ObservationMethod"/>
       <description value="ObservationMethod"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ObservationMethod-supplement-fr"/>
+      </reference>
+      <name value="ObservationMethodSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ObservationValue-supplement-fr"/>
+      </reference>
+      <name value="ObservationValueSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/orderableDrugForm-supplement-fr"/>
+      </reference>
+      <name value="OrderableDrugFormSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -25978,6 +26640,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ParticipationFunction-supplement-fr"/>
+      </reference>
+      <name value="ParticipationFunctionSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -25985,6 +26658,17 @@
       </reference>
       <name value="ParticipationType"/>
       <description value="ParticipationType"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/ParticipationType-supplement-fr"/>
+      </reference>
+      <name value="ParticipationTypeSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26032,6 +26716,28 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/RoleClass-supplement-fr"/>
+      </reference>
+      <name value="RoleClassSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/RoleCode-supplement-fr"/>
+      </reference>
+      <name value="RoleCodeSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="NamingSystem"/>
       </extension>
       <reference>
@@ -26067,7 +26773,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20251001"/>
+        <reference value="CodeSystem/900000000000207008-20251201"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
@@ -26110,10 +26816,32 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/specimenType-supplement-fr"/>
+      </reference>
+      <name value="SpecimenTypeSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/terminologie-standardterms"/>
       </reference>
       <name value="Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments"/>
       <description value="Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/substanceAdminSubstitution-supplement-fr"/>
+      </reference>
+      <name value="SubstanceAdminSubstitutionSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26136,6 +26864,17 @@
       </reference>
       <name value="TimingEvent"/>
       <description value="TimingEvent"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/TimingEvent-supplement-fr"/>
+      </reference>
+      <name value="TimingEventSupplementFr"/>
+      <description value="Traduction Française"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26805,7 +27544,7 @@
         <reference value="CodeSystem/TRE-R210-ActeSpecifique"/>
       </reference>
       <name value="TRE_R210_ActeSpecifique"/>
-      <description value="Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation."/>
+      <description value="Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -28943,6 +29682,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-SpecimenType-supplement-fr"/>
+      </reference>
+      <name value="V3SpecimenTypeSupplementFr"/>
+      <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -29103,6 +29853,14 @@
           </extension>
           <nameUrl value="tre-retired.html"/>
           <title value="Terminologies  (Retired)"/>
+          <generation value="html"/>
+        </page>
+        <page>
+          <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
+            <valueUrl value="tre-supplement.html"/>
+          </extension>
+          <nameUrl value="tre-supplement.html"/>
+          <title value="Supplement  (Traduction)"/>
           <generation value="html"/>
         </page>
         <page>

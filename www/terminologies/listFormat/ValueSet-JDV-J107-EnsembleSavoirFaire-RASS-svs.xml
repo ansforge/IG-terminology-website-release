@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20251222120000"
              dateValid="20190830120000"
              description="Ensemble des savoir-faire et compétences du RASS"
              displayName="JDV_J107_EnsembleSavoirFaire_RASS"
@@ -797,6 +797,9 @@
          <Concept code="SST26"
                   codeSystem="1.2.250.1.213.2.76"
                   displayName="Urgences pédiatriques"/>
+         <Concept code="SST27"
+                  codeSystem="1.2.250.1.213.2.76"
+                  displayName="Innovation et recherche en sciences biologiques et pharmaceutiques"/>
          <Concept code="CM0001"
                   codeSystem="1.2.250.1.213.1.6.1.375"
                   displayName="Certificat de décès"/>

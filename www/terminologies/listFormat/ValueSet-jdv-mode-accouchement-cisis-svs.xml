@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141839"
              dateValid="20100101000000"
              description="JDV Mode Accouchement CISIS"
              displayName="JdvModeAccouchementCisis"
@@ -21,7 +21,7 @@
                   displayName="accouchement par forceps"/>
          <Concept code="700000006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="voie basse spontanée"/>
+                  displayName="accouchement par voie basse"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

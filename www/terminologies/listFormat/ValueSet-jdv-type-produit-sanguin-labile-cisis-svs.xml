@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251216141840"
              dateValid="20210414000000"
              description="JDV Type Produit Sanguin Labile CISIS"
              displayName="JdvTypeProduitSanguinLabileCisis"
@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C15409"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
                   displayName="transfusion de concentré de globules rouges"/>
          <Concept code="C15366"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
                   displayName="transfusion de plaquettes"/>
          <Concept code="C140042"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
                   displayName="transfusion de plasma"/>
          <Concept code="GEN-092.03.06"
                   codeSystem="1.2.250.1.213.1.1.4.322"

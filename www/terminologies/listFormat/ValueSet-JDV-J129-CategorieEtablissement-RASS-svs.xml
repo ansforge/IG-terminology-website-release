@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241025120000"
+             dateMaj="20251222120000"
              dateValid="20201127120000"
              description="Catégorie d'établissement du RASS"
              displayName="JDV_J129_CategorieEtablissement_RASS"
@@ -295,7 +295,7 @@
                   displayName="Etablissement Consultation Protection Infantile"/>
          <Concept code="231"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Etablissement Information Consultation Conseil Familial"/>
+                  displayName="Espaces de vie affective, relationnelle et sexuelle (EVARS)"/>
          <Concept code="233"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Lactarium"/>
@@ -841,7 +841,7 @@
                   displayName="Services de Prévention et de Santé au Travail (SPST)"/>
          <Concept code="617"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Maison médicale de garde (MMG)"/>
+                  displayName="Lieu de soins non programmés"/>
          <Concept code="618"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Autre structure de soins non programmés (SNP)"/>
@@ -920,6 +920,9 @@
          <Concept code="648"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Structure qui contribue au Service d'Accès aux Soins"/>
+         <Concept code="649"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Centre de santé et de médiation en santé sexuelle"/>
          <Concept code="695"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Groupement de coopération sanitaire de moyens - Exploitant"/>

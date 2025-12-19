@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>TRE_R212_Equipement - Terminologies  de Santé v1.4.0</title>
+    <title>TRE_R212_Equipement - Terminologies  de Santé v1.5.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.819"}
-    h3,h4,h5,h6{--heading-prefix:"7.819"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.846"}
+    h3,h4,h5,h6{--heading-prefix:"7.846"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -56,11 +56,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.4.0 - final-text
+            <span style="display:inline-block;">1.5.0 - final-text
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  <span title="">FRA</span>
 
 
             </span>
@@ -164,7 +164,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.4.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.5.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -207,9 +207,12 @@
 
 
 
-<li>
-  <a href="CodeSystem-TRE-R212-Equipement.demande.html">Demande</a>
-</li>
+  
+  <li>
+    <a href="CodeSystem-TRE-R212-Equipement.demande.html">Demande</a>
+  </li>
+  
+
 
 
 
@@ -242,7 +245,7 @@
       <td colspan="4"><i>Official URL</i>: <span class="copy-text">https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement<button title="Click to copy URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement"/></span>
       </td>
       <td><i>Version</i>:
-      <span class="copy-text">20250918120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20250918120000"/></span>
+      <span class="copy-text">20251222120000<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement|20251222120000"/></span>
       </td>
     </tr>
  
@@ -254,11 +257,11 @@
 
 
 
-      <td colspan="3">
+      <td colspan="2">
         
           Active
           
-            as of 2025-09-18
+            as of 2025-12-22
           
         
       </td>
@@ -272,6 +275,10 @@
       </td>
 
 
+      <td>
+        <i>Realm:</i> <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+      </td>
+
       <td><i>Computable Name</i>: <span style="font-family: monospace;">TRE_R212_Equipement</span></td>
     </tr>
 
@@ -281,7 +288,7 @@
         <i>As active of:</i> 
       </td>
       <td colspan="2">
-        <i>RevisionDate:</i> 2025-09-18T12:00:00+01:00
+        <i>RevisionDate:</i> 2025-12-22T12:00:00+01:00
       </td>      
     </tr>
 
@@ -330,22 +337,23 @@
 </ul>
 
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TRE-R212-Equipement</b></p><a name="TRE-R212-Equipement"> </a><a name="hcTRE-R212-Equipement"> </a><a name="TRE-R212-Equipement-fr-FR"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 21; Last updated: 2025-10-02 20:13:42+0200</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystem</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+  <div id="orig">  
+    <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TRE-R212-Equipement</b></p><a name="TRE-R212-Equipement"> </a><a name="hcTRE-R212-Equipement"> </a><a name="TRE-R212-Equipement-fr-FR"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 22; Last updated: 2025-12-18 16:42:45+0100</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystemversion: null4.0.1)</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
 <table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>dateValid</td>
 <td>dateValid</td>
-<td></td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td>
 <td>dateTime</td>
 <td>date de validité d'un code concept</td></tr>
 <tr><td>dateMaj</td>
 <td>dateMaj</td>
-<td></td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td>
 <td>dateTime</td>
 <td>Date de mise à jour d'un code concept</td></tr>
 <tr><td>dateFin</td>
 <td>dateFin</td>
-<td></td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td>
 <td>dateTime</td>
 <td>Date de fin d'exploitation d'un code concept</td></tr>
 <tr><td>deprecationDate</td>
@@ -368,14 +376,11 @@
 <td>https://smt.esante.gouv.fr/fhir/concept-properties#finess</td>
 <td>boolean</td>
 <td>Permet de définir les codes concepts utilisés par FINESS+</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>dateFin</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Définition</b></td><td><b>Déprécié</b></td><td><b>deprecationDate</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr>
 <tr style="background-color: #ffeeee"><td style="white-space:nowrap">001<a name="TRE-R212-Equipement-001"> </a></td>
 <td>Angiographie biplan rotationnelle (reconstruction scanner integrée)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -383,18 +388,12 @@
 <td>Angiographie monoplan</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">003<a name="TRE-R212-Equipement-003"> </a></td>
 <td>Angioscope</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -403,18 +402,12 @@
 <td>Arthroscope</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">005<a name="TRE-R212-Equipement-005"> </a></td>
 <td>Autotransfuseur</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -423,9 +416,6 @@
 <td>Baignoire stationnaire pour grands brûlés</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td>2017-03-22T12:00:00+01:00</td>
 <td>2017-03-22T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -433,9 +423,6 @@
 <td>Bili-IRM</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -443,18 +430,12 @@
 <td>Caisson hyperbare</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td>2016-09-01T00:00:00+01:00</td>
 <td>2016-09-01T00:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">009<a name="TRE-R212-Equipement-009"> </a></td>
 <td>Chambre à pression négative</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -463,9 +444,6 @@
 <td>Chambre à pression positive (chambre stérile)</td>
 <td></td>
 <td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -473,9 +451,6 @@
 <td>Chambre d'isolement avec sas</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td>2017-03-22T12:00:00+01:00</td>
 <td>2017-03-22T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -483,9 +458,6 @@
 <td>Chambre stérile</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td>2017-03-22T12:00:00+01:00</td>
 <td>2017-03-22T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -493,9 +465,6 @@
 <td>CEC assist circul-respiration (ECMO)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td>Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO)</td></tr>
@@ -503,9 +472,6 @@
 <td>CEC assist circul-respiration (ECMO) pédiatrique</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td>Circulation extracorporelle (CEC) pour assistance circulatoire-respiratoire (ECMO) pédiatrique</td></tr>
@@ -513,9 +479,6 @@
 <td>Coloscanner (TDM)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -523,18 +486,12 @@
 <td>Colposcopie - laser</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">017<a name="TRE-R212-Equipement-017"> </a></td>
 <td>Coronaroscanner</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -543,9 +500,6 @@
 <td>Cystographie pédiatrique</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -553,9 +507,6 @@
 <td>Dacryoscanner</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -563,18 +514,12 @@
 <td>Défécographe</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">021<a name="TRE-R212-Equipement-021"> </a></td>
 <td>Echographe transportable</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -583,9 +528,6 @@
 <td>Echo-doppler artériel des membres</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -593,9 +535,6 @@
 <td>Echo-doppler troncs supra-aortiq (vaisseaux cou)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td>Echo-doppler des troncs supra-aortiques (vaisseaux du cou)</td></tr>
@@ -603,9 +542,6 @@
 <td>Echo-doppler ostéoarticulaire</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -613,9 +549,6 @@
 <td>Echo-doppler transcrânien</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -623,9 +556,6 @@
 <td>Echo-doppler vasculaire d'effort</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -633,9 +563,6 @@
 <td>Echo-doppler veineux des membres</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -643,9 +570,6 @@
 <td>Echo-endoscopie biliaire</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -653,18 +577,12 @@
 <td>Echo-endoscopie pulmonaire</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">030<a name="TRE-R212-Equipement-030"> </a></td>
 <td>Echographe 3D</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -673,9 +591,6 @@
 <td>Echographe de contraste</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -683,9 +598,6 @@
 <td>Echo artères cervicocéphaliques (tête et cou)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td>Echographie des artères cervicocéphaliques (artères de la tête et du cou)</td></tr>
@@ -693,9 +605,6 @@
 <td>Echographie obstétricale 1er trimestre</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -703,9 +612,6 @@
 <td>Echographie obstétricale 2nd et 3ème trimestres</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -713,9 +619,6 @@
 <td>Electroencéphalographe (EEG)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td>2018-03-30T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -723,9 +626,6 @@
 <td>Electromyographe (EMG)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td>2018-03-30T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -733,9 +633,6 @@
 <td>Endoscopie urologique (fibroscopie urétro-vésicale)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td>2018-03-30T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -743,9 +640,6 @@
 <td>Entéro-IRM</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -753,18 +647,12 @@
 <td>Entéroscopie du grêle</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td>2018-03-30T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">040<a name="TRE-R212-Equipement-040"> </a></td>
 <td>Equipement pour réentraînement (cycloergomètre, tapis roulant)</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2023-06-30T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -773,9 +661,6 @@
 <td>Ergorameur</td>
 <td></td>
 <td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -783,9 +668,6 @@
 <td>Explorations électrophysiologiques visuelles (PEV, ERG, EOG)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td>Explorations électrophysiologiques visuelles (Potentiels évoqués visuels PEV, électro-rétinogramme ERG, électro-oculogramme EOG)</td></tr>
@@ -793,9 +675,6 @@
 <td>Fibroscopie broncho-pulmonaire (endoscopie bronchique)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td>2018-03-30T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -803,9 +682,6 @@
 <td>Fibroscopie oeso-gastro-duodénale (FOGD) (endoscopie digestive haute)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td>2018-03-30T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -813,9 +689,6 @@
 <td>Guidage échographique</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -823,9 +696,6 @@
 <td>Holter ECG</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-10-26T12:00:00+01:00</td>
-<td>2018-10-26T12:00:00+01:00</td>
 <td>2018-10-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -833,9 +703,6 @@
 <td>Holter tensionnel</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
 <td>2024-06-28T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -843,9 +710,6 @@
 <td>Hystérographie</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -853,9 +717,6 @@
 <td>Imagerie pédiatrique sans sédation</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -863,18 +724,12 @@
 <td>Imagerie vasculaire diagnostique et interventionnelle : artériographie</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">051<a name="TRE-R212-Equipement-051"> </a></td>
 <td>Impédance masse graisseuse</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -883,9 +738,6 @@
 <td>IRM obésité diamètre de 70 cm - bariatrique</td>
 <td></td>
 <td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -893,18 +745,12 @@
 <td>IRM cardiaque</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">054<a name="TRE-R212-Equipement-054"> </a></td>
 <td>IRM corps entier</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -913,9 +759,6 @@
 <td>IRM foetale</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -923,9 +766,6 @@
 <td>Laboratoire du sommeil (polysomnographe)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
 <td>2024-06-28T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -933,9 +773,6 @@
 <td>Laser</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -943,9 +780,6 @@
 <td>Lithotripsie des glandes salivaires</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -953,9 +787,6 @@
 <td>Lithotriptie extracorporelle</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -963,9 +794,6 @@
 <td>Mesure pression loges musculaires (syndrome loges)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td>Mesure de la pression des loges musculaires (syndrome des loges)</td></tr>
@@ -973,9 +801,6 @@
 <td>Neuro-imagerie fonctionnelle, spectroscopie, tractographie</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -983,9 +808,6 @@
 <td>Ostéodensitométrie (densitométrie osseuse)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -993,18 +815,12 @@
 <td>Pachymètrie</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">064<a name="TRE-R212-Equipement-064"> </a></td>
 <td>Planche à massage cardiaque automatique</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1013,9 +829,6 @@
 <td>Polysomnographe portatif</td>
 <td></td>
 <td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -1023,9 +836,6 @@
 <td>Potentiels évoqués auditifs (PEA) et vestibulaires</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -1033,18 +843,12 @@
 <td>Potentiels évoqués somesthésiques cérébraux (PESc)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">068<a name="TRE-R212-Equipement-068"> </a></td>
 <td>Réaction en chaîne par polymérase (PCR)</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1053,9 +857,6 @@
 <td>Robot opératoire pour chirurgie robot assistée</td>
 <td></td>
 <td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2022-10-28T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -1063,18 +864,12 @@
 <td>Scanner dentaire</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">071<a name="TRE-R212-Equipement-071"> </a></td>
 <td>Spectromètre de masse</td>
 <td></td>
-<td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1083,9 +878,6 @@
 <td>Table de bloc opératoire obésité (poids &gt; 250 kg) - bariatrique</td>
 <td></td>
 <td></td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td>Table de bloc opératoire obésité (poids supérieur à 250 kg) - bariatrique</td></tr>
@@ -1093,9 +885,6 @@
 <td>Tomographie en cohérence optique</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -1103,9 +892,6 @@
 <td>Tomographie par émissions de positons (TEP ou PET SCAN)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -1113,9 +899,6 @@
 <td>Tomographie par scinigraphie</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -1123,9 +906,6 @@
 <td>Topographie cornéenne</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -1133,9 +913,6 @@
 <td>Ventilation non invasive (VNI)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td>2017-07-07T10:00:00+01:00</td>
 <td>2017-07-07T10:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -1143,9 +920,6 @@
 <td>Ventilat non invasive à pression positive continue</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-04-08T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td>Ventilation non invasive (VNI) à pression positive continue (CPAP)</td></tr>
@@ -1153,9 +927,6 @@
 <td>PEA et vestibulaires sous anesthésie générale</td>
 <td></td>
 <td>Déprécié</td>
-<td>2015-06-03T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td>Potentiels évoqués auditifs (PEA) et vestibulaires sous anesthésie générale</td></tr>
@@ -1163,9 +934,6 @@
 <td>Générateur d'hémodialyse</td>
 <td></td>
 <td>Déprécié</td>
-<td>2016-09-01T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -1173,9 +941,6 @@
 <td>Echocardiographe 3D</td>
 <td></td>
 <td>Déprécié</td>
-<td>2016-09-01T00:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -1183,18 +948,12 @@
 <td>Unité fixe de décontamination</td>
 <td></td>
 <td>Déprécié</td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">083<a name="TRE-R212-Equipement-083"> </a></td>
 <td>Table de radiologie interventionnelle obésité (poids entre 150 et 250 kg) – bariatrique</td>
 <td></td>
-<td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2024-12-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1203,18 +962,12 @@
 <td>Table de radiologie obésité (poids &gt; 250 kg) - bariatrique</td>
 <td></td>
 <td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2024-12-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td>Table de radiologie obésité (poids supérieur à 250 kg) - bariatrique</td></tr>
 <tr><td style="white-space:nowrap">085<a name="TRE-R212-Equipement-085"> </a></td>
 <td>Scanner (TDM) obésité diamètre de 80 cm - bariatrique</td>
 <td></td>
-<td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1223,18 +976,12 @@
 <td>Scanner (TDM) obésité champ ouvert - bariatrique</td>
 <td></td>
 <td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">087<a name="TRE-R212-Equipement-087"> </a></td>
 <td>IRM à champ ouvert</td>
 <td></td>
-<td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1243,18 +990,12 @@
 <td>Table de bloc opératoire obésité (poids entre 150 et 250 kg) - bariatrique</td>
 <td></td>
 <td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">089<a name="TRE-R212-Equipement-089"> </a></td>
 <td>Lit d'hospitalisation obésité (poids entre 250 et 350 kg) - bariatrique</td>
 <td></td>
-<td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1263,18 +1004,12 @@
 <td>Lit d'hospitalisation obésité (poids entre 350 et 450 kg) - bariatrique</td>
 <td></td>
 <td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">091<a name="TRE-R212-Equipement-091"> </a></td>
 <td>Brancard obésité (poids entre 180 et 250 kg) - bariatrique</td>
 <td></td>
-<td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1283,18 +1018,12 @@
 <td>Brancard obésité (poids entre 250 et 350 kg) - bariatrique</td>
 <td></td>
 <td></td>
-<td>2016-11-02T00:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">093<a name="TRE-R212-Equipement-093"> </a></td>
 <td>ECMO transportable</td>
 <td></td>
-<td></td>
-<td>2016-12-22T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1303,18 +1032,12 @@
 <td>Mammographe</td>
 <td></td>
 <td></td>
-<td>2017-03-22T12:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">095<a name="TRE-R212-Equipement-095"> </a></td>
 <td>Laboratoire microbiologie P3</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1323,18 +1046,12 @@
 <td>Laboratoire microbiologie P4</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">097<a name="TRE-R212-Equipement-097"> </a></td>
 <td>Chambre d'isolement et de contention</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1343,18 +1060,12 @@
 <td>Bassin thérapeutique pour balnéothérapie (&lt;25m2)</td>
 <td>Ensemble de soins reposant sur l'immersion du corps ou d'une partie du corps dans un bassin d'eau (inférieur à 25 m²) à des fins thérapeutiques</td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2024-04-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">099<a name="TRE-R212-Equipement-099"> </a></td>
 <td>Bassin thérapeutique pour balnéothérapie (&gt;=25m2)</td>
 <td>Plateau technique spécialisé constitué par un bassin permettant l'immersion du corps ou d'une partie du corps dans un bassin d'eau (supérieur à 25 m²) à des fins thérapeutiques, équipé de dispositifs de levage et de rampes d'accès au bassin</td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2024-04-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1363,18 +1074,12 @@
 <td>Salle aménagée pour la thérapie systémique</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">101<a name="TRE-R212-Equipement-101"> </a></td>
 <td>Salle de stimulation multi-sensorielle</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1383,18 +1088,12 @@
 <td>Appareil d'isocinétisme</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">103<a name="TRE-R212-Equipement-103"> </a></td>
 <td>Assistance robotisée à la marche</td>
 <td>Exosquelette d'aide à la marche</td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2025-04-25T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1403,9 +1102,6 @@
 <td>Assistance robotisée des membres supérieurs et de la préhension</td>
 <td>Dispositif d’assistance robotisée des membres supérieurs avec motorisation qui permet l’action avec enregistrement du mouvement en temps réel et rétroaction adaptée</td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2025-04-25T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -1413,18 +1109,12 @@
 <td>Atelier d'appareillage</td>
 <td></td>
 <td>Déprécié</td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2018-12-14T12:00:00+01:00</td>
-<td>2018-12-14T12:00:00+01:00</td>
 <td>2018-12-14T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">106<a name="TRE-R212-Equipement-106"> </a></td>
 <td>Laboratoire d'analyse tridimensionnelle du mouvement, de la marche</td>
 <td>Systèmes combinés à haute valeur technologique permettant une analyse quantifiée, combinée et synchronisée du mouvement du membre inférieur intégrant une analyse cinétique en trois dimensions, une analyse cinématique tridimensionnelle, une analyse électromyographique dynamique et une analyse vidéo</td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2025-03-28T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1433,9 +1123,6 @@
 <td>Salle réa avec scopes, défibrillateur, matériel d'intub et ventil assistée</td>
 <td></td>
 <td>Déprécié</td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
 <td>2024-06-28T12:00:00+01:00</td>
 <td>deprecated</td>
 <td>Salle de réanimation avec scopes, défibrillateur, matériel d'intubation et de ventilation assistée</td></tr>
@@ -1443,18 +1130,12 @@
 <td>Hotte à flux laminaire</td>
 <td></td>
 <td>Déprécié</td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
 <td>2024-06-28T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">109<a name="TRE-R212-Equipement-109"> </a></td>
 <td>Equipement de réadaptation obésité – bariatrique</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2025-03-28T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1463,18 +1144,12 @@
 <td>Studio pré-greffe et post-greffe</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">111<a name="TRE-R212-Equipement-111"> </a></td>
 <td>Douche filiforme pour brûlés</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1483,18 +1158,12 @@
 <td>Equipement pour monitorage par télémétrie</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">113<a name="TRE-R212-Equipement-113"> </a></td>
 <td>Prises d'oxygène en salle de rééducation</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1503,18 +1172,12 @@
 <td>Locaux adaptés à la désorientation temporo-spatiale</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">115<a name="TRE-R212-Equipement-115"> </a></td>
 <td>Prises d'oxygène dans les chambres</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1523,9 +1186,6 @@
 <td>Appartement pour mise en situation d'autonomie</td>
 <td>Structure disposant d'appartements qui permettent de tester les capacités d'autonomie d'une personne en situation de dépendance.</td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2024-10-25T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -1533,18 +1193,12 @@
 <td>Echographe cardiaque</td>
 <td></td>
 <td>Déprécié</td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td>2018-01-26T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">118<a name="TRE-R212-Equipement-118"> </a></td>
 <td>Monitoring cardiaque portatif</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2018-10-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1553,18 +1207,12 @@
 <td>Plateau technique neuropsycho cognitif</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2018-06-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">120<a name="TRE-R212-Equipement-120"> </a></td>
 <td>Simulateur de conduite automobile</td>
 <td>Dispositif combinant l’évaluation et la réadaptation des capacités visuelles, sensori-motrices, cognitives et comportementales pour préparer le retour à la conduite automobile avec couverture du champ visuel à 180° pour une immersion réaliste et une simulation du poste de conduite</td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2025-03-28T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1573,18 +1221,12 @@
 <td>Véhicules adaptés à la conduite en situation de handicap</td>
 <td>Véhicule adapté par un intervenant spécialisé pour permettre une utilisation par une personne en situation de handicap : structure de l’habitacle, poste de conduite, pédalier…</td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2025-03-28T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">122<a name="TRE-R212-Equipement-122"> </a></td>
 <td>Mur d'escalade</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1593,18 +1235,12 @@
 <td>Chambre domotisée</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2018-05-31T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">124<a name="TRE-R212-Equipement-124"> </a></td>
 <td>Atelier de confection de prothèses</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1613,18 +1249,12 @@
 <td>Gymnase</td>
 <td>Espace intérieur spécialement conçu pour la pratique de sports et d'activités physiques, notamment en groupe</td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2024-09-27T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">126<a name="TRE-R212-Equipement-126"> </a></td>
 <td>Cuisine thérapeutique et éducative</td>
 <td>Cuisine ayant les meubles de différentes tailles ou à niveau variable, adaptés aux déficiences et incapacités des patients</td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2024-10-25T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1633,18 +1263,12 @@
 <td>Système de traction halo-crânienne</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">128<a name="TRE-R212-Equipement-128"> </a></td>
 <td>Plateforme multitest équilibre</td>
 <td>Plateforme de posturographie statique et dynamique informatisée</td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2024-09-27T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1653,18 +1277,12 @@
 <td>Plateau d'analyse informatisée du rachis</td>
 <td></td>
 <td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">130<a name="TRE-R212-Equipement-130"> </a></td>
 <td>Chambre et locaux sécurisés permettant la PEC des personnes à risque suicidaire</td>
 <td></td>
-<td></td>
-<td>2017-07-07T10:00:00+01:00</td>
-<td>2017-10-13T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1673,18 +1291,12 @@
 <td>Module fixe de décontamination</td>
 <td></td>
 <td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">132<a name="TRE-R212-Equipement-132"> </a></td>
 <td>Module transportable de décontamination</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1693,18 +1305,12 @@
 <td>Planche à masser cardiaque automatique</td>
 <td></td>
 <td>Déprécié</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td>2018-03-30T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">134<a name="TRE-R212-Equipement-134"> </a></td>
 <td>Appareil de biologie délocalisé</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1713,18 +1319,12 @@
 <td>Incubateur de transport</td>
 <td></td>
 <td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">136<a name="TRE-R212-Equipement-136"> </a></td>
 <td>Respirateur néonatal et pédiatrique de transport</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1733,18 +1333,12 @@
 <td>Chambre carcérale</td>
 <td></td>
 <td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">138<a name="TRE-R212-Equipement-138"> </a></td>
 <td>PSM1 (Poste Sanitaire Mobile niveau 1)</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1753,18 +1347,12 @@
 <td>PSM2 (Poste Sanitaire Mobile niveau 2)</td>
 <td></td>
 <td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">140<a name="TRE-R212-Equipement-140"> </a></td>
 <td>PSM3 (Poste Sanitaire Mobile niveau 3)</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1773,18 +1361,12 @@
 <td>Poste médical avancé (PMA)</td>
 <td></td>
 <td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">142<a name="TRE-R212-Equipement-142"> </a></td>
 <td>Appareil de mesure de la glycémie capillaire</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1793,18 +1375,12 @@
 <td>Oxymètre de pouls (SpO2)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2022-04-29T12:00:00+01:00</td>
-<td>2022-04-29T12:00:00+01:00</td>
 <td>2022-04-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">144<a name="TRE-R212-Equipement-144"> </a></td>
 <td>Système EOS</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1813,9 +1389,6 @@
 <td>Salle physiologique (salle nature accouchement)</td>
 <td></td>
 <td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -1823,18 +1396,12 @@
 <td>Cabine d'audiologie</td>
 <td></td>
 <td>Déprécié</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
 <td>2024-06-28T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">147<a name="TRE-R212-Equipement-147"> </a></td>
 <td>Espace de calme-retrait, apaisement</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1843,18 +1410,12 @@
 <td>Jardin pédagogique et-ou thérapeutique</td>
 <td>Courbe débit volume (CDV)</td>
 <td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">149<a name="TRE-R212-Equipement-149"> </a></td>
 <td>Ferme pédagogique et-ou thérapeutique</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1863,9 +1424,6 @@
 <td>Plateau ou salle de rééducation</td>
 <td></td>
 <td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2019-07-05T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -1873,18 +1431,12 @@
 <td>Salle d'activité physique adaptée</td>
 <td></td>
 <td>Déprécié</td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td>2019-03-29T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">152<a name="TRE-R212-Equipement-152"> </a></td>
 <td>Equipement de géolocalisation des personnes vulnérables</td>
 <td></td>
-<td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2018-01-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1893,18 +1445,12 @@
 <td>Equipement de télémédecine (chariot, cabine, équipement mobile…)</td>
 <td></td>
 <td></td>
-<td>2018-01-26T12:00:00+01:00</td>
-<td>2023-06-30T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">154<a name="TRE-R212-Equipement-154"> </a></td>
 <td>Chambre à double flux</td>
 <td></td>
-<td></td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1913,9 +1459,6 @@
 <td>Rails de transfert</td>
 <td></td>
 <td></td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -1923,18 +1466,12 @@
 <td>Moniteur multiparamétrique</td>
 <td></td>
 <td>Déprécié</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
 <td>2024-06-28T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">157<a name="TRE-R212-Equipement-157"> </a></td>
 <td>Systèmes corporels d'alerte sans fil</td>
 <td></td>
-<td></td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1943,18 +1480,12 @@
 <td>Fauteuil rotatoire</td>
 <td></td>
 <td></td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">159<a name="TRE-R212-Equipement-159"> </a></td>
 <td>Plateforme verticale subjective</td>
 <td></td>
-<td></td>
-<td>2018-03-30T12:00:00+01:00</td>
-<td>2018-03-30T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1963,18 +1494,12 @@
 <td>Appartement domotisé pour mise en situation d'autonomie</td>
 <td></td>
 <td></td>
-<td>2018-05-31T12:00:00+01:00</td>
-<td>2018-05-31T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">161<a name="TRE-R212-Equipement-161"> </a></td>
 <td>Caisson hyperbare occupation simple</td>
 <td></td>
-<td></td>
-<td>2018-06-29T12:00:00+01:00</td>
-<td>2018-06-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -1983,18 +1508,12 @@
 <td>Caisson hyperbare occupation multiple patient intubé</td>
 <td></td>
 <td></td>
-<td>2018-06-29T12:00:00+01:00</td>
-<td>2018-06-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">163<a name="TRE-R212-Equipement-163"> </a></td>
 <td>Caisson hyperbare occupation multiple patient non intubé</td>
 <td></td>
-<td></td>
-<td>2018-06-29T12:00:00+01:00</td>
-<td>2018-06-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2003,18 +1522,12 @@
 <td>Cabine de cryothérapie</td>
 <td></td>
 <td></td>
-<td>2018-06-29T12:00:00+01:00</td>
-<td>2018-06-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">165<a name="TRE-R212-Equipement-165"> </a></td>
 <td>PCA ou autre injecteur automatique d'antalgiques</td>
 <td></td>
-<td></td>
-<td>2018-06-29T12:00:00+01:00</td>
-<td>2018-06-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2023,18 +1536,12 @@
 <td>PCR multiplex (Film array)</td>
 <td></td>
 <td></td>
-<td>2018-12-14T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">167<a name="TRE-R212-Equipement-167"> </a></td>
 <td>Séquenceurs haut débit (NGS)</td>
 <td></td>
-<td></td>
-<td>2018-12-14T12:00:00+01:00</td>
-<td>2018-12-14T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2043,18 +1550,12 @@
 <td>Cytomètre de flux</td>
 <td></td>
 <td></td>
-<td>2018-12-14T12:00:00+01:00</td>
-<td>2018-12-14T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">169<a name="TRE-R212-Equipement-169"> </a></td>
 <td>Atelier de confection d'orthèse</td>
 <td></td>
-<td></td>
-<td>2018-12-14T12:00:00+01:00</td>
-<td>2018-12-14T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2063,9 +1564,6 @@
 <td>Atelier de confection aide technique</td>
 <td></td>
 <td></td>
-<td>2018-12-14T12:00:00+01:00</td>
-<td>2018-12-14T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
@@ -2073,9 +1571,6 @@
 <td>Séquençage du génome viral</td>
 <td></td>
 <td>Déprécié</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-07-05T12:00:00+01:00</td>
-<td>2019-07-05T12:00:00+01:00</td>
 <td>2019-07-05T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
@@ -2083,18 +1578,12 @@
 <td>Analyse automatique du sperme (CASA)</td>
 <td></td>
 <td>Déprécié</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-07-05T12:00:00+01:00</td>
-<td>2019-07-05T12:00:00+01:00</td>
 <td>2019-07-05T12:00:00+01:00</td>
 <td>deprecated</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">173<a name="TRE-R212-Equipement-173"> </a></td>
 <td>Polymorphisme mononucléotidique</td>
 <td>Equipement qui permet d'identifier une différence génétique entre individus d’une même population qui se traduit par la variation d’une seule base (nucléotide) dans une séquence d’ADN, l’allèle minoritaire ayant une fréquence d’au moins 1 %. Ce type de variation, appelé aussi SNP (single nucleotide polymorphism), est très courant dans le génome humain et constitue une des principales sources de diversité individuelle. (Description scientifique de la nature et de la fréquence des SNP)</td>
-<td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2025-09-18T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2103,18 +1592,12 @@
 <td>Hybridation génomique comparative (HGC)</td>
 <td>Technique de cytogénétique moléculaire qui permet de repérer les variations du nombre de copies d’ADN (comme les duplications ou délétions) en comparant l’ADN d’un échantillon à un ADN de référence par marquage fluorescent. Cette méthode, utilisée en diagnostic notamment oncologique ou pour des anomalies constitutionnelles, offre une résolution plus fine qu’un caryotype classique.</td>
 <td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2025-09-18T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">175<a name="TRE-R212-Equipement-175"> </a></td>
 <td>Spectromètre de masse haute résolution</td>
 <td></td>
-<td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2123,18 +1606,12 @@
 <td>Chromatographe haute performance en phase liquide</td>
 <td></td>
 <td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">177<a name="TRE-R212-Equipement-177"> </a></td>
 <td>Chromatographe en phase gazeuse</td>
 <td></td>
-<td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2143,18 +1620,12 @@
 <td>Agrégomètre optique</td>
 <td></td>
 <td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">179<a name="TRE-R212-Equipement-179"> </a></td>
 <td>Véhicules adaptés au transport de personnes à mobilité réduite</td>
 <td></td>
-<td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2163,18 +1634,12 @@
 <td>Pupillomètre</td>
 <td></td>
 <td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">181<a name="TRE-R212-Equipement-181"> </a></td>
 <td>Accélérateur réchauffeur de sang</td>
 <td></td>
-<td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2183,18 +1648,12 @@
 <td>Défibrillateur automatisé externe (DAE)</td>
 <td></td>
 <td></td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td>2019-03-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">183<a name="TRE-R212-Equipement-183"> </a></td>
 <td>Equipement d'oxygénothérapie de déambulation</td>
 <td></td>
-<td></td>
-<td>2019-07-05T12:00:00+01:00</td>
-<td>2019-07-05T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2203,18 +1662,12 @@
 <td>Dispositif de réadaptation à la marche par allègement du poids du corps</td>
 <td></td>
 <td></td>
-<td>2019-07-05T12:00:00+01:00</td>
-<td>2022-06-24T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td>Dispositif de réadaptation à la marche par allègement du poids du corps (anti-gravité)</td></tr>
 <tr><td style="white-space:nowrap">185<a name="TRE-R212-Equipement-185"> </a></td>
 <td>PSM pédiatriques (Poste Sanitaire Mobile)</td>
 <td></td>
-<td></td>
-<td>2019-07-05T12:00:00+01:00</td>
-<td>2019-07-05T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2223,18 +1676,12 @@
 <td>Lit fluidisé</td>
 <td></td>
 <td></td>
-<td>2019-07-05T12:00:00+01:00</td>
-<td>2019-07-05T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">187<a name="TRE-R212-Equipement-187"> </a></td>
 <td>Table réfrigérée</td>
 <td></td>
-<td></td>
-<td>2019-10-25T12:00:00+01:00</td>
-<td>2019-10-25T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2243,18 +1690,12 @@
 <td>Case réfrigérée</td>
 <td></td>
 <td></td>
-<td>2019-10-25T12:00:00+01:00</td>
-<td>2019-10-25T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">189<a name="TRE-R212-Equipement-189"> </a></td>
 <td>Table de coronarographie obésité (poids entre 150 et 250 kg) - bariatrique</td>
 <td></td>
-<td></td>
-<td>2020-01-31T12:00:00+01:00</td>
-<td>2020-01-31T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2263,18 +1704,12 @@
 <td>Table de coronarographie obésité (poids entre 250 et 350 kg) - bariatrique</td>
 <td></td>
 <td></td>
-<td>2020-01-31T12:00:00+01:00</td>
-<td>2020-01-31T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">191<a name="TRE-R212-Equipement-191"> </a></td>
 <td>Table de coronarographie obésité (poids entre 350 et 450 kg) - bariatrique</td>
 <td></td>
-<td></td>
-<td>2020-01-31T12:00:00+01:00</td>
-<td>2020-01-31T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2283,18 +1718,12 @@
 <td>Arthromoteurs (genoux, épaules, coudes)</td>
 <td>Attelles motorisées de mobilisation passive continue</td>
 <td></td>
-<td>2020-01-31T12:00:00+01:00</td>
-<td>2022-10-28T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">193<a name="TRE-R212-Equipement-193"> </a></td>
 <td>Appareils de renforcement musculaire</td>
 <td></td>
-<td></td>
-<td>2020-01-31T12:00:00+01:00</td>
-<td>2020-01-31T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2303,18 +1732,12 @@
 <td>Appareil d'ondes de choc pour traitement non invasif</td>
 <td></td>
 <td></td>
-<td>2020-01-31T12:00:00+01:00</td>
-<td>2020-01-31T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">195<a name="TRE-R212-Equipement-195"> </a></td>
 <td>Appareil de massage par vacuo-aspiration</td>
 <td></td>
-<td></td>
-<td>2020-01-31T12:00:00+01:00</td>
-<td>2020-01-31T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2323,18 +1746,12 @@
 <td>Absorptiomètre obésité 70-80 cm (densitomètre bariatrique)</td>
 <td></td>
 <td></td>
-<td>2020-06-26T12:00:00+01:00</td>
-<td>2020-06-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">197<a name="TRE-R212-Equipement-197"> </a></td>
 <td>Fauteuil obésité (poids entre 250 et 350 kg) bariatrique</td>
 <td></td>
-<td></td>
-<td>2020-06-26T12:00:00+01:00</td>
-<td>2020-06-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2343,18 +1760,12 @@
 <td>Holter tensionnel bariatrique</td>
 <td></td>
 <td></td>
-<td>2020-06-26T12:00:00+01:00</td>
-<td>2020-06-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">199<a name="TRE-R212-Equipement-199"> </a></td>
 <td>Appareil d'imagerie volumétrique par faisceau conique (CBCT)</td>
 <td>Reconstruction volumique (« Cone Beam »)</td>
-<td></td>
-<td>2021-10-29T12:00:00+01:00</td>
-<td>2021-10-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2363,18 +1774,12 @@
 <td>Fauteuil dentaire adapté au handicap moteur</td>
 <td>Fauteuil permettant à un handicapé moteur de s'installer afin de bénéficier de soins dentaires</td>
 <td></td>
-<td>2021-10-29T12:00:00+01:00</td>
-<td>2021-10-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">201<a name="TRE-R212-Equipement-201"> </a></td>
 <td>Laser rétinien</td>
 <td>Laser qui émet une lumière de longueur d'onde spécifique qui a un effet de photocoagulation</td>
-<td></td>
-<td>2022-04-29T12:00:00+01:00</td>
-<td>2022-04-29T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2383,18 +1788,12 @@
 <td>Laser Yag ophtalmologique</td>
 <td>Laser qui émet une lumière de longueur d'onde spécifique, dont l'effet photodisruptif va permettre la découpe de tissus essentiellement dans le segment antérieur de l'oeil (capsulotomie, iridotomie)</td>
 <td></td>
-<td>2022-04-29T12:00:00+01:00</td>
-<td>2022-04-29T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">203<a name="TRE-R212-Equipement-203"> </a></td>
 <td>Atelier intégré d'appareillage</td>
 <td>Atelier dédié qui permet la réalisation personnalisée de prothèses et d'orthèses rééducation complexe</td>
-<td></td>
-<td>2022-06-24T12:00:00+01:00</td>
-<td>2022-10-28T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2403,18 +1802,12 @@
 <td>Imagerie par fluorescence</td>
 <td></td>
 <td></td>
-<td>2022-10-28T12:00:00+01:00</td>
-<td>2022-10-28T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">205<a name="TRE-R212-Equipement-205"> </a></td>
 <td>Ultrason de haute intensité (HIFU)</td>
 <td></td>
-<td></td>
-<td>2022-10-28T12:00:00+01:00</td>
-<td>2022-10-28T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2423,18 +1816,12 @@
 <td>Dispositif mobile de traitement d'air</td>
 <td></td>
 <td></td>
-<td>2022-10-28T12:00:00+01:00</td>
-<td>2022-10-28T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">207<a name="TRE-R212-Equipement-207"> </a></td>
 <td>Défibrillateur semi-automatique</td>
 <td></td>
-<td></td>
-<td>2022-10-28T12:00:00+01:00</td>
-<td>2022-10-28T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2443,18 +1830,12 @@
 <td>Equipement de téléradiographie</td>
 <td></td>
 <td></td>
-<td>2023-05-26T12:00:00+01:00</td>
-<td>2023-05-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">209<a name="TRE-R212-Equipement-209"> </a></td>
 <td>Arthromoteurs membres inférieurs (genoux)</td>
 <td></td>
-<td></td>
-<td>2023-06-30T12:00:00+01:00</td>
-<td>2023-06-30T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2463,18 +1844,12 @@
 <td>Arthromoteurs membres supérieurs (épaules, coudes)</td>
 <td></td>
 <td></td>
-<td>2023-06-30T12:00:00+01:00</td>
-<td>2023-06-30T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">211<a name="TRE-R212-Equipement-211"> </a></td>
 <td>Salle hybride</td>
 <td></td>
-<td></td>
-<td>2024-04-26T12:00:00+01:00</td>
-<td>2024-04-26T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2483,18 +1858,12 @@
 <td>Vidéo assistance</td>
 <td></td>
 <td></td>
-<td>2024-04-26T12:00:00+01:00</td>
-<td>2024-04-26T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">213<a name="TRE-R212-Equipement-213"> </a></td>
 <td>Dermatoscope connecté</td>
 <td></td>
-<td></td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2503,18 +1872,12 @@
 <td>Débitmètre de pointe adulte / enfant (peakflow)</td>
 <td></td>
 <td></td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">215<a name="TRE-R212-Equipement-215"> </a></td>
 <td>Otoscope connecté</td>
 <td></td>
-<td></td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2523,18 +1886,12 @@
 <td>Stéthoscope connecté</td>
 <td></td>
 <td></td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td>2024-06-28T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">217<a name="TRE-R212-Equipement-217"> </a></td>
 <td>Appareil de pressothérapie</td>
 <td></td>
-<td></td>
-<td>2024-09-27T12:00:00+01:00</td>
-<td>2024-09-27T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2543,18 +1900,12 @@
 <td>Dispositif d'électrostimulation fonctionnelle</td>
 <td></td>
 <td></td>
-<td>2024-09-27T12:00:00+01:00</td>
-<td>2024-09-27T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">219<a name="TRE-R212-Equipement-219"> </a></td>
 <td>Parcours de marche</td>
 <td></td>
-<td></td>
-<td>2024-09-27T12:00:00+01:00</td>
-<td>2024-09-27T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2563,18 +1914,12 @@
 <td>ECG portable</td>
 <td></td>
 <td></td>
-<td>2024-09-27T12:00:00+01:00</td>
-<td>2024-09-27T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">221<a name="TRE-R212-Equipement-221"> </a></td>
 <td>IRM obésité – bariatrique</td>
 <td></td>
-<td></td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td>2025-01-31T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2583,18 +1928,12 @@
 <td>Scanner (TDM) obésité – bariatrique</td>
 <td></td>
 <td></td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">223<a name="TRE-R212-Equipement-223"> </a></td>
 <td>Table d’accouchement obésité – bariatrique</td>
 <td></td>
-<td></td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td>2025-01-31T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2603,18 +1942,12 @@
 <td>Table de coronarographie obésité – bariatrique</td>
 <td></td>
 <td></td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">225<a name="TRE-R212-Equipement-225"> </a></td>
 <td>Chambre adaptée obésité – bariatrique</td>
 <td></td>
-<td></td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td>2025-01-31T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2623,18 +1956,12 @@
 <td>Table de radiologie interventionnelle obésité – bariatrique</td>
 <td></td>
 <td></td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">227<a name="TRE-R212-Equipement-227"> </a></td>
 <td>Table de bloc opératoire obésité – bariatrique</td>
 <td></td>
-<td></td>
-<td>2025-01-31T12:00:00+01:00</td>
-<td>2025-01-31T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2643,18 +1970,12 @@
 <td>Plateau de rééducation intensive des membres inférieurs</td>
 <td>Dispositif d’assistance robotisée de la marche : dispositif de type robot de marche ou exosquelette équipé de moteurs aux articulations des membres inférieurs permettant de recréer un mouvement de marche</td>
 <td></td>
-<td>2025-03-28T12:00:00+01:00</td>
-<td>2025-03-28T12:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td></td></tr>
 <tr><td style="white-space:nowrap">229<a name="TRE-R212-Equipement-229"> </a></td>
 <td>Douche accessible aux personnes en fauteuil roulant</td>
 <td></td>
-<td></td>
-<td>2025-04-25T12:00:00+01:00</td>
-<td>2025-04-25T12:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2663,18 +1984,12 @@
 <td>Imagerie par Résonance Magnétique</td>
 <td></td>
 <td></td>
-<td>2025-07-17T00:00:00+01:00</td>
-<td>2025-07-17T00:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td>IRM</td></tr>
 <tr><td style="white-space:nowrap">231<a name="TRE-R212-Equipement-231"> </a></td>
 <td>Scanner</td>
 <td></td>
-<td></td>
-<td>2025-07-17T00:00:00+01:00</td>
-<td>2025-07-17T00:00:00+01:00</td>
 <td></td>
 <td></td>
 <td>active</td>
@@ -2683,9 +1998,6 @@
 <td>Tomographie par Émission Monophotonique</td>
 <td></td>
 <td></td>
-<td>2025-07-17T00:00:00+01:00</td>
-<td>2025-07-17T00:00:00+01:00</td>
-<td></td>
 <td></td>
 <td>active</td>
 <td>TEMP</td></tr>
@@ -2693,15 +2005,26 @@
 <td>Tomographie par Émission de Positons</td>
 <td></td>
 <td></td>
-<td>2025-07-17T00:00:00+01:00</td>
-<td>2025-07-17T00:00:00+01:00</td>
+<td></td>
+<td>active</td>
+<td>TEP</td></tr>
+<tr><td style="white-space:nowrap">234<a name="TRE-R212-Equipement-234"> </a></td>
+<td>Espace de consommation de drogues injectables</td>
+<td></td>
 <td></td>
 <td></td>
 <td>active</td>
-<td>TEP</td></tr></table></div>
+<td></td></tr>
+<tr><td style="white-space:nowrap">235<a name="TRE-R212-Equipement-235"> </a></td>
+<td>Espace de consommation de drogues à fumer</td>
+<td></td>
+<td></td>
+<td></td>
+<td>active</td>
+<td></td></tr></table></div>
 
-  
-
+    
+  </div>  
   <!-- insert notes if present -->
   
 
@@ -2747,7 +2070,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 3, 2025 13:53+0000">2025-11-03</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 19, 2025 16:19+0000">2025-12-19</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

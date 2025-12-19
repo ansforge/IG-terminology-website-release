@@ -1,26 +1,26 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
-1.2.250.1.213.1.1.5.598;JDV;JdvRcpOrganeCisis.tabs;JDV RCP Organe CISIS;;20210419000000;;20250624152101
+1.2.250.1.213.1.1.5.598;JDV;JdvRcpOrganeCisis.tabs;JDV RCP Organe CISIS;;20210419000000;;20251216141840
 <OID>;<Code>;<Libellé>
-2.16.840.1.113883.6.3;C88;Maladies immunoprolifératives malignes
-2.16.840.1.113883.3.26.1.1;C3211;lymphome non hodgkinien
-2.16.840.1.113883.3.26.1.1;C9357;Lymphome de Hodgkin
-2.16.840.1.113883.3.26.1.1;C3483;leucémie chronique
-2.16.840.1.113883.3.26.1.1;C3163;Leucémie lymphocytique chronique
-2.16.840.1.113883.3.26.1.1;C3167;Leucémie lymphoblastique aiguë
-2.16.840.1.113883.3.26.1.1;C3172;Leucémie myéloïde
-2.16.840.1.113883.3.26.1.1;C3171;leucémie myéloïde aiguë
-2.16.840.1.113883.3.26.1.1;C3174;leucémie myéloïde chronique BCR-ABL positive
-2.16.840.1.113883.3.26.1.1;C4861;leucémie monocytaire aiguë
-2.16.840.1.113883.3.26.1.1;C9300;leucémie aiguë
-2.16.840.1.113883.3.26.1.1;C27262;maladies myélodysplasiques-myéloprolifératives
-2.16.840.1.113883.3.26.1.1;C3242;myélome à cellules plasmatiques
-2.16.840.1.113883.3.26.1.1;C94529;Vulve et vagin
-2.16.840.1.113883.3.26.1.1;C12664;Péritoine-rétropéritoine
+http://hl7.org/fhir/sid/icd-10;C88;Maladies immunoprolifératives malignes
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C3211;lymphome non hodgkinien
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C9357;Lymphome de Hodgkin
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C3483;leucémie chronique
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C3163;Leucémie lymphocytique chronique
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C3167;Leucémie lymphoblastique aiguë
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C3172;Leucémie myéloïde
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C3171;leucémie myéloïde aiguë
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C3174;leucémie myéloïde chronique BCR-ABL positive
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C4861;leucémie monocytaire aiguë
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C9300;leucémie aiguë
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C27262;maladies myélodysplasiques-myéloprolifératives
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C3242;myélome à cellules plasmatiques
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C94529;région vulvo-vaginale
+http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl;C12664;Péritoine-rétropéritoine
 1.2.250.1.213.1.1.4.322;MED-237;Fosses nasales, sinus, oreille moy/int
 1.2.250.1.213.1.1.4.322;MED-251;Colon-Rectum-Anus
 1.2.250.1.213.1.1.4.322;MED-255;Trachée, Bronches, Poumon
-2.16.840.1.113883.6.96;57171008;structure du système hématopoïétique
-2.16.840.1.113883.6.96;119253004;voie aérodigestive supérieure
+2.16.840.1.113883.6.96;57171008;système hématopoïétique
+2.16.840.1.113883.6.96;119253004;voies aérodigestives supérieures
 2.16.840.1.113883.6.96;303270005;foie et/ou voies biliaires
 2.16.840.1.113883.6.96;39937001;peau
 2.16.840.1.113883.6.96;76752008;sein
@@ -31,7 +31,7 @@
 2.16.840.1.113883.6.96;3120008;plèvre
 2.16.840.1.113883.6.96;86762007;système digestif
 2.16.840.1.113883.6.96;74262004;cavité orale
-2.16.840.1.113883.6.96;48477009;lèvre de la bouche
+2.16.840.1.113883.6.96;48477009;lèvre
 2.16.840.1.113883.6.96;21974007;langue
 2.16.840.1.113883.6.96;54066008;pharynx
 2.16.840.1.113883.6.96;32849002;œsophage
@@ -53,8 +53,8 @@
 2.16.840.1.113883.6.96;40689003;testicule
 2.16.840.1.113883.6.96;21483005;système nerveux central
 2.16.840.1.113883.6.96;84782009;nerf périphérique
-2.16.840.1.113883.6.96;1290040004;œil entier
+2.16.840.1.113883.6.96;81745001;œil
 2.16.840.1.113883.6.96;387910009;glande endocrine
-2.16.840.1.113883.6.96;23451007;glande surrénale
-2.16.840.1.113883.6.96;69748006;glande thyroïde
+2.16.840.1.113883.6.96;23451007;glande suprarénale
+2.16.840.1.113883.6.96;69748006;thyroïde
 2.16.840.1.113883.6.96;72410000;médiastin

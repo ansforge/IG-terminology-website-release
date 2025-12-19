@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251017120000"
+             dateMaj="20251222120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -42,7 +42,7 @@
                   displayName="Cardiologie interventionnelle"/>
          <Concept code="015"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Centre antipoison et de toxicovigilance (CAPTV)"/>
+                  displayName="Conseil antipoison et toxicovigilance"/>
          <Concept code="016"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Chirurgie cervico-faciale et Oto-rhino-laryngologie (ORL)"/>
@@ -175,6 +175,9 @@
          <Concept code="082"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Médecine du travail (pathologie professionnelle)"/>
+         <Concept code="083"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Médecine polyvalente"/>
          <Concept code="084"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Médecine hyperbare"/>
@@ -1558,6 +1561,21 @@
          <Concept code="597"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Evaluation de la mémoire (bilan mémoire)"/>
+         <Concept code="598"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Toxicologie clinique"/>
+         <Concept code="599"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Analyse toxicologique"/>
+         <Concept code="600"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Prise en charge des malaises et surdoses liés à la prise de drogues"/>
+         <Concept code="601"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Médiation pour le maintien en hospitalisation"/>
+         <Concept code="603"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Prise en charge coordonnée des patients atteints de maladies neurodégénératives"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

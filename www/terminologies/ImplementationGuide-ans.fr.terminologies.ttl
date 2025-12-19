@@ -14,11 +14,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><a name=\"ans.fr.terminologies-fr-FR\"> </a><h2>Terminologies</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.4.0"] ; # 
+  fhir:version [ fhir:v "1.5.0"] ; # 
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2025-11-03T13:53:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-19T16:18:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -47,24 +47,24 @@
        ]
      ] ) ;
      fhir:uri [
-       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology|6.5.0"^^xsd:anyURI ;
-       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology|6.5.0>
+       fhir:v "http://terminology.hl7.org/ImplementationGuide/hl7.terminology|7.0.1"^^xsd:anyURI ;
+       fhir:link <http://terminology.hl7.org/ImplementationGuide/hl7.terminology|7.0.1>
      ] ;
      fhir:packageId [ fhir:v "hl7.terminology.r4" ] ;
-     fhir:version [ fhir:v "6.5.0" ]
+     fhir:version [ fhir:v "7.0.1" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_uv_ips" ] ;
      fhir:uri [
-       fhir:v "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips>
+       fhir:v "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips|1.1.0"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips|1.1.0>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.ips" ] ;
      fhir:version [ fhir:v "1.1.0" ]
   ] [
      fhir:id [ fhir:v "hl7_fhir_uv_extensions_r4" ] ;
      fhir:uri [
-       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions>
+       fhir:v "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions|5.2.0"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions|5.2.0>
      ] ;
      fhir:packageId [ fhir:v "hl7.fhir.uv.extensions.r4" ] ;
      fhir:version [ fhir:v "5.2.0" ]
@@ -141,7 +141,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "pin-multiples"
+           fhir:v "pin-all"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -472,6 +472,381 @@
          fhir:value [
            a fhir:string ;
            fhir:v "https://mos.esante.gouv.fr/NOS"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -996,7 +1371,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"
+           fhir:v "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -1312,6 +1687,21 @@
          fhir:value [
            a fhir:string ;
            fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -7552,6 +7942,21 @@
          fhir:value [
            a fhir:string ;
            fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -16527,7 +16932,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "pin-multiples"
+           fhir:v "pin-all"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -16858,6 +17263,381 @@
          fhir:value [
            a fhir:string ;
            fhir:v "https://mos.esante.gouv.fr/NOS"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -17382,7 +18162,7 @@
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
-           fhir:v "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"
+           fhir:v "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -17698,6 +18478,21 @@
          fhir:value [
            a fhir:string ;
            fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -23938,6 +24733,21 @@
          fhir:value [
            a fhir:string ;
            fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"
+         ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:code ;
+           fhir:v "special-url"
+         ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"
          ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
@@ -32842,6 +33652,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/actCode-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/actCode-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ActCodeSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -32896,6 +33724,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/ActMood-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/ActMood-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ActMoodSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -32932,6 +33778,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/ActPriority-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/ActPriority-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ActPrioritySupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -32941,6 +33805,24 @@
        ] ;
        fhir:name [ fhir:v "ActStatus" ] ;
        fhir:description [ fhir:v "ActStatus" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/ActStatus-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/ActStatus-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ActStatusSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -33057,6 +33939,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/AdministrativeGender-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/AdministrativeGender-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "AdministrativeGenderSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ConceptMap"
          ]
        ] ) ;
@@ -33082,6 +33982,23 @@
          fhir:reference [ fhir:v "ConceptMap/alignement-nuva-bdpm" ]
        ] ;
        fhir:name [ fhir:v "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ConceptMap"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/alignement-bdpm-cipucd> ;
+         fhir:reference [ fhir:v "ConceptMap/alignement-bdpm-cipucd" ]
+       ] ;
+       fhir:name [ fhir:v "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -33118,6 +34035,42 @@
        ] ;
        fhir:name [ fhir:v "AllergyIntolerance Clinical Status Codes" ] ;
        fhir:description [ fhir:v "AllergyIntolerance Clinical Status Codes" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/allergyintolerance-clinical-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/allergyintolerance-clinical-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "AllergyIntoleranceClinicalSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/allergy-intolerance-criticality-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/allergy-intolerance-criticality-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "AllergyIntoleranceCriticalitySupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -33775,6 +34728,42 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-clinical-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/condition-clinical-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ConditionClinicalSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/condition-ver-status-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/condition-ver-status-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ConditionVerStatusSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -33784,6 +34773,24 @@
        ] ;
        fhir:name [ fhir:v "Confidentiality" ] ;
        fhir:description [ fhir:v "Confidentiality" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/Confidentiality-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/Confidentiality-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "Confidentiality SupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -33829,6 +34836,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-sms> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-sms" ]
+       ] ;
+       fhir:name [ fhir:v "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments" ] ;
+       fhir:description [ fhir:v "Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -33838,6 +34863,24 @@
        ] ;
        fhir:name [ fhir:v "EmploymentStatusODH" ] ;
        fhir:description [ fhir:v "EmploymentStatusODH" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/employmentStatus-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/employmentStatus-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "EmploymentStatusSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -35596,6 +36639,24 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-etat-de-conscience-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-etat-de-conscience-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Etat De Conscience CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Etat De Conscience CISIS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-etat-naissance-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-etat-naissance-cisis" ]
        ] ;
@@ -36771,6 +37832,24 @@
        ] ;
        fhir:name [ fhir:v "Jdv J370 Type Contrat Sejour Ms" ] ;
        fhir:description [ fhir:v "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J383 Motif Cloture Exercice Professionnel Epars" ] ;
+       fhir:description [ fhir:v "Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -40497,6 +41576,24 @@
        ] ;
        fhir:name [ fhir:v "Jdv Tre R221 Modele Document Cda Non Structure All" ] ;
        fhir:description [ fhir:v "JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-trod-examen-cisis> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-trod-examen-cisis" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv Trod Examen CISIS" ] ;
+       fhir:description [ fhir:v "Jdv Trod Examen CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -45194,7 +46291,7 @@
          fhir:reference [ fhir:v "ValueSet/JDV-J281-StatutsRessourcesMS" ]
        ] ;
        fhir:name [ fhir:v "JDV_J281_StatutsRessourcesMS" ] ;
-       fhir:description [ fhir:v "Statut de l'évaluation et des événements" ] ;
+       fhir:description [ fhir:v "Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -46552,6 +47649,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/mediaType-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/mediaType-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "MediaTypeSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "NamingSystem"
          ]
        ] ) ;
@@ -46641,6 +47756,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationInterpretation-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/ObservationInterpretation-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ObservationInterpretationSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -46650,6 +47783,60 @@
        ] ;
        fhir:name [ fhir:v "ObservationMethod" ] ;
        fhir:description [ fhir:v "ObservationMethod" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationMethod-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/ObservationMethod-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ObservationMethodSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/ObservationValue-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ObservationValueSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/orderableDrugForm-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/orderableDrugForm-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "OrderableDrugFormSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -46677,6 +47864,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/ParticipationFunction-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/ParticipationFunction-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ParticipationFunctionSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -46686,6 +47891,24 @@
        ] ;
        fhir:name [ fhir:v "ParticipationType" ] ;
        fhir:description [ fhir:v "ParticipationType" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/ParticipationType-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/ParticipationType-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "ParticipationTypeSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -46766,6 +47989,42 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/RoleClass-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/RoleClass-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "RoleClassSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/RoleCode-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/RoleCode-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "RoleCodeSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "NamingSystem"
          ]
        ] ) ;
@@ -46823,8 +48082,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20251001> ;
-         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20251001" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20251201> ;
+         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20251201" ]
        ] ;
        fhir:name [ fhir:v "SNOMED CT core" ] ;
        fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;
@@ -46894,11 +48153,47 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/specimenType-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/specimenType-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "SpecimenTypeSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-standardterms> ;
          fhir:reference [ fhir:v "CodeSystem/terminologie-standardterms" ]
        ] ;
        fhir:name [ fhir:v "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments" ] ;
        fhir:description [ fhir:v "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/substanceAdminSubstitution-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/substanceAdminSubstitution-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "SubstanceAdminSubstitutionSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -46935,6 +48230,24 @@
        ] ;
        fhir:name [ fhir:v "TimingEvent" ] ;
        fhir:description [ fhir:v "TimingEvent" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/TimingEvent-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/TimingEvent-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "TimingEventSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -48031,7 +49344,7 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-R210-ActeSpecifique" ]
        ] ;
        fhir:name [ fhir:v "TRE_R210_ActeSpecifique" ] ;
-       fhir:description [ fhir:v "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation." ] ;
+       fhir:description [ fhir:v "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -51532,6 +52845,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-SpecimenType-supplement-fr> ;
+         fhir:reference [ fhir:v "CodeSystem/v3-SpecimenType-supplement-fr" ]
+       ] ;
+       fhir:name [ fhir:v "V3SpecimenTypeSupplementFr" ] ;
+       fhir:description [ fhir:v "Traduction Française" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "ValueSet"
          ]
        ] ) ;
@@ -51805,6 +53136,20 @@
              fhir:v "tre-retired.html"^^xsd:anyURI
            ] ;
            fhir:title [ fhir:v "Terminologies  (Retired)" ] ;
+           fhir:generation [ fhir:v "html" ]
+         ] [
+           fhir:extension ( [
+             fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name"^^xsd:anyURI ] ;
+             fhir:value [
+               a fhir:url ;
+               fhir:v "tre-supplement.html"^^xsd:anyURI
+             ]
+           ] ) ;
+           fhir:name [
+             a fhir:url ;
+             fhir:v "tre-supplement.html"^^xsd:anyURI
+           ] ;
+           fhir:title [ fhir:v "Supplement  (Traduction)" ] ;
            fhir:generation [ fhir:v "html" ]
          ] [
            fhir:extension ( [

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250918120000"
+             dateMaj="20251222120000"
              dateValid="20150325000000"
              description="Equipement"
              displayName="TRE_R212_Equipement"
@@ -2106,6 +2106,24 @@
                   displayName="Tomographie par Émission de Positons"
                   longDesignation="Tomographie par Émission de Positons"
                   shortDesignation="TEP"
+                  descriptionMetier=""/>
+         <Concept code="234"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  dateFin=""
+                  dateMaj="20251222000000"
+                  dateValid="20251222000000"
+                  displayName="Espace de consommation de drogues injectables"
+                  longDesignation="Espace de consommation de drogues injectables"
+                  shortDesignation="Espace de consommation de drogues injectables"
+                  descriptionMetier=""/>
+         <Concept code="235"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  dateFin=""
+                  dateMaj="20251222000000"
+                  dateValid="20251222000000"
+                  displayName="Espace de consommation de drogues à fumer"
+                  longDesignation="Espace de consommation de drogues à fumer"
+                  shortDesignation="Espace de consommation de drogues à fumer"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

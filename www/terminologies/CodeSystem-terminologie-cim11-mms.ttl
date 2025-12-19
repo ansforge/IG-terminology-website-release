@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "6" ] ;
      fhir:lastUpdated [ fhir:v "2025-02-25T11:11:24.278+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1>
      ] )
   ] ; # 
   fhir:text [
@@ -36,7 +36,7 @@
   fhir:title [ fhir:v "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-11-03T13:53:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-19T16:18:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
   fhir:description [ fhir:v "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)"] ; # 
   fhir:jurisdiction ( [

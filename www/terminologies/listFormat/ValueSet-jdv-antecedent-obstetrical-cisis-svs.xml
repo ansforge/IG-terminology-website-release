@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141839"
              dateValid="20100101000000"
              description="JDV Antecedent Obstetrical CISIS"
              displayName="JdvAntecedentObstetricalCisis"
@@ -11,19 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="O13"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Hypertension gestationnelle [liée à la grossesse]"/>
          <Concept code="O14.9"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Prééclampsie, sans précision"/>
          <Concept code="O82.9"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Accouchement par césarienne, sans précision"/>
          <Concept code="O24.4"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Diabète sucré survenant au cours de la grossesse"/>
          <Concept code="O99"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Autres maladies de la mère classées ailleurs, mais compliquant la grossesse, l'accouchement et la puerpéralité"/>
          <Concept code="MED-1184"
                   codeSystem="1.2.250.1.213.1.1.4.322"

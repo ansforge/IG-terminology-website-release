@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141840"
              dateValid="20100101000000"
              description="JDV Statut Actuel Diagnostic CISIS"
              displayName="JdvStatutActuelDiagnosticCisis"
@@ -27,7 +27,7 @@
                   displayName="diagnostic définitif"/>
          <Concept code="723511001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="réfuté"/>
+                  displayName="réfuté(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

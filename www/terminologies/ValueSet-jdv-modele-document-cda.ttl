@@ -11,13 +11,13 @@
   fhir:id [ fhir:v "jdv-modele-document-cda"] ; # 
   fhir:meta [
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1>
      ] )
   ] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-modele-document-cda</b></p><a name=\"jdv-modele-document-cda\"> </a><a name=\"hcjdv-modele-document-cda\"> </a><a name=\"jdv-modele-document-cda-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSet</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-TRE-R220-ModeleDocumentCDAStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure</code></a></li><li>Include tous les codes définis dans <a href=\"CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure</code></a></li></ul></div>"^^rdf:XMLLiteral
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ValueSet jdv-modele-document-cda</b></p><a name=\"jdv-modele-document-cda\"> </a><a name=\"hcjdv-modele-document-cda\"> </a><a name=\"jdv-modele-document-cda-fr-FR\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"http://hl7.org/fhir/R4/shareablevalueset.html\">Shareable ValueSetversion: null4.0.1)</a></p></div><p>Ce jeu de valeur (ValueSet) inclut les codes selon les règles suivantes :</p><ul><li>Include tous les codes définis dans <a href=\"CodeSystem-TRE-R220-ModeleDocumentCDAStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure</code></a></li><li>Include tous les codes définis dans <a href=\"CodeSystem-TRE-R221-ModeleDocumentCDANonStructure.html\"><code>https://mos.esante.gouv.fr/NOS/TRE_R221-ModeleDocumentCDANonStructure/FHIR/TRE-R221-ModeleDocumentCDANonStructure</code></a></li></ul></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:extension ( [
      fhir:url [ fhir:v "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod"^^xsd:anyURI ] ;
@@ -32,7 +32,7 @@
   fhir:title [ fhir:v "Jdv Modele Document Cda"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-11-03T13:53:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-19T16:18:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;

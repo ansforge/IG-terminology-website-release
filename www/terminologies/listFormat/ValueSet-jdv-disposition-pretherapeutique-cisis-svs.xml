@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141838"
              dateValid="20100101000000"
              description="JDV Disposition Pretherapeutique CISIS"
              displayName="JdvDispositionPretherapeutiqueCisis"
@@ -30,15 +30,15 @@
                   displayName="Nom du protocole d'essai clinique"/>
          <Concept code="233428003"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="thrombolyse d'une veine"/>
+                  displayName="thrombolyse veineuse"/>
          <Concept code="43810009"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="thrombectomie"/>
          <Concept code="B01AC04"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem="http://www.whocc.no/atc"
                   displayName="clopidogrel"/>
          <Concept code="B01AB01"
-                  codeSystem="2.16.840.1.113883.6.73"
+                  codeSystem="http://www.whocc.no/atc"
                   displayName="héparine"/>
       </ConceptList>
    </ValueSet>

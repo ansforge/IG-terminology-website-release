@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141838"
              dateValid="20220412000000"
              description="JDV Info Prise En Charge CISIS"
              displayName="JdvInfoPriseEnChargeCisis"
@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="U83.71"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Bactérie multirésistante [BMR]"/>
          <Concept code="Z74.0"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Besoin d'assistance du fait de mobilité restreinte"/>
          <Concept code="MED-1124"
                   codeSystem="1.2.250.1.213.1.1.4.322"

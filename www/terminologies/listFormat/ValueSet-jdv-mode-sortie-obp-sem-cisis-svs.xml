@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141839"
              dateValid="20220804000000"
              description="JDV Mode Sortie Obp Sem CISIS"
              displayName="JdvModeSortieObpSemCisis"
@@ -18,10 +18,10 @@
                   displayName="Autre mode de sortie"/>
          <Concept code="419620001"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="mort"/>
+                  displayName="décès"/>
          <Concept code="107724000"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="transfert du patient"/>
+                  displayName="transfert d'un(e) patient(e)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

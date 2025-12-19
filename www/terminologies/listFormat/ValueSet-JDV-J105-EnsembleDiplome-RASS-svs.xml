@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250828120000"
+             dateMaj="20251222120000"
              dateValid="20190830120000"
              description="Ensemble des diplômes et qualifications du RASS"
              displayName="JDV_J105_EnsembleDiplome_RASS"
@@ -720,19 +720,19 @@
                   displayName="Master mention psychologie"/>
          <Concept code="DIP324"
                   codeSystem="1.2.250.1.213.1.6.1.53"
-                  displayName="Master mention psychologie clinique, psychopathologie et psychologie de la santé"/>
+                  displayName="Licence + Master mention psychologie clinique, psychopatho et psycho santé + Attest stage"/>
          <Concept code="DIP325"
                   codeSystem="1.2.250.1.213.1.6.1.53"
-                  displayName="Master mention psychologie sociale, du travail et des organisations"/>
+                  displayName="Licence + Master mention psychologie sociale, du travail et des organisations + Attest stage"/>
          <Concept code="DIP326"
                   codeSystem="1.2.250.1.213.1.6.1.53"
-                  displayName="Master mention psychologie de l'éducation et de la formation"/>
+                  displayName="Licence + Master mention psychologie de l'éducation et de la formation + Attest stage"/>
          <Concept code="DIP327"
                   codeSystem="1.2.250.1.213.1.6.1.53"
-                  displayName="Master mention psychopathologie clinique psychanalytique"/>
+                  displayName="Licence + Master mention psychologie: psychopatho clinique psychanalytique + Attest stage"/>
          <Concept code="DIP328"
                   codeSystem="1.2.250.1.213.1.6.1.53"
-                  displayName="Master de Psychanalyse"/>
+                  displayName="Diplôme de niveau Master en psychanalyse"/>
          <Concept code="DIP329"
                   codeSystem="1.2.250.1.213.1.6.1.53"
                   displayName="Diplôme de Chiropraxie"/>
@@ -2326,6 +2326,9 @@
          <Concept code="FST26"
                   codeSystem="1.2.250.1.213.1.6.1.251"
                   displayName="FST Urgences pédiatriques"/>
+         <Concept code="FST27"
+                  codeSystem="1.2.250.1.213.1.6.1.251"
+                  displayName="FST Innovation et recherche en sciences biologiques et pharmaceutiques"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

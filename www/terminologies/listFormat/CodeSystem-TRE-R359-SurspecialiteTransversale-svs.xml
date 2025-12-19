@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240531120000"
+             dateMaj="20251222120000"
              dateValid="20231030120000"
              description="Surspécialité (compétence) acquise par l'interne à l'issue d'une Formation Spécialisée Transversale (FST)"
              displayName="TRE_R359_SurspecialiteTransversale"
@@ -243,6 +243,15 @@
                   displayName="Urgences pédiatriques"
                   longDesignation="Urgences pédiatriques"
                   shortDesignation="Urgences pédiatriques"
+                  descriptionMetier=""/>
+         <Concept code="SST27"
+                  codeSystem="1.2.250.1.213.2.76"
+                  dateFin=""
+                  dateMaj="20251222120000"
+                  dateValid="20251222120000"
+                  displayName="Innovation et recherche en sciences biologiques et pharmaceutiques"
+                  longDesignation="Innovation et recherche en sciences biologiques et pharmaceutiques"
+                  shortDesignation="Innovation et recherche en sciences biologiques et pharmaceutiques"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251216141840"
              dateValid="19700101010000"
              description="JDV Methode Accouchement CISIS"
              displayName="JdvMethodeAccouchementCisis"
@@ -18,10 +18,10 @@
                   displayName="Césarienne pendant travail"/>
          <Concept code="700000006"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="voie basse spontanée"/>
+                  displayName="accouchement par voie basse"/>
          <Concept code="236974004"
                   codeSystem="2.16.840.1.113883.6.96"
-                  displayName="voie basse instrumentale"/>
+                  displayName="accouchement instrumental"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

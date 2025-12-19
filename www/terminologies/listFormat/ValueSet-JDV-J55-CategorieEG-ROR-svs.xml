@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250425120000"
+             dateMaj="20251222120000"
              dateValid="20190125120000"
              description="Catégories d'établissements FINESS ou hors FINESS et secteurs d'activité des cabinets"
              displayName="JDV_J55_CategorieEG_ROR"
@@ -177,7 +177,7 @@
                   displayName="Etablissement consultation protection infantile"/>
          <Concept code="231"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Etablissement d'information, de consultation et de conseil familial"/>
+                  displayName="Espaces de vie affective, relationnelle et sexuelle (EVARS)"/>
          <Concept code="236"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre de placement familial socio-éducatif (CPFSE)"/>
@@ -459,7 +459,7 @@
                   displayName="Services de Prévention et de Santé au Travail (SPST)"/>
          <Concept code="617"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Maison médicale de garde (MMG)"/>
+                  displayName="Lieu de soins non programmés"/>
          <Concept code="618"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Autre structure de soins non programmés (SNP)"/>
@@ -529,6 +529,9 @@
          <Concept code="648"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Structure qui contribue au Service d'Accès aux Soins"/>
+         <Concept code="649"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Centre de santé et de médiation en santé sexuelle"/>
          <Concept code="695"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Groupement de coopération sanitaire de moyens - Exploitant"/>
@@ -556,6 +559,9 @@
          <Concept code="703"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Espace Santé Jeunes (ESJ)"/>
+         <Concept code="704"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Autre service territorial"/>
          <Concept code="SA05"
                   codeSystem="1.2.250.1.71.4.2.4"
                   displayName="Centre de santé"/>

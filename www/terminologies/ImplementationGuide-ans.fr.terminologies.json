@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><a name=\"ans.fr.terminologies-fr-FR\"> </a><h2>Terminologies</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-  "version" : "1.4.0",
+  "version" : "1.5.0",
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2025-11-03T13:53:01+00:00",
+  "date" : "2025-12-19T16:18:25+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -35,19 +35,19 @@
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/implementationguide-dependency-comment",
       "valueMarkdown" : "Automatically added as a dependency - all IGs depend on HL7 Terminology"
     }],
-    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology|6.5.0",
+    "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology|7.0.1",
     "packageId" : "hl7.terminology.r4",
-    "version" : "6.5.0"
+    "version" : "7.0.1"
   },
   {
     "id" : "hl7_fhir_uv_ips",
-    "uri" : "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips",
+    "uri" : "http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips|1.1.0",
     "packageId" : "hl7.fhir.uv.ips",
     "version" : "1.1.0"
   },
   {
     "id" : "hl7_fhir_uv_extensions_r4",
-    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions",
+    "uri" : "http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions|5.2.0",
     "packageId" : "hl7.fhir.uv.extensions.r4",
     "version" : "5.2.0"
   }],
@@ -103,7 +103,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "pin-multiples"
+        "valueString" : "pin-all"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -346,6 +346,281 @@
       {
         "url" : "value",
         "valueString" : "https://mos.esante.gouv.fr/NOS"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -730,7 +1005,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -962,6 +1237,17 @@
       {
         "url" : "value",
         "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -5538,6 +5824,17 @@
       {
         "url" : "value",
         "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -12119,7 +12416,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "pin-multiples"
+        "valueString" : "pin-all"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -12362,6 +12659,281 @@
       {
         "url" : "value",
         "valueString" : "https://mos.esante.gouv.fr/NOS"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actCode-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actMood-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actPriority-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/actStatus-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/administrativeGender-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergyintolerance-clinical-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/allergy-intolerance-criticality-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-clinical-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/condition-ver-status-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/confidentiality-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/ObservationValue-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/employmentStatus-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/mediaType-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationInterpretation-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/observationMethod-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/orderableDrugForm-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationFunction-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/participationType-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleClass-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/roleCode-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/substanceAdminSubstitution-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/timingEvent-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v3-SpecimenType-supplement-fr"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://interop.esante.gouv.fr/terminologies/CodeSystem/ObservationValue-supplement-fr"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -12746,7 +13318,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-atc"
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ConceptMap/alignement-nuva-cipucd"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -12978,6 +13550,17 @@
       {
         "url" : "value",
         "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v2-0066-cisis"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-days-of-week"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -17554,6 +18137,17 @@
       {
         "url" : "value",
         "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j370-type-contrat-sejour-ms"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "special-url"
+      },
+      {
+        "url" : "value",
+        "valueString" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -24083,6 +24677,18 @@
     "resource" : [{
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/actCode-supplement-fr"
+      },
+      "name" : "ActCodeSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24119,6 +24725,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ActMood-supplement-fr"
+      },
+      "name" : "ActMoodSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24143,6 +24761,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ActPriority-supplement-fr"
+      },
+      "name" : "ActPrioritySupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24150,6 +24780,18 @@
       },
       "name" : "ActStatus",
       "description" : "ActStatus",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ActStatus-supplement-fr"
+      },
+      "name" : "ActStatusSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24226,6 +24868,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/AdministrativeGender-supplement-fr"
+      },
+      "name" : "AdministrativeGenderSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ConceptMap"
       }],
       "reference" : {
@@ -24243,6 +24897,17 @@
         "reference" : "ConceptMap/alignement-nuva-bdpm"
       },
       "name" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ConceptMap"
+      }],
+      "reference" : {
+        "reference" : "ConceptMap/alignement-bdpm-cipucd"
+      },
+      "name" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
       "exampleBoolean" : false
     },
     {
@@ -24267,6 +24932,30 @@
       },
       "name" : "AllergyIntolerance Clinical Status Codes",
       "description" : "AllergyIntolerance Clinical Status Codes",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/allergyintolerance-clinical-supplement-fr"
+      },
+      "name" : "AllergyIntoleranceClinicalSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/allergy-intolerance-criticality-supplement-fr"
+      },
+      "name" : "AllergyIntoleranceCriticalitySupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24704,6 +25393,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/condition-clinical-supplement-fr"
+      },
+      "name" : "ConditionClinicalSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/condition-ver-status-supplement-fr"
+      },
+      "name" : "ConditionVerStatusSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24711,6 +25424,18 @@
       },
       "name" : "Confidentiality",
       "description" : "Confidentiality",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/Confidentiality-supplement-fr"
+      },
+      "name" : "Confidentiality SupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -24740,6 +25465,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/terminologie-sms"
+      },
+      "name" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
+      "description" : "Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -24747,6 +25484,18 @@
       },
       "name" : "EmploymentStatusODH",
       "description" : "EmploymentStatusODH",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/employmentStatus-supplement-fr"
+      },
+      "name" : "EmploymentStatusSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -25918,6 +26667,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-etat-de-conscience-cisis"
+      },
+      "name" : "Jdv Etat De Conscience CISIS",
+      "description" : "Jdv Etat De Conscience CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-etat-naissance-cisis"
       },
       "name" : "JDV Etat Naissance CISIS",
@@ -26702,6 +27463,18 @@
       },
       "name" : "Jdv J370 Type Contrat Sejour Ms",
       "description" : "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j383-motif-cloture-exercice-professionnel-epars"
+      },
+      "name" : "Jdv J383 Motif Cloture Exercice Professionnel Epars",
+      "description" : "Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel.",
       "exampleBoolean" : false
     },
     {
@@ -29186,6 +29959,18 @@
       },
       "name" : "Jdv Tre R221 Modele Document Cda Non Structure All",
       "description" : "JDV avec l'ensemble des codes actifs de la TRE_R221_ModeleDocumentCDANonStructure",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-trod-examen-cisis"
+      },
+      "name" : "Jdv Trod Examen CISIS",
+      "description" : "Jdv Trod Examen CISIS",
       "exampleBoolean" : false
     },
     {
@@ -32317,7 +33102,7 @@
         "reference" : "ValueSet/JDV-J281-StatutsRessourcesMS"
       },
       "name" : "JDV_J281_StatutsRessourcesMS",
-      "description" : "Statut de l'évaluation et des événements",
+      "description" : "Caractérise le statut d’une ressource du médico-social au cours de son cycle de vie.",
       "exampleBoolean" : false
     },
     {
@@ -33221,6 +34006,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/mediaType-supplement-fr"
+      },
+      "name" : "MediaTypeSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -33280,6 +34077,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ObservationInterpretation-supplement-fr"
+      },
+      "name" : "ObservationInterpretationSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -33287,6 +34096,42 @@
       },
       "name" : "ObservationMethod",
       "description" : "ObservationMethod",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ObservationMethod-supplement-fr"
+      },
+      "name" : "ObservationMethodSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ObservationValue-supplement-fr"
+      },
+      "name" : "ObservationValueSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/orderableDrugForm-supplement-fr"
+      },
+      "name" : "OrderableDrugFormSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33304,6 +34149,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ParticipationFunction-supplement-fr"
+      },
+      "name" : "ParticipationFunctionSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -33311,6 +34168,18 @@
       },
       "name" : "ParticipationType",
       "description" : "ParticipationType",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/ParticipationType-supplement-fr"
+      },
+      "name" : "ParticipationTypeSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33363,6 +34232,30 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/RoleClass-supplement-fr"
+      },
+      "name" : "RoleClassSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/RoleCode-supplement-fr"
+      },
+      "name" : "RoleCodeSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "NamingSystem"
       }],
       "reference" : {
@@ -33401,7 +34294,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20251001"
+        "reference" : "CodeSystem/900000000000207008-20251201"
       },
       "name" : "SNOMED CT core",
       "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
@@ -33448,10 +34341,34 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/specimenType-supplement-fr"
+      },
+      "name" : "SpecimenTypeSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/terminologie-standardterms"
       },
       "name" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
       "description" : "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/substanceAdminSubstitution-supplement-fr"
+      },
+      "name" : "SubstanceAdminSubstitutionSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -33476,6 +34393,18 @@
       },
       "name" : "TimingEvent",
       "description" : "TimingEvent",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/TimingEvent-supplement-fr"
+      },
+      "name" : "TimingEventSupplementFr",
+      "description" : "Traduction Française",
       "exampleBoolean" : false
     },
     {
@@ -34206,7 +35135,7 @@
         "reference" : "CodeSystem/TRE-R210-ActeSpecifique"
       },
       "name" : "TRE_R210_ActeSpecifique",
-      "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d'organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
+      "description" : "Un acte spécifique est une action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé. Les actes réalisés habituellement par ce type d’organisation ne sont pas des actes spécifiques. Les actes spécifiques décrits sont réalisés avec les ressources propres de l’organisation ou via des ressources mises à disposition dans le cadre d’une convention à la condition que ces ressources interviennent sur site dans la réalisation de la prestation.",
       "exampleBoolean" : false
     },
     {
@@ -36539,6 +37468,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/v3-SpecimenType-supplement-fr"
+      },
+      "name" : "V3SpecimenTypeSupplementFr",
+      "description" : "Traduction Française",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "ValueSet"
       }],
       "reference" : {
@@ -36715,6 +37656,15 @@
           }],
           "nameUrl" : "tre-retired.html",
           "title" : "Terminologies  (Retired)",
+          "generation" : "html"
+        },
+        {
+          "extension" : [{
+            "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
+            "valueUrl" : "tre-supplement.html"
+          }],
+          "nameUrl" : "tre-supplement.html",
+          "title" : "Supplement  (Traduction)",
           "generation" : "html"
         },
         {

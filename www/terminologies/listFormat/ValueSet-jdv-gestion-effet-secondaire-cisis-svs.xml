@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251216141840"
              dateValid="20100101000000"
              description="JDV Gestion Effet Secondaire CISIS"
              displayName="JdvGestionEffetSecondaireCisis"
@@ -11,7 +11,7 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C20427"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
                   displayName="facteur de croissance hématopoïétique"/>
          <Concept code="GEN-092.04.12"
                   codeSystem="1.2.250.1.213.1.1.4.322"

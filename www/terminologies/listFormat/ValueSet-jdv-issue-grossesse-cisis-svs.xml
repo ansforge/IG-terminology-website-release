@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115833"
+             dateMaj="20251216141839"
              dateValid="20220804000000"
              description="JDV Issue Grossesse CISIS"
              displayName="JdvIssueGrossesseCisis"
@@ -11,22 +11,22 @@
              urlFichier="">
       <ConceptList>
          <Concept code="O01"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Môle hydatiforme"/>
          <Concept code="O00"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Grossesse extra-utérine"/>
          <Concept code="O03"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Avortement spontané"/>
          <Concept code="O04.-0"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Interruption médicale volontaire de grossesse [IVG dans le cadre légal]"/>
          <Concept code="O04"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Avortement médical"/>
          <Concept code="P95"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Mort fœtale (de cause non précisée)"/>
          <Concept code="3950001"
                   codeSystem="2.16.840.1.113883.6.96"

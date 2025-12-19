@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141838"
              dateValid="20240522000000"
              description="JDV Origine Effet Indesirable CISIS"
              displayName="JdvOrigineEffetIndesirableCisis"
@@ -10,6 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <Concept code="MED-1334"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="mésusage ou d’un usage détourné"/>
          <Concept code="MED-1279"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="défaut de qualité d’un médicament ou de médicaments falsifiés"/>
@@ -22,9 +25,6 @@
          <Concept code="1149222004"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="surdosage"/>
-         <Concept code="1.2.250.1.213.1.1.5.785.1"
-                  codeSystem="2.16.840.1.113883.6.96"
-                  displayName="mésusage ou d’un usage détourné (Demande de création SNOMED CT en cours)"/>
          <Concept code="398240004"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="erreur médicamenteuse"/>

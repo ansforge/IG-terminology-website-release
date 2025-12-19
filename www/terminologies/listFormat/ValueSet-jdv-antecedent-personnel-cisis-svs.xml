@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115834"
+             dateMaj="20251216141839"
              dateValid="20100101000000"
              description="JDV Antecedent Personnel CISIS"
              displayName="JdvAntecedentPersonnelCisis"
@@ -11,10 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C81"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Lymphome de Hodgkin"/>
          <Concept code="D48.6"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Tumeur à évolution imprévisible et inconnue du sein"/>
          <Concept code="443508001"
                   codeSystem="2.16.840.1.113883.6.96"

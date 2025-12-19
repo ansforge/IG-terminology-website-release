@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141838"
              dateValid="20100101000000"
              description="JDV Complication CISIS"
              displayName="JdvComplicationCisis"
@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="R56.8"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Convulsions, autres et non précisées"/>
          <Concept code="I50.9"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Insuffisance cardiaque, sans précision"/>
          <Concept code="B99"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Maladies infectieuses, autres et non précisées"/>
          <Concept code="MED-503"
                   codeSystem="1.2.250.1.213.1.1.4.322"

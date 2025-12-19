@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Base de données publique du médicament - XML Representation - Terminologies  de Santé v1.4.0</title>
+    <title>Base de données publique du médicament - XML Representation - Terminologies  de Santé v1.5.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.741"}
-    h3,h4,h5,h6{--heading-prefix:"7.741"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.751"}
+    h3,h4,h5,h6{--heading-prefix:"7.751"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,11 +58,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.4.0 - final-text
+            <span style="display:inline-block;">1.5.0 - final-text
 
 
 
-  <img alt="France flag" src="assets/images/fra.svg" height="16" title="France"/>
+  <span title="">FRA</span>
 
 
             </span>
@@ -166,7 +166,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 7" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.4.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.5.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -209,9 +209,12 @@
 
 
 
-<li>
-  <a href="CodeSystem-terminologie-bdpm.demande.html">Demande</a>
-</li>
+  
+  <li>
+    <a href="CodeSystem-terminologie-bdpm.demande.html">Demande</a>
+  </li>
+  
+
 
 
 
@@ -245,7 +248,7 @@
         
           Active
           
-            as of 2025-10-01
+            as of 2025-12-03
           
         
       </td>
@@ -265,10 +268,10 @@
 &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem">CodeSystem</a> xmlns=&quot;http://hl7.org/fhir&quot;&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">id</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;terminologie-bdpm&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">meta</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;20&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2025-10-01T14:40:02.219+02:00&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">versionId</a> <a href="http://hl7.org/fhir/R4/datatypes.html#id">value</a>=&quot;24&quot;/&gt;
+    &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">lastUpdated</a> <a href="http://hl7.org/fhir/R4/datatypes.html#instant">value</a>=&quot;2025-12-03T17:12:59.233+01:00&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">profile</a>
-             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/shareablecodesystem&quot;/&gt;
+             <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1&quot;/&gt;
   &lt;/meta&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">text</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;generated&quot;/&gt;
@@ -280,12 +283,12 @@
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">system</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;https://smt.esante.gouv.fr/&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">value</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;terminologie-bdpm&quot;/&gt;
   &lt;/identifier&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2025-10-01&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">version</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;2025-12-03&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">name</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;BDPM&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">title</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Base de données publique du médicament&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">status</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;active&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">experimental</a> <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">value</a>=&quot;false&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2025-10-01T00:00:00+00:00&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">date</a> <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">value</a>=&quot;2025-12-03T00:00:00+00:00&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">publisher</a> <a href="http://hl7.org/fhir/R4/datatypes.html#string">value</a>=&quot;Agence du numérique en santé&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">description</a>
                <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM&quot;/&gt;
@@ -299,7 +302,7 @@
              <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">value</a>=&quot;[LOv2](https://github.com/etalab/licence-ouverte/blob/master/LO.md)&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.valueSet">valueSet</a> <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">value</a>=&quot;https://smt.esante.gouv.fr/terminologie-bdpm?vs&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">content</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;not-present&quot;/&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;41118&quot;/&gt;
+  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">count</a> <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">value</a>=&quot;41229&quot;/&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.filter">filter</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.filter.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;root&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.filter.operator">operator</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;=&quot;/&gt;
@@ -318,18 +321,6 @@
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;broader&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a> <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.w3.org/2004/02/skos/core#broader&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;code&quot;/&gt;
-  &lt;/property&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;etat_commercialisation&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a>
-         <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/etat_commercialisation&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;code&quot;/&gt;
-  &lt;/property&gt;
-  &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">code</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;statut_CIP&quot;/&gt;
-    &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">uri</a>
-         <a href="http://hl7.org/fhir/R4/datatypes.html#uri">value</a>=&quot;http://www.data.esante.gouv.fr/ANSM/BDPM-core-ontology/statut_CIP&quot;/&gt;
     &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">type</a> <a href="http://hl7.org/fhir/R4/datatypes.html#code">value</a>=&quot;code&quot;/&gt;
   &lt;/property&gt;
   &lt;<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">property</a>&gt;
@@ -515,7 +506,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.4.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Nov 3, 2025 13:53+0000">2025-11-03</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 19, 2025 16:19+0000">2025-12-19</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251017120000"
+             dateMaj="20251222120000"
              dateValid="20220930120000"
              description="Modalités d'accueil"
              displayName="TRE_R338_ModaliteAccueil"
@@ -226,6 +226,24 @@
                   longDesignation="Autodialyse assistée"
                   shortDesignation="Autodialyse assistée"
                   descriptionMetier="Modalité de traitement de l’insuffisance rénale chronique dans laquelle le patient réalise sa dialyse assisté d’un infirmier dans une unité dédiée."/>
+         <Concept code="25"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  dateFin=""
+                  dateMaj="20251222120000"
+                  dateValid="20251222120000"
+                  displayName="Relayage courte durée (quelques heures par jour)"
+                  longDesignation="Relayage courte durée (quelques heures par jour)"
+                  shortDesignation="Relayage CT"
+                  descriptionMetier=""/>
+         <Concept code="26"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  dateFin=""
+                  dateMaj="20251222120000"
+                  dateValid="20251222120000"
+                  displayName="Relayage longue durée (sur plusieurs jours)"
+                  longDesignation="Relayage longue durée (sur plusieurs jours)"
+                  shortDesignation="Relayage LT"
+                  descriptionMetier=""/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

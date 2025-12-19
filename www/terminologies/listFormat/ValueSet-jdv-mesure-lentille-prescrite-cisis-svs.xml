@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152059"
+             dateMaj="20251216141838"
              dateValid="20210924000000"
              description="JDV Mesure Lentille Prescrite CISIS"
              displayName="JdvMesureLentillePrescriteCisis"
@@ -11,11 +11,8 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C53610"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
                   displayName="Renouvellement"/>
-         <Concept code="C43383"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
-                  displayName="modèle"/>
          <Concept code="MED-897"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Prise en charge LPP"/>
@@ -67,6 +64,9 @@
          <Concept code="69730-0"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Consignes et conseils"/>
+         <Concept code="67716-1"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="modèle du dispositif"/>
          <Concept code="95300-0"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Axe du K"/>

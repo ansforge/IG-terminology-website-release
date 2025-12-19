@@ -13,8 +13,8 @@
      fhir:versionId [ fhir:v "1" ] ;
      fhir:lastUpdated [ fhir:v "2024-11-06T12:51:55.760+00:00"^^xsd:dateTime ] ;
      fhir:profile ( [
-       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset"^^xsd:anyURI ;
-       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset>
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.1>
      ] )
   ] ; # 
   fhir:language [ fhir:v "fr-FR"] ; # 
@@ -27,7 +27,7 @@
   fhir:name [ fhir:v "ValueSet_BDPM_All"] ; # 
   fhir:status [ fhir:v "active"] ; # 
   fhir:experimental [ fhir:v false] ; # 
-  fhir:date [ fhir:v "2025-11-03T13:53:01+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2025-12-19T16:18:25+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris"] ; # 
   fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie BDPM"] ; # 
   fhir:jurisdiction ( [

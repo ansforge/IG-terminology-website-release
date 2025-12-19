@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250623120000"
+             dateMaj="20251222120000"
              dateValid="20160901000000"
              description="Equipement spécifique - ROR"
              displayName="JDV_J18_EquipementSpecifique_ROR"
@@ -467,6 +467,12 @@
          <Concept code="229"
                   codeSystem="1.2.250.1.213.3.3.10"
                   displayName="Douche accessible aux personnes en fauteuil roulant"/>
+         <Concept code="234"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Espace de consommation de drogues injectables"/>
+         <Concept code="235"
+                  codeSystem="1.2.250.1.213.3.3.10"
+                  displayName="Espace de consommation de drogues à fumer"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

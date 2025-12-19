@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115832"
+             dateMaj="20251216141838"
              dateValid="20100101000000"
              description="JDV Lesion Traumatique Obstetricale CISIS"
              displayName="JdvLesionTraumatiqueObstetricaleCisis"
@@ -11,19 +11,19 @@
              urlFichier="">
       <ConceptList>
          <Concept code="P11.3"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Paralysie faciale due à un traumatisme obstétrical"/>
          <Concept code="P13.4"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Fracture de la clavicule due à un traumatisme obstétrical"/>
          <Concept code="P14.3"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Autres lésions du plexus brachial dues à un traumatisme obstétrical"/>
          <Concept code="P15.4"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Lésion faciale due à un traumatisme obstétrical"/>
          <Concept code="P15.8"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Autres traumatismes obstétricaux précisés"/>
       </ConceptList>
    </ValueSet>

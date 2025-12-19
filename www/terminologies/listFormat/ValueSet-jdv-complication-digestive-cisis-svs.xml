@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152101"
+             dateMaj="20251216141840"
              dateValid="20100101000000"
              description="JDV Complication Digestive CISIS"
              displayName="JdvComplicationDigestiveCisis"
@@ -11,11 +11,11 @@
              urlFichier="">
       <ConceptList>
          <Concept code="K92.2"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Hémorragie gastro-intestinale, sans précision"/>
          <Concept code="MED-508"
                   codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Toubles digestifs justifiant une sonde gastrique"/>
+                  displayName="Troubles digestifs justifiant une sonde gastrique"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

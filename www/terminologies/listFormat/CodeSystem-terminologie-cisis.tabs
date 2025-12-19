@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.1.1.4.322;TRE;TerminologieCISIS.tabs;Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.;;20010101120000;;20251023145935
+1.2.250.1.213.1.1.4.322;TRE;TerminologieCISIS.tabs;Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.;;20010101120000;;20251217143759
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.213.1.1.4.322;DLU_002;Conscient et éveillé;Conscient et éveillé;Conscient et éveillé;20100101000000;;
 1.2.250.1.213.1.1.4.322;DLU_003;Eveillable;Eveillable;Eveillable;20100101000000;;
@@ -95,6 +95,8 @@
 1.2.250.1.213.1.1.4.322;GEN-092.01.22;Autre situation médicale grave;Autre situation médicale grave;Autre situation médicale grave;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.01.23;Autre handicap / déficit;Autre handicap / déficit;Autre handicap / déficit;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.01.24;Autre risque;Autre risque;Autre risque;20100101000000;;
+1.2.250.1.213.1.1.4.322;GEN-092.01.25;Autre exposition;Autre exposition;Autre exposition;20251211000000;;
+1.2.250.1.213.1.1.4.322;GEN-092.01.26;Autre complication;Autre complication;Autre complication;20251211000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.02.01;Autre dispositif ou objet personnel;Autre dispositif ou objet personnel;Autre dispositif ou objet personnel;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.02.02;Autre dispositif médical;Autre dispositif médical;Autre dispositif médical;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.03.01;Autre(s) traitement(s);Autre(s) traitement(s);Autre(s) traitement(s);20100101000000;;
@@ -720,7 +722,7 @@
 1.2.250.1.213.1.1.4.322;MED-505;Troubles respiratoires justifiant une VNI;Troubles respiratoires justifiant une VNI;Troubles respiratoires justifiant une VNI;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-506;Troubles respiratoires justifiant une trachéotomie;Troubles respiratoires justifiant une trachéotomie;Troubles respiratoires justifiant une trachéotomie;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-507;Troubles urinaires justifiant une sonde urinaire;Troubles urinaires justifiant une sonde urinaire;Troubles urinaires justifiant une sonde urinaire;20100101000000;;
-1.2.250.1.213.1.1.4.322;MED-508;Toubles digestifs justifiant une sonde gastrique;Toubles digestifs justifiant une sonde gastrique;Toubles digestifs justifiant une sonde gastrique;20100101000000;;
+1.2.250.1.213.1.1.4.322;MED-508;Troubles digestifs justifiant une sonde gastrique;Troubles digestifs justifiant une sonde gastrique;Troubles digestifs justifiant une sonde gastrique;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-511;Troubles respiratoires justifiant une ventilation assistée;Troubles respiratoires justifiant une ventilation assistée;Troubles respiratoires justifiant une ventilation assistée;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-512;Pose d'une valve / d'une dérivation externe;Pose d'une valve / d'une dérivation externe;Pose d'une valve / d'une dérivation externe;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-513;Evaluation en kinésithérapie;Evaluation en kinésithérapie;Evaluation en kinésithérapie;20100101000000;;
@@ -1366,6 +1368,13 @@
 1.2.250.1.213.1.1.4.322;MED-1327;Evaluation PATHOS;Evaluation PATHOS;Evaluation PATHOS;20250425000000;;
 1.2.250.1.213.1.1.4.322;MED-1328;Evaluation CIM10;Evaluation CIM10;Evaluation CIM10;20250425000000;;
 1.2.250.1.213.1.1.4.322;MED-1329;Evaluation CIM11;Evaluation CIM11;Evaluation CIM11;20250425000000;;
+1.2.250.1.213.1.1.4.322;MED-1330;Etat de conscience inconnu;Etat de conscience inconnu;Etat de conscience inconnu;20251029000000;;
+1.2.250.1.213.1.1.4.322;MED-1331;allergie à une substance;allergie à une substance;allergie à une substance;20251104000000;;
+1.2.250.1.213.1.1.4.322;MED-1332;hypersensibilité non allergique à une substance;hypersensibilité non allergique à une substance;hypersensibilité non allergique à une substance;20251104000000;;
+1.2.250.1.213.1.1.4.322;MED-1333;intolérance à un agent environnemental;intolérance à un agent environnemental;intolérance à un agent environnemental;20251104000000;;
+1.2.250.1.213.1.1.4.322;MED-1334;mésusage ou d’un usage détourné;mésusage ou d’un usage détourné;mésusage ou d’un usage détourné;20251104000000;;
+1.2.250.1.213.1.1.4.322;MED-1335;Médicament augmentant l’INR;Médicament augmentant l’INR;Médicament augmentant l’INR;20251215000000;;
+1.2.250.1.213.1.1.4.322;MED-1336;Médicament diminuant l’INR;Médicament diminuant l’INR;Médicament diminuant l’INR;20251215000000;;
 1.2.250.1.213.1.1.4.322;ORG-001;Prise en charge spécifique en oncogériatrie;Prise en charge spécifique en oncogériatrie;Prise en charge spécifique en oncogériatrie;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-002;Suivi après traitement;Suivi après traitement;Suivi après traitement;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-003;Type de suivi;Type de suivi;Type de suivi;20100101000000;;
@@ -1394,14 +1403,6 @@
 1.2.250.1.213.1.1.4.322;ORG-037;Soutien psychologique des proches et des aidants des personnes atteintes de cancer;Soutien psychologique des proches et des aidants des personnes atteintes de cancer;Soutien psychologique des proches et des aidants des personnes atteintes de cancer;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-045;Hospitalisation traditionnelle;Hospitalisation traditionnelle;Hospitalisation traditionnelle;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-049;Protocole de recherche;Protocole de recherche;Protocole de recherche;20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-054;Établissement de santé de référence;Établissement de santé de référence;Établissement de santé de référence;20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-055;Centre d'hébergement;Centre d'hébergement;Centre d'hébergement;20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-056;Structure(s) de coordination ville-hôpital;Structure(s) de coordination ville-hôpital;Structure(s) de coordination ville-hôpital;20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-057;Organisme social et de maintien dans l'emploi;Organisme social et de maintien dans l'emploi;Organisme social et de maintien dans l'emploi;20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-059;Lieu d'administration;Lieu d'administration;Lieu d'administration;20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-060;Lieu de prise en charge en oncogératrie;Lieu de prise en charge en oncogératrie;Lieu de prise en charge en oncogératrie;20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-061;Lieu des mesures de préservation de la fertilité;Lieu des mesures de préservation de la fertilité;Lieu des mesures de préservation de la fertilité;20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-062;Structure(s) de soutien et d'information;Structure(s) de soutien et d'information;Structure(s) de soutien et d'information;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-063;Acte ou intervention prévu ou à programmer;Acte ou intervention prévu ou à programmer;Acte ou intervention prévu ou à programmer;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-064;Demande d'examen ou de suivi;Demande d'examen ou de suivi;Demande d'examen ou de suivi;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-065;Suites à donner d'ordre médico-social;Suites à donner d'ordre médico-social;Suites à donner d'ordre médico-social;20100101000000;;
@@ -1426,8 +1427,6 @@
 1.2.250.1.213.1.1.4.322;ORG-102;SSR spécialisé neuro;SSR spécialisé neuro;SSR spécialisé neuro;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-103;SSR spécialisé gériatrie;SSR spécialisé gériatrie;SSR spécialisé gériatrie;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-104;SSR polyvalent;SSR polyvalent;SSR polyvalent;20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-109;Caisse d'assurance de retraite et santé au travail (CARSAT);Caisse d'assurance de retraite et santé au travail (CARSAT);Caisse d'assurance de retraite et santé au travail (CARSAT);20100101000000;;
-1.2.250.1.213.1.1.4.322;ORG-110;Service d'appui au maintien dans l'emploi des travailleurs handicapés (SAMETH);Service d'appui au maintien dans l'emploi des travailleurs handicapés (SAMETH);Service d'appui au maintien dans l'emploi des travailleurs handicapés (SAMETH);20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-114;Proposition de traitement (dont ajustement et surveillance);Proposition de traitement (dont ajustement et surveillance);Proposition de traitement (dont ajustement et surveillance);20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-115;Recours;Recours;Recours;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-116;Pédiatrie;Pédiatrie;Pédiatrie;20100101000000;;

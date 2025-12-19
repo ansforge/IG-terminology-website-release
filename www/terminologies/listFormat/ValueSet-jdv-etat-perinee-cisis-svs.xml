@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115833"
+             dateMaj="20251216141839"
              dateValid="20230803000000"
              description="JDV Etat Perinee CISIS"
              displayName="JdvEtatPerineeCisis"
@@ -11,16 +11,16 @@
              urlFichier="">
       <ConceptList>
          <Concept code="O70.0"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Déchirure obstétricale du périnée, du premier degré"/>
          <Concept code="O70.1"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Déchirure obstétricale du périnée, du deuxième degré"/>
          <Concept code="O70.2"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Déchirure obstétricale du périnée, du troisième degré"/>
          <Concept code="O70.3"
-                  codeSystem="2.16.840.1.113883.6.3"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
                   displayName="Déchirure obstétricale du périnée, du quatrième degré"/>
          <Concept code="289854007"
                   codeSystem="2.16.840.1.113883.6.96"

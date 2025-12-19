@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251028115833"
+             dateMaj="20251216141838"
              dateValid="20100101000000"
              description="JDV Specimen Type CISIS"
              displayName="JdvSpecimenTypeCisis"
@@ -783,13 +783,13 @@
                   displayName="Sérum"/>
          <Concept code="SHU"
                   codeSystem="http://terminology.hl7.org/CodeSystem/v2-0487"
-                  displayName="Site du shunt"/>
+                  displayName="Shunt (site)"/>
          <Concept code="SHUNF"
                   codeSystem="http://terminology.hl7.org/CodeSystem/v2-0487"
                   displayName="Liquide de shunt"/>
          <Concept code="SHUNT"
                   codeSystem="http://terminology.hl7.org/CodeSystem/v2-0487"
-                  displayName="Shunt (site)"/>
+                  displayName="Shunt"/>
          <Concept code="SITE"
                   codeSystem="http://terminology.hl7.org/CodeSystem/v2-0487"
                   displayName="Site"/>

@@ -1,15 +1,26 @@
-<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">
     <channel>
         <title>Package de l'Agence du Numérique en Santé (ANS)</title>
         <description>Packages publiés par l'ANS</description>
         <link>https://interop.esante.gouv.fr/package-feed.xml</link>
         <generator>ANS FHIR publication</generator>
-        <lastBuildDate>Mon, 03 Nov 2025 01:37:04 +0000</lastBuildDate>
+        <lastBuildDate>Fri, 19 Dec 2025 03:59:20 +0000</lastBuildDate>
         <atom:link href="https://interop.esante.gouv.fr/package-feed.xml" rel="self" type="application/rss+xml"/>
-        <pubDate>Mon, 03 Nov 2025 01:37:04 +0000</pubDate>
+        <pubDate>Fri, 19 Dec 2025 03:59:20 +0000</pubDate>
         <language>fr</language>
         <ttl>600</ttl>
     
+    <item>
+      <title>ans.fr.terminologies#1.5.0</title>
+      <description>Version de decembre 2025</description>
+      <link>https://interop.esante.gouv.fr/terminologies/1.5.0/package.tgz</link>
+      <guid isPermaLink="true">https://interop.esante.gouv.fr/terminologies/1.5.0/package.tgz</guid>
+      <dc:creator>ANS</dc:creator>
+      <fhir:version>4.0.1</fhir:version>
+      <fhir:kind>IG</fhir:kind>
+      <pubDate>Fri, 19 Dec 2025 03:59:20 +0000</pubDate>
+      <fhir:details xmlns:fhir="Publication run at 19/12/2025 by runner using Version 1.8.22 (Git# 3d9b32f2efa8). Built 2025-03-19T04:54:10.544Z (275 days old) source id Unknown (todo)" value=""/>
+    </item>
     <item>
       <title>ans.fr.terminologies#1.4.0</title>
       <description>Version  d octobre  2025</description>

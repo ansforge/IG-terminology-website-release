@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250624152100"
+             dateMaj="20251216141838"
              dateValid="20211216000000"
              description="JDV Modalite Demande Acte Iimagerie CISIS"
              displayName="JdvModaliteDemandeActeImagerieCisis"
@@ -11,8 +11,8 @@
              urlFichier="">
       <ConceptList>
          <Concept code="C63334"
-                  codeSystem="2.16.840.1.113883.3.26.1.1"
-                  displayName="Radiologie interventionnelle"/>
+                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
+                  displayName="imagerie interventionnelle"/>
          <Concept code="MED-1126"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Radiographie sans contraste"/>

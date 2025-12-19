@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250828120000"
+             dateMaj="20251222120000"
              dateValid="20220826120000"
              description="Modalité d'accueil"
              displayName="JDV_J226_ModaliteAccueil_ROR"
@@ -80,6 +80,12 @@
          <Concept code="24"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Autodialyse assistée"/>
+         <Concept code="25"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  displayName="Relayage courte durée (quelques heures par jour)"/>
+         <Concept code="26"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  displayName="Relayage longue durée (sur plusieurs jours)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
