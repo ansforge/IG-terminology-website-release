@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Artifacts Summary - Terminologies  de Santé v1.5.0</title>
+    <title>Artifacts Summary - Terminologies  de Santé v1.6.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.5.0 - final-text
+            <span style="display:inline-block;">1.6.0 - final-text
 
 
 
@@ -130,6 +130,9 @@
   <li>
     <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation</a>
   </li>
+  <li>
+    <a target="_blank" href="https://smt.esante.gouv.fr/">SMT</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -171,7 +174,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.5.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.6.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Artifacts Summary</h2>
   
   
@@ -6595,6 +6598,42 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="ValueSet-jdv-j384-role-membre-famille-ms.html"
+                  title="ValueSet/jdv-j384-role-membre-famille-ms">Jdv J384 Role Membre Famille Ms</a>
+            </td>
+            <td>
+<p>Rôle d’un membre de la famille ou d’un proche de l’usager.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jdv-j385-composition-foyer-ms.html"
+                  title="ValueSet/jdv-j385-composition-foyer-ms">Jdv J385 Composition Foyer Ms</a>
+            </td>
+            <td>
+<p>Désigne avec qui vit l’usager dans son logement.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jdv-j386-type-enseignement-specialise-ms.html"
+                  title="ValueSet/jdv-j386-type-enseignement-specialise-ms">Jdv J386 Type Enseignement Specialise Ms</a>
+            </td>
+            <td>
+<p>Type d’enseignement spécialisé.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="ValueSet-jdv-j387-role-participant-ms.html"
+                  title="ValueSet/jdv-j387-role-participant-ms">Jdv J387 Role Participant Ms</a>
+            </td>
+            <td>
+<p>Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="ValueSet-jdv-mediatype-corps-cda-non-structure-cisis.html"
                   title="ValueSet/jdv-mediatype-corps-cda-non-structure-cisis">Jdv Mediatype Corps Cda Non Structure CISIS</a>
             </td>
@@ -6884,11 +6923,33 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tbody>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-v3-ActCode.html" title="CodeSystem/v3-ActCode">ActCode</a>
+            </td>
+            <td>
+<p>A code specifying the particular kind of Act that the Act-instance represents within its class.
+
+<em>Constraints:</em> The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.
+
+Conceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.
+
+Act.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code “potassium” together with and Act.classCode for “laboratory observation” to somehow mean “potassium laboratory observation” and then use the same Act.code for “potassium” together with Act.classCode for “medication” to mean “substitution of potassium”. This mutually modifying use of Act.code and Act.classCode is not permitted.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-actCode-supplement-fr.html"
                   title="CodeSystem/actCode-supplement-fr">ActCodeSupplementFr</a>
             </td>
             <td>
 <p>Traduction Française</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-ActMood.html" title="CodeSystem/v3-ActMood">ActMood</a>
+            </td>
+            <td>
+<p>OpenIssue: In Ballot 2009May, a strong Negative vote was lodged against several of the concept definitions in the vocabulary used for Act.moodCode. The vote was found “Persuasive With Mod”, with the understanding that M and M would undertake a detailed review of these concept definitions for a future release of the RIM.</p>
 </td>
          </tr>
          <tr>
@@ -6902,6 +6963,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-v3-ActPriority.html" title="CodeSystem/v3-ActPriority">ActPriority</a>
+            </td>
+            <td>
+<p>A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-ActPriority-supplement-fr.html"
                   title="CodeSystem/ActPriority-supplement-fr">ActPrioritySupplementFr</a>
             </td>
@@ -6911,11 +6980,28 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-v3-ActStatus.html" title="CodeSystem/v3-ActStatus">ActStatus</a>
+            </td>
+            <td>
+<p>Codes representing the defined possible states of an Act, as defined by the Act class state machine.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-ActStatus-supplement-fr.html"
                   title="CodeSystem/ActStatus-supplement-fr">ActStatusSupplementFr</a>
             </td>
             <td>
 <p>Traduction Française</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-AdministrativeGender.html"
+                  title="CodeSystem/v3-AdministrativeGender">AdministrativeGender</a>
+            </td>
+            <td>
+<p>The gender of a person used for adminstrative purposes (as opposed to clinical gender)</p>
 </td>
          </tr>
          <tr>
@@ -7001,6 +7087,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-condition-clinical.html"
+                  title="CodeSystem/condition-clinical">Condition Clinical Status Codes</a>
+            </td>
+            <td>
+<p>Preferred value set for Condition Clinical Status.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-condition-clinical-supplement-fr.html"
                   title="CodeSystem/condition-clinical-supplement-fr">ConditionClinicalSupplementFr</a>
             </td>
@@ -7015,6 +7110,24 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </td>
             <td>
 <p>Traduction Française</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-condition-ver-status.html"
+                  title="CodeSystem/condition-ver-status">ConditionVerificationStatus</a>
+            </td>
+            <td>
+<p>The verification status to support or decline the clinical status of the condition or diagnosis.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-Confidentiality.html"
+                  title="CodeSystem/v3-Confidentiality">Confidentiality</a>
+            </td>
+            <td>
+<p>A set of codes specifying the security classification of acts and roles in accordance with the definition for concept domain “Confidentiality”.</p>
 </td>
          </tr>
          <tr>
@@ -7046,6 +7159,14 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-v3-EntityCode.html" title="CodeSystem/v3-EntityCode">EntityCode</a>
+            </td>
+            <td>
+<p><em>OpenIssue:</em> Missing description.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-terminologie-emdn.html"
                   title="CodeSystem/terminologie-emdn">European Medical device nomenclature</a>
             </td>
@@ -7064,11 +7185,34 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-icd-o-3.html" title="CodeSystem/icd-o-3">International Classification of Diseases for Oncology, version 3.</a>
+            </td>
+            <td>
+<p>International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-terminologie-lahn.html"
                   title="CodeSystem/terminologie-lahn">Liste des Actes Inovants Hors Nomenclature</a>
             </td>
             <td>
 <p>La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-mediaType.html" title="CodeSystem/v3-mediaType">Media Type</a>
+            </td>
+            <td>
+<p>Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 [http://www.ietf.org/rfc/rfc2045.txt] and 2046 [http://www.ietf.org/rfc/rfc2046.txt]. RFC 2046 defines the media type to consist of two parts:
+</p>
+<ol>
+  <li>top level media type, and</li>
+  <li>media subtype
+
+However, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash “/” followed by media subtype. Currently defined media types are registered in a database [http://www.iana.org/assignments/media-types/index.html] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used.</li>
+</ol>
 </td>
          </tr>
          <tr>
@@ -7110,11 +7254,33 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-v3-ObservationInterpretation.html"
+                  title="CodeSystem/v3-ObservationInterpretation">ObservationInterpretation</a>
+            </td>
+            <td>
+<p>One or more codes providing a rough qualitative interpretation of the observation, such as “normal” / “abnormal”, “low” / “high”, “better” / “worse”, “resistant” / “susceptible”, “expected” / “not expected”. The value set is intended to be for ANY use where coded representation of an interpretation is needed.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-ObservationInterpretation-supplement-fr.html"
                   title="CodeSystem/ObservationInterpretation-supplement-fr">ObservationInterpretationSupplementFr</a>
             </td>
             <td>
 <p>Traduction Française</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-ObservationMethod.html"
+                  title="CodeSystem/v3-ObservationMethod">ObservationMethod</a>
+            </td>
+            <td>
+<p>A code that provides additional detail about the means or technique used to ascertain the observation.
+
+<em>Examples:</em> Blood pressure measurement method: arterial puncture vs. sphygmomanometer (Riva-Rocci), sitting vs. supine position, etc.
+
+<em>OpenIssue:</em> Description copied from Concept Domain of same name. Must be verified. Note that the Domain has a full discussion about use of the attribute and constraining that is not appropriate for the code system description. Needs to be improved.</p>
 </td>
          </tr>
          <tr>
@@ -7128,11 +7294,29 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-v3-ObservationValue.html"
+                  title="CodeSystem/v3-ObservationValue">ObservationValue</a>
+            </td>
+            <td>
+<p>This code system covers all concepts of HL7-defined values for the Observation value element, when it has a coded datatype.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-ObservationValue-supplement-fr.html"
                   title="CodeSystem/ObservationValue-supplement-fr">ObservationValueSupplementFr</a>
             </td>
             <td>
 <p>Traduction Française</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-orderableDrugForm.html"
+                  title="CodeSystem/v3-orderableDrugForm">Orderable Drug Form</a>
+            </td>
+            <td>
+<p><em>OpenIssue:</em> Missing description.</p>
 </td>
          </tr>
          <tr>
@@ -7146,11 +7330,29 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-v3-ParticipationFunction.html"
+                  title="CodeSystem/v3-ParticipationFunction">ParticipationFunction</a>
+            </td>
+            <td>
+<p>This code is used to specify the exact function an actor had in a service in all necessary detail. This domain may include local extensions (CWE).</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-ParticipationFunction-supplement-fr.html"
                   title="CodeSystem/ParticipationFunction-supplement-fr">ParticipationFunctionSupplementFr</a>
             </td>
             <td>
 <p>Traduction Française</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-ParticipationType.html"
+                  title="CodeSystem/v3-ParticipationType">ParticipationType</a>
+            </td>
+            <td>
+<p>A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation.</p>
 </td>
          </tr>
          <tr>
@@ -7173,6 +7375,14 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-v3-RoleCode.html" title="CodeSystem/v3-RoleCode">RoleCode</a>
+            </td>
+            <td>
+<p>A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-RoleCode-supplement-fr.html"
                   title="CodeSystem/RoleCode-supplement-fr">RoleCodeSupplementFr</a>
             </td>
@@ -7182,8 +7392,8 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
-               <a href="CodeSystem-900000000000207008-20251201.html"
-                  title="CodeSystem/900000000000207008-20251201">SNOMED CT core</a>
+               <a href="CodeSystem-900000000000207008-20260101.html"
+                  title="CodeSystem/900000000000207008-20260101">SNOMED CT core</a>
             </td>
             <td>
 <p>SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).</p>
@@ -7195,6 +7405,15 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
             </td>
             <td>
 <p>This value set defines an example set of codes of service-types.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-SpecimenType.html"
+                  title="CodeSystem/v3-SpecimenType">SpecimenType</a>
+            </td>
+            <td>
+<p><strong>** MISSING DESCRIPTION **</strong></p>
 </td>
          </tr>
          <tr>
@@ -7213,6 +7432,15 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
             </td>
             <td>
 <p>Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v3-substanceAdminSubstitution.html"
+                  title="CodeSystem/v3-substanceAdminSubstitution">Substance Admin Substitution</a>
+            </td>
+            <td>
+<p>Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.</p>
 </td>
          </tr>
          <tr>
@@ -9479,6 +9707,14 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-v3-TimingEvent.html" title="CodeSystem/v3-TimingEvent">TimingEvent</a>
+            </td>
+            <td>
+<p><strong>** MISSING DESCRIPTION **</strong></p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-TimingEvent-supplement-fr.html"
                   title="CodeSystem/TimingEvent-supplement-fr">TimingEventSupplementFr</a>
             </td>
@@ -9524,11 +9760,53 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
          </tr>
          <tr>
             <td style="column-width:30%">
+               <a href="CodeSystem-tre-r407-composition-foyer.html"
+                  title="CodeSystem/tre-r407-composition-foyer">Tre R407 Composition Foyer</a>
+            </td>
+            <td>
+<p>Désigne avec qui vit l’usager dans son logement.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-tre-r408-type-enseignement-specialise.html"
+                  title="CodeSystem/tre-r408-type-enseignement-specialise">Tre R408 Type Enseignement Specialise</a>
+            </td>
+            <td>
+<p>Type d’enseignement spécialisé.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
                <a href="CodeSystem-v3-SpecimenType-supplement-fr.html"
                   title="CodeSystem/v3-SpecimenType-supplement-fr">V3SpecimenTypeSupplementFr</a>
             </td>
             <td>
 <p>Traduction Française</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v2-0066.html" title="CodeSystem/v2-0066">employmentStatus</a>
+            </td>
+            <td>
+<p>HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v2-0488.html" title="CodeSystem/v2-0488">specimenCollectionMethod</a>
+            </td>
+            <td>
+<p>HL7-defined code system of concepts specifying the specimen collection method.  Used in HL7 Version 2.x messaging in the SPM segment.</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="CodeSystem-v2-0487.html" title="CodeSystem/v2-0487">specimenType</a>
+            </td>
+            <td>
+<p>HL7-defined code system of concepts that describe the precise nature of an entity that may be used as the source material for an observation.  This is one of two code systems that are used instead of table 0070 (code system 2.16.840.1.113883.18.28) which conflated specimen types and specimen collection methods.   Used in HL7 Version 2.x messaging in the SPM segment.</p>
 </td>
          </tr>
       </tbody>
@@ -9915,7 +10193,7 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 19, 2025 16:19+0000">2025-12-19</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 3, 2026 11:48+0000">2026-02-03</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

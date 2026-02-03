@@ -10,14 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="N"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
-                  displayName="Normal"/>
+         <Concept code="N" codeSystem="2.16.840.1.113883.5.25" displayName="Normal"/>
          <Concept code="R"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  codeSystem="2.16.840.1.113883.5.25"
                   displayName="Restreint"/>
          <Concept code="V"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-Confidentiality"
+                  codeSystem="2.16.840.1.113883.5.25"
                   displayName="Très restreint"/>
       </ConceptList>
    </ValueSet>

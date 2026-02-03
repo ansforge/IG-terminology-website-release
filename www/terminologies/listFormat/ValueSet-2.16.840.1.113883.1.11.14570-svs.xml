@@ -11,31 +11,27 @@
              urlFichier="">
       <ConceptList>
          <Concept code="APPFUL"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  codeSystem="2.16.840.1.113883.5.85"
                   displayName="Applicatorful"/>
-         <Concept code="PUFF"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
-                  displayName="Puff"/>
+         <Concept code="PUFF" codeSystem="2.16.840.1.113883.5.85" displayName="Puff"/>
          <Concept code="SCOOP"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  codeSystem="2.16.840.1.113883.5.85"
                   displayName="Scoops"/>
          <Concept code="SPRY"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  codeSystem="2.16.840.1.113883.5.85"
                   displayName="Sprays"/>
-         <Concept code="DROP"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
-                  displayName="Drops"/>
+         <Concept code="DROP" codeSystem="2.16.840.1.113883.5.85" displayName="Drops"/>
          <Concept code="NDROP"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  codeSystem="2.16.840.1.113883.5.85"
                   displayName="Nasal Drops"/>
          <Concept code="OPDROP"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  codeSystem="2.16.840.1.113883.5.85"
                   displayName="Ophthalmic Drops"/>
          <Concept code="ORDROP"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  codeSystem="2.16.840.1.113883.5.85"
                   displayName="Oral Drops"/>
          <Concept code="OTDROP"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm"
+                  codeSystem="2.16.840.1.113883.5.85"
                   displayName="Otic Drops"/>
       </ConceptList>
    </ValueSet>

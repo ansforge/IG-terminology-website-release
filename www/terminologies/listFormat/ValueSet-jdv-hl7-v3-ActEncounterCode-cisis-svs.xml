@@ -11,31 +11,31 @@
              urlFichier="">
       <ConceptList>
          <Concept code="AMB"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Ambulatoire (hors établissement)"/>
          <Concept code="EMER"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Passage aux urgences (établissement)"/>
          <Concept code="FLD"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Terrain (voie publique, hélicoptère, ambulance, etc.)"/>
          <Concept code="HH"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Soins à domicile (hors établissement)"/>
          <Concept code="IMP"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Hospitalisation (établissement, y compris HAD)"/>
          <Concept code="OBSENC"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Observation"/>
          <Concept code="PRENC"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Pré-admission"/>
          <Concept code="SS"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Hospitalisation de jour"/>
          <Concept code="VR"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Virtuelle (exemple : RCP en l'absence du patient)"/>
       </ConceptList>
    </ValueSet>

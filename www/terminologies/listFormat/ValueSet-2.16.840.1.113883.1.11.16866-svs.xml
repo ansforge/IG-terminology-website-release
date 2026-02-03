@@ -11,41 +11,39 @@
              urlFichier="">
       <ConceptList>
          <Concept code="A"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="Aussi vite que possible"/>
          <Concept code="CR"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="A contacter dès que les résultats sont disponibles"/>
          <Concept code="EL"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="Bénéfique pour le patient mais pas essentiel pour sa survie"/>
          <Concept code="EM"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="Très urgent"/>
          <Concept code="P"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="A réaliser avant l'intervention"/>
          <Concept code="PRN"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="Si nécessaire"/>
          <Concept code="R"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="A réaliser aux heures ouvrées"/>
          <Concept code="RR"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="Compte-rendu urgent"/>
          <Concept code="S"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="Immédiatement"/>
          <Concept code="T"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="Plannification à respecter"/>
          <Concept code="UD"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
+                  codeSystem="2.16.840.1.113883.5.7"
                   displayName="Médicament à utiliser selon les directives du prescripteur"/>
-         <Concept code="UR"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActPriority"
-                  displayName="Urgent"/>
+         <Concept code="UR" codeSystem="2.16.840.1.113883.5.7" displayName="Urgent"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

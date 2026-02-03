@@ -39,7 +39,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J01-XdsAuthorSpecialty-CISIS/FHIR/JDV-J01-XdsAuthorSpecialty-CISIS",
-      "version" : "20251222120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J01_XdsAuthorSpecialty_CISIS",
       "title" : null,
@@ -100,7 +100,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J05-SubjectRole-CISIS/FHIR/JDV-J05-SubjectRole-CISIS",
-      "version" : "20251222120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J05_SubjectRole_CISIS",
       "title" : null,
@@ -140,7 +140,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS",
-      "version" : "20251029120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J07_XdsTypeCode_CISIS",
       "title" : null,
@@ -306,7 +306,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J108-EnsembleFonction-RASS/FHIR/JDV-J108-EnsembleFonction-RASS",
-      "version" : "20251222120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J108_EnsembleFonction_RASS",
       "title" : null,
@@ -426,7 +426,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J117-ModeExercice-ENREG/FHIR/JDV-J117-ModeExercice-ENREG",
-      "version" : "20210827120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J117_ModeExercice_ENREG",
       "title" : null,
@@ -498,7 +498,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J121-RolePriseCharge-ENREG/FHIR/JDV-J121-RolePriseCharge-ENREG",
-      "version" : "20251222120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J121_RolePriseCharge_ENREG",
       "title" : null,
@@ -1832,7 +1832,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J217-ModeExercice-ROR/FHIR/JDV-J217-ModeExercice-ROR",
-      "version" : "20220826120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J217_ModeExercice_ROR",
       "title" : null,
@@ -3492,7 +3492,7 @@
     },
     {
       "url" : "https://mos.esante.gouv.fr/NOS/JDV_J95-ModeExercice-RASS/FHIR/JDV-J95-ModeExercice-RASS",
-      "version" : "20210827120000",
+      "version" : "20260202120000",
       "status" : "active",
       "name" : "JDV_J95_ModeExercice_RASS",
       "title" : null,
@@ -6013,6 +6013,59 @@
       ],
       "oids" : ["1.2.250.1.213.1.6.1.394"],
       "sources" : ["1.2.250.1.213.1.6.1.394"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j384-role-membre-famille-ms",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "JdvJ384RoleMembreFamilleMs",
+      "title" : "Jdv J384 Role Membre Famille Ms",
+      "description" : "Rôle d'un membre de la famille ou d'un proche de l'usager.",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R260-HL7RoleClass/FHIR/TRE-R260-HL7RoleClass"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.227"],
+      "sources" : ["1.2.250.1.213.3.4.227"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j385-composition-foyer-ms",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "JdvJ385CompositionFoyerMs",
+      "title" : "Jdv J385 Composition Foyer Ms",
+      "description" : "Désigne avec qui vit l’usager dans son logement.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r407-composition-foyer"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.228"],
+      "sources" : ["1.2.250.1.213.3.4.228"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j386-type-enseignement-specialise-ms",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "JdvJ386TypeEnseignementSpecialiseMs",
+      "title" : "Jdv J386 Type Enseignement Specialise Ms",
+      "description" : "Type d'enseignement spécialisé.",
+      "systems" : [
+        "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r408-type-enseignement-specialise"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.229"],
+      "sources" : ["1.2.250.1.213.3.4.229"]
+    },
+    {
+      "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-j387-role-participant-ms",
+      "version" : "20260202120000",
+      "status" : "active",
+      "name" : "JdvJ387RoleParticipantMs",
+      "title" : "Jdv J387 Role Participant Ms",
+      "description" : "Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement).",
+      "systems" : [
+        "https://mos.esante.gouv.fr/NOS/TRE_R85-RolePriseCharge/FHIR/TRE-R85-RolePriseCharge",
+        "https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice"
+      ],
+      "oids" : ["1.2.250.1.213.3.4.230"],
+      "sources" : ["1.2.250.1.213.3.4.230"]
     },
     {
       "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-jour-semaine-cisis",
@@ -9496,8 +9549,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
       "uses" : {
       },
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+      "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -9509,8 +9562,8 @@
       "systems" : ["https://smt.esante.gouv.fr/terminologie-cip_ucd"],
       "uses" : {
       },
-      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
+      "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
+      "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
     },
     {
       "url" : "https://smt.esante.gouv.fr/terminologie-nuva?vs",

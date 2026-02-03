@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260202120000"
              dateValid="20150101000000"
              description="Rôle dans la prise en charge des patients ou des usagers"
              displayName="TRE_R85_RolePriseCharge"
@@ -676,6 +676,15 @@
                   longDesignation="Technicien d’études cliniques"
                   shortDesignation="Technicien d’études cliniques"
                   descriptionMetier=""/>
+         <Concept code="374"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  dateFin=""
+                  dateMaj="20260202120000"
+                  dateValid="20260202120000"
+                  displayName="Agent d'autorité d'enregistrement"
+                  longDesignation="Agent d'autorité d'enregistrement"
+                  shortDesignation="Agent d'autorité d'enregistrement"
+                  descriptionMetier="Les agents des autorités d’enregistrement sont des personnes habilitées à collecter, vérifier et transmettre les données d’identification des professionnels de santé vers les systèmes officiels, notamment le RPPS et le tableau si l’autorité d’enregistrement est un Ordre médical. Ils jouent un rôle crucial dans la gestion administrative et réglementaire de la profession. L’agent d’enregistrement vérifie les diplômes, les pièces justificatives et les conditions d’exercice du professionnel. Pour une profession ordinale, il ou elle enregistre le professionnel dans le tableau officiel de l’Ordre et lui attribue un numéro ordinal. Les données validées (identité, spécialité, lieu d’exercice, etc.) sont quotidiennement transmises au RPPS. Elles sont considérées comme fiables et opposables, car elles proviennent d’autorités officielles que sont les Ordres professionnels, les ARS ou le Service de santé des armées."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -11,13 +11,13 @@
              urlFichier="">
       <ConceptList>
          <Concept code="Employed"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="En activité"/>
          <Concept code="NotInLaborForce"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="Inactif"/>
          <Concept code="Unemployed"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ObservationValue"
+                  codeSystem="2.16.840.1.113883.5.1063"
                   displayName="Sans activité"/>
       </ConceptList>
    </ValueSet>

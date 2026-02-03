@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20260202120000"
              dateValid="20121006000000"
              description="Profession et savoir-faire CI-SIS"
              displayName="TRE_A02_ProfessionSavFaire_CISIS"
@@ -2826,6 +2826,15 @@
                   displayName="Médecin - Urgences pédiatriques (SST)"
                   longDesignation="Médecin - Urgences pédiatriques (SST)"
                   shortDesignation="Médecin - Urgences pédiatriques (SST)"
+                  descriptionMetier=""/>
+         <Concept code="G15_10/SST27"
+                  codeSystem="1.2.250.1.213.1.1.4.5"
+                  dateFin=""
+                  dateMaj="20260202120000"
+                  dateValid="20260202120000"
+                  displayName="Médecin - Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
+                  longDesignation="Médecin - Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
+                  shortDesignation="Médecin - Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
                   descriptionMetier=""/>
          <Concept code="G15_21/FQ01"
                   codeSystem="1.2.250.1.213.1.1.4.5"

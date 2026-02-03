@@ -1,0 +1,94 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-emdn> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:id [ fhir:v "terminologie-emdn"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "3" ] ;
+     fhir:lastUpdated [ fhir:v "2025-03-20T13:52:13.373+00:00"^^xsd:dateTime ] ;
+     fhir:profile ( [
+       fhir:v "http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"^^xsd:anyURI ;
+       fhir:link <http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1>
+     ] )
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\">La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature que doivent utiliser les fabricants pour enregistrer leurs dispositifs médicaux dans EUDAMED, base de données européenne sur les dispositifs médicaux. Il s'agit d'alimenter le système européen d’identification des dispositifs fondé sur un identifiant unique du dispositif (IUD) pour en faciliter la traçabilité.</div>"^^rdf:XMLLiteral
+  ] ; # 
+  fhir:url [ fhir:v "https://smt.esante.gouv.fr/terminologie-emdn"^^xsd:anyURI] ; # 
+  fhir:identifier ( [
+     fhir:use [ fhir:v "usual" ] ;
+     fhir:system [ fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "urn:oid:1.2.250.1.213.2.68" ]
+  ] [
+     fhir:use [ fhir:v "secondary" ] ;
+     fhir:system [ fhir:v "https://smt.esante.gouv.fr/"^^xsd:anyURI ] ;
+     fhir:value [ fhir:v "terminologie-emdn" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "v1.2"] ; # 
+  fhir:name [ fhir:v "EMDN"] ; # 
+  fhir:title [ fhir:v "European Medical device nomenclature"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2022-04-28T00:00:00+00:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "Agence du numérique en santé"] ; # 
+  fhir:description [ fhir:v "La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature que doivent utiliser les fabricants pour enregistrer leurs dispositifs médicaux dans EUDAMED, base de données européenne sur les dispositifs médicaux. Il s'agit d'alimenter le système européen d’identification des dispositifs fondé sur un identifiant unique du dispositif (IUD) pour en faciliter la traçabilité."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [ fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ] ;
+       fhir:code [ fhir:v "FRA" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)"] ; # 
+  fhir:valueSet [
+     fhir:v "https://smt.esante.gouv.fr/terminologie-emdn?vs"^^xsd:anyURI ;
+     fhir:link <https://smt.esante.gouv.fr/terminologie-emdn?vs>
+  ] ; # 
+  fhir:content [ fhir:v "not-present"] ; # 
+  fhir:count [ fhir:v "8344"^^xsd:nonNegativeInteger] ; # 
+  fhir:filter ( [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false." ]
+  ] [
+     fhir:code [ fhir:v "deprecated" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false." ]
+  ] [
+     fhir:code [ fhir:v "imported" ] ;
+     fhir:operator ( [ fhir:v "=" ] ) ;
+     fhir:value [ fhir:v "True or false" ]
+  ] ) ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "type" ] ;
+     fhir:uri [ fhir:v "http://purl.org/dc/elements/1.1/type"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Type fonctionnel d'un concept" ] ;
+     fhir:type [ fhir:v "string" ]
+  ] [
+     fhir:code [ fhir:v "parent" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#parent"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Codes des parents du concept courant" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "child" ] ;
+     fhir:uri [ fhir:v "http://hl7.org/fhir/concept-properties#child"^^xsd:anyURI ] ;
+     fhir:description [ fhir:v "Codes des enfants du concept courant" ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "imported" ] ;
+     fhir:description [ fhir:v "Indicates if the concept is imported from another code system." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] [
+     fhir:code [ fhir:v "root" ] ;
+     fhir:description [ fhir:v "Indicates if this concept is a root concept (i.e. Thing is equivalent or a direct parent)." ] ;
+     fhir:type [ fhir:v "boolean" ]
+  ] ) . # 
+
+# -------------------------------------------------------------------------------------
+

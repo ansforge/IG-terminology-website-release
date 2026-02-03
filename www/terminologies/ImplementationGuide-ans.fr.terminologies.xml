@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.5.0"/>
+  <version value="1.6.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2025-12-19T16:18:25+00:00"/>
+  <date value="2026-02-03T11:48:04+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -17961,6 +17961,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/v3-ActCode"/>
+      </reference>
+      <name value="ActCode"/>
+      <description value="A code specifying the particular kind of Act that the Act-instance represents within its class.&#xD;&#xA;&#xD;&#xA;*Constraints:* The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.&#xD;&#xA;&#xD;&#xA;Conceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.&#xD;&#xA;&#xD;&#xA;Act.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code &quot;potassium&quot; together with and Act.classCode for &quot;laboratory observation&quot; to somehow mean &quot;potassium laboratory observation&quot; and then use the same Act.code for &quot;potassium&quot; together with Act.classCode for &quot;medication&quot; to mean &quot;substitution of potassium&quot;. This mutually modifying use of Act.code and Act.classCode is not permitted."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/actCode-supplement-fr"/>
       </reference>
       <name value="ActCodeSupplementFr"/>
@@ -17987,6 +17998,17 @@
       </reference>
       <name value="ActMood"/>
       <description value="ActMood"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-ActMood"/>
+      </reference>
+      <name value="ActMood"/>
+      <description value="OpenIssue: In Ballot 2009May, a strong Negative vote was lodged against several of the concept definitions in the vocabulary used for Act.moodCode. The vote was found &quot;Persuasive With Mod&quot;, with the understanding that M and M would undertake a detailed review of these concept definitions for a future release of the RIM."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18038,6 +18060,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/v3-ActPriority"/>
+      </reference>
+      <name value="ActPriority"/>
+      <description value="A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/ActPriority-supplement-fr"/>
       </reference>
       <name value="ActPrioritySupplementFr"/>
@@ -18053,6 +18086,17 @@
       </reference>
       <name value="ActStatus"/>
       <description value="ActStatus"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-ActStatus"/>
+      </reference>
+      <name value="ActStatus"/>
+      <description value="Codes representing the defined possible states of an Act, as defined by the Act class state machine."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18129,6 +18173,17 @@
       </reference>
       <name value="AdministrativeGender"/>
       <description value="AdministrativeGender"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-AdministrativeGender"/>
+      </reference>
+      <name value="AdministrativeGender"/>
+      <description value="The gender of a person used for adminstrative purposes (as opposed to clinical gender)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18603,6 +18658,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/condition-clinical"/>
+      </reference>
+      <name value="Condition Clinical Status Codes"/>
+      <description value="Preferred value set for Condition Clinical Status."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -18628,6 +18694,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/condition-ver-status"/>
+      </reference>
+      <name value="ConditionVerificationStatus"/>
+      <description value="The verification status to support or decline the clinical status of the condition or diagnosis."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/condition-ver-status-supplement-fr"/>
       </reference>
       <name value="ConditionVerStatusSupplementFr"/>
@@ -18643,6 +18720,17 @@
       </reference>
       <name value="Confidentiality"/>
       <description value="Confidentiality"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-Confidentiality"/>
+      </reference>
+      <name value="Confidentiality"/>
+      <description value="A set of codes specifying the security classification of acts and roles in accordance with the definition for concept domain &quot;Confidentiality&quot;."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18691,6 +18779,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v2-0066"/>
+      </reference>
+      <name value="employmentStatus"/>
+      <description value="HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -18709,6 +18808,17 @@
       </reference>
       <name value="EmploymentStatusSupplementFr"/>
       <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-EntityCode"/>
+      </reference>
+      <name value="EntityCode"/>
+      <description value="*OpenIssue:* Missing description."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -18763,6 +18873,17 @@
         <reference value="NamingSystem/IHERoleCodeVocabulary"/>
       </reference>
       <name value="IHERoleCode_Vocabulary"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/icd-o-3"/>
+      </reference>
+      <name value="International Classification of Diseases for Oncology, version 3."/>
+      <description value="International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20523,6 +20644,50 @@
       </reference>
       <name value="Jdv J383 Motif Cloture Exercice Professionnel Epars"/>
       <description value="Ce jeu de valeur liste les différents motifs qui peuvent justifier la clôture d'un exercice professionnel."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j384-role-membre-famille-ms"/>
+      </reference>
+      <name value="Jdv J384 Role Membre Famille Ms"/>
+      <description value="Rôle d'un membre de la famille ou d'un proche de l'usager."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j385-composition-foyer-ms"/>
+      </reference>
+      <name value="Jdv J385 Composition Foyer Ms"/>
+      <description value="Désigne avec qui vit l’usager dans son logement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j386-type-enseignement-specialise-ms"/>
+      </reference>
+      <name value="Jdv J386 Type Enseignement Specialise Ms"/>
+      <description value="Type d'enseignement spécialisé."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j387-role-participant-ms"/>
+      </reference>
+      <name value="Jdv J387 Role Participant Ms"/>
+      <description value="Rôle du participant vis à vis de l'événement (mandataire judiciaire, structure en charge de l'événement)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26498,6 +26663,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-mediaType"/>
+      </reference>
+      <name value="Media Type"/>
+      <description value="Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 \[http://www.ietf.org/rfc/rfc2045.txt\] and 2046 \[http://www.ietf.org/rfc/rfc2046.txt\]. RFC 2046 defines the media type to consist of two parts:&#xD;&#xA;&#xD;&#xA;1.  top level media type, and&#xD;&#xA;2.  media subtype&#xD;&#xA;&#xD;&#xA;However, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash &quot;/&quot; followed by media subtype. Currently defined media types are registered in a database \[http://www.iana.org/assignments/media-types/index.html\] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -26577,6 +26753,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/v3-ObservationInterpretation"/>
+      </reference>
+      <name value="ObservationInterpretation"/>
+      <description value="One or more codes providing a rough qualitative interpretation of the observation, such as &quot;normal&quot; / &quot;abnormal&quot;, &quot;low&quot; / &quot;high&quot;, &quot;better&quot; / &quot;worse&quot;, &quot;resistant&quot; / &quot;susceptible&quot;, &quot;expected&quot; / &quot;not expected&quot;. The value set is intended to be for ANY use where coded representation of an interpretation is needed."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/ObservationInterpretation-supplement-fr"/>
       </reference>
       <name value="ObservationInterpretationSupplementFr"/>
@@ -26599,6 +26786,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/v3-ObservationMethod"/>
+      </reference>
+      <name value="ObservationMethod"/>
+      <description value="A code that provides additional detail about the means or technique used to ascertain the observation.&#xD;&#xA;&#xD;&#xA;*Examples:* Blood pressure measurement method: arterial puncture vs. sphygmomanometer (Riva-Rocci), sitting vs. supine position, etc.&#xD;&#xA;&#xD;&#xA;*OpenIssue:* Description copied from Concept Domain of same name. Must be verified. Note that the Domain has a full discussion about use of the attribute and constraining that is not appropriate for the code system description. Needs to be improved."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/ObservationMethod-supplement-fr"/>
       </reference>
       <name value="ObservationMethodSupplementFr"/>
@@ -26610,10 +26808,32 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/v3-ObservationValue"/>
+      </reference>
+      <name value="ObservationValue"/>
+      <description value="This code system covers all concepts of HL7-defined values for the Observation value element, when it has a coded datatype."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/ObservationValue-supplement-fr"/>
       </reference>
       <name value="ObservationValueSupplementFr"/>
       <description value="Traduction Française"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-orderableDrugForm"/>
+      </reference>
+      <name value="Orderable Drug Form"/>
+      <description value="*OpenIssue:* Missing description."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26643,6 +26863,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/v3-ParticipationFunction"/>
+      </reference>
+      <name value="ParticipationFunction"/>
+      <description value="This code is used to specify the exact function an actor had in a service in all necessary detail. This domain may include local extensions (CWE)."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/ParticipationFunction-supplement-fr"/>
       </reference>
       <name value="ParticipationFunctionSupplementFr"/>
@@ -26658,6 +26889,17 @@
       </reference>
       <name value="ParticipationType"/>
       <description value="ParticipationType"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-ParticipationType"/>
+      </reference>
+      <name value="ParticipationType"/>
+      <description value="A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26730,6 +26972,17 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/v3-RoleCode"/>
+      </reference>
+      <name value="RoleCode"/>
+      <description value="A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/RoleCode-supplement-fr"/>
       </reference>
       <name value="RoleCodeSupplementFr"/>
@@ -26773,7 +27026,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20251201"/>
+        <reference value="CodeSystem/900000000000207008-20260101"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
@@ -26802,6 +27055,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v2-0488"/>
+      </reference>
+      <name value="specimenCollectionMethod"/>
+      <description value="HL7-defined code system of concepts specifying the specimen collection method.  Used in HL7 Version 2.x messaging in the SPM segment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
@@ -26809,6 +27073,28 @@
       </reference>
       <name value="SpecimenRoleType"/>
       <description value="SpecimenRoleType"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v2-0487"/>
+      </reference>
+      <name value="specimenType"/>
+      <description value="HL7-defined code system of concepts that describe the precise nature of an entity that may be used as the source material for an observation.  This is one of two code systems that are used instead of table 0070 (code system 2.16.840.1.113883.18.28) which conflated specimen types and specimen collection methods.   Used in HL7 Version 2.x messaging in the SPM segment."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-SpecimenType"/>
+      </reference>
+      <name value="SpecimenType"/>
+      <description value="**** MISSING DESCRIPTION ****"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26831,6 +27117,17 @@
       </reference>
       <name value="Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments"/>
       <description value="Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-substanceAdminSubstitution"/>
+      </reference>
+      <name value="Substance Admin Substitution"/>
+      <description value="Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26864,6 +27161,17 @@
       </reference>
       <name value="TimingEvent"/>
       <description value="TimingEvent"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/v3-TimingEvent"/>
+      </reference>
+      <name value="TimingEvent"/>
+      <description value="**** MISSING DESCRIPTION ****"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -26919,6 +27227,28 @@
       </reference>
       <name value="Tre R394 Competence Metier"/>
       <description value="Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r407-composition-foyer"/>
+      </reference>
+      <name value="Tre R407 Composition Foyer"/>
+      <description value="Désigne avec qui vit l’usager dans son logement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r408-type-enseignement-specialise"/>
+      </reference>
+      <name value="Tre R408 Type Enseignement Specialise"/>
+      <description value="Type d'enseignement spécialisé."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

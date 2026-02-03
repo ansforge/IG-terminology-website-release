@@ -11,14 +11,10 @@
              urlFichier="">
       <ConceptList>
          <Concept code="DAU"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
+                  codeSystem="2.16.840.1.113883.5.111"
                   displayName="Fille biologique"/>
-         <Concept code="MTH"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
-                  displayName="Mère"/>
-         <Concept code="SIS"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-RoleCode"
-                  displayName="Sœur"/>
+         <Concept code="MTH" codeSystem="2.16.840.1.113883.5.111" displayName="Mère"/>
+         <Concept code="SIS" codeSystem="2.16.840.1.113883.5.111" displayName="Sœur"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

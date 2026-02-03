@@ -11,25 +11,25 @@
              urlFichier="">
       <ConceptList>
          <Concept code="aborted"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  codeSystem="2.16.840.1.113883.5.14"
                   displayName="Arrêté (après son lancement)"/>
          <Concept code="active"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  codeSystem="2.16.840.1.113883.5.14"
                   displayName="Actif (en cours ou à venir)"/>
          <Concept code="cancelled"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  codeSystem="2.16.840.1.113883.5.14"
                   displayName="Annulé (avant son lancement)"/>
          <Concept code="completed"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  codeSystem="2.16.840.1.113883.5.14"
                   displayName="Terminé"/>
          <Concept code="held"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  codeSystem="2.16.840.1.113883.5.14"
                   displayName="En attente (avant son lancement)"/>
          <Concept code="new"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  codeSystem="2.16.840.1.113883.5.14"
                   displayName="En préparation"/>
          <Concept code="suspended"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActStatus"
+                  codeSystem="2.16.840.1.113883.5.14"
                   displayName="Suspendu (au cours de sa réalisation)"/>
       </ConceptList>
    </ValueSet>

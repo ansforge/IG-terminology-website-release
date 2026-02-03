@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>TRE_A01_CadreExercice - Terminologies  de Santé v1.5.0</title>
+    <title>TRE_A01_CadreExercice - Terminologies  de Santé v1.6.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -41,8 +41,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.789"}
-    h3,h4,h5,h6{--heading-prefix:"7.789"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.819"}
+    h3,h4,h5,h6{--heading-prefix:"7.819"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.5.0 - final-text
+            <span style="display:inline-block;">1.6.0 - final-text
 
 
 
@@ -130,6 +130,9 @@
   <li>
     <a target="_blank" href="https://interop.esante.gouv.fr/ig/documentation/">Documentation</a>
   </li>
+  <li>
+    <a target="_blank" href="https://smt.esante.gouv.fr/">SMT</a>
+  </li>
 </ul>
             </div>  <!-- /.nav-collapse -->
           </div>  <!-- /.container -->
@@ -164,7 +167,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.5.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.6.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   
 
 
@@ -334,26 +337,27 @@
 <ul>
  <li><a href="ValueSet-JDV-J04-XdsPracticeSettingCode-CISIS.html">JDV_J04_XdsPracticeSettingCode_CISIS</a></li>
  <li><a href="ValueSet-JDV-J62-PracticeSettingCode-DMP.html">JDV_J62_PracticeSettingCode_DMP</a></li>
+ <li><a href="ValueSet-jdv-j387-role-participant-ms.html">JdvJ387RoleParticipantMs</a></li>
 </ul>
 
 
   <div id="orig">  
-    <div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: CodeSystem TRE-A01-CadreExercice</b></p><a name="TRE-A01-CadreExercice"> </a><a name="hcTRE-A01-CadreExercice"> </a><a name="TRE-A01-CadreExercice-fr-FR"> </a>
-<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 6; Last updated: 2025-07-02 18:11:13+0000</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystemversion: null4.0.1)</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
+    <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR"><p class="res-header-id"><b>Generated Narrative: CodeSystem TRE-A01-CadreExercice</b></p><a name="TRE-A01-CadreExercice"> </a><a name="hcTRE-A01-CadreExercice"> </a><a name="TRE-A01-CadreExercice-fr-FR"> </a>
+<div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">version: 7; Last updated: 2026-02-03 09:57:49+0100; Language: fr-FR</p><p style="margin-bottom: 0px">Profil: <a href="http://hl7.org/fhir/R4/shareablecodesystem.html">Shareable CodeSystemversion: null4.0.1)</a></p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p>
 <table class="grid"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr>
 <tr><td>dateValid</td>
 <td>dateValid</td>
-<td></td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#dateValid</td>
 <td>dateTime</td>
 <td>date de validité d'un code concept</td></tr>
 <tr><td>dateMaj</td>
 <td>dateMaj</td>
-<td></td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj</td>
 <td>dateTime</td>
 <td>Date de mise à jour d'un code concept</td></tr>
 <tr><td>dateFin</td>
 <td>dateFin</td>
-<td></td>
+<td>https://smt.esante.gouv.fr/fhir/concept-properties#dateFin</td>
 <td>dateTime</td>
 <td>Date de fin d'exploitation d'un code concept</td></tr>
 <tr><td>deprecationDate</td>
@@ -371,67 +375,37 @@
 <td>http://hl7.org/fhir/concept-properties#retirementDate</td>
 <td>dateTime</td>
 <td>Date Concept was retired</td></tr></table><p><b>Concepts</b></p><p>This case-insensitive code system <code>https://mos.esante.gouv.fr/NOS/TRE_A01-CadreExercice/FHIR/TRE-A01-CadreExercice</code> defines the following codes:</p>
-<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>dateValid</b></td><td><b>dateMaj</b></td><td><b>status</b></td><td><b>French (France) (fr)</b></td></tr>
+<table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>status</b></td></tr>
 <tr><td style="white-space:nowrap">AMBULATOIRE<a name="TRE-A01-CadreExercice-AMBULATOIRE"> </a></td>
 <td>Ambulatoire</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>active</td>
-<td></td></tr>
+<td>active</td></tr>
 <tr><td style="white-space:nowrap">AMO<a name="TRE-A01-CadreExercice-AMO"> </a></td>
 <td>Organisme d'assurance maladie obligatoire</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>active</td>
-<td>Organisme AMO</td></tr>
+<td>active</td></tr>
 <tr><td style="white-space:nowrap">DEPISTAGE<a name="TRE-A01-CadreExercice-DEPISTAGE"> </a></td>
 <td>Dépistage</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>active</td>
-<td></td></tr>
+<td>active</td></tr>
 <tr><td style="white-space:nowrap">ESSMS<a name="TRE-A01-CadreExercice-ESSMS"> </a></td>
 <td>Etablissement ou Service Social ou Médico-Social</td>
-<td>2024-09-27T12:00:00+01:00</td>
-<td>2024-09-27T12:00:00+01:00</td>
-<td>active</td>
-<td></td></tr>
+<td>active</td></tr>
 <tr><td style="white-space:nowrap">ETABLISSEMENT<a name="TRE-A01-CadreExercice-ETABLISSEMENT"> </a></td>
 <td>Etablissement de santé</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>active</td>
-<td>Etab de santé</td></tr>
+<td>active</td></tr>
 <tr><td style="white-space:nowrap">HAD<a name="TRE-A01-CadreExercice-HAD"> </a></td>
 <td>Hospitalisation à domicile</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>active</td>
-<td>Hosp à domicile</td></tr>
+<td>active</td></tr>
 <tr><td style="white-space:nowrap">MAD<a name="TRE-A01-CadreExercice-MAD"> </a></td>
 <td>Maintien à domicile</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>active</td>
-<td></td></tr>
+<td>active</td></tr>
 <tr><td style="white-space:nowrap">PALLIATIF<a name="TRE-A01-CadreExercice-PALLIATIF"> </a></td>
 <td>Soins palliatifs</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>active</td>
-<td></td></tr>
+<td>active</td></tr>
 <tr><td style="white-space:nowrap">SAD<a name="TRE-A01-CadreExercice-SAD"> </a></td>
 <td>Soins à domicile</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>active</td>
-<td></td></tr>
+<td>active</td></tr>
 <tr><td style="white-space:nowrap">SAMU_SMUR<a name="TRE-A01-CadreExercice-SAMU_SMUR"> </a></td>
 <td>SAMU/SMUR</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>2016-05-19T00:00:00+01:00</td>
-<td>active</td>
-<td></td></tr></table></div>
+<td>active</td></tr></table></div>
 
     
   </div>  
@@ -480,7 +454,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.5.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Dec 19, 2025 16:19+0000">2025-12-19</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 3, 2026 11:48+0000">2026-02-03</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

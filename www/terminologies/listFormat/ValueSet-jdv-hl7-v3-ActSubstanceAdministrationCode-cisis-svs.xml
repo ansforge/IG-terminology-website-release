@@ -11,11 +11,9 @@
              urlFichier="">
       <ConceptList>
          <Concept code="DRUG"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
+                  codeSystem="2.16.840.1.113883.5.4"
                   displayName="Médicament"/>
-         <Concept code="FD"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActCode"
-                  displayName="Aliment"/>
+         <Concept code="FD" codeSystem="2.16.840.1.113883.5.4" displayName="Aliment"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

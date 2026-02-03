@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260202120000"
              dateValid="20200626120000"
              description="Code des rôles et fonctions pour l'application ENREG"
              displayName="JDV_J121_RolePriseCharge_ENREG"
@@ -172,6 +172,9 @@
          <Concept code="372"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Aide à domicile"/>
+         <Concept code="374"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Agent d'autorité d'enregistrement"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

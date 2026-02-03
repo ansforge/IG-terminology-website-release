@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20241213120000"
+             dateMaj="20260202120000"
              dateValid="20120412000000"
              description="Ensemble Savoir-faire CI-SIS (TRE provisoire)"
              displayName="TRE_R01_EnsembleSavoirFaire_CISIS"
@@ -2934,6 +2934,15 @@
                   displayName="Urgences pédiatriques (SST)"
                   longDesignation="Urgences pédiatriques (SST)"
                   shortDesignation="Urgences pédiatriques"
+                  descriptionMetier=""/>
+         <Concept code="SST27"
+                  codeSystem="1.2.250.1.71.4.2.5"
+                  dateFin=""
+                  dateMaj="20260202120000"
+                  dateValid="20260202120000"
+                  displayName="Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
+                  longDesignation="Innovation et recherche en sciences biologiques et pharmaceutiques"
+                  shortDesignation="Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

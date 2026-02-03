@@ -11,34 +11,32 @@
              urlFichier="">
       <ConceptList>
          <Concept code="APT"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  codeSystem="2.16.840.1.113883.5.1001"
                   displayName="Date et lieu confirmé"/>
          <Concept code="ARQ"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  codeSystem="2.16.840.1.113883.5.1001"
                   displayName="Prévu mais non confirmé"/>
          <Concept code="DEF"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  codeSystem="2.16.840.1.113883.5.1001"
                   displayName="Définition"/>
          <Concept code="EVN"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  codeSystem="2.16.840.1.113883.5.1001"
                   displayName="Réalisé"/>
-         <Concept code="GOL"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
-                  displayName="But"/>
+         <Concept code="GOL" codeSystem="2.16.840.1.113883.5.1001" displayName="But"/>
          <Concept code="INT"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  codeSystem="2.16.840.1.113883.5.1001"
                   displayName="Prévu"/>
          <Concept code="PRMS"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  codeSystem="2.16.840.1.113883.5.1001"
                   displayName="Planifié et confirmé"/>
          <Concept code="PRP"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  codeSystem="2.16.840.1.113883.5.1001"
                   displayName="Proposition"/>
          <Concept code="RQO"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  codeSystem="2.16.840.1.113883.5.1001"
                   displayName="Demande"/>
          <Concept code="RSK"
-                  codeSystem="http://terminology.hl7.org/CodeSystem/v3-ActMood"
+                  codeSystem="2.16.840.1.113883.5.1001"
                   displayName="Risque"/>
       </ConceptList>
    </ValueSet>

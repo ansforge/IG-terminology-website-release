@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260202120000"
              dateValid="20121112000000"
              description="XDS authorSpecialty CI-SIS"
              displayName="JDV_J01_XdsAuthorSpecialty_CISIS"
@@ -943,6 +943,9 @@
          <Concept code="G15_10/SST26"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Médecin - Urgences pédiatriques (SST)"/>
+         <Concept code="G15_10/SST27"
+                  codeSystem="1.2.250.1.213.1.1.4.5"
+                  displayName="Médecin - Innovation et recherche en sciences biologiques et pharmaceutiques (SST)"/>
          <Concept code="G15_21/FQ01"
                   codeSystem="1.2.250.1.213.1.1.4.5"
                   displayName="Pharmacien - Expérience prat. art. R.5124-16 du CSP Fabricant"/>
@@ -1180,6 +1183,9 @@
          <Concept code="373"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Technicien d’études cliniques"/>
+         <Concept code="374"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="Agent d'autorité d'enregistrement"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
