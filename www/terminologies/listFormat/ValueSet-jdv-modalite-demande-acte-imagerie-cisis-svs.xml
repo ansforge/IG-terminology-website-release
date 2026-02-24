@@ -2,17 +2,14 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141838"
+             dateMaj="20260220142104"
              dateValid="20211216000000"
-             description="JDV Modalite Demande Acte Iimagerie CISIS"
+             description="JDV Modalite Demande Acte Imagerie CISIS"
              displayName="JdvModaliteDemandeActeImagerieCisis"
              id="1.2.250.1.213.1.1.5.660"
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C63334"
-                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
-                  displayName="imagerie interventionnelle"/>
          <Concept code="MED-1126"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Radiographie sans contraste"/>
@@ -41,6 +38,9 @@
          <Concept code="PT"
                   codeSystem="1.2.840.10008.2.16.4"
                   displayName="TEP : Tomographie par émission de positons"/>
+         <Concept code="258174001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="imagerie interventionnelle"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

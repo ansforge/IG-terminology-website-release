@@ -14,11 +14,11 @@
      fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><a name=\"ans.fr.terminologies-fr-FR\"> </a><h2>Terminologies</h2><p>LURL officielle pour ce guide dimplémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"^^rdf:XMLLiteral
   ] ; # 
   fhir:url [ fhir:v "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"^^xsd:anyURI] ; # 
-  fhir:version [ fhir:v "1.6.0"] ; # 
+  fhir:version [ fhir:v "1.7.0"] ; # 
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-02-03T11:48:04+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-02-24T11:13:53+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -34282,60 +34282,6 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A21-AS-ActiviteModaliteForme> ;
-         fhir:reference [ fhir:v "ConceptMap/ASS-A21-AS-ActiviteModaliteForme" ]
-       ] ;
-       fhir:name [ fhir:v "ASS_A21_AS_ActiviteModaliteForme" ] ;
-       fhir:description [ fhir:v "Triplet activité modalité forme pour les Activités de Soins (AS)" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ConceptMap"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A22-AASA-ActiviteModaliteForme> ;
-         fhir:reference [ fhir:v "ConceptMap/ASS-A22-AASA-ActiviteModaliteForme" ]
-       ] ;
-       fhir:name [ fhir:v "ASS_A22_AASA_ActiviteModaliteForme" ] ;
-       fhir:description [ fhir:v "Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA)" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ConceptMap"
-         ]
-       ] ) ;
-       fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A23-ASR-ActiviteModaliteForme> ;
-         fhir:reference [ fhir:v "ConceptMap/ASS-A23-ASR-ActiviteModaliteForme" ]
-       ] ;
-       fhir:name [ fhir:v "ASS_A23_ASR_ActiviteModaliteForme" ] ;
-       fhir:description [ fhir:v "Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR)" ] ;
-       fhir:example [
-         a fhir:boolean ;
-         fhir:v false
-       ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
-         fhir:value [
-           a fhir:string ;
-           fhir:v "ConceptMap"
-         ]
-       ] ) ;
-       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ConceptMap/ASS-A24-ModeExercice-TypeActivite-ENREG> ;
          fhir:reference [ fhir:v "ConceptMap/ASS-A24-ModeExercice-TypeActivite-ENREG" ]
        ] ;
@@ -34692,6 +34638,24 @@
          fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
          fhir:value [
            a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass" ]
+       ] ;
+       fhir:name [ fhir:v "Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS" ] ;
+       fhir:description [ fhir:v "Catégories d'établissements FINESS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
            fhir:v "CodeSystem"
          ]
        ] ) ;
@@ -34719,6 +34683,24 @@
        ] ;
        fhir:name [ fhir:v "Classification Commune des Actes Médicaux" ] ;
        fhir:description [ fhir:v "La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/terminologie-cladimed> ;
+         fhir:reference [ fhir:v "CodeSystem/terminologie-cladimed" ]
+       ] ;
+       fhir:name [ fhir:v "Classification des dispositifs médicaux" ] ;
+       fhir:description [ fhir:v "La classification CLADIMED décrit le domaine des produits de santé (dispositifs médicaux (DM) et autres produits de santé (hors médicaments)). C’est une classification mono axiale inspirée de la classification internationale ATC des médicaments (Anatomique, Thérapeutique, Chimique)." ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -37971,6 +37953,348 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j301-finess-statut-juridique-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j301-finess-statut-juridique-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J301 Finess Statut Juridique Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j302-finess-statut-juridique-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j302-finess-statut-juridique-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J302 Finess Statut Juridique Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j303-finess-statut-juridique-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j303-finess-statut-juridique-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J303 Finess Statut Juridique Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j304-finess-statut-juridique-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j304-finess-statut-juridique-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J304 Finess Statut Juridique Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV comporte tous les status juridiques hors agrégat (JDV créé à l'image de l'ancienne TRE_R72-FinessStatutJuridique)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient tous les agrégats Niv1 d'EGE (JDV créé à l'image de l'ancienne TRE_R65-AgregatCategorieEtablissement)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient tous les agrégats Niv 2 d'EGE (JDV crée à l'image de l'ancienneTRE_R63-AgregatCategorieEtablissementNiv1)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient tous les agrégats Niv3 d'EGE (JDV créé à l'image de l'ancienneTRE_R64-AgregatCategorieEtablissementNiv2)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J310 Categorie Entite Geographique Exercice Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient toutes les catégories d'EGE hors agrégat (JDV crée à l'image de l'ancienne TRE R66)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j318-activite-enseignement-regulee-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j318-activite-enseignement-regulee-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J318 Activite Enseignement Regulee Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient toutes les AER hors agrégat (JDV créé à l'image de l'ancienne TRE_R281-DisciplineEnseignement)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J319 Activite Enseignement Regulee Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J320 Activite Enseignement Regulee Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J321 Activite Enseignement Regulee Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j323-activite-sociale-regulee-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j323-activite-sociale-regulee-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J323 Activite Sociale Regulee Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV  contient toute les ASOCR  hors agrégat (JDV créé à l'image de l'ancienne  TRE_R280-DisciplineEquipementSocial)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J324 Activite Sociale Regulee Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J325 Activite Sociale Regulee Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J326 Activite Sociale Regulee Niv3 Finess" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j328-public-activite-smsse-regulee-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j328-public-activite-smsse-regulee-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J328 Public Activite Smsse Regulee Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient tous les publics hors agrégat (JDV créé à l'image de l'ancienne TRE_R279-Clientele)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J329 Public Activite Smsse Regulee Niv1 Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l'image de l'ancienne TRE_R293-AgregatClienteleNiv2)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J330 Public Activite Smsse Regulee Niv2 Finess" ] ;
+       fhir:description [ fhir:v "Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l'image de l'ancienne TRE_R294-AgregatClienteleNiv3)" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms" ]
        ] ;
@@ -38030,6 +38354,60 @@
        ] ;
        fhir:name [ fhir:v "Jdv J370 Type Contrat Sejour Ms" ] ;
        fhir:description [ fhir:v "Type de contrat conclu entre l’établissement/service et la personne/son représentant légal." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j376-public-activite-smsse-regulee-rass> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j376-public-activite-smsse-regulee-rass" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J376 Public Activite Smsse Regulee Rass" ] ;
+       fhir:description [ fhir:v "Ce JDV remplace le JDV_J137_Clientele_RASS" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J377 Categorie Entite Geographique Exercice Ror" ] ;
+       fhir:description [ fhir:v "Ce JDV remplace le JDV_J55_CategorieEG_ROR" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j379-activite-sociale-regulee-rass> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j379-activite-sociale-regulee-rass" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J379 Activite Sociale Regulee Rass" ] ;
+       fhir:description [ fhir:v "Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -38730,8 +39108,8 @@
          fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-modalite-demande-acte-imagerie-cisis> ;
          fhir:reference [ fhir:v "ValueSet/jdv-modalite-demande-acte-imagerie-cisis" ]
        ] ;
-       fhir:name [ fhir:v "JDV Modalite Demande Acte Iimagerie CISIS" ] ;
-       fhir:description [ fhir:v "JDV Modalite Demande Acte Iimagerie CISIS" ] ;
+       fhir:name [ fhir:v "JDV Modalite Demande Acte Imagerie CISIS" ] ;
+       fhir:description [ fhir:v "JDV Modalite Demande Acte Imagerie CISIS" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -48496,8 +48874,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20260101> ;
-         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20260101" ]
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20260201> ;
+         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20260201" ]
        ] ;
        fhir:name [ fhir:v "SNOMED CT core" ] ;
        fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;
@@ -48824,6 +49202,150 @@
        ] ;
        fhir:name [ fhir:v "Tre R394 Competence Metier" ] ;
        fhir:description [ fhir:v "Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue." ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r397-categorie-entite-geographique-exercice> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r397-categorie-entite-geographique-exercice" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R397 Categorie Entite Geographique Exercice" ] ;
+       fhir:description [ fhir:v "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r400-finess-statut-juridique> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r400-finess-statut-juridique" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R400 Finess Statut Juridique" ] ;
+       fhir:description [ fhir:v "Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r401-activite-sociale-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r401-activite-sociale-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R401 Activite Sociale Regulee" ] ;
+       fhir:description [ fhir:v "Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r402-activite-enseignement-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r402-activite-enseignement-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R402 Activite Enseignement Regulee" ] ;
+       fhir:description [ fhir:v "Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r403-public-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r403-public-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R403 Public Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R404 Mode Fonctionnemet Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r405-modalite-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r405-modalite-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R405 Modalite Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivite" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r406-forme-activite-smsse-regulee> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r406-forme-activite-smsse-regulee" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R406 Forme Activite Smsse Regulee" ] ;
+       fhir:description [ fhir:v "Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -49255,7 +49777,7 @@
          fhir:reference [ fhir:v "CodeSystem/TRE-G09-DepartementOM" ]
        ] ;
        fhir:name [ fhir:v "TRE_G09_DepartementOM" ] ;
-       fhir:description [ fhir:v "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco" ] ;
+       fhir:description [ fhir:v "Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false
@@ -53502,6 +54024,24 @@
        ] ;
        fhir:name [ fhir:v "ValueSet_SMS_All" ] ;
        fhir:description [ fhir:v "Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses" ] ;
+       fhir:example [
+         a fhir:boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ] ;
+         fhir:value [
+           a fhir:string ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:link <https://interop.esante.gouv.fr/terminologies/ValueSet/vs-tre-r73-espic-all> ;
+         fhir:reference [ fhir:v "ValueSet/vs-tre-r73-espic-all" ]
+       ] ;
+       fhir:name [ fhir:v "Vs Tre R73 Espic All" ] ;
+       fhir:description [ fhir:v "Jeu de valeurs ALL contenant tous les établissements de santé privés d'intérêt collectif" ] ;
        fhir:example [
          a fhir:boolean ;
          fhir:v false

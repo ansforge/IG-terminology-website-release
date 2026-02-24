@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260223120000"
              dateValid="20240126120000"
              description="Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne"
              displayName="JDV_J238_TypeOffre_ROR"
@@ -825,7 +825,7 @@
                   displayName="Unité Hospitalière de Courte Durée (UHCD)"/>
          <Concept code="279"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Equipe mobile de psychiatrie de l'Enfant et de l'Adolescent"/>
+                  displayName="Equipe Mobile de Psychiatrie de l’Enfant et de l’Adolescent (EMPEA)"/>
          <Concept code="280"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Equipe mobile de psychiatrie adulte"/>
@@ -874,6 +874,27 @@
          <Concept code="295"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Permanence d'Accès aux Soins de Santé (PASS)"/>
+         <Concept code="296"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Groupe d’Entraide Mutuelle (GEM)"/>
+         <Concept code="297"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centre ressource IntimAgir"/>
+         <Concept code="298"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Dispositif sanitaire dédié à la prise en charge des femmes victimes de violences (Maison des Femmes Santé)"/>
+         <Concept code="299"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe de Diagnostic de Proximité – Autisme (PDAP, EDAP)"/>
+         <Concept code="300"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Equipe Mobile de Psychiatrie Périnatale"/>
+         <Concept code="301"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité d'urgences psychiatriques"/>
+         <Concept code="302"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Centre d’Accueil et de Crise (CAC)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

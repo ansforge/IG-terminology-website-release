@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141838"
+             dateMaj="20260220142103"
              dateValid="20210924000000"
              description="JDV Mesure Type Verre Delivre CISIS"
              displayName="JdvMesureTypeVerreDelivreCisis"
@@ -10,9 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C71898"
-                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
-                  displayName="nom commercial"/>
          <Concept code="MED-1181"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Date de délivrance"/>
@@ -34,9 +31,12 @@
          <Concept code="64885-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Types de verres"/>
+         <Concept code="74720-4"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Nom du dispositif"/>
          <Concept code="67716-1"
                   codeSystem="2.16.840.1.113883.6.1"
-                  displayName="modèle du dispositif"/>
+                  displayName="Modèle du dispositif"/>
          <Concept code="Q021002"
                   codeSystem="1.2.250.1.213.2.68"
                   displayName="MONTURES DE LUNETTES"/>

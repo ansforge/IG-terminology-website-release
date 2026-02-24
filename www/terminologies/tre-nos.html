@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Terminologies   du NOS - Terminologies  de Santé v1.6.0</title>
+    <title>Terminologies   du NOS - Terminologies  de Santé v1.7.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -56,7 +56,7 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.6.0 - final-text
+            <span style="display:inline-block;">1.7.0 - final-text
 
 
 
@@ -174,7 +174,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.6.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.7.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Terminologies   du NOS</h2>
   
   
@@ -204,6 +204,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td><td><div><p>21/05/2025</p>
 </div></td></tr><tr><td><a href="CodeSystem-tre-r394-competence-metier.html">TreR394CompetenceMetier</a></td><td><div><p>Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue.</p>
 </div></td><td><div><p>25/06/2025</p>
+</div></td></tr><tr><td><a href="CodeSystem-tre-r397-categorie-entite-geographique-exercice.html">TreR397CategorieEntiteGeographiqueExercice</a></td><td><div><p>Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés</p>
+</div></td><td><div><p>23/02/2026</p>
+</div></td></tr><tr><td><a href="CodeSystem-tre-r400-finess-statut-juridique.html">TreR400FinessStatutJuridique</a></td><td><div><p>Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés</p>
+</div></td><td><div><p>23/02/2026</p>
+</div></td></tr><tr><td><a href="CodeSystem-tre-r401-activite-sociale-regulee.html">TreR401ActiviteSocialeRegulee</a></td><td><div><p>Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés</p>
+</div></td><td><div><p>23/02/2026</p>
+</div></td></tr><tr><td><a href="CodeSystem-tre-r402-activite-enseignement-regulee.html">TreR402ActiviteEnseignementRegulee</a></td><td><div><p>Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement</p>
+</div></td><td><div><p>23/02/2026</p>
+</div></td></tr><tr><td><a href="CodeSystem-tre-r403-public-activite-smsse-regulee.html">TreR403PublicActiviteSmsseRegulee</a></td><td><div><p>Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés</p>
+</div></td><td><div><p>23/02/2026</p>
+</div></td></tr><tr><td><a href="CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.html">TreR404ModeFonctionnemetActiviteSmsseRegulee</a></td><td><div><p>Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite</p>
+</div></td><td><div><p>23/02/2026</p>
+</div></td></tr><tr><td><a href="CodeSystem-tre-r405-modalite-activite-smsse-regulee.html">TreR405ModaliteActiviteSmsseRegulee</a></td><td><div><p>Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivite</p>
+</div></td><td><div><p>23/02/2026</p>
+</div></td></tr><tr><td><a href="CodeSystem-tre-r406-forme-activite-smsse-regulee.html">TreR406FormeActiviteSmsseRegulee</a></td><td><div><p>Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite</p>
+</div></td><td><div><p>23/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-tre-r407-composition-foyer.html">TreR407CompositionFoyer</a></td><td><div><p>Désigne avec qui vit l’usager dans son logement.</p>
 </div></td><td><div><p>02/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-tre-r408-type-enseignement-specialise.html">TreR408TypeEnseignementSpecialise</a></td><td><div><p>Type d'enseignement spécialisé.</p>
@@ -250,7 +266,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td><td><div><p>29/03/2024</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-G08-TypeIdentifiantPersonne.html">TRE_G08_TypeIdentifiantPersonne</a></td><td><div><p>Type d'identifiant de personne</p>
 </div></td><td><div><p>29/03/2024</p>
-</div></td></tr><tr><td><a href="CodeSystem-TRE-G09-DepartementOM.html">TRE_G09_DepartementOM</a></td><td><div><p>Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco</p>
+</div></td></tr><tr><td><a href="CodeSystem-TRE-G09-DepartementOM.html">TRE_G09_DepartementOM</a></td><td><div><p>Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)</p>
 </div></td><td><div><p>28/06/2024</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-G11-NatureQualificationADELI.html">TRE_G11_NatureQualificationADELI</a></td><td><div><p>Nature de qualification ADELI</p>
 </div></td><td><div><p>16/10/2025</p>
@@ -283,7 +299,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R06-SectionTableauCNOP.html">TRE_R06_SectionTableauCNOP</a></td><td><div><p>Section du tableau de l'Ordre des Pharmaciens</p>
 </div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R09-CategorieProfessionnelle.html">TRE_R09_CategorieProfessionnelle</a></td><td><div><p>Catégorie professionnelle</p>
-</div></td><td><div><p>26/04/2024</p>
+</div></td><td><div><p>23/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R10-SexeAdministratif.html">TRE_R10_SexeAdministratif</a></td><td><div><p>Sexe administratif</p>
 </div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R11-CiviliteExercice.html">TRE_R11_CiviliteExercice</a></td><td><div><p>Civilité d'exercice</p>
@@ -300,7 +316,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R20-Pays.html">TRE_R20_Pays</a></td><td><div><p>Référentiel des codes pays provenant du COG INSEE</p>
 </div></td><td><div><p>28/03/2025</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R21-Fonction.html">TRE_R21_Fonction</a></td><td><div><p>Fonction</p>
-</div></td><td><div><p>02/02/2026</p>
+</div></td><td><div><p>23/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R22-GenreActivite.html">TRE_R22_GenreActivite</a></td><td><div><p>Genre d'activité</p>
 </div></td><td><div><p>29/03/2024</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R23-ModeExercice.html">TRE_R23_ModeExercice</a></td><td><div><p>Mode d'exercice</p>
@@ -358,7 +374,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R57-DiplomeEuropeenEtudeSpecialisee.html">TRE_R57_DiplomeEuropeenEtudeSpecialisee</a></td><td><div><p>Diplôme Européen d'Etudes Spécialisées</p>
 </div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R58-AutreTypeDiplome.html">TRE_R58_AutreTypeDiplome</a></td><td><div><p>Autre type de diplôme</p>
-</div></td><td><div><p>22/12/2025</p>
+</div></td><td><div><p>23/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R60-AutoriteEnregistrement.html">TRE_R60_AutoriteEnregistrement</a></td><td><div><p>Autorité d'enregistrement</p>
 </div></td><td><div><p>28/06/2024</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R62-Domaine.html">TRE_R62_Domaine</a></td><td><div><p>Domaine</p>
@@ -370,7 +386,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R65-AgregatCategorieEtablissement.html">TRE_R65_AgregatCategorieEtablissement</a></td><td><div><p>Agrégat de catégories d'établissements</p>
 </div></td><td><div><p>28/02/2025</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R66-CategorieEtablissement.html">TRE_R66_CategorieEtablissement</a></td><td><div><p>Catégorie d'établissements</p>
-</div></td><td><div><p>22/12/2025</p>
+</div></td><td><div><p>23/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R67-TypeStructure-EJ-EG.html">TRE_R67_TypeStructure_EJ_EG</a></td><td><div><p>Type de structure</p>
 </div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R68-FinessAgregatStatutJuridiqueNiv1.html">TRE_R68_FinessAgregatStatutJuridiqueNiv1</a></td><td><div><p>Agrégats de statuts juridiques FINESS niveau 1</p>
@@ -385,8 +401,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R74-ModeFixationTarifaire.html">TRE_R74_ModeFixationTarifaire</a></td><td><div><p>Mode de fixation tarifaire</p>
 </div></td><td><div><p>22/12/2025</p>
-</div></td></tr><tr><td><a href="CodeSystem-TRE-R75-InseeNAFrev2Niveau5.html">TRE_R75_InseeNAFrev2Niveau5</a></td><td><div><p>Sous-classes de la Nomenclature d'Activités Française - INSEE</p>
-</div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R78-ProfilAccesReferentiel.html">TRE_R78_ProfilAccesReferentiel</a></td><td><div><p>Profil d'accès aux référentiels</p>
 </div></td><td><div><p>23/05/2025</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R81-Civilite.html">TRE_R81_Civilite</a></td><td><div><p>Civilité</p>
@@ -488,7 +502,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R243-CompetenceSpecifique.html">TRE_R243_CompetenceSpecifique</a></td><td><div><p>Compétence spécifique</p>
 </div></td><td><div><p>26/04/2024</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R244-CategorieOrganisation.html">TRE_R244_CategorieOrganisation</a></td><td><div><p>Catégorie d'organisation</p>
-</div></td><td><div><p>22/12/2025</p>
+</div></td><td><div><p>23/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R245-SpecialisationDePriseEnCharge.html">TRE_R245_SpecialisationDePriseEnCharge</a></td><td><div><p>Spécialisation de prise en charge</p>
 </div></td><td><div><p>25/04/2025</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R246-TypeTarif.html">TRE_R246_TypeTarif</a></td><td><div><p>Type tarif</p>
@@ -547,8 +561,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R276-FormeActivite.html">TRE_R276_FormeActivite</a></td><td><div><p>Type d'organisation de prise en charge</p>
 </div></td><td><div><p>29/03/2024</p>
-</div></td></tr><tr><td><a href="CodeSystem-TRE-R277-CategorieActiviteSanitaireRegulee.html">TRE_R277_CategorieActiviteSanitaireRegulee</a></td><td><div><p>Types d'activités autorisées</p>
-</div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R278-FinessConvention.html">TRE_R278_FinessConvention</a></td><td><div><p>Convention du domaine social FINESS</p>
 </div></td><td><div><p>31/01/2025</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R279-Clientele.html">TRE_R279_Clientele</a></td><td><div><p>Clientèles</p>
@@ -594,8 +606,6 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R299-AgregatDisciplineEquipSocNiv2.html">TRE_R299_AgregatDisciplineEquipSocNiv2</a></td><td><div><p>Agrégats de disciplines d'équipement pour le social niveau 2</p>
 </div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R300-AgregatDisciplineEquipSocNiv3.html">TRE_R300_AgregatDisciplineEquipSocNiv3</a></td><td><div><p>Agrégats de disciplines d'équipement pour le social niveau 3</p>
-</div></td><td><div><p>15/12/2023</p>
-</div></td></tr><tr><td><a href="CodeSystem-TRE-R301-SourceInformationInstallation.html">TRE_R301_SourceInformationInstallation</a></td><td><div><p>Sources d'information possible concernant l'installation de l'activité sociale</p>
 </div></td><td><div><p>15/12/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-TRE-R302-ContexteCodeComplementaire.html">TRE_R302_ContexteCodeComplementaire</a></td><td><div><p>Liste des codes complémentaires utilisables dans un contexte particulier</p>
 </div></td><td><div><p>26/04/2024</p>
@@ -736,7 +746,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.6.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 3, 2026 11:48+0000">2026-02-03</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 24, 2026 11:14+0000">2026-02-24</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141838"
+             dateMaj="20260220142103"
              dateValid="20210924000000"
              description="JDV Mesure Lentille Delivree CISIS"
              displayName="JdvMesureLentilleDelivreeCisis"
@@ -10,9 +10,6 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C53610"
-                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
-                  displayName="Renouvellement"/>
          <Concept code="MED-1181"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Date de délivrance"/>
@@ -45,7 +42,7 @@
                   displayName="Puissance du cylindre – lentille délivrée"/>
          <Concept code="67716-1"
                   codeSystem="2.16.840.1.113883.6.1"
-                  displayName="modèle du dispositif"/>
+                  displayName="Modèle du dispositif"/>
          <Concept code="95325-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Axe en degrés des lentilles"/>
@@ -55,6 +52,9 @@
          <Concept code="28815-9"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Addition – valeur"/>
+         <Concept code="103742009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="renouvellement d'ordonnance"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

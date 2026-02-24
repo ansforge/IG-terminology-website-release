@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141838"
+             dateMaj="20260220142104"
              dateValid="20240805000000"
              description="JDV Registre Ern CISIS"
              displayName="JdvRegistreErnCisis"
@@ -55,9 +55,6 @@
          <Concept code="GEN-334"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Le patient a signé son consentement à la transmission des données au registre ERN cond-GUARD-HEART"/>
-         <Concept code="GEN-335"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core"/>
          <Concept code="GEN-336"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Le patient a signé son consentement à la transmission des données au registre ERN ILIAD"/>
@@ -85,6 +82,9 @@
          <Concept code="GEN-373"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Le patient a signé son consentement à la transmission des données au registre Endo-ERN EuRREB"/>
+         <Concept code="GEN-416"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Le patient a signé un consentement à la transmission de ses données au registre EuRREB"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

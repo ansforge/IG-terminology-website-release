@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141840"
+             dateMaj="20260220142105"
              dateValid="20210414000000"
              description="JDV Traitement Soins Frcp CISIS"
              displayName="JdvTraitementSoinsFrcpCisis"
@@ -10,27 +10,12 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
-         <Concept code="C3580"
-                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
-                  displayName="métastases osseuses"/>
-         <Concept code="C3303"
-                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
-                  displayName="douleur"/>
-         <Concept code="C15252"
-                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
-                  displayName="soins palliatifs"/>
-         <Concept code="C63334"
-                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
-                  displayName="imagerie interventionnelle"/>
-         <Concept code="C15747"
-                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
-                  displayName="soins de support"/>
+         <Concept code="C79.5"
+                  codeSystem="http://hl7.org/fhir/sid/icd-10"
+                  displayName="Tumeur maligne secondaire des os et de la moelle osseuse"/>
          <Concept code="C16832"
                   codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
                   displayName="oncologie médicale"/>
-         <Concept code="C71326"
-                  codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
-                  displayName="préservation de la fertilité"/>
          <Concept code="C7201"
                   codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
                   displayName="tumeur rare"/>
@@ -40,6 +25,21 @@
          <Concept code="ORG-130"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Oncogériatrie"/>
+         <Concept code="410240006"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="prise en charge du traitement de la douleur"/>
+         <Concept code="103735009"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="soin palliatif"/>
+         <Concept code="258174001"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="imagerie interventionnelle"/>
+         <Concept code="243114000"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="soin de support"/>
+         <Concept code="702596005"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="procédure de préservation de la fertilité"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

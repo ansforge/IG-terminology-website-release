@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141839"
+             dateMaj="20260220142104"
              dateValid="20100101000000"
              description="JDV Motif Echographie CISIS"
              displayName="JdvMotifEchographieCisis"
@@ -13,12 +13,12 @@
          <Concept code="C94305"
                   codeSystem="http://ncicb.nci.nih.gov/xml/owl/EVS/Thesaurus.owl"
                   displayName="densité mammaire"/>
-         <Concept code="MED-107"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Implant"/>
          <Concept code="GEN-092.01.07"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Autre motif d'échographie"/>
+         <Concept code="2282003"
+                  codeSystem="2.16.840.1.113883.6.96"
+                  displayName="prothèse mammaire"/>
          <Concept code="161615003"
                   codeSystem="2.16.840.1.113883.6.96"
                   displayName="antécédent d'intervention chirurgicale"/>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-   <ValueSet dateFin=""
-             dateMaj="20251222120000"
+   <ValueSet dateFin="20260223120000"
+             dateMaj="20260223120000"
              dateValid="20201127120000"
              description="Catégorie d'établissement du RASS"
              displayName="JDV_J129_CategorieEtablissement_RASS"
@@ -135,7 +135,7 @@
                   displayName="Appartement de Coordination Thérapeutique (A.C.T.)"/>
          <Concept code="166"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Etablissement d'Accueil Mère-Enfant"/>
+                  displayName="Centre Parents-Enfants de moins de 3 ans"/>
          <Concept code="167"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Crèche Collective"/>
@@ -421,7 +421,7 @@
                   displayName="Centres de Loisirs sans Hébergement"/>
          <Concept code="286"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  displayName="Club Equipe de Prévention"/>
+                  displayName="Service de prévention spécialisée"/>
          <Concept code="289"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre de Soins Infirmiers"/>
@@ -923,6 +923,9 @@
          <Concept code="649"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Centre de santé et de médiation en santé sexuelle"/>
+         <Concept code="650"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  displayName="Dispositifs Spécifiques Régionaux en périnatalité"/>
          <Concept code="695"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   displayName="Groupement de coopération sanitaire de moyens - Exploitant"/>

@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.6.0"/>
+  <version value="1.7.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-02-03T11:48:04+00:00"/>
+  <date value="2026-02-24T11:13:53+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -18342,39 +18342,6 @@
         <valueString value="ConceptMap"/>
       </extension>
       <reference>
-        <reference value="ConceptMap/ASS-A21-AS-ActiviteModaliteForme"/>
-      </reference>
-      <name value="ASS_A21_AS_ActiviteModaliteForme"/>
-      <description value="Triplet activité modalité forme pour les Activités de Soins (AS)"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ConceptMap"/>
-      </extension>
-      <reference>
-        <reference value="ConceptMap/ASS-A22-AASA-ActiviteModaliteForme"/>
-      </reference>
-      <name value="ASS_A22_AASA_ActiviteModaliteForme"/>
-      <description value="Triplet activité modalité forme pour les Activités Soumises à Autorisation (ASA)"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ConceptMap"/>
-      </extension>
-      <reference>
-        <reference value="ConceptMap/ASS-A23-ASR-ActiviteModaliteForme"/>
-      </reference>
-      <name value="ASS_A23_ASR_ActiviteModaliteForme"/>
-      <description value="Triplet activité modalité forme pour Activités Soumises à Reconnaissance (ASR)"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ConceptMap"/>
-      </extension>
-      <reference>
         <reference value="ConceptMap/ASS-A24-ModeExercice-TypeActivite-ENREG"/>
       </reference>
       <name value="ASS_A24_ModeExercice_TypeActivite_ENREG"/>
@@ -18592,6 +18559,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j380-categorie-entite-geographique-exercice-rass"/>
+      </reference>
+      <name value="Ce JDV remplace le JDV-J129-CategorieEtablissement-RASS"/>
+      <description value="Catégories d'établissements FINESS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
@@ -18610,6 +18588,17 @@
       </reference>
       <name value="Classification Commune des Actes Médicaux"/>
       <description value="La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/terminologie-cladimed"/>
+      </reference>
+      <name value="Classification des dispositifs médicaux"/>
+      <description value="La classification CLADIMED décrit le domaine des produits de santé (dispositifs médicaux (DM) et autres produits de santé (hors médicaments)). C’est une classification mono axiale inspirée de la classification internationale ATC des médicaments (Anatomique, Thérapeutique, Chimique)."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -20596,6 +20585,215 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j301-finess-statut-juridique-niv1-finess"/>
+      </reference>
+      <name value="Jdv J301 Finess Statut Juridique Niv1 Finess"/>
+      <description value="Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l'image de l'ancienne TRE_R70-FinessAgregatStatutJuridique)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j302-finess-statut-juridique-niv2-finess"/>
+      </reference>
+      <name value="Jdv J302 Finess Statut Juridique Niv2 Finess"/>
+      <description value="Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j303-finess-statut-juridique-niv3-finess"/>
+      </reference>
+      <name value="Jdv J303 Finess Statut Juridique Niv3 Finess"/>
+      <description value="Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l'image de l'ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j304-finess-statut-juridique-finess"/>
+      </reference>
+      <name value="Jdv J304 Finess Statut Juridique Finess"/>
+      <description value="Ce JDV comporte tous les status juridiques hors agrégat (JDV créé à l'image de l'ancienne TRE_R72-FinessStatutJuridique)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j307-categorie-entite-geographique-exercice-niv1-finess"/>
+      </reference>
+      <name value="Jdv J307 Categorie Entite Geographique Exercice Niv1 Finess"/>
+      <description value="Ce JDV contient tous les agrégats Niv1 d'EGE (JDV créé à l'image de l'ancienne TRE_R65-AgregatCategorieEtablissement)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j308-categorie-entite-geographique-exercice-niv2-finess"/>
+      </reference>
+      <name value="Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess"/>
+      <description value="Ce JDV contient tous les agrégats Niv 2 d'EGE (JDV crée à l'image de l'ancienneTRE_R63-AgregatCategorieEtablissementNiv1)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j309-categorie-entite-geographique-exercice-niv3-finess"/>
+      </reference>
+      <name value="Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess"/>
+      <description value="Ce JDV contient tous les agrégats Niv3 d'EGE (JDV créé à l'image de l'ancienneTRE_R64-AgregatCategorieEtablissementNiv2)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j310-categorie-entite-geographique-exercice-finess"/>
+      </reference>
+      <name value="Jdv J310 Categorie Entite Geographique Exercice Finess"/>
+      <description value="Ce JDV contient toutes les catégories d'EGE hors agrégat (JDV crée à l'image de l'ancienne TRE R66)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j318-activite-enseignement-regulee-finess"/>
+      </reference>
+      <name value="Jdv J318 Activite Enseignement Regulee Finess"/>
+      <description value="Ce JDV contient toutes les AER hors agrégat (JDV créé à l'image de l'ancienne TRE_R281-DisciplineEnseignement)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j319-activite-enseignement-regulee-niv1-finess"/>
+      </reference>
+      <name value="Jdv J319 Activite Enseignement Regulee Niv1 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 1"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j320-activite-enseignement-regulee-niv2-finess"/>
+      </reference>
+      <name value="Jdv J320 Activite Enseignement Regulee Niv2 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j321-activite-enseignement-regulee-niv3-finess"/>
+      </reference>
+      <name value="Jdv J321 Activite Enseignement Regulee Niv3 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités d'enseignement régulées de niveau 3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j323-activite-sociale-regulee-finess"/>
+      </reference>
+      <name value="Jdv J323 Activite Sociale Regulee Finess"/>
+      <description value="Ce JDV  contient toute les ASOCR  hors agrégat (JDV créé à l'image de l'ancienne  TRE_R280-DisciplineEquipementSocial)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j324-activite-sociale-regulee-niv1-finess"/>
+      </reference>
+      <name value="Jdv J324 Activite Sociale Regulee Niv1 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j325-activite-sociale-regulee-niv2-finess"/>
+      </reference>
+      <name value="Jdv J325 Activite Sociale Regulee Niv2 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j326-activite-sociale-regulee-niv3-finess"/>
+      </reference>
+      <name value="Jdv J326 Activite Sociale Regulee Niv3 Finess"/>
+      <description value="Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 3"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j328-public-activite-smsse-regulee-finess"/>
+      </reference>
+      <name value="Jdv J328 Public Activite Smsse Regulee Finess"/>
+      <description value="Ce JDV contient tous les publics hors agrégat (JDV créé à l'image de l'ancienne TRE_R279-Clientele)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j329-public-activite-smsse-regulee-niv1-finess"/>
+      </reference>
+      <name value="Jdv J329 Public Activite Smsse Regulee Niv1 Finess"/>
+      <description value="Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l'image de l'ancienne TRE_R293-AgregatClienteleNiv2)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j330-public-activite-smsse-regulee-niv2-finess"/>
+      </reference>
+      <name value="Jdv J330 Public Activite Smsse Regulee Niv2 Finess"/>
+      <description value="Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l'image de l'ancienne TRE_R294-AgregatClienteleNiv3)"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"/>
       </reference>
       <name value="Jdv J366 Statut Bilan Projet Personnalise Ms"/>
@@ -20633,6 +20831,39 @@
       </reference>
       <name value="Jdv J370 Type Contrat Sejour Ms"/>
       <description value="Type de contrat conclu entre l’établissement/service et la personne/son représentant légal."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j376-public-activite-smsse-regulee-rass"/>
+      </reference>
+      <name value="Jdv J376 Public Activite Smsse Regulee Rass"/>
+      <description value="Ce JDV remplace le JDV_J137_Clientele_RASS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j377-categorie-entite-geographique-exercice-ror"/>
+      </reference>
+      <name value="Jdv J377 Categorie Entite Geographique Exercice Ror"/>
+      <description value="Ce JDV remplace le JDV_J55_CategorieEG_ROR"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j379-activite-sociale-regulee-rass"/>
+      </reference>
+      <name value="Jdv J379 Activite Sociale Regulee Rass"/>
+      <description value="Ce JDV remplace le JDV_J136_DisciplineEquipementSocial_RASS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -21060,8 +21291,8 @@
       <reference>
         <reference value="ValueSet/jdv-modalite-demande-acte-imagerie-cisis"/>
       </reference>
-      <name value="JDV Modalite Demande Acte Iimagerie CISIS"/>
-      <description value="JDV Modalite Demande Acte Iimagerie CISIS"/>
+      <name value="JDV Modalite Demande Acte Imagerie CISIS"/>
+      <description value="JDV Modalite Demande Acte Imagerie CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27026,7 +27257,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20260101"/>
+        <reference value="CodeSystem/900000000000207008-20260201"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
@@ -27227,6 +27458,94 @@
       </reference>
       <name value="Tre R394 Competence Metier"/>
       <description value="Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r397-categorie-entite-geographique-exercice"/>
+      </reference>
+      <name value="Tre R397 Categorie Entite Geographique Exercice"/>
+      <description value="Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r400-finess-statut-juridique"/>
+      </reference>
+      <name value="Tre R400 Finess Statut Juridique"/>
+      <description value="Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l'association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat des statuts juridiques  de 1 à 4 ( du plus large au plus fin), le parent d'un agrégat de statuts juridiques ou d'un statut juridique, un indicateur pour les statuts juridiques  spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r401-activite-sociale-regulee"/>
+      </reference>
+      <name value="Tre R401 Activite Sociale Regulee"/>
+      <description value="Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r402-activite-enseignement-regulee"/>
+      </reference>
+      <name value="Tre R402 Activite Enseignement Regulee"/>
+      <description value="Liste des activités d'enseignement régulées organisée en 3 niveaux d'agrégation. Annule et remplace les anciennes TRE xxxEnseignement"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r403-public-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R403 Public Activite Smsse Regulee"/>
+      <description value="Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l'association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d'agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d'un agrégat de publics ou d'un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R404 Mode Fonctionnemet Activite Smsse Regulee"/>
+      <description value="Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r405-modalite-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R405 Modalite Activite Smsse Regulee"/>
+      <description value="Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivite"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r406-forme-activite-smsse-regulee"/>
+      </reference>
+      <name value="Tre R406 Forme Activite Smsse Regulee"/>
+      <description value="Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27490,7 +27809,7 @@
         <reference value="CodeSystem/TRE-G09-DepartementOM"/>
       </reference>
       <name value="TRE_G09_DepartementOM"/>
-      <description value="Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco"/>
+      <description value="Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM)"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -30085,6 +30404,17 @@
       </reference>
       <name value="ValueSet_SMS_All"/>
       <description value="Ce jeu de valeurs inclut tous les codes de la terminologie SMS, Dictionnaire des substances médicamenteuses"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/vs-tre-r73-espic-all"/>
+      </reference>
+      <name value="Vs Tre R73 Espic All"/>
+      <description value="Jeu de valeurs ALL contenant tous les établissements de santé privés d'intérêt collectif"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

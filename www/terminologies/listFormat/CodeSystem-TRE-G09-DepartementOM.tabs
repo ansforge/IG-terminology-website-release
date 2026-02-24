@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.71.1.2.16;TRE;TRE_G09_DepartementOM.tabs;Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco;https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM;20151230000000;;20240628120000
+1.2.250.1.71.1.2.16;TRE;TRE_G09_DepartementOM.tabs;Référentiel des codes départements et collectivités d’outre-mer provenant du COG INSEE + Monaco. Cette TRE possède des propriétés spécifiques : Autorite Epars, pour indiquer le/ les ARS du département (tre-r396-autorite) et region pour indiquer le code de la région du département (TRE-R30-RegionOM);https://mos.esante.gouv.fr/NOS/TRE_G09-DepartementOM;20151230000000;;20240628120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.71.1.2.16;01;Ain;Ain (01);Ain;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;02;Aisne;Aisne (02);Aisne;20070725150436;;20240126120000
@@ -21,8 +21,6 @@
 1.2.250.1.71.1.2.16;18;Cher;Cher (18);Cher;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;19;Corrèze (19);CORREZE;Corrèze;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;20;Corse (Ancien Code);Corse (20 - Ancien Code);Corse (Ancien Code);20170707100000;20170707100000;20170707100000
-1.2.250.1.71.1.2.16;2A;Corse-du-Sud (2A);CORSE DU SUD;Corse-du-Sud;20070725150436;;20240126120000
-1.2.250.1.71.1.2.16;2B;Haute-Corse (2B);HAUTE CORSE;Haute-Corse;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;21;Côte-d'Or (21);COTE D OR;Côte-d'Or;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;22;Côtes-d'Armor (22);COTES D ARMOR;Côtes-d'Armor;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;23;Creuse;Creuse (23);Creuse;20070725150436;;20240126120000
@@ -106,11 +104,13 @@
 1.2.250.1.71.1.2.16;976;Mayotte;Mayotte (976);Mayotte;20080101000000;;20240126120000
 1.2.250.1.71.1.2.16;977;Saint-Barthélemy (977);SAINT BARTHELEMY;Saint-Barthélemy;20080101000000;;20240126120000
 1.2.250.1.71.1.2.16;978;Saint-Martin (978);SAINT MARTIN;Saint-Martin;20080101000000;;20240126120000
-1.2.250.1.71.1.2.16;98000;Monaco;Monaco (98000);Monaco;20070725150436;20160205000000;20160205000000
-1.2.250.1.71.1.2.16;99138;Monaco (99138);MONACO;Principauté de Monaco;20070725150436;;20240628120000
 1.2.250.1.71.1.2.16;984;Terres australes et antarctiques françaises (984);TERRE AUSTRALE ANTARCTIQUE FR;Terres australes et antarctiques françaises;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;985;Mayotte (Ancien Code);Mayotte (985 - Ancien Code);Mayotte (Ancien Code);20070501000000;20091023000000;20091023000000
 1.2.250.1.71.1.2.16;986;Wallis-et-Futuna (986);WALLIS ET FUTUNA;Wallis-et-Futuna;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;987;Polynésie française (987);POLYNESIE FRANCAISE;Polynésie française;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;988;Nouvelle-Calédonie (988);NOUVELLE CALEDONIE;Nouvelle-Calédonie;20070725150436;;20240126120000
 1.2.250.1.71.1.2.16;989;La Passion-Clipperton (989);LA PASSION CLIPPERTON;La Passion-Clipperton;20080101000000;;20240126120000
+1.2.250.1.71.1.2.16;98000;Monaco;Monaco (98000);Monaco;20070725150436;20160205000000;20160205000000
+1.2.250.1.71.1.2.16;99138;Monaco (99138);MONACO;Principauté de Monaco;20070725150436;;20240628120000
+1.2.250.1.71.1.2.16;2A;Corse-du-Sud (2A);CORSE DU SUD;Corse-du-Sud;20070725150436;;20240126120000
+1.2.250.1.71.1.2.16;2B;Haute-Corse (2B);HAUTE CORSE;Haute-Corse;20070725150436;;20240126120000

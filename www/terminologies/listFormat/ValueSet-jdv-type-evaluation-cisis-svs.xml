@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251216141838"
+             dateMaj="20260220142104"
              dateValid="20240906000000"
              description="JDV Type Evaluation CISIS"
              displayName="JdvTypeEvaluationCisis"
@@ -37,6 +37,9 @@
          <Concept code="MED-1329"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Evaluation CIM11"/>
+         <Concept code="GEN-092.04.24"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Autre type d'évaluation"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
