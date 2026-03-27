@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20240426120000"
+             dateMaj="20260330120000"
              dateValid="20171013120000"
              description="Compétence spécifique"
              displayName="TRE_R243_CompetenceSpecifique"
@@ -558,6 +558,15 @@
                   displayName="Conseiller conjugal et familial"
                   longDesignation="Conseiller conjugal et familial"
                   shortDesignation="Conseiller conj. et familial"
+                  descriptionMetier=""/>
+         <Concept code="62"
+                  codeSystem="1.2.250.1.213.3.3.37"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Maîtrise du Facile à Lire et à Comprendre (FALC)"
+                  longDesignation="Maîtrise du Facile à Lire et à Comprendre (FALC)"
+                  shortDesignation="Maîtrise du FALC"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

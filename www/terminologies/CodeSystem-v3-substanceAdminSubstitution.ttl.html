@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Substance Admin Substitution - TTL Representation - Terminologies  de Santé v1.7.0</title>
+    <title>Substance Admin Substitution - TTL Representation - Terminologies  de Santé v1.8.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.832"}
-    h3,h4,h5,h6{--heading-prefix:"7.832"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.863"}
+    h3,h4,h5,h6{--heading-prefix:"7.863"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,11 +58,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.7.0 - final-text
+            <span style="display:inline-block;">1.8.0 - final-text
 
 
 
-  <span title="">FRA</span>
+  <img alt="France (la) flag" src="assets/images/fra.svg" height="16" title="France (la)"/>
 
 
             </span>
@@ -169,7 +169,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.7.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.8.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -267,7 +267,7 @@
 
 
 
-  <pre class="rdf" style="white-space: pre; overflow: hidden"><code class="language-turtle">
+  <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden"><code class="language-turtle">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
@@ -278,19 +278,24 @@
 
  a fhir:CodeSystem ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;v3-substanceAdminSubstitution&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.meta">fhir:meta</a> [
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;v3-substanceAdminSubstitution&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.meta">fhir:meta</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;1&quot; ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2026-01-07T10:12:52.303+01:00&quot;^^xsd:dateTime ]
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;en&quot;] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.text">fhir:text</a> [
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;en&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">fhir:text</a> [
 <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
-fhir:div &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Generated Narrative: CodeSystem v3-substanceAdminSubstitution&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;v3-substanceAdminSubstitution\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcv3-substanceAdminSubstitution\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Language: en&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Properties&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;This code system defines the following properties for its concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Name&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;internalId&lt;/td&gt;&lt;td&gt;internalId&lt;/td&gt;&lt;td&gt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;The internal identifier for the concept in the HL7 Access database repository.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Not Selectable&lt;/td&gt;&lt;td&gt;notSelectable&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#notSelectable&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;td&gt;Indicates that the code is abstract - only intended to be used as a selector for other concepts&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;Designation of a concept's state. Normally is not populated unless the state is retired.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution&lt;/code&gt; defines the following codes in a Is-A hierarchy:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Lvl&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Display&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Definition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;internalId&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Not Selectable&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;_ActSubstanceAdminSubstitutionCode&lt;a name=\&quot;v3-substanceAdminSubstitution-_ActSubstanceAdminSubstitutionCode\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ActSubstanceAdminSubstitutionCode&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted with another product that may potentially have different ingredients, but having the same biological and therapeutic effects.&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;21284&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  E&lt;a name=\&quot;v3-substanceAdminSubstitution-E\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted with another bioequivalent and therapeutically equivalent product.&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23107&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    EC&lt;a name=\&quot;v3-substanceAdminSubstitution-EC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;equivalent composition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted with another product that is a:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;pharmaceutical alternative containing the same active ingredient but is formulated with different salt, ester&lt;/li&gt;\n&lt;li&gt;pharmaceutical equivalent that has the same active ingredient, strength, dosage form and route of administration&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;em&gt;Pharmaceutical alternative:&lt;/em&gt; Erythromycin Ethylsuccinate for Erythromycin Stearate&lt;/li&gt;\n&lt;li&gt;&lt;em&gt;Pharmaceutical equivalent:&lt;/em&gt; Lisonpril for Zestril&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23108&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;      BC&lt;a name=\&quot;v3-substanceAdminSubstitution-BC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;brand composition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted between equivalent Brands but not Generics&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Zestril for Prinivil&lt;/li&gt;\n&lt;li&gt;Coumadin for Jantoven&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23109&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;      G&lt;a name=\&quot;v3-substanceAdminSubstitution-G\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;generic composition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted between equivalent Generics but not Brands&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Lisnopril (Lupin Corp) for Lisnopril (Wockhardt Corp)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;16623&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    TE&lt;a name=\&quot;v3-substanceAdminSubstitution-TE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;therapeutic alternative&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted with another product having the same therapeutic objective and safety profile.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;ranitidine for Tagamet&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;16624&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;      TB&lt;a name=\&quot;v3-substanceAdminSubstitution-TB\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;therapeutic brand&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted between therapeutically equivalent Brands but not Generics&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Zantac for Tagamet&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23105&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;      TG&lt;a name=\&quot;v3-substanceAdminSubstitution-TG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;therapeutic generic&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted between therapeutically equivalent Generics but not Brands&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ranitidine for cimetidine&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23106&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  F&lt;a name=\&quot;v3-substanceAdminSubstitution-F\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;formulary&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;This substitution was performed or is permitted based on formulary guidelines.&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;16625&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  N&lt;a name=\&quot;v3-substanceAdminSubstitution-N\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;none&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;No substitution occurred or is permitted.&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;16622&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;en\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : CodeSystem v3-substanceAdminSubstitution&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;v3-substanceAdminSubstitution\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcv3-substanceAdminSubstitution\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version : 1; Dernière mise à jour : 2026-01-07 10:12:52+0100; Langue : en&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;internalId&lt;/td&gt;&lt;td&gt;internalId&lt;/td&gt;&lt;td&gt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;The internal identifier for the concept in the HL7 Access database repository.&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Not Selectable&lt;/td&gt;&lt;td&gt;notSelectable&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#notSelectable&lt;/td&gt;&lt;td&gt;boolean&lt;/td&gt;&lt;td&gt;Indicates that the code is abstract - only intended to be used as a selector for other concepts&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;Designation of a concept's state. Normally is not populated unless the state is retired.&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution&lt;/code&gt; defines the following codes dans une hiérarchie Is-A:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Niv&lt;/b&gt;&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Affichage&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Définition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;internalId&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Not Selectable&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;1&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;_ActSubstanceAdminSubstitutionCode&lt;a name=\&quot;v3-substanceAdminSubstitution-_ActSubstanceAdminSubstitutionCode\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;ActSubstanceAdminSubstitutionCode&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted with another product that may potentially have different ingredients, but having the same biological and therapeutic effects.&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;21284&lt;/td&gt;&lt;td&gt;true&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  E&lt;a name=\&quot;v3-substanceAdminSubstitution-E\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;equivalent&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted with another bioequivalent and therapeutically equivalent product.&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23107&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    EC&lt;a name=\&quot;v3-substanceAdminSubstitution-EC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;equivalent composition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted with another product that is a:&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;pharmaceutical alternative containing the same active ingredient but is formulated with different salt, ester&lt;/li&gt;\n&lt;li&gt;pharmaceutical equivalent that has the same active ingredient, strength, dosage form and route of administration&lt;/li&gt;\n&lt;/ul&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;&lt;em&gt;Pharmaceutical alternative:&lt;/em&gt; Erythromycin Ethylsuccinate for Erythromycin Stearate&lt;/li&gt;\n&lt;li&gt;&lt;em&gt;Pharmaceutical equivalent:&lt;/em&gt; Lisonpril for Zestril&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23108&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;      BC&lt;a name=\&quot;v3-substanceAdminSubstitution-BC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;brand composition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted between equivalent Brands but not Generics&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Zestril for Prinivil&lt;/li&gt;\n&lt;li&gt;Coumadin for Jantoven&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23109&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;      G&lt;a name=\&quot;v3-substanceAdminSubstitution-G\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;generic composition&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted between equivalent Generics but not Brands&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Lisnopril (Lupin Corp) for Lisnopril (Wockhardt Corp)&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;16623&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;3&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;    TE&lt;a name=\&quot;v3-substanceAdminSubstitution-TE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;therapeutic alternative&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted with another product having the same therapeutic objective and safety profile.&lt;/p&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;ranitidine for Tagamet&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;16624&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;      TB&lt;a name=\&quot;v3-substanceAdminSubstitution-TB\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;therapeutic brand&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted between therapeutically equivalent Brands but not Generics&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Zantac for Tagamet&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23105&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;4&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;      TG&lt;a name=\&quot;v3-substanceAdminSubstitution-TG\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;therapeutic generic&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;Substitution occurred or is permitted between therapeutically equivalent Generics but not Brands&lt;/p&gt;\n&lt;blockquote&gt;\n&lt;/blockquote&gt;\n&lt;p&gt;&lt;em&gt;Examples:&lt;/em&gt;&lt;/p&gt;\n&lt;ul&gt;\n&lt;li&gt;Ranitidine for cimetidine&lt;/li&gt;\n&lt;/ul&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;23106&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  F&lt;a name=\&quot;v3-substanceAdminSubstitution-F\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;formulary&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;This substitution was performed or is permitted based on formulary guidelines.&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;16625&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;2&lt;/td&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;  N&lt;a name=\&quot;v3-substanceAdminSubstitution-N\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;none&lt;/td&gt;&lt;td&gt;&lt;div&gt;&lt;p&gt;No substitution occurred or is permitted.&lt;/p&gt;\n&lt;/div&gt;&lt;/td&gt;&lt;td&gt;16622&lt;/td&gt;&lt;td/&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
   ] ; # 
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution&quot;^^xsd:anyURI] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/v3-substanceAdminSubstitution&gt;
+  ] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.identifier">fhir:identifier</a> ( [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:ietf:rfc:3986&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:ietf:rfc:3986&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:ietf:rfc:3986&gt;     ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.5.1070&quot; ]
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;3.0.0&quot;] ; # 
@@ -310,7 +315,9 @@ fhir:div &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">fhir:jurisdiction</a> ( [
     ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:iso:std:iso:3166&gt;       ] ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;FRA&quot; ]     ] )
   ] ) ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.copyright">fhir:copyright</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html&quot;] ; # 
@@ -319,17 +326,23 @@ fhir:div &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;complete&quot;] ; # 
   <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:property</a> ( [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id&gt;     ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;The internal identifier for the concept in the HL7 Access database repository.&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;code&quot; ]
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;notSelectable&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#notSelectable&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#notSelectable&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/concept-properties#notSelectable&gt;     ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Indicates that the code is abstract - only intended to be used as a selector for other concepts&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;boolean&quot; ]
   ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#status&quot;^^xsd:anyURI ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#status&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/concept-properties#status&gt;     ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Designation of a concept's state. Normally is not populated unless the state is retired.&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;code&quot; ]
   ] ) ; # 
@@ -339,16 +352,16 @@ fhir:div &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Substitution occurred or is permitted with another product that may potentially have different ingredients, but having the same biological and therapeutic effects.&quot; ] ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;notSelectable&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#boolean">a</a> fhir:boolean ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#boolean">a</a> fhir:Boolean ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;21284&quot;       ]     ] ) ;
     ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">fhir:concept</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;E&quot; ] ;
@@ -356,12 +369,12 @@ fhir:div &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Substitution occurred or is permitted with another bioequivalent and therapeutically equivalent product.&quot; ] ;
       ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;         ]       ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23107&quot;         ]       ] ) ;
       ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">fhir:concept</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;EC&quot; ] ;
@@ -369,12 +382,12 @@ fhir:div &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Substitution occurred or is permitted with another product that is a:\r\n\r\n *  pharmaceutical alternative containing the same active ingredient but is formulated with different salt, ester\r\n *  pharmaceutical equivalent that has the same active ingredient, strength, dosage form and route of administration\r\n\r\n*Examples:* \r\n\r\n *  *Pharmaceutical alternative:* Erythromycin Ethylsuccinate for Erythromycin Stearate\r\n *  *Pharmaceutical equivalent:* Lisonpril for Zestril&quot; ] ;
         ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23108&quot;           ]         ] ) ;
         ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">fhir:concept</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BC&quot; ] ;
@@ -382,36 +395,36 @@ fhir:div &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Substitution occurred or is permitted between equivalent Brands but not Generics\r\n\r\n*Examples:* \r\n\r\n *  Zestril for Prinivil\r\n *  Coumadin for Jantoven&quot; ] ;
           ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;             ]           ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23109&quot;             ]           ] )         ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;G&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;generic composition&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Substitution occurred or is permitted between equivalent Generics but not Brands\r\n\r\n*Examples:* \r\n\r\n *  Lisnopril (Lupin Corp) for Lisnopril (Wockhardt Corp)&quot; ] ;
           ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;             ]           ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;16623&quot;             ]           ] )         ] )       ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TE&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;therapeutic alternative&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Substitution occurred or is permitted with another product having the same therapeutic objective and safety profile.\r\n\r\n*Examples:* \r\n\r\n *  ranitidine for Tagamet&quot; ] ;
         ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;           ]         ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;16624&quot;           ]         ] ) ;
         ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.concept">fhir:concept</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TB&quot; ] ;
@@ -419,48 +432,48 @@ fhir:div &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Substitution occurred or is permitted between therapeutically equivalent Brands but not Generics\r\n\r\n&gt;\r\n\r\n*Examples:* \r\n\r\n *  Zantac for Tagamet&quot; ] ;
           ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;             ]           ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23105&quot;             ]           ] )         ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TG&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;therapeutic generic&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Substitution occurred or is permitted between therapeutically equivalent Generics but not Brands\r\n\r\n&gt;\r\n\r\n*Examples:* \r\n\r\n *  Ranitidine for cimetidine&quot; ] ;
           ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;             ]           ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;23106&quot;             ]           ] )         ] )       ] )     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;F&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;formulary&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;This substitution was performed or is permitted based on formulary guidelines.&quot; ] ;
       ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;         ]       ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;16625&quot;         ]       ] )     ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;N&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;none&quot; ] ;
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;No substitution occurred or is permitted.&quot; ] ;
       ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;         ]       ] [
 <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;internalId&quot; ] ;
-<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value[x]">fhir:value</a> [
-<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:code ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
 <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;16622&quot;         ]       ] )     ] )
   ] ) . # 
 
@@ -511,7 +524,7 @@ fhir:div &quot;&lt;div xml:lang=\&quot;en\&quot; xmlns=\&quot;http://www.w3.org/
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 24, 2026 11:14+0000">2026-02-24</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.8.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 27, 2026 15:52+0000">2026-03-27</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

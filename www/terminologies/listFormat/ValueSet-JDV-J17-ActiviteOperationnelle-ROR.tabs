@@ -1,11 +1,11 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
-1.2.250.1.213.3.4.5;JDV;JDV_J17_ActiviteOperationnelle_ROR.tabs;Activité Operationnelle - ROR;https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR;20160901000000;;20251222120000
+1.2.250.1.213.3.4.5;JDV;JDV_J17_ActiviteOperationnelle_ROR.tabs;Activité Operationnelle - ROR;https://mos.esante.gouv.fr/NOS/JDV_J17-ActiviteOperationnelle-ROR;20160901000000;;20260330120000
 <OID>;<Code>;<Libellé>
 1.2.250.1.213.3.3.12;001;Addictologie comportementale (sans substance)
 1.2.250.1.213.3.3.12;003;Alcoologie
 1.2.250.1.213.3.3.12;004;Algologie et Médecine de la douleur
 1.2.250.1.213.3.3.12;005;Allergologie
-1.2.250.1.213.3.3.12;006;Andrologie
+1.2.250.1.213.3.3.12;006;Andrologie (urologie médicale)
 1.2.250.1.213.3.3.12;007;Anesthésie et Médecine périopératoire
 1.2.250.1.213.3.3.12;009;Biochimie
 1.2.250.1.213.3.3.12;010;Biologie du développement et de la reproduction
@@ -108,11 +108,11 @@
 1.2.250.1.213.3.3.12;145;Traumatologie
 1.2.250.1.213.3.3.12;147;Urgences Médico-Psychologiques (CUMP)
 1.2.250.1.213.3.3.12;148;Urgences spécialisées cardiologiques
-1.2.250.1.213.3.3.12;152;Urgences spécialisées Médico-Judiciaires (UMJ)
+1.2.250.1.213.3.3.12;152;Evaluation Médico-Judiciaire (UMJ)
 1.2.250.1.213.3.3.12;154;Urgences spécialisées ophtalmologiques
 1.2.250.1.213.3.3.12;156;Urgences spécialisées Oto-Rhino-Laryngologiques (ORL)
 1.2.250.1.213.3.3.12;157;Urgences polyvalentes
-1.2.250.1.213.3.3.12;158;Urgences spécialisées psychiatriques
+1.2.250.1.213.3.3.12;158;Urgences psychiatriques
 1.2.250.1.213.3.3.12;159;Urgences spécialisées traumatologiques
 1.2.250.1.213.3.3.12;160;Urgences vitales (SAUV - déchocage)
 1.2.250.1.213.3.3.12;161;Vaccinations
@@ -252,7 +252,7 @@
 1.2.250.1.213.3.3.12;306;Activités visant la stimulation cognitivo-comportementale
 1.2.250.1.213.3.3.12;307;Organisation d'activités péri-scolaires-péri-professionnelles
 1.2.250.1.213.3.3.12;308;Soutien à la parentalité et accompagnement familial
-1.2.250.1.213.3.3.12;309;Accompagnements à la vie affective et sexuelle
+1.2.250.1.213.3.3.12;309;Accompagnements à la vie intime, affective et sexuelle
 1.2.250.1.213.3.3.12;310;Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs
 1.2.250.1.213.3.3.12;311;Accompagnements pour la pair aidance
 1.2.250.1.213.3.3.12;312;Accompagnements pour créer ou maintenir le lien social et éviter l'isolement
@@ -379,7 +379,7 @@
 1.2.250.1.213.3.3.12;445;Biologie moléculaire sur prélèvement Anapath
 1.2.250.1.213.3.3.12;446;Cytopathologie
 1.2.250.1.213.3.3.12;447;Histopathologie
-1.2.250.1.213.3.3.12;448;Diagnostic lié à un retard ou trouble du développement
+1.2.250.1.213.3.3.12;448;Diagnostic lié à un retard ou Trouble du Neuro-Développement (TND)
 1.2.250.1.213.3.3.12;449;Appui et coopération auprès des acteurs de l'enseignement
 1.2.250.1.213.3.3.12;450;Accompagnement à la réduction des risques en addictologie
 1.2.250.1.213.3.3.12;451;Exploration et prise en charge des troubles du sommeil
@@ -431,7 +431,7 @@
 1.2.250.1.213.3.3.12;507;Uro-Radiologie
 1.2.250.1.213.3.3.12;508;Exploration fonctionnelle de l'exercice et du sport
 1.2.250.1.213.3.3.12;509;Traumatologie de l'activité physique et du sport
-1.2.250.1.213.3.3.12;510;Échographie obstétricale
+1.2.250.1.213.3.3.12;510;Échographie obstétricale de dépistage (1er, 2ème, 3ème trimestre)
 1.2.250.1.213.3.3.12;511;Accueil et hébergement spécialisé
 1.2.250.1.213.3.3.12;512;Accueil et orientation des victimes de violences sexuelles
 1.2.250.1.213.3.3.12;513;Réadaptation locomotrice des patients amputés
@@ -522,4 +522,19 @@
 1.2.250.1.213.3.3.12;599;Analyse toxicologique
 1.2.250.1.213.3.3.12;600;Prise en charge des malaises et surdoses liés à la prise de drogues
 1.2.250.1.213.3.3.12;601;Médiation pour le maintien en hospitalisation
+1.2.250.1.213.3.3.12;602;Pair aidance pour l'autodétermination
 1.2.250.1.213.3.3.12;603;Prise en charge coordonnée des patients atteints de maladies neurodégénératives
+1.2.250.1.213.3.3.12;604;Chirurgie pédiatrique spécialisée orthopédique
+1.2.250.1.213.3.3.12;605;Chirurgie pédiatrique spécialisée digestif et viscérale
+1.2.250.1.213.3.3.12;606;Accompagnement pour l’autodétermination de la personne
+1.2.250.1.213.3.3.12;607;Fonction-ressource : expertise-conseils auprès des acteurs du secteur sanitaire
+1.2.250.1.213.3.3.12;608;Fonction-ressource : expertise-conseils auprès des acteurs du milieu ordinaire
+1.2.250.1.213.3.3.12;609;Fonction-ressource : expertise-conseils auprès de acteurs du secteur judiciaire
+1.2.250.1.213.3.3.12;610;Pédiatrie spécialisée neurologie
+1.2.250.1.213.3.3.12;611;Pédiatrie spécialisée pneumologie
+1.2.250.1.213.3.3.12;612;Psychiatrie de crise
+1.2.250.1.213.3.3.12;613;Echographie obstétricale de diagnostic
+1.2.250.1.213.3.3.12;614;Soins infirmiers en pratique avancée en pathologies chroniques stabilisées
+1.2.250.1.213.3.3.12;615;Soins infirmiers en pratique avancée en oncologie et hémato-oncologie
+1.2.250.1.213.3.3.12;616;Soins infirmiers en pratique avancée en maladie rénale chronique
+1.2.250.1.213.3.3.12;617;Soins infirmiers en pratique avancée en santé mentale

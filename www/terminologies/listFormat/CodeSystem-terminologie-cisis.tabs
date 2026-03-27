@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.1.1.4.322;TRE;TerminologieCISIS.tabs;Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.;;20010101120000;;20251217143759
+1.2.250.1.213.1.1.4.322;TRE;TerminologieCISIS.tabs;Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.;;20010101120000;;20260311145201
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.213.1.1.4.322;DLU_002;Conscient et éveillé;Conscient et éveillé;Conscient et éveillé;20100101000000;;
 1.2.250.1.213.1.1.4.322;DLU_003;Eveillable;Eveillable;Eveillable;20100101000000;;
@@ -97,6 +97,7 @@
 1.2.250.1.213.1.1.4.322;GEN-092.01.24;Autre risque;Autre risque;Autre risque;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.01.25;Autre exposition;Autre exposition;Autre exposition;20251211000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.01.26;Autre complication;Autre complication;Autre complication;20251211000000;;
+1.2.250.1.213.1.1.4.322;GEN-092.01.27;Autre facteur de risque;Autre facteur de risque;Autre facteur de risque;20260113000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.02.01;Autre dispositif ou objet personnel;Autre dispositif ou objet personnel;Autre dispositif ou objet personnel;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.02.02;Autre dispositif médical;Autre dispositif médical;Autre dispositif médical;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.03.01;Autre(s) traitement(s);Autre(s) traitement(s);Autre(s) traitement(s);20100101000000;;
@@ -145,6 +146,7 @@
 1.2.250.1.213.1.1.4.322;GEN-092.06.08;Autre mode de transport;Autre mode de transport;Autre mode de transport;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.06.09;Autre mode de sortie;Autre mode de sortie;Autre mode de sortie;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.06.10;Autre ressource;Autre ressource;Autre ressource;20100101000000;;
+1.2.250.1.213.1.1.4.322;GEN-092.06.11;Autre collectivité;Autre collectivité;Autre collectivité;20260114000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.07.01;Autre nature du matériel étudié;Autre nature du matériel étudié;Autre nature du matériel étudié;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.07.02;Autre gène;Autre gène;Autre gène;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-092.08.01;Autre aide au déplacement;Autre aide au déplacement;Autre aide au déplacement;20100101000000;;
@@ -320,7 +322,6 @@
 1.2.250.1.213.1.1.4.322;GEN-332;Le patient a signé son consentement à la transmission des données au registre ERN RED;Le patient a signé son consentement à la transmission des données au registre ERN RED;Le patient a signé son consentement à la transmission des données au registre ERN RED;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-333;Le patient a signé son consentement à la transmission des données au registre ERN GENTURIS;Le patient a signé son consentement à la transmission des données au registre ERN GENTURIS;Le patient a signé son consentement à la transmission des données au registre ERN GENTURIS;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-334;Le patient a signé son consentement à la transmission des données au registre ERN cond-GUARD-HEART;Le patient a signé son consentement à la transmission des données au registre ERN cond-GUARD-HEART;Le patient a signé son consentement à la transmission des données au registre ERN cond-GUARD-HEART;20100101000000;;
-1.2.250.1.213.1.1.4.322;GEN-335;Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core;Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core;Le patient a signé son consentement à la transmission des données au registre ERN Heart-Core;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-336;Le patient a signé son consentement à la transmission des données au registre ERN ILIAD;Le patient a signé son consentement à la transmission des données au registre ERN ILIAD;Le patient a signé son consentement à la transmission des données au registre ERN ILIAD;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-337;Le patient a signé son consentement à la transmission des données au registre ERN UIMD;Le patient a signé son consentement à la transmission des données au registre ERN UIMD;Le patient a signé son consentement à la transmission des données au registre ERN UIMD;20100101000000;;
 1.2.250.1.213.1.1.4.322;GEN-338;Le patient a signé son consentement à la transmission des données au registre ERN PaedCan;Le patient a signé son consentement à la transmission des données au registre ERN PaedCan;Le patient a signé son consentement à la transmission des données au registre ERN PaedCan;20100101000000;;
@@ -401,6 +402,21 @@
 1.2.250.1.213.1.1.4.322;GEN-413;Aucun objet;Aucun objet;Aucun objet;20250721000000;;
 1.2.250.1.213.1.1.4.322;GEN-414;Liste des prothèses et objets personnels;Liste des prothèses et objets personnels;Liste des prothèses et objets personnels;20250722000000;;
 1.2.250.1.213.1.1.4.322;GEN-415;Prescriptions;Prescriptions;Prescriptions;20250722000000;;
+1.2.250.1.213.1.1.4.322;GEN-416;Le patient a signé un consentement à la transmission de ses données au registre EuRREB;Le patient a signé un consentement à la transmission de ses données au registre EuRREB;Le patient a signé un consentement à la transmission de ses données au registre EuRREB;20260108000000;;
+1.2.250.1.213.1.1.4.322;GEN-417;Pacsé(e);Pacsé(e);Pacsé(e);20260114000000;;
+1.2.250.1.213.1.1.4.322;GEN-418;Union libre/Concubinage;Union libre/Concubinage;Union libre/Concubinage;20260114000000;;
+1.2.250.1.213.1.1.4.322;GEN-419;Contact avec un cas de rougeole;Contact avec un cas de rougeole;Contact avec un cas de rougeole;20260114000000;;
+1.2.250.1.213.1.1.4.322;GEN-420;Existence d'autres cas dans l'entourage;Existence d'autres cas dans l'entourage;Existence d'autres cas dans l'entourage;20260114000000;;
+1.2.250.1.213.1.1.4.322;GEN-421;Fréquentation d'une collectivité accueillant des sujets à risque de rougeole grave;Fréquentation d'une collectivité accueillant des sujets à risque de rougeole grave;Fréquentation d'une collectivité accueillant des sujets à risque de rougeole grave;20260114000000;;
+1.2.250.1.213.1.1.4.322;GEN-422;Le patient a signé un consentement à la transmission de ses données au(x) registre(s) de l'ERN GloBE-Reg;Le patient a signé un consentement à la transmission de ses données au(x) registre(s) de l'ERN GloBE-Reg;Le patient a signé un consentement à la transmission de ses données au(x) registre(s) de l'ERN GloBE-Reg;20260302000000;;
+1.2.250.1.213.1.1.4.322;GEN-423;Présence de sujet à risque de rougeole grave dans l’entourage du cas (femme enceinte, immunodéprimé, nourrisson);Présence de sujet à risque de rougeole grave dans l’entourage du cas (femme enceinte, immunodéprimé, nourrisson);Présence de sujet à risque de rougeole grave dans l’entourage du cas (femme enceinte, immunodéprimé, nourrisson);20260303000000;;
+1.2.250.1.213.1.1.4.322;GEN-424;Administration d’immunoglobulines aux contacts à risque de rougeole grave;Administration d’immunoglobulines aux contacts à risque de rougeole grave;Administration d’immunoglobulines aux contacts à risque de rougeole grave;20260303000000;;
+1.2.250.1.213.1.1.4.322;GEN-425;Nombre d'admministration d'immunoglobines aux contacts àrisque de rougeole grave;Nombre d'admministration d'immunoglobines aux contacts àrisque de rougeole grave;Nombre d'admministration d'immunoglobines aux contacts àrisque de rougeole grave;20260303000000;;
+1.2.250.1.213.1.1.4.322;GEN-426;Administration dans les 72 heures suivant le 1er contact du vaccin ROR aux personnes contact;Administration dans les 72 heures suivant le 1er contact du vaccin ROR aux personnes contact;Administration dans les 72 heures suivant le 1er contact du vaccin ROR aux personnes contact;20260303000000;;
+1.2.250.1.213.1.1.4.322;GEN-427;Nombre d'administration dans les 72 heures suivant le 1er contact du vaccin ROR aux personnes contact;Nombre d'administration dans les 72 heures suivant le 1er contact du vaccin ROR aux personnes contact;Nombre d'administration dans les 72 heures suivant le 1er contact du vaccin ROR aux personnes contact;20260303000000;;
+1.2.250.1.213.1.1.4.322;GEN-428;Souhaitez-vous recevoir des kits pour prélèvements et envois d’échantillons de salive au CNR (recherche d’IgM/PCR) ?;Souhaitez-vous recevoir des kits pour prélèvements et envois d’échantillons de salive au CNR (recherche d’IgM/PCR) ?;Souhaitez-vous recevoir des kits pour prélèvements et envois d’échantillons de salive au CNR (recherche d’IgM/PCR) ?;20260303000000;;
+1.2.250.1.213.1.1.4.322;GEN-429;Nombre de kits;Nombre de kits;Nombre de kits;20260303000000;;
+1.2.250.1.213.1.1.4.322;GEN-430;Séjour à l’étranger pour les autres cas de rougeole dans l'entourage;Séjour à l’étranger pour les autres cas de rougeole dans l'entourage;Séjour à l’étranger pour les autres cas de rougeole dans l'entourage;20260303000000;;
 1.2.250.1.213.1.1.4.322;MED-001;Précision échographie;Précision échographie;Précision échographie;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-002;Mammographie anormale;Mammographie anormale;Mammographie anormale;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-003;Naevus ou autre formation cutanée;Naevus ou autre formation cutanée;Naevus ou autre formation cutanée;20100101000000;;
@@ -477,7 +493,6 @@
 1.2.250.1.213.1.1.4.322;MED-103;Non réponse ou évolution sous traitement;Non réponse ou évolution sous traitement;Non réponse ou évolution sous traitement;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-104;Refus de traitement;Refus de traitement;Refus de traitement;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-105;Décision de prise en soins palliatifs;Décision de prise en soins palliatifs;Décision de prise en soins palliatifs;20100101000000;;
-1.2.250.1.213.1.1.4.322;MED-107;Implant;Implant;Implant;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-110;Mammographique;Mammographique;Mammographique;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-111;Clinique et mammographique;Clinique et mammographique;Clinique et mammographique;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-116;Suivi rapproché (< 2 ans);Suivi rapproché (< 2 ans);Suivi rapproché (< 2 ans);20100101000000;;
@@ -651,8 +666,8 @@
 1.2.250.1.213.1.1.4.322;MED-360;AVC < 3 mois;AVC < 3 mois;AVC < 3 mois;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-361;ATCD hémorragie intra-parenchymateuse ou hémorragie méningée liée à un anévrysme;ATCD hémorragie intra-parenchymateuse ou hémorragie méningée liée à un anévrysme;ATCD hémorragie intra-parenchymateuse ou hémorragie méningée liée à un anévrysme;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-362;Intervention chirurgicale ou traumatisme important < 3 mois;Intervention chirurgicale ou traumatisme important < 3 mois;Intervention chirurgicale ou traumatisme important < 3 mois;20100101000000;;
-1.2.250.1.213.1.1.4.322;MED-363;Hémorragie sévère (manifeste ou récente) ; maladie connue favorisant les hémorragies ; rétinopathie hémorragique (diabétique par ex);Hémorragie sévère (manifeste ou récente) ; maladie connue favorisant les hémorragies ; rétinopathie hémorragique (diabétique par ex);Hémorragie sévère (manifeste ou récente) ; maladie connue favorisant les hémorragies ; rétinopathie hémorragique (diabétique par ex);20100101000000;;
-1.2.250.1.213.1.1.4.322;MED-364;Hépatopathie sévère ; pancréatite aiguë;Hépatopathie sévère ; pancréatite aiguë;Hépatopathie sévère ; pancréatite aiguë;20100101000000;;
+1.2.250.1.213.1.1.4.322;MED-363;Hémorragie sévère (manifeste ou récente), maladie connue favorisant les hémorragies, rétinopathie hémorragique (diabétique par ex);Hémorragie sévère (manifeste ou récente), maladie connue favorisant les hémorragies, rétinopathie hémorragique (diabétique par ex);Hémorragie sévère (manifeste ou récente), maladie connue favorisant les hémorragies, rétinopathie hémorragique (diabétique par ex);20100101000000;;
+1.2.250.1.213.1.1.4.322;MED-364;Hépatopathie sévère, pancréatite aiguë;Hépatopathie sévère, pancréatite aiguë;Hépatopathie sévère, pancréatite aiguë;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-365;Ulcère gastroduodénal documenté < 3 mois;Ulcère gastroduodénal documenté < 3 mois;Ulcère gastroduodénal documenté < 3 mois;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-366;Malformations vasculaires artérielles ou veineuses;Malformations vasculaires artérielles ou veineuses;Malformations vasculaires artérielles ou veineuses;20100101000000;;
 1.2.250.1.213.1.1.4.322;MED-367;Diabète et antécédent d’AVC;Diabète et antécédent d’AVC;Diabète et antécédent d’AVC;20100101000000;;
@@ -1375,6 +1390,19 @@
 1.2.250.1.213.1.1.4.322;MED-1334;mésusage ou d’un usage détourné;mésusage ou d’un usage détourné;mésusage ou d’un usage détourné;20251104000000;;
 1.2.250.1.213.1.1.4.322;MED-1335;Médicament augmentant l’INR;Médicament augmentant l’INR;Médicament augmentant l’INR;20251215000000;;
 1.2.250.1.213.1.1.4.322;MED-1336;Médicament diminuant l’INR;Médicament diminuant l’INR;Médicament diminuant l’INR;20251215000000;;
+1.2.250.1.213.1.1.4.322;MED-1337;Le patient (ou le tiers) est-il informé du diagnostic ?;Le patient (ou le tiers) est-il informé du diagnostic ?;Le patient (ou le tiers) est-il informé du diagnostic ?;20260114000000;;
+1.2.250.1.213.1.1.4.322;MED-1338;L'état clinique du patient lui permet-il de répondre à l'investigation ?;L'état clinique du patient lui permet-il de répondre à l'investigation ?;L'état clinique du patient lui permet-il de répondre à l'investigation ?;20260114000000;;
+1.2.250.1.213.1.1.4.322;MED-1339;Complication;Complication;Complication;20260114000000;;
+1.2.250.1.213.1.1.4.322;MED-1340;Vaccination autre flavivirus;Vaccination autre flavivirus;Vaccination autre flavivirus;20260303000000;;
+1.2.250.1.213.1.1.4.322;MED-1341;Autre(s) exposition(s);Autre(s) exposition(s);Autre(s) exposition(s);20260303000000;;
+1.2.250.1.213.1.1.4.322;MED-1342;Questionnaire ICOPE 60-65 ans;Questionnaire ICOPE 60-65 ans;Questionnaire ICOPE 60-65 ans;20260305000000;;
+1.2.250.1.213.1.1.4.322;MED-1343;Questionnaire ICOPE 66-69 ans;Questionnaire ICOPE 66-69 ans;Questionnaire ICOPE 66-69 ans;20260305000000;;
+1.2.250.1.213.1.1.4.322;MED-1344;Questionnaire ICOPE 70-75 ans;Questionnaire ICOPE 70-75 ans;Questionnaire ICOPE 70-75 ans;20260305000000;;
+1.2.250.1.213.1.1.4.322;MED-1345;Questionnaire ICOPE 76 ans et plus;Questionnaire ICOPE 76 ans et plus;Questionnaire ICOPE 76 ans et plus;20260305000000;;
+1.2.250.1.213.1.1.4.322;MED-1346;Questionnaire Mon Bilan Prévention 18-25 ans;Questionnaire Mon Bilan Prévention 18-25 ans;Questionnaire Mon Bilan Prévention 18-25 ans;20260305000000;;
+1.2.250.1.213.1.1.4.322;MED-1347;Questionnaire Mon Bilan Prévention 45-50 ans;Questionnaire Mon Bilan Prévention 45-50 ans;Questionnaire Mon Bilan Prévention 45-50 ans;20260305000000;;
+1.2.250.1.213.1.1.4.322;MED-1348;Questionnaire Mon Bilan Prévention 60-65 ans;Questionnaire Mon Bilan Prévention 60-65 ans;Questionnaire Mon Bilan Prévention 60-65 ans;20260305000000;;
+1.2.250.1.213.1.1.4.322;MED-1349;Questionnaire Mon Bilan Prévention 70-75 ans;Questionnaire Mon Bilan Prévention 70-75 ans;Questionnaire Mon Bilan Prévention 70-75 ans;20260305000000;;
 1.2.250.1.213.1.1.4.322;ORG-001;Prise en charge spécifique en oncogériatrie;Prise en charge spécifique en oncogériatrie;Prise en charge spécifique en oncogériatrie;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-002;Suivi après traitement;Suivi après traitement;Suivi après traitement;20100101000000;;
 1.2.250.1.213.1.1.4.322;ORG-003;Type de suivi;Type de suivi;Type de suivi;20100101000000;;
@@ -1521,6 +1549,11 @@
 1.2.250.1.213.1.1.4.322;ORG-222;Etablissement d'origine;Etablissement d'origine;Etablissement d'origine;20250722000000;;
 1.2.250.1.213.1.1.4.322;ORG-223;Entourage du patient;Entourage du patient;Entourage du patient;20250722000000;;
 1.2.250.1.213.1.1.4.322;ORG-224;Intervenant à domicile;Intervenant à domicile;Intervenant à domicile;20250723000000;;
+1.2.250.1.213.1.1.4.322;ORG-225;RCP Métastase osseuse;RCP Métastase osseuse;RCP Métastase osseuse;20260302000000;;
+1.2.250.1.213.1.1.4.322;ORG-226;RCP Cancers rares;RCP Cancers rares;RCP Cancers rares;20260302000000;;
+1.2.250.1.213.1.1.4.322;ORG-227;Domicile ou milieu ordinaire;Domicile ou milieu ordinaire;Domicile ou milieu ordinaire;20260302000000;;
+1.2.250.1.213.1.1.4.322;ORG-228;Etablissement médico-social;Etablissement médico-social;Etablissement médico-social;20260302000000;;
+1.2.250.1.213.1.1.4.322;ORG-229;Provenance inconnue;Provenance inconnue;Provenance inconnue;20260302000000;;
 1.2.250.1.213.1.1.4.322;PAT-001;Caisse de retraite;Caisse de retraite;Caisse de retraite;20100101000000;;
 1.2.250.1.213.1.1.4.322;PAT-002;Mutuelle;Mutuelle;Mutuelle;20100101000000;;
 1.2.250.1.213.1.1.4.322;PAT-003;Pension;Pension;Pension;20100101000000;;

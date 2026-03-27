@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260330120000"
              dateValid="20220930120000"
              description="Modalités d'accueil"
              displayName="TRE_R338_ModaliteAccueil"
@@ -166,10 +166,10 @@
          <Concept code="18"
                   codeSystem="1.2.250.1.213.3.3.221"
                   dateFin=""
-                  dateMaj="20250425120000"
+                  dateMaj="20260330120000"
                   dateValid="20250425120000"
-                  displayName="Intra-hospitalier"
-                  longDesignation="Intra-hospitalier"
+                  displayName="Intra-hospitalier (dont équipe de liaison)"
+                  longDesignation="Intra-hospitalier (dont équipe de liaison)"
                   shortDesignation="Intra-hospitalier"
                   descriptionMetier=""/>
          <Concept code="19"

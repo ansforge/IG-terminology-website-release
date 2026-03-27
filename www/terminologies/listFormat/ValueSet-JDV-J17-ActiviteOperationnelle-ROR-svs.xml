@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260330120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -24,7 +24,7 @@
                   displayName="Allergologie"/>
          <Concept code="006"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Andrologie"/>
+                  displayName="Andrologie (urologie médicale)"/>
          <Concept code="007"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Anesthésie et Médecine périopératoire"/>
@@ -333,7 +333,7 @@
                   displayName="Urgences spécialisées cardiologiques"/>
          <Concept code="152"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Urgences spécialisées Médico-Judiciaires (UMJ)"/>
+                  displayName="Evaluation Médico-Judiciaire (UMJ)"/>
          <Concept code="154"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Urgences spécialisées ophtalmologiques"/>
@@ -345,7 +345,7 @@
                   displayName="Urgences polyvalentes"/>
          <Concept code="158"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Urgences spécialisées psychiatriques"/>
+                  displayName="Urgences psychiatriques"/>
          <Concept code="159"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Urgences spécialisées traumatologiques"/>
@@ -765,7 +765,7 @@
                   displayName="Soutien à la parentalité et accompagnement familial"/>
          <Concept code="309"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Accompagnements à la vie affective et sexuelle"/>
+                  displayName="Accompagnements à la vie intime, affective et sexuelle"/>
          <Concept code="310"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Accompagnements pour l'exercice des mandats électoraux, la représentation des pairs"/>
@@ -1146,7 +1146,7 @@
                   displayName="Histopathologie"/>
          <Concept code="448"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Diagnostic lié à un retard ou trouble du développement"/>
+                  displayName="Diagnostic lié à un retard ou Trouble du Neuro-Développement (TND)"/>
          <Concept code="449"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Appui et coopération auprès des acteurs de l'enseignement"/>
@@ -1302,7 +1302,7 @@
                   displayName="Traumatologie de l'activité physique et du sport"/>
          <Concept code="510"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Échographie obstétricale"/>
+                  displayName="Échographie obstétricale de dépistage (1er, 2ème, 3ème trimestre)"/>
          <Concept code="511"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Accueil et hébergement spécialisé"/>
@@ -1573,9 +1573,54 @@
          <Concept code="601"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Médiation pour le maintien en hospitalisation"/>
+         <Concept code="602"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Pair aidance pour l'autodétermination"/>
          <Concept code="603"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Prise en charge coordonnée des patients atteints de maladies neurodégénératives"/>
+         <Concept code="604"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Chirurgie pédiatrique spécialisée orthopédique"/>
+         <Concept code="605"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Chirurgie pédiatrique spécialisée digestif et viscérale"/>
+         <Concept code="606"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Accompagnement pour l’autodétermination de la personne"/>
+         <Concept code="607"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Fonction-ressource : expertise-conseils auprès des acteurs du secteur sanitaire"/>
+         <Concept code="608"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Fonction-ressource : expertise-conseils auprès des acteurs du milieu ordinaire"/>
+         <Concept code="609"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Fonction-ressource : expertise-conseils auprès de acteurs du secteur judiciaire"/>
+         <Concept code="610"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Pédiatrie spécialisée neurologie"/>
+         <Concept code="611"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Pédiatrie spécialisée pneumologie"/>
+         <Concept code="612"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Psychiatrie de crise"/>
+         <Concept code="613"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Echographie obstétricale de diagnostic"/>
+         <Concept code="614"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Soins infirmiers en pratique avancée en pathologies chroniques stabilisées"/>
+         <Concept code="615"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Soins infirmiers en pratique avancée en oncologie et hémato-oncologie"/>
+         <Concept code="616"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Soins infirmiers en pratique avancée en maladie rénale chronique"/>
+         <Concept code="617"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Soins infirmiers en pratique avancée en santé mentale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

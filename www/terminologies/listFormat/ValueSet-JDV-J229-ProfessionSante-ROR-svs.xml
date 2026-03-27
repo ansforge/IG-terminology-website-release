@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20220826120000"
+             dateMaj="20260330120000"
              dateValid="20220826120000"
              description="Type de caractéristique équipement"
              displayName="JDV_J229_ProfessionSante_ROR"
@@ -79,6 +79,9 @@
          <Concept code="98"
                   codeSystem="1.2.250.1.71.1.2.7"
                   displayName="Manipulateur ERM"/>
+         <Concept code="86"
+                  codeSystem="1.2.250.1.213.3.3.246"
+                  displayName="Infirmier en pratique avancée (IPA)"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

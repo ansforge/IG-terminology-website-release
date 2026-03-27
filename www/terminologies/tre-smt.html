@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Terminologies   du SMT - Terminologies  de Santé v1.7.0</title>
+    <title>Terminologies   du SMT - Terminologies  de Santé v1.8.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -56,11 +56,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.7.0 - final-text
+            <span style="display:inline-block;">1.8.0 - final-text
 
 
 
-  <span title="">FRA</span>
+  <img alt="France (la) flag" src="assets/images/fra.svg" height="16" title="France (la)"/>
 
 
             </span>
@@ -174,7 +174,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.7.0: Release) based on <a no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.8.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Terminologies   du SMT</h2>
   
   
@@ -197,7 +197,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
     <div id="orig">
 
    <table class="codes"><tr><td style="background-color: #eeeeee">Name</td><td style="background-color: #eeeeee">Description</td><td style="background-color: #eeeeee">date_maj</td></tr><tr><td><a href="CodeSystem-terminologie-atc.html">ATC</a></td><td><div><p>La classification ATC (anatomique, thérapeutique et chimique) classe les substances actives dans différents groupes selon l’organe ou le système sur lequel ils agissent et selon leurs propriétés thérapeutiques, pharmacologiques et chimiques.</p>
-</div></td><td><div><p>10/03/2025</p>
+</div></td><td><div><p>10/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-v3-ActCode.html">ActCode</a></td><td><div><p>A code specifying the particular kind of Act that the Act-instance represents within its class.</p>
 <p><em>Constraints:</em> The kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems. The coding system will depend on the class of Act, such as LOINC for observations, etc.</p>
 <p>Conceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure.</p>
@@ -212,17 +212,19 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td></tr><tr><td><a href="CodeSystem-v3-AdministrativeGender.html">AdministrativeGender</a></td><td><div><p>The gender of a person used for adminstrative purposes (as opposed to clinical gender)</p>
 </div></td><td><div><p>20/03/2019</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-bdpm.html">BDPM</a></td><td><div><p>LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM</p>
-</div></td><td><div><p>03/02/2026</p>
+</div></td><td><div><p>03/03/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-ccam.html">CCAM</a></td><td><div><p>La Classification Commune des Actes Médicaux est la terminologie de facturation créée et maintenue par la CNAM.</p>
-</div></td><td><div><p>01/01/2026</p>
+</div></td><td><div><p>02/01/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-cim11-mms.html">CIM11_MMS</a></td><td><div><p>La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)</p>
-</div></td><td><div><p>24/02/2026</p>
+</div></td><td><div><p>27/03/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-cim-10.html">CIM_10_FR_PMSI</a></td><td><div><p>La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11</p>
 </div></td><td><div><p>20/12/2024</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-cisp.html">CISP_2</a></td><td><div><p>La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l'ICHI (classification internationale des interventions de santé).</p>
 </div></td><td><div><p>26/06/2019</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-cladimed.html">ClaDiMed</a></td><td><div><p>La classification CLADIMED décrit le domaine des produits de santé (dispositifs médicaux (DM) et autres produits de santé (hors médicaments)). C’est une classification mono axiale inspirée de la classification internationale ATC des médicaments (Anatomique, Thérapeutique, Chimique).</p>
 </div></td><td><div><p>01/01/2021</p>
+</div></td></tr><tr><td><a href="CodeSystem-concept-properties.html">ConceptProperties</a></td><td><div><p>CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS</p>
+</div></td><td><div><p>30/03/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-condition-clinical.html">ConditionClinicalStatusCodes</a></td><td><div><p>Preferred value set for Condition Clinical Status.</p>
 </div></td><td><div><p>12/12/2025</p>
 </div></td></tr><tr><td><a href="CodeSystem-condition-ver-status.html">ConditionVerificationStatus</a></td><td><div><p>The verification status to support or decline the clinical status of the condition or diagnosis.</p>
@@ -230,7 +232,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td></tr><tr><td><a href="CodeSystem-v3-Confidentiality.html">Confidentiality</a></td><td><div><p>A set of codes specifying the security classification of acts and roles in accordance with the definition for concept domain &quot;Confidentiality&quot;.</p>
 </div></td><td><div><p>30/05/2023</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-sms.html">Dictionnaire_SMS_Substance_Management_Services_</a></td><td><div><p>Le dictionnaire des substances ou SMS a été conçu par l’European Medicines Agency (EMA) dans le cadre d’une démarche qualité. Ce dictionnaire contient les substances entrant dans la composition de médicaments destinés à un humain et/ou vétérinaire.</p>
-</div></td><td><div><p>03/02/2026</p>
+</div></td><td><div><p>05/03/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-emdn.html">EMDN</a></td><td><div><p>La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature que doivent utiliser les fabricants pour enregistrer leurs dispositifs médicaux dans EUDAMED, base de données européenne sur les dispositifs médicaux. Il s'agit d'alimenter le système européen d’identification des dispositifs fondé sur un identifiant unique du dispositif (IUD) pour en faciliter la traçabilité.</p>
 </div></td><td><div><p>28/04/2022</p>
 </div></td></tr><tr><td><a href="CodeSystem-v2-0066.html">EmploymentStatus</a></td><td><div><p>HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment.</p>
@@ -240,7 +242,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td></tr><tr><td><a href="CodeSystem-icd-o-3.html">IcdO3</a></td><td><div><p>International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/.</p>
 </div></td><td><div><p>20/03/2019</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-lahn.html">LAHN</a></td><td><div><p>La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation.</p>
-</div></td><td><div><p>24/02/2026</p>
+</div></td><td><div><p>27/03/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-v3-mediaType.html">MediaType</a></td><td><div><p>Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 [http://www.ietf.org/rfc/rfc2045.txt] and 2046 [http://www.ietf.org/rfc/rfc2046.txt]. RFC 2046 defines the media type to consist of two parts:</p>
 <ol>
 <li>top level media type, and</li>
@@ -249,9 +251,9 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>However, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash &quot;/&quot; followed by media subtype. Currently defined media types are registered in a database [http://www.iana.org/assignments/media-types/index.html] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used.</p>
 </div></td><td><div><p>20/03/2019</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-nabm.html">NABM</a></td><td><div><p>La NABM est la terminologie de facturation des actes de biologie médicale. Elle décrit la liste des actes de biologie dans une arborescence en chapitres et sous-chapitres ainsi que des règles de facturation.</p>
-</div></td><td><div><p>13/01/2026</p>
+</div></td><td><div><p>23/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-nuva.html">NUVA</a></td><td><div><p>La nomenclature unifiée des vaccins (NUVA) liste les spécialités vaccinales commercialisées ou ayant été commercialisées en France ou à l’étranger. Ces spécialités sont associées à une dénomination générique et à une description structurée notamment au niveau des valences et des pathologies cibles.Elle permet de constituer un historique vaccinal complet, aussi précis que le permettent les sources des données, interprétable par des systèmes d’information.</p>
-</div></td><td><div><p>29/01/2026</p>
+</div></td><td><div><p>01/03/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-v3-ObservationInterpretation.html">ObservationInterpretation</a></td><td><div><p>One or more codes providing a rough qualitative interpretation of the observation, such as &quot;normal&quot; / &quot;abnormal&quot;, &quot;low&quot; / &quot;high&quot;, &quot;better&quot; / &quot;worse&quot;, &quot;resistant&quot; / &quot;susceptible&quot;, &quot;expected&quot; / &quot;not expected&quot;. The value set is intended to be for ANY use where coded representation of an interpretation is needed.</p>
 </div></td><td><div><p>20/03/2019</p>
 </div></td></tr><tr><td><a href="CodeSystem-v3-ObservationMethod.html">ObservationMethod</a></td><td><div><p>A code that provides additional detail about the means or technique used to ascertain the observation.</p>
@@ -266,6 +268,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 </div></td><td><div><p>20/03/2019</p>
 </div></td></tr><tr><td><a href="CodeSystem-v3-ParticipationType.html">ParticipationType</a></td><td><div><p>A code specifying the meaning and purpose of every Participation instance. Each of its values implies specific constraints on the Roles undertaking the participation.</p>
 </div></td><td><div><p>20/03/2019</p>
+</div></td></tr><tr><td><a href="CodeSystem-terminologie-ruim-eeprescription.html">RUIM eeprescription</a></td><td><div><p>Composite CodeSystem grouping Brand Name + Package Size (+ optional properties).NB: dans cette version bêta, le Brand Name est remplacé par le libellé de la spécialité.</p>
+</div></td><td><div><p>13/01/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-v3-RoleCode.html">RoleCode</a></td><td><div><p>A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes.</p>
 </div></td><td><div><p>15/12/2019</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-SERAFINPH.html">SERAFIN_PH</a></td><td><div><p>Les nomenclatures des besoins et des prestations ont été élaborées par un groupe de travail issu du projet SERAFIN-PH porté par la Caisse nationale de Solidarité pour l’Autonomie (CNSA) et la Direction Générale de la Cohésion Sociale (DGCS).
@@ -273,8 +277,8 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
 </div></td><td><div><p>31/12/2022</p>
 </div></td></tr><tr><td><a href="CodeSystem-11000315107-20250621.html">SNOMED_CT</a></td><td><div><p>SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).</p>
 </div></td><td><div><p>21/06/2025</p>
-</div></td></tr><tr><td><a href="CodeSystem-900000000000207008-20260201.html">SNOMED_CT</a></td><td><div><p>SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).</p>
-</div></td><td><div><p>31/01/2026</p>
+</div></td></tr><tr><td><a href="CodeSystem-900000000000207008-20260301.html">SNOMED_CT</a></td><td><div><p>SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).</p>
+</div></td><td><div><p>28/02/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-service-type.html">ServiceType</a></td><td><div><p>This value set defines an example set of codes of service-types.</p>
 </div></td><td><div><p>09/03/2024</p>
 </div></td></tr><tr><td><a href="CodeSystem-v2-0488.html">SpecimenCollectionMethod</a></td><td><div><p>HL7-defined code system of concepts specifying the specimen collection method.  Used in HL7 Version 2.x messaging in the SPM segment.</p>
@@ -288,7 +292,7 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
 </div></td></tr><tr><td><a href="CodeSystem-v3-substanceAdminSubstitution.html">SubstanceAdminSubstitution</a></td><td><div><p>Identifies what sort of change is permitted or has occurred between the therapy that was ordered and the therapy that was/will be provided.</p>
 </div></td><td><div><p>20/03/2019</p>
 </div></td></tr><tr><td><a href="CodeSystem-terminologie-cisis.html">TerminologieCISIS</a></td><td><div><p>Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.</p>
-</div></td><td><div><p>17/12/2025</p>
+</div></td><td><div><p>11/03/2026</p>
 </div></td></tr><tr><td><a href="CodeSystem-v3-TimingEvent.html">TimingEvent</a></td><td><div><p>**** MISSING DESCRIPTION ****</p>
 </div></td><td><div><p>20/03/2019</p>
 </div></td></tr></table>
@@ -334,7 +338,7 @@ Elles permettent de décrire, sur la base d’un langage commun, les besoins ide
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.7.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Feb 24, 2026 11:14+0000">2026-02-24</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.8.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Mar 27, 2026 15:52+0000">2026-03-27</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

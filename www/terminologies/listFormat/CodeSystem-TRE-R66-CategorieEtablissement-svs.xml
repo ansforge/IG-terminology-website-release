@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260223120000"
+             dateMaj="20260330120000"
              dateValid="19790101000000"
              description="Catégorie d'établissements"
              displayName="TRE_R66_CategorieEtablissement"
@@ -786,8 +786,8 @@
                   descriptionMetier=""/>
          <Concept code="218"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateFin=""
-                  dateMaj="20050706000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Aire Station Nomades"
                   longDesignation="Aire Station Nomades"
@@ -804,8 +804,8 @@
                   descriptionMetier=""/>
          <Concept code="220"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateFin=""
-                  dateMaj="19900105000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Centre Social"
                   longDesignation="Centre Social"
@@ -1255,11 +1255,11 @@
          <Concept code="286"
                   codeSystem="1.2.250.1.213.1.6.1.8"
                   dateFin=""
-                  dateMaj="20260223000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Service de prévention spécialisée"
                   longDesignation="Service de prévention spécialisée"
-                  shortDesignation="Service de prévention spécialisée"
+                  shortDesignation="S.P.S."
                   descriptionMetier=""/>
          <Concept code="289"
                   codeSystem="1.2.250.1.213.1.6.1.8"
@@ -1488,8 +1488,8 @@
                   descriptionMetier=""/>
          <Concept code="324"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateFin=""
-                  dateMaj="20050706000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Logement Foyer non Spécialisé"
                   longDesignation="Logement Foyer non Spécialisé"
@@ -1587,8 +1587,8 @@
                   descriptionMetier=""/>
          <Concept code="345"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateFin=""
-                  dateMaj="19790123000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Service Tutelle Prestation Sociale"
                   longDesignation="Service de tutelle aux prestations sociales adultes"
@@ -1677,8 +1677,8 @@
                   descriptionMetier=""/>
          <Concept code="359"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateFin=""
-                  dateMaj="19790123000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Centre Circonscription Sanitaire et Sociale"
                   longDesignation="Centre Circonscription Sanitaire et Sociale"
@@ -1947,8 +1947,8 @@
                   descriptionMetier=""/>
          <Concept code="400"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateFin=""
-                  dateMaj="19821119000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Centre de Services pour Associations"
                   longDesignation="Centre de Services pour Associations"
@@ -1974,8 +1974,8 @@
                   descriptionMetier=""/>
          <Concept code="403"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateFin=""
-                  dateMaj="19940705000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Service Social Spécialisé ou Polyvalent de Catégorie"
                   longDesignation="Service Social Spécialisé ou Polyvalent de Catégorie"
@@ -1992,8 +1992,8 @@
                   descriptionMetier=""/>
          <Concept code="405"
                   codeSystem="1.2.250.1.213.1.6.1.8"
-                  dateFin=""
-                  dateMaj="19821208000000"
+                  dateFin="20260330000000"
+                  dateMaj="20260330000000"
                   dateValid="19790101000000"
                   displayName="Service Social Polyvalent de Secteur"
                   longDesignation="Service Social Polyvalent de Secteur"
@@ -2899,6 +2899,15 @@
                   longDesignation="Autre service territorial"
                   shortDesignation="Autre service territorial"
                   descriptionMetier="Points locaux d'information dédiés aux personnes âgées. Ces services peuvent être rattachés à des CCAS ( Centre Communaux d'Action Sociale)"/>
+         <Concept code="705"
+                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  dateFin=""
+                  dateMaj="20260330120000"
+                  dateValid="20260330120000"
+                  displayName="Groupe d’Entraide Mutuelle (GEM)"
+                  longDesignation="Groupe d’Entraide Mutuelle (GEM)"
+                  shortDesignation="GEM"
+                  descriptionMetier="Catégorie créée à la demande du ROR. A date aucun enregistrement n'est prévu dans FINESS pour cette catégorie"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

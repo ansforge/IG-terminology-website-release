@@ -1,8 +1,8 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>  
-1.2.250.1.213.3.3.40;JDV;JDV_J34_CategorieOrganisation_ROR.tabs;Catégorie d'organisation - ROR;https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR;20171013120000;;20260223120000
+1.2.250.1.213.3.3.40;JDV;JDV_J34_CategorieOrganisation_ROR.tabs;Catégorie d'organisation - ROR;https://mos.esante.gouv.fr/NOS/JDV_J34-CategorieOrganisation-ROR;20171013120000;;20260330120000
 <OID>;<Code>;<Libellé>
-1.2.250.1.213.3.3.39;01;Appartement thérapeutique
-1.2.250.1.213.3.3.39;02;Atelier thérapeutique
+1.2.250.1.213.3.3.39;01;Appartement thérapeutique en psychiatrie
+1.2.250.1.213.3.3.39;02;Atelier thérapeutique en psychiatrie
 1.2.250.1.213.3.3.39;03;Cellule d'Urgences Médico-Psychologique (CUMP)
 1.2.250.1.213.3.3.39;04;Centre d'Accueil Permanent (CAP)
 1.2.250.1.213.3.3.39;05;Centre d’Activités Thérapeutiques et de Temps de Groupe (CATTG) – ex CATTP
@@ -13,14 +13,14 @@
 1.2.250.1.213.3.3.39;10;Centre Médico-Psychologique (CMP) Adulte
 1.2.250.1.213.3.3.39;11;Hôpital De Jour (HDJ)
 1.2.250.1.213.3.3.39;12;Hôpital De Nuit (HDN)
-1.2.250.1.213.3.3.39;13;Service d'Accueil Familial Thérapeutique
+1.2.250.1.213.3.3.39;13;Service d'Accueil Familial Thérapeutique en psychiatrie
 1.2.250.1.213.3.3.39;14;Service Médico-Psychologique Régional (SMPR)
 1.2.250.1.213.3.3.39;15;Unité de Soins Intensifs Psychiatriques (USIP)
 1.2.250.1.213.3.3.39;16;Unité d'hospitalisation (hors HDJ)
 1.2.250.1.213.3.3.39;17;Unité Hospitalière Spécialement Aménagé (UHSA)
 1.2.250.1.213.3.3.39;18;Unité Malade Difficile (UMD)
 1.2.250.1.213.3.3.39;19;Unités Soins Etudes
-1.2.250.1.213.3.3.39;20;Unité d'urgences
+1.2.250.1.213.3.3.39;20;Unité d'urgences polyvalentes
 1.2.250.1.213.3.3.39;21;Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité
 1.2.250.1.213.3.3.39;22;Accueil ou hébergement pour personnes âgées autonomes, sans spécificité
 1.2.250.1.213.3.3.39;23;Accueil ou hébergement pour personnes âgées dépendantes, avec spécificité Unité d'Hébergement Renforcé (UHR)
@@ -65,7 +65,7 @@
 1.2.250.1.213.3.3.39;63;Jardin d'enfants spécialisé
 1.2.250.1.213.3.3.39;64;Bureau d'Aide Psychologique Universitaire (B.A.P.U.)
 1.2.250.1.213.3.3.39;65;Pôle de compétences et de prestations externalisées (PCPE)
-1.2.250.1.213.3.3.39;66;Equipe Relai Handicap rare
+1.2.250.1.213.3.3.39;66;Equipe Relais Handicaps Rares (ERHR)
 1.2.250.1.213.3.3.39;67;Lieu de vie et d'accueil (hors ESMS)
 1.2.250.1.213.3.3.39;68;Unité d'hospitalisation fermée
 1.2.250.1.213.3.3.39;69;Consultation externe en établissement de santé
@@ -143,7 +143,6 @@
 1.2.250.1.213.3.3.39;144;Equipe Mobile de Psychiatrie de la Personne Âgée
 1.2.250.1.213.3.3.39;145;Unité hospitalière d'addictologie
 1.2.250.1.213.3.3.39;146;Unité de prise en charge des brûlés
-1.2.250.1.213.3.3.39;147;Unité de sevrage complexe
 1.2.250.1.213.3.3.39;148;Unité hospitalière d'allergologie
 1.2.250.1.213.3.3.39;149;Unité hospitalière de cardiologie
 1.2.250.1.213.3.3.39;150;Unité hospitalière de chirurgie orthopédique et traumatologique
@@ -254,7 +253,6 @@
 1.2.250.1.213.3.3.39;257;Unité pour Personnes Handicapées Vieillissantes (UPHV - UPHA)
 1.2.250.1.213.3.3.39;258;Hébergement Temporaire d'urgence (dont HT-SH)
 1.2.250.1.213.3.3.39;259;Point d'information local dédié aux personnes âgées
-1.2.250.1.213.3.3.39;261;Accueil familial pour personne âgée
 1.2.250.1.213.3.3.39;262;Unité de soins intensifs spécialisés cardiologie (USIC)
 1.2.250.1.213.3.3.39;263;Unité de soins intensifs spécialisés neurologie vasculaire (USINV)
 1.2.250.1.213.3.3.39;264;Unité de soins intensifs spécialisés hématologie (USIH)
@@ -293,6 +291,9 @@
 1.2.250.1.213.3.3.39;297;Centre ressource IntimAgir
 1.2.250.1.213.3.3.39;298;Dispositif sanitaire dédié à la prise en charge des femmes victimes de violences (Maison des Femmes Santé)
 1.2.250.1.213.3.3.39;299;Equipe de Diagnostic de Proximité – Autisme (PDAP, EDAP)
-1.2.250.1.213.3.3.39;300;Equipe Mobile de Psychiatrie Périnatale
 1.2.250.1.213.3.3.39;301;Unité d'urgences psychiatriques
 1.2.250.1.213.3.3.39;302;Centre d’Accueil et de Crise (CAC)
+1.2.250.1.213.3.3.39;303;Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées
+1.2.250.1.213.3.3.39;304;Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie
+1.2.250.1.213.3.3.39;305;Cabinet de ville infirmier en pratique avancée en maladie rénale chronique
+1.2.250.1.213.3.3.39;306;Cabinet de ville infirmier en pratique avancée en santé mentale

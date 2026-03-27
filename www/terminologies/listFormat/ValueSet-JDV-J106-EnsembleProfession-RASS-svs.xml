@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20250328120000"
+             dateMaj="20260330120000"
              dateValid="20190830120000"
              description="Ensemble des professions du RASS"
              displayName="JDV_J106_EnsembleProfession_RASS"
@@ -29,9 +29,6 @@
                   displayName="Chirurgien-Dentiste"/>
          <Concept code="50" codeSystem="1.2.250.1.71.1.2.7" displayName="Sage-Femme"/>
          <Concept code="60" codeSystem="1.2.250.1.71.1.2.7" displayName="Infirmier"/>
-         <Concept code="69"
-                  codeSystem="1.2.250.1.71.1.2.7"
-                  displayName="Infirmier psychiatrique"/>
          <Concept code="70"
                   codeSystem="1.2.250.1.71.1.2.7"
                   displayName="Masseur-Kinésithérapeute"/>

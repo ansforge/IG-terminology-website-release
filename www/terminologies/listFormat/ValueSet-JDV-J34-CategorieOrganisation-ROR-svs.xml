@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260223120000"
+             dateMaj="20260330120000"
              dateValid="20171013120000"
              description="Catégorie d'organisation - ROR"
              displayName="JDV_J34_CategorieOrganisation_ROR"
@@ -12,10 +12,10 @@
       <ConceptList>
          <Concept code="01"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Appartement thérapeutique"/>
+                  displayName="Appartement thérapeutique en psychiatrie"/>
          <Concept code="02"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Atelier thérapeutique"/>
+                  displayName="Atelier thérapeutique en psychiatrie"/>
          <Concept code="03"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Cellule d'Urgences Médico-Psychologique (CUMP)"/>
@@ -48,7 +48,7 @@
                   displayName="Hôpital De Nuit (HDN)"/>
          <Concept code="13"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Service d'Accueil Familial Thérapeutique"/>
+                  displayName="Service d'Accueil Familial Thérapeutique en psychiatrie"/>
          <Concept code="14"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Service Médico-Psychologique Régional (SMPR)"/>
@@ -69,7 +69,7 @@
                   displayName="Unités Soins Etudes"/>
          <Concept code="20"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité d'urgences"/>
+                  displayName="Unité d'urgences polyvalentes"/>
          <Concept code="21"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité"/>
@@ -204,7 +204,7 @@
                   displayName="Pôle de compétences et de prestations externalisées (PCPE)"/>
          <Concept code="66"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Equipe Relai Handicap rare"/>
+                  displayName="Equipe Relais Handicaps Rares (ERHR)"/>
          <Concept code="67"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Lieu de vie et d'accueil (hors ESMS)"/>
@@ -436,9 +436,6 @@
          <Concept code="146"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité de prise en charge des brûlés"/>
-         <Concept code="147"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité de sevrage complexe"/>
          <Concept code="148"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière d'allergologie"/>
@@ -769,9 +766,6 @@
          <Concept code="259"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Point d'information local dédié aux personnes âgées"/>
-         <Concept code="261"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Accueil familial pour personne âgée"/>
          <Concept code="262"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité de soins intensifs spécialisés cardiologie (USIC)"/>
@@ -886,15 +880,24 @@
          <Concept code="299"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Equipe de Diagnostic de Proximité – Autisme (PDAP, EDAP)"/>
-         <Concept code="300"
-                  codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Equipe Mobile de Psychiatrie Périnatale"/>
          <Concept code="301"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité d'urgences psychiatriques"/>
          <Concept code="302"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Centre d’Accueil et de Crise (CAC)"/>
+         <Concept code="303"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Cabinet de ville infirmier en pratique avancée en pathologies chroniques stabilisées"/>
+         <Concept code="304"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Cabinet de ville infirmier en pratique avancée en oncologie et hémato-oncologie"/>
+         <Concept code="305"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Cabinet de ville infirmier en pratique avancée en maladie rénale chronique"/>
+         <Concept code="306"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Cabinet de ville infirmier en pratique avancée en santé mentale"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
