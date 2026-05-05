@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260311144903"
+             dateMaj="20260420150250"
              dateValid="20260302000000"
              description="JDV Modalite Entree ESMS CISIS"
              displayName="JdvModaliteEntreeEsmsCisis"
@@ -10,6 +10,9 @@
              typeFichier="JDV"
              urlFichier="">
       <ConceptList>
+         <Concept code="ORG-227"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  displayName="Domicile ou milieu ordinaire"/>
          <Concept code="ORG-228"
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Etablissement médico-social"/>
@@ -17,11 +20,8 @@
                   codeSystem="1.2.250.1.213.1.1.4.322"
                   displayName="Provenance inconnue"/>
          <Concept code="129"
-                  codeSystem="1.2.250.1.213.1.6.1.8"
+                  codeSystem="1.2.250.1.213.1.6.1.378"
                   displayName="Etablissement de Soins Médicaux"/>
-         <Concept code="ORG-227"
-                  codeSystem="1.2.250.1.213.1.1.4.322"
-                  displayName="Domicile ou milieu ordinaire"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

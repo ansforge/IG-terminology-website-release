@@ -1,5 +1,5 @@
 <OID>;<Type fichier>;<Nom fichier>;<Description>;<URL fichier>;<Date valid>;<Date fin>;<Date MàJ>
-1.2.250.1.213.1.6.1.378;TRE;TreR397CategorieEntiteGeographiqueExercice.tabs;Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés;;19790101000000;;20260330120000
+1.2.250.1.213.1.6.1.378;TRE;TreR397CategorieEntiteGeographiqueExercice.tabs;Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés;;19790101000000;;20260505120000
 <OID>;<Code>;<Libellé adapté>;<Libellé court>;<Libellé long>;<Date valid>;<Date fin>;<Date MàJ> 
 1.2.250.1.213.1.6.1.378;0100;Etablissements d'administration;Etab.Administration;Etablissements d'administration;19790101000000;20210326120000;20210326120000
 1.2.250.1.213.1.6.1.378;1000;Etablissements Relevant de la Loi Hospitalière;Etab.Loi Hospital.;Etablissements Relevant de la Loi Hospitalière;19790101000000;;19790101000000
@@ -142,14 +142,14 @@
 1.2.250.1.213.1.6.1.378;146;Structure d'Alternative à la dialyse en centre;Alternative dialyse;Structure d'Alternative à la dialyse en centre;19790101000000;;20020218000000
 1.2.250.1.213.1.6.1.378;156;Centre médico-psychologique (CMP);C.M.P.;Centre Médico-Psychologique (C.M.P.);19790101000000;;19971119000000
 1.2.250.1.213.1.6.1.378;157;Centre de Postcure;Ctre.de Postcure;Centre de Postcure;19790101000000;19940919000000;19910301000000
-1.2.250.1.213.1.6.1.378;159;Centre Parental;Centre Parental;Centre Parental;20200626120000;;20200626120000
+1.2.250.1.213.1.6.1.378;159;Centre Parental;Centre Parental;Centre Parental;20200626120000;20260505000000;20260505120000
 1.2.250.1.213.1.6.1.378;160;Centre de soins spécifiques pour toxicomanes (CSST);C.S.S.T.;Centre de Soins Spécifiques pour Toxicomanes (C.S.S.T.);19790101000000;20121231000000;20130510000000
 1.2.250.1.213.1.6.1.378;161;Maison de Santé pour Maladies Mentales;Mais.Santé Mal.Ment;Maison de Santé pour Maladies Mentales;19790101000000;;19790123000000
 1.2.250.1.213.1.6.1.378;162;Centre de cure ambulatoire en alcoologie (CCAA);C.C.A.A.;Centre de Cure Ambulatoire en Alcoologie (C.C.A.A.);19790101000000;20121231000000;20130510000000
 1.2.250.1.213.1.6.1.378;163;Maison d'enfants à caractère sanitaire (MECS) temporaire;M.E.C.S. Temporaire;Maison d'Enfants à Caractère Sanitaire Temporaire;19790101000000;20130625000000;19940705000000
 1.2.250.1.213.1.6.1.378;164;Etablissement expérimental d'accueil de la petite enfance;Etab.exp.petite enf.;Etablissements Expérimentaux Accueil de la Petite Enfance;20000801000000;20140331000000;20140331000000
 1.2.250.1.213.1.6.1.378;165;Appartement de coordination thérapeutique (ACT);A.C.T.;Appartement de Coordination Thérapeutique (A.C.T.);20020102000000;;20050706000000
-1.2.250.1.213.1.6.1.378;166;Centre Parents-Enfants de moins de 3 ans;Etab.Acc.Mère-Enfant;Centre Parents-Enfants de moins de 3 ans;19790101000000;;20260223000000
+1.2.250.1.213.1.6.1.378;166;Centre Parents-Enfants de moins de 3 ans;Etab.Acc.Mère-Enfant;Centre Parents-Enfants de moins de 3 ans;19790101000000;;20260505000000
 1.2.250.1.213.1.6.1.378;167;Crèche Collective;Crèche Collective;Crèche Collective;19790101000000;20140331000000;20140331000000
 1.2.250.1.213.1.6.1.378;168;Service Accueil Familial pour la Petite Enfance;Accueil Familial;Service Accueil Familial pour la Petite Enfance;19790101000000;20140331000000;20140331000000
 1.2.250.1.213.1.6.1.378;169;Crèche multi-accueil collectif et familial;Crèche Fam.et Coll.;Crèche Multi Accueil Collectif et Familial;19790101000000;20140331000000;20140331000000
@@ -206,7 +206,7 @@
 1.2.250.1.213.1.6.1.378;230;Etablissement Consultation Protection Infantile;Etab.Consul.Pro.Inf.;Etablissement Consultation Protection Infantile;19790101000000;;19940705000000
 1.2.250.1.213.1.6.1.378;231;Espaces de vie affective, relationnelle et sexuelle (EVARS);E.V.A.R.S.;Espaces de vie affective, relationnelle et sexuelle (EVARS);19790101000000;;20251222000000
 1.2.250.1.213.1.6.1.378;233;Lactarium;Lactarium;Lactarium;19790101000000;20150304000000;20150315000000
-1.2.250.1.213.1.6.1.378;236;Centre de placement familial socio-éducatif (CPFSE);C.P.F.S.E.;Centre Placement Familial Socio-Educatif (C.P.F.S.E.);19790101000000;;20050706000000
+1.2.250.1.213.1.6.1.378;236;Service de placement familial (SPF);S.P.F;Service de placement familial;19790101000000;;20260505000000
 1.2.250.1.213.1.6.1.378;237;Centre de Placement Familial Spécialisé;Ctre. Plac.Fam.Spé.;Centre de Placement Familial Spécialisé;19790101000000;20050706000000;20050701000000
 1.2.250.1.213.1.6.1.378;238;Centre d'Accueil Familial Spécialisé;Ctre.Acc.Fam.Spécia.;Centre d'Accueil Familial Spécialisé;19790101000000;;20050706000000
 1.2.250.1.213.1.6.1.378;241;Établissement de Placement;Établissement de Placement;Établissement de Placement;19790101000000;;20241025120000

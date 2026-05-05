@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260311144903"
+             dateMaj="20260420150250"
              dateValid="20251209000000"
              description="Jdv Trod Examen CISIS"
              displayName="JdvTrodExamenCisis"
@@ -22,7 +22,7 @@
          <Concept code="18282-4"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Cannabinoïdes [Présence/Seuil] Urine ; Qualitatif ; Dépistage"/>
-         <Concept code="18725-2"
+         <Concept code="72885-7"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Virus respiratoire syncytial Ag [Présence/Seuil] Nasopharynx ; Qualitatif ; Immunoanalyse rapide"/>
          <Concept code="1904-2"
@@ -99,13 +99,13 @@
                   displayName="Nitrites [Présence/Seuil] Urine ; Qualitatif ; Bandelette réactive"/>
          <Concept code="5803-2"
                   codeSystem="2.16.840.1.113883.6.1"
-                  displayName="pH [Log de concentration] Urine ; Numérique ; Bandelette réactive"/>
+                  displayName="pH [Log de concentration] Urine ; Semi-Quantitatif ; Bandelette réactive"/>
          <Concept code="5804-0"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Protéines [Masse/Volume] Urine ; Semi-Quantitatif ; Bandelette réactive"/>
          <Concept code="5811-5"
                   codeSystem="2.16.840.1.113883.6.1"
-                  displayName="Densité [Densité relative] Urine ; Semi-Quantitatif ; Bandelette réactive"/>
+                  displayName="Observation [Densité] Urine ; Semi-Quantitatif ; Bandelette réactive"/>
          <Concept code="58941-6"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Bilirubine [Masse/Volume] Peau ; Numérique ; Mesure transcutanée"/>
@@ -138,16 +138,16 @@
                   displayName="Streptococcus pyogenes Ag [Présence/Seuil] Gorge ; Qualitatif ; Immunoanalyse rapide"/>
          <Concept code="80382-5"
                   codeSystem="2.16.840.1.113883.6.1"
-                  displayName="Influenza virus A Ag [Présence/Seuil] Voies respiratoires supérieures ; Qualitatif ; Immunoanalyse rapide"/>
+                  displayName="Influenza virus A Ag [Présence/Seuil] Échantillon du système respiratoire supérieur ; Qualitatif ; Immunoanalyse rapide"/>
          <Concept code="80383-3"
                   codeSystem="2.16.840.1.113883.6.1"
-                  displayName="Influenza virus B Ag [Présence/Seuil] Voies respiratoires supérieures ; Qualitatif ; Immunoanalyse rapide"/>
+                  displayName="Influenza virus B Ag [Présence/Seuil] Échantillon du système respiratoire supérieur ; Qualitatif ; Immunoanalyse rapide"/>
          <Concept code="80387-4"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="VIH-1+2 Ac [Présence/Seuil] Sérum/Plasma/Sang ; Qualitatif ; Immunoanalyse rapide"/>
          <Concept code="94558-4"
                   codeSystem="2.16.840.1.113883.6.1"
-                  displayName="Coronavirus SARS-CoV-2 Ag [Présence/Seuil] Respiratoire ; Qualitatif ; Immunoanalyse rapide"/>
+                  displayName="Coronavirus SARS-CoV-2 Ag [Présence/Seuil] Échantillon du système respiratoire ; Qualitatif ; Immunoanalyse rapide"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

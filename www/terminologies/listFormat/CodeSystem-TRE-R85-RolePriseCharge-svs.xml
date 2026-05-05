@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260330120000"
+             dateMaj="20260505120000"
              dateValid="20150101000000"
              description="Rôle dans la prise en charge des patients ou des usagers"
              displayName="TRE_R85_RolePriseCharge"
@@ -166,11 +166,11 @@
          <Concept code="317"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   dateFin=""
-                  dateMaj="20250919120000"
+                  dateMaj="20260505120000"
                   dateValid="20200626120000"
-                  displayName="Préparateur en pharmacie (officine)"
-                  longDesignation="Préparateur en pharmacie (officine)"
-                  shortDesignation="Prép en pharmacie (officine)"
+                  displayName="Préparateur en pharmacie"
+                  longDesignation="Préparateur en pharmacie"
+                  shortDesignation="Prép en pharmacie"
                   descriptionMetier="Ref juridique : CSP Articles L4241-1 à L4241-18 Source fiche métier de la Fédération des Pharmaciens d’Officine (FPO) : https://www.fspf.fr/wp-content/uploads/2024/01/Fiche-metier-et-formation-Preparateur-en-pharmacie.pdf Le préparateur en pharmacie est un professionnel de santé qui exerce sous la responsabilité du pharmacien, il accueille les clients, délivre les médicaments et peut être amené à passer les commandes et gérer les stocks pour l’officine. Ses rôles d’accueil et de conseil sont également très importants."/>
          <Concept code="318"
                   codeSystem="1.2.250.1.213.1.6.1.107"
@@ -694,6 +694,42 @@
                   longDesignation="Conseiller conjugal et familial"
                   shortDesignation="Conseiller conjugal et familial"
                   descriptionMetier="Ref juridique : arrêté du 3 décembre 2010 relatif à la formation des personnels intervenant dans les centres de planification ou d’éducation familiale et dans les établissements d’information, de consultation ou de conseil familial.​ Le Conseiller conjugal et familial exerce – auprès des jeunes, des femmes, des couples et des familles – des activités d’information, d’orientation et d’accompagnement dans tous les domaines liés à la vie affective et sexuelle, aux conduites à risques, aux discriminations, aux violences (sexuelles, sexistes, de couple...), aux problèmes relationnels dans le couple et dans la famille. ​ Il s’inscrit dans le cadre de la promotion de la santé et de l’approche globale des personnes en matière d’éducation à la sexualité. Il s’appuie sur l’analyse de pratique, la formation continue, le travail en réseau et le cadre déontologique de l'écoute active pour répondre au plus juste aux besoins des personnes."/>
+         <Concept code="376"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="PADHUE - Médecin"
+                  longDesignation="PADHUE - Médecin"
+                  shortDesignation="PADHUE - Médecin"
+                  descriptionMetier="Médecin formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre."/>
+         <Concept code="377"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="PADHUE - Pharmacien"
+                  longDesignation="PADHUE - Pharmacien"
+                  shortDesignation="PADHUE - Pharmacien"
+                  descriptionMetier="Pharmacien formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre."/>
+         <Concept code="378"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="PADHUE - Sage Femme"
+                  longDesignation="PADHUE - Sage Femme"
+                  shortDesignation="PADHUE - Sage Femme"
+                  descriptionMetier="Sage Femme formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre."/>
+         <Concept code="379"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="PADHUE - Chirurgien Dentiste"
+                  longDesignation="PADHUE - Chirurgien Dentiste"
+                  shortDesignation="PADHUE - Chirurgien Dentiste"
+                  descriptionMetier="Chirurgien Dentiste formé à l’étranger (hors UE) qui travaille dans le système de santé français avant ou pendant la procédure de reconnaissance de son diplôme étranger afin d’obtenir une autorisation de plein exercice. Le diplôme de ce professionnel n'est pas enregistré au RPPS avant l'obtention de l'autorisation de plein exercice, le justificatif sera alors enregistré par l'Ordre."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260505120000"
              dateValid="20240927120000"
              description="Caractérise le statut d'une ressource du médico-social au cours de son cycle de vie"
              displayName="TRE_R368_StatutRessource"
@@ -22,12 +22,12 @@
          <Concept code="VALIDE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
-                  dateMaj="20250919120000"
+                  dateMaj="20260505120000"
                   dateValid="20240927120000"
                   displayName="Validé"
                   longDesignation="Validé"
                   shortDesignation="Validé"
-                  descriptionMetier="Ressource approuvée officiellement par une personne ou un organisme. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS."/>
+                  descriptionMetier="Ressource approuvée officiellement par une personne ou un organisme. Ce statut s'adresse aux ressources Evaluation de l'individu et Evenements liés à la prise en charge de l'individu dans une structure ESSMS.  Ce statut s'adresse également à la ressource PresenceAbsence de l'usager."/>
          <Concept code="APPROUVE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
@@ -40,12 +40,12 @@
          <Concept code="PLANIFIE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin=""
-                  dateMaj="20250919120000"
+                  dateMaj="20260505120000"
                   dateValid="20240927120000"
                   displayName="Planifié"
                   longDesignation="Planifié"
                   shortDesignation="Planifié"
-                  descriptionMetier="Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS."/>
+                  descriptionMetier="Ressource organisée à l’avance pour une activité. Ce statut s'adresse à la ressource Evenements liés à la prise en charge de l'individu dans une structure ESSMS. Ce statut s'adresse également à la ressource PresenceAbsence de l'usager."/>
          <Concept code="REALISE"
                   codeSystem="1.2.250.1.213.3.3.250"
                   dateFin="20251222120000"
@@ -127,6 +127,15 @@
                   longDesignation="En pause"
                   shortDesignation="En pause"
                   descriptionMetier="Etat de la ressource lors d’un arrêt temporaire. Ce statut s'adresse au projet personnalisé."/>
+         <Concept code="FACTURE"
+                  codeSystem="1.2.250.1.213.3.3.250"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="Facturé"
+                  longDesignation="Facturé"
+                  shortDesignation="Facturé"
+                  descriptionMetier="Ressource pour laquelle une facture a été établie."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

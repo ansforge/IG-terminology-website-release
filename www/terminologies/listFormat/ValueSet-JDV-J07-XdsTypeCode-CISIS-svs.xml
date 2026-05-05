@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260202120000"
+             dateMaj="20260505120000"
              dateValid="20130123000000"
              description="XDS typeCode CI-SIS"
              displayName="JDV_J07_XdsTypeCode_CISIS"
@@ -349,6 +349,9 @@
          <Concept code="57075-4"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Synthèse Salle de Naissance Enfant"/>
+         <Concept code="84067-8"
+                  codeSystem="2.16.840.1.113883.6.1"
+                  displayName="Synthèse transfusionnelle"/>
          <Concept code="89235-6"
                   codeSystem="2.16.840.1.113883.6.1"
                   displayName="Synthèse Suites de Couches Mère"/>

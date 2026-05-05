@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260330120000"
+             dateMaj="20260505120000"
              dateValid="20200626120000"
              description="Code des rôles et fonctions pour l'application ENREG"
              displayName="JDV_J121_RolePriseCharge_ENREG"
@@ -30,7 +30,7 @@
                   displayName="Préparateur en pharmacie hospitalière"/>
          <Concept code="317"
                   codeSystem="1.2.250.1.213.1.6.1.107"
-                  displayName="Préparateur en pharmacie (officine)"/>
+                  displayName="Préparateur en pharmacie"/>
          <Concept code="319"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Technicien de l'intervention sociale et familiale"/>
@@ -178,6 +178,18 @@
          <Concept code="375"
                   codeSystem="1.2.250.1.213.1.6.1.107"
                   displayName="Conseiller conjugal et familial"/>
+         <Concept code="376"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="PADHUE - Médecin"/>
+         <Concept code="377"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="PADHUE - Pharmacien"/>
+         <Concept code="378"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="PADHUE - Sage Femme"/>
+         <Concept code="379"
+                  codeSystem="1.2.250.1.213.1.6.1.107"
+                  displayName="PADHUE - Chirurgien Dentiste"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

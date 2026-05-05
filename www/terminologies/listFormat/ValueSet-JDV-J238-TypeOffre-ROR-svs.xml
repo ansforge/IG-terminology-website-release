@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260330120000"
+             dateMaj="20260505120000"
              dateValid="20240126120000"
              description="Prestations que peut réaliser une structure et qui permettent de répondre au besoin de santé d'une personne"
              displayName="JDV_J238_TypeOffre_ROR"
@@ -69,7 +69,7 @@
                   displayName="Unités Soins Etudes"/>
          <Concept code="20"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité d'urgences polyvalentes"/>
+                  displayName="Structure des urgences polyvalentes 24h/24 7j/7"/>
          <Concept code="21"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Accueil ou hébergement pour personnes âgées dépendantes, sans spécificité"/>
@@ -435,7 +435,7 @@
                   displayName="Unité hospitalière d'addictologie"/>
          <Concept code="146"
                   codeSystem="1.2.250.1.213.3.3.39"
-                  displayName="Unité de prise en charge des brûlés"/>
+                  displayName="Unité hospitalière de brûlologie"/>
          <Concept code="148"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Unité hospitalière d'allergologie"/>
@@ -898,6 +898,27 @@
          <Concept code="306"
                   codeSystem="1.2.250.1.213.3.3.39"
                   displayName="Cabinet de ville infirmier en pratique avancée en santé mentale"/>
+         <Concept code="307"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité d’Education Thérapeutique du Patient (ETP)"/>
+         <Concept code="308"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité de réanimation des brûlés"/>
+         <Concept code="309"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Unité Sanitaire en Milieu Pénitentiaire (USMP, ex UCSA)"/>
+         <Concept code="310"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Lactarium"/>
+         <Concept code="311"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Structure des urgences pédiatriques"/>
+         <Concept code="312"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Pharmacie d'officine (dont mutualiste)"/>
+         <Concept code="313"
+                  codeSystem="1.2.250.1.213.3.3.39"
+                  displayName="Antennes des urgences"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

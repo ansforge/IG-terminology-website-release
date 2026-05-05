@@ -4,7 +4,7 @@
    <ValueSet dateFin=""
              dateMaj="20240329120000"
              dateValid="20210924120000"
-             description="Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager"
+             description="Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager."
              displayName="TRE_R327_TypeDecision"
              id="1.2.250.1.213.3.3.82"
              typeFichier="TRE"
@@ -55,6 +55,24 @@
                   longDesignation="Clôture de droit"
                   shortDesignation="Clôture de droit"
                   descriptionMetier="La CDAPH, déterminant qu'un usager n'est plus éligible à un droit précédemment attribué ou considérant que le droit n'apporte plus une réponse adaptée aux besoins de l'usager, a décidé de mettre fin à ce droit"/>
+         <Concept code="6"
+                  codeSystem="1.2.250.1.213.3.3.82"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="Renouvellement"
+                  longDesignation="Renouvellement"
+                  shortDesignation="Renouvellement"
+                  descriptionMetier="Indique si le droit attribué par la CDAPH fait suite à une demande de renouvellement."/>
+         <Concept code="7"
+                  codeSystem="1.2.250.1.213.3.3.82"
+                  dateFin=""
+                  dateMaj="20260505120000"
+                  dateValid="20260505120000"
+                  displayName="Révision"
+                  longDesignation="Révision"
+                  shortDesignation="Révision"
+                  descriptionMetier="Indique si le droit attribué par la CDAPH  fait suite à une demande de révision."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>

@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><h2>Terminologies</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-  "version" : "1.8.0",
+  "version" : "1.9.0",
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-03-27T15:52:17+00:00",
+  "date" : "2026-05-05T11:38:42+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -26499,6 +26499,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-hl7-allergy-intolerance-category-cisis"
+      },
+      "name" : "AllergyIntoleranceCategory",
+      "description" : "AllergyIntoleranceCategory",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "CodeSystem"
       }],
       "reference" : {
@@ -27042,6 +27054,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-hl7-days-of-week-cisis"
+      },
+      "name" : "DaysOfWeek",
+      "description" : "DaysOfWeek",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-hl7-days-of-week"
       },
       "name" : "DaysOfWeek",
@@ -27381,6 +27405,18 @@
       },
       "name" : "JDV Age De Survenue CISIS",
       "description" : "JDV Age De Survenue CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-age-gestationnel-cisis"
+      },
+      "name" : "JDV Age Gestationnel CISIS",
+      "description" : "JDV Age Gestationnel CISIS",
       "exampleBoolean" : false
     },
     {
@@ -27857,6 +27893,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-collectivite-sujets-a-risque-rougeole-cisis"
+      },
+      "name" : "Jdv Collectivite Sujets A Risque Rougeole CISIS",
+      "description" : "Jdv Collectivite Sujets A Risque Rougeole CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-completude-dispensation-cisis"
       },
       "name" : "JDV Completude Dispensation CISIS",
@@ -27921,6 +27969,18 @@
       },
       "name" : "JDV Complication Pulmonaire CISIS",
       "description" : "JDV Complication Pulmonaire CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-complication-rougeole-cisis"
+      },
+      "name" : "Jdv Complication Rougeole CISIS",
+      "description" : "Jdv Complication Rougeole CISIS",
       "exampleBoolean" : false
     },
     {
@@ -28065,6 +28125,18 @@
       },
       "name" : "JDV Couverture Sociale CISIS",
       "description" : "JDV Couverture Sociale CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-date-accouchement-cisis"
+      },
+      "name" : "JDV Date Accouchement CISIS",
+      "description" : "JDV Date Accouchement CISIS",
       "exampleBoolean" : false
     },
     {
@@ -28481,6 +28553,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-evolution-rougeole-cisis"
+      },
+      "name" : "JDV Evolution Rougeole CISIS",
+      "description" : "JDV Evolution Rougeole CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-examen-biochimie-aunv-cisis"
       },
       "name" : "JDV Examen Biochimie Aunv CISIS",
@@ -28601,6 +28685,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-exposition-west-nile-cisis"
+      },
+      "name" : "Jdv Exposition West Nile CISIS",
+      "description" : "Jdv Exposition West Nile CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-facteur-de-risque-avc-cisis"
       },
       "name" : "JDV Facteur De Risque Avc CISIS",
@@ -28629,6 +28725,18 @@
       },
       "name" : "JDV Facteur De Risque Social CISIS",
       "description" : "JDV Facteur De Risque Social CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-facteur-risque-rougeole-cisis"
+      },
+      "name" : "JDV Facteur Risque Rougeole CISIS",
+      "description" : "JDV Facteur Risque Rougeole CISIS",
       "exampleBoolean" : false
     },
     {
@@ -28821,6 +28929,18 @@
       },
       "name" : "JDV Hemisphere Profond CISIS",
       "description" : "JDV Hemisphere Profond CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-historique-grossesses-cisis"
+      },
+      "name" : "JDV Historique Grossesses CISIS",
+      "description" : "JDV Historique Grossesses CISIS",
       "exampleBoolean" : false
     },
     {
@@ -29037,6 +29157,18 @@
       },
       "name" : "JDV J12 CiviliteTitre CISIS",
       "description" : "Titre civilité - CI-SIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j240-activite-sanitaire-diverse-regulee-finess"
+      },
+      "name" : "Jdv J240 Activite Sanitaire Diverse Regulee Finess",
+      "description" : "Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
       "exampleBoolean" : false
     },
     {
@@ -29321,6 +29453,126 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess"
+      },
+      "name" : "Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess",
+      "description" : "Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess"
+      },
+      "name" : "Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess",
+      "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess"
+      },
+      "name" : "Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess",
+      "description" : "Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j351-appareil-amm-finess"
+      },
+      "name" : "Jdv J351 Appareil Amm Finess",
+      "description" : "Liste des appareils AMM vus de FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j352-nature-capacite-finess"
+      },
+      "name" : "Jdv J352 Nature Capacite Finess",
+      "description" : "Jeu de valeurs FINESS contenant les capacités utilisées par FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j353-type-statut-capacite-finess"
+      },
+      "name" : "Jdv J353 Type Statut Capacite Finess",
+      "description" : "Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j354-habilitation-finess"
+      },
+      "name" : "Jdv J354 Habilitation Finess",
+      "description" : "Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j357-genre-capacite-finess"
+      },
+      "name" : "Jdv J357 Genre Capacite Finess",
+      "description" : "Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j364-type-fermeture-pm-finess"
+      },
+      "name" : "Jdv J364 Type Fermeture Pm Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j365-type-fermeture-ege-finess"
+      },
+      "name" : "Jdv J365 Type Fermeture Ege Finess",
+      "description" : "Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j366-statut-bilan-projet-personnalise-ms"
       },
       "name" : "Jdv J366 Statut Bilan Projet Personnalise Ms",
@@ -29348,7 +29600,7 @@
         "reference" : "ValueSet/jdv-j368-categorie-etablissement-cisis"
       },
       "name" : "Jdv J368 Categorie Etablissement Cisis",
-      "description" : "JDV à l'image de l'ensemble des valeurs actives de la terminologie TRE_R66-CategorieEtablissement",
+      "description" : "JDV pour le CISIS reprenant l'ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice",
       "exampleBoolean" : false
     },
     {
@@ -29421,6 +29673,18 @@
       },
       "name" : "Jdv J377 Categorie Entite Geographique Exercice Ror",
       "description" : "Ce JDV remplace le JDV_J55_CategorieEG_ROR",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j378-region-om-finess"
+      },
+      "name" : "Jdv J378 Region Om Finess",
+      "description" : "Liste des régions administratives couvertes par le périmètre géographique de FINESS",
       "exampleBoolean" : false
     },
     {
@@ -29637,6 +29901,18 @@
       },
       "name" : "JDV Lieu Accouchement CISIS",
       "description" : "JDV Lieu Accouchement CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-lieu-contact-rougeole-cisis"
+      },
+      "name" : "JDV Lieu Contact Rougeole CISIS",
+      "description" : "JDV Lieu Contact Rougeole CISIS",
       "exampleBoolean" : false
     },
     {
@@ -30245,6 +30521,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-mso-resultat-qualitatif-3-cisis"
+      },
+      "name" : "Jdv MSO Resultat Qualitatif 3 CISIS",
+      "description" : "Jdv MSO Resultat Qualitatif 3 CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-mso-resultat-qualitatif-5-cisis"
+      },
+      "name" : "Jdv MSO Resultat Qualitatif 5 CISIS",
+      "description" : "Jdv MSO Resultat Qualitatif 5 CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-mso-resultat-qualitatif-cisis"
       },
       "name" : "Jdv MSO Resultat Qualitatif CISIS",
@@ -30609,6 +30909,18 @@
       },
       "name" : "JDV Origine Effet Indesirable CISIS",
       "description" : "JDV Origine Effet Indesirable CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-origine-information-vaccin-rougeole-cisis"
+      },
+      "name" : "Jdv Origine Information Vaccin Rougeole CISIS",
+      "description" : "Jdv Origine Information Vaccin Rougeole CISIS",
       "exampleBoolean" : false
     },
     {
@@ -31553,6 +31865,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-serotype-dengue-cisis"
+      },
+      "name" : "JDV Serotype Dengue CISIS",
+      "description" : "JDV Serotype Dengue CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-severite-observation-cisis"
       },
       "name" : "JDV Severite Observation CISIS",
@@ -31685,10 +32009,70 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-chikungunya-cisis"
+      },
+      "name" : "jDV Specimen Type Chikungunya CISIS",
+      "description" : "jDV Specimen Type Chikungunya CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-specimen-type-cisis"
       },
       "name" : "JDV Specimen Type CISIS",
       "description" : "JDV Specimen Type CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-dengue-cisis"
+      },
+      "name" : "jDV Specimen Type Dengue CISIS",
+      "description" : "jDV Specimen Type Dengue CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-rougeole-cisis"
+      },
+      "name" : "jDV Specimen Type Rougeole CISIS",
+      "description" : "jDV Specimen Type Rougeole CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-westnile-cisis"
+      },
+      "name" : "jDV Specimen Type West Nile CISIS",
+      "description" : "jDV Specimen Type West Nile CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-specimen-type-zika-cisis"
+      },
+      "name" : "jDV Specimen Type Zika CISIS",
+      "description" : "jDV Specimen Type Zika CISIS",
       "exampleBoolean" : false
     },
     {
@@ -32417,6 +32801,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-type-event-indesirable-previsible-cisis"
+      },
+      "name" : "JDV Type Event Indesirable Previsible CISIS",
+      "description" : "JDV Type Event Indesirable Previsible CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-type-garde-cisis"
       },
       "name" : "JDV Type Garde CISIS",
@@ -32613,6 +33009,18 @@
       },
       "name" : "JDV Type Resultat CISIS",
       "description" : "JDV Type Resultat CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-resultat-type-cisis"
+      },
+      "name" : "Jdv Type Resultat Type CISIS",
+      "description" : "Jdv Type Resultat Type CISIS",
       "exampleBoolean" : false
     },
     {
@@ -36504,7 +36912,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20260301"
+        "reference" : "CodeSystem/900000000000207008-20260401"
       },
       "name" : "SNOMED CT core",
       "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
@@ -36683,6 +37091,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r347-activite-sanitaire-diverse-regulee"
+      },
+      "name" : "Tre R347 Activite Sanitaire Diverse Regulee",
+      "description" : "Nomenclature des activités sanitaires utilisée pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r360-type-role-entite-groupe"
       },
       "name" : "Tre R360 Type Role Entite Groupe",
@@ -36719,6 +37139,18 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r370-role-relation-ege"
+      },
+      "name" : "Tre R370 Role Relation Ege",
+      "description" : "Nomenclature des types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r371-type-groupe-gcc"
       },
       "name" : "Tre R371 Type Groupe Gcc",
@@ -36735,6 +37167,30 @@
       },
       "name" : "Tre R372 Type Groupe Gco",
       "description" : "Nomenclature des types de Groupement de Coopération Organique (GCO)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r373-type-personne-morale"
+      },
+      "name" : "Tre R373 Type Personne Morale",
+      "description" : "Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs).\nRemarque : Cette TRE est juste initialisée à minima et a vocation à porter d'autres valurs.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r374-nature-activite-smsse-regulee"
+      },
+      "name" : "Tre R374 Nature Activite Smsse Regulee",
+      "description" : "Nomenclature des grandes natures d'activité SMSSE exercées par les entités FINESS+",
       "exampleBoolean" : false
     },
     {
@@ -36926,7 +37382,7 @@
         "reference" : "CodeSystem/tre-r401-activite-sociale-regulee"
       },
       "name" : "Tre R401 Activite Sociale Regulee",
-      "description" : "Cette TRE hiérarchique remplace les TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et l'ASS_X14_AgregatDisciplineEquipementSocial. Cette TRE possède des propriétés spécifiques : le niveau d'agrégat desASOCR de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'ASOCR ou d'une ASOCR ainsi que les relations nécessaires à la construction des JDV dynamiques associés",
+      "description" : "Cette TRE hiérarchique remplace les éléments suivants :\nTRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.\n\nCette TRE possède des propriétés spécifiques :\n\n1. Le niveau d'agrégat des ASOCR de 1 à 4 (du plus large au plus fin)\n2. Le parent d'un agrégat d'ASOCR ou d'une ASOCR\n3. Les relations nécessaires à la construction des JDV dynamiques associés",
       "exampleBoolean" : false
     },
     {
@@ -39013,7 +39469,7 @@
         "reference" : "CodeSystem/TRE-R327-TypeDecision"
       },
       "name" : "TRE_R327_TypeDecision",
-      "description" : "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager",
+      "description" : "Caractérise le type de décision prise par la CDAPH en réponse à une demande de compensation d'un usager (individu ou représentant légal), à une demande de révision par un tiers ou à un recours administratif préalable obligatoire (RAPO) d'un usager.",
       "exampleBoolean" : false
     },
     {
@@ -40153,6 +40609,42 @@
       },
       "name" : "Vs Tre R362 Type Budget All",
       "description" : "Jeu de valeurs ALL contenant les types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r370-role-relation-ege-all"
+      },
+      "name" : "Vs Tre R370 Role Relation Ege All",
+      "description" : "Jeu de valeurs ALL contenant les types de rôle existant entre les Entités Géographiques d'Exercice (EGE) au sein d'une PM-SMSSE.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r373-type-personne-morale-all"
+      },
+      "name" : "Vs Tre R373 Type Personne Morale All",
+      "description" : "Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces  champs).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/vs-tre-r374-nature-activite-smsse-regulee-all"
+      },
+      "name" : "Vs Tre R374 Nature Activite Smsse Regulee All",
+      "description" : "Jeu de valeurs ALL contenant les grandes natures d'activité SMSSE exercées par les entités FINESS+.",
       "exampleBoolean" : false
     },
     {

@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260311145201"
+             dateMaj="20260420110651"
              dateValid="20010101120000"
              description="Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales."
              displayName="TerminologieCISIS"
@@ -12627,6 +12627,15 @@
                   displayName="Questionnaire Mon Bilan Prévention 70-75 ans"
                   longDesignation="Questionnaire Mon Bilan Prévention 70-75 ans"
                   shortDesignation="Questionnaire Mon Bilan Prévention 70-75 ans"
+                  descriptionMetier=""/>
+         <Concept code="MED-1350"
+                  codeSystem="1.2.250.1.213.1.1.4.322"
+                  dateFin=""
+                  dateMaj=""
+                  dateValid="20260320000000"
+                  displayName="Entrées/sorties hydro-électrolytiques"
+                  longDesignation="Entrées/sorties hydro-électrolytiques"
+                  shortDesignation="Entrées/sorties hydro-électrolytiques"
                   descriptionMetier=""/>
          <Concept code="ORG-001"
                   codeSystem="1.2.250.1.213.1.1.4.322"
