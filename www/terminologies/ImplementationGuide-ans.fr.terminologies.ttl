@@ -17,11 +17,11 @@
      fhir:v "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"^^xsd:anyURI ;
      fhir:l <https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies>
   ] ; # 
-  fhir:version [ fhir:v "1.9.0"] ; # 
+  fhir:version [ fhir:v "1.9.1"] ; # 
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-05-05T11:38:42+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-06T13:04:43+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -75872,8 +75872,8 @@
          ]
        ] ) ;
        fhir:reference [
-         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20260401> ;
-         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20260401" ]
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/900000000000207008-20260501> ;
+         fhir:reference [ fhir:v "CodeSystem/900000000000207008-20260501" ]
        ] ;
        fhir:name [ fhir:v "SNOMED CT core" ] ;
        fhir:description [ fhir:v "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)." ] ;

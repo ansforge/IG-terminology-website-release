@@ -64,6 +64,15 @@
                   longDesignation="Provisoire"
                   shortDesignation="Provisoire"
                   descriptionMetier=""/>
+         <Concept code="PRE"
+                  codeSystem="1.2.250.1.213.1.6.1.136"
+                  dateFin=""
+                  dateMaj="20251016120000"
+                  dateValid="20250915120000"
+                  displayName="Prévisionnelle"
+                  longDesignation="Prévisionnelle"
+                  shortDesignation="Prévisionnelle"
+                  descriptionMetier="Désigne la fermeture prévisionnelle d’un élément de l’organisation interne d’un établissement santé. L’utilisateur du référentiel ROR qui sélectionne cette valeur a alors la possibilité de renseigner une date de réouverture de l’élément en question."/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
