@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><h2>Terminologies</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-  "version" : "1.9.1",
+  "version" : "1.9.2",
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-05-06T13:04:43+00:00",
+  "date" : "2026-05-12T13:23:02+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29777,6 +29777,210 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j392-type-courrier-ms"
+      },
+      "name" : "Jdv J392 Type Courrier Ms",
+      "description" : "Type de courrier en France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j393-utilisation-canal-communication-ms"
+      },
+      "name" : "Jdv J393 Utilisation Canal Communication Ms",
+      "description" : "Précise l'utilisation du canal de communication.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j394-type-demande-compensation-ms"
+      },
+      "name" : "Jdv J394 Type Demande Compensation Ms",
+      "description" : "Type demande de compensation adressée à la CDAPH.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j395-nature-demande-compensation-ms"
+      },
+      "name" : "Jdv J395 Nature Demande Compensation Ms",
+      "description" : "Nature de la demande de compensation adressée à la CDAPH.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j396-canal-communication-ms"
+      },
+      "name" : "Jdv J396 Canal Communication Ms",
+      "description" : "Canal de communication.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j397-type-messagerie-ms"
+      },
+      "name" : "Jdv J397 Type Messagerie Ms",
+      "description" : "Type de messagerie électronique utilisée par le médico-social.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j398-type-decision-ms"
+      },
+      "name" : "Jdv J398 Type Decision Ms",
+      "description" : "Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j400-nature-droit-prestation-ms"
+      },
+      "name" : "Jdv J400 Nature Droit Prestation Ms",
+      "description" : "Nature du droit s’appliquant à tous les droits ou prestations ouverts par la CDAPH. Elle permet de gérer, le cas échéant, le lien entre la date d’ouverture du droit et la date de fin d’un droit précédent. Elle est déterminée par l’équipe pluridisciplinaire ou par la CDAPH.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j401-categorie-droit-prestation-ms"
+      },
+      "name" : "Jdv J401 Categorie Droit Prestation Ms",
+      "description" : "Catégorie de droit et prestation caractérisant la décision d'orientation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j402-type-droit-prestation-ms"
+      },
+      "name" : "Jdv J402 Type Droit Prestation Ms",
+      "description" : "Type de droit et prestation caractérisant la décision d'orientation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j403-motif-fin-pag-ms"
+      },
+      "name" : "Jdv J403 Motif Fin Pag Ms",
+      "description" : "Motif pour l'arrêt du plan d'accompagnement global (PAG).",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j404-qualification-orientation-ms"
+      },
+      "name" : "Jdv J404 Qualification Orientation Ms",
+      "description" : "La qualification de l'orientation peut être cible ou alternative.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j405-type-presence-absence-ms"
+      },
+      "name" : "Jdv J405 Type Presence Absence Ms",
+      "description" : "Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j406-motif-absence-ms"
+      },
+      "name" : "Jdv J406 Motif Absence Ms",
+      "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j407-type-repas-ms"
+      },
+      "name" : "Jdv J407 Type Repas Ms",
+      "description" : "Type de repas.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j409-type-adresse-ms"
+      },
+      "name" : "Jdv J409 Type Adresse Ms",
+      "description" : "Type d'adresse postale.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j418-activite-sanitaire-diverse-regulee-active"
+      },
+      "name" : "Jdv J418 Activite Sanitaire Diverse Regulee Active",
+      "description" : "Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/JDV-J69-ActiviteOperationnelle-Santefr"
       },
       "name" : "JDV J69 ActiviteOperationnelle Santefr",
@@ -37467,6 +37671,150 @@
       },
       "name" : "Tre R408 Type Enseignement Specialise",
       "description" : "Type d'enseignement spécialisé.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r415-utilisation-canal-communication"
+      },
+      "name" : "Tre R415 Utilisation Canal Communication",
+      "description" : "Précise l'utilisation du canal de communication.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r416-type-courrier"
+      },
+      "name" : "Tre R416 Type Courrier",
+      "description" : "Type de courrier en France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r417-type-demande-compensation"
+      },
+      "name" : "Tre R417 Type Demande Compensation",
+      "description" : "Type de la demande de compensation adressée à la CDAPH.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r418-nature-demande-compensation"
+      },
+      "name" : "Tre R418 Nature Demande Compensation",
+      "description" : "Nature de la demande de compensation adressée à la CDAPH.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r420-droit-prestation"
+      },
+      "name" : "Tre R420 Droit Prestation",
+      "description" : " Catégorie et type de droit et prestation caractérisant la décision d'orientation.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r421-motif-fin-pag"
+      },
+      "name" : "Tre R421 Motif Fin Pag",
+      "description" : "Lorsque le plan d'accompagnement global (PAG) arrive à échéance ou si le coordonnateur de parcours l'estime nécessaire, un bilan est élaboré et la phase d'actualisation est lancée afin de déterminer s'il faut prolonger ce PAG, le modifier ou y mettre fin. La MDPH, les partenaires et l'usager peuvent définir ensemble que le PAG n'est plus nécessaire et donc y mettre fin. Le consentement de la personne ou de son représentant légal est recueilli et l'information sur la fin du PAG transmise à l'ensemble des parties-prenantes.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r422-qualification-orientation"
+      },
+      "name" : "Tre R422 Qualification Orientation",
+      "description" : "La qualification de l'orientation peut être cible ou alternative.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r423-type-presence-absence"
+      },
+      "name" : "Tre R423 Type Presence Absence",
+      "description" : "Déclaration du type de présence absence de l'usager lors d'un événement organisé par sa structure de rattachement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r424-motif-absence"
+      },
+      "name" : "Tre R424 Motif Absence",
+      "description" : "Motif pour lequel l'usager n'est pas présent lors d'un événement organisé par sa structure de rattachement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r425-type-repas"
+      },
+      "name" : "Tre R425 Type Repas",
+      "description" : "Type de repas.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r426-orientation"
+      },
+      "name" : "Tre R426 Orientation",
+      "description" : "Orientation vers un Service d'éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d'accompagnement familial et d'éducation précoce (SAFEP)",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r427-type-adresse"
+      },
+      "name" : "Tre R427 Type Adresse",
+      "description" : "Type d'adresse postale.",
       "exampleBoolean" : false
     },
     {
