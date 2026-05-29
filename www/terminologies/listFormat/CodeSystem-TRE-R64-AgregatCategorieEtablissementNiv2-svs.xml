@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20231215120000"
+             dateMaj="20260601120000"
              dateValid="19790101000000"
              description="Agrégats de catégories d'établissements niveau 2"
              displayName="TRE_R64_AgregatCategorieEtablissementNiv2"
@@ -18,7 +18,7 @@
                   displayName="Etablissements d'Administration"
                   longDesignation="Etablissements d'Administration"
                   shortDesignation="Etab.Administration"
-                  descriptionMetier=""/>
+                  descriptionMetier="Remarque : Ce code obsolète ne sera pas reconduit dans la TRE R397 car il n'a jamais été utilisé."/>
          <Concept code="1100"
                   codeSystem="1.2.250.1.213.1.6.1.6"
                   dateFin=""

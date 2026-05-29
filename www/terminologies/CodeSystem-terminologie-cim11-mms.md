@@ -1,4 +1,4 @@
-# Classification internationale des maladies et des problèmes de santé connexes - 11ème révision - Terminologies de Santé v1.9.3
+# Classification internationale des maladies et des problèmes de santé connexes - 11ème révision - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -49,7 +49,7 @@ La Classification Internationale des Maladies (CIM) dans sa 11ème révision per
   "title" : "Classification internationale des maladies et des problèmes de santé connexes - 11ème révision",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T12:43:09+00:00",
+  "date" : "2026-05-29T14:49:05+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données)",
   "jurisdiction" : [{

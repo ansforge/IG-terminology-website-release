@@ -1,4 +1,4 @@
-# JDV-MediaTypeCorpsCDANonStructure - Terminologies de Santé v1.9.3
+# JDV-MediaTypeCorpsCDANonStructure - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -68,7 +68,7 @@ Requête sur le SMT
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-05-29T12:43:09+00:00",
+  "date" : "2026-05-29T14:49:05+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
