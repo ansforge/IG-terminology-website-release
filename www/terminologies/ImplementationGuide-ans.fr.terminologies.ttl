@@ -17,11 +17,11 @@
      fhir:v "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"^^xsd:anyURI ;
      fhir:l <https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies>
   ] ; # 
-  fhir:version [ fhir:v "1.9.2"] ; # 
+  fhir:version [ fhir:v "1.9.3"] ; # 
   fhir:name [ fhir:v "Terminologies"] ; # 
   fhir:title [ fhir:v "Terminologies  de Santé"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2026-05-12T13:23:02+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2026-05-29T12:43:09+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "ANS"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "ANS" ] ;
@@ -63382,6 +63382,27 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j391-niveau-diplome-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j391-niveau-diplome-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J391 Niveau Diplome Ms" ] ;
+       fhir:description [ fhir:v "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j392-type-courrier-ms> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j392-type-courrier-ms" ]
        ] ;
@@ -63513,6 +63534,27 @@
        ] ;
        fhir:name [ fhir:v "Jdv J398 Type Decision Ms" ] ;
        fhir:description [ fhir:v "Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j399-motivation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j399-motivation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J399 Motivation Ms" ] ;
+       fhir:description [ fhir:v "L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -63697,11 +63739,74 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j408-orientation-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j408-orientation-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J408 Orientation Ms" ] ;
+       fhir:description [ fhir:v "Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j409-type-adresse-ms> ;
          fhir:reference [ fhir:v "ValueSet/jdv-j409-type-adresse-ms" ]
        ] ;
        fhir:name [ fhir:v "Jdv J409 Type Adresse Ms" ] ;
        fhir:description [ fhir:v "Type d'adresse postale." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j410-categorie-permis-conduire-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j410-categorie-permis-conduire-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J410 Categorie Permis Conduire Ms" ] ;
+       fhir:description [ fhir:v "Catégorie de permis de conduire." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "ValueSet"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/ValueSet/jdv-j411-niveau-scolaire-ms> ;
+         fhir:reference [ fhir:v "ValueSet/jdv-j411-niveau-scolaire-ms" ]
+       ] ;
+       fhir:name [ fhir:v "Jdv J411 Niveau Scolaire Ms" ] ;
+       fhir:description [ fhir:v "Niveau scolaire de l'usager en France." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false
@@ -77215,6 +77320,69 @@
          ]
        ] ) ;
        fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r412-niveau-diplome> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r412-niveau-diplome" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R412 Niveau Diplome" ] ;
+       fhir:description [ fhir:v "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r413-categorie-permis-conduire> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r413-categorie-permis-conduire" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R413 Categorie Permis Conduire" ] ;
+       fhir:description [ fhir:v "Catégorie de permis de conduire." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r414-niveau-scolaire> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r414-niveau-scolaire" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R414 Niveau Scolaire" ] ;
+       fhir:description [ fhir:v "Niveau scolaire de l'usager en France." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
          fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r415-utilisation-canal-communication> ;
          fhir:reference [ fhir:v "CodeSystem/tre-r415-utilisation-canal-communication" ]
        ] ;
@@ -77283,6 +77451,27 @@
        ] ;
        fhir:name [ fhir:v "Tre R418 Nature Demande Compensation" ] ;
        fhir:description [ fhir:v "Nature de la demande de compensation adressée à la CDAPH." ] ;
+       fhir:example [
+         a fhir:Boolean ;
+         fhir:v false
+       ]
+     ] [
+       fhir:extension ( [
+         fhir:url [
+           fhir:v "http://hl7.org/fhir/tools/StructureDefinition/resource-information"^^xsd:anyURI ;
+           fhir:l <http://hl7.org/fhir/tools/StructureDefinition/resource-information>
+         ] ;
+         fhir:value [
+           a fhir:String ;
+           fhir:v "CodeSystem"
+         ]
+       ] ) ;
+       fhir:reference [
+         fhir:l <https://interop.esante.gouv.fr/terminologies/CodeSystem/tre-r419-motivation> ;
+         fhir:reference [ fhir:v "CodeSystem/tre-r419-motivation" ]
+       ] ;
+       fhir:name [ fhir:v "Tre R419 Motivation" ] ;
+       fhir:description [ fhir:v "Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH." ] ;
        fhir:example [
          a fhir:Boolean ;
          fhir:v false

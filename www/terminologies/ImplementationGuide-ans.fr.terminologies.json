@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><h2>Terminologies</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-  "version" : "1.9.2",
+  "version" : "1.9.3",
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-05-12T13:23:02+00:00",
+  "date" : "2026-05-29T12:43:09+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -29777,6 +29777,18 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j391-niveau-diplome-ms"
+      },
+      "name" : "Jdv J391 Niveau Diplome Ms",
+      "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j392-type-courrier-ms"
       },
       "name" : "Jdv J392 Type Courrier Ms",
@@ -29853,6 +29865,18 @@
       },
       "name" : "Jdv J398 Type Decision Ms",
       "description" : "Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j399-motivation-ms"
+      },
+      "name" : "Jdv J399 Motivation Ms",
+      "description" : "L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH.",
       "exampleBoolean" : false
     },
     {
@@ -29957,10 +29981,46 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-j408-orientation-ms"
+      },
+      "name" : "Jdv J408 Orientation Ms",
+      "description" : "Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-j409-type-adresse-ms"
       },
       "name" : "Jdv J409 Type Adresse Ms",
       "description" : "Type d'adresse postale.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j410-categorie-permis-conduire-ms"
+      },
+      "name" : "Jdv J410 Categorie Permis Conduire Ms",
+      "description" : "Catégorie de permis de conduire.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-j411-niveau-scolaire-ms"
+      },
+      "name" : "Jdv J411 Niveau Scolaire Ms",
+      "description" : "Niveau scolaire de l'usager en France.",
       "exampleBoolean" : false
     },
     {
@@ -37679,6 +37739,42 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
+        "reference" : "CodeSystem/tre-r412-niveau-diplome"
+      },
+      "name" : "Tre R412 Niveau Diplome",
+      "description" : "Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r413-categorie-permis-conduire"
+      },
+      "name" : "Tre R413 Categorie Permis Conduire",
+      "description" : "Catégorie de permis de conduire.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r414-niveau-scolaire"
+      },
+      "name" : "Tre R414 Niveau Scolaire",
+      "description" : "Niveau scolaire de l'usager en France.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
         "reference" : "CodeSystem/tre-r415-utilisation-canal-communication"
       },
       "name" : "Tre R415 Utilisation Canal Communication",
@@ -37719,6 +37815,18 @@
       },
       "name" : "Tre R418 Nature Demande Compensation",
       "description" : "Nature de la demande de compensation adressée à la CDAPH.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/tre-r419-motivation"
+      },
+      "name" : "Tre R419 Motivation",
+      "description" : "Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH.",
       "exampleBoolean" : false
     },
     {

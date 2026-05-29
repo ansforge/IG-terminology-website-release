@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.9.2"/>
+  <version value="1.9.3"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-05-12T13:23:02+00:00"/>
+  <date value="2026-05-29T12:43:09+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -22349,6 +22349,17 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j391-niveau-diplome-ms"/>
+      </reference>
+      <name value="Jdv J391 Niveau Diplome Ms"/>
+      <description value="Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j392-type-courrier-ms"/>
       </reference>
       <name value="Jdv J392 Type Courrier Ms"/>
@@ -22419,6 +22430,17 @@
       </reference>
       <name value="Jdv J398 Type Decision Ms"/>
       <description value="Type de décision transmise aux DUI(s) par la CDAPH en réponse à une demande de compensation d'un usager."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j399-motivation-ms"/>
+      </reference>
+      <name value="Jdv J399 Motivation Ms"/>
+      <description value="L'énoncé des considérations de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22514,10 +22536,43 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-j408-orientation-ms"/>
+      </reference>
+      <name value="Jdv J408 Orientation Ms"/>
+      <description value="Ensemble des orientations vers un Service d'éducation spéciale et de soins à domicile (SESSAD), un Service d'accompagnement familial et d'éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d'enseignement."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-j409-type-adresse-ms"/>
       </reference>
       <name value="Jdv J409 Type Adresse Ms"/>
       <description value="Type d'adresse postale."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j410-categorie-permis-conduire-ms"/>
+      </reference>
+      <name value="Jdv J410 Categorie Permis Conduire Ms"/>
+      <description value="Catégorie de permis de conduire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-j411-niveau-scolaire-ms"/>
+      </reference>
+      <name value="Jdv J411 Niveau Scolaire Ms"/>
+      <description value="Niveau scolaire de l'usager en France."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -29592,6 +29647,39 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/tre-r412-niveau-diplome"/>
+      </reference>
+      <name value="Tre R412 Niveau Diplome"/>
+      <description value="Niveau de diplôme permettant d'indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r413-categorie-permis-conduire"/>
+      </reference>
+      <name value="Tre R413 Categorie Permis Conduire"/>
+      <description value="Catégorie de permis de conduire."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r414-niveau-scolaire"/>
+      </reference>
+      <name value="Tre R414 Niveau Scolaire"/>
+      <description value="Niveau scolaire de l'usager en France."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/tre-r415-utilisation-canal-communication"/>
       </reference>
       <name value="Tre R415 Utilisation Canal Communication"/>
@@ -29629,6 +29717,17 @@
       </reference>
       <name value="Tre R418 Nature Demande Compensation"/>
       <description value="Nature de la demande de compensation adressée à la CDAPH."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/tre-r419-motivation"/>
+      </reference>
+      <name value="Tre R419 Motivation"/>
+      <description value="Considération(s) de droit ou de fait qui constituent le fondement de la proposition et de la décision de la CDAPH."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

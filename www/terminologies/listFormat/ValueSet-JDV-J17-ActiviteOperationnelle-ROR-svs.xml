@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260330120000"
+             dateMaj="20260601120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -342,10 +342,10 @@
                   displayName="Urgences spécialisées Oto-Rhino-Laryngologiques (ORL)"/>
          <Concept code="157"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Urgences polyvalentes"/>
+                  displayName="Urgences polyvalentes hospitalières"/>
          <Concept code="158"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Urgences psychiatriques"/>
+                  displayName="Urgences psychiatriques hospitalières"/>
          <Concept code="159"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Urgences spécialisées traumatologiques"/>
@@ -447,7 +447,7 @@
                   displayName="Orthophonie"/>
          <Concept code="201"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Pédicure-Podologie"/>
+                  displayName="Pédicurie-Podologie (bilan diagnostic et mise en œuvre des activités thérapeutiques si nécessaire)"/>
          <Concept code="202"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Réunion de Concertation Pluridisciplinaire (RCP) Appareil Digestif"/>
@@ -588,7 +588,7 @@
                   displayName="Réadaptation des déficiences auditives"/>
          <Concept code="249"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Urgences pédiatriques"/>
+                  displayName="Urgences pédiatriques hospitalières"/>
          <Concept code="250"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Urgences spécialisées céphalées"/>
