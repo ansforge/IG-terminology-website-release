@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260330120000"
+             dateMaj="20260629120000"
              dateValid="20171013120000"
              description="Compétence spécifique"
              displayName="TRE_R243_CompetenceSpecifique"
@@ -567,6 +567,15 @@
                   displayName="Maîtrise du Facile à Lire et à Comprendre (FALC)"
                   longDesignation="Maîtrise du Facile à Lire et à Comprendre (FALC)"
                   shortDesignation="Maîtrise du FALC"
+                  descriptionMetier=""/>
+         <Concept code="63"
+                  codeSystem="1.2.250.1.213.3.3.37"
+                  dateFin=""
+                  dateMaj="20260629120000"
+                  dateValid="20260629120000"
+                  displayName="Maitrise des outils informatisés à commande oculaire"
+                  longDesignation="Maitrise des outils informatisés à commande oculaire"
+                  shortDesignation="Maitrise des outils informatisés à commande oculaire"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

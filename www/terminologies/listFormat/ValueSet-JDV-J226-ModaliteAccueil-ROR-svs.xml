@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260330120000"
+             dateMaj="20260629120000"
              dateValid="20220826120000"
              description="Modalité d'accueil"
              displayName="JDV_J226_ModaliteAccueil_ROR"
@@ -86,6 +86,9 @@
          <Concept code="26"
                   codeSystem="1.2.250.1.213.3.3.221"
                   displayName="Relayage longue durée (sur plusieurs jours)"/>
+         <Concept code="27"
+                  codeSystem="1.2.250.1.213.3.3.221"
+                  displayName="Soins à domicile"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
