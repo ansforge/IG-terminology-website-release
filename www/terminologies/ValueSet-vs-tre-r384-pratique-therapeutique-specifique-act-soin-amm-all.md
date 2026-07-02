@@ -1,4 +1,4 @@
-# Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All - Terminologies de Santé v1.11.0
+# Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -45,20 +45,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-vs-tre-r383-mention-act-de-soin-amm-all.demande.md) | [top](#top) |  [next>](ValueSet-vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 

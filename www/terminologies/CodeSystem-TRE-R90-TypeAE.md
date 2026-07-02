@@ -1,4 +1,4 @@
-# TRE_R90_TypeAE - Terminologies de Santé v1.11.0
+# TRE_R90_TypeAE - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R90_TypeAE |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE | *Version*:20231215120000 | |
+| Active as of 2023-12-15 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R90_TypeAE |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.74 | | |
 
  
@@ -28,8 +28,8 @@ Type Autorité d’enregistrement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R90-TypeAE",
   "meta" : {
-    "versionId" : "6",
-    "lastUpdated" : "2026-06-29T11:14:14.206+02:00",
+    "versionId" : "5",
+    "lastUpdated" : "2025-07-02T18:19:21.337+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -43,11 +43,11 @@ Type Autorité d’enregistrement
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.74"
   }],
-  "version" : "20260629120000",
+  "version" : "20231215120000",
   "name" : "TRE_R90_TypeAE",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2023-12-15T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type Autorité d'enregistrement",
   "jurisdiction" : [{
@@ -58,7 +58,6 @@ Type Autorité d’enregistrement
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 6,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -134,54 +133,6 @@ Type Autorité d’enregistrement
     {
       "code" : "dateMaj",
       "valueDateTime" : "2016-03-22T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "04",
-    "display" : "Directions régionales de l'économie de l'emploi du travail et des solidarités",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "05",
-    "display" : "Direction régionale et de l'Hébergement et du Logement",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "11",
-    "display" : "Agence nationales",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",

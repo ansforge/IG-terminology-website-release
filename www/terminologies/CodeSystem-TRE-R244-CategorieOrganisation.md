@@ -1,4 +1,4 @@
-# TRE_R244_CategorieOrganisation - Terminologies de Santé v1.11.0
+# TRE_R244_CategorieOrganisation - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R244_CategorieOrganisation |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.39 | | |
 
  
@@ -29,8 +29,8 @@ Catégorie d’organisation
   "resourceType" : "CodeSystem",
   "id" : "TRE-R244-CategorieOrganisation",
   "meta" : {
-    "versionId" : "31",
-    "lastUpdated" : "2026-06-29T11:13:43.473+02:00",
+    "versionId" : "30",
+    "lastUpdated" : "2026-05-05T20:11:59.960+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -45,11 +45,11 @@ Catégorie d’organisation
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.39"
   }],
-  "version" : "20260629120000",
+  "version" : "20260505120000",
   "name" : "TRE_R244_CategorieOrganisation",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-05-05T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Catégorie d'organisation",
   "jurisdiction" : [{
@@ -6072,20 +6072,12 @@ Catégorie d’organisation
       "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
-      "code" : "dateFin",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2025-03-28T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "active"
     }]
   },
   {
@@ -6384,20 +6376,12 @@ Catégorie d’organisation
       "valueDateTime" : "2025-04-25T12:00:00+01:00"
     },
     {
-      "code" : "dateFin",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2025-04-25T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "active"
     }]
   },
   {
@@ -6416,20 +6400,12 @@ Catégorie d’organisation
       "valueDateTime" : "2025-04-25T12:00:00+01:00"
     },
     {
-      "code" : "dateFin",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2025-04-25T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "active"
     }]
   },
   {
@@ -6448,20 +6424,12 @@ Catégorie d’organisation
       "valueDateTime" : "2025-04-25T12:00:00+01:00"
     },
     {
-      "code" : "dateFin",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "deprecationDate",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2025-04-25T12:00:00+01:00"
     },
     {
       "code" : "status",
-      "valueCode" : "deprecated"
+      "valueCode" : "active"
     }]
   },
   {

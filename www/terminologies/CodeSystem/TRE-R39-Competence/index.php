@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R39-Competence.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R39-Competence.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R39-Competence.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R39-Competence.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R39-Competence.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R39-Competence.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R39-Competence.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R39-Competence.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R39-Competence.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R39-Competence.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R39-Competence.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R39-Competence.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R39-Competence.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R39-Competence.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

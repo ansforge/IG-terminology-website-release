@@ -1,19 +1,19 @@
-# Tre R404 Mode Fonctionnement Activite Smsse Regulee - Terminologies de Santé v1.11.0
+# Tre R404 Mode Fonctionnemet Activite Smsse Regulee - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Tre R404 Mode Fonctionnement Activite Smsse Regulee**
+* **Tre R404 Mode Fonctionnemet Activite Smsse Regulee**
 
-## CodeSystem: Tre R404 Mode Fonctionnement Activite Smsse Regulee 
+## CodeSystem: Tre R404 Mode Fonctionnemet Activite Smsse Regulee 
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR404ModeFonctionnementActiviteSmsseRegulee |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee | *Version*:20260223120000 | |
+| Active as of 2026-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR404ModeFonctionnemetActiviteSmsseRegulee |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.383 | | |
 
  
-Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la TRE_R209-TypeActivite 
+Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite 
 
  Cette terminologie de référence (CodeSystem) est référencé dans la définition de contenu des jeux de valeurs (ValueSet) suivants : 
 
@@ -28,9 +28,9 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
   "resourceType" : "CodeSystem",
   "id" : "tre-r404-mode-fonctionnement-activite-smsse-regulee",
   "meta" : {
-    "versionId" : "4",
-    "lastUpdated" : "2026-06-29T11:14:10.903+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+    "versionId" : "3",
+    "lastUpdated" : "2026-05-05T20:12:24.528+02:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "language" : "fr-FR",
   "extension" : [{
@@ -44,14 +44,14 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.383"
   }],
-  "version" : "20260629120000",
-  "name" : "TreR404ModeFonctionnementActiviteSmsseRegulee",
-  "title" : "Tre R404 Mode Fonctionnement Activite Smsse Regulee",
+  "version" : "20260223120000",
+  "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+  "title" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-02-23T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite",
+  "description" : "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -59,9 +59,8 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     }]
   }],
   "caseSensitive" : false,
-  "valueSet" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee?vs",
   "content" : "complete",
-  "count" : 52,
+  "count" : 51,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -84,18 +83,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     "code" : "cisis",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#cisis",
     "description" : "Permet de définir les codes concepts uilisés dans le J03 du CISIS",
-    "type" : "boolean"
-  },
-  {
-    "code" : "rass",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#rass",
-    "description" : "Permet de définir les codes concepts uilisés par le RASS",
-    "type" : "boolean"
-  },
-  {
-    "code" : "dmp",
-    "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dmp",
-    "description" : "Permet de définir les codes concepts uilisés par le DMP",
     "type" : "boolean"
   },
   {
@@ -130,10 +117,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
     }]
   },
   {
@@ -162,14 +145,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -197,14 +172,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -314,14 +281,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -349,14 +308,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -393,14 +344,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -454,14 +397,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -502,10 +437,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "status",
       "valueCode" : "deprecated"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
     }]
   },
   {
@@ -526,14 +457,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -553,14 +476,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -590,14 +505,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -626,14 +533,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -653,14 +552,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -698,14 +589,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -733,14 +616,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -770,14 +645,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -806,14 +673,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -833,14 +692,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -954,14 +805,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "status",
       "valueCode" : "deprecated"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -989,14 +832,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1026,14 +861,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1061,14 +888,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1102,10 +921,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1122,10 +937,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1170,14 +981,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1194,10 +997,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1225,14 +1024,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1326,14 +1117,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1358,10 +1141,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1389,14 +1168,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1426,14 +1197,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1461,14 +1224,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1498,14 +1253,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1533,14 +1280,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1570,14 +1309,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1606,14 +1337,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1633,14 +1356,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1666,10 +1381,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "status",
       "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1698,14 +1409,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "cisis",
       "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
-      "valueBoolean" : true
     }]
   },
   {
@@ -1726,26 +1429,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-11-26T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    }]
-  },
-  {
-    "code" : "54",
-    "display" : "Accueil familial",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",
@@ -1777,14 +1460,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },
@@ -1821,14 +1496,6 @@ Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la 
     },
     {
       "code" : "cisis",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "rass",
-      "valueBoolean" : true
-    },
-    {
-      "code" : "dmp",
       "valueBoolean" : true
     }]
   },

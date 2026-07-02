@@ -1,4 +1,4 @@
-# ParticipationType - Terminologies de Santé v1.11.0
+# ParticipationType - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -46,20 +46,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-hl7-v3-ParticipationFunction-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-hl7-v3-ParticipationType-cisis-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -101,7 +88,7 @@ Liens:
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
-      "version" : "6.0.0",
+      "version" : "2018-08-12",
       "concept" : [{
         "code" : "ADM",
         "display" : "Responsable de l'admission"

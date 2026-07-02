@@ -1,4 +1,4 @@
-# Jdv MSO Resultat Qualitatif CISIS - Terminologies de Santé v1.11.0
+# Jdv MSO Resultat Qualitatif CISIS - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | | |
 | :--- | :--- | :--- |
 | *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-cisis | *Version*:20260311144903 | |
-| Retired as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMsoResultatQualitatifCisis |
+| Active as of 2026-03-11 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvMsoResultatQualitatifCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.833 | | |
 
  
@@ -33,7 +33,7 @@ Requête sur le SMT
 
 ### Expansion
 
-Expansions are not generated for retired value sets
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -48,20 +48,7 @@ Expansions are not generated for retired value sets
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-mso-resultat-qualitatif-5-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-mso-resultat-qualitatif-cisis-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -70,8 +57,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-mso-resultat-qualitatif-cisis",
   "meta" : {
-    "versionId" : "2",
-    "lastUpdated" : "2026-06-17T11:43:00.919+02:00",
+    "versionId" : "1",
+    "lastUpdated" : "2026-03-11T15:28:43.504+01:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -89,7 +76,7 @@ Liens:
   "version" : "20260311144903",
   "name" : "JdvMsoResultatQualitatifCisis",
   "title" : "Jdv MSO Resultat Qualitatif CISIS",
-  "status" : "retired",
+  "status" : "active",
   "experimental" : false,
   "date" : "2026-03-11T14:49:03+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",

@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/NamingSystem-MEDDRA.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/NamingSystem-MEDDRA.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/NamingSystem-MEDDRA.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/NamingSystem-MEDDRA.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/NamingSystem-MEDDRA.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/NamingSystem-MEDDRA.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/NamingSystem-MEDDRA.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/NamingSystem-MEDDRA.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/NamingSystem-MEDDRA.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/NamingSystem-MEDDRA.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/NamingSystem-MEDDRA.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/NamingSystem-MEDDRA.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/NamingSystem-MEDDRA.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/NamingSystem-MEDDRA.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

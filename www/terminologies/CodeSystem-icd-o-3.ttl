@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -7,48 +8,48 @@
 
 <https://interop.esante.gouv.fr/terminologies/CodeSystem/icd-o-3> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:Resource.id [ fhir:value "icd-o-3"] ;
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ] ;
-     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:48.197+01:00"^^xsd:dateTime ]
-  ] ;
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem icd-o-3</b></p><a name=\"icd-o-3\"> </a><a name=\"hcicd-o-3\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:48+0100</p></div><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/icd-o-3</code> defines codes, but no codes are represented here</p></div>"
-  ] ;
-  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/icd-o-3"] ;
-  fhir:CodeSystem.identifier [
-     fhir:index 0 ;
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
-     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.6.43.1" ]
-  ] ;
-  fhir:CodeSystem.version [ fhir:value "2.0.1"] ;
-  fhir:CodeSystem.name [ fhir:value "IcdO3"] ;
-  fhir:CodeSystem.title [ fhir:value "International Classification of Diseases for Oncology, version 3."] ;
-  fhir:CodeSystem.status [ fhir:value "active"] ;
-  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:CodeSystem.date [ fhir:value "2019-03-20T00:00:00-04:00"^^xsd:dateTime] ;
-  fhir:CodeSystem.publisher [ fhir:value "TBD - External Body"] ;
-  fhir:CodeSystem.contact [
-     fhir:index 0 ;
-     fhir:ContactDetail.name [ fhir:value "World Health Organization (WHO)" ]
-  ] ;
-  fhir:CodeSystem.description [ fhir:value "International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/."] ;
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0 ;
-     fhir:CodeableConcept.coding [
-       fhir:index 0 ;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
-       fhir:Coding.code [ fhir:value "FRA" ]
-     ]
-  ] ;
-  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
-  fhir:CodeSystem.content [ fhir:value "not-present"] .
-
-# - ontology header ------------------------------------------------------------
-
-<https://interop.esante.gouv.fr/terminologies/CodeSystem/icd-o-3.ttl> a owl:Ontology ;
-  owl:imports fhir:fhir.ttl .
+  fhir:id [ fhir:v "icd-o-3"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2026-01-07T10:12:48.197+01:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem icd-o-3</b></p><a name=\"icd-o-3\"> </a><a name=\"hcicd-o-3\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:48+0100</p></div><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/icd-o-3</code> defines codes, but no codes are represented here</p></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/icd-o-3"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/icd-o-3>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
+     ] ;
+     fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.6.43.1" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "2.0.1"] ; # 
+  fhir:name [ fhir:v "IcdO3"] ; # 
+  fhir:title [ fhir:v "International Classification of Diseases for Oncology, version 3."] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-03-20T00:00:00-04:00"^^xsd:dateTime] ; # 
+  fhir:publisher [ fhir:v "TBD - External Body"] ; # 
+  fhir:contact ( [
+     fhir:name [ fhir:v "World Health Organization (WHO)" ]
+  ] ) ; # 
+  fhir:description [ fhir:v "International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "FRA" ]
+     ] )
+  ] ) ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:content [ fhir:v "not-present"] . # 
 
 # -------------------------------------------------------------------------------------
 

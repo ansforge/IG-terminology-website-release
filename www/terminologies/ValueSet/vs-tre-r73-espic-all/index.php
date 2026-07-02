@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-vs-tre-r73-espic-all.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-vs-tre-r73-espic-all.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-vs-tre-r73-espic-all.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-vs-tre-r73-espic-all.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-vs-tre-r73-espic-all.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-vs-tre-r73-espic-all.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-vs-tre-r73-espic-all.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-vs-tre-r73-espic-all.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-vs-tre-r73-espic-all.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-vs-tre-r73-espic-all.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-vs-tre-r73-espic-all.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-vs-tre-r73-espic-all.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-vs-tre-r73-espic-all.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-vs-tre-r73-espic-all.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

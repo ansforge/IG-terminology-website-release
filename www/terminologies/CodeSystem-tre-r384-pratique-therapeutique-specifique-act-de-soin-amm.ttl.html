@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Tre R384 Pratique Therapeutique Specifique Act De Soin Amm - TTL Representation - Terminologies  de Santé v1.11.0</title>
+    <title>Tre R384 Pratique Therapeutique Specifique Act De Soin Amm - TTL Representation - Terminologies  de Santé v1.10.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.980"}
-    h3,h4,h5,h6{--heading-prefix:"7.980"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.940"}
+    h3,h4,h5,h6{--heading-prefix:"7.940"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,11 +58,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.11.0 - final-text
+            <span style="display:inline-block;">1.10.0 - final-text
 
 
 
-  <img alt="France (la) flag" src="assets/images/fra.svg" height="16" title="France (la)"/>
+  <span title="">FRA</span>
 
 
             </span>
@@ -169,7 +169,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.11.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.10.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -270,482 +270,463 @@
   <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
 
-&lt;http://hl7.org/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&gt; a fhir:CodeSystem ;
+ a fhir:CodeSystem ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&quot;] ;
-  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.meta">fhir:Resource.meta</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:Meta.versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;2&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:Meta.lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:value</a> &quot;2026-05-05T20:12:15+02:00&quot;^^xsd:dateTime ] ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:Meta.profile</a> [
-       <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/shareablecodesystem&quot; ;
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablecodesystem&gt;
-     ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.language">fhir:Resource.language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;fr-FR&quot;] ;
-  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
-     fhir:Narrative.div &quot;&lt;div xml:lang=\&quot;fr-FR\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;fr-FR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : CodeSystem tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hctre-r384-pratique-therapeutique-specifique-act-de-soin-amm\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version : 2; Dernière mise à jour : 2026-05-05 20:12:15+0200; Langue : fr-FR&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablecodesystem.html\&quot;&gt;Shareable CodeSystem&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Date de Validité&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Date de mise à jour&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Date de fin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#deprecationDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#retirementDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;The date at which a concept was retired&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Affichage&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Date de Validité&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Date de mise à jour&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS00&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS00\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pas de pratique thérapeutique spécifique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS01&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS01\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS d’organes ci-après)&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS11&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS11\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Maxillo-faciale, stomatologie et chirurgie orale&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS12&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS12\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthopédique et traumatologique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS13&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS13\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plastique, reconstructrice&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS14&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS14\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thoracique et cardiovasculaire à l’exception de l’activité définie à l’article R. 6123-69&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS15&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS15\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vasculaire et endovasculaire&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS16&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS16\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viscérale et digestive&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS17&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS17\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gynécologie obstétrique à l’exception des actes liés à l’accouchement réalisés au titre de l’activité de soins mentionnée au 3° de l’article R. 6122-25&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS18&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS18\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Neurochirurgie se limitant aux lésions des nerfs périphériques et aux lésions de la colonne vertébro-discale et intradurale, à l'Exclusion de la moelle épinière&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS19&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS19\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ophtalmologie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS02&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS02\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique de l’œsophage ou de la  jonction gastro-œsophagienne&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS20&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS20\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oto-rhino-laryngologie et cervico-faciale&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS21&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS21\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Urologie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS03&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS03\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique du foie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS04&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS04\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique du l’estomac&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS05&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS05\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique du pancréas&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS06&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS06\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique du rectum&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS07&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS07\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS ovaire ci-après)&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS08&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS08\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique de l'ovaire&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS09&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS09\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hors actes portant sur l'aorte thoracique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS10&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS10\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Y compris actes portant sur l'aorte thoracique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
-  ] ;
-  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">fhir:DomainResource.extension</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:Extension.valuePeriod</a> [
-       <a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:Period.start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:CodeSystem.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.identifier">fhir:CodeSystem.identifier</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:ietf:rfc:3986&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;urn:oid:1.2.250.1.213.1.6.1.299&quot; ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:CodeSystem.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;20260330120000&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:CodeSystem.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:CodeSystem.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Tre R384 Pratique Therapeutique Specifique Act De Soin Amm&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:CodeSystem.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:CodeSystem.experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:CodeSystem.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2026-03-30T12:00:00+01:00&quot;^^xsd:dateTime] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:CodeSystem.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:CodeSystem.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">fhir:CodeSystem.jurisdiction</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:iso:std:iso:3166&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;FRA&quot; ]
-     ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:CodeSystem.caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.valueSet">fhir:CodeSystem.valueSet</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs&quot; ;
-     <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs&gt;
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:CodeSystem.content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;complete&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">fhir:CodeSystem.count</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:value</a> &quot;22&quot;^^xsd:nonNegativeInteger] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:CodeSystem.property</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:CodeSystem.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:CodeSystem.property.uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/concept-properties#dateValid&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:CodeSystem.property.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;date de validité d'un code concept&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:CodeSystem.property.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateTime&quot; ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:CodeSystem.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:CodeSystem.property.uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:CodeSystem.property.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Date de mise à jour d'un code concept&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:CodeSystem.property.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateTime&quot; ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:CodeSystem.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateFin&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:CodeSystem.property.uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;https://smt.esante.gouv.fr/fhir/concept-properties#dateFin&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:CodeSystem.property.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Date de fin d'exploitation d'un code concept&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:CodeSystem.property.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateTime&quot; ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:CodeSystem.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:CodeSystem.property.uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/concept-properties#status&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:CodeSystem.property.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:CodeSystem.property.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;code&quot; ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:CodeSystem.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;deprecationDate&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:CodeSystem.property.uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/concept-properties#deprecationDate&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:CodeSystem.property.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:CodeSystem.property.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateTime&quot; ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:CodeSystem.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;retirementDate&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:CodeSystem.property.uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/concept-properties#retirementDate&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:CodeSystem.property.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;The date at which a concept was retired&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:CodeSystem.property.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateTime&quot; ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:CodeSystem.concept</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS00&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pas de pratique thérapeutique spécifique&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS01&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS d’organes ci-après)&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS11&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Maxillo-faciale, stomatologie et chirurgie orale&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS12&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Orthopédique et traumatologique&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS13&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plastique, reconstructrice&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS14&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Thoracique et cardiovasculaire à l’exception de l’activité définie à l’article R. 6123-69&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS15&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Vasculaire et endovasculaire&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS16&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Viscérale et digestive&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS17&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Gynécologie obstétrique à l’exception des actes liés à l’accouchement réalisés au titre de l’activité de soins mentionnée au 3° de l’article R. 6122-25&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS18&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Neurochirurgie se limitant aux lésions des nerfs périphériques et aux lésions de la colonne vertébro-discale et intradurale, à l'Exclusion de la moelle épinière&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS19&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Ophtalmologie&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 11 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS02&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Chirurgie oncologique de l’œsophage ou de la  jonction gastro-œsophagienne&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 12 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS20&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Oto-rhino-laryngologie et cervico-faciale&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 13 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS21&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Urologie&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 14 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS03&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Chirurgie oncologique du foie&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 15 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS04&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Chirurgie oncologique du l’estomac&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 16 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS05&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Chirurgie oncologique du pancréas&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 17 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS06&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Chirurgie oncologique du rectum&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 18 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS07&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS ovaire ci-après)&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 19 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS08&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Chirurgie oncologique de l'ovaire&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 20 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS09&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Hors actes portant sur l'aorte thoracique&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 21 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PTS10&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Y compris actes portant sur l'aorte thoracique&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateValid&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;dateMaj&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueDateTime</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-&lt;http://hl7.org/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm.ttl&gt; a owl:Ontology ;
-  owl:imports fhir:fhir.ttl ;
-  owl:versionIRI &lt;http://build.fhir.org/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm.ttl&gt; .
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.meta">fhir:meta</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;2&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2026-05-05T20:12:15+02:00&quot;^^xsd:dateTime ] ;
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.profile">fhir:profile</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/shareablecodesystem&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/shareablecodesystem&gt;     ] )
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.language">fhir:language</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;fr-FR&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xml:lang=\&quot;fr-FR\&quot; xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot; lang=\&quot;fr-FR\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : CodeSystem tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hctre-r384-pratique-therapeutique-specifique-act-de-soin-amm\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version : 2; Dernière mise à jour : 2026-05-05 20:12:15+0200; Langue : fr-FR&lt;/p&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;Profil: &lt;a href=\&quot;http://hl7.org/fhir/R4/shareablecodesystem.html\&quot;&gt;Shareable CodeSystem&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Date de Validité&lt;/td&gt;&lt;td&gt;dateValid&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateValid&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;date de validité d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Date de mise à jour&lt;/td&gt;&lt;td&gt;dateMaj&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de mise à jour d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;Date de fin&lt;/td&gt;&lt;td&gt;dateFin&lt;/td&gt;&lt;td&gt;https://smt.esante.gouv.fr/fhir/concept-properties#dateFin&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;Date de fin d'exploitation d'un code concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;deprecationDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#deprecationDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;retirementDate&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#retirementDate&lt;/td&gt;&lt;td&gt;dateTime&lt;/td&gt;&lt;td&gt;The date at which a concept was retired&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-insensitive code system &lt;code&gt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&lt;/code&gt; defines the following codes:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Affichage&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Date de Validité&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Date de mise à jour&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS00&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS00\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pas de pratique thérapeutique spécifique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS01&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS01\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS d’organes ci-après)&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS11&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS11\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Maxillo-faciale, stomatologie et chirurgie orale&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS12&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS12\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Orthopédique et traumatologique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS13&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS13\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plastique, reconstructrice&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS14&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS14\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Thoracique et cardiovasculaire à l’exception de l’activité définie à l’article R. 6123-69&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS15&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS15\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Vasculaire et endovasculaire&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS16&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS16\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Viscérale et digestive&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS17&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS17\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Gynécologie obstétrique à l’exception des actes liés à l’accouchement réalisés au titre de l’activité de soins mentionnée au 3° de l’article R. 6122-25&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS18&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS18\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Neurochirurgie se limitant aux lésions des nerfs périphériques et aux lésions de la colonne vertébro-discale et intradurale, à l'Exclusion de la moelle épinière&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS19&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS19\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Ophtalmologie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS02&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS02\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique de l’œsophage ou de la  jonction gastro-œsophagienne&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS20&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS20\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Oto-rhino-laryngologie et cervico-faciale&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS21&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS21\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Urologie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS03&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS03\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique du foie&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS04&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS04\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique du l’estomac&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS05&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS05\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique du pancréas&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS06&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS06\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique du rectum&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS07&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS07\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS ovaire ci-après)&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS08&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS08\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Chirurgie oncologique de l'ovaire&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS09&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS09\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Hors actes portant sur l'aorte thoracique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PTS10&lt;a name=\&quot;tre-r384-pratique-therapeutique-specifique-act-de-soin-amm-PTS10\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Y compris actes portant sur l'aorte thoracique&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;1900-01-01T00:00:00+01:00&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">fhir:extension</a> ( [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Period">a</a> fhir:Period ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Period#Period.start">fhir:start</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime ]     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm&gt;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:ietf:rfc:3986&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:ietf:rfc:3986&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;urn:oid:1.2.250.1.213.1.6.1.299&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;20260330120000&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;TreR384PratiqueTherapeutiqueSpecifiqueActDeSoinAmm&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Tre R384 Pratique Therapeutique Specifique Act De Soin Amm&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2026-03-30T12:00:00+01:00&quot;^^xsd:dateTime] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">fhir:jurisdiction</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:iso:std:iso:3166&gt;       ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;FRA&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.valueSet">fhir:valueSet</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r384-pratique-therapeutique-specifique-act-de-soin-amm?vs&gt;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;complete&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.count">fhir:count</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#unsignedInt">fhir:v</a> &quot;22&quot;^^xsd:nonNegativeInteger] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:property</a> ( [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/concept-properties#dateValid&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/concept-properties#dateValid&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;date de validité d'un code concept&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateTime&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/concept-properties#dateMaj&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Date de mise à jour d'un code concept&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateTime&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateFin&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;https://smt.esante.gouv.fr/fhir/concept-properties#dateFin&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;https://smt.esante.gouv.fr/fhir/concept-properties#dateFin&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Date de fin d'exploitation d'un code concept&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateTime&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#status&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/concept-properties#status&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;A code that indicates the status of the concept. Typical values are active, experimental, deprecated, and retired&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;code&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;deprecationDate&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#deprecationDate&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/concept-properties#deprecationDate&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;The date at which a concept was deprecated. Concepts that are deprecated but not inactive can still be used, but their use is discouraged, and they should be expected to be made inactive in a future release. Property type is dateTime. Note that the status property may also be used to indicate that a concept is deprecated&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateTime&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;retirementDate&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#retirementDate&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/concept-properties#retirementDate&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;The date at which a concept was retired&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateTime&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:concept</a> ( [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS00&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pas de pratique thérapeutique spécifique&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS01&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS d’organes ci-après)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS11&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Maxillo-faciale, stomatologie et chirurgie orale&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS12&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Orthopédique et traumatologique&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS13&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plastique, reconstructrice&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS14&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Thoracique et cardiovasculaire à l’exception de l’activité définie à l’article R. 6123-69&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS15&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Vasculaire et endovasculaire&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS16&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Viscérale et digestive&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS17&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Gynécologie obstétrique à l’exception des actes liés à l’accouchement réalisés au titre de l’activité de soins mentionnée au 3° de l’article R. 6122-25&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS18&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Neurochirurgie se limitant aux lésions des nerfs périphériques et aux lésions de la colonne vertébro-discale et intradurale, à l'Exclusion de la moelle épinière&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS19&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Ophtalmologie&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS02&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Chirurgie oncologique de l’œsophage ou de la  jonction gastro-œsophagienne&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS20&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Oto-rhino-laryngologie et cervico-faciale&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS21&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Urologie&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS03&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Chirurgie oncologique du foie&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS04&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Chirurgie oncologique du l’estomac&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS05&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Chirurgie oncologique du pancréas&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS06&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Chirurgie oncologique du rectum&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS07&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Mission de recours et chirurgie oncologique complexe y compris avec atteinte péritonéale (hors PTS ovaire ci-après)&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS08&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Chirurgie oncologique de l'ovaire&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS09&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Hors actes portant sur l'aorte thoracique&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PTS10&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Y compris actes portant sur l'aorte thoracique&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateValid&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;dateMaj&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">a</a> fhir:DateTime ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;1900-01-01T00:00:00+01:00&quot;^^xsd:dateTime       ]     ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] ) . # 
 
 </pre>
 
@@ -794,7 +775,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.11.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 30, 2026 21:35+0000">2026-06-30</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.10.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 29, 2026 14:49+0000">2026-05-29</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

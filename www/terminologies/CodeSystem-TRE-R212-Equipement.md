@@ -1,4 +1,4 @@
-# TRE_R212_Equipement - Terminologies de Santé v1.11.0
+# TRE_R212_Equipement - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R212_Equipement |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R212_Equipement |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.10 | | |
 
  
@@ -30,8 +30,8 @@ Equipement
   "resourceType" : "CodeSystem",
   "id" : "TRE-R212-Equipement",
   "meta" : {
-    "versionId" : "25",
-    "lastUpdated" : "2026-06-29T11:13:40.569+02:00",
+    "versionId" : "24",
+    "lastUpdated" : "2026-05-29T14:43:05.017+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -46,11 +46,11 @@ Equipement
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.10"
   }],
-  "version" : "20260629120000",
+  "version" : "20260601120000",
   "name" : "TRE_R212_Equipement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipement",
   "jurisdiction" : [{
@@ -61,7 +61,7 @@ Equipement
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 256,
+  "count" : 245,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1336,14 +1336,14 @@ Equipement
   },
   {
     "code" : "054",
-    "display" : "Imagerie par Résonance Magnétique (IRM) corps entier",
+    "display" : "IRM corps entier",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2015-04-08T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -2080,14 +2080,14 @@ Equipement
   },
   {
     "code" : "087",
-    "display" : "Imagerie par Résonance Magnétique (IRM) à champ ouvert",
+    "display" : "IRM à champ ouvert",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2016-11-02T00:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2017-10-13T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4364,14 +4364,14 @@ Equipement
   },
   {
     "code" : "221",
-    "display" : "Imagerie par Résonance Magnétique (IRM) obésité – bariatrique",
+    "display" : "IRM obésité – bariatrique",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-01-31T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2025-01-31T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4827,182 +4827,6 @@ Equipement
     {
       "code" : "specialisationFiness",
       "valueBoolean" : true
-    }]
-  },
-  {
-    "code" : "246",
-    "display" : "Échographe polyvalent",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "247",
-    "display" : "Imagerie par Résonance Magnétique (IRM) à champ fermé (ou tunnel)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "248",
-    "display" : "Imagerie par Résonance Magnétique (IRM) pédiatrique (compatible anesthésie)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "249",
-    "display" : "Radiologie numérique standard",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "250",
-    "display" : "Scanner base dose (LDCT)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "251",
-    "display" : "Plateau réfraction - Pachymétrie",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "252",
-    "display" : "Rétinographe",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "253",
-    "display" : "Oculomètre certifié (C2)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "254",
-    "display" : "Coordimètre",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "255",
-    "display" : "Tests scorés et/ou normés en neurovision",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "256",
-    "display" : "Accompagnement à l’essai de fauteuil roulant",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
     }]
   }]
 }

@@ -1,4 +1,4 @@
-# TRE_R280_DisciplineEquipementSocial - Terminologies de Santé v1.11.0
+# TRE_R280_DisciplineEquipementSocial - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial | *Version*:20260601120000 | |
-| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R280_DisciplineEquipementSocial |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R280_DisciplineEquipementSocial |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.133 | | |
 
  
@@ -28,8 +28,8 @@ Disciplines d’équipement pour le social
   "resourceType" : "CodeSystem",
   "id" : "TRE-R280-DisciplineEquipementSocial",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-06-01T20:12:10.817+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T20:12:02.176+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,11 +44,11 @@ Disciplines d’équipement pour le social
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.133"
   }],
-  "version" : "20260601120000",
+  "version" : "20260330120000",
   "name" : "TRE_R280_DisciplineEquipementSocial",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Disciplines d'équipement pour le social",
   "jurisdiction" : [{
@@ -59,7 +59,7 @@ Disciplines d’équipement pour le social
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 134,
+  "count" : 133,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1302,31 +1302,6 @@ Disciplines d’équipement pour le social
     {
       "code" : "status",
       "valueCode" : "deprecated"
-    }]
-  },
-  {
-    "code" : "570",
-    "display" : "Unités résidentielles pour cas complexes",
-    "definition" : "Ces unités ont le statut de MAS et sont adossées à des établissements médico-sociaux pour adultes handicapés existants mentionnés au 7° de l’article L.312-1 du CASF.\n\nLe fonctionnement et l’organisation des URTSA :\n\n- Ces unités ont une haute intensité de prise en charge des patients, avec des pathologies lourdes.\n\n- La création de ces unités nécessite des locaux spécifiques adaptés à l'accueil de ce public.\n\n- Le public ne peut pas être accueilli dans les locaux dans lesquels sont accueillis les autres publics car les personnes accueillies dans ces unités présentent des troubles majeurs du comportement et nécessitent un accompagnement spécifique, de très grande proximité, un écosystème sécurisé, une architecture adaptée et des professionnels experts notamment formés à la gestion de crise.\n\n- Ce sont généralement des très petites unités de vie avec deux unités de trois places ou trois unités de deux places au sein d'un unique bâtiment. Cette configuration permet d’avoir des espaces de vie collective et des espaces de prise en charge individuelle pour isoler les résidents du collectif.\n\n- L’accueil prévu est de 6 personnes.",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "URTSA"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
     }]
   },
   {

@@ -1,4 +1,4 @@
-# ASS_A25_PaysProvenanceISO_PaysProvenanceCOG - Terminologies de Santé v1.11.0
+# ASS_A25_PaysProvenanceISO_PaysProvenanceCOG - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

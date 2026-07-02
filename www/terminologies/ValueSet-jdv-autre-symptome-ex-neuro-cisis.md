@@ -1,4 +1,4 @@
-# JDV Autre Symptome Ex Neuro CISIS - Terminologies de Santé v1.11.0
+# JDV Autre Symptome Ex Neuro CISIS - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-autre-symptome-ex-neuro-cisis | *Version*:20260619134043 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAutreSymptomeExNeuroCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-autre-symptome-ex-neuro-cisis | *Version*:20260420150251 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvAutreSymptomeExNeuroCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.174 | | |
 
  
@@ -46,20 +46,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-autre-symptome-avc-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-autre-symptome-ex-neuro-cisis-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -68,8 +55,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-autre-symptome-ex-neuro-cisis",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-06-22T13:58:20.125+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-04-20T16:57:40.217+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +71,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.174"
   }],
-  "version" : "20260619134043",
+  "version" : "20260420150251",
   "name" : "JdvAutreSymptomeExNeuroCisis",
   "title" : "JDV Autre Symptome Ex Neuro CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:43+01:00",
+  "date" : "2026-04-20T15:02:51+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Autre Symptome Ex Neuro CISIS",
   "jurisdiction" : [{

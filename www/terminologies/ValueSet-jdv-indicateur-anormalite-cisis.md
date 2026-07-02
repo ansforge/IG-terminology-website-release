@@ -1,4 +1,4 @@
-# JDV Indicateur Anormalite CISIS - Terminologies de Santé v1.11.0
+# JDV Indicateur Anormalite CISIS - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -48,20 +48,7 @@ Expansions are not generated for retired value sets
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-imputabilite-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-indicateur-anormalite-cisis-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -103,7 +90,7 @@ Liens:
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
-      "version" : "4.0.0",
+      "version" : "2018-08-12",
       "concept" : [{
         "code" : "N",
         "display" : "Normal"

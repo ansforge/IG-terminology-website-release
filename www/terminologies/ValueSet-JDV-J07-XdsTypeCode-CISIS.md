@@ -1,4 +1,4 @@
-# JDV_J07_XdsTypeCode_CISIS - Terminologies de Santé v1.11.0
+# JDV_J07_XdsTypeCode_CISIS - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J07_XdsTypeCode_CISIS |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J07-XdsTypeCode-CISIS/FHIR/JDV-J07-XdsTypeCode-CISIS | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J07_XdsTypeCode_CISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.471 | | |
 
  
@@ -46,20 +46,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-JDV-J06-XdsClassCode-CISIS.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J07-XdsTypeCode-CISIS-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -68,8 +55,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J07-XdsTypeCode-CISIS",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2026-06-29T11:18:26.944+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-05-29T13:18:02.608+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +71,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.471"
   }],
-  "version" : "20260629120000",
+  "version" : "20260601120000",
   "name" : "JDV_J07_XdsTypeCode_CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "XDS typeCode CI-SIS",
   "jurisdiction" : [{
@@ -358,10 +345,6 @@ Liens:
       {
         "code" : "55115-0",
         "display" : "Demande d'actes d'imagerie"
-      },
-      {
-        "code" : "55751-2",
-        "display" : "Déclaration de problème de santé publique"
       },
       {
         "code" : "56445-0",

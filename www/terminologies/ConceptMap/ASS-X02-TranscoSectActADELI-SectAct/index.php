@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ConceptMap-ASS-X02-TranscoSectActADELI-SectAct.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

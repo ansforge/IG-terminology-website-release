@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R326-SituationSansEmploi.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R326-SituationSansEmploi.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R326-SituationSansEmploi.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R326-SituationSansEmploi.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R326-SituationSansEmploi.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R326-SituationSansEmploi.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R326-SituationSansEmploi.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R326-SituationSansEmploi.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R326-SituationSansEmploi.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R326-SituationSansEmploi.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R326-SituationSansEmploi.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R326-SituationSansEmploi.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R326-SituationSansEmploi.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R326-SituationSansEmploi.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

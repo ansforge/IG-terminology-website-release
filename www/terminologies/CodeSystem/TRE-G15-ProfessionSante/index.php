@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-G15-ProfessionSante.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-G15-ProfessionSante.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-G15-ProfessionSante.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-G15-ProfessionSante.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-G15-ProfessionSante.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-G15-ProfessionSante.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-G15-ProfessionSante.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-G15-ProfessionSante.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-G15-ProfessionSante.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-G15-ProfessionSante.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-G15-ProfessionSante.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-G15-ProfessionSante.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-G15-ProfessionSante.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-G15-ProfessionSante.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

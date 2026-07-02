@@ -1,4 +1,4 @@
-# TRE_R239_PublicPrisEnCharge - Terminologies de Santé v1.11.0
+# TRE_R239_PublicPrisEnCharge - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R239_PublicPrisEnCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R239_PublicPrisEnCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.29 | | |
 
  
@@ -28,8 +28,8 @@ Public pris en charge
   "resourceType" : "CodeSystem",
   "id" : "TRE-R239-PublicPrisEnCharge",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-06-29T13:43:27.411+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2026-05-05T20:11:57.717+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,11 +44,11 @@ Public pris en charge
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.29"
   }],
-  "version" : "20260629120000",
+  "version" : "20260330120000",
   "name" : "TRE_R239_PublicPrisEnCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Public pris en charge",
   "jurisdiction" : [{
@@ -314,14 +314,22 @@ Public pris en charge
   },
   {
     "code" : "10",
-    "display" : "Victime de violence",
+    "display" : "Victime de violence (intrafamiliale, professionnelle, prostitutionnelle, cyber)",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Victime de violence"
+    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2026-03-30T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J203-TypeOrganisationInterne-ROR.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

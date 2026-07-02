@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/CodeSystem-TRE-R269-AvailabilityStatusProvenanceOasis.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

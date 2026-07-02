@@ -1,4 +1,4 @@
-# Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments - Terminologies de Santé v1.11.0
+# Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms | *Version*:2026-01-30 | |
-| Active as of 2026-01-30 | *Responsible:*Agence du numérique en santé | *Computable Name*:Standard_terms_EDQM |
+| *Official URL*:https://smt.esante.gouv.fr/terminologie-standardterms | *Version*:2025-03-19 | |
+| Active as of 2025-07-11 | *Responsible:*Agence du numérique en santé | *Computable Name*:Standard_terms_EDQM |
 | *Other Identifiers:*OID:0.4.0.127.0.16.1.1.2.1 (use: usual, ), https://smt.esante.gouv.fr/#terminologie-standardterms (use: secondary, ) | | |
 | **Copyright/Legal**: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode) | | |
 
@@ -34,8 +34,8 @@ Les standard terms (ou listes de termes normalisés) ont été établis en répo
   "resourceType" : "CodeSystem",
   "id" : "terminologie-standardterms",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-06-04T10:00:28.844+02:00",
+    "versionId" : "8",
+    "lastUpdated" : "2025-07-11T12:01:41.851+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
@@ -49,12 +49,12 @@ Les standard terms (ou listes de termes normalisés) ont été établis en répo
     "system" : "https://smt.esante.gouv.fr/",
     "value" : "terminologie-standardterms"
   }],
-  "version" : "2026-01-30",
+  "version" : "2025-03-19",
   "name" : "Standard_terms_EDQM",
   "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-01-30T00:00:00+00:00",
+  "date" : "2025-07-11T00:00:00+00:00",
   "publisher" : "Agence du numérique en santé",
   "description" : "Les standard terms (ou listes de termes normalisés) ont été établis en réponse à une demande de la Commission européenne. Ils contiennent les formes pharmaceutiques, les voies et/ou les méthodes d’administration, les unités de présentation, ainsi que les conditionnements, les systèmes de fermeture et les dispositifs d’administration des médicaments à usage humain et/ou vétérinaire.",
   "jurisdiction" : [{
@@ -66,7 +66,7 @@ Les standard terms (ou listes de termes normalisés) ont été établis en répo
   "copyright" : "[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/legalcode)",
   "valueSet" : "https://smt.esante.gouv.fr/terminologie-standardterms?vs",
   "content" : "not-present",
-  "count" : 1305,
+  "count" : 1297,
   "filter" : [{
     "code" : "root",
     "operator" : ["="],

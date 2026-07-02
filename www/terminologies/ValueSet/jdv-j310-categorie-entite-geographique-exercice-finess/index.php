@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

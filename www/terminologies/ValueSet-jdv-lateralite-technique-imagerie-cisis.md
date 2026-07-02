@@ -1,4 +1,4 @@
-# JDV Lateralite Technique Imagerie CISIS - Terminologies de Santé v1.11.0
+# JDV Lateralite Technique Imagerie CISIS - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-technique-imagerie-cisis | *Version*:20260619134042 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLateraliteTechniqueImagerieCisis |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-lateralite-technique-imagerie-cisis | *Version*:20260420150250 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JdvLateraliteTechniqueImagerieCisis |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.5.617 | | |
 
  
@@ -46,20 +46,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-lateralite-ncit-cisis.demande.md) | [top](#top) |  [next>](ValueSet-jdv-lateralite-technique-imagerie-cisis-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -68,8 +55,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-lateralite-technique-imagerie-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-06-22T13:59:11.967+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:58:19.175+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +71,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.5.617"
   }],
-  "version" : "20260619134042",
+  "version" : "20260420150250",
   "name" : "JdvLateraliteTechniqueImagerieCisis",
   "title" : "JDV Lateralite Technique Imagerie CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:42+01:00",
+  "date" : "2026-04-20T15:02:50+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "JDV Lateralite Technique Imagerie CISIS",
   "jurisdiction" : [{
@@ -103,7 +90,7 @@ Liens:
       "system" : "http://snomed.info/sct",
       "concept" : [{
         "code" : "66459002",
-        "display" : "unilatéral(e)"
+        "display" : "unilatéral"
       },
       {
         "code" : "51440002",
