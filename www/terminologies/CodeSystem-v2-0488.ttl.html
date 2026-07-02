@@ -5,7 +5,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>specimenCollectionMethod - TTL Representation - Terminologies  de Santé v1.11.0</title>
+    <title>specimenCollectionMethod - TTL Representation - Terminologies  de Santé v1.10.0</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -43,8 +43,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"7.950"}
-    h3,h4,h5,h6{--heading-prefix:"7.950"}</style>
+    <style type="text/css">h2{--heading-prefix:"7.917"}
+    h3,h4,h5,h6{--heading-prefix:"7.917"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -58,11 +58,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">Terminologies  de Santé</span>
             <br/>
-            <span style="display:inline-block;">1.11.0 - final-text
+            <span style="display:inline-block;">1.10.0 - final-text
 
 
 
-  <img alt="France (la) flag" src="assets/images/fra.svg" height="16" title="France (la)"/>
+  <span title="">FRA</span>
 
 
             </span>
@@ -169,7 +169,7 @@
         <div class="row">
           <div class="inner-wrapper">
 <div style="counter-reset: section 9" class="col-12">
-<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.11.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+<!--ReleaseHeader--><p id="publish-box">This page is part of the Guide d'implémentation des terminologies de Santé (v1.10.0: Release) based on <a data-no-external="true" href="http://hl7.org/fhir/R4">FHIR (HL7® FHIR® Standard) R4</a>. This is the current published version.  For a full list of available versions, see the <a data-no-external="true" href="https://interop.esante.gouv.fr/terminologies/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
 
 
 
@@ -270,554 +270,510 @@
   <pre class="rdf" data-fhir="generated" style="white-space: pre; overflow: hidden">
 @prefix fhir: &lt;http://hl7.org/fhir/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 @prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
 # - resource -------------------------------------------------------------------
 
-&lt;http://hl7.org/fhir/CodeSystem/v2-0488&gt; a fhir:CodeSystem ;
+ a fhir:CodeSystem ;
   <a href="http://hl7.org/fhir/R4/rdf.html#tree-root">fhir:nodeRole</a> fhir:treeRoot ;
-  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">fhir:Resource.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;v2-0488&quot;] ;
-  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.meta">fhir:Resource.meta</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:Meta.versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:value</a> &quot;1&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:Meta.lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:value</a> &quot;2026-01-07T10:12:48.609+01:00&quot;^^xsd:dateTime ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">fhir:DomainResource.text</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:Narrative.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;generated&quot; ] ;
-     fhir:Narrative.div &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : CodeSystem v2-0488&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;v2-0488\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcv2-0488\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version : 1; Dernière mise à jour : 2026-01-07 10:12:48+0100&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;A code that indicates the status of the concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;td&gt;v2-table-deprecated&lt;/td&gt;&lt;td&gt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;Version of HL7 in which the code was deprecated&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0488&lt;/code&gt; defines the following codes dans une hiérarchie Is-A:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Affichage&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Définition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FNA&lt;a name=\&quot;v2-0488-FNA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aspiration, Fine Needle&lt;/td&gt;&lt;td&gt;Aspiration, Fine Needle&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PNA&lt;a name=\&quot;v2-0488-PNA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Arterial puncture&lt;/td&gt;&lt;td&gt;Arterial puncture&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BIO&lt;a name=\&quot;v2-0488-BIO\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Biopsy&lt;/td&gt;&lt;td&gt;Biopsy&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BCAE&lt;a name=\&quot;v2-0488-BCAE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blood Culture, Aerobic Bottle&lt;/td&gt;&lt;td&gt;Blood Culture, Aerobic Bottle&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BCAN&lt;a name=\&quot;v2-0488-BCAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blood Culture, Anaerobic Bottle&lt;/td&gt;&lt;td&gt;Blood Culture, Anaerobic Bottle&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BCPD&lt;a name=\&quot;v2-0488-BCPD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blood Culture, Pediatric Bottle&lt;/td&gt;&lt;td&gt;Blood Culture, Pediatric Bottle&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CAP&lt;a name=\&quot;v2-0488-CAP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Capillary Specimen&lt;/td&gt;&lt;td&gt;Capillary Specimen&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CATH&lt;a name=\&quot;v2-0488-CATH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Catheterized&lt;/td&gt;&lt;td&gt;Catheterized&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EPLA&lt;a name=\&quot;v2-0488-EPLA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Environmental, Plate&lt;/td&gt;&lt;td&gt;Environmental, Plate&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ESWA&lt;a name=\&quot;v2-0488-ESWA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Environmental, Swab&lt;/td&gt;&lt;td&gt;Environmental, Swab&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LNA&lt;a name=\&quot;v2-0488-LNA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Line, Arterial&lt;/td&gt;&lt;td&gt;Line, Arterial&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CVP&lt;a name=\&quot;v2-0488-CVP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Line, CVP&lt;/td&gt;&lt;td&gt;Line, CVP&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LNV&lt;a name=\&quot;v2-0488-LNV\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Line, Venous&lt;/td&gt;&lt;td&gt;Line, Venous&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MARTL&lt;a name=\&quot;v2-0488-MARTL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Martin-Lewis Agar&lt;/td&gt;&lt;td&gt;Martin-Lewis Agar&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ML11&lt;a name=\&quot;v2-0488-ML11\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mod. Martin-Lewis Agar&lt;/td&gt;&lt;td&gt;Mod. Martin-Lewis Agar&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PACE&lt;a name=\&quot;v2-0488-PACE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pace, Gen-Probe&lt;/td&gt;&lt;td&gt;Pace, Gen-Probe&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PIN&lt;a name=\&quot;v2-0488-PIN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pinworm Prep&lt;/td&gt;&lt;td&gt;Pinworm Prep&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KOFFP&lt;a name=\&quot;v2-0488-KOFFP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plate, Cough&lt;/td&gt;&lt;td&gt;Plate, Cough&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MLP&lt;a name=\&quot;v2-0488-MLP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plate, Martin-Lewis&lt;/td&gt;&lt;td&gt;Plate, Martin-Lewis&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NYP&lt;a name=\&quot;v2-0488-NYP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plate, New York City&lt;/td&gt;&lt;td&gt;Plate, New York City&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMP&lt;a name=\&quot;v2-0488-TMP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plate, Thayer-Martin&lt;/td&gt;&lt;td&gt;Plate, Thayer-Martin&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANP&lt;a name=\&quot;v2-0488-ANP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plates, Anaerobic&lt;/td&gt;&lt;td&gt;Plates, Anaerobic&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BAP&lt;a name=\&quot;v2-0488-BAP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plates, Blood Agar&lt;/td&gt;&lt;td&gt;Plates, Blood Agar&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PRIME&lt;a name=\&quot;v2-0488-PRIME\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pump Prime&lt;/td&gt;&lt;td&gt;Pump Prime&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PUMP&lt;a name=\&quot;v2-0488-PUMP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pump Specimen&lt;/td&gt;&lt;td&gt;Pump Specimen&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;QC5&lt;a name=\&quot;v2-0488-QC5\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Quality Control For Micro&lt;/td&gt;&lt;td&gt;Quality Control For Micro&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SCLP&lt;a name=\&quot;v2-0488-SCLP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scalp, Fetal Vein&lt;/td&gt;&lt;td&gt;Scalp, Fetal Vein&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SCRAPS&lt;a name=\&quot;v2-0488-SCRAPS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scrapings&lt;/td&gt;&lt;td&gt;Scrapings&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SHA&lt;a name=\&quot;v2-0488-SHA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Shaving&lt;/td&gt;&lt;td&gt;Shaving&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWA&lt;a name=\&quot;v2-0488-SWA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab&lt;/td&gt;&lt;td&gt;Swab&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWD&lt;a name=\&quot;v2-0488-SWD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab, Dacron tipped&lt;/td&gt;&lt;td&gt;Swab, Dacron tipped&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WOOD&lt;a name=\&quot;v2-0488-WOOD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab, Wooden Shaft&lt;/td&gt;&lt;td&gt;Swab, Wooden Shaft&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMOT&lt;a name=\&quot;v2-0488-TMOT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media,&lt;/td&gt;&lt;td&gt;Transport Media,&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMAN&lt;a name=\&quot;v2-0488-TMAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Anaerobic&lt;/td&gt;&lt;td&gt;Transport Media, Anaerobic&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMCH&lt;a name=\&quot;v2-0488-TMCH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Chalamydia&lt;/td&gt;&lt;td&gt;Transport Media, Chalamydia&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMM4&lt;a name=\&quot;v2-0488-TMM4\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, M4&lt;/td&gt;&lt;td&gt;Transport Media, M4&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMMY&lt;a name=\&quot;v2-0488-TMMY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Mycoplasma&lt;/td&gt;&lt;td&gt;Transport Media, Mycoplasma&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMPV&lt;a name=\&quot;v2-0488-TMPV\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, PVA&lt;/td&gt;&lt;td&gt;Transport Media, PVA&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMSC&lt;a name=\&quot;v2-0488-TMSC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Stool Culture&lt;/td&gt;&lt;td&gt;Transport Media, Stool Culture&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMUP&lt;a name=\&quot;v2-0488-TMUP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Ureaplasma&lt;/td&gt;&lt;td&gt;Transport Media, Ureaplasma&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMVI&lt;a name=\&quot;v2-0488-TMVI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Viral&lt;/td&gt;&lt;td&gt;Transport Media, Viral&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VENIP&lt;a name=\&quot;v2-0488-VENIP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Venipuncture&lt;/td&gt;&lt;td&gt;Venipuncture&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;
-  ] ;
-  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">fhir:DomainResource.extension</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:Extension.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:Extension.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;oo&quot; ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:CodeSystem.url</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0488&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.identifier">fhir:CodeSystem.identifier</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:Identifier.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:ietf:rfc:3986&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:Identifier.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;urn:oid:2.16.840.1.113883.18.312&quot; ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:CodeSystem.version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;3.0.0&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:CodeSystem.name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;SpecimenCollectionMethod&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:CodeSystem.title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;specimenCollectionMethod&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:CodeSystem.status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:CodeSystem.experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:CodeSystem.date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:value</a> &quot;2019-12-01&quot;^^xsd:date] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:CodeSystem.publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Health Level Seven International&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:CodeSystem.contact</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:ContactDetail.telecom</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;url&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;http://hl7.org&quot; ]
-     ], [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:ContactPoint.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;email&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:ContactPoint.value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;hq@HL7.org&quot; ]
-     ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:CodeSystem.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;HL7-defined code system of concepts specifying the specimen collection method.  Used in HL7 Version 2.x messaging in the SPM segment.&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">fhir:CodeSystem.jurisdiction</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:CodeableConcept.coding</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:Coding.system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;urn:iso:std:iso:3166&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:Coding.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;FRA&quot; ]
-     ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.purpose">fhir:CodeSystem.purpose</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;Underlying Master Code System for V2 table 0488 (Specimen Collection Method)&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.copyright">fhir:CodeSystem.copyright</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:value</a> &quot;This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:CodeSystem.caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;true&quot;^^xsd:boolean] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.valueSet">fhir:CodeSystem.valueSet</a> [
-     <a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:value</a> &quot;http://terminology.hl7.org/ValueSet/v2-0488&quot; ;
-     <a href="http://hl7.org/fhir/R4/rdf.html#reference">fhir:link</a> &lt;http://terminology.hl7.org/ValueSet/v2-0488&gt;
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.hierarchyMeaning">fhir:CodeSystem.hierarchyMeaning</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;is-a&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.compositional">fhir:CodeSystem.compositional</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.versionNeeded">fhir:CodeSystem.versionNeeded</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:value</a> &quot;false&quot;^^xsd:boolean] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:CodeSystem.content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;complete&quot;] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:CodeSystem.property</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:CodeSystem.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:CodeSystem.property.uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://hl7.org/fhir/concept-properties#status&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:CodeSystem.property.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;A code that indicates the status of the concept&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:CodeSystem.property.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;code&quot; ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:CodeSystem.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;v2-table-deprecated&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:CodeSystem.property.uri</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:value</a> &quot;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:CodeSystem.property.description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Version of HL7 in which the code was deprecated&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:CodeSystem.property.type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;code&quot; ]
-  ] ;
-  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:CodeSystem.concept</a> [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5250&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;FNA&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Aspiration, Fine Needle&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Aspiration, Fine Needle&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 1 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5251&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PNA&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Arterial puncture&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Arterial puncture&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 2 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5252&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BIO&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Biopsy&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Biopsy&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 3 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5253&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BCAE&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Blood Culture, Aerobic Bottle&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Blood Culture, Aerobic Bottle&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 4 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5254&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BCAN&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Blood Culture, Anaerobic Bottle&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Blood Culture, Anaerobic Bottle&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 5 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5255&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BCPD&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Blood Culture, Pediatric Bottle&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Blood Culture, Pediatric Bottle&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 6 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5256&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CAP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Capillary Specimen&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Capillary Specimen&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 7 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5257&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CATH&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Catheterized&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Catheterized&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 8 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5258&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;EPLA&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Environmental, Plate&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Environmental, Plate&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 9 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5259&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;ESWA&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Environmental, Swab&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Environmental, Swab&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 10 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5260&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;LNA&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Line, Arterial&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Line, Arterial&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 11 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5261&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;CVP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Line, CVP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Line, CVP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 12 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5262&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;LNV&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Line, Venous&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Line, Venous&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 13 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5263&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MARTL&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Martin-Lewis Agar&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Martin-Lewis Agar&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 14 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5264&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;ML11&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Mod. Martin-Lewis Agar&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Mod. Martin-Lewis Agar&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 15 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5265&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PACE&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pace, Gen-Probe&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pace, Gen-Probe&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 16 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5266&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PIN&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pinworm Prep&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pinworm Prep&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 17 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5267&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;KOFFP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plate, Cough&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plate, Cough&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 18 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5268&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;MLP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plate, Martin-Lewis&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plate, Martin-Lewis&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 19 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5269&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;NYP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plate, New York City&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plate, New York City&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 20 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5270&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plate, Thayer-Martin&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plate, Thayer-Martin&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 21 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5271&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;ANP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plates, Anaerobic&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plates, Anaerobic&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 22 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5272&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;BAP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plates, Blood Agar&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Plates, Blood Agar&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 23 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5273&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PRIME&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pump Prime&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pump Prime&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 24 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5274&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;PUMP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pump Specimen&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Pump Specimen&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 25 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5275&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;QC5&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Quality Control For Micro&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Quality Control For Micro&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 26 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5276&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SCLP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Scalp, Fetal Vein&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Scalp, Fetal Vein&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 27 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5277&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SCRAPS&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Scrapings&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Scrapings&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 28 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5278&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SHA&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Shaving&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Shaving&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 29 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5279&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SWA&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Swab&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Swab&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 30 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5280&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;SWD&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Swab, Dacron tipped&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Swab, Dacron tipped&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 31 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5281&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;WOOD&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Swab, Wooden Shaft&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Swab, Wooden Shaft&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 32 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5282&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMOT&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media,&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media,&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 33 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5283&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMAN&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Anaerobic&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Anaerobic&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 34 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5284&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMCH&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Chalamydia&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Chalamydia&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 35 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5285&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMM4&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, M4&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, M4&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 36 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5286&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMMY&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Mycoplasma&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Mycoplasma&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 37 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5287&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMPV&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, PVA&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, PVA&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 38 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5288&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMSC&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Stool Culture&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Stool Culture&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 39 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5289&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMUP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Ureaplasma&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Ureaplasma&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 40 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5290&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;TMVI&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Viral&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Transport Media, Viral&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ], [
-     <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 41 ;
-     <a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:Element.id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;5291&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:CodeSystem.concept.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;VENIP&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:CodeSystem.concept.display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Venipuncture&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:CodeSystem.concept.definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:value</a> &quot;Venipuncture&quot; ] ;
-     <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:CodeSystem.concept.property</a> [
-       <a href="http://hl7.org/fhir/R4/rdf.html#index">fhir:index</a> 0 ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:CodeSystem.concept.property.code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;status&quot; ] ;
-       <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:CodeSystem.concept.property.valueCode</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:value</a> &quot;active&quot; ]
-     ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-&lt;http://hl7.org/fhir/CodeSystem/v2-0488.ttl&gt; a owl:Ontology ;
-  owl:imports fhir:fhir.ttl ;
-  owl:versionIRI &lt;http://build.fhir.org/CodeSystem/v2-0488.ttl&gt; .
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;v2-0488&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/resource.html#CodeSystem.meta">fhir:meta</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.versionId">fhir:versionId</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#id">fhir:v</a> &quot;1&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Meta#Meta.lastUpdated">fhir:lastUpdated</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#instant">fhir:v</a> &quot;2026-01-07T10:12:48.609+01:00&quot;^^xsd:dateTime ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.text">fhir:text</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;generated&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Narrative#Narrative.div">fhir:div</a> [ <a href="http://hl7.org/fhir/R4/narrative.html#xhtml">fhir:v</a> &quot;&lt;div xmlns=\&quot;http://www.w3.org/1999/xhtml\&quot;&gt;&lt;p class=\&quot;res-header-id\&quot;&gt;&lt;b&gt;Narratif généré : CodeSystem v2-0488&lt;/b&gt;&lt;/p&gt;&lt;a name=\&quot;v2-0488\&quot;&gt; &lt;/a&gt;&lt;a name=\&quot;hcv2-0488\&quot;&gt; &lt;/a&gt;&lt;div style=\&quot;display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\&quot;&gt;&lt;p style=\&quot;margin-bottom: 0px\&quot;&gt;version : 1; Dernière mise à jour : 2026-01-07 10:12:48+0100&lt;/p&gt;&lt;/div&gt;&lt;p&gt;&lt;b&gt;Propriétés&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts&lt;/b&gt;&lt;/p&gt;&lt;table class=\&quot;grid\&quot;&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Nom&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;URI&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Type&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Description&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;status&lt;/td&gt;&lt;td&gt;http://hl7.org/fhir/concept-properties#status&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;A code that indicates the status of the concept&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;deprecated&lt;/td&gt;&lt;td&gt;v2-table-deprecated&lt;/td&gt;&lt;td&gt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated&lt;/td&gt;&lt;td&gt;code&lt;/td&gt;&lt;td&gt;Version of HL7 in which the code was deprecated&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;&lt;b&gt;Concepts&lt;/b&gt;&lt;/p&gt;&lt;p&gt;This case-sensitive code system &lt;code&gt;http://terminology.hl7.org/CodeSystem/v2-0488&lt;/code&gt; defines the following codes dans une hiérarchie Is-A:&lt;/p&gt;&lt;table class=\&quot;codes\&quot;&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;&lt;b&gt;Code&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Affichage&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;Définition&lt;/b&gt;&lt;/td&gt;&lt;td&gt;&lt;b&gt;status&lt;/b&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;FNA&lt;a name=\&quot;v2-0488-FNA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Aspiration, Fine Needle&lt;/td&gt;&lt;td&gt;Aspiration, Fine Needle&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PNA&lt;a name=\&quot;v2-0488-PNA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Arterial puncture&lt;/td&gt;&lt;td&gt;Arterial puncture&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BIO&lt;a name=\&quot;v2-0488-BIO\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Biopsy&lt;/td&gt;&lt;td&gt;Biopsy&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BCAE&lt;a name=\&quot;v2-0488-BCAE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blood Culture, Aerobic Bottle&lt;/td&gt;&lt;td&gt;Blood Culture, Aerobic Bottle&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BCAN&lt;a name=\&quot;v2-0488-BCAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blood Culture, Anaerobic Bottle&lt;/td&gt;&lt;td&gt;Blood Culture, Anaerobic Bottle&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BCPD&lt;a name=\&quot;v2-0488-BCPD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Blood Culture, Pediatric Bottle&lt;/td&gt;&lt;td&gt;Blood Culture, Pediatric Bottle&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CAP&lt;a name=\&quot;v2-0488-CAP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Capillary Specimen&lt;/td&gt;&lt;td&gt;Capillary Specimen&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CATH&lt;a name=\&quot;v2-0488-CATH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Catheterized&lt;/td&gt;&lt;td&gt;Catheterized&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;EPLA&lt;a name=\&quot;v2-0488-EPLA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Environmental, Plate&lt;/td&gt;&lt;td&gt;Environmental, Plate&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ESWA&lt;a name=\&quot;v2-0488-ESWA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Environmental, Swab&lt;/td&gt;&lt;td&gt;Environmental, Swab&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LNA&lt;a name=\&quot;v2-0488-LNA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Line, Arterial&lt;/td&gt;&lt;td&gt;Line, Arterial&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;CVP&lt;a name=\&quot;v2-0488-CVP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Line, CVP&lt;/td&gt;&lt;td&gt;Line, CVP&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;LNV&lt;a name=\&quot;v2-0488-LNV\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Line, Venous&lt;/td&gt;&lt;td&gt;Line, Venous&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MARTL&lt;a name=\&quot;v2-0488-MARTL\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Martin-Lewis Agar&lt;/td&gt;&lt;td&gt;Martin-Lewis Agar&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ML11&lt;a name=\&quot;v2-0488-ML11\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Mod. Martin-Lewis Agar&lt;/td&gt;&lt;td&gt;Mod. Martin-Lewis Agar&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PACE&lt;a name=\&quot;v2-0488-PACE\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pace, Gen-Probe&lt;/td&gt;&lt;td&gt;Pace, Gen-Probe&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PIN&lt;a name=\&quot;v2-0488-PIN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pinworm Prep&lt;/td&gt;&lt;td&gt;Pinworm Prep&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;KOFFP&lt;a name=\&quot;v2-0488-KOFFP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plate, Cough&lt;/td&gt;&lt;td&gt;Plate, Cough&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;MLP&lt;a name=\&quot;v2-0488-MLP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plate, Martin-Lewis&lt;/td&gt;&lt;td&gt;Plate, Martin-Lewis&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;NYP&lt;a name=\&quot;v2-0488-NYP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plate, New York City&lt;/td&gt;&lt;td&gt;Plate, New York City&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMP&lt;a name=\&quot;v2-0488-TMP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plate, Thayer-Martin&lt;/td&gt;&lt;td&gt;Plate, Thayer-Martin&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;ANP&lt;a name=\&quot;v2-0488-ANP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plates, Anaerobic&lt;/td&gt;&lt;td&gt;Plates, Anaerobic&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;BAP&lt;a name=\&quot;v2-0488-BAP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Plates, Blood Agar&lt;/td&gt;&lt;td&gt;Plates, Blood Agar&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PRIME&lt;a name=\&quot;v2-0488-PRIME\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pump Prime&lt;/td&gt;&lt;td&gt;Pump Prime&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;PUMP&lt;a name=\&quot;v2-0488-PUMP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Pump Specimen&lt;/td&gt;&lt;td&gt;Pump Specimen&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;QC5&lt;a name=\&quot;v2-0488-QC5\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Quality Control For Micro&lt;/td&gt;&lt;td&gt;Quality Control For Micro&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SCLP&lt;a name=\&quot;v2-0488-SCLP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scalp, Fetal Vein&lt;/td&gt;&lt;td&gt;Scalp, Fetal Vein&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SCRAPS&lt;a name=\&quot;v2-0488-SCRAPS\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Scrapings&lt;/td&gt;&lt;td&gt;Scrapings&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SHA&lt;a name=\&quot;v2-0488-SHA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Shaving&lt;/td&gt;&lt;td&gt;Shaving&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWA&lt;a name=\&quot;v2-0488-SWA\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab&lt;/td&gt;&lt;td&gt;Swab&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;SWD&lt;a name=\&quot;v2-0488-SWD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab, Dacron tipped&lt;/td&gt;&lt;td&gt;Swab, Dacron tipped&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;WOOD&lt;a name=\&quot;v2-0488-WOOD\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Swab, Wooden Shaft&lt;/td&gt;&lt;td&gt;Swab, Wooden Shaft&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMOT&lt;a name=\&quot;v2-0488-TMOT\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media,&lt;/td&gt;&lt;td&gt;Transport Media,&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMAN&lt;a name=\&quot;v2-0488-TMAN\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Anaerobic&lt;/td&gt;&lt;td&gt;Transport Media, Anaerobic&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMCH&lt;a name=\&quot;v2-0488-TMCH\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Chalamydia&lt;/td&gt;&lt;td&gt;Transport Media, Chalamydia&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMM4&lt;a name=\&quot;v2-0488-TMM4\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, M4&lt;/td&gt;&lt;td&gt;Transport Media, M4&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMMY&lt;a name=\&quot;v2-0488-TMMY\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Mycoplasma&lt;/td&gt;&lt;td&gt;Transport Media, Mycoplasma&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMPV&lt;a name=\&quot;v2-0488-TMPV\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, PVA&lt;/td&gt;&lt;td&gt;Transport Media, PVA&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMSC&lt;a name=\&quot;v2-0488-TMSC\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Stool Culture&lt;/td&gt;&lt;td&gt;Transport Media, Stool Culture&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMUP&lt;a name=\&quot;v2-0488-TMUP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Ureaplasma&lt;/td&gt;&lt;td&gt;Transport Media, Ureaplasma&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;TMVI&lt;a name=\&quot;v2-0488-TMVI\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Transport Media, Viral&lt;/td&gt;&lt;td&gt;Transport Media, Viral&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td style=\&quot;white-space:nowrap\&quot;&gt;VENIP&lt;a name=\&quot;v2-0488-VENIP\&quot;&gt; &lt;/a&gt;&lt;/td&gt;&lt;td&gt;Venipuncture&lt;/td&gt;&lt;td&gt;Venipuncture&lt;/td&gt;&lt;td&gt;active&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/div&gt;&quot;^^rdf:XMLLiteral ]
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/domainresource.html#CodeSystem.extension">fhir:extension</a> ( [
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/StructureDefinition/structuredefinition-wg&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/extensibility.html#Extension#Extension.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;oo&quot;     ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.url">fhir:url</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/v2-0488&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/v2-0488&gt;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.identifier">fhir:identifier</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:ietf:rfc:3986&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:ietf:rfc:3986&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Identifier#Identifier.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;urn:oid:2.16.840.1.113883.18.312&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.version">fhir:version</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;3.0.0&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.name">fhir:name</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;SpecimenCollectionMethod&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.title">fhir:title</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;specimenCollectionMethod&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.status">fhir:status</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.experimental">fhir:experimental</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.date">fhir:date</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#dateTime">fhir:v</a> &quot;2019-12-01&quot;^^xsd:date] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.publisher">fhir:publisher</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Health Level Seven International&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.contact">fhir:contact</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/metadatatypes.html#ContactDetail#ContactDetail.telecom">fhir:telecom</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;url&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;http://hl7.org&quot; ]     ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.system">fhir:system</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;email&quot; ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#ContactPoint#ContactPoint.value">fhir:value</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;hq@HL7.org&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;HL7-defined code system of concepts specifying the specimen collection method.  Used in HL7 Version 2.x messaging in the SPM segment.&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.jurisdiction">fhir:jurisdiction</a> ( [
+    ( <a href="http://hl7.org/fhir/R4/datatypes.html#CodeableConcept#CodeableConcept.coding">fhir:coding</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.system">fhir:system</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;urn:iso:std:iso:3166&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;urn:iso:std:iso:3166&gt;       ] ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#Coding#Coding.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;FRA&quot; ]     ] )
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.purpose">fhir:purpose</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;Underlying Master Code System for V2 table 0488 (Specimen Collection Method)&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.copyright">fhir:copyright</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#markdown">fhir:v</a> &quot;This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.caseSensitive">fhir:caseSensitive</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> true] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.valueSet">fhir:valueSet</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:v</a> &quot;http://terminology.hl7.org/ValueSet/v2-0488&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#canonical">fhir:l</a> &lt;http://terminology.hl7.org/ValueSet/v2-0488&gt;
+  ] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.hierarchyMeaning">fhir:hierarchyMeaning</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;is-a&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.compositional">fhir:compositional</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.versionNeeded">fhir:versionNeeded</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#boolean">fhir:v</a> false] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.content">fhir:content</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;complete&quot;] ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property">fhir:property</a> ( [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://hl7.org/fhir/concept-properties#status&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://hl7.org/fhir/concept-properties#status&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;A code that indicates the status of the concept&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;code&quot; ]
+  ] [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;v2-table-deprecated&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.uri">fhir:uri</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:v</a> &quot;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated&quot;^^xsd:anyURI ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#uri">fhir:l</a> &lt;http://terminology.hl7.org/CodeSystem/utg-concept-properties#v2-table-deprecated&gt;     ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.description">fhir:description</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Version of HL7 in which the code was deprecated&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.property.type">fhir:type</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;code&quot; ]
+  ] ) ; # 
+  <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept">fhir:concept</a> ( [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5250&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;FNA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Aspiration, Fine Needle&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Aspiration, Fine Needle&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5251&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PNA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Arterial puncture&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Arterial puncture&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5252&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BIO&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Biopsy&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Biopsy&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5253&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BCAE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Blood Culture, Aerobic Bottle&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Blood Culture, Aerobic Bottle&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5254&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BCAN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Blood Culture, Anaerobic Bottle&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Blood Culture, Anaerobic Bottle&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5255&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BCPD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Blood Culture, Pediatric Bottle&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Blood Culture, Pediatric Bottle&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5256&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CAP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Capillary Specimen&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Capillary Specimen&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5257&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CATH&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Catheterized&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Catheterized&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5258&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;EPLA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Environmental, Plate&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Environmental, Plate&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5259&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ESWA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Environmental, Swab&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Environmental, Swab&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5260&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;LNA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Line, Arterial&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Line, Arterial&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5261&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;CVP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Line, CVP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Line, CVP&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5262&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;LNV&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Line, Venous&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Line, Venous&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5263&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MARTL&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Martin-Lewis Agar&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Martin-Lewis Agar&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5264&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ML11&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Mod. Martin-Lewis Agar&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Mod. Martin-Lewis Agar&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5265&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PACE&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pace, Gen-Probe&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pace, Gen-Probe&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5266&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PIN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pinworm Prep&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pinworm Prep&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5267&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;KOFFP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plate, Cough&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plate, Cough&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5268&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;MLP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plate, Martin-Lewis&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plate, Martin-Lewis&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5269&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;NYP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plate, New York City&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plate, New York City&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5270&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plate, Thayer-Martin&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plate, Thayer-Martin&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5271&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;ANP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plates, Anaerobic&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plates, Anaerobic&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5272&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;BAP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plates, Blood Agar&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Plates, Blood Agar&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5273&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PRIME&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pump Prime&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pump Prime&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5274&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;PUMP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pump Specimen&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Pump Specimen&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5275&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;QC5&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Quality Control For Micro&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Quality Control For Micro&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5276&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;SCLP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Scalp, Fetal Vein&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Scalp, Fetal Vein&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5277&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;SCRAPS&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Scrapings&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Scrapings&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5278&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;SHA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Shaving&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Shaving&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5279&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;SWA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Swab&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Swab&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5280&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;SWD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Swab, Dacron tipped&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Swab, Dacron tipped&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5281&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;WOOD&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Swab, Wooden Shaft&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Swab, Wooden Shaft&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5282&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMOT&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media,&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media,&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5283&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMAN&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Anaerobic&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Anaerobic&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5284&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMCH&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Chalamydia&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Chalamydia&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5285&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMM4&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, M4&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, M4&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5286&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMMY&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Mycoplasma&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Mycoplasma&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5287&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMPV&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, PVA&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, PVA&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5288&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMSC&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Stool Culture&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Stool Culture&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5289&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMUP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Ureaplasma&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Ureaplasma&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5290&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;TMVI&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Viral&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Transport Media, Viral&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] [
+<a href="http://hl7.org/fhir/R4/datatypes.html#Element#CodeSystem.concept.id">fhir:id</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;5291&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;VENIP&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.display">fhir:display</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Venipuncture&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.definition">fhir:definition</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#string">fhir:v</a> &quot;Venipuncture&quot; ] ;
+    ( <a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property">fhir:property</a> [
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.code">fhir:code</a> [ <a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;status&quot; ] ;
+<a href="http://hl7.org/fhir/R4/codesystem.html#CodeSystem.concept.property.value_x_">fhir:value</a> [
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">a</a> fhir:Code ;
+<a href="http://hl7.org/fhir/R4/datatypes.html#code">fhir:v</a> &quot;active&quot;       ]     ] )
+  ] ) . # 
 
 </pre>
 
@@ -866,7 +822,7 @@
 
 <div class="inner-wrapper">
   <p>
-    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.11.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Tue, Jun 30, 2026 21:35+0000">2026-06-30</span>
+    IG &#169; 2020+ <a style="color:var(--footer-hyperlink-text-color)" href="https://esante.gouv.fr">ANS</a>.  Package ans.fr.terminologies#1.10.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 29, 2026 14:49+0000">2026-05-29</span>
     <br/>
     <span style="color: var(--footer-highlight-text-color)"></span>
       Liens: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table des matières </a> |

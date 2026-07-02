@@ -1,4 +1,4 @@
-# JDV_J71_ProfessionFonction_MSSante - Terminologies de Santé v1.11.0
+# JDV_J71_ProfessionFonction_MSSante - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J71-ProfessionFonction-MSSante/FHIR/JDV-J71-ProfessionFonction-MSSante | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J71_ProfessionFonction_MSSante |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J71-ProfessionFonction-MSSante/FHIR/JDV-J71-ProfessionFonction-MSSante | *Version*:20231030120000 | |
+| Active as of 2023-10-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J71_ProfessionFonction_MSSante |
 | *Other Identifiers:*OID:1.2.250.1.213.1.9.1.2 | | |
 
  
@@ -46,20 +46,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-JDV-J68-ProfilAccesReferentiel-ROR.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J71-ProfessionFonction-MSSante-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -68,8 +55,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J71-ProfessionFonction-MSSante",
   "meta" : {
-    "versionId" : "5",
-    "lastUpdated" : "2026-06-29T11:18:57.586+02:00",
+    "versionId" : "4",
+    "lastUpdated" : "2025-07-02T17:06:45.415+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +71,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.9.1.2"
   }],
-  "version" : "20260629120000",
+  "version" : "20231030120000",
   "name" : "JDV_J71_ProfessionFonction_MSSante",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2023-10-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Professions et fonctions MSSanté",
   "jurisdiction" : [{
@@ -256,6 +243,10 @@ Liens:
         "display" : "Préparateur en pharmacie (officine)"
       },
       {
+        "code" : "318",
+        "display" : "Auxiliaire de vie sociale"
+      },
+      {
         "code" : "319",
         "display" : "Technicien de l'intervention sociale et familiale"
       },
@@ -270,6 +261,10 @@ Liens:
       {
         "code" : "322",
         "display" : "Assistant familial"
+      },
+      {
+        "code" : "323",
+        "display" : "Aide médico-psychologique (AMP)"
       },
       {
         "code" : "324",

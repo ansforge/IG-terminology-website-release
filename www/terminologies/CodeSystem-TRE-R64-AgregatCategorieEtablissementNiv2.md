@@ -1,4 +1,4 @@
-# TRE_R64_AgregatCategorieEtablissementNiv2 - Terminologies de Santé v1.11.0
+# TRE_R64_AgregatCategorieEtablissementNiv2 - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -28,8 +28,8 @@ Agrégats de catégories d’établissements niveau 2
   "resourceType" : "CodeSystem",
   "id" : "TRE-R64-AgregatCategorieEtablissementNiv2",
   "meta" : {
-    "versionId" : "7",
-    "lastUpdated" : "2026-06-01T20:12:21.877+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-05-29T14:43:05.632+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",

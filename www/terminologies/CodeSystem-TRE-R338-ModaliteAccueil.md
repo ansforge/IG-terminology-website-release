@@ -1,4 +1,4 @@
-# TRE_R338_ModaliteAccueil - Terminologies de Santé v1.11.0
+# TRE_R338_ModaliteAccueil - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R338_ModaliteAccueil |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R338_ModaliteAccueil |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.221 | | |
 
  
@@ -28,8 +28,8 @@ Modalités d’accueil
   "resourceType" : "CodeSystem",
   "id" : "TRE-R338-ModaliteAccueil",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2026-06-29T11:13:44.807+02:00",
+    "versionId" : "20",
+    "lastUpdated" : "2026-05-05T20:12:05.993+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,11 +44,11 @@ Modalités d’accueil
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.221"
   }],
-  "version" : "20260629120000",
+  "version" : "20260330120000",
   "name" : "TRE_R338_ModaliteAccueil",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Modalités d'accueil",
   "jurisdiction" : [{
@@ -59,7 +59,7 @@ Modalités d’accueil
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 27,
+  "count" : 26,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -615,22 +615,6 @@ Modalités d’accueil
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "27",
-    "display" : "Soins à domicile",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -1,4 +1,4 @@
-# TRE_A06_FormatCodeComplementaire - Terminologies de Santé v1.11.0
+# TRE_A06_FormatCodeComplementaire - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_A06_FormatCodeComplementaire |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire | *Version*:20251029120000 | |
+| Active as of 2025-10-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_A06_FormatCodeComplementaire |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.2.282 | | |
 
  
@@ -29,9 +29,9 @@ formatCode en complément des nomenclatures internationales
   "resourceType" : "CodeSystem",
   "id" : "TRE-A06-FormatCodeComplementaire",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-06-29T11:13:31.017+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+    "versionId" : "10",
+    "lastUpdated" : "2025-12-22T10:46:29.488+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
@@ -44,11 +44,11 @@ formatCode en complément des nomenclatures internationales
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.2.282"
   }],
-  "version" : "20260629120000",
+  "version" : "20251029120000",
   "name" : "TRE_A06_FormatCodeComplementaire",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2025-10-29T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "formatCode en complément des nomenclatures internationales",
   "jurisdiction" : [{
@@ -59,7 +59,7 @@ formatCode en complément des nomenclatures internationales
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 68,
+  "count" : 63,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1732,126 +1732,6 @@ formatCode en complément des nomenclatures internationales
     {
       "code" : "dateMaj",
       "valueDateTime" : "2024-07-26T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "urn:ans:ci-sis:mso-rougeole:2026",
-    "display" : "Déclaration de maladie à signalement obligatoire : Rougeole",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "PSIG-MSO-ROUGEOLE"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "urn:ans:ci-sis:mso-dengue:2026",
-    "display" : "Déclaration de maladie à signalement obligatoire : Dengue",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "PSIG-MSO-DENGUE"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "urn:ans:ci-sis:mso-chikungunya:2026",
-    "display" : "Déclaration de maladie à signalement obligatoire : Chikungunya",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "PSIG-MSO-CHIKUNG"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "urn:ans:ci-sis:mso-zika:2026",
-    "display" : "Déclaration de maladie à signalement obligatoire : Zika",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "PSIG-MSO-ZIKA"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "urn:ans:ci-sis:mso-westnile:2026",
-    "display" : "Déclaration de maladie à signalement obligatoire : West Nile",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "PSIG-MSO-WESTNILE"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

@@ -1,4 +1,4 @@
-# JDV_J18_EquipementSpecifique_ROR - Terminologies de Santé v1.11.0
+# JDV_J18_EquipementSpecifique_ROR - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J18_EquipementSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J18-EquipementSpecifique-ROR/FHIR/JDV-J18-EquipementSpecifique-ROR | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J18_EquipementSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.6 | | |
 
  
@@ -46,20 +46,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-JDV-J189-TemporaliteCapacite-ROR.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J18-EquipementSpecifique-ROR-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -68,8 +55,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J18-EquipementSpecifique-ROR",
   "meta" : {
-    "versionId" : "21",
-    "lastUpdated" : "2026-06-29T11:18:41.228+02:00",
+    "versionId" : "19",
+    "lastUpdated" : "2026-05-29T13:18:06.328+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +71,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.6"
   }],
-  "version" : "20260629120000",
+  "version" : "20260601120000",
   "name" : "JDV_J18_EquipementSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Equipement spécifique - ROR",
   "jurisdiction" : [{
@@ -146,7 +133,7 @@ Liens:
       },
       {
         "code" : "054",
-        "display" : "Imagerie par Résonance Magnétique (IRM) corps entier"
+        "display" : "IRM corps entier"
       },
       {
         "code" : "064",
@@ -190,7 +177,7 @@ Liens:
       },
       {
         "code" : "087",
-        "display" : "Imagerie par Résonance Magnétique (IRM) à champ ouvert"
+        "display" : "IRM à champ ouvert"
       },
       {
         "code" : "088",
@@ -678,7 +665,7 @@ Liens:
       },
       {
         "code" : "221",
-        "display" : "Imagerie par Résonance Magnétique (IRM) obésité – bariatrique"
+        "display" : "IRM obésité - bariatrique"
       },
       {
         "code" : "222",
@@ -751,50 +738,6 @@ Liens:
       {
         "code" : "243",
         "display" : "Semelles avec capteurs embarqués"
-      },
-      {
-        "code" : "246",
-        "display" : "Échographe polyvalent"
-      },
-      {
-        "code" : "247",
-        "display" : "Imagerie par Résonance Magnétique (IRM) à champ fermé (ou tunnel)"
-      },
-      {
-        "code" : "248",
-        "display" : "Imagerie par Résonance Magnétique (IRM) pédiatrique (compatible anesthésie)"
-      },
-      {
-        "code" : "249",
-        "display" : "Radiologie numérique standard"
-      },
-      {
-        "code" : "250",
-        "display" : "Scanner base dose (LDCT)"
-      },
-      {
-        "code" : "251",
-        "display" : "Plateau réfraction - Pachymétrie"
-      },
-      {
-        "code" : "252",
-        "display" : "Rétinographe"
-      },
-      {
-        "code" : "253",
-        "display" : "Oculomètre certifié (C2)"
-      },
-      {
-        "code" : "254",
-        "display" : "Coordimètre"
-      },
-      {
-        "code" : "255",
-        "display" : "Tests scorés et/ou normés en neurovision"
-      },
-      {
-        "code" : "256",
-        "display" : "Accompagnement à l’essai de fauteuil roulant"
       }]
     }]
   }

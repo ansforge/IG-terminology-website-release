@@ -1,4 +1,4 @@
-# TRE_R243_CompetenceSpecifique - Terminologies de Santé v1.11.0
+# TRE_R243_CompetenceSpecifique - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R243_CompetenceSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R243_CompetenceSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.37 | | |
 
  
@@ -28,8 +28,8 @@ Compétence spécifique
   "resourceType" : "CodeSystem",
   "id" : "TRE-R243-CompetenceSpecifique",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-06-29T11:13:42.549+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2026-05-05T20:11:58.790+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -44,11 +44,11 @@ Compétence spécifique
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.37"
   }],
-  "version" : "20260629120000",
+  "version" : "20260330120000",
   "name" : "TRE_R243_CompetenceSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Compétence spécifique",
   "jurisdiction" : [{
@@ -59,7 +59,7 @@ Compétence spécifique
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 63,
+  "count" : 62,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1386,22 +1386,6 @@ Compétence spécifique
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-03-30T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "63",
-    "display" : "Maitrise des outils informatisés à commande oculaire",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

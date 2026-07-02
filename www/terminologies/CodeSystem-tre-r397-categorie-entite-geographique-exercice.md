@@ -1,4 +1,4 @@
-# Tre R397 Categorie Entite Geographique Exercice - Terminologies de Santé v1.11.0
+# Tre R397 Categorie Entite Geographique Exercice - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20260601120000 | |
-| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR397CategorieEntiteGeographiqueExercice |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice | *Version*:20260505120000 | |
+| Active as of 2026-05-05 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TreR397CategorieEntiteGeographiqueExercice |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.378 | | |
 
  
@@ -42,8 +42,8 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "resourceType" : "CodeSystem",
   "id" : "tre-r397-categorie-entite-geographique-exercice",
   "meta" : {
-    "versionId" : "9",
-    "lastUpdated" : "2026-06-02T16:13:02.636+02:00",
+    "versionId" : "6",
+    "lastUpdated" : "2026-05-06T17:57:46.671+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -58,12 +58,12 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.378"
   }],
-  "version" : "20260601120000",
+  "version" : "20260505120000",
   "name" : "TreR397CategorieEntiteGeographiqueExercice",
   "title" : "Tre R397 Categorie Entite Geographique Exercice",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00.000+00:00",
+  "date" : "2026-05-05T12:00:00.000+00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d'agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d'un agrégat d'EGE ou d'un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés",
   "jurisdiction" : [{
@@ -75,7 +75,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
   "caseSensitive" : false,
   "hierarchyMeaning" : "is-a",
   "content" : "complete",
-  "count" : 428,
+  "count" : 429,
   "property" : [{
     "code" : "niveau",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#niveau",
@@ -476,6 +476,46 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "deprecationDate",
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
+    },
+    {
+      "code" : "status",
+      "valueCode" : "deprecated"
+    },
+    {
+      "code" : "cisis",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "110",
+    "display" : "Etablissements d'Administration",
+    "designation" : [{
+      "language" : "fr-FR",
+      "use" : {
+        "system" : "http://snomed.info/sct",
+        "code" : "900000000000013009"
+      },
+      "value" : "Etab.Administration"
+    }],
+    "property" : [{
+      "code" : "niveau",
+      "valueInteger" : 2
+    },
+    {
+      "code" : "dateValid",
+      "valueDateTime" : "1979-01-01T00:00:00+01:00"
+    },
+    {
+      "code" : "dateFin",
+      "valueDateTime" : "2019-10-01T12:00:00+01:00"
+    },
+    {
+      "code" : "dateMaj",
+      "valueDateTime" : "2019-10-01T12:00:00+01:00"
+    },
+    {
+      "code" : "deprecationDate",
+      "valueDateTime" : "2019-10-01T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -4684,7 +4724,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -4735,7 +4775,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -4778,7 +4818,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -4837,7 +4877,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -4896,7 +4936,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -4947,7 +4987,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5006,7 +5046,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5065,7 +5105,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5116,7 +5156,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5175,7 +5215,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5218,7 +5258,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5277,7 +5317,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5320,7 +5360,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5371,7 +5411,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5422,7 +5462,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5481,7 +5521,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5532,7 +5572,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5583,7 +5623,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5634,7 +5674,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5689,7 +5729,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5740,7 +5780,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5791,7 +5831,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5834,7 +5874,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5877,7 +5917,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5928,7 +5968,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -5979,7 +6019,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6030,7 +6070,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6081,7 +6121,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6132,7 +6172,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6183,7 +6223,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6234,7 +6274,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6285,7 +6325,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6344,7 +6384,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6395,7 +6435,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6438,7 +6478,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -6497,7 +6537,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -6548,7 +6588,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6607,7 +6647,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -6666,7 +6706,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -6725,7 +6765,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -6784,7 +6824,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -6835,7 +6875,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -6878,7 +6918,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -6929,7 +6969,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -6988,7 +7028,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7039,7 +7079,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7098,7 +7138,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7149,7 +7189,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7200,7 +7240,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -7251,7 +7291,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7294,7 +7334,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7337,7 +7377,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7388,7 +7428,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7447,7 +7487,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7506,7 +7546,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -7565,7 +7605,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7616,7 +7656,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7675,7 +7715,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7734,7 +7774,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7793,7 +7833,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7856,7 +7896,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7915,7 +7955,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -7966,7 +8006,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8025,7 +8065,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8084,7 +8124,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8135,7 +8175,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8186,7 +8226,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8237,7 +8277,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8288,7 +8328,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8339,7 +8379,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8398,7 +8438,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8457,7 +8497,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8508,7 +8548,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8551,7 +8591,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8594,7 +8634,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8637,7 +8677,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8688,7 +8728,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8747,7 +8787,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8806,7 +8846,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8865,7 +8905,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8916,7 +8956,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -8967,7 +9007,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9026,7 +9066,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9077,7 +9117,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9128,7 +9168,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9171,7 +9211,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9214,7 +9254,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9265,7 +9305,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9316,7 +9356,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9375,7 +9415,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9434,7 +9474,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -9485,7 +9525,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -9536,7 +9576,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -9587,7 +9627,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -9638,7 +9678,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -9689,7 +9729,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -9740,7 +9780,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -9783,7 +9823,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -9843,7 +9883,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9894,7 +9934,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9945,7 +9985,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -9988,7 +10028,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10031,7 +10071,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10090,7 +10130,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10133,7 +10173,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10184,7 +10224,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10243,7 +10283,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10302,7 +10342,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10361,7 +10401,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10416,7 +10456,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10479,7 +10519,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10538,7 +10578,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10589,7 +10629,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10648,7 +10688,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10691,7 +10731,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10742,7 +10782,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ADM"
       }
     },
@@ -10793,7 +10833,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10852,7 +10892,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -10903,7 +10943,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -10962,7 +11002,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -11005,7 +11045,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -11056,7 +11096,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -11107,7 +11147,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -11150,7 +11190,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -11193,7 +11233,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11252,7 +11292,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11311,7 +11351,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11362,7 +11402,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11413,7 +11453,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11472,7 +11512,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11523,7 +11563,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11574,7 +11614,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11625,7 +11665,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11684,7 +11724,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11735,7 +11775,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11794,7 +11834,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11845,7 +11885,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -11904,7 +11944,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -11955,7 +11995,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -12006,7 +12046,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -12065,7 +12105,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -12116,7 +12156,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -12159,7 +12199,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -12210,7 +12250,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -12269,7 +12309,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12320,7 +12360,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12371,7 +12411,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12430,7 +12470,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12481,7 +12521,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12532,7 +12572,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12583,7 +12623,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12634,7 +12674,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12685,7 +12725,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12736,7 +12776,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12795,7 +12835,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12846,7 +12886,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12897,7 +12937,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12948,7 +12988,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -12999,7 +13039,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -13050,7 +13090,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -13109,7 +13149,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -13168,7 +13208,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -13219,7 +13259,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -13278,7 +13318,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ADM"
       }
     },
@@ -13329,7 +13369,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -13372,7 +13412,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -13423,7 +13463,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -13482,7 +13522,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -13533,7 +13573,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -13592,7 +13632,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -13643,7 +13683,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -13702,7 +13742,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -13753,7 +13793,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -13812,7 +13852,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -13863,7 +13903,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -13922,7 +13962,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -13973,7 +14013,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -14024,7 +14064,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14075,7 +14115,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -14126,7 +14166,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -14177,7 +14217,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14228,7 +14268,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14287,7 +14327,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -14346,7 +14386,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14405,7 +14445,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14456,7 +14496,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -14507,7 +14547,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14558,7 +14598,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14617,7 +14657,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14668,7 +14708,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14719,7 +14759,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -14778,7 +14818,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -14829,7 +14869,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -14888,7 +14928,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -14939,7 +14979,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -14998,7 +15038,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15049,7 +15089,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -15108,7 +15148,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -15151,7 +15191,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15210,7 +15250,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15261,7 +15301,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15316,7 +15356,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15367,7 +15407,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15422,7 +15462,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15481,7 +15521,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15532,7 +15572,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15587,7 +15627,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15638,7 +15678,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15697,7 +15737,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15756,7 +15796,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15807,7 +15847,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15866,7 +15906,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15917,7 +15957,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -15960,7 +16000,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16011,7 +16051,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16062,7 +16102,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16113,7 +16153,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ADM"
       }
     },
@@ -16164,7 +16204,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16215,7 +16255,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16274,7 +16314,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16325,7 +16365,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16376,7 +16416,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16427,7 +16467,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -16478,7 +16518,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -16529,7 +16569,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -16588,7 +16628,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -16647,7 +16687,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16698,7 +16738,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -16749,7 +16789,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -16800,7 +16840,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -16851,7 +16891,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -16902,7 +16942,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -16961,7 +17001,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -17020,7 +17060,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -17079,7 +17119,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -17138,7 +17178,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -17189,7 +17229,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -17240,7 +17280,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -17291,7 +17331,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -17350,7 +17390,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -17401,7 +17441,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -17452,7 +17492,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "ENS"
       }
     },
@@ -17511,7 +17551,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -17566,7 +17606,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -17625,7 +17665,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -17672,7 +17712,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -17723,7 +17763,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -17782,7 +17822,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -17841,7 +17881,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -17900,7 +17940,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -17959,7 +17999,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18018,7 +18058,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18069,7 +18109,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18128,7 +18168,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18187,7 +18227,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18246,7 +18286,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18297,7 +18337,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18340,7 +18380,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18391,7 +18431,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18450,7 +18490,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18509,7 +18549,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18552,7 +18592,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18611,7 +18651,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18670,7 +18710,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18721,7 +18761,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18772,7 +18812,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18823,7 +18863,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -18874,7 +18914,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -18917,7 +18957,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -18976,7 +19016,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19028,7 +19068,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19079,7 +19119,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19130,7 +19170,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19181,7 +19221,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19228,7 +19268,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -19279,7 +19319,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -19330,7 +19370,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19389,7 +19429,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19440,7 +19480,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19491,7 +19531,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19542,7 +19582,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19594,7 +19634,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19645,7 +19685,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19688,7 +19728,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19731,7 +19771,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19790,7 +19830,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19833,7 +19873,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19892,7 +19932,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19935,7 +19975,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -19978,7 +20018,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20021,7 +20061,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20072,7 +20112,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20115,7 +20155,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20166,7 +20206,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20217,7 +20257,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20268,7 +20308,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20327,7 +20367,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20386,7 +20426,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20445,7 +20485,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20504,7 +20544,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -20555,7 +20595,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20606,7 +20646,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20665,7 +20705,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -20724,7 +20764,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SOC"
       }
     },
@@ -20775,7 +20815,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20826,7 +20866,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20877,7 +20917,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20928,7 +20968,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -20980,7 +21020,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -21032,7 +21072,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -21083,7 +21123,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -21134,7 +21174,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -21185,7 +21225,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -21244,7 +21284,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -21303,7 +21343,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },
@@ -21354,7 +21394,7 @@ Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement
     {
       "code" : "domaine",
       "valueCoding" : {
-        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine",
+        "system" : "https://mos.esante.gouv.fr/NOS/TRE_R62-Domaine/FHIR/TRE-R62-Domaine/",
         "code" : "SAN"
       }
     },

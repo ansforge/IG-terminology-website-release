@@ -1,4 +1,4 @@
-# ASS_X13_AgregatClientele - Terminologies de Santé v1.11.0
+# ASS_X13_AgregatClientele - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X13-AgregatClientele/FHIR/ASS-X13-AgregatClientele | *Version*:20260629120000 |
-| Active as of 2026-06-29 | *Computable Name*:ASS_X13_AgregatClientele |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_X13-AgregatClientele/FHIR/ASS-X13-AgregatClientele | *Version*:20240628120000 |
+| Active as of 2024-06-28 | *Computable Name*:ASS_X13_AgregatClientele |
 | *Other Identifiers:*urn:oid:1.2.250.1.213.1.6.1.194 | |
 
  
@@ -37,12 +37,12 @@ Association d’agrégats de clientèle
   "identifier" : {
     "value" : "urn:oid:1.2.250.1.213.1.6.1.194"
   },
-  "version" : "20260629120000",
+  "version" : "20240628120000",
   "name" : "ASS_X13_AgregatClientele",
   "title" : "ASS_X13_AgregatClientele",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2024-06-28T12:00:00+01:00",
   "description" : "Association d'agrégats de clientèle",
   "jurisdiction" : [{
     "coding" : [{
@@ -1286,54 +1286,6 @@ Association d’agrégats de clientèle
         "dependsOn" : [{
           "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
           "value" : "834"
-        }]
-      }]
-    },
-    {
-      "code" : "6000",
-      "target" : [{
-        "code" : "6100",
-        "equivalence" : "narrower",
-        "comment" : "TO DO",
-        "dependsOn" : [{
-          "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-          "value" : "841"
-        }]
-      }]
-    },
-    {
-      "code" : "6000",
-      "target" : [{
-        "code" : "6100",
-        "equivalence" : "narrower",
-        "comment" : "TO DO",
-        "dependsOn" : [{
-          "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-          "value" : "842"
-        }]
-      }]
-    },
-    {
-      "code" : "6000",
-      "target" : [{
-        "code" : "6100",
-        "equivalence" : "narrower",
-        "comment" : "TO DO",
-        "dependsOn" : [{
-          "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-          "value" : "843"
-        }]
-      }]
-    },
-    {
-      "code" : "6000",
-      "target" : [{
-        "code" : "6100",
-        "equivalence" : "narrower",
-        "comment" : "TO DO",
-        "dependsOn" : [{
-          "property" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-          "value" : "844"
         }]
       }]
     },

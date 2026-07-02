@@ -1,4 +1,4 @@
-# TRE_R343_FonctionLieu - Terminologies de Santé v1.11.0
+# TRE_R343_FonctionLieu - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu | *Version*:20260601120000 | |
-| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R343_FonctionLieu |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu | *Version*:20251222120000 | |
+| Active as of 2025-12-22 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R343_FonctionLieu |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.227 | | |
 
  
@@ -28,11 +28,10 @@ Destination d’usage du lieu
   "resourceType" : "CodeSystem",
   "id" : "TRE-R343-FonctionLieu",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-06-01T20:12:11.434+02:00",
-    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
+    "versionId" : "9",
+    "lastUpdated" : "2025-12-22T10:46:44.572+01:00",
+    "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem|4.0.1"]
   },
-  "language" : "fr-FR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
     "valuePeriod" : {
@@ -44,11 +43,11 @@ Destination d’usage du lieu
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.227"
   }],
-  "version" : "20260601120000",
+  "version" : "20251222120000",
   "name" : "TRE_R343_FonctionLieu",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-01T12:00:00+01:00",
+  "date" : "2025-12-22T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Destination d'usage du lieu",
   "jurisdiction" : [{
@@ -59,7 +58,7 @@ Destination d’usage du lieu
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 29,
+  "count" : 28,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -675,22 +674,6 @@ Destination d’usage du lieu
     {
       "code" : "dateMaj",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "029",
-    "display" : "Plateau de médecine nucléaire",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-01T12:00:00+01:00"
     },
     {
       "code" : "status",

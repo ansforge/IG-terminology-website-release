@@ -1,4 +1,4 @@
-# JDV_J16_ActeSpecifique_ROR - Terminologies de Santé v1.11.0
+# JDV_J16_ActeSpecifique_ROR - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/JDV_J16-ActeSpecifique-ROR/FHIR/JDV-J16-ActeSpecifique-ROR | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:JDV_J16_ActeSpecifique_ROR |
 | *Other Identifiers:*OID:1.2.250.1.213.3.4.4 | | |
 
  
@@ -46,20 +46,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-JDV-J169-MotifFinActivite-EPARS.demande.md) | [top](#top) |  [next>](ValueSet-JDV-J16-ActeSpecifique-ROR-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -68,8 +55,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "JDV-J16-ActeSpecifique-ROR",
   "meta" : {
-    "versionId" : "32",
-    "lastUpdated" : "2026-06-29T11:18:36.256+02:00",
+    "versionId" : "30",
+    "lastUpdated" : "2026-05-29T13:18:03.207+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,11 +71,11 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.4.4"
   }],
-  "version" : "20260629120000",
+  "version" : "20260601120000",
   "name" : "JDV_J16_ActeSpecifique_ROR",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Acte spécifique - ROR",
   "jurisdiction" : [{
@@ -510,7 +497,7 @@ Liens:
       },
       {
         "code" : "0182",
-        "display" : "Programme d’ETP labellisée - Asthme"
+        "display" : "Education thérapeutique labellisée du patient asthmatique (école de l'asthme)"
       },
       {
         "code" : "0183",
@@ -1262,7 +1249,7 @@ Liens:
       },
       {
         "code" : "0538",
-        "display" : "Thérapie de groupe ou atelier à médiation orale et-ou écrite (groupe de parole, d'écriture)"
+        "display" : "Thérapie de groupe ou atelier à médiation orale et/ou écrite (groupe de parole, d'écriture)"
       },
       {
         "code" : "0539",
@@ -2790,7 +2777,7 @@ Liens:
       },
       {
         "code" : "1014",
-        "display" : "Fourniture de matériel d'hygiène, de prévention et de RdRD"
+        "display" : "Fourniture de matériel d’hygiène, de prévention et de Réduction des Risques et des Dommages (RdRD)"
       },
       {
         "code" : "1015",
@@ -3830,11 +3817,11 @@ Liens:
       },
       {
         "code" : "1281",
-        "display" : "Programme d'ETP labellisée - Affections neurologiques (hors AVC)"
+        "display" : "Programme d'ETP labellisée - Affections neurologiques"
       },
       {
         "code" : "1282",
-        "display" : "Programme d'ETP labellisée - Diabète"
+        "display" : "Programme d'ETP labellisée - Diabète et pathologies endocrines"
       },
       {
         "code" : "1283",
@@ -3850,7 +3837,7 @@ Liens:
       },
       {
         "code" : "1286",
-        "display" : "Programme d'ETP labellisée - Maladies Cancéreuses (dont soins de support)"
+        "display" : "Programme d'ETP labellisée - Maladies Cancéreuses"
       },
       {
         "code" : "1287",
@@ -3862,11 +3849,11 @@ Liens:
       },
       {
         "code" : "1289",
-        "display" : "Programme d'ETP labellisée - Maladies rhumatologiques et du système ostéoarticulaire"
+        "display" : "Programme d'ETP labellisée - Maladies du système ostéoarticulaire"
       },
       {
         "code" : "1290",
-        "display" : "Programme d'ETP labellisée - Maladies infectieuses chroniques (dont VIH et tuberculose)"
+        "display" : "Programme d'ETP labellisée - Maladies infectieuses"
       },
       {
         "code" : "1291",
@@ -4430,7 +4417,7 @@ Liens:
       },
       {
         "code" : "1447",
-        "display" : "Prescription de vaccin"
+        "display" : "Prescription de vaccination"
       },
       {
         "code" : "1448",
@@ -4450,7 +4437,7 @@ Liens:
       },
       {
         "code" : "1453",
-        "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
+        "display" : "Suivi, repérage précoce et accompagnement du développement psychomoteur, des troubles de comportement et des Troubles Neuro Développementaux"
       },
       {
         "code" : "1454",
@@ -4942,7 +4929,7 @@ Liens:
       },
       {
         "code" : "1578",
-        "display" : "Centre expert en maladie de Parkinson"
+        "display" : "Centre expert Parkinson"
       },
       {
         "code" : "1579",
@@ -4958,367 +4945,203 @@ Liens:
       },
       {
         "code" : "1582",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en cardiologie"
+        "display" : "Prise en charge spécialisée et continue en cardiologie"
       },
       {
         "code" : "1583",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie cardiaque et gros vaisseaux"
+        "display" : "Prise en charge spécialisée et continue en chirurgie cardiaque et gros vaisseaux"
       },
       {
         "code" : "1584",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie digestive et viscérale"
+        "display" : "Prise en charge spécialisée et continue en chirurgie digestive et viscérale"
       },
       {
         "code" : "1585",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie maxillo-faciale et stomatologie"
+        "display" : "Prise en charge spécialisée et continue en chirurgie maxillo-faciale et stomatologie"
       },
       {
         "code" : "1586",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie orthopédique et traumatologie"
+        "display" : "Prise en charge spécialisée et continue en chirurgie orthopédique et traumatologie"
       },
       {
         "code" : "1587",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique orthopédique et traumatologie"
+        "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique orthopédique et traumatologie"
       },
       {
         "code" : "1588",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie pédiatrique viscérale et digestive"
+        "display" : "Prise en charge spécialisée et continue en chirurgie pédiatrique viscérale et digestive"
       },
       {
         "code" : "1589",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie thoracique et pulmonaire"
+        "display" : "Prise en charge spécialisée et continue en chirurgie thoracique et pulmonaire"
       },
       {
         "code" : "1590",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie vasculaire"
+        "display" : "Prise en charge spécialisée et continue en chirurgie vasculaire"
       },
       {
         "code" : "1591",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en dermatologie"
+        "display" : "Prise en charge spécialisée et continue en dermatologie"
       },
       {
         "code" : "1592",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en endocrinologie"
+        "display" : "Prise en charge spécialisée et continue en endocrinologie"
       },
       {
         "code" : "1593",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gériatrie (gérontologie)"
+        "display" : "Prise en charge spécialisée et continue en gériatrie (gérontologie)"
       },
       {
         "code" : "1594",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en gynécologie"
+        "display" : "Prise en charge spécialisée et continue en gynécologie"
       },
       {
         "code" : "1595",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hématologie"
+        "display" : "Prise en charge spécialisée et continue en hématologie"
       },
       {
         "code" : "1596",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en hépato-gastro-entérologie"
+        "display" : "Prise en charge spécialisée et continue en hépato-gastro-entérologie"
       },
       {
         "code" : "1597",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en maladies infectieuses et tropicales"
+        "display" : "Prise en charge spécialisée et continue en maladies infectieuses et tropicales"
       },
       {
         "code" : "1598",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine interne"
+        "display" : "Prise en charge spécialisée et continue en médecine interne"
       },
       {
         "code" : "1599",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en médecine vasculaire"
+        "display" : "Prise en charge spécialisée et continue en médecine vasculaire"
       },
       {
         "code" : "1600",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en néphrologie (dont dialyse)"
+        "display" : "Prise en charge spécialisée et continue en néphrologie (dont dialyse)"
       },
       {
         "code" : "1601",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurochirurgie"
+        "display" : "Prise en charge spécialisée et continue en neurochirurgie"
       },
       {
         "code" : "1602",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en neurologie"
+        "display" : "Prise en charge spécialisée et continue en neurologie"
       },
       {
         "code" : "1603",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oncologie"
+        "display" : "Prise en charge spécialisée et continue en oncologie"
       },
       {
         "code" : "1604",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en ophtalmologie"
+        "display" : "Prise en charge spécialisée et continue en ophtalmologie"
       },
       {
         "code" : "1605",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
+        "display" : "Prise en charge spécialisée et continue en oto-rhino-laryngologie (ORL) et chirurgie cervico-faciale"
       },
       {
         "code" : "1606",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pédiatrie"
+        "display" : "Prise en charge spécialisée et continue en pédiatrie"
       },
       {
         "code" : "1607",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en pneumologie"
+        "display" : "Prise en charge spécialisée et continue en pneumologie"
       },
       {
         "code" : "1608",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en rhumatologie"
+        "display" : "Prise en charge spécialisée et continue en rhumatologie"
       },
       {
         "code" : "1609",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en urologie"
+        "display" : "Prise en charge spécialisée et continue en urologie"
       },
       {
         "code" : "1610",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en caisson oxygène hyperbare"
+        "display" : "Prise en charge spécialisée et continue en caisson oxygène hyperbare"
       },
       {
         "code" : "1611",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en chirurgie de la main SOS main"
+        "display" : "Prise en charge spécialisée et continue en chirurgie de la main SOS main"
       },
       {
         "code" : "1612",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en odontologie"
+        "display" : "Prise en charge spécialisée et continue en odontologie"
       },
       {
         "code" : "1613",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en psychiatrie (dont équipe de liaison)"
+        "display" : "Prise en charge spécialisée et continue en psychiatrie (dont équipe de liaison)"
       },
       {
         "code" : "1614",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) en radiologie interventionnelle"
+        "display" : "Prise en charge spécialisée et continue en radiologie interventionnelle"
       },
       {
         "code" : "1615",
-        "display" : "Prise en charge spécialisée et en permanence (24h/24 – 7j/7) rachis"
+        "display" : "Prise en charge spécialisée et continue rachis"
       },
       {
-        "code" : "1632",
-        "display" : "Programme d’ETP labellisée - Accident Vasculaire Cérébral (AVC)"
+        "code" : "1616",
+        "display" : "Pédicurie-podologie conventionnée du pied diabétique de grade 2 et 3"
       },
       {
-        "code" : "1633",
-        "display" : "Programme d’ETP labellisée - Allergologie"
+        "code" : "1617",
+        "display" : "Pédicurie-podologie conventionnée soins de support oncologie"
       },
       {
-        "code" : "1634",
-        "display" : "Programme d’ETP labellisée - Anticoagulants oraux (AVK, AOD, HBPM)"
+        "code" : "1618",
+        "display" : "Orthoplastie (appareillage d’orteil)"
       },
       {
-        "code" : "1635",
-        "display" : "Programme d’ETP labellisée - Maladies rares (dont maladies du sang, drépanocytose, amylose)"
+        "code" : "1619",
+        "display" : "Orthonyxie (appareillage d’ongle)"
       },
       {
-        "code" : "1636",
-        "display" : "Programme d’ETP labellisée - Maladies urologiques et gynécologiques"
+        "code" : "1620",
+        "display" : "Onychoplastie (reconstruction de l’ongle)"
       },
       {
-        "code" : "1637",
-        "display" : "Programme d’ETP labellisée - Obésité"
+        "code" : "1621",
+        "display" : "Orthèse plantaire (semelle orthopédique)"
       },
       {
-        "code" : "1638",
-        "display" : "Programme d’ETP labellisée - Ophtalmologie"
+        "code" : "1622",
+        "display" : "Bilan diagnostique podologique de la prévention de la chute"
       },
       {
-        "code" : "1639",
-        "display" : "Programme d’ETP labellisée - Pathologies endocrines (hors diabète, hors obésité)"
+        "code" : "1623",
+        "display" : "Rééducation du pied (sous la cheville)"
       },
       {
-        "code" : "1640",
-        "display" : "Lyophilisation de lait maternel"
+        "code" : "1624",
+        "display" : "Contention nocturne"
       },
       {
-        "code" : "1641",
-        "display" : "Centre de Traitement des Brûlés (CTB)"
+        "code" : "1625",
+        "display" : "Soin de pédicurie"
       },
       {
-        "code" : "1642",
-        "display" : "Remédiation psychosociale"
+        "code" : "1626",
+        "display" : "Traitement de la verrue plantaire par azote liquide"
       },
       {
-        "code" : "1643",
-        "display" : "Réadaptation psychomotrice d’un trouble du neurodéveloppement"
+        "code" : "1627",
+        "display" : "Traitement sans douleur de l’ongle incarné par phénolisation (protocole de coopération)"
       },
       {
-        "code" : "1644",
-        "display" : "Réadaptation psychomotrice d’un trouble de l’apprentissage"
+        "code" : "1628",
+        "display" : "Prélèvement unguéal pour analyse biologique (protocole de coopération)"
       },
       {
-        "code" : "1645",
-        "display" : "Réadaptation psychomotrice des troubles tonico-émotionnels"
+        "code" : "1629",
+        "display" : "Confection de semelle de comblement en polyuréthane (PU) pour amputation partielle du pied"
       },
       {
-        "code" : "1646",
-        "display" : "Réadaptation psychomotrice des troubles de la latéralisation"
+        "code" : "1630",
+        "display" : "Prise en charge spécialisée et continue en pédopsychiatrie (dont équipe de liaison)"
       },
       {
-        "code" : "1647",
-        "display" : "Réadaptation psychomotrice du schéma corporel et des représentations du corps"
-      },
-      {
-        "code" : "1648",
-        "display" : "Réadaptation psychomotrice des troubles d’organisation spatio-temporelle"
-      },
-      {
-        "code" : "1649",
-        "display" : "Réadaptation psychomotrice des troubles sensoriels"
-      },
-      {
-        "code" : "1650",
-        "display" : "Réadaptation psychomotrice du développement psychomoteur"
-      },
-      {
-        "code" : "1651",
-        "display" : "Réadaptation psychomotrice des troubles psychiques"
-      },
-      {
-        "code" : "1652",
-        "display" : "Programmes d’Entraînement aux Habiletés Parentales"
-      },
-      {
-        "code" : "1653",
-        "display" : "Relaxation psychomotrice"
-      },
-      {
-        "code" : "1654",
-        "display" : "Evaluation et/ou prise en soins orthoptiques à visée visio-vestibulaire dans le cadre des troubles de l'équilibration et vertiges"
-      },
-      {
-        "code" : "1655",
-        "display" : "Evaluation visuelle des troubles orthoptiques et neurovisuels dans le cadre des troubles du neuro-développement (TNV - TND)"
-      },
-      {
-        "code" : "1656",
-        "display" : "Bilan de dépistage réfractif et de l'amblyopie"
-      },
-      {
-        "code" : "1657",
-        "display" : "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))"
-      },
-      {
-        "code" : "1658",
-        "display" : "Exploration du sens chromatique"
-      },
-      {
-        "code" : "1659",
-        "display" : "Examen de la courbe d'adaptation à l'obscurité"
-      },
-      {
-        "code" : "1660",
-        "display" : "Protocole de dépistage de la rétinopathie diabétique"
-      },
-      {
-        "code" : "1661",
-        "display" : "Examen dépistage réfractif avec Photoscreener"
-      },
-      {
-        "code" : "1662",
-        "display" : "Bilan visuel primo-prescription ou renouvellement de la correction optique (lunettes, lentilles, souples) pour les patients de 16 ans à 42 ans"
-      },
-      {
-        "code" : "1663",
-        "display" : "Evaluation oculométrique par enregistrement – technique d'Eye tracking"
-      },
-      {
-        "code" : "1664",
-        "display" : "Evaluation et/ou prise en soins dans le cadre de particularités sensorielles et perceptives (profil sensoriel de DUNN, BOGDASHINA)"
-      },
-      {
-        "code" : "1665",
-        "display" : "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)"
-      },
-      {
-        "code" : "1666",
-        "display" : "Evaluation et suivi dans le cadre de l'adaptation du logement lors d'un handicap de la fonction visuelle"
-      },
-      {
-        "code" : "1667",
-        "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de la conduite automobile"
-      },
-      {
-        "code" : "1668",
-        "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de l'activité physique adaptée"
-      },
-      {
-        "code" : "1669",
-        "display" : "Evaluation et/ou prise en soins orthoptiques neurovisuels des troubles de la cognition visuelle"
-      },
-      {
-        "code" : "1670",
-        "display" : "Evaluation et/ou prise en soins de la rééducation neurovisuelle visuo-vestibulaire (vertiges)"
-      },
-      {
-        "code" : "1671",
-        "display" : "Dispensation médicamenteuse à domicile en cas d’impossibilité du patient à se déplacer"
-      },
-      {
-        "code" : "1672",
-        "display" : "Préparation des doses à administrer (PDA)"
-      },
-      {
-        "code" : "1673",
-        "display" : "Entretien pharmaceutique de la femme enceinte"
-      },
-      {
-        "code" : "1674",
-        "display" : "Entretien pharmaceutique du patient asthmatique sous corticostéroïdes inhalés (CSI)"
-      },
-      {
-        "code" : "1675",
-        "display" : "Entretien pharmaceutique du patient sous anticoagulant oral (AOD/AVK)"
-      },
-      {
-        "code" : "1676",
-        "display" : "Entretien pharmaceutique du patient sous anticancéreux oraux"
-      },
-      {
-        "code" : "1677",
-        "display" : "Entretien pharmaceutique du patient sous antalgique opioïde de pallier 2"
-      },
-      {
-        "code" : "1678",
-        "display" : "Entretien bilan partagé de médication"
-      },
-      {
-        "code" : "1679",
-        "display" : "Réseau France Santé"
-      },
-      {
-        "code" : "1680",
-        "display" : "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique"
-      },
-      {
-        "code" : "1681",
-        "display" : "Orthèses et prothèses externes (orthopédie sur mesure)"
-      },
-      {
-        "code" : "1682",
-        "display" : "Orthèses et prothèses externes (de série)"
-      },
-      {
-        "code" : "1683",
-        "display" : "Optique lunetterie"
-      },
-      {
-        "code" : "1684",
-        "display" : "Audioprothèse"
-      },
-      {
-        "code" : "1685",
-        "display" : "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant (protocole de coopération)"
-      },
-      {
-        "code" : "1686",
-        "display" : "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière (protocole de coopération)"
-      },
-      {
-        "code" : "1687",
-        "display" : "Distribution de comprimés d’iode en application du Plan Particulier d’Intervention (PPI)"
-      },
-      {
-        "code" : "1688",
-        "display" : "Remise du kit de dépistage du cancer colorectal"
+        "code" : "1631",
+        "display" : "Prise en charge spécialisée et continue SOS main"
       }]
     }]
   }

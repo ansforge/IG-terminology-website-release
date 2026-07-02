@@ -1,4 +1,4 @@
-# JDV-MediaTypeCorpsCDANonStructure - Terminologies de Santé v1.11.0
+# JDV-MediaTypeCorpsCDANonStructure - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://mos.esante.gouv.fr/NOS/JDV-MediaTypeCorpsCDANonStructure?vs | *Version*:1.1.0 |
-| Active as of 2026-06-30 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
+| Active as of 2026-05-29 | *Computable Name*:JDV_TRE_R222_MediaTypeCorpsCDANonStructure |
 
  
 JDV avec l’ensemble des codes actifs de la TRE_R222_MediaTypeCorpsCDANonStructure 
@@ -45,20 +45,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-voie-abord-cisis.demande.md) | [top](#top) |  [next>](ValueSet-TRE-R222-MediaTypeCorpsCDANonStructure-all-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -81,7 +68,7 @@ Liens:
   "title" : "JDV-MediaTypeCorpsCDANonStructure",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-30T21:35:56+00:00",
+  "date" : "2026-05-29T14:49:05+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",

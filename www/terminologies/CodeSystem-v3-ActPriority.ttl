@@ -1,5 +1,6 @@
 @prefix fhir: <http://hl7.org/fhir/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
@@ -7,284 +8,331 @@
 
 <https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActPriority> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:Resource.id [ fhir:value "v3-ActPriority"] ;
-  fhir:Resource.meta [
-     fhir:Meta.versionId [ fhir:value "1" ] ;
-     fhir:Meta.lastUpdated [ fhir:value "2026-01-07T10:12:50.320+01:00"^^xsd:dateTime ]
-  ] ;
-  fhir:Resource.language [ fhir:value "en"] ;
-  fhir:DomainResource.text [
-     fhir:Narrative.status [ fhir:value "generated" ] ;
-     fhir:Narrative.div "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-ActPriority</b></p><a name=\"v3-ActPriority\"> </a><a name=\"hcv3-ActPriority\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:50+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-ActPriority</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>internalId</b></td><td><b>status</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">A<a name=\"v3-ActPriority-A\"> </a></td><td>ASAP</td><td>As soon as possible, next highest priority after stat.</td><td>16868</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">CR<a name=\"v3-ActPriority-CR\"> </a></td><td>callback results</td><td>Filler should contact the placer as soon as results are available, even for preliminary results. (Was \"C\" in HL7 version 2.3's reporting priority.)</td><td>16876</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">CS<a name=\"v3-ActPriority-CS\"> </a></td><td>callback for scheduling</td><td>Filler should contact the placer (or target) to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)</td><td>16871</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CSP<a name=\"v3-ActPriority-CSP\"> </a></td><td>callback placer for scheduling</td><td>Filler should contact the placer to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)</td><td>16872</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CSR<a name=\"v3-ActPriority-CSR\"> </a></td><td>contact recipient for scheduling</td><td>Filler should contact the service recipient (target) to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)</td><td>16873</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">EL<a name=\"v3-ActPriority-EL\"> </a></td><td>elective</td><td>Beneficial to the patient but not essential for survival.</td><td>12239</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">EM<a name=\"v3-ActPriority-EM\"> </a></td><td>emergency</td><td>An unforeseen combination of circumstances or the resulting state that calls for immediate action.</td><td>12241</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">P<a name=\"v3-ActPriority-P\"> </a></td><td>preop</td><td>Used to indicate that a service is to be performed prior to a scheduled surgery. When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service. When the order is placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled operation.</td><td>16870</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">PRN<a name=\"v3-ActPriority-PRN\"> </a></td><td>as needed</td><td>An \"as needed\" order should be accompanied by a description of what constitutes a need. This description is represented by an observation service predicate as a precondition.</td><td>16875</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">R<a name=\"v3-ActPriority-R\"> </a></td><td>routine</td><td>Routine service, do at usual work hours.</td><td>16869</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">RR<a name=\"v3-ActPriority-RR\"> </a></td><td>rush reporting</td><td>A report should be prepared and sent as quickly as possible.</td><td>16877</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">S<a name=\"v3-ActPriority-S\"> </a></td><td>stat</td><td>With highest priority (e.g., emergency).</td><td>16867</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">T<a name=\"v3-ActPriority-T\"> </a></td><td>timing critical</td><td>It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial level).</td><td>16874</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">UD<a name=\"v3-ActPriority-UD\"> </a></td><td>use as directed</td><td>Drug is to be used as directed by the prescriber.</td><td>20843</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">UR<a name=\"v3-ActPriority-UR\"> </a></td><td>urgent</td><td>Calls for prompt action.</td><td>12240</td><td>active</td></tr></table></div>"
-  ] ;
-  fhir:CodeSystem.url [ fhir:value "http://terminology.hl7.org/CodeSystem/v3-ActPriority"] ;
-  fhir:CodeSystem.identifier [
-     fhir:index 0 ;
-     fhir:Identifier.system [ fhir:value "urn:ietf:rfc:3986" ] ;
-     fhir:Identifier.value [ fhir:value "urn:oid:2.16.840.1.113883.5.7" ]
-  ] ;
-  fhir:CodeSystem.version [ fhir:value "3.0.0"] ;
-  fhir:CodeSystem.name [ fhir:value "ActPriority"] ;
-  fhir:CodeSystem.title [ fhir:value "ActPriority"] ;
-  fhir:CodeSystem.status [ fhir:value "active"] ;
-  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
-  fhir:CodeSystem.date [ fhir:value "2019-03-20"^^xsd:date] ;
-  fhir:CodeSystem.publisher [ fhir:value "Health Level Seven International"] ;
-  fhir:CodeSystem.contact [
-     fhir:index 0 ;
-     fhir:ContactDetail.telecom [
-       fhir:index 0 ;
-       fhir:ContactPoint.system [ fhir:value "url" ] ;
-       fhir:ContactPoint.value [ fhir:value "http://hl7.org" ]
-     ], [
-       fhir:index 1 ;
-       fhir:ContactPoint.system [ fhir:value "email" ] ;
-       fhir:ContactPoint.value [ fhir:value "hq@HL7.org" ]
-     ]
-  ] ;
-  fhir:CodeSystem.description [ fhir:value "A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen."] ;
-  fhir:CodeSystem.jurisdiction [
-     fhir:index 0 ;
-     fhir:CodeableConcept.coding [
-       fhir:index 0 ;
-       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
-       fhir:Coding.code [ fhir:value "FRA" ]
-     ]
-  ] ;
-  fhir:CodeSystem.copyright [ fhir:value "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ;
-  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
-  fhir:CodeSystem.hierarchyMeaning [ fhir:value "is-a"] ;
-  fhir:CodeSystem.content [ fhir:value "complete"] ;
-  fhir:CodeSystem.property [
-     fhir:index 0 ;
-     fhir:CodeSystem.property.code [ fhir:value "internalId" ] ;
-     fhir:CodeSystem.property.uri [ fhir:value "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id" ] ;
-     fhir:CodeSystem.property.description [ fhir:value "The internal identifier for the concept in the HL7 Access database repository." ] ;
-     fhir:CodeSystem.property.type [ fhir:value "code" ]
-  ], [
-     fhir:index 1 ;
-     fhir:CodeSystem.property.code [ fhir:value "status" ] ;
-     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#status" ] ;
-     fhir:CodeSystem.property.description [ fhir:value "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
-     fhir:CodeSystem.property.type [ fhir:value "code" ]
-  ] ;
-  fhir:CodeSystem.concept [
-     fhir:index 0 ;
-     fhir:CodeSystem.concept.code [ fhir:value "A" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "ASAP" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "As soon as possible, next highest priority after stat." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "16868" ]
-     ]
-  ], [
-     fhir:index 1 ;
-     fhir:CodeSystem.concept.code [ fhir:value "CR" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "callback results" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "Filler should contact the placer as soon as results are available, even for preliminary results. (Was \"C\" in HL7 version 2.3's reporting priority.)" ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "16876" ]
-     ]
-  ], [
-     fhir:index 2 ;
-     fhir:CodeSystem.concept.code [ fhir:value "CS" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "callback for scheduling" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "Filler should contact the placer (or target) to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)" ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "16871" ]
+  fhir:id [ fhir:v "v3-ActPriority"] ; # 
+  fhir:meta [
+     fhir:versionId [ fhir:v "1" ] ;
+     fhir:lastUpdated [ fhir:v "2026-01-07T10:12:50.320+01:00"^^xsd:dateTime ]
+  ] ; # 
+  fhir:language [ fhir:v "en"] ; # 
+  fhir:text [
+     fhir:status [ fhir:v "generated" ] ;
+     fhir:div [ fhir:v "<div xml:lang=\"en\" xmlns=\"http://www.w3.org/1999/xhtml\" lang=\"en\"><p class=\"res-header-id\"><b>Narratif généré : CodeSystem v3-ActPriority</b></p><a name=\"v3-ActPriority\"> </a><a name=\"hcv3-ActPriority\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">version : 1; Dernière mise à jour : 2026-01-07 10:12:50+0100; Langue : en</p></div><p><b>Propriétés</b></p><p><b>Cette terminologie de référence (CodeSystem) définit les propriétés suivantes pour ses concepts</b></p><table class=\"grid\"><tr><td><b>Nom</b></td><td><b>Code</b></td><td><b>URI</b></td><td><b>Type</b></td><td><b>Description</b></td></tr><tr><td>internalId</td><td>internalId</td><td>http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id</td><td>code</td><td>The internal identifier for the concept in the HL7 Access database repository.</td></tr><tr><td>status</td><td>status</td><td>http://hl7.org/fhir/concept-properties#status</td><td>code</td><td>Designation of a concept's state. Normally is not populated unless the state is retired.</td></tr></table><p><b>Concepts</b></p><p>This case-sensitive code system <code>http://terminology.hl7.org/CodeSystem/v3-ActPriority</code> defines the following codes dans une hiérarchie Is-A:</p><table class=\"codes\"><tr><td><b>Niv</b></td><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Affichage</b></td><td><b>Définition</b></td><td><b>internalId</b></td><td><b>status</b></td></tr><tr><td>1</td><td style=\"white-space:nowrap\">A<a name=\"v3-ActPriority-A\"> </a></td><td>ASAP</td><td>As soon as possible, next highest priority after stat.</td><td>16868</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">CR<a name=\"v3-ActPriority-CR\"> </a></td><td>callback results</td><td>Filler should contact the placer as soon as results are available, even for preliminary results. (Was \"C\" in HL7 version 2.3's reporting priority.)</td><td>16876</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">CS<a name=\"v3-ActPriority-CS\"> </a></td><td>callback for scheduling</td><td>Filler should contact the placer (or target) to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)</td><td>16871</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CSP<a name=\"v3-ActPriority-CSP\"> </a></td><td>callback placer for scheduling</td><td>Filler should contact the placer to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)</td><td>16872</td><td>active</td></tr><tr><td>2</td><td style=\"white-space:nowrap\">  CSR<a name=\"v3-ActPriority-CSR\"> </a></td><td>contact recipient for scheduling</td><td>Filler should contact the service recipient (target) to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)</td><td>16873</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">EL<a name=\"v3-ActPriority-EL\"> </a></td><td>elective</td><td>Beneficial to the patient but not essential for survival.</td><td>12239</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">EM<a name=\"v3-ActPriority-EM\"> </a></td><td>emergency</td><td>An unforeseen combination of circumstances or the resulting state that calls for immediate action.</td><td>12241</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">P<a name=\"v3-ActPriority-P\"> </a></td><td>preop</td><td>Used to indicate that a service is to be performed prior to a scheduled surgery. When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service. When the order is placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled operation.</td><td>16870</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">PRN<a name=\"v3-ActPriority-PRN\"> </a></td><td>as needed</td><td>An \"as needed\" order should be accompanied by a description of what constitutes a need. This description is represented by an observation service predicate as a precondition.</td><td>16875</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">R<a name=\"v3-ActPriority-R\"> </a></td><td>routine</td><td>Routine service, do at usual work hours.</td><td>16869</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">RR<a name=\"v3-ActPriority-RR\"> </a></td><td>rush reporting</td><td>A report should be prepared and sent as quickly as possible.</td><td>16877</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">S<a name=\"v3-ActPriority-S\"> </a></td><td>stat</td><td>With highest priority (e.g., emergency).</td><td>16867</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">T<a name=\"v3-ActPriority-T\"> </a></td><td>timing critical</td><td>It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial level).</td><td>16874</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">UD<a name=\"v3-ActPriority-UD\"> </a></td><td>use as directed</td><td>Drug is to be used as directed by the prescriber.</td><td>20843</td><td>active</td></tr><tr><td>1</td><td style=\"white-space:nowrap\">UR<a name=\"v3-ActPriority-UR\"> </a></td><td>urgent</td><td>Calls for prompt action.</td><td>12240</td><td>active</td></tr></table></div>"^^rdf:XMLLiteral ]
+  ] ; # 
+  fhir:url [
+     fhir:v "http://terminology.hl7.org/CodeSystem/v3-ActPriority"^^xsd:anyURI ;
+     fhir:l <http://terminology.hl7.org/CodeSystem/v3-ActPriority>
+  ] ; # 
+  fhir:identifier ( [
+     fhir:system [
+       fhir:v "urn:ietf:rfc:3986"^^xsd:anyURI ;
+       fhir:l <urn:ietf:rfc:3986>
      ] ;
-     fhir:CodeSystem.concept.concept [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.code [ fhir:value "CSP" ] ;
-       fhir:CodeSystem.concept.display [ fhir:value "callback placer for scheduling" ] ;
-       fhir:CodeSystem.concept.definition [ fhir:value "Filler should contact the placer to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)" ] ;
-       fhir:CodeSystem.concept.property [
-         fhir:index 0 ;
-         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-       ], [
-         fhir:index 1 ;
-         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-         fhir:CodeSystem.concept.property.valueCode [ fhir:value "16872" ]
+     fhir:value [ fhir:v "urn:oid:2.16.840.1.113883.5.7" ]
+  ] ) ; # 
+  fhir:version [ fhir:v "3.0.0"] ; # 
+  fhir:name [ fhir:v "ActPriority"] ; # 
+  fhir:title [ fhir:v "ActPriority"] ; # 
+  fhir:status [ fhir:v "active"] ; # 
+  fhir:experimental [ fhir:v false] ; # 
+  fhir:date [ fhir:v "2019-03-20"^^xsd:date] ; # 
+  fhir:publisher [ fhir:v "Health Level Seven International"] ; # 
+  fhir:contact ( [
+     fhir:telecom ( [
+       fhir:system [ fhir:v "url" ] ;
+       fhir:value [ fhir:v "http://hl7.org" ]
+     ] [
+       fhir:system [ fhir:v "email" ] ;
+       fhir:value [ fhir:v "hq@HL7.org" ]
+     ] )
+  ] ) ; # 
+  fhir:description [ fhir:v "A set of codes (e.g., for routine, emergency), specifying the urgency under which the Act happened, can happen, is happening, is intended to happen, or is requested/demanded to happen."] ; # 
+  fhir:jurisdiction ( [
+     fhir:coding ( [
+       fhir:system [
+         fhir:v "urn:iso:std:iso:3166"^^xsd:anyURI ;
+         fhir:l <urn:iso:std:iso:3166>
+       ] ;
+       fhir:code [ fhir:v "FRA" ]
+     ] )
+  ] ) ; # 
+  fhir:copyright [ fhir:v "This material derives from the HL7 Terminology THO. THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: https://terminology.hl7.org/license.html"] ; # 
+  fhir:caseSensitive [ fhir:v true] ; # 
+  fhir:hierarchyMeaning [ fhir:v "is-a"] ; # 
+  fhir:content [ fhir:v "complete"] ; # 
+  fhir:property ( [
+     fhir:code [ fhir:v "internalId" ] ;
+     fhir:uri [
+       fhir:v "http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id"^^xsd:anyURI ;
+       fhir:l <http://terminology.hl7.org/CodeSystem/utg-concept-properties#v3-internal-id>
+     ] ;
+     fhir:description [ fhir:v "The internal identifier for the concept in the HL7 Access database repository." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] [
+     fhir:code [ fhir:v "status" ] ;
+     fhir:uri [
+       fhir:v "http://hl7.org/fhir/concept-properties#status"^^xsd:anyURI ;
+       fhir:l <http://hl7.org/fhir/concept-properties#status>
+     ] ;
+     fhir:description [ fhir:v "Designation of a concept's state. Normally is not populated unless the state is retired." ] ;
+     fhir:type [ fhir:v "code" ]
+  ] ) ; # 
+  fhir:concept ( [
+     fhir:code [ fhir:v "A" ] ;
+     fhir:display [ fhir:v "ASAP" ] ;
+     fhir:definition [ fhir:v "As soon as possible, next highest priority after stat." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
        ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.code [ fhir:value "CSR" ] ;
-       fhir:CodeSystem.concept.display [ fhir:value "contact recipient for scheduling" ] ;
-       fhir:CodeSystem.concept.definition [ fhir:value "Filler should contact the service recipient (target) to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)" ] ;
-       fhir:CodeSystem.concept.property [
-         fhir:index 0 ;
-         fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-         fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-       ], [
-         fhir:index 1 ;
-         fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-         fhir:CodeSystem.concept.property.valueCode [ fhir:value "16873" ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16868"
        ]
-     ]
-  ], [
-     fhir:index 3 ;
-     fhir:CodeSystem.concept.code [ fhir:value "EL" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "elective" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "Beneficial to the patient but not essential for survival." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "12239" ]
-     ]
-  ], [
-     fhir:index 4 ;
-     fhir:CodeSystem.concept.code [ fhir:value "EM" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "emergency" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "An unforeseen combination of circumstances or the resulting state that calls for immediate action." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "12241" ]
-     ]
-  ], [
-     fhir:index 5 ;
-     fhir:CodeSystem.concept.code [ fhir:value "P" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "preop" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "Used to indicate that a service is to be performed prior to a scheduled surgery. When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service. When the order is placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled operation." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "16870" ]
-     ]
-  ], [
-     fhir:index 6 ;
-     fhir:CodeSystem.concept.code [ fhir:value "PRN" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "as needed" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "An \"as needed\" order should be accompanied by a description of what constitutes a need. This description is represented by an observation service predicate as a precondition." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "16875" ]
-     ]
-  ], [
-     fhir:index 7 ;
-     fhir:CodeSystem.concept.code [ fhir:value "R" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "routine" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "Routine service, do at usual work hours." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "16869" ]
-     ]
-  ], [
-     fhir:index 8 ;
-     fhir:CodeSystem.concept.code [ fhir:value "RR" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "rush reporting" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "A report should be prepared and sent as quickly as possible." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "16877" ]
-     ]
-  ], [
-     fhir:index 9 ;
-     fhir:CodeSystem.concept.code [ fhir:value "S" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "stat" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "With highest priority (e.g., emergency)." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "16867" ]
-     ]
-  ], [
-     fhir:index 10 ;
-     fhir:CodeSystem.concept.code [ fhir:value "T" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "timing critical" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial level)." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "16874" ]
-     ]
-  ], [
-     fhir:index 11 ;
-     fhir:CodeSystem.concept.code [ fhir:value "UD" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "use as directed" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "Drug is to be used as directed by the prescriber." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "20843" ]
-     ]
-  ], [
-     fhir:index 12 ;
-     fhir:CodeSystem.concept.code [ fhir:value "UR" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "urgent" ] ;
-     fhir:CodeSystem.concept.definition [ fhir:value "Calls for prompt action." ] ;
-     fhir:CodeSystem.concept.property [
-       fhir:index 0 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "status" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "active" ]
-     ], [
-       fhir:index 1 ;
-       fhir:CodeSystem.concept.property.code [ fhir:value "internalId" ] ;
-       fhir:CodeSystem.concept.property.valueCode [ fhir:value "12240" ]
-     ]
-  ] .
-
-# - ontology header ------------------------------------------------------------
-
-<https://interop.esante.gouv.fr/terminologies/CodeSystem/v3-ActPriority.ttl> a owl:Ontology ;
-  owl:imports fhir:fhir.ttl .
+     ] )
+  ] [
+     fhir:code [ fhir:v "CR" ] ;
+     fhir:display [ fhir:v "callback results" ] ;
+     fhir:definition [ fhir:v "Filler should contact the placer as soon as results are available, even for preliminary results. (Was \"C\" in HL7 version 2.3's reporting priority.)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16876"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "CS" ] ;
+     fhir:display [ fhir:v "callback for scheduling" ] ;
+     fhir:definition [ fhir:v "Filler should contact the placer (or target) to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)" ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16871"
+       ]
+     ] ) ;
+     fhir:concept ( [
+       fhir:code [ fhir:v "CSP" ] ;
+       fhir:display [ fhir:v "callback placer for scheduling" ] ;
+       fhir:definition [ fhir:v "Filler should contact the placer to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16872"
+         ]
+       ] )
+     ] [
+       fhir:code [ fhir:v "CSR" ] ;
+       fhir:display [ fhir:v "contact recipient for scheduling" ] ;
+       fhir:definition [ fhir:v "Filler should contact the service recipient (target) to schedule the service. (Was \"C\" in HL7 version 2.3's TQ-priority component.)" ] ;
+       fhir:property ( [
+         fhir:code [ fhir:v "status" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "active"
+         ]
+       ] [
+         fhir:code [ fhir:v "internalId" ] ;
+         fhir:value [
+           a fhir:Code ;
+           fhir:v "16873"
+         ]
+       ] )
+     ] )
+  ] [
+     fhir:code [ fhir:v "EL" ] ;
+     fhir:display [ fhir:v "elective" ] ;
+     fhir:definition [ fhir:v "Beneficial to the patient but not essential for survival." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "12239"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "EM" ] ;
+     fhir:display [ fhir:v "emergency" ] ;
+     fhir:definition [ fhir:v "An unforeseen combination of circumstances or the resulting state that calls for immediate action." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "12241"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "P" ] ;
+     fhir:display [ fhir:v "preop" ] ;
+     fhir:definition [ fhir:v "Used to indicate that a service is to be performed prior to a scheduled surgery. When ordering a service and using the pre-op priority, a check is done to see the amount of time that must be allowed for performance of the service. When the order is placed, a message can be generated indicating the time needed for the service so that it is not ordered in conflict with a scheduled operation." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16870"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "PRN" ] ;
+     fhir:display [ fhir:v "as needed" ] ;
+     fhir:definition [ fhir:v "An \"as needed\" order should be accompanied by a description of what constitutes a need. This description is represented by an observation service predicate as a precondition." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16875"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "R" ] ;
+     fhir:display [ fhir:v "routine" ] ;
+     fhir:definition [ fhir:v "Routine service, do at usual work hours." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16869"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "RR" ] ;
+     fhir:display [ fhir:v "rush reporting" ] ;
+     fhir:definition [ fhir:v "A report should be prepared and sent as quickly as possible." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16877"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "S" ] ;
+     fhir:display [ fhir:v "stat" ] ;
+     fhir:definition [ fhir:v "With highest priority (e.g., emergency)." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16867"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "T" ] ;
+     fhir:display [ fhir:v "timing critical" ] ;
+     fhir:definition [ fhir:v "It is critical to come as close as possible to the requested time (e.g., for a through antimicrobial level)." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "16874"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "UD" ] ;
+     fhir:display [ fhir:v "use as directed" ] ;
+     fhir:definition [ fhir:v "Drug is to be used as directed by the prescriber." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "20843"
+       ]
+     ] )
+  ] [
+     fhir:code [ fhir:v "UR" ] ;
+     fhir:display [ fhir:v "urgent" ] ;
+     fhir:definition [ fhir:v "Calls for prompt action." ] ;
+     fhir:property ( [
+       fhir:code [ fhir:v "status" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "active"
+       ]
+     ] [
+       fhir:code [ fhir:v "internalId" ] ;
+       fhir:value [
+         a fhir:Code ;
+         fhir:v "12240"
+       ]
+     ] )
+  ] ) . # 
 
 # -------------------------------------------------------------------------------------
 

@@ -1,4 +1,4 @@
-# TRE_R209_TypeActivite - Terminologies de Santé v1.11.0
+# TRE_R209_TypeActivite - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R209_TypeActivite |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite | *Version*:20240223120000 | |
+| Active as of 2024-02-23 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R209_TypeActivite |
 | *Other Identifiers:*OID:1.2.250.1.213.2.2 | | |
 
  
@@ -30,8 +30,8 @@ Type d’activité
   "resourceType" : "CodeSystem",
   "id" : "TRE-R209-TypeActivite",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-06-29T11:13:32.022+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-07-02T18:13:47.558+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -45,11 +45,11 @@ Type d’activité
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.2.2"
   }],
-  "version" : "20260629120000",
+  "version" : "20240223120000",
   "name" : "TRE_R209_TypeActivite",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2024-02-23T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Type d'activité",
   "jurisdiction" : [{
@@ -60,7 +60,6 @@ Type d’activité
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 52,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -1296,22 +1295,6 @@ Type d’activité
     {
       "code" : "dateMaj",
       "valueDateTime" : "2010-11-26T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "54",
-    "display" : "Accueil familial",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T00:00:00+01:00"
     },
     {
       "code" : "status",

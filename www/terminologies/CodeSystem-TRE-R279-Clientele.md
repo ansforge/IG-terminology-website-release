@@ -1,4 +1,4 @@
-# TRE_R279_Clientele - Terminologies de Santé v1.11.0
+# TRE_R279_Clientele - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R279_Clientele |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele | *Version*:20240927120000 | |
+| Active as of 2024-09-27 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R279_Clientele |
 | *Other Identifiers:*OID:1.2.250.1.213.1.6.1.132 | | |
 
  
@@ -28,8 +28,8 @@ Clientèles
   "resourceType" : "CodeSystem",
   "id" : "TRE-R279-Clientele",
   "meta" : {
-    "versionId" : "8",
-    "lastUpdated" : "2026-06-29T11:13:44.212+02:00",
+    "versionId" : "7",
+    "lastUpdated" : "2025-07-02T18:17:06.863+00:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -43,11 +43,11 @@ Clientèles
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.6.1.132"
   }],
-  "version" : "20260629120000",
+  "version" : "20240927120000",
   "name" : "TRE_R279_Clientele",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2024-09-27T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Clientèles",
   "jurisdiction" : [{
@@ -58,7 +58,6 @@ Clientèles
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 132,
   "property" : [{
     "code" : "dateValid",
     "description" : "date de validité d'un code concept",
@@ -3118,94 +3117,6 @@ Clientèles
     {
       "code" : "dateMaj",
       "valueDateTime" : "2018-10-26T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "841",
-    "display" : "Périnatalité",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "842",
-    "display" : "Adultes (sans autre indication)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Adultes (SAI)"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "843",
-    "display" : "Enfants et adolescents (sans autre indication)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Enfants et adolescents (SAI)"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "844",
-    "display" : "Patients de soins sans consentement",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Patients S.C.C."
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

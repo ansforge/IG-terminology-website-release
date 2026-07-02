@@ -1,4 +1,4 @@
-# ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS - Terminologies de Santé v1.11.0
+# ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,13 +8,12 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:20260629120000 |
-| Active as of 2026-06-29 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
-| *Other Identifiers:*urn:oid:1.2.250.1.213.1.1.4.331 | |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS | *Version*:5.0.0 |
+| Active as of 2026-05-29 | *Computable Name*:ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS |
 | **Usage:**Workflow Task:  | |
 
  
-Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provient de l’élément ‘templateId’ (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d’association 
+Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à partir de l’élement CDA ‘templateId’. La correspondance entre templateId et formatCode est assurée par cette table d’association. 
 
 
 
@@ -25,15 +24,12 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
   "resourceType" : "ConceptMap",
   "id" : "ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "url" : "https://mos.esante.gouv.fr/NOS/ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-  "identifier" : {
-    "value" : "urn:oid:1.2.250.1.213.1.1.4.331"
-  },
-  "version" : "20260629120000",
+  "version" : "5.0.0",
   "name" : "ASS_A11_CorresModeleCDA_XdsFormatCode_CISIS",
   "title" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-05-29T14:49:05+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -42,7 +38,7 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
       "value" : "https://esante.gouv.fr"
     }]
   }],
-  "description" : "Lorsque le corps du CDA est structuré, la métadonnée 'formatCode' provient de l'élément 'templateId' (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d'association",
+  "description" : "Pour le document CDA, la métadonnée XDS 'formatCode' est calculé à partir de l'élement CDA 'templateId'. La correspondance entre templateId et formatCode est assurée par cette table d'association.",
   "useContext" : [{
     "code" : {
       "system" : "http://terminology.hl7.org/CodeSystem/usage-context-type",
@@ -58,7 +54,7 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
       "code" : "FRA"
     }]
   }],
-  "sourceUri" : "https://mos.esante.gouv.fr/NOS/JDV-ModeleDocumentCDA",
+  "sourceUri" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-modele-document-cda-cisis",
   "targetUri" : "https://mos.esante.gouv.fr/NOS/JDV_J10-XdsFormatCode-CISIS/FHIR/JDV-J10-XdsFormatCode-CISIS",
   "group" : [{
     "source" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
@@ -102,13 +98,6 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
       "code" : "1.2.250.1.213.1.1.1.9",
       "target" : [{
         "code" : "urn:asip:ci-sis:idap:2011",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "1.2.250.1.213.1.1.1.10",
-      "target" : [{
-        "code" : "urn:asip:ci-sis:cva:2017",
         "equivalence" : "equivalent"
       }]
     },
@@ -214,13 +203,6 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
       "code" : "1.2.250.1.213.1.1.1.2.1.5",
       "target" : [{
         "code" : "urn:asip:ci-sis:ppv:2009",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "1.2.250.1.213.1.1.1.20",
-      "target" : [{
-        "code" : "urn:asip:ci-sis:pps-paerpa:2017",
         "equivalence" : "equivalent"
       }]
     },
@@ -351,27 +333,6 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
       }]
     },
     {
-      "code" : "1.2.250.1.213.1.1.1.48",
-      "target" : [{
-        "code" : "urn:asip:ci-sis:dlu-dlu-dom:2022",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "1.2.250.1.213.1.1.1.49",
-      "target" : [{
-        "code" : "urn:asip:ci-sis:dlu-fludt-dom:2022",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "1.2.250.1.213.1.1.1.50",
-      "target" : [{
-        "code" : "urn:asip:ci-sis:dlu-fludr-dom:2022",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
       "code" : "1.2.250.1.213.1.1.1.52",
       "target" : [{
         "code" : "urn:ans:ci-sis:bio-ep-bio:2022",
@@ -393,37 +354,23 @@ Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provien
       }]
     },
     {
-      "code" : "1.2.250.1.213.1.11.1.19.1",
+      "code" : "1.2.250.1.213.1.1.1.59",
       "target" : [{
-        "code" : "urn:ans:ci-sis:mso-rougeole:2026",
+        "code" : "urn:ans:ci-sis:trod:2024",
         "equivalence" : "equivalent"
       }]
     },
     {
-      "code" : "1.2.250.1.213.1.11.1.19.2",
+      "code" : "1.2.250.1.213.1.1.1.61",
       "target" : [{
-        "code" : "urn:ans:ci-sis:mso-dengue:2026",
+        "code" : "urn:asip:ci-sis:ft-su:2024",
         "equivalence" : "equivalent"
       }]
     },
     {
-      "code" : "1.2.250.1.213.1.11.1.19.3",
+      "code" : "1.2.250.1.213.1.1.1.62",
       "target" : [{
-        "code" : "urn:ans:ci-sis:mso-chikungunya:2026",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "1.2.250.1.213.1.11.1.19.4",
-      "target" : [{
-        "code" : "urn:ans:ci-sis:mso-zika:2026",
-        "equivalence" : "equivalent"
-      }]
-    },
-    {
-      "code" : "1.2.250.1.213.1.11.1.19.5",
-      "target" : [{
-        "code" : "urn:ans:ci-sis:mso-westnile:2026",
+        "code" : "urn:asip:ci-sis:fr-su:2024",
         "equivalence" : "equivalent"
       }]
     }]

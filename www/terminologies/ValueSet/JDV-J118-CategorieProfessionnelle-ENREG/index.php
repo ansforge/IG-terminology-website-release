@@ -7,19 +7,19 @@ function Redirect($url)
 
 $accept = $_SERVER['HTTP_ACCEPT'];
 if (strpos($accept, 'application/json+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.json2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.json2');
 elseif (strpos($accept, 'application/fhir+json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.json1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.json1');
 elseif (strpos($accept, 'json') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.json');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.json');
 elseif (strpos($accept, 'application/xml+fhir') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.xml2');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.xml2');
 elseif (strpos($accept, 'application/fhir+xml') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.xml1');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.xml1');
 elseif (strpos($accept, 'html') !== false)
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.html');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.html');
 else 
-  Redirect('https://interop.esante.gouv.fr/terminologies/1.11.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.xml');
+  Redirect('https://interop.esante.gouv.fr/terminologies/1.10.0/ValueSet-JDV-J118-CategorieProfessionnelle-ENREG.xml');
 ?>
     
 You should not be seeing this page. If you do, PHP has failed badly.

@@ -1,4 +1,4 @@
-# Artifacts Summary - Terminologies de Santé v1.11.0
+# Artifacts Summary - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -45,7 +45,6 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Acces Artere CISIS](ValueSet-jdv-acces-artere-cisis.md) | JDV Acces Artere CISIS |
 | [JDV Acte Cse CISIS](ValueSet-jdv-acte-cse-cisis.md) | JDV Acte Cse CISIS |
 | [JDV Acte Obp CISIS](ValueSet-jdv-acte-obp-cisis.md) | JDV Acte Obp CISIS |
-| [JDV Acte Prelevement CISIS](ValueSet-jdv-acte-prelevement-cisis.md) | JDV Acte Prelevement CISIS |
 | [JDV ActeCs8 CISIS](ValueSet-jdv-acte-cs8-cisis.md) | JDV ActeCs8 CISIS |
 | [JDV Activite CISIS](ValueSet-jdv-activite-cisis.md) | JDV Activite CISIS |
 | [JDV Addiction CISIS](ValueSet-jdv-addiction-cisis.md) | JDV Addiction CISIS |
@@ -177,7 +176,6 @@ These define sets of codes used by systems conforming to this implementation gui
 | [JDV Historique Grossesses CISIS](ValueSet-jdv-historique-grossesses-cisis.md) | JDV Historique Grossesses CISIS |
 | [JDV Human Substance Administration Site CISIS](ValueSet-jdv-human-substance-administration-site-cisis.md) | JDV Human Substance Administration Site CISIS |
 | [JDV Imagerie Objectif Reference CISIS](ValueSet-jdv-imagerie-objectif-reference-cisis.md) | JDV Imagerie Objectif Reference CISIS |
-| [JDV Immunisation Vrs CISIS](ValueSet-jdv-immunisation-vrs-cisis.md) | JDV Immunisation Vrs CISIS |
 | [JDV Immunization Approach Site Code CISIS](ValueSet-jdv-immunization-approach-site-code-cisis.md) | JDV Immunization Approach Site Code CISIS |
 | [JDV Immunization Route Code CISIS](ValueSet-jdv-immunization-route-code-cisis.md) | JDV Immunization Route Code CISIS |
 | [JDV Impact Mutation CISIS](ValueSet-jdv-impact-mutation-cisis.md) | JDV Impact Mutation CISIS |
@@ -738,16 +736,8 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv Etat De Conscience CISIS](ValueSet-jdv-etat-de-conscience-cisis.md) | Jdv Etat De Conscience CISIS |
 | [Jdv Exposition West Nile CISIS](ValueSet-jdv-exposition-west-nile-cisis.md) | Jdv Exposition West Nile CISIS |
 | [Jdv J240 Activite Sanitaire Diverse Regulee Finess](ValueSet-jdv-j240-activite-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS contenant les activités sanitaires, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
-| [Jdv J287 Type Autorite Regulation Finess](ValueSet-jdv-j287-type-autorite-regulation-finess.md) | Jeu de valeurs FINESS contenant les types d’autorité de régulation pour Finess |
 | [Jdv J289 Type Groupe Gco Finess](ValueSet-jdv-j289-type-groupe-gco-finess.md) | Jeu de valeurs Finess contenant les types de Groupement de Coopération Organique (GCO). |
-| [Jdv J293 Type Engagement Finess](ValueSet-jdv-j293-type-engagement-finess.md) | Jeu de valeurs FINESS contenant les grands types d’engagement pouvant être associés dans FINESS+ à des structures ou des activités. |
-| [Jdv J294 Document Justificatif Finess](ValueSet-jdv-j294-document-justificatif-finess.md) | Jeu de valeurs FINESS contenant les types de documents justificatifs pouvant être associés à une entité FINESS |
-| [Jdv J295 Document Informatif Finess](ValueSet-jdv-j295-document-informatif-finess.md) | Jeu de valeurs FINESS contenant les types de documents informatifs pouvant être associés à une entité FINESS |
 | [Jdv J296 Type Role Entite Groupe Finess](ValueSet-jdv-j296-type-role-entite-groupe-finess.md) | Jeu de valeurs FINESS contenant les types de rôles que peuvent exercer des entités participants à des groupements |
-| [Jdv J297 Type Evenement Administratif Finess](ValueSet-jdv-j297-type-evenement-administratif-finess.md) | Jeu de valeurs FINESS contenant les événements affectant le cycle de vie des entités et activités enrgeistrées dans FINESS+ |
-| [Jdv J298 Macro Etat Objet Administratif Finess](ValueSet-jdv-j298-macro-etat-objet-administratif-finess.md) | Jeu de valeurs FINESS contenant les macro-etat des structures FINESS qui dérivent de l’état de l’objet. Permet de distinguer les structures actives de celles inactives. |
-| [Jdv J299 Systeme Information Finess](ValueSet-jdv-j299-systeme-information-finess.md) | Jeu de valeurs FINESS contenant les systemes d’information en relation avec FINESS |
-| [Jdv J300 Type Objet Finess](ValueSet-jdv-j300-type-objet-finess.md) | Jeu de valeurs FINESS contenant les types d’objet enregistrés et manipulés dans FINESS+. |
 | [Jdv J301 Finess Statut Juridique Niv1 Finess](ValueSet-jdv-j301-finess-statut-juridique-niv1-finess.md) | Ce JDV contient les agrégats Niv1 des statust juridiques (JDV créé à l’image de l’ancienne TRE_R70-FinessAgregatStatutJuridique) |
 | [Jdv J302 Finess Statut Juridique Niv2 Finess](ValueSet-jdv-j302-finess-statut-juridique-niv2-finess.md) | Ce JDV contient les agrégats Niv2 des statuts juridiques (JDV créé à l’image de l’ancienne TRE_R68-FinessAgregatStatutJuridiqueNiv1) |
 | [Jdv J303 Finess Statut Juridique Niv3 Finess](ValueSet-jdv-j303-finess-statut-juridique-niv3-finess.md) | Ce JDV contient les agrégats Niv3 des statuts juridiques (JDV créé à l’image de l’ancienne TRE_R69-FinessAgregatStatutJuridiqueNiv2) |
@@ -758,13 +748,10 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J308 Categorie Entite Geographique Exercice Niv2 Finess](ValueSet-jdv-j308-categorie-entite-geographique-exercice-niv2-finess.md) | Ce JDV contient tous les agrégats Niv 2 d’EGE (JDV crée à l’image de l’ancienneTRE_R63-AgregatCategorieEtablissementNiv1) |
 | [Jdv J309 Categorie Entite Geographique Exercice Niv3 Finess](ValueSet-jdv-j309-categorie-entite-geographique-exercice-niv3-finess.md) | Ce JDV contient tous les agrégats Niv3 d’EGE (JDV créé à l’image de l’ancienneTRE_R64-AgregatCategorieEtablissementNiv2) |
 | [Jdv J310 Categorie Entite Geographique Exercice Finess](ValueSet-jdv-j310-categorie-entite-geographique-exercice-finess.md) | Ce JDV contient toutes les catégories d’EGE hors agrégat (JDV crée à l’image de l’ancienne TRE R66) |
-| [Jdv J313 Usage Adresse Finess](ValueSet-jdv-j313-usage-adresse-finess.md) | Jeu de valeurs FINESS contenant les usages des adresses associées aux entités enregistrés dans FINESS+ |
-| [Jdv J314 Engagement Finess](ValueSet-jdv-j314-engagement-finess.md) | Jeu de valeurs FINESS contenant les engagements, de tous les types d’engagement confondus, pouvant être associés dans FINESS+ à des structures ou des activités. |
 | [Jdv J318 Activite Enseignement Regulee Finess](ValueSet-jdv-j318-activite-enseignement-regulee-finess.md) | Ce JDV contient toutes les AER hors agrégat (JDV créé à l’image de l’ancienne TRE_R281-DisciplineEnseignement) |
 | [Jdv J319 Activite Enseignement Regulee Niv1 Finess](ValueSet-jdv-j319-activite-enseignement-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 1 |
 | [Jdv J320 Activite Enseignement Regulee Niv2 Finess](ValueSet-jdv-j320-activite-enseignement-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 2 |
 | [Jdv J321 Activite Enseignement Regulee Niv3 Finess](ValueSet-jdv-j321-activite-enseignement-regulee-niv3-finess.md) | Jeu de valeurs FINESS contenant les activités d’enseignement régulées de niveau 3 |
-| [Jdv J322 Type Act Enseignement Regulee Finess](ValueSet-jdv-j322-type-act-enseignement-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d’activité d’enseignement régulée |
 | [Jdv J323 Activite Sociale Regulee Finess](ValueSet-jdv-j323-activite-sociale-regulee-finess.md) | Ce JDV contient toute les ASOCR hors agrégat (JDV créé à l’image de l’ancienne TRE_R280-DisciplineEquipementSocial) |
 | [Jdv J324 Activite Sociale Regulee Niv1 Finess](ValueSet-jdv-j324-activite-sociale-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 1 |
 | [Jdv J325 Activite Sociale Regulee Niv2 Finess](ValueSet-jdv-j325-activite-sociale-regulee-niv2-finess.md) | Jeu de valeurs FINESS contenant les activités régulées pour le social de niveau 2 |
@@ -772,32 +759,20 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J328 Public Activite Smsse Regulee Finess](ValueSet-jdv-j328-public-activite-smsse-regulee-finess.md) | Ce JDV contient tous les publics hors agrégat (JDV créé à l’image de l’ancienne TRE_R279-Clientele) |
 | [Jdv J329 Public Activite Smsse Regulee Niv1 Finess](ValueSet-jdv-j329-public-activite-smsse-regulee-niv1-finess.md) | Ce JDV contient tous les agregats Niv 1 des publics (JDV créé à l’image de l’ancienne TRE_R293-AgregatClienteleNiv2) |
 | [Jdv J330 Public Activite Smsse Regulee Niv2 Finess](ValueSet-jdv-j330-public-activite-smsse-regulee-niv2-finess.md) | Ce JDV contient tous les agregats de publics de niveau 2 (JDV créé à l’image de l’ancienne TRE_R294-AgregatClienteleNiv3) |
-| [Jdv J331 Type Act Sociale Regulee Finess](ValueSet-jdv-j331-type-act-sociale-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d’activité sociale régulée |
-| [Jdv J332 Type Act Medico Sociale Regulee Finess](ValueSet-jdv-j332-type-act-medico-sociale-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d’activité médico sociale régulée |
 | [Jdv J333 Activite Sanitaire Diverse Regulee Niv Finess](ValueSet-jdv-j333-activite-sanitaire-diverse-regulee-niv1-finess.md) | Jeu de valeurs FINESS contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 1 |
 | [Jdv J334 Activite Sanitaire Diverse Regulee Niv2 Finess](ValueSet-jdv-j334-activite-sanitaire-diverse-regulee-niv2-finess.md) | Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 2 |
 | [Jdv J335 Activite Sanitaire Diverse Regulee Niv3 Finess](ValueSet-jdv-j335-activite-sanitaire-diverse-regulee-niv3-finess.md) | Jeu de valeurs Finess contenant toutes les Activités Sanitaires Diverses Régulées (ASDR) de niveau 3 |
-| [Jdv J336 Type Act Sanitaire Diverse Regulee Finess](ValueSet-jdv-j336-type-act-sanitaire-diverse-regulee-finess.md) | Jeu de valeurs FINESS reprenant les types d’activité sanitaire régulée |
-| [Jdv J340 Type Act De Soin Amf Finess](ValueSet-jdv-j340-type-act-de-soin-amf-finess.md) | Jeu de valeurs FINESS reprenant les types d’activité de soin AMF |
-| [Jdv J341 Type Act Autre Acte Soin Finess](ValueSet-jdv-j341-type-act-autre-acte-soin-finess.md) | Jeu de valeurs FINESS reprenant les types d’activité pour les autres actes de soin |
-| [Jdv J342 Type Act Soumise A Reconnaissance Finess](ValueSet-jdv-j342-type-act-soumise-a-reconnaissance-finess.md) | Jeu de valeurs FINESS reprenant les types d’activité soumise à reconnaissance |
-| [Jdv J344 Type Act Equipement Materiel Lourd Finess](ValueSet-jdv-j344-type-act-equipement-materiel-lourd-finess.md) | Jeu de valeurs FINESS reprenant les types d’activité associés aux équipements matériel lourds |
-| [Jdv J350 Type Act De Soin Amm Finess](ValueSet-jdv-j350-type-act-de-soin-amm-finess.md) | Jeu de valeurs FINESS reprenant les types d’activité de soin AMM |
 | [Jdv J351 Appareil Amm Finess](ValueSet-jdv-j351-appareil-amm-finess.md) | Liste des appareils AMM vus de FINESS |
 | [Jdv J352 Nature Capacite Finess](ValueSet-jdv-j352-nature-capacite-finess.md) | Jeu de valeurs FINESS contenant les capacités utilisées par FINESS |
 | [Jdv J353 Type Statut Capacite Finess](ValueSet-jdv-j353-type-statut-capacite-finess.md) | Jeu de valeurs FINESS permettant de préciser le statut des capacités concernées par FINESS |
 | [Jdv J354 Habilitation Finess](ValueSet-jdv-j354-habilitation-finess.md) | Jeu de valeurs FINESS contenant les habilitations associées aux capacités des structures FINESS |
 | [Jdv J357 Genre Capacite Finess](ValueSet-jdv-j357-genre-capacite-finess.md) | Jeu de valeurs FINESS contenant les genres de capacités utilisés par FINESS |
-| [Jdv J358 Type Autorite Enregistrement Finess](ValueSet-jdv-j358-type-autorite-enregistrement-finess.md) | Jeu de valeurs FINESS contenant les types d’autorité d’enregistrement pour Finess |
-| [Jdv J359 Autorite Enregistrement Finess](ValueSet-jdv-j359-autorite-enregistrement-finess.md) | Jeu de valeurs FINESS contenant les autorité d’enregistrement pour Finess |
-| [Jdv J360 Autorite Regulation Finess](ValueSet-jdv-j360-autorite-regulation-finess.md) | Jeu de valeurs FINESS contenant les autorités de régulation pour Finess |
 | [Jdv J364 Type Fermeture Pm Finess](ValueSet-jdv-j364-type-fermeture-pm-finess.md) | Jeu de valeurs FINESS contenant les types de fermeture dédiées aux personnes morales FINESS |
 | [Jdv J365 Type Fermeture Ege Finess](ValueSet-jdv-j365-type-fermeture-ege-finess.md) | Jeu de valeurs FINESS contenant les types de fermeture dédiées aux entités géographiques FINESS |
 | [Jdv J366 Statut Bilan Projet Personnalise Ms](ValueSet-jdv-j366-statut-bilan-projet-personnalise-ms.md) | Statut du bilan du projet personnalisé. |
 | [Jdv J367 Type Projet Personnalise Ms](ValueSet-jdv-j367-type-projet-personnalise-ms.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
 | [Jdv J368 Categorie Etablissement Cisis](ValueSet-jdv-j368-categorie-etablissement-cisis.md) | JDV pour le CISIS reprenant l’ensemble des valeurs actives et obsolètes de niveau 4 dans la TreR397CategorieEntiteGeographiqueExercice |
 | [Jdv J370 Type Contrat Sejour Ms](ValueSet-jdv-j370-type-contrat-sejour-ms.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal. |
-| [Jdv J371 Etat Objet Administratif Finess](ValueSet-jdv-j371-etat-objet-administratif-finess.md) | Jeu de valeurs FINESS contenant les états élémentaires que peuvent porter les entités et activités FINESS+ |
 | [Jdv J373 Type Autorite](ValueSet-jdv-j373-type-autorite.md) | Jeu de valeurs contenant les différents types d’autorité (actifs ou inactifs) |
 | [Jdv J374 Autorite](ValueSet-jdv-j374-autorite.md) | Jeu de valeurs contenant la liste des autorités quelque soit la catégorie d’autorité et quelque soir l’état de l’autorité active ou inactive) |
 | [Jdv J375 Autorite Ordre](ValueSet-jdv-j375-autorite-ordre.md) | Jeu de valeurs comportant uniquement les autorités de type Ordre. |
@@ -811,8 +786,6 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J385 Composition Foyer Ms](ValueSet-jdv-j385-composition-foyer-ms.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Jdv J386 Type Enseignement Specialise Ms](ValueSet-jdv-j386-type-enseignement-specialise-ms.md) | Type d’enseignement spécialisé. |
 | [Jdv J387 Role Participant Ms](ValueSet-jdv-j387-role-participant-ms.md) | Rôle du participant vis à vis de l’événement (mandataire judiciaire, structure en charge de l’événement). |
-| [Jdv J389 Sexe Insee](ValueSet-jdv-j389-sexe-insee.md) | Liste de valeurs du code Sexe issues de l’INSEE pour le RPPS |
-| [Jdv J390 Origine Interruption Exercice Rpps](ValueSet-jdv-j390-origine-interruption-exercice-rpps.md) | Jeu de valeurs à destination du RPPS : L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours). |
 | [Jdv J391 Niveau Diplome Ms](ValueSet-jdv-j391-niveau-diplome-ms.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
 | [Jdv J392 Type Courrier Ms](ValueSet-jdv-j392-type-courrier-ms.md) | Type de courrier en France. |
 | [Jdv J393 Utilisation Canal Communication Ms](ValueSet-jdv-j393-utilisation-canal-communication-ms.md) | Précise l’utilisation du canal de communication. |
@@ -831,7 +804,7 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Jdv J406 Motif Absence Ms](ValueSet-jdv-j406-motif-absence-ms.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
 | [Jdv J407 Type Repas Ms](ValueSet-jdv-j407-type-repas-ms.md) | Type de repas. |
 | [Jdv J408 Orientation Ms](ValueSet-jdv-j408-orientation-ms.md) | Ensemble des orientations vers un Service d’éducation spéciale et de soins à domicile (SESSAD), un Service d’accompagnement familial et d’éducation précoce (SAFEP), un enseignement adapté (SEGPA/EREA) ou une unité d’enseignement. |
-| [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livraison” pour une personne physique. |
+| [Jdv J409 Type Adresse Ms](ValueSet-jdv-j409-type-adresse-ms.md) | Type d’adresse postale. |
 | [Jdv J410 Categorie Permis Conduire Ms](ValueSet-jdv-j410-categorie-permis-conduire-ms.md) | Catégorie de permis de conduire. |
 | [Jdv J411 Niveau Scolaire Ms](ValueSet-jdv-j411-niveau-scolaire-ms.md) | Niveau scolaire de l’usager en France. |
 | [Jdv J418 Activite Sanitaire Diverse Regulee Active](ValueSet-jdv-j418-activite-sanitaire-diverse-regulee-active.md) | Jeu de valeurs des activités sanitaires actives, utilisé pour décrire les Activités Sanitaires Diverses Régulées (ASDR) |
@@ -877,14 +850,12 @@ These define sets of codes used by systems conforming to this implementation gui
 | [Vs Tre R373 Type Personne Morale All](ValueSet-vs-tre-r373-type-personne-morale-all.md) | Jeu de valeurs ALL contenant les types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). |
 | [Vs Tre R374 Nature Activite Smsse Regulee All](ValueSet-vs-tre-r374-nature-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les grandes natures d’activité SMSSE exercées par les entités FINESS+. |
 | [Vs Tre R375 Mode Financement All](ValueSet-vs-tre-r375-mode-financement-all.md) | Jeu de valeurs ALL contenant les modes de financement associés aux capacités de certaines activitées SMSSE. |
-| [Vs Tre R378 Motif Arrete All](ValueSet-vs-tre-r378-motif-arrete-all.md) | Jeu de valeurs ALL contenant les motifs des arrêtés enregsitrées dans FINESS+ |
 | [Vs Tre R381 Activite Amm All](ValueSet-vs-tre-r381-activite-amm-all.md) | Jeu de valeurs ALL contenant les activités de soin AMM |
 | [Vs Tre R382 Modalite Act De Soin Amm All](ValueSet-vs-tre-r382-modalite-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les modalités pour les activités de soin AMM |
 | [Vs Tre R383 Mention Act De Soin Amm All](ValueSet-vs-tre-r383-mention-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les mentions pour les activités de soin AMM |
 | [Vs Tre R384 Pratique Therapeutique Specifique Act De Soin Amm All](ValueSet-vs-tre-r384-pratique-therapeutique-specifique-act-soin-amm-all.md) | Jeu de valeurs ALL contenant les pratiques thérapeutiques spécifiques pour les activités de soin AMM |
 | [Vs Tre R385 Declaration Act De Soin Amm All](ValueSet-vs-tre-r385-declaration-act-de-soin-amm-all.md) | Jeu de valeurs ALL contenant les déclarations pour les activités de soin AMM |
 | [Vs Tre R388 Type Logement All](ValueSet-vs-tre-r388-type-logement-all.md) | Jeu de valeurs ALL contenant les types de logement associés aux capacités des structures FINESS |
-| [Vs Tre R392 Type Act Smsse Regulee All](ValueSet-vs-tre-r392-type-act-smsse-regulee-all.md) | Jeu de valeurs ALL contenant l’ensemble des codes pour les types d’activitées SMSSE régulées |
 | [Vs Tre R404 Mode Fonctionnement Activite Smsse Regulee All](ValueSet-vs-tre-r404-mode-fonctionnement-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modes de fonctinonemment des activités ssmsse régulées |
 | [Vs Tre R405 Modalite Activite Smsse Regulee All](ValueSet-vs-tre-r405-modalite-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les modalités des activités SSMSE régulées |
 | [Vs Tre R406 Forme Activite Smsse Regulee All](ValueSet-vs-tre-r406-forme-activite-smsse-regulee-all.md) | Jeu de valeurs ALL contenant les formes des activites smsse régulées |
@@ -899,7 +870,6 @@ These define sets of codes used by systems conforming to this implementation gui
 | [jDV Specimen Type Rougeole CISIS](ValueSet-jdv-specimen-type-rougeole-cisis.md) | jDV Specimen Type Rougeole CISIS |
 | [jDV Specimen Type West Nile CISIS](ValueSet-jdv-specimen-type-westnile-cisis.md) | jDV Specimen Type West Nile CISIS |
 | [jDV Specimen Type Zika CISIS](ValueSet-jdv-specimen-type-zika-cisis.md) | jDV Specimen Type Zika CISIS |
-| [jdv Destination Transfert 2 CISIS](ValueSet-jdv-destination-transfert-2-cisis.md) | jdv Destination Transfert 2 CISIS |
 | [x_ActMoodDocumentObservation](ValueSet-jdv-hl7-v3-xActMoodDocumentObservation.md) | x_ActMoodDocumentObservation |
 | [x_BasicConfidentialityKind](ValueSet-jdv-hl7-v3-xBasicConfidentialityKind-cisis.md) | x_BasicConfidentialityKind |
 
@@ -928,7 +898,6 @@ These define new code systems used by systems conforming to this implementation 
 | [Classification internationale des maladies et des problèmes de santé connexes - 10ème révision - Version française à usage PMSI (Programme Médicalisé des Systèmes d'Information)](CodeSystem-terminologie-cim-10.md) | La Classification Internationale des Maladies (CIM) permet d’établir les statistiques sanitaires (morbi-mortalité) partout dans le monde. Elle est gérée par l’Organisation Mondiale de la Santé qui publie une mise à jour annuelle. En France l’ATIH édite et publie une version complète du volume 1 de la CIM–10 à usage PMSI. La CIM–10 est aussi utilisée pour alimenter les dossier médicaux électronique des patients.Elle est destinée à être progressivement remplacée par la CIM 11 |
 | [Classification internationale des maladies et des problèmes de santé connexes - 11ème révision](CodeSystem-terminologie-cim11-mms.md) | La Classification Internationale des Maladies (CIM) dans sa 11ème révision permet d’établir, partout dans le monde, les statistiques sanitaires. Fournissant un langage commun pour alimenter les dossiers patients électroniques, la CIM11 permet d’échanger des données médicales de manière cohérente et normalisée pour de nombreux cas d’usage (production de soins, coordination professionnelle, pilotage, et exploitation de données) |
 | [Classification internationale des soins primaires - 2ème version](CodeSystem-terminologie-cisp.md) | La Classification internationale des soins primaires (CISP) est la version française de l’International Classification of Primary Care (ICPC). Elle permet de coder trois éléments de consultation de médecine générale : motifs de rencontre (du point de vue du patient), problèmes de santé diagnostiqués et procédures de soins.Elle trouve sa place au sein de la famille des classifications de l’OMS comme classification associée à la CIM (classification internationale des maladies), l’ICF (classification internationale du fonctionnement, du handicap et de la santé) et l’ICHI (classification internationale des interventions de santé). |
-| [Classification internationale du fonctionnement, du handicap et de la santé](CodeSystem-terminologie-icf.md) | Classification internationale du fonctionnement, du handicap et de la santé. |
 | [Concept Properties](CodeSystem-concept-properties.md) | CodeSystem permettant définir les propriétés NOS utilisées dans les CodeSystem NOS |
 | [Condition Clinical Status Codes](CodeSystem-condition-clinical.md) | Preferred value set for Condition Clinical Status. |
 | [ConditionClinicalSupplementFr](CodeSystem-condition-clinical-supplement-fr.md) | Traduction Française |
@@ -942,7 +911,6 @@ These define new code systems used by systems conforming to this implementation 
 | [European Medical device nomenclature](CodeSystem-terminologie-emdn.md) | La nomenclature européenne des dispositifs médicaux (EMDN) est la nomenclature que doivent utiliser les fabricants pour enregistrer leurs dispositifs médicaux dans EUDAMED, base de données européenne sur les dispositifs médicaux. Il s’agit d’alimenter le système européen d’identification des dispositifs fondé sur un identifiant unique du dispositif (IUD) pour en faciliter la traçabilité. |
 | [French module](CodeSystem-11000315107-20250621.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [International Classification of Diseases for Oncology, version 3.](CodeSystem-icd-o-3.md) | International Classification of Diseases for Oncology, version 3. For more information see http://www.who.int/classifications/icd/adaptations/oncology/en/. |
-| [Jeux de valeurs pour la Note de Vaccination](CodeSystem-terminologie-catalogue-vaccins.md) | Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d’Interopérabilité du Médicament(ANSM), de l’ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix |
 | [Liste des Actes Inovants Hors Nomenclature](CodeSystem-terminologie-lahn.md) | La liste des actes innovants hors nomenclature (LAHN) a été mise en place par la direction générale de l’offre de soins (DGOS) en 2024, dans le cadre du développement de l’innovation en santé. Elle est la fusion du RIHN et de la Liste Complémentaire (LC). L’objectif est de soutenir l’innovation et de la dynamiser par une prise en charge et une évaluation rapide des actes innovants. La LAHN contient une liste d’actes innovants (biologie et anatomocytopathologie) pris en charge à titre transitoire moyennant un recueil de données pour leur évaluation. |
 | [Media Type](CodeSystem-v3-mediaType.md) | Internet Assigned Numbers Authority (IANA) Mime Media Types. Identifies the type of the encapsulated data and identifies a method to interpret or render the data. The IANA defined domain of media types is established by the Internet standard RFC 2045 [http://www.ietf.org/rfc/rfc2045.txt] and 2046 [http://www.ietf.org/rfc/rfc2046.txt]. RFC 2046 defines the media type to consist of two parts: 1. top level media type, and
 1. media subtype However, this HL7 datatypes specification treats the entire media type as one atomic code symbol in the form defined by IANA, i.e., top level type followed by a slash “/” followed by media subtype. Currently defined media types are registered in a database [http://www.iana.org/assignments/media-types/index.html] maintained by IANA. Currently several hundred different MIME media types are defined, with the list growing rapidly. In general, all those types defined by the IANA MAY be used.
@@ -967,7 +935,7 @@ These define new code systems used by systems conforming to this implementation 
 | [RoleClassSupplementFr](CodeSystem-RoleClass-supplement-fr.md) | Traduction Française |
 | [RoleCode](CodeSystem-v3-RoleCode.md) | A set of codes further specifying the kind of Role; specific classification codes for further qualifying RoleClass codes. |
 | [RoleCodeSupplementFr](CodeSystem-RoleCode-supplement-fr.md) | Traduction Française |
-| [SNOMED CT core](CodeSystem-900000000000207008-20260601.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
+| [SNOMED CT core](CodeSystem-900000000000207008-20260501.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [Service type](CodeSystem-service-type.md) | This value set defines an example set of codes of service-types. |
 | [SpecimenType](CodeSystem-v3-SpecimenType.md) | **** MISSING DESCRIPTION **** |
 | [SpecimenTypeSupplementFr](CodeSystem-specimenType-supplement-fr.md) | Traduction Française |
@@ -1231,34 +1199,24 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R360 Type Role Entite Groupe](CodeSystem-tre-r360-type-role-entite-groupe.md) | Nomenclature des types de rôles que peuvent exercer des entités participants à des groupements |
 | [Tre R361 Fonction Publique](CodeSystem-tre-r361-fonction-publique.md) | Nomenclature des versants de la fonction publique |
 | [Tre R362 Type Budget](CodeSystem-tre-r362-type-budget.md) | Nomenclature des types de budget associés aux Entités Géographiques d’Exercice (EGE) dans FINESS+ |
-| [Tre R364 Type Document Administratif](CodeSystem-tre-r364-type-document-administratif.md) | Nomenclature des types de documents administratif ( exemple : agrément, convention…) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS |
-| [Tre R365 Etat Objet](CodeSystem-tre-r365-etat-objet.md) | Nomenclature des états élémentaires d’un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+ |
-| [Tre R366 Type Objet](CodeSystem-tre-r366-type-objet.md) | Nomenclature des types d’objets du MOS. Remarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+ |
 | [Tre R370 Role Relation Ege](CodeSystem-tre-r370-role-relation-ege.md) | Nomenclature des types de rôle existant entre les Entités Géographiques d’Exercice (EGE) au sein d’une PM-SMSSE |
 | [Tre R371 Type Groupe Gcc](CodeSystem-tre-r371-type-groupe-gcc.md) | Nomenclature des types de groupement Concernant les groupement de structure on a 2 catégories de regroupement : les Groupement de Coopération Conventionnelle, les Groupement de Coopération Organique |
 | [Tre R372 Type Groupe Gco](CodeSystem-tre-r372-type-groupe-gco.md) | Nomenclature des types de Groupement de Coopération Organique (GCO) |
 | [Tre R373 Type Personne Morale](CodeSystem-tre-r373-type-personne-morale.md) | Nomenclature des types de PM-SMSSE (Personne Morale du champ Sanitaire, Médico-social, Social et Enseignement sur les professions de ces champs). Remarque : Cette TRE est juste initialisée à minima et a vocation à porter d’autres valurs. |
 | [Tre R374 Nature Activite Smsse Regulee](CodeSystem-tre-r374-nature-activite-smsse-regulee.md) | Nomenclature des grandes natures d’activité SMSSE exercées par les entités FINESS+ |
 | [Tre R375 Mode Financement](CodeSystem-tre-r375-mode-financement.md) | Nomenclature des modes de financement associés aux capacités de certaines activitées SMSSE |
-| [Tre R376 Type Evenement Administratif](CodeSystem-tre-r376-type-evenement-administratif.md) | Nomenclature des événements administratifs pertinents pour un cycle de vie d’un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+ |
-| [Tre R377 Usage Adresse](CodeSystem-tre-r377-usage-adresse.md) | Nomenclature des types des adresses Remarque : Cette TRE est juste intialisée avec les codes FINESS. |
-| [Tre R378 Motif Arrete](CodeSystem-tre-r378-motif-arrete.md) | Nomenclature des motifs des arrêtés Remarque : Cette TRE est juste initialisée avec les codes FINESS+ |
-| [Tre R379 Systeme Information](CodeSystem-tre-r379-systeme-information.md) | Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements Remarque : Cette TRE est initialisée avec les codes FINESS |
 | [Tre R381 Activite Amm](CodeSystem-tre-r381-activite-amm.md) | Nomenclature des activités de soin AMM |
 | [Tre R382 Modalite Act De Soin Amm](CodeSystem-tre-r382-modalite-act-de-soin-amm.md) | Nomenclature des modalités pour les activités de soin AMM |
 | [Tre R383 Mention Act De Soin Amm](CodeSystem-tre-r383-mention-act-de-soin-amm.md) | Nomenclature des mentions pour les activités de soin AMM |
 | [Tre R384 Pratique Therapeutique Specifique Act De Soin Amm](CodeSystem-tre-r384-pratique-therapeutique-specifique-act-de-soin-amm.md) | Nomenclature des pratiques thérapeutiques spécifiques pour les activités de soin AMM |
 | [Tre R385 Declaration Act De Soin Amm](CodeSystem-tre-r385-declaration-act-de-soin-amm.md) | Nomenclature des déclarations pour les activités de soin AMM |
-| [Tre R386 Macro Etat Objet Administratif](CodeSystem-tre-r386-macro-etat-objet-administratif.md) | Nomenclature des macro-etat des structures FINESS qui dérivent de l’état de l’objet. Permet de distinguer les structures actives de celles inactives. |
 | [Tre R387 Type Groupement](CodeSystem-tre-r387-type-groupement.md) | Nomenclature des types de groupement utilisables dans FINESS. Groupement de coopération conventionnelle ou Groupement de coopération organique |
 | [Tre R388 Type Logement](CodeSystem-tre-r388-type-logement.md) | Nomenclature des types de logement associées aux capacités Remarque : cette nomenclature est initialisée avec les besoins FINESS+ |
 | [Tre R389 Statut Bilan Projet Personnalise](CodeSystem-tre-r389-statut-bilan-projet-personnalise.md) | Statut du bilan du projet personnalisé. |
 | [Tre R390 Type Projet Personnalise](CodeSystem-tre-r390-type-projet-personnalise.md) | Cette nomenclature donne le type de projet personnalisé qui est un document co-construit par l’usager, son entourage familial et professionnel du médico-social. |
-| [Tre R392 Type Act Smsse Regulee](CodeSystem-tre-r392-type-act-smsse-regulee.md) | Type activité SMSSE régulée |
 | [Tre R393 Type Contrat Sejour](CodeSystem-tre-r393-type-contrat-sejour.md) | Type de contrat conclu entre l’établissement/service et la personne/son représentant légal lors de son entrée en établissement |
 | [Tre R394 Competence Metier](CodeSystem-tre-r394-competence-metier.md) | Type de savoir-faire opérationnel, transversal ou spécifique, acquis et exercé à titre non exclusif dans le cadre d’une activité professionnelle reconnue. |
-| [Tre R395 Engagement](CodeSystem-tre-r395-engagement.md) | Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention |
-| [Tre R396 Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités (autorités Ordres, autorités ARS, …) |
+| [Tre R396 Autorite](CodeSystem-tre-r396-autorite.md) | liste des autorités structurée en plusieurs types d’autorités : Ordres, ARS, … |
 | [Tre R397 Categorie Entite Geographique Exercice](CodeSystem-tre-r397-categorie-entite-geographique-exercice.md) | Cette TRE hierarchique remplace les TRE actuelles TRE_R66_CategorieEtablissement, TRE-R63-AgregatCategorieEtablissementNiv1, TRE-R64-AgregatCategorieEtablissementNiv2, TRE-R65-AgregatCategorieEtablissement et ASS-X10-AgregatCategorieEtablissement. Cette TRE possède des propriétésspécifiques : le niveau d’agrégat des EGE de 1 à 4 (du plus large au plus fin), le parent d’un agrégat d’EGE ou d’un EGE, la relation entre un code et le domaine ( TRE R62), un indicateur pour les EGE spécifiques au ROR ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés |
 | [Tre R400 Finess Statut Juridique](CodeSystem-tre-r400-finess-statut-juridique.md) | Cette TRE hiérarchique remplace les TRE_R68-FinessAgregatStatutJuridiqueNiv1, TRE_R69-FinessAgregatStatutJuridiqueNiv2, TRE_R70-FinessAgregatStatutJuridique, TRE_R72-FinessStatutJuridique, et l’association ASS_X11_FinessAgregatStatutJuridique. Cette TRE possède des propriétés spécifiques : le niveau d’agrégat des statuts juridiques de 1 à 4 ( du plus large au plus fin), le parent d’un agrégat de statuts juridiques ou d’un statut juridique, un indicateur pour les statuts juridiques spécifiques à RPPS ( non finess) et les relations nécessaires à la construction des JDV dynamiques associés |
 | [Tre R401 Activite Sociale Regulee](CodeSystem-tre-r401-activite-sociale-regulee.md) | Cette TRE hiérarchique remplace les éléments suivants : TRE_R280-DisciplineEquipementSocial, TRE_R298-AgregatDisciplineEquipSocNiv1, TRE_R299-AgregatDisciplineEquipSocNiv2, TRE_R300-AgregatDisciplineEquipSocNiv3 et ASS_X14_AgregatDisciplineEquipementSocial.Cette TRE possède des propriétés spécifiques :1. Le niveau d’agrégat des ASOCR de 1 à 4 (du plus large au plus fin)
@@ -1267,14 +1225,11 @@ These define new code systems used by systems conforming to this implementation 
  |
 | [Tre R402 Activite Enseignement Regulee](CodeSystem-tre-r402-activite-enseignement-regulee.md) | Liste des activités d’enseignement régulées organisée en 3 niveaux d’agrégation. Annule et remplace les anciennes TRE xxxEnseignement |
 | [Tre R403 Public Activite Smsse Regulee](CodeSystem-tre-r403-public-activite-smsse-regulee.md) | Cette TRE hiérarchique remplace les TRE actuelles TRE_R279-Clientele, TRE_R293-AgregatClienteleNiv2, TRE_R294-AgregatClienteleNiv3 et l’association ASS_X13-AgregatClientele. Cette TRE possède de nouvelles propriétés : le niveau d’agrégat des publics de 1 à 3 (du plus large au plus fin), le parent d’un agrégat de publics ou d’un public ainsi que les relations nécessaires à la construction des JDV dynamiques associés |
-| [Tre R404 Mode Fonctionnement Activite Smsse Regulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées. Cette TRE remplace la TRE_R209-TypeActivite |
+| [Tre R404 Mode Fonctionnemet Activite Smsse Regulee](CodeSystem-tre-r404-mode-fonctionnement-activite-smsse-regulee.md) | Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite |
 | [Tre R405 Modalite Activite Smsse Regulee](CodeSystem-tre-r405-modalite-activite-smsse-regulee.md) | Modalités des activités SSMSE régulées, remplace la TRE_R275-ModaliteActivite |
 | [Tre R406 Forme Activite Smsse Regulee](CodeSystem-tre-r406-forme-activite-smsse-regulee.md) | Formes des activites smsse régulées, remplace la TRE_R276-FormeActivite |
 | [Tre R407 Composition Foyer](CodeSystem-tre-r407-composition-foyer.md) | Désigne avec qui vit l’usager dans son logement. |
 | [Tre R408 Type Enseignement Specialise](CodeSystem-tre-r408-type-enseignement-specialise.md) | Type d’enseignement spécialisé. |
-| [Tre R409 Type Duree Interruption Exercice](CodeSystem-tre-r409-type-duree-interruption-exercice.md) | Le type de durée d’une interruption d’exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l’interruption s’inscrit dans une durée limitée ou si elle s’applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l’analyse de la capacité d’exercice du professionnel et pour la gestion de ses effets dans les systèmes d’information, notamment en matière de publication des données et de gestion des accès. |
-| [Tre R410 Perimetre Interruption Exercice](CodeSystem-tre-r410-perimetre-interruption-exercice.md) | Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé. |
-| [Tre R411 Sexe Insee](CodeSystem-tre-r411-sexe-insee.md) | Liste de valeurs du code Sexe pour l’INSEE - En attente de faire directement référence aux Terminologies INSEE |
 | [Tre R412 Niveau Diplome](CodeSystem-tre-r412-niveau-diplome.md) | Niveau de diplôme permettant d’indiquer le type de formation nécessaire pour occuper un poste dans le monde professionnel. |
 | [Tre R413 Categorie Permis Conduire](CodeSystem-tre-r413-categorie-permis-conduire.md) | Catégorie de permis de conduire. |
 | [Tre R414 Niveau Scolaire](CodeSystem-tre-r414-niveau-scolaire.md) | Niveau scolaire de l’usager en France. |
@@ -1290,11 +1245,9 @@ These define new code systems used by systems conforming to this implementation 
 | [Tre R424 Motif Absence](CodeSystem-tre-r424-motif-absence.md) | Motif pour lequel l’usager n’est pas présent lors d’un événement organisé par sa structure de rattachement. |
 | [Tre R425 Type Repas](CodeSystem-tre-r425-type-repas.md) | Type de repas. |
 | [Tre R426 Orientation](CodeSystem-tre-r426-orientation.md) | Orientation vers un Service d’éducation spéciale et de soins à domicile (SESSAD) ou vers un Service d’accompagnement familial et d’éducation précoce (SAFEP) |
-| [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale tel que “Adresse du domicile”, “Adresse de livraison” pour une personne physique. |
-| [Tre R436 Origine Interruption Exercice](CodeSystem-tre-r436-origine-interruption-exercice.md) | L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours). |
+| [Tre R427 Type Adresse](CodeSystem-tre-r427-type-adresse.md) | Type d’adresse postale. |
 | [V3SpecimenTypeSupplementFr](CodeSystem-v3-SpecimenType-supplement-fr.md) | Traduction Française |
 | [employmentStatus](CodeSystem-v2-0066.md) | HL7-defined code system of concepts which specify an employment status of a person. Used in HL7 Version 2 messaging in the GT1 segment. |
-| [module français SNOMED CT](CodeSystem-11000315107-20260621.md) | SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO). |
 | [specimenCollectionMethod](CodeSystem-v2-0488.md) | HL7-defined code system of concepts specifying the specimen collection method. Used in HL7 Version 2.x messaging in the SPM segment. |
 | [specimenType](CodeSystem-v2-0487.md) | HL7-defined code system of concepts that describe the precise nature of an entity that may be used as the source material for an observation. This is one of two code systems that are used instead of table 0070 (code system 2.16.840.1.113883.18.28) which conflated specimen types and specimen collection methods. Used in HL7 Version 2.x messaging in the SPM segment. |
 
@@ -1320,7 +1273,7 @@ These define transformations to convert between codes by systems conforming with
 
 | | |
 | :--- | :--- |
-| [ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS](ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.md) | Lorsque le corps du CDA est structuré, la métadonnée ‘formatCode’ provient de l’élément ‘templateId’ (modèle du document CDA). La correspondance entre templateId et formatCode est assurée par cette table d’association |
+| [ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS](ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.md) | Pour le document CDA, la métadonnée XDS ‘formatCode’ est calculé à partir de l’élement CDA ‘templateId’. La correspondance entre templateId et formatCode est assurée par cette table d’association. |
 | [ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS](ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.md) | Association qui permet de deduire l’attribut XDS ‘formatCode’ à partir de l’attribut ‘component/nonXMLBody/text@mediaType’ du CDA N1 |
 | [ASS_A13_TypeEvenement_FluxStandardise](ConceptMap-ASS-A13-TypeEvenement-FluxStandardise.md) | Correspondance entre un type d’évènement et le flux standardisé correspondant |
 | [ASS_A14_FamilleActivite_ActiviteOperationnelle](ConceptMap-ASS-A14-FamilleActivite-ActiviteOperationnelle.md) | Association Famille activité - Activité opérationnelle |

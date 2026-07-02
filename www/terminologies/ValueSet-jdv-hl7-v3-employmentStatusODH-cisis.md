@@ -1,4 +1,4 @@
-# EmploymentStatusODH - Terminologies de Santé v1.11.0
+# EmploymentStatusODH - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-employmentStatusODH-cisis | *Version*:20260619134041 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:EmploymentStatusODH |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/ValueSet/jdv-hl7-v3-employmentStatusODH-cisis | *Version*:20260420150249 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:EmploymentStatusODH |
 | *Other Identifiers:*OID:2.16.840.1.113883.1.11.20562 | | |
 
  
@@ -46,20 +46,7 @@ Requête sur le SMT
 | Definition | An explanation of the meaning of the concept |
 | Comments | Additional notes about how to use the code |
 
-| | | |
-| :--- | :--- | :--- |
-|  [<prev](ValueSet-jdv-hl7-days-of-week.demande.md) | [top](#top) |  [next>](ValueSet-jdv-hl7-v3-employmentStatusODH-cisis-testing.md) |
 
-IG © 2020+
-[ANS](https://esante.gouv.fr). Package ans.fr.terminologies#1.11.0 based on
-[FHIR 4.0.1](http://hl7.org/fhir/R4/). Generated
-2026-06-30
-
-Liens:
-[Table des matières ](toc.md)|
-[QA ](qa.md)|
-[Historique des versions ](https://interop.esante.gouv.fr/terminologies/history.html)|
-[New Issue](https://github.com/ansforge/IG-terminologie-de-sante/issues/new/choose?title=)
 
 ## Resource Content
 
@@ -68,8 +55,8 @@ Liens:
   "resourceType" : "ValueSet",
   "id" : "jdv-hl7-v3-employmentStatusODH-cisis",
   "meta" : {
-    "versionId" : "10",
-    "lastUpdated" : "2026-06-22T13:58:07.621+02:00",
+    "versionId" : "9",
+    "lastUpdated" : "2026-04-20T16:57:30.959+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "language" : "fr-FR",
@@ -84,12 +71,12 @@ Liens:
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:2.16.840.1.113883.1.11.20562"
   }],
-  "version" : "20260619134041",
+  "version" : "20260420150249",
   "name" : "EmploymentStatusODH",
   "title" : "EmploymentStatusODH",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T13:40:41+01:00",
+  "date" : "2026-04-20T15:02:49+01:00",
   "publisher" : "Agence du Numérique en Santé(ANS) -2 - 10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "EmploymentStatusODH",
   "jurisdiction" : [{
@@ -101,7 +88,7 @@ Liens:
   "compose" : {
     "include" : [{
       "system" : "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
-      "version" : "5.0.0",
+      "version" : "2018-08-12",
       "concept" : [{
         "code" : "Employed",
         "display" : "En activité"

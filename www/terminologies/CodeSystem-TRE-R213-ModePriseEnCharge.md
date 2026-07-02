@@ -1,4 +1,4 @@
-# TRE_R213_ModePriseEnCharge - Terminologies de Santé v1.11.0
+# TRE_R213_ModePriseEnCharge - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R213_ModePriseEnCharge |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge | *Version*:20260330120000 | |
+| Active as of 2026-03-30 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R213_ModePriseEnCharge |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.13 | | |
 
  
@@ -32,8 +32,8 @@ Mode de la prise en charge
   "resourceType" : "CodeSystem",
   "id" : "TRE-R213-ModePriseEnCharge",
   "meta" : {
-    "versionId" : "14",
-    "lastUpdated" : "2026-06-29T11:13:41.233+02:00",
+    "versionId" : "13",
+    "lastUpdated" : "2026-05-05T20:11:56.538+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "language" : "fr-FR",
@@ -48,11 +48,11 @@ Mode de la prise en charge
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.13"
   }],
-  "version" : "20260629120000",
+  "version" : "20260330120000",
   "name" : "TRE_R213_ModePriseEnCharge",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-03-30T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Mode de la prise en charge",
   "jurisdiction" : [{
@@ -63,7 +63,7 @@ Mode de la prise en charge
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 60,
+  "count" : 59,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -1485,22 +1485,6 @@ Mode de la prise en charge
     {
       "code" : "dateMaj",
       "valueDateTime" : "2021-03-26T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "60",
-    "display" : "Dispositif expérimental",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",

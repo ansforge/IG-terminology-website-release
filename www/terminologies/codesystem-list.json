@@ -10,16 +10,7 @@
   },
   {
     "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/11000315107/version/20260621",
-    "status" : "active",
-    "name" : "SNOMED_CT",
-    "title" : "module français SNOMED CT",
-    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
-    "oids" : ["2.16.840.1.113883.6.96"]
-  },
-  {
-    "url" : "http://snomed.info/sct",
-    "version" : "http://snomed.info/sct/900000000000207008/version/20260601",
+    "version" : "http://snomed.info/sct/900000000000207008/version/20260501",
     "status" : "active",
     "name" : "SNOMED_CT",
     "title" : "SNOMED CT core",
@@ -298,7 +289,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_A06-FormatCodeComplementaire/FHIR/TRE-A06-FormatCodeComplementaire",
-    "version" : "20260629120000",
+    "version" : "20251029120000",
     "status" : "active",
     "name" : "TRE_A06_FormatCodeComplementaire",
     "title" : null,
@@ -748,7 +739,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R209-TypeActivite/FHIR/TRE-R209-TypeActivite",
-    "version" : "20260629120000",
+    "version" : "20240223120000",
     "status" : "active",
     "name" : "TRE_R209_TypeActivite",
     "title" : null,
@@ -766,16 +757,16 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
-    "version" : "20260629120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R210_ActeSpecifique",
     "title" : null,
-    "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
+    "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
     "oids" : ["1.2.250.1.213.3.3.11"]
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R211-ActiviteOperationnelle/FHIR/TRE-R211-ActiviteOperationnelle",
-    "version" : "20260629120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R211_ActiviteOperationnelle",
     "title" : null,
@@ -784,7 +775,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R212-Equipement/FHIR/TRE-R212-Equipement",
-    "version" : "20260629120000",
+    "version" : "20260601120000",
     "status" : "active",
     "name" : "TRE_R212_Equipement",
     "title" : null,
@@ -793,7 +784,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R213-ModePriseEnCharge/FHIR/TRE-R213-ModePriseEnCharge",
-    "version" : "20260629120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R213_ModePriseEnCharge",
     "title" : null,
@@ -865,7 +856,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R220-ModeleDocumentCDAStructure/FHIR/TRE-R220-ModeleDocumentCDAStructure",
-    "version" : "20260629120000",
+    "version" : "20251029120000",
     "status" : "active",
     "name" : "TRE_R220_ModeleDocumentCDAStructure",
     "title" : null,
@@ -1027,7 +1018,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R239-PublicPrisEnCharge/FHIR/TRE-R239-PublicPrisEnCharge",
-    "version" : "20260629120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R239_PublicPrisEnCharge",
     "title" : null,
@@ -1072,7 +1063,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R243-CompetenceSpecifique/FHIR/TRE-R243-CompetenceSpecifique",
-    "version" : "20260629120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R243_CompetenceSpecifique",
     "title" : null,
@@ -1081,7 +1072,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R244-CategorieOrganisation/FHIR/TRE-R244-CategorieOrganisation",
-    "version" : "20260629120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TRE_R244_CategorieOrganisation",
     "title" : null,
@@ -1378,7 +1369,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R279-Clientele/FHIR/TRE-R279-Clientele",
-    "version" : "20260629120000",
+    "version" : "20240927120000",
     "status" : "active",
     "name" : "TRE_R279_Clientele",
     "title" : null,
@@ -1387,7 +1378,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R280-DisciplineEquipementSocial/FHIR/TRE-R280-DisciplineEquipementSocial",
-    "version" : "20260601120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R280_DisciplineEquipementSocial",
     "title" : null,
@@ -1864,7 +1855,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R338-ModaliteAccueil/FHIR/TRE-R338-ModaliteAccueil",
-    "version" : "20260629120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TRE_R338_ModaliteAccueil",
     "title" : null,
@@ -1909,7 +1900,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R343-FonctionLieu/FHIR/TRE-R343-FonctionLieu",
-    "version" : "20260601120000",
+    "version" : "20251222120000",
     "status" : "active",
     "name" : "TRE_R343_FonctionLieu",
     "title" : null,
@@ -1918,7 +1909,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R344-NiveauExpertise/FHIR/TRE-R344-NiveauExpertise",
-    "version" : "20260629120000",
+    "version" : "20251222120000",
     "status" : "active",
     "name" : "TRE_R344_NiveauExpertise",
     "title" : null,
@@ -2251,7 +2242,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R60-AutoriteEnregistrement/FHIR/TRE-R60-AutoriteEnregistrement",
-    "version" : "20260629120000",
+    "version" : "20240628120000",
     "status" : "active",
     "name" : "TRE_R60_AutoriteEnregistrement",
     "title" : null,
@@ -2458,7 +2449,7 @@
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/TRE_R90-TypeAE/FHIR/TRE-R90-TypeAE",
-    "version" : "20260629120000",
+    "version" : "20231215120000",
     "status" : "active",
     "name" : "TRE_R90_TypeAE",
     "title" : null,
@@ -2671,7 +2662,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis",
-    "version" : "202606190000",
+    "version" : "202604200000",
     "status" : "active",
     "name" : "TerminologieCISIS",
     "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
@@ -2688,7 +2679,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r347-activite-sanitaire-diverse-regulee",
-    "version" : "20260629120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TreR347ActiviteSanitaireDiverseRegulee",
     "title" : "Tre R347 Activite Sanitaire Diverse Regulee",
@@ -2721,33 +2712,6 @@
     "title" : "Tre R362 Type Budget",
     "description" : "Nomenclature des types de budget associés aux Entités Géographiques d'Exercice (EGE) dans FINESS+",
     "oids" : ["1.2.250.1.213.1.6.1.256"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r364-type-document-administratif",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR364TypeDocumentAdministratif",
-    "title" : "Tre R364 Type Document Administratif",
-    "description" : "Nomenclature des types de documents administratif ( exemple : agrément, convention...) Remarque : Cette nomenclature est initialisée avec les types de documents informatifs et justificatifs pouvant être associés à une entité FINESS",
-    "oids" : ["1.2.250.1.213.1.6.1.258"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r365-etat-objet",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR365EtatObjet",
-    "title" : "Tre R365 Etat Objet",
-    "description" : "Nomenclature des états élémentaires d'un objet du MOS organisés en etat actifs et en etats inactifs. Remarque : Cette nomenclature est initialisée avec les états que peuvent porter les entités et activités FINESS+",
-    "oids" : ["1.2.250.1.213.1.6.1.259"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r366-type-objet",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR366TypeObjet",
-    "title" : "Tre R366 Type Objet",
-    "description" : "Nomenclature des types d’objets du MOS. \nRemarque : Cette nomenclature est juste initialisée avec les types d’objet FINESS+",
-    "oids" : ["1.2.250.1.213.1.6.1.260"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r370-role-relation-ege",
@@ -2804,42 +2768,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.290"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r376-type-evenement-administratif",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR376TypeEvenementAdministratif",
-    "title" : "Tre R376 Type Evenement Administratif",
-    "description" : "Nomenclature des événements administratifs pertinents pour un cycle de vie d'un Objet de Santé (du MOS) Remarque : Cette nomenclature est initialisée avec les évenements affectant le cycle de vie des entités et activités enregistrées dans FINESS+",
-    "oids" : ["1.2.250.1.213.1.6.1.291"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r377-usage-adresse",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR377UsageAdresse",
-    "title" : "Tre R377 Usage Adresse",
-    "description" : "Nomenclature des types des adresses\nRemarque : Cette TRE est juste intialisée avec les codes FINESS.",
-    "oids" : ["1.2.250.1.213.1.6.1.292"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r378-motif-arrete",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR378MotifArrete",
-    "title" : "Tre R378 Motif Arrete",
-    "description" : "Nomenclature des motifs des arrêtés\nRemarque : Cette TRE est juste initialisée avec les codes FINESS+",
-    "oids" : ["1.2.250.1.213.1.6.1.293"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r379-systeme-information",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR379SystemeInformation",
-    "title" : "Tre R379 Systeme Information",
-    "description" : "Nomenclature des systemes d’information généralement déclarés pour définir les caractéristiques des identifiants ou des événements\nRemarque : Cette TRE est initialisée avec les codes FINESS",
-    "oids" : ["1.2.250.1.213.1.6.1.294"]
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r381-activite-amm",
     "version" : "20260330120000",
     "status" : "active",
@@ -2885,15 +2813,6 @@
     "oids" : ["1.2.250.1.213.1.6.1.300"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r386-macro-etat-objet-administratif",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR386MacroEtatObjetAdministratif",
-    "title" : "Tre R386 Macro Etat Objet Administratif",
-    "description" : "Nomenclature des macro-etat des structures FINESS qui dérivent de l'état de l'objet. Permet de distinguer les structures actives de celles inactives.",
-    "oids" : ["1.2.250.1.213.1.6.1.301"]
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r387-type-groupement",
     "version" : "20260330120000",
     "status" : "active",
@@ -2930,15 +2849,6 @@
     "oids" : ["1.2.250.1.213.3.3.258"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r392-type-act-smsse-regulee",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR392TypeActSmsseRegulee",
-    "title" : "Tre R392 Type Act Smsse Regulee",
-    "description" : "Type activité SMSSE régulée",
-    "oids" : ["1.2.250.1.213.1.6.1.374"]
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r393-type-contrat-sejour",
     "version" : "20250521120000",
     "status" : "active",
@@ -2957,26 +2867,17 @@
     "oids" : ["1.2.250.1.213.1.6.1.375"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r395-engagement",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR395Engagement",
-    "title" : "Tre R395 Engagement",
-    "description" : "Nomenclature hiérarchique des engagements associés dans FINESS+ aux Personnes morales, aux entités géographique, aux groupements ou à leurs activités. Cette TRE remplace la TRE-R278-Convention",
-    "oids" : ["1.2.250.1.213.1.6.1.376"]
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r396-autorite",
-    "version" : "20260629120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TreR396Autorite",
     "title" : "Tre R396 Autorite",
-    "description" : "liste des autorités (autorités Ordres, autorités ARS, ...)",
+    "description" : "liste des autorités structurée en plusieurs types d'autorités : Ordres, ARS, ...",
     "oids" : ["1.2.250.1.213.1.6.1.377"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r397-categorie-entite-geographique-exercice",
-    "version" : "20260601120000",
+    "version" : "20260505120000",
     "status" : "active",
     "name" : "TreR397CategorieEntiteGeographiqueExercice",
     "title" : "Tre R397 Categorie Entite Geographique Exercice",
@@ -2985,7 +2886,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r400-finess-statut-juridique",
-    "version" : "20260629120000",
+    "version" : "20260223120000",
     "status" : "active",
     "name" : "TreR400FinessStatutJuridique",
     "title" : "Tre R400 Finess Statut Juridique",
@@ -2994,7 +2895,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r401-activite-sociale-regulee",
-    "version" : "20260601120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "TreR401ActiviteSocialeRegulee",
     "title" : "Tre R401 Activite Sociale Regulee",
@@ -3012,7 +2913,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r403-public-activite-smsse-regulee",
-    "version" : "20260629120000",
+    "version" : "20260223120000",
     "status" : "active",
     "name" : "TreR403PublicActiviteSmsseRegulee",
     "title" : "Tre R403 Public Activite Smsse Regulee",
@@ -3021,11 +2922,11 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r404-mode-fonctionnement-activite-smsse-regulee",
-    "version" : "20260629120000",
+    "version" : "20260223120000",
     "status" : "active",
-    "name" : "TreR404ModeFonctionnementActiviteSmsseRegulee",
-    "title" : "Tre R404 Mode Fonctionnement Activite Smsse Regulee",
-    "description" : "Mode de fonctinonemment des activités ssmsse régulées.\nCette TRE remplace la TRE_R209-TypeActivite",
+    "name" : "TreR404ModeFonctionnemetActiviteSmsseRegulee",
+    "title" : "Tre R404 Mode Fonctionnemet Activite Smsse Regulee",
+    "description" : "Mode de fonctinonemment des activités ssmsse régulées, remplace la TRE_R209-TypeActivite",
     "oids" : ["1.2.250.1.213.1.6.1.383"]
   },
   {
@@ -3063,33 +2964,6 @@
     "title" : "Tre R408 Type Enseignement Specialise",
     "description" : "Type d'enseignement spécialisé.",
     "oids" : ["1.2.250.1.213.3.3.262"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r409-type-duree-interruption-exercice",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR409TypeDureeInterruptionExercice",
-    "title" : "Tre R409 Type Duree Interruption Exercice",
-    "description" : " Le type de durée d’une interruption d’exercice décrit le caractère temporel de la mesure appliquée au professionnel. Il permet de distinguer si l’interruption s’inscrit dans une durée limitée ou si elle s’applique sans limite de durée. Cette information précise le cadre temporel de la mesure et facilite son interprétation. Elle constitue un élément structurant pour l’analyse de la capacité d’exercice du professionnel et pour la gestion de ses effets dans les systèmes d’information, notamment en matière de publication des données et de gestion des accès.",
-    "oids" : ["1.2.250.1.213.1.6.1.396"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r410-perimetre-interruption-exercice",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR410PerimetreInterruptionExercice",
-    "title" : "Tre R410 Perimetre Interruption Exercice",
-    "description" : " Le périmètre d’une interruption d’exercice décrit l’étendue de la restriction appliquée à l’activité du professionnel. Cette information permet d’apprécier concrètement les possibilités d’exercice du professionnel et contribue à la gestion des droits associés, notamment en matière d’accès aux services numériques en santé.",
-    "oids" : ["1.2.250.1.213.1.6.1.397"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r411-sexe-insee",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR411SexeInsee",
-    "title" : "Tre R411 Sexe Insee",
-    "description" : "Liste de valeurs du code Sexe pour l'INSEE - En attente de faire directement référence aux Terminologies INSEE",
-    "oids" : ["1.2.250.1.213.2.82"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r412-niveau-diplome",
@@ -3232,17 +3106,8 @@
     "status" : "draft",
     "name" : "TreR427TypeAdresse",
     "title" : "Tre R427 Type Adresse",
-    "description" : "Type d'adresse postale tel que \"Adresse du domicile\", \"Adresse de livraison\" pour une personne physique.",
+    "description" : "Type d'adresse postale.",
     "oids" : ["1.2.250.1.213.3.3.278"]
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/tre-r436-origine-interruption-exercice",
-    "version" : "20260629120000",
-    "status" : "active",
-    "name" : "TreR436OrigineInterruptionExercice",
-    "title" : "Tre R436 Origine Interruption Exercice",
-    "description" : "L’origine d’une interruption d’exercice correspond à l’autorité juridique ou administrative ayant prononcé la mesure. Cette information permet d’identifier le cadre dans lequel la décision a été prise et d’en comprendre le contexte. Elle facilite son interprétation, notamment pour apprécier les modalités d’application de la mesure (portée, exécution, éventuels recours).",
-    "oids" : ["1.2.250.1.213.1.6.1.402"]
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/CodeSystem/v2-0487-supplement-fr",
@@ -3262,7 +3127,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/concept-properties",
-    "version" : "20260629120000",
+    "version" : "20260330120000",
     "status" : "active",
     "name" : "ConceptProperties",
     "title" : "Concept Properties",
@@ -3287,19 +3152,11 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-bdpm",
-    "version" : "2026-06-01",
+    "version" : "2026-05-05",
     "status" : "active",
     "name" : "BDPM",
     "title" : "Base de données publique du médicament",
     "description" : "LA BDPM est un des référentiels du médicament gérée et distribuée par l’ANSM. Elle recense l’ensemble des spécialités et des présentations effectivement commercialisées durant les 5 dernières années. De ce fait, elle ne propose pas un historique exhaustif des codes de présentation et spécialités, celui-ci peut être obtenu grâce à la base RCP disponible sur le site de l’ANSM"
-  },
-  {
-    "url" : "https://smt.esante.gouv.fr/terminologie-catalogue-vaccins",
-    "version" : "2026-04",
-    "status" : "active",
-    "name" : "Catalogue_Vaccins",
-    "title" : "Jeux de valeurs pour la Note de Vaccination",
-    "description" : "Le Catalogue Vaccins permet de codifier les vaccins administrés à un patient pour produire une note de vaccination à des fins de partage dans le DMP/MES. Il permet de faire le lien entre une spécialité pharmaceutique vaccinale et une maladie. Il est construit à partir des standards sémantiques nationaux et internationaux interopérables dont les sources sont issues du RUIM-Référentiel Unique d'Interopérabilité du Médicament(ANSM), de l'ATC-Anatomique Thérapeutique Chimique(OMS (WHOCC)) et de NUVA-Nomenclature Unifiée des Vaccins(SYADEM). Il est destiné en particulier aux utilisateurs du secteur médico-social ou paramédical lorsqu’ils ne disposent pas d’un accès à une base de médicaments et d’un lecteur de datamatrix"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-ccam",
@@ -3356,16 +3213,8 @@
     "oids" : ["1.2.250.1.213.2.68"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/terminologie-icf",
-    "version" : "2026-01",
-    "status" : "active",
-    "name" : "Classification_internationale_du_fonctionnement_du_handicap_et_de_la_sante_ICF",
-    "title" : "Classification internationale du fonctionnement, du handicap et de la santé",
-    "description" : "Classification internationale du fonctionnement, du handicap et de la santé."
-  },
-  {
     "url" : "https://smt.esante.gouv.fr/terminologie-lahn",
-    "version" : "2026-04",
+    "version" : "2026 v1.0",
     "status" : "active",
     "name" : "LAHN",
     "title" : "Liste des Actes Inovants Hors Nomenclature",
@@ -3374,7 +3223,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nabm",
-    "version" : "V105",
+    "version" : "V103",
     "status" : "active",
     "name" : "NABM",
     "title" : "Nomenclature des actes de biologie médicale",
@@ -3383,7 +3232,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-nuva",
-    "version" : "1.0.1108",
+    "version" : "1.0.1096",
     "status" : "active",
     "name" : "NUVA",
     "title" : "Nomenclature Unifiée des Vaccins",
@@ -3400,7 +3249,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms",
-    "version" : "2026-06",
+    "version" : "2026-05",
     "status" : "active",
     "name" : "Dictionnaire_SMS_Substance_Management_Services_",
     "title" : "Dictionnaire européen multilingue des substances entrant dans la composition de médicaments",
@@ -3409,7 +3258,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-standardterms",
-    "version" : "2026-01-30",
+    "version" : "2025-03-19",
     "status" : "active",
     "name" : "Standard_terms_EDQM",
     "title" : "Standard Terms Data Base Dictionnaire européen multilingue de termes normalisés descripteurs de médicaments",

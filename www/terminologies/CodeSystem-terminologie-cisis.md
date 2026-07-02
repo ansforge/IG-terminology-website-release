@@ -1,4 +1,4 @@
-# TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies - Terminologies de Santé v1.11.0
+# TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202606190000 | |
-| Active as of 2026-06-19 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
+| *Official URL*:https://smt.esante.gouv.fr/fhir/CodeSystem/terminologie-cisis | *Version*:202604200000 | |
+| Active as of 2026-04-20 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TerminologieCISIS |
 | *Other Identifiers:*OID:1.2.250.1.213.1.1.4.322 | | |
 
  
@@ -171,6 +171,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
 * [JdvQualificationFractionCisis](ValueSet-jdv-qualification-fraction-cisis.md)
 * [JdvRaisonAbsenceEtiologieCisis](ValueSet-jdv-raison-absence-etiologie-cisis.md)
 * [JdvRaisonNonRealisationCisis](ValueSet-jdv-raison-non-realisation-cisis.md)
+* [JdvRcpOrganeCisis](ValueSet-jdv-rcp-organe-cisis.md)
 * [JdvRegistreErnCisis](ValueSet-jdv-registre-ern-cisis.md)
 * [JdvRencontreCs8Cisis](ValueSet-jdv-rencontre-cs8-cisis.md)
 * [JdvRencontreCs9Cs24Cisis](ValueSet-jdv-rencontre-cs9-cs24-cisis.md)
@@ -267,8 +268,8 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   "resourceType" : "CodeSystem",
   "id" : "terminologie-cisis",
   "meta" : {
-    "versionId" : "11",
-    "lastUpdated" : "2026-06-19T16:11:01.373+02:00",
+    "versionId" : "10",
+    "lastUpdated" : "2026-04-20T11:25:29.352+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
@@ -282,12 +283,12 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.1.1.4.322"
   }],
-  "version" : "202606190000",
+  "version" : "202604200000",
   "name" : "TerminologieCISIS",
   "title" : "TerminologieCISIS - Terminologie des concepts non trouvés dans les autres terminologies",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-19T15:54:56-00:00",
+  "date" : "2026-04-20T11:06:51-00:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
   "description" : "Terminologie multi-domaines créée et maintenue par l'ANS contenant les termes non trouvés dans les autres terminologies internationales ou nationales.",
   "jurisdiction" : [{
@@ -7026,7 +7027,7 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
   },
   {
     "code" : "GEN-429",
-    "display" : "Nombre de kits salivaires",
+    "display" : "Nombre de kits",
     "property" : [{
       "code" : "creationDate",
       "valueDateTime" : "2026-03-03T00:00:00+01:00"
@@ -22962,38 +22963,6 @@ Terminologie multi-domaines créée et maintenue par l’ANS contenant les terme
     {
       "code" : "dateValid",
       "valueDateTime" : "2026-03-20T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-1351",
-    "display" : "Envoi kit salivaire au CNR",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2026-05-04T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2026-05-04T00:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "MED-1352",
-    "display" : "Envoi autres prélèvements au CNR",
-    "property" : [{
-      "code" : "creationDate",
-      "valueDateTime" : "2026-05-04T00:00:00+01:00"
-    },
-    {
-      "code" : "dateValid",
-      "valueDateTime" : "2026-05-04T00:00:00+01:00"
     },
     {
       "code" : "status",

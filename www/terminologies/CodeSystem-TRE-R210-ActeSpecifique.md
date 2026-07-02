@@ -1,4 +1,4 @@
-# TRE_R210_ActeSpecifique - Terminologies de Santé v1.11.0
+# TRE_R210_ActeSpecifique - Terminologies de Santé v1.10.0
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | | |
 | :--- | :--- | :--- |
-| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260629120000 | |
-| Active as of 2026-06-29 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
+| *Official URL*:https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique | *Version*:20260601120000 | |
+| Active as of 2026-06-01 | *Responsible:*Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris | *Computable Name*:TRE_R210_ActeSpecifique |
 | *Other Identifiers:*OID:1.2.250.1.213.3.3.11 | | |
 
  
@@ -29,22 +29,29 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   "resourceType" : "CodeSystem",
   "id" : "TRE-R210-ActeSpecifique",
   "meta" : {
-    "versionId" : "33",
-    "lastUpdated" : "2026-06-29T11:13:37.814+02:00",
+    "versionId" : "32",
+    "lastUpdated" : "2026-05-29T13:13:06.392+02:00",
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
+  "language" : "fr-FR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/resource-effectivePeriod",
+    "valuePeriod" : {
+      "start" : "2015-04-08T00:00:00+01:00"
+    }
+  }],
   "url" : "https://mos.esante.gouv.fr/NOS/TRE_R210-ActeSpecifique/FHIR/TRE-R210-ActeSpecifique",
   "identifier" : [{
     "system" : "urn:ietf:rfc:3986",
     "value" : "urn:oid:1.2.250.1.213.3.3.11"
   }],
-  "version" : "20260629120000",
+  "version" : "20260601120000",
   "name" : "TRE_R210_ActeSpecifique",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-06-29T12:00:00+01:00",
+  "date" : "2026-06-01T12:00:00+01:00",
   "publisher" : "Agence du Numérique en Santé (ANS) - 2-10 Rue d'Oradour-sur-Glane, 75015 Paris",
-  "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
+  "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -53,7 +60,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   }],
   "caseSensitive" : false,
   "content" : "complete",
-  "count" : 1687,
+  "count" : 1630,
   "property" : [{
     "code" : "dateValid",
     "uri" : "https://smt.esante.gouv.fr/fhir/concept-properties#dateValid",
@@ -3704,7 +3711,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "0182",
-    "display" : "Programme d’ETP labellisée - Asthme",
+    "display" : "Education thérapeutique labellisée du patient asthmatique (école de l'asthme)",
     "definition" : "Service soumis à autorisation de l'ARS proposants des séances d'éducation thérapeutique pour les enfants, les adolescents et les adultes afin d'améliorer la compréhension de la maladie, rendre le patient autonome et permettre l'adaptation de la maladie aux évènements de la vie (sport, vacances, sorties scolaires…)",
     "property" : [{
       "code" : "dateValid",
@@ -3712,7 +3719,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2024-01-26T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24174,7 +24181,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1281",
-    "display" : "Programme d'ETP labellisée - Affections neurologiques (hors AVC)",
+    "display" : "Programme d'ETP labellisée - Affections neurologiques",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une affection neurologique",
     "property" : [{
       "code" : "dateValid",
@@ -24182,7 +24189,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2023-05-26T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24191,7 +24198,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1282",
-    "display" : "Programme d'ETP labellisée - Diabète",
+    "display" : "Programme d'ETP labellisée - Diabète et pathologies endocrines",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant un diabète et des pathologies endocrines",
     "property" : [{
       "code" : "dateValid",
@@ -24199,7 +24206,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2024-05-31T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24267,7 +24274,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1286",
-    "display" : "Programme d'ETP labellisée - Maladies Cancéreuses (dont soins de support)",
+    "display" : "Programme d'ETP labellisée - Maladies Cancéreuses",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient pris en charge pour une pathologie oncologique",
     "property" : [{
       "code" : "dateValid",
@@ -24275,7 +24282,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2023-05-26T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24318,23 +24325,15 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1289",
-    "display" : "Programme d'ETP labellisée - Maladies rhumatologiques et du système ostéoarticulaire",
+    "display" : "Programme d'ETP labellisée - Maladies du système ostéoarticulaire",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une maladie du système ostéoarticulaire",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Prog. d'ETP labellisée - Maladies rhumatologiques et du système ostéoarticulaire"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2023-05-26T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -24343,23 +24342,15 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1290",
-    "display" : "Programme d'ETP labellisée - Maladies infectieuses chroniques (dont VIH et tuberculose)",
+    "display" : "Programme d'ETP labellisée - Maladies infectieuses",
     "definition" : "Ensemble coordonné d'activités éducatives destinées aux patients et à leur entourage et animées par une équipe de professionnels de santé avec l'aide d'autres acteurs (éducateur en activité physique adaptée, psychologue, etc.) pour un patient présentant une maladie infectieuse",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Prog. d'ETP labellisée - Maladies infectieuses chroniques"
-    }],
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2023-01-27T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2023-05-26T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -27155,7 +27146,7 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1447",
-    "display" : "Prescription de vaccin",
+    "display" : "Prescription de vaccination",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2024-06-28T12:00:00+01:00"
@@ -29462,14 +29453,14 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
   },
   {
     "code" : "1578",
-    "display" : "Centre expert en maladie de Parkinson",
+    "display" : "Centre expert Parkinson",
     "property" : [{
       "code" : "dateValid",
       "valueDateTime" : "2025-12-22T12:00:00+01:00"
     },
     {
       "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
+      "valueDateTime" : "2025-12-22T12:00:00+01:00"
     },
     {
       "code" : "status",
@@ -30430,1054 +30421,6 @@ Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une acti
     {
       "code" : "dateMaj",
       "valueDateTime" : "2026-06-01T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1632",
-    "display" : "Programme d’ETP labellisée - Accident Vasculaire Cérébral (AVC)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1633",
-    "display" : "Programme d’ETP labellisée - Allergologie",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1634",
-    "display" : "Programme d’ETP labellisée - Anticoagulants oraux (AVK, AOD, HBPM)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1635",
-    "display" : "Programme d’ETP labellisée - Maladies rares (dont maladies du sang, drépanocytose, amylose)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Prog. d’ETP labellisée - Maladies rares"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1636",
-    "display" : "Programme d’ETP labellisée - Maladies urologiques et gynécologiques",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1637",
-    "display" : "Programme d’ETP labellisée - Obésité",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1638",
-    "display" : "Programme d’ETP labellisée - Ophtalmologie",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1639",
-    "display" : "Programme d’ETP labellisée - Pathologies endocrines (hors diabète, hors obésité)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1640",
-    "display" : "Lyophilisation de lait maternel",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1641",
-    "display" : "Centre de Traitement des Brûlés (CTB)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1642",
-    "display" : "Remédiation psychosociale",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1643",
-    "display" : "Réadaptation psychomotrice d’un trouble du neurodéveloppement",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1644",
-    "display" : "Réadaptation psychomotrice d’un trouble de l’apprentissage",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1645",
-    "display" : "Réadaptation psychomotrice des troubles tonico-émotionnels",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1646",
-    "display" : "Réadaptation psychomotrice des troubles de la latéralisation",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1647",
-    "display" : "Réadaptation psychomotrice du schéma corporel et des représentations du corps",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1648",
-    "display" : "Réadaptation psychomotrice des troubles d’organisation spatio-temporelle",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1649",
-    "display" : "Réadaptation psychomotrice des troubles sensoriels",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1650",
-    "display" : "Réadaptation psychomotrice du développement psychomoteur",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1651",
-    "display" : "Réadaptation psychomotrice des troubles psychiques",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1652",
-    "display" : "Programmes d’Entraînement aux Habiletés Parentales",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1653",
-    "display" : "Relaxation psychomotrice",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1654",
-    "display" : "Evaluation et/ou prise en soins orthoptiques à visée visio-vestibulaire dans le cadre des troubles de l'équilibration et vertiges",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Eval. orthoptique à visée visio-vestibulaire pour trouble équilibre / vertige"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1655",
-    "display" : "Evaluation visuelle des troubles orthoptiques et neurovisuels dans le cadre des troubles du neuro-développement (TNV - TND)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Eval. visuelle des troubles orthoptiques et neurovisuels pour des TNV - TND"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1656",
-    "display" : "Bilan de dépistage réfractif et de l'amblyopie",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1657",
-    "display" : "Bilan visuel dans le cadre d'un renouvellement ou d'une adaptation de la correction optique (Protocole de coopération Renouvellement d'Optique (RNO))",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Bilan visuel pour renouvellement / adaptation de la correction optique (RNO)"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1658",
-    "display" : "Exploration du sens chromatique",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1659",
-    "display" : "Examen de la courbe d'adaptation à l'obscurité",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1660",
-    "display" : "Protocole de dépistage de la rétinopathie diabétique",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1661",
-    "display" : "Examen dépistage réfractif avec Photoscreener",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1662",
-    "display" : "Bilan visuel primo-prescription ou renouvellement de la correction optique (lunettes, lentilles, souples) pour les patients de 16 ans à 42 ans",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Bilan visuel de la correction optique (lunettes, lentilles, souples) 16 - 42 ans"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1663",
-    "display" : "Evaluation oculométrique par enregistrement – technique d'Eye tracking",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1664",
-    "display" : "Evaluation et/ou prise en soins dans le cadre de particularités sensorielles et perceptives (profil sensoriel de DUNN, BOGDASHINA)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Evaluation / prise en soins pour les particularités sensorielles et perceptives"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1665",
-    "display" : "Evaluation orthoptique et/ou prise en soins avec ajustement d'aide optique et nouvelle technologie associé à un handicap de la fonction visuelle (RV)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Eval orthopt / prise en soins d'un handicap visuel. avec d'aide optique et tech."
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1666",
-    "display" : "Evaluation et suivi dans le cadre de l'adaptation du logement lors d'un handicap de la fonction visuelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Eval et suivi dans le cadre de l'adaptat du logement à un handicap de la vision"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1667",
-    "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de la conduite automobile",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Eval orthoptique de la fonct visuelle / prise en soins pour la conduite auto"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1668",
-    "display" : "Evaluation orthoptique de la fonction visuelle et/ou prise en soins dans le cadre de l'activité physique adaptée",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Eval orthoptique de la fonct visuelle / PES pour de l'act. physique adaptée"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1669",
-    "display" : "Evaluation et/ou prise en soins orthoptiques neurovisuels des troubles de la cognition visuelle",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Eval / prise en soins orthoptiques neurovisuels des troubles de cognition visu"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1670",
-    "display" : "Evaluation et/ou prise en soins de la rééducation neurovisuelle visuo-vestibulaire (vertiges)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Eval / prise en soins de la rééducation neurovisuelle visuo-vestibulaire"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1671",
-    "display" : "Dispensation médicamenteuse à domicile en cas d’impossibilité du patient à se déplacer",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Dispense médicament à domicile en cas d’impossibilité du patient à se déplacer"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1672",
-    "display" : "Préparation des doses à administrer (PDA)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1673",
-    "display" : "Entretien pharmaceutique de la femme enceinte",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1674",
-    "display" : "Entretien pharmaceutique du patient asthmatique sous corticostéroïdes inhalés (CSI)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Entretien pharmaceutique du patient asthmatique sous CSI"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1675",
-    "display" : "Entretien pharmaceutique du patient sous anticoagulant oral (AOD/AVK)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1676",
-    "display" : "Entretien pharmaceutique du patient sous anticancéreux oraux",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1677",
-    "display" : "Entretien pharmaceutique du patient sous antalgique opioïde de pallier 2",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1678",
-    "display" : "Entretien bilan partagé de médication",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1679",
-    "display" : "Réseau France Santé",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1680",
-    "display" : "Autorisation par l’ARS pour la sous-traitance de préparation pharmaceutique",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1681",
-    "display" : "Orthèses et prothèses externes (orthopédie sur mesure)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1682",
-    "display" : "Orthèses et prothèses externes (de série)",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1683",
-    "display" : "Optique lunetterie",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1684",
-    "display" : "Audioprothèse",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1685",
-    "display" : "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant (protocole de coopération)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Prise en charge de l’éruption cutanée vésiculeuse prurigineuse chez l’enfant"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1686",
-    "display" : "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière (protocole de coopération)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Renouvellement du traitement de la rhino-conjonctivite allergique saisonnière"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1687",
-    "display" : "Distribution de comprimés d’iode en application du Plan Particulier d’Intervention (PPI)",
-    "designation" : [{
-      "language" : "fr-FR",
-      "use" : {
-        "system" : "http://snomed.info/sct",
-        "code" : "900000000000013009"
-      },
-      "value" : "Distribution de comprimés d’iode en application du PPI"
-    }],
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "status",
-      "valueCode" : "active"
-    }]
-  },
-  {
-    "code" : "1688",
-    "display" : "Remise du kit de dépistage du cancer colorectal",
-    "property" : [{
-      "code" : "dateValid",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
-    },
-    {
-      "code" : "dateMaj",
-      "valueDateTime" : "2026-06-29T12:00:00+01:00"
     },
     {
       "code" : "status",
