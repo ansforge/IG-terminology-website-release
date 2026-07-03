@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20251222120000"
+             dateMaj="20260601120000"
              dateValid="20220930120000"
              description="Destination d'usage du lieu"
              displayName="TRE_R343_FonctionLieu"
@@ -261,6 +261,15 @@
                   displayName="Local de cabinet de ville de pneumologie"
                   longDesignation="Local de cabinet de ville de pneumologie"
                   shortDesignation="Local de pneumologie"
+                  descriptionMetier=""/>
+         <Concept code="029"
+                  codeSystem="1.2.250.1.213.3.3.227"
+                  dateFin=""
+                  dateMaj="20260601120000"
+                  dateValid="20260601120000"
+                  displayName="Plateau de médecine nucléaire"
+                  longDesignation="Plateau de médecine nucléaire"
+                  shortDesignation="Plateau de médecine nucléaire"
                   descriptionMetier=""/>
       </ConceptList>
    </ValueSet>

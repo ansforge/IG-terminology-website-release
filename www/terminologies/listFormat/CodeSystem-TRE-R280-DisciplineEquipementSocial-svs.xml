@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260330120000"
+             dateMaj="20260601120000"
              dateValid="20181026120000"
              description="Disciplines d'équipement pour le social"
              displayName="TRE_R280_DisciplineEquipementSocial"
@@ -433,6 +433,15 @@
                   longDesignation="Centre de Vie pour Cas lourds"
                   shortDesignation="Héb.Ctre Vie C.Lourd"
                   descriptionMetier=""/>
+         <Concept code="570"
+                  codeSystem="1.2.250.1.213.1.6.1.133"
+                  dateFin=""
+                  dateMaj="20260601120000"
+                  dateValid="20260601120000"
+                  displayName="Unités résidentielles pour cas complexes"
+                  longDesignation="Unités résidentielles pour cas complexes"
+                  shortDesignation="URTSA"
+                  descriptionMetier="Ces unités ont le statut de MAS et sont adossées à des établissements médico-sociaux pour adultes handicapés existants mentionnés au 7° de l’article L.312-1 du CASF.&#xA;&#xA;Le fonctionnement et l’organisation des URTSA :&#xA;&#xA;- Ces unités ont une haute intensité de prise en charge des patients, avec des pathologies lourdes.&#xA;&#xA;- La création de ces unités nécessite des locaux spécifiques adaptés à l'accueil de ce public.&#xA;&#xA;- Le public ne peut pas être accueilli dans les locaux dans lesquels sont accueillis les autres publics car les personnes accueillies dans ces unités présentent des troubles majeurs du comportement et nécessitent un accompagnement spécifique, de très grande proximité, un écosystème sécurisé, une architecture adaptée et des professionnels experts notamment formés à la gestion de crise.&#xA;&#xA;- Ce sont généralement des très petites unités de vie avec deux unités de trois places ou trois unités de deux places au sein d'un unique bâtiment. Cette configuration permet d’avoir des espaces de vie collective et des espaces de prise en charge individuelle pour isoler les résidents du collectif.&#xA;&#xA;- L’accueil prévu est de 6 personnes."/>
          <Concept code="589"
                   codeSystem="1.2.250.1.213.1.6.1.133"
                   dateFin="20211126120000"

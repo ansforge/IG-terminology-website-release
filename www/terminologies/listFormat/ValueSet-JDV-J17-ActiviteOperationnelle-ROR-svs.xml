@@ -2,7 +2,7 @@
 <RetrieveValueSetResponse xmlns="urn:ihe:iti:svs:2008"
                           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
    <ValueSet dateFin=""
-             dateMaj="20260601120000"
+             dateMaj="20260629120000"
              dateValid="20160901000000"
              description="Activité Operationnelle - ROR"
              displayName="JDV_J17_ActiviteOperationnelle_ROR"
@@ -328,9 +328,6 @@
          <Concept code="147"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Urgences Médico-Psychologiques (CUMP)"/>
-         <Concept code="148"
-                  codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Urgences spécialisées cardiologiques"/>
          <Concept code="152"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Evaluation Médico-Judiciaire (UMJ)"/>
@@ -825,7 +822,7 @@
                   displayName="Soins de longue durée (SLD)"/>
          <Concept code="334"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Activité de prévention"/>
+                  displayName="Activité de dépistage et de prévention"/>
          <Concept code="335"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Coordination de parcours complexes"/>
@@ -927,10 +924,10 @@
                   displayName="Soins intensifs spécialisés maladies infectieuses et tropicales"/>
          <Concept code="369"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Soins intensifs spécialisés néonatalogique"/>
+                  displayName="Soins intensifs spécialisés néonatalogie"/>
          <Concept code="370"
                   codeSystem="1.2.250.1.213.3.3.12"
-                  displayName="Soins intensifs spécialisés pédiatrique"/>
+                  displayName="Soins intensifs spécialisés pédiatrie"/>
          <Concept code="371"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Soins intensifs spécialisés néphrologique"/>
@@ -1621,6 +1618,42 @@
          <Concept code="617"
                   codeSystem="1.2.250.1.213.3.3.12"
                   displayName="Soins infirmiers en pratique avancée en santé mentale"/>
+         <Concept code="618"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Collecte de don de lait maternel cru"/>
+         <Concept code="619"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Distribution de lait maternel pasteurisé"/>
+         <Concept code="620"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Bilan psychomoteur"/>
+         <Concept code="621"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Soin psychomoteur"/>
+         <Concept code="622"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Education psychomotrice (pédagogie du développement psychomoteur)"/>
+         <Concept code="623"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Stimulation psychomotrice (stimulation du fonctionnement psychomoteur à visée préventive)"/>
+         <Concept code="624"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Rééducation de la graphomotricité et de l’écriture (dysgraphie)"/>
+         <Concept code="625"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Orthoptie : orientation troubles neuro-visuels (pathologies neurologiques, maladies neurodégénératives)"/>
+         <Concept code="626"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Orthoptie orientation basse vision"/>
+         <Concept code="627"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Orthoptie orientation pédiatrique"/>
+         <Concept code="628"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Dispensation de médicaments et autres produits de santé appartenant au monopole pharmaceutique"/>
+         <Concept code="629"
+                  codeSystem="1.2.250.1.213.3.3.12"
+                  displayName="Conseil et accompagnement dans la gestion des traitements"/>
       </ConceptList>
    </ValueSet>
 </RetrieveValueSetResponse>
