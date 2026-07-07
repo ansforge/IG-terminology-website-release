@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.11.0"/>
+  <version value="1.11.1"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-07-03T12:24:31+00:00"/>
+  <date value="2026-07-07T21:14:23+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -25869,10 +25869,32 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-mso-resultat-qualitatif-2-cisis"/>
+      </reference>
+      <name value="Jdv MSO Resultat Qualitatif 2 CISIS"/>
+      <description value="Jdv MSO Resultat Qualitatif 2 CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-mso-resultat-qualitatif-3-cisis"/>
       </reference>
       <name value="Jdv MSO Resultat Qualitatif 3 CISIS"/>
       <description value="Jdv MSO Resultat Qualitatif 3 CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-mso-resultat-qualitatif-4-cisis"/>
+      </reference>
+      <name value="Jdv MSO Resultat Qualitatif 4 CISIS"/>
+      <description value="Jdv MSO Resultat Qualitatif 4 CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

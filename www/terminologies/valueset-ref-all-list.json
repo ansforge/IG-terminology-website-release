@@ -167,8 +167,8 @@
     "sources" : ["1.2.250.1.213.1.1.5.465"],
     "uses" : {
     },
-    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS",
-    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS"
+    "ConceptMap-ASS-A12-CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS.html" : "ASS_A12_CorresMediaTypeCDANonStructure-XdsFormatCode-CISIS",
+    "ConceptMap-ASS-A11-CorresModeleCDA-XdsFormatCode-CISIS.html" : "ASS_A11-CorresModeleCDA-XdsFormatCode-CISIS"
   },
   {
     "url" : "https://mos.esante.gouv.fr/NOS/JDV_J100-FinessStatutJuridique-RASS/FHIR/JDV-J100-FinessStatutJuridique-RASS",
@@ -7371,9 +7371,20 @@
     "sources" : ["1.2.250.1.213.1.1.5.803"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-3-cisis",
-    "version" : "20260619134042",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-2-cisis",
+    "version" : "20260706085549",
     "status" : "active",
+    "name" : "JdvMsoResultatQualitatif2Cisis",
+    "title" : "Jdv MSO Resultat Qualitatif 2 CISIS",
+    "description" : "Jdv MSO Resultat Qualitatif 2 CISIS",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["1.2.250.1.213.1.1.5.857"],
+    "sources" : ["1.2.250.1.213.1.1.5.857"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-3-cisis",
+    "version" : "20260706085548",
+    "status" : "retired",
     "name" : "JdvMsoResultatQualitatif3Cisis",
     "title" : "Jdv MSO Resultat Qualitatif 3 CISIS",
     "description" : "Jdv MSO Resultat Qualitatif 3 CISIS",
@@ -7382,9 +7393,20 @@
     "sources" : ["1.2.250.1.213.1.1.5.843"]
   },
   {
-    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-5-cisis",
-    "version" : "20260420150250",
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-4-cisis",
+    "version" : "20260706085549",
     "status" : "active",
+    "name" : "JdvMsoResultatQualitatif4Cisis",
+    "title" : "Jdv MSO Resultat Qualitatif 4 CISIS",
+    "description" : "Jdv MSO Resultat Qualitatif 4 CISIS",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["1.2.250.1.213.1.1.5.858"],
+    "sources" : ["1.2.250.1.213.1.1.5.858"]
+  },
+  {
+    "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-mso-resultat-qualitatif-5-cisis",
+    "version" : "20260706085549",
+    "status" : "retired",
     "name" : "JdvMsoResultatQualitatif5Cisis",
     "title" : "Jdv MSO Resultat Qualitatif 5 CISIS",
     "description" : "Jdv MSO Resultat Qualitatif 5 CISIS",
@@ -8334,7 +8356,7 @@
   },
   {
     "url" : "https://smt.esante.gouv.fr/fhir/ValueSet/jdv-resultat-qualitatif-cisis",
-    "version" : "20260420150250",
+    "version" : "20260706104452",
     "status" : "active",
     "name" : "JdvResultatQualitatifCisis",
     "title" : "Jdv Resultat Qualitatif CISIS",
@@ -10059,8 +10081,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-bdpm"],
     "uses" : {
     },
-    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD",
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+    "ConceptMap-alignement-bdpm-cipucd.html" : "Aligner les codes de présentation de la BDPM avec les codes CIP du référentiel CIP-UCD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-cip_ucd?vs",
@@ -10085,8 +10107,8 @@
     "systems" : ["https://smt.esante.gouv.fr/terminologie-nuva"],
     "uses" : {
     },
-    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD",
-    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM"
+    "ConceptMap-alignement-nuva-bdpm.html" : "Alignement des codes NUVA avec les codes CIS et CIP de la BDPM",
+    "ConceptMap-alignement-nuva-cipucd.html" : "Alignement des codes NUVA avec les codes CIP de la CIP_CUD"
   },
   {
     "url" : "https://smt.esante.gouv.fr/terminologie-sms?vs",
