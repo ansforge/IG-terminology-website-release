@@ -6,11 +6,11 @@
     "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Narratif généré : ImplementationGuide ans.fr.terminologies</b></p><a name=\"ans.fr.terminologies\"> </a><a name=\"hcans.fr.terminologies\"> </a><h2>Terminologies</h2><p>L'URL officielle pour ce guide d'implémentation est : </p><pre>https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies</pre><div><p>Les nomenclatures des objets de Santé sont mises à disposition du secteur santé-social par l’agence du numérique en santé</p>\n</div></div>"
   },
   "url" : "https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies",
-  "version" : "1.13.0",
+  "version" : "1.14.0",
   "name" : "Terminologies",
   "title" : "Terminologies  de Santé",
   "status" : "active",
-  "date" : "2026-08-27T16:10:25+00:00",
+  "date" : "2026-09-28T13:22:35+00:00",
   "publisher" : "ANS",
   "contact" : [{
     "name" : "ANS",
@@ -37,7 +37,7 @@
     }],
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.3.0"
+    "version" : "7.4.0"
   },
   {
     "id" : "hl7_fhir_uv_ips",
@@ -30192,8 +30192,8 @@
       "reference" : {
         "reference" : "ValueSet/jdv-hl7-days-of-week-cisis"
       },
-      "name" : "DaysOfWeek",
-      "description" : "DaysOfWeek",
+      "name" : "Days Of Week",
+      "description" : "Days Of Week",
       "exampleBoolean" : false
     },
     {
@@ -30829,6 +30829,18 @@
       },
       "name" : "JDV Bio Instruction Patient CISIS",
       "description" : "JDV Bio Instruction Patient CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-body-structure-qualifier-cisis"
+      },
+      "name" : "JDV Body Structure Qualifier CISIS",
+      "description" : "JDV Body Structure Qualifier CISIS",
       "exampleBoolean" : false
     },
     {
@@ -35997,6 +36009,30 @@
         "valueString" : "ValueSet"
       }],
       "reference" : {
+        "reference" : "ValueSet/jdv-substitution-medicament-dispensateur-cisis"
+      },
+      "name" : "Jdv Substitution Medicament Dispensateur CISIS",
+      "description" : "Jdv Substitution Medicament Dispensateur CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/jdv-substitution-medicament-prescripteur-cisis"
+      },
+      "name" : "Jdv Substitution Medicament Prescripteur CISIS",
+      "description" : "Jdv Substitution Medicament Prescripteur CISIS",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
         "reference" : "ValueSet/jdv-support-nutritionnel-cisis"
       },
       "name" : "JDV Support Nutritionnel CISIS",
@@ -40720,7 +40756,7 @@
         "valueString" : "CodeSystem"
       }],
       "reference" : {
-        "reference" : "CodeSystem/900000000000207008-20260801"
+        "reference" : "CodeSystem/900000000000207008-20260901"
       },
       "name" : "SNOMED CT core",
       "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
@@ -42317,7 +42353,7 @@
         "reference" : "CodeSystem/TRE-R210-ActeSpecifique"
       },
       "name" : "TRE_R210_ActeSpecifique",
-      "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
+      "description" : "Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé.",
       "exampleBoolean" : false
     },
     {

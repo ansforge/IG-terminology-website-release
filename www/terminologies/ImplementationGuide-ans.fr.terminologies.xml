@@ -7,11 +7,11 @@
 </div></div>
   </text>
   <url value="https://interop.esante.gouv.fr/terminologies/ImplementationGuide/ans.fr.terminologies"/>
-  <version value="1.13.0"/>
+  <version value="1.14.0"/>
   <name value="Terminologies"/>
   <title value="Terminologies  de Santé"/>
   <status value="active"/>
-  <date value="2026-08-27T16:10:25+00:00"/>
+  <date value="2026-09-28T13:22:35+00:00"/>
   <publisher value="ANS"/>
   <contact>
     <name value="ANS"/>
@@ -36,7 +36,7 @@
     </extension>
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.3.0"/>
+    <version value="7.4.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_ips">
     <uri value="http://hl7.org/fhir/uv/ips/ImplementationGuide/hl7.fhir.uv.ips"/>
@@ -22138,8 +22138,8 @@
       <reference>
         <reference value="ValueSet/jdv-hl7-days-of-week-cisis"/>
       </reference>
-      <name value="DaysOfWeek"/>
-      <description value="DaysOfWeek"/>
+      <name value="Days Of Week"/>
+      <description value="Days Of Week"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -22722,6 +22722,17 @@
       </reference>
       <name value="JDV Bio Instruction Patient CISIS"/>
       <description value="JDV Bio Instruction Patient CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-body-structure-qualifier-cisis"/>
+      </reference>
+      <name value="JDV Body Structure Qualifier CISIS"/>
+      <description value="JDV Body Structure Qualifier CISIS"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -27459,6 +27470,28 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/jdv-substitution-medicament-dispensateur-cisis"/>
+      </reference>
+      <name value="Jdv Substitution Medicament Dispensateur CISIS"/>
+      <description value="Jdv Substitution Medicament Dispensateur CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/jdv-substitution-medicament-prescripteur-cisis"/>
+      </reference>
+      <name value="Jdv Substitution Medicament Prescripteur CISIS"/>
+      <description value="Jdv Substitution Medicament Prescripteur CISIS"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/jdv-support-nutritionnel-cisis"/>
       </reference>
       <name value="JDV Support Nutritionnel CISIS"/>
@@ -31788,7 +31821,7 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/900000000000207008-20260801"/>
+        <reference value="CodeSystem/900000000000207008-20260901"/>
       </reference>
       <name value="SNOMED CT core"/>
       <description value="SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO)."/>
@@ -33252,7 +33285,7 @@
         <reference value="CodeSystem/TRE-R210-ActeSpecifique"/>
       </reference>
       <name value="TRE_R210_ActeSpecifique"/>
-      <description value="Action menée par un ou plusieurs acteur(s) de santé dans le cadre d’une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé."/>
+      <description value="Action menée par un ou plusieurs acteur(s) de santé dans le cadre d'une activité. Cet acte peut correspondre à une technique spécialisée ou traduire une expertise discriminante dans le parcours de santé."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
